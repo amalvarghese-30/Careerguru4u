@@ -40,15 +40,15 @@ export async function GET(req: NextRequest) {
 
     const usersByRole = await db.collection("users").aggregate([
       { $group: { _id: "$role", count: { $sum: 1 } } },
-    ]).toArray();
+    ]).toArray() as { _id: string; count: number }[];
 
     const leadsByStatus = await db.collection("leads").aggregate([
       { $group: { _id: "$status", count: { $sum: 1 } } },
-    ]).toArray();
+    ]).toArray() as { _id: string; count: number }[];
 
     const sessionsByStatus = await db.collection("counselling_requests").aggregate([
       { $group: { _id: "$status", count: { $sum: 1 } } },
-    ]).toArray();
+    ]).toArray() as { _id: string; count: number }[];
 
     return NextResponse.json({
       stats: {
@@ -61,15 +61,15 @@ export async function GET(req: NextRequest) {
       recentLeads,
       recentAuditLogs,
       breakdowns: {
-        usersByRole: usersByRole.reduce((acc: Record<string, number>, r: { _id: string; count: number }) => {
+        usersByRole: usersByRole.reduce((acc, r) => {
           acc[r._id || "unknown"] = r.count; return acc;
-        }, {}),
-        leadsByStatus: leadsByStatus.reduce((acc: Record<string, number>, r: { _id: string; count: number }) => {
+        }, {} as Record<string, number>),
+        leadsByStatus: leadsByStatus.reduce((acc, r) => {
           acc[r._id || "new"] = r.count; return acc;
-        }, {}),
-        sessionsByStatus: sessionsByStatus.reduce((acc: Record<string, number>, r: { _id: string; count: number }) => {
+        }, {} as Record<string, number>),
+        sessionsByStatus: sessionsByStatus.reduce((acc, r) => {
           acc[r._id || "unknown"] = r.count; return acc;
-        }, {}),
+        }, {} as Record<string, number>),
       },
     });
   } catch (error) {

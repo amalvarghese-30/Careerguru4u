@@ -25,8 +25,8 @@ export async function GET(req: NextRequest) {
       bookmarks,
       counsellingRequests,
       stats: {
-        savedCareers: bookmarks.filter((b: { itemType: string }) => b.itemType === "career").length,
-        savedColleges: bookmarks.filter((b: { itemType: string }) => b.itemType === "college").length,
+        savedCareers: bookmarks.filter((b) => (b as Record<string, unknown>).itemType === "career").length,
+        savedColleges: bookmarks.filter((b) => (b as Record<string, unknown>).itemType === "college").length,
         counsellingCount: counsellingRequests.length,
       },
     });

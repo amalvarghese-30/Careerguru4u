@@ -23,6 +23,18 @@ interface Breakdowns {
   sessionsByStatus: Record<string, number>;
 }
 
+interface RecentUser {
+  fullName?: string; email?: string; createdAt?: string;
+}
+
+interface RecentCounselling {
+  name?: string; email?: string; status?: string;
+}
+
+interface AuditLog {
+  action?: string; collection?: string; performedByEmail?: string; timestamp?: string;
+}
+
 const PIE_COLORS = ["#4F46E5", "#7C3AED", "#06B6D4", "#10B981", "#F59E0B", "#EF4444", "#8B5CF6"];
 const ROLE_COLORS: Record<string, string> = {
   student: "#06B6D4", counsellor: "#8B5CF6", admin: "#4F46E5", super_admin: "#7C3AED",
@@ -36,10 +48,10 @@ const SESSION_COLORS: Record<string, string> = {
 
 export default function AnalyticsPage() {
   const [stats, setStats] = useState<AnalyticsStats | null>(null);
-  const [recentUsers, setRecentUsers] = useState<unknown[]>([]);
-  const [recentCounselling, setRecentCounselling] = useState<unknown[]>([]);
+  const [recentUsers, setRecentUsers] = useState<RecentUser[]>([]);
+  const [recentCounselling, setRecentCounselling] = useState<RecentCounselling[]>([]);
   const [recentLeads, setRecentLeads] = useState<unknown[]>([]);
-  const [recentAuditLogs, setRecentAuditLogs] = useState<unknown[]>([]);
+  const [recentAuditLogs, setRecentAuditLogs] = useState<AuditLog[]>([]);
   const [breakdowns, setBreakdowns] = useState<Breakdowns>({ usersByRole: {}, leadsByStatus: {}, sessionsByStatus: {} });
   const [loading, setLoading] = useState(true);
   const [dateRange, setDateRange] = useState("7d");
@@ -233,7 +245,7 @@ export default function AnalyticsPage() {
           <div className="space-y-3">
             {recentUsers.length === 0 ? (
               <p className="text-sm text-slate-400 py-4 text-center">No recent users</p>
-            ) : recentUsers.map((u: Record<string, unknown>, i: number) => (
+            ) : recentUsers.map((u, i) => (
               <div key={i} className="flex items-center justify-between p-2.5 rounded-xl hover:bg-slate-50">
                 <div className="flex items-center gap-3">
                   <div className="h-8 w-8 rounded-lg bg-brand-bg flex items-center justify-center text-xs font-bold text-brand-royal">
@@ -255,7 +267,7 @@ export default function AnalyticsPage() {
           <div className="space-y-3">
             {recentCounselling.length === 0 ? (
               <p className="text-sm text-slate-400 py-4 text-center">No recent requests</p>
-            ) : recentCounselling.map((r: Record<string, unknown>, i: number) => (
+            ) : recentCounselling.map((r, i) => (
               <div key={i} className="flex items-center justify-between p-2.5 rounded-xl hover:bg-slate-50">
                 <div className="flex items-center gap-3">
                   <div className="h-8 w-8 rounded-lg bg-amber-100 flex items-center justify-center text-xs font-bold text-amber-600">
@@ -291,7 +303,7 @@ export default function AnalyticsPage() {
                 </tr>
               </thead>
               <tbody>
-                {recentAuditLogs.map((log: Record<string, unknown>, i: number) => (
+                {recentAuditLogs.map((log, i) => (
                   <tr key={i} className="border-b border-slate-50 hover:bg-slate-50">
                     <td className="py-2.5 px-3">
                       <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${log.action === "CREATE" ? "bg-emerald-100 text-emerald-700" :

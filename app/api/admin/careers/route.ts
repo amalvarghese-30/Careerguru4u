@@ -129,7 +129,7 @@ export async function DELETE(req: NextRequest) {
     const client = await clientPromise;
     const db = client.db("career_guru");
     const filter = id.length === 24 ? { _id: new ObjectId(id) } : { _id: id };
-    await db.collection("careers").deleteOne(filter);
+    await db.collection("careers").deleteOne(filter as Record<string, unknown>);
 
     await logAudit({
       action: "DELETE",

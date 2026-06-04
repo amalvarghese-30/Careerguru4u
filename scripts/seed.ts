@@ -27,7 +27,7 @@ async function seed() {
     if (existingAdmin) {
       console.log(`Admin user already exists: ${existingAdmin.email} (role: ${existingAdmin.role})`);
     } else {
-      const hashedPassword = await bcrypt.hash(ADMIN_PASSWORD, 12);
+      const hashedPassword = await bcrypt.hash(ADMIN_PASSWORD!, 12);
       const result = await db.collection("users").insertOne({
         fullName: "Super Admin",
         email: ADMIN_EMAIL,
