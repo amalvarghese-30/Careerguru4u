@@ -10,17 +10,39 @@ import {
 import LeadCaptureForm from "@/components/sections/LeadCaptureForm";
 
 interface CollegeDetail {
-  _id?: string; id?: string; name: string; slug: string; location: string; rating: number;
-  courses: string[]; fees: string; placement: string; avgPackage: string;
-  ranking: string; type: string; description: string; highlights: string[];
-  infrastructure: string[]; entranceExams: string[]; topRecruiters: string[];
+  _id?: string;
+  id?: string;
+  name: string;
+  slug: string;
+  location: string;
+  rating: number;
+  courses: string[];
+  fees: string;
+  placement: string;
+  avgPackage: string;
+  ranking: string;
+  type: string;
+  description: string;
+  highlights: string[];
+  infrastructure: string[];
+  entranceExams: string[];
+  topRecruiters: string[];
   established: string;
 }
+
+const collegesData: Record<string, CollegeDetail> = {
   "iit-bombay": {
-    id: "iit-bombay", name: "Indian Institute of Technology Bombay", slug: "iit-bombay",
-    location: "Mumbai, Maharashtra", rating: 4.8,
+    id: "iit-bombay",
+    name: "Indian Institute of Technology Bombay",
+    slug: "iit-bombay",
+    location: "Mumbai, Maharashtra",
+    rating: 4.8,
     courses: ["B.Tech CS", "B.Tech Mechanical", "B.Tech Electrical", "B.Tech Chemical", "M.Tech", "PhD"],
-    fees: "₹2.2L - ₹8L", placement: "94%", avgPackage: "₹23.5L", ranking: "NIRF #3", type: "ug",
+    fees: "₹2.2L - ₹8L",
+    placement: "94%",
+    avgPackage: "₹23.5L",
+    ranking: "NIRF #3",
+    type: "ug",
     description: "IIT Bombay is one of India's premier engineering institutions, known for its rigorous academic environment, world-class research output, and stellar placement records. Located in Powai, Mumbai, it offers undergraduate, postgraduate, and doctoral programs in engineering, science, design, and management.",
     highlights: ["NIRF #3 in Engineering", "94% placement rate", "₹23.5L avg package", "Host to Mood Indigo — Asia's largest college fest", "Global alumni network"],
     infrastructure: ["State-of-the-art labs", "Central library with 6L+ volumes", "Campus-wide WiFi", "Olympic-size swimming pool", "Student activity center"],
@@ -29,10 +51,17 @@ interface CollegeDetail {
     established: "1958",
   },
   "iit-delhi": {
-    id: "iit-delhi", name: "Indian Institute of Technology Delhi", slug: "iit-delhi",
-    location: "Delhi, NCR", rating: 4.8,
+    id: "iit-delhi",
+    name: "Indian Institute of Technology Delhi",
+    slug: "iit-delhi",
+    location: "Delhi, NCR",
+    rating: 4.8,
     courses: ["B.Tech CS", "B.Tech EE", "B.Tech Mechanical", "M.Tech", "MBA"],
-    fees: "₹2.2L - ₹8L", placement: "93%", avgPackage: "₹22.8L", ranking: "NIRF #2", type: "ug",
+    fees: "₹2.2L - ₹8L",
+    placement: "93%",
+    avgPackage: "₹22.8L",
+    ranking: "NIRF #2",
+    type: "ug",
     description: "IIT Delhi, established in 1961, is consistently ranked among the top 2 engineering colleges in India. With a sprawling 320-acre campus in Hauz Khas, Delhi, it offers world-class education across engineering, sciences, humanities, and management.",
     highlights: ["NIRF #2 in Engineering", "93% placement rate", "₹22.8L avg package", "Strong entrepreneurial ecosystem", "Located in the national capital"],
     infrastructure: ["Advanced research parks", "Incubation center", "Modern hostels", "Sports complex", "Central library"],
@@ -41,10 +70,17 @@ interface CollegeDetail {
     established: "1961",
   },
   "iit-madras": {
-    id: "iit-madras", name: "Indian Institute of Technology Madras", slug: "iit-madras",
-    location: "Chennai, Tamil Nadu", rating: 4.9,
+    id: "iit-madras",
+    name: "Indian Institute of Technology Madras",
+    slug: "iit-madras",
+    location: "Chennai, Tamil Nadu",
+    rating: 4.9,
     courses: ["B.Tech CS", "B.Tech EE", "B.Tech Mechanical", "M.Tech", "PhD"],
-    fees: "₹2L - ₹7.5L", placement: "95%", avgPackage: "₹24.2L", ranking: "NIRF #1", type: "ug",
+    fees: "₹2L - ₹7.5L",
+    placement: "95%",
+    avgPackage: "₹24.2L",
+    ranking: "NIRF #1",
+    type: "ug",
     description: "IIT Madras is ranked #1 in India's NIRF rankings for 6 consecutive years. Located in a 620-acre forested campus with a deer park, it offers an unmatched blend of academic excellence, research innovation, and student life.",
     highlights: ["NIRF #1 overall", "95% placement rate", "₹24.2L avg package", "Largest IIT campus (620 acres)", "Eco-friendly deer park campus"],
     infrastructure: ["Research Park", "CFI labs", "Olympic swimming pool", "Stadium", "Digital library"],
@@ -53,10 +89,17 @@ interface CollegeDetail {
     established: "1959",
   },
   "bits-pilani": {
-    id: "bits-pilani", name: "Birla Institute of Technology & Science Pilani", slug: "bits-pilani",
-    location: "Pilani, Rajasthan", rating: 4.7,
+    id: "bits-pilani",
+    name: "Birla Institute of Technology & Science Pilani",
+    slug: "bits-pilani",
+    location: "Pilani, Rajasthan",
+    rating: 4.7,
     courses: ["B.E CS", "B.E Mechanical", "B.E EEE", "M.Sc Economics", "MBA"],
-    fees: "₹4L - ₹16L", placement: "92%", avgPackage: "₹18.5L", ranking: "NIRF #25", type: "ug",
+    fees: "₹4L - ₹16L",
+    placement: "92%",
+    avgPackage: "₹18.5L",
+    ranking: "NIRF #25",
+    type: "ug",
     description: "BITS Pilani is one of India's most prestigious private engineering universities, known for its flexible curriculum, zero attendance policy, and practice school industry immersion program. It consistently produces top talent for India's tech and consulting industries.",
     highlights: ["Flexible academic structure", "Practice School program", "92% placement rate", "Strong startup culture", "All-India campus network"],
     infrastructure: ["Innovation labs", "Central library", "Sports facilities", "24/7 labs", "Campus-wide WiFi"],
@@ -65,10 +108,17 @@ interface CollegeDetail {
     established: "1964",
   },
   "iim-ahmedabad": {
-    id: "iim-ahmedabad", name: "Indian Institute of Management Ahmedabad", slug: "iim-ahmedabad",
-    location: "Ahmedabad, Gujarat", rating: 4.9,
+    id: "iim-ahmedabad",
+    name: "Indian Institute of Management Ahmedabad",
+    slug: "iim-ahmedabad",
+    location: "Ahmedabad, Gujarat",
+    rating: 4.9,
     courses: ["MBA", "PGP", "FPM", "ePGP"],
-    fees: "₹12L - ₹25L", placement: "100%", avgPackage: "₹32.5L", ranking: "NIRF #1 (Management)", type: "pg",
+    fees: "₹12L - ₹25L",
+    placement: "100%",
+    avgPackage: "₹32.5L",
+    ranking: "NIRF #1 (Management)",
+    type: "pg",
     description: "IIM Ahmedabad is India's premier business school and consistently ranked #1 in management education. With its iconic Louis Kahn campus and rigorous case-study pedagogy, IIMA produces India's top business leaders entering consulting, finance, and technology.",
     highlights: ["#1 Management school in India", "100% placement record", "₹32.5L average package", "Case-study pedagogy", "Powerful alumni network"],
     infrastructure: ["Louis Kahn heritage campus", "Vikram Sarabhai Library", "Sports complex", "Student dorms", "Innovation centre"],
@@ -77,10 +127,17 @@ interface CollegeDetail {
     established: "1961",
   },
   "iisc-bangalore": {
-    id: "iisc-bangalore", name: "Indian Institute of Science", slug: "iisc-bangalore",
-    location: "Bangalore, Karnataka", rating: 4.8,
+    id: "iisc-bangalore",
+    name: "Indian Institute of Science",
+    slug: "iisc-bangalore",
+    location: "Bangalore, Karnataka",
+    rating: 4.8,
     courses: ["M.Tech", "M.Sc", "PhD", "Integrated PhD"],
-    fees: "₹50K - ₹1.5L", placement: "95%", avgPackage: "₹18.5L", ranking: "NIRF #1 (University)", type: "pg",
+    fees: "₹50K - ₹1.5L",
+    placement: "95%",
+    avgPackage: "₹18.5L",
+    ranking: "NIRF #1 (University)",
+    type: "pg",
     description: "IISc Bangalore is India's premier research institution. Founded by J.N. Tata, it is consistently ranked as the world's top research university per capita. Located in the heart of India's tech hub, it offers unmatched research opportunities in science and engineering.",
     highlights: ["World's #1 research per capita", "95% placement rate", "₹18.5L avg package", "Located in Bangalore tech hub", "Founded by J.N. Tata"],
     infrastructure: ["Advanced research labs", "Supercomputer facility", "Central library", "Botanical garden", "Innovation centre"],
@@ -89,10 +146,17 @@ interface CollegeDetail {
     established: "1909",
   },
   "fms-delhi": {
-    id: "fms-delhi", name: "Faculty of Management Studies", slug: "fms-delhi",
-    location: "Delhi, NCR", rating: 4.7,
+    id: "fms-delhi",
+    name: "Faculty of Management Studies",
+    slug: "fms-delhi",
+    location: "Delhi, NCR",
+    rating: 4.7,
     courses: ["MBA", "MBA Executive", "PhD"],
-    fees: "₹1.5L - ₹2L", placement: "100%", avgPackage: "₹29.5L", ranking: "NIRF #6 (Management)", type: "pg",
+    fees: "₹1.5L - ₹2L",
+    placement: "100%",
+    avgPackage: "₹29.5L",
+    ranking: "NIRF #6 (Management)",
+    type: "pg",
     description: "FMS Delhi offers arguably the highest ROI MBA in India — a top-tier management education at a fraction of the cost of other leading B-schools. Located in Delhi University's North Campus, it has a 100% placement record with packages rivaling the best in India.",
     highlights: ["Best ROI MBA in India", "100% placement", "₹29.5L avg package", "DU North Campus", "Fees just ₹1.5-2L"],
     infrastructure: ["Campus library", "Computer labs", "Hostel facilities", "Sports grounds"],
@@ -111,9 +175,17 @@ export default function CollegeDetailPage({ params }: { params: Promise<{ slug: 
     fetch(`/api/colleges/${slug}`)
       .then(r => r.json())
       .then(data => {
-        if (data.college) setCollege(data.college);
+        if (data.college) {
+          setCollege(data.college);
+        } else {
+          // Fallback to hardcoded data if API fails
+          setCollege(collegesData[slug] || null);
+        }
       })
-      .catch(console.error)
+      .catch(() => {
+        // Fallback to hardcoded data on error
+        setCollege(collegesData[slug] || null);
+      })
       .finally(() => setLoading(false));
   }, [slug]);
 
