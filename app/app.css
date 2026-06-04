@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-navy: #052659;
+    --primary-dark: #003B73;
+    --primary: #0074B7;
+    --primary-light: #38BDF8;
+    --primary-surface: #EAF6FF;
+    --accent-aqua: #4ECDC4;
+    --accent-cyan: #00C2FF;
+    --neutral-white: #FFFFFF;
+    --neutral-offWhite: #F8FBFF;
+    --neutral-lightGray: #E2E8F0;
+    --neutral-mediumGray: #94A3B8;
+    --neutral-darkGray: #334155;
+    --neutral-nearBlack: #0F172A;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: linear-gradient(180deg, #F8FBFF 0%, #FFFFFF 100%);
+    color: var(--neutral-darkGray);
+    font-family: var(--font-inter);
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: rgba(0, 116, 183, 0.15);
+    color: var(--primary-dark);
+  }
+}
+
+@layer components {
+
+  /* Glass Card Components */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(56, 189, 248, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 59, 115, 0.08);
+    border-radius: 20px;
+  }
+
+  .glass-card-hover {
+    transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .glass-card-hover:hover {
+    transform: translateY(-6px);
+    border-color: rgba(56, 189, 248, 0.35);
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 18px 48px rgba(0, 59, 115, 0.14), 0 0 24px rgba(56, 189, 248, 0.12);
+  }
+
+  .glass-card-gradient {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.78) 0%, rgba(220, 239, 253, 0.72) 100%);
+    backdrop-filter: blur(24px);
+    border: 1px solid rgba(56, 189, 248, 0.18);
+    border-radius: 20px;
+  }
+
+  /* Button Components */
+  .btn-primary {
+    background: linear-gradient(135deg, #003B73 0%, #0074B7 50%, #38BDF8 100%);
+    color: white;
+    border-radius: 14px;
+    padding: 14px 32px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 24px rgba(0, 116, 183, 0.25);
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 32px rgba(0, 116, 183, 0.35), 0 0 20px rgba(56, 189, 248, 0.18);
+  }
+
+  .btn-primary:active {
+    transform: translateY(0);
+  }
+
+  .btn-outline {
+    background: transparent;
+    color: #0074B7;
+    border: 2px solid #0074B7;
+    border-radius: 14px;
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .btn-outline:hover {
+    background: rgba(0, 116, 183, 0.05);
+    border-color: #38BDF8;
+    color: #003B73;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.12);
+  }
+
+  /* Typography */
+  .heading-hero {
+    font-family: var(--font-sora);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    background: linear-gradient(135deg, #FFFFFF 0%, #BAE1FD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .heading-section {
+    font-family: var(--font-sora);
+    font-weight: 700;
+    color: #052659;
+    letter-spacing: -0.01em;
+  }
+
+  .heading-card {
+    font-family: var(--font-sora);
+    font-weight: 600;
+    color: #003B73;
+  }
+
+  /* Section Spacing */
+  .section-padding {
+    padding: 80px 24px;
+  }
+
+  @media (min-width: 768px) {
+    .section-padding {
+      padding: 100px 48px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .section-padding {
+      padding: 120px 80px;
+    }
+  }
+
+  .container-custom {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  @media (min-width: 768px) {
+    .container-custom {
+      padding: 0 48px;
+    }
+  }
+
+  /* Animations */
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-float-delayed {
+    animation: float 3s ease-in-out 1.5s infinite;
+  }
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  /* Hide scrollbar */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
