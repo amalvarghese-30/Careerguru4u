@@ -163,7 +163,13 @@ export default function AnalyticsPage() {
                     <Cell key={i} fill={entry.fill} />
                   ))}
                 </Pie>
-                <Tooltip formatter={(v: number) => v.toLocaleString()} />
+                <Tooltip
+                  formatter={(value) =>
+                    typeof value === "number"
+                      ? value.toLocaleString()
+                      : String(value ?? "")
+                  }
+                />
                 <Legend />
               </PieChart>
             </ResponsiveContainer>
@@ -178,7 +184,13 @@ export default function AnalyticsPage() {
                 <CartesianGrid strokeDasharray="3 3" stroke="#E2E8F0" />
                 <XAxis dataKey="name" tick={{ fontSize: 11 }} />
                 <YAxis tick={{ fontSize: 11 }} />
-                <Tooltip formatter={(v: number) => v.toLocaleString()} />
+                <Tooltip
+                  formatter={(value) =>
+                    typeof value === "number"
+                      ? value.toLocaleString()
+                      : String(value ?? "")
+                  }
+                />
                 <Bar dataKey="value" name="Count" radius={[6, 6, 0, 0]}>
                   {leadData.map((entry, i) => (
                     <Cell key={i} fill={entry.fill} />
@@ -197,7 +209,13 @@ export default function AnalyticsPage() {
                 <CartesianGrid strokeDasharray="3 3" stroke="#E2E8F0" />
                 <XAxis dataKey="name" tick={{ fontSize: 11 }} />
                 <YAxis tick={{ fontSize: 11 }} />
-                <Tooltip formatter={(v: number) => v.toLocaleString()} />
+                <Tooltip
+                  formatter={(value) =>
+                    typeof value === "number"
+                      ? value.toLocaleString()
+                      : String(value ?? "")
+                  }
+                />
                 <Bar dataKey="value" name="Count" radius={[6, 6, 0, 0]}>
                   {sessionData.map((entry, i) => (
                     <Cell key={i} fill={entry.fill} />
@@ -248,10 +266,9 @@ export default function AnalyticsPage() {
                     <p className="text-xs text-slate-400">{String(r.email || "")}</p>
                   </div>
                 </div>
-                <span className={`text-xs font-semibold px-2 py-1 rounded-full capitalize ${
-                  r.status === "pending" ? "bg-amber-100 text-amber-700" :
-                  r.status === "completed" ? "bg-emerald-100 text-emerald-700" : "bg-slate-100 text-slate-600"
-                }`}>{String(r.status || "pending")}</span>
+                <span className={`text-xs font-semibold px-2 py-1 rounded-full capitalize ${r.status === "pending" ? "bg-amber-100 text-amber-700" :
+                    r.status === "completed" ? "bg-emerald-100 text-emerald-700" : "bg-slate-100 text-slate-600"
+                  }`}>{String(r.status || "pending")}</span>
               </div>
             ))}
           </div>
@@ -277,11 +294,10 @@ export default function AnalyticsPage() {
                 {recentAuditLogs.map((log: Record<string, unknown>, i: number) => (
                   <tr key={i} className="border-b border-slate-50 hover:bg-slate-50">
                     <td className="py-2.5 px-3">
-                      <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${
-                        log.action === "CREATE" ? "bg-emerald-100 text-emerald-700" :
-                        log.action === "UPDATE" ? "bg-blue-100 text-blue-700" :
-                        log.action === "DELETE" ? "bg-red-100 text-red-700" : "bg-slate-100 text-slate-600"
-                      }`}>{String(log.action)}</span>
+                      <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${log.action === "CREATE" ? "bg-emerald-100 text-emerald-700" :
+                          log.action === "UPDATE" ? "bg-blue-100 text-blue-700" :
+                            log.action === "DELETE" ? "bg-red-100 text-red-700" : "bg-slate-100 text-slate-600"
+                        }`}>{String(log.action)}</span>
                     </td>
                     <td className="py-2.5 px-3 text-slate-600">{String(log.collection)}</td>
                     <td className="py-2.5 px-3 text-slate-600">{String(log.performedByEmail || "")}</td>
