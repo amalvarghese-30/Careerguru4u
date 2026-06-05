@@ -21,12 +21,10 @@ export default function BlogPage() {
   const [editing, setEditing] = useState<BlogPost | null>(null);
   const [message, setMessage] = useState("");
 
-  const getToken = () => document.cookie.match(/cg-auth-token=([^;]+)/)?.[1] || "";
 
   const fetchPosts = useCallback(async () => {
     try {
       const res = await fetch("/api/admin/blog", {
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();
@@ -65,7 +63,7 @@ export default function BlogPage() {
 
       const res = await fetch(url, {
         method,
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${getToken()}` },
+        headers: { "Content-Type": "application/json" },
         credentials: "include",
         body: JSON.stringify(body),
       });
@@ -85,7 +83,6 @@ export default function BlogPage() {
       const id = post._id || post.id;
       const res = await fetch(`/api/admin/blog?id=${id}`, {
         method: "DELETE",
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();

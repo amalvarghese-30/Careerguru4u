@@ -21,11 +21,7 @@ export default function AdminDashboardPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const token = document.cookie.match(/cg-auth-token=([^;]+)/)?.[1] || "";
-    fetch("/api/admin/analytics", {
-      headers: { Authorization: `Bearer ${token}` },
-      credentials: "include",
-    })
+    fetch("/api/admin/analytics", { credentials: "include" })
       .then(r => r.json())
       .then(data => {
         if (data.stats) {
@@ -69,8 +65,9 @@ export default function AdminDashboardPage() {
   }
 
   return (
+
     <div className="space-y-8">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <h1 className="text-2xl font-bold text-slate-800">Dashboard</h1>
           <p className="text-sm text-slate-500 mt-1">Welcome back. Here&apos;s what&apos;s happening.</p>

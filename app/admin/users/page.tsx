@@ -30,7 +30,6 @@ export default function UsersPage() {
   const [showAddModal, setShowAddModal] = useState(false);
   const [addForm, setAddForm] = useState({ fullName: "", email: "", password: "", phone: "", role: "student" });
 
-  const getToken = () => document.cookie.match(/cg-auth-token=([^;]+)/)?.[1] || "";
 
   const fetchUsers = useCallback(async () => {
     try {
@@ -38,7 +37,6 @@ export default function UsersPage() {
       if (search) params.set("search", search);
       if (roleFilter !== "all") params.set("role", roleFilter);
       const res = await fetch(`/api/admin/users?${params}`, {
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();
@@ -61,7 +59,7 @@ export default function UsersPage() {
 
       const res = await fetch("/api/admin/users", {
         method: "PUT",
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${getToken()}` },
+        headers: { "Content-Type": "application/json" },
         credentials: "include",
         body: JSON.stringify({ id, ...body }),
       });
@@ -81,7 +79,6 @@ export default function UsersPage() {
     try {
       const res = await fetch(`/api/admin/users?id=${id}`, {
         method: "DELETE",
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();
@@ -102,7 +99,7 @@ export default function UsersPage() {
     try {
       const res = await fetch("/api/admin/users", {
         method: "POST",
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${getToken()}` },
+        headers: { "Content-Type": "application/json" },
         credentials: "include",
         body: JSON.stringify(addForm),
       });
@@ -155,17 +152,17 @@ export default function UsersPage() {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <h1 className="text-2xl font-bold text-slate-800">Users</h1>
           <p className="text-sm text-slate-500 mt-1">{users.length} users from database</p>
         </div>
-        <div className="flex items-center gap-3">
-          <button onClick={exportCSV} className="flex items-center gap-2 px-4 py-2.5 rounded-xl border border-slate-200 text-sm font-medium text-slate-600 hover:bg-slate-50">
-            <Download className="h-4 w-4" /> Export CSV
+        <div className="flex items-center gap-2">
+          <button onClick={exportCSV} className="flex items-center gap-2 px-3 py-2.5 rounded-xl border border-slate-200 text-sm font-medium text-slate-600 hover:bg-slate-50">
+            <Download className="h-4 w-4" /> <span className="hidden sm:inline">Export CSV</span>
           </button>
           <button onClick={() => setShowAddModal(true)} className="btn-primary py-2.5 px-4 text-sm flex items-center gap-2">
-            <UserPlus className="h-4 w-4" /> Add User
+            <UserPlus className="h-4 w-4" /> <span className="hidden sm:inline">Add User</span>
           </button>
         </div>
       </div>

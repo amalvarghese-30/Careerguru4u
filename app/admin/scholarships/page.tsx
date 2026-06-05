@@ -20,12 +20,10 @@ export default function ScholarshipsPage() {
   const [editing, setEditing] = useState<Scholarship | null>(null);
   const [message, setMessage] = useState("");
 
-  const getToken = () => document.cookie.match(/cg-auth-token=([^;]+)/)?.[1] || "";
 
   const fetchData = useCallback(async () => {
     try {
       const res = await fetch("/api/admin/scholarships", {
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();
@@ -68,7 +66,7 @@ export default function ScholarshipsPage() {
 
       const res = await fetch(url, {
         method,
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${getToken()}` },
+        headers: { "Content-Type": "application/json" },
         credentials: "include",
         body: JSON.stringify(body),
       });
@@ -88,7 +86,6 @@ export default function ScholarshipsPage() {
       const id = s._id || s.id;
       const res = await fetch(`/api/admin/scholarships?id=${id}`, {
         method: "DELETE",
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();

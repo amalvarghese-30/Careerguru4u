@@ -56,12 +56,10 @@ export default function AnalyticsPage() {
   const [loading, setLoading] = useState(true);
   const [dateRange, setDateRange] = useState("7d");
 
-  const getToken = () => document.cookie.match(/cg-auth-token=([^;]+)/)?.[1] || "";
 
   const fetchData = useCallback(async () => {
     try {
       const res = await fetch("/api/admin/analytics", {
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();

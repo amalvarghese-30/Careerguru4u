@@ -23,7 +23,6 @@ export default function CounsellingPage() {
   const [noteInput, setNoteInput] = useState("");
   const [assignInput, setAssignInput] = useState("");
 
-  const getToken = () => document.cookie.match(/cg-auth-token=([^;]+)/)?.[1] || "";
 
   const fetchData = useCallback(async () => {
     try {
@@ -31,7 +30,6 @@ export default function CounsellingPage() {
       if (statusFilter !== "all") params.set("status", statusFilter);
       if (search) params.set("search", search);
       const res = await fetch(`/api/admin/counselling?${params}`, {
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();
@@ -45,7 +43,7 @@ export default function CounsellingPage() {
     try {
       const res = await fetch("/api/admin/counselling", {
         method: "PUT",
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${getToken()}` },
+        headers: { "Content-Type": "application/json" },
         credentials: "include",
         body: JSON.stringify({ id, ...updates }),
       });
@@ -59,7 +57,6 @@ export default function CounsellingPage() {
     try {
       const res = await fetch(`/api/admin/counselling?id=${id}`, {
         method: "DELETE",
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();

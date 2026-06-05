@@ -12,9 +12,12 @@ const roleHierarchy: Record<string, number> = {
 };
 
 export function getToken(req: NextRequest): string | null {
-  return req.headers.get("authorization")?.replace("Bearer ", "")
-    || req.cookies.get("cg-auth-token")?.value
-    || null;
+  const authHeader = req.headers.get("authorization");
+  if (authHeader) {
+    const token = authHeader.replace("Bearer ", "");
+    if (token && token !== "Bearer") return token;
+  }
+  return req.cookies.get("cg-auth-token")?.value || null;
 }
 
 export function verifyAuth(req: NextRequest): { userId: string; email: string; role: string } | null {

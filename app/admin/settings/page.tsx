@@ -49,12 +49,10 @@ export default function SettingsPage() {
   const [saved, setSaved] = useState(false);
   const [message, setMessage] = useState("");
 
-  const getToken = () => document.cookie.match(/cg-auth-token=([^;]+)/)?.[1] || "";
 
   const fetchSettings = useCallback(async () => {
     try {
       const res = await fetch("/api/admin/settings", {
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();
@@ -68,7 +66,7 @@ export default function SettingsPage() {
     try {
       const res = await fetch("/api/admin/settings", {
         method: "PUT",
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${getToken()}` },
+        headers: { "Content-Type": "application/json" },
         credentials: "include",
         body: JSON.stringify(settings),
       });
@@ -106,12 +104,12 @@ export default function SettingsPage() {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <h1 className="text-2xl font-bold text-slate-800">Site Settings</h1>
           <p className="text-sm text-slate-500 mt-1">Manage platform configuration from database</p>
         </div>
-        <button onClick={handleSave} className="btn-primary py-2.5 px-5 text-sm flex items-center gap-2">
+        <button onClick={handleSave} className="btn-primary py-2.5 px-5 text-sm flex items-center gap-2 flex-shrink-0">
           {saved ? <CheckCircle className="h-4 w-4" /> : <Save className="h-4 w-4" />} {saved ? "Saved" : "Save Changes"}
         </button>
       </div>
@@ -123,26 +121,29 @@ export default function SettingsPage() {
         </motion.div>
       )}
 
-      <div className="flex gap-6">
-        <div className="w-56 flex-shrink-0">
-          <div className="bg-white rounded-2xl border border-slate-200 p-2 space-y-1">
-            {tabItems.map((tab) => {
-              const Icon = tab.icon;
-              return (
-                <button
-                  key={tab.id}
-                  onClick={() => setActiveTab(tab.id)}
-                  className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all ${
-                    activeTab === tab.id
-                      ? "bg-brand-gradient-static text-white shadow-brand-btn"
-                      : "text-slate-600 hover:bg-slate-50"
-                  }`}
-                >
-                  <Icon className="h-4 w-4" />
-                  {tab.label}
-                </button>
-              );
-            })}
+      <div className="flex flex-col lg:flex-row gap-4 lg:gap-6">
+        {/* Mobile: horizontal scrollable tabs | Desktop: vertical sidebar */}
+        <div className="lg:w-56 lg:flex-shrink-0">
+          <div className="bg-white rounded-2xl border border-slate-200 p-2 overflow-x-auto lg:overflow-visible">
+            <div className="flex lg:flex-col gap-1">
+              {tabItems.map((tab) => {
+                const Icon = tab.icon;
+                return (
+                  <button
+                    key={tab.id}
+                    onClick={() => setActiveTab(tab.id)}
+                    className={`flex-shrink-0 lg:flex-shrink flex items-center gap-2 lg:gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all whitespace-nowrap ${
+                      activeTab === tab.id
+                        ? "bg-brand-gradient-static text-white shadow-brand-btn"
+                        : "text-slate-600 hover:bg-slate-50"
+                    }`}
+                  >
+                    <Icon className="h-4 w-4" />
+                    {tab.label}
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </div>
 
@@ -150,13 +151,13 @@ export default function SettingsPage() {
           {activeTab === "general" && (
             <div className="bg-white rounded-2xl border border-slate-200 p-6 space-y-5">
               <h3 className="font-bold text-slate-800">General Settings</h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">Site Name</label><input value={settings.siteName} onChange={(e) => updateSetting("siteName", e.target.value)} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">Tagline</label><input value={settings.tagline} onChange={(e) => updateSetting("tagline", e.target.value)} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
               </div>
               <div><label className="block text-xs font-semibold text-slate-500 mb-1">Site URL</label><input value={settings.siteUrl} onChange={(e) => updateSetting("siteUrl", e.target.value)} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
               <div><label className="block text-xs font-semibold text-slate-500 mb-1">Meta Description</label><textarea rows={2} value={settings.metaDescription} onChange={(e) => updateSetting("metaDescription", e.target.value)} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">Default Language</label><select value={settings.language} onChange={(e) => updateSetting("language", e.target.value)} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm"><option value="en">English</option><option value="hi">Hindi</option></select></div>
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">Timezone</label><select value={settings.timezone} onChange={(e) => updateSetting("timezone", e.target.value)} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm"><option>Asia/Kolkata</option><option>UTC</option></select></div>
               </div>
@@ -166,7 +167,7 @@ export default function SettingsPage() {
           {activeTab === "branding" && (
             <div className="bg-white rounded-2xl border border-slate-200 p-6 space-y-5">
               <h3 className="font-bold text-slate-800">Branding</h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-xs font-semibold text-slate-500 mb-1">Primary Color</label>
                   <div className="flex items-center gap-3">
@@ -190,7 +191,7 @@ export default function SettingsPage() {
           {activeTab === "contact" && (
             <div className="bg-white rounded-2xl border border-slate-200 p-6 space-y-5">
               <h3 className="font-bold text-slate-800">Contact Information</h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">Contact Email</label><input type="email" value={settings.contactEmail} onChange={(e) => updateSetting("contactEmail", e.target.value)} placeholder="hello@careerguru.com" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">Contact Phone</label><input value={settings.contactPhone} onChange={(e) => updateSetting("contactPhone", e.target.value)} placeholder="+91-" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
               </div>
@@ -202,7 +203,7 @@ export default function SettingsPage() {
           {activeTab === "social" && (
             <div className="bg-white rounded-2xl border border-slate-200 p-6 space-y-5">
               <h3 className="font-bold text-slate-800">Social Links</h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { key: "facebook" as const, label: "Facebook", placeholder: "https://facebook.com/..." },
                   { key: "twitter" as const, label: "Twitter / X", placeholder: "https://x.com/..." },
@@ -223,7 +224,7 @@ export default function SettingsPage() {
           {activeTab === "email" && (
             <div className="bg-white rounded-2xl border border-slate-200 p-6 space-y-5">
               <h3 className="font-bold text-slate-800">Email Configuration</h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">SMTP Host</label><input defaultValue="smtp.resend.com" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm" /></div>
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">SMTP Port</label><input defaultValue="587" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm" /></div>
               </div>
@@ -258,7 +259,7 @@ export default function SettingsPage() {
           {activeTab === "security" && (
             <div className="bg-white rounded-2xl border border-slate-200 p-6 space-y-5">
               <h3 className="font-bold text-slate-800">Security Settings</h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">JWT Secret</label><input type="password" defaultValue="••••••••••••••••" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm font-mono" /></div>
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">Session Duration</label><select defaultValue="7d" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm"><option value="1d">1 Day</option><option value="7d">7 Days</option><option value="30d">30 Days</option></select></div>
               </div>

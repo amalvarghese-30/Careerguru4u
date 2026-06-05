@@ -19,13 +19,11 @@ export default function FlowchartsPage() {
   const [editingNode, setEditingNode] = useState<FlowchartNode | null>(null);
   const [message, setMessage] = useState("");
 
-  const getToken = () => document.cookie.match(/cg-auth-token=([^;]+)/)?.[1] || "";
 
   const fetchNodes = useCallback(async () => {
     try {
       const params = selectedLevel !== null ? `?level=${selectedLevel}` : "";
       const res = await fetch(`/api/admin/flowcharts${params}`, {
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();
@@ -56,7 +54,7 @@ export default function FlowchartsPage() {
 
       const res = await fetch(url, {
         method,
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${getToken()}` },
+        headers: { "Content-Type": "application/json" },
         credentials: "include",
         body: JSON.stringify(body),
       });
@@ -76,7 +74,6 @@ export default function FlowchartsPage() {
       const id = node._id || node.id;
       const res = await fetch(`/api/admin/flowcharts?id=${id}`, {
         method: "DELETE",
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();

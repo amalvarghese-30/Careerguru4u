@@ -26,12 +26,10 @@ export default function CareersAdminPage() {
   const [editingCareer, setEditingCareer] = useState<Career | null>(null);
   const [message, setMessage] = useState("");
 
-  const getToken = () => document.cookie.match(/cg-auth-token=([^;]+)/)?.[1] || "";
 
   const fetchCareers = useCallback(async () => {
     try {
       const res = await fetch("/api/admin/careers", {
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();
@@ -68,7 +66,7 @@ export default function CareersAdminPage() {
 
       const res = await fetch(url, {
         method,
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${getToken()}` },
+        headers: { "Content-Type": "application/json" },
         credentials: "include",
         body: JSON.stringify(body),
       });
@@ -92,7 +90,6 @@ export default function CareersAdminPage() {
       const id = career._id || career.id;
       const res = await fetch(`/api/admin/careers?id=${id}`, {
         method: "DELETE",
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();
