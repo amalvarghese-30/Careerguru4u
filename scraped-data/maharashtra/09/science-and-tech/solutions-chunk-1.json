@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Match the first column with appropriate entries in the second and third columns and remake the table. S.No. Column 1 Column 2 Column 3 1 Negative acceleration The velocity",
+    "answer": "S.no\n Column 1\n Column 2\n Column 3\n\n 1\n Negative acceleration\nThe velocity of the object decreases.\nA vehicle moving with the velocity of 10 m/s, stops after 5 seconds.\n\n 2\n Positive acceleration\nThe velocity of the object increases.\nA car initially at rest, reaches a velocity of 50 km/hr in 10 seconds.\n\n 3\n Zero acceleration\nThe velocity of the object remains constant.\nA vehicle is moving with a velocity of 25 m/s.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Laws of Motion",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Clarify the difference. Distance and displacement",
+    "answer": "Distance\nDisplacement\n\nIt is defined as the length of the actual path travelled by an object in motion.\nIt is defined as the shortest distance between the starting and finishing points.\n\nIt is a scalar quantity.\nIt is a vector quantity.\n\nThe values of distance are always positive.\nThe values of displacement can be positive, negative or zero.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Laws of Motion",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Clarify the difference. Uniform and non-uniform motion.",
+    "answer": "Uniform motion\nNon-uniform motion\n\n1. When an object covers an equal distance in equal time intervals, it is said to be in uniform motion.\n1. When an object covers an unequal distance in an equal time interval, it is said to be in non-uniform motion.\n\n2. The distance-time graph obtained in the case of uniform motion is a straight-line graph.\n2. The distance-time graph obtained in the case of non-uniform motion can be of any shape depending on how the acceleration changes with time.\n\n3. The acceleration of uniform motion is zero.\n3. The acceleration of the non-uniform motion is not zero.\n\n4. eg: A car running on a straight road without any change in its speed.\n4. eg: A car running on a road with different speeds in different intervals of time.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Laws of Motion",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific reason. When an object falls freely to the ground, its acceleration is uniform.",
+    "answer": "When an object falls freely to the ground, it is under the effect of a constant force known as the force of gravity. No other forces act on it. Hence, from Newton's second law of motion, we can say that this constant force of gravity accelerates the freely falling object uniformly. This uniform acceleration is known as acceleration due to gravity which acts towards the centre and is denoted by g.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Laws of Motion",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific reason. Even though the magnitudes of action force and reaction forces are equal and their directions are opposite, their effects do not get cancelled.",
+    "answer": "When two bodies interact, the action and reaction forces come into action. Even though their magnitude is the same and their direction is opposite, their effects do not get cancelled because these action and reaction forces do not act on the same body.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Laws of Motion",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reasons. It is easier to stop a tennis ball as compared to a cricket ball when both are travelling with the same velocity.",
+    "answer": "The momentum of a body is the product of its mass and velocity, i.e., p = mv and the rate of change of momentum of a body is equal to the force applied, i.e., \"F\" = (\"m\"(\"v\" -\"u\"))/\"t\".\nIn the given information, both the balls move with the same velocity and finally stop; thus, the force applied to stop the ball will be directly proportional to the mass of the ball.\nF &prop; m\nIt is easier to stop a tennis ball than a cricket ball moving with the same speed because the momentum of a cricket ball will be higher than that of the tennis ball, as the mass of the cricket ball is more than tennis ball. Therefore, less force is required to stop the tennis ball when compared to the cricket ball.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Laws of Motion",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reason. The velocity of an object at rest is considered to be uniform.",
+    "answer": "The velocity of an object is said to be in uniform motion when its speed is constant all the time.\nThe object at rest has a uniform speed of zero all the time and does not even change direction.\nHence, the velocity of an object at rest is considered to be uniform.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Laws of Motion",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Take 5 examples from your surroundings and give an explanation based on Newton&#x27;s laws of motion.",
+    "answer": "Example 1:\nWhen we travel by bus, the stopped bus first feels backwards as it starts. This is an example of Newton's first law of motion.\nExplanation:\n\nWhen an object is at rest or in motion, the object does not change its state by its own inertia.\nWhen the bus is at rest, we are also at rest inside that bus.\nWhen the bus starts, sitting in the bus also gives us speed; But the upper part of the body tries to remain in a state of rest.\nAs a result, inertia at rest tends to push us back. So, the bus starts in the next direction.\n\nExample 2:\nWhen the carpet is lifted and shaken, the dust in it falls down. This is an example of Newton's first law of motion.\nExplanation:\n\nWhen the carpet is lifted and cleaned, its speed increases.\nThere is dust on the carpet and it is at rest due to inertia.\nShaking removes the dust particles from the carpet, gravity causes the loose particles to fall, and the carpet is cleaned.\n\nExample 3:\nPlayers withdraw their hands while catching the ball. This is an example of Newton's second law of motion.\nExplanation:\n\nPlayers move their arms backwards to catch the ball, allowing more time for the hands to catch the ball.\nAccording to Newton's second law of motion, the change in momentum is proportional to the magnitude of the force.\nTaking more time to catch the ball results in a very small change in momentum. Therefore, the player catches the ball with less force and his hand is not jerked.\n\nExample 4:\nThe book placed on the table remains the same. This is an example of Newton's third law.\nExplanation:\n\nA book placed on a table has some weight because this weight is the force exerted on the table.\nAccording to Newton's third law of motion, action and reaction forces act simultaneously.\nHence, the force exerted on the book towards the table and the weight of the book balance.\nAlso, the two forces are balanced, and there is no acceleration. Hence, the book placed on the table remains stationary.\n\nExample 5:\nA balloon filled with air goes forward when released from the hand. This is an example of Newton's third law of motion.\nExplanation:\nAs the air is released downward, it exerts an equal opposite force on the balloon, pushing the balloon forward.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Laws of Motion",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "An object moves 18 m in the first 3 s, 22 m in the next 3 s and 14 m in the last 3 s. What is its average speed?",
+    "answer": "Given:\ns1 = 18 m\nt1 = 3 s\ns2 = 22 m\nt2 = 3 s\ns3 = 14 m\nt3 = 3 s\nTo find: Average speed = ?\nFormula: Average speed = \"Total distance\"/\"Total Time\"\nAverage speed = (s₁ + s₂ + s₃)/(t₁ + t₂ + t₃)\n= (18 + 22 + 14)/(3 + 3 + 3)\n= 54/9\n= 6 m/s",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Laws of Motion",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "An object of mass 16 kg is moving with an acceleration of 3 m/s2. Calculate the applied force. If the same force is applied to an object of mass 24 kg, how much will be the acceleration?",
+    "answer": "Given: m1 = 16 kg, a1 = 3 m/s2, m2 = 24 kg\nFind: a2 = ?, F = ?\nApplied force, F = m1a1 = 16 kg × 3 m/s2 = 48 N\n∴ F = m2a2\n∴ Acceleration, \"a\"₂ = \"F\"/\"m\"₂\n= (48 \"N\")/(24 \"kg\")\n= 2 m/s2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Laws of Motion",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "A bullet having a mass of 10 g and moving with a speed of 1.5 m/s, penetrates a thick wooden plank of mass 900 g. The plank was initially at rest. The bullet gets embedded",
+    "answer": "1Show SolutionGiven: Mass of bullet, m1 = 10 g = 10 × 10−3 kg\nThe initial speed of the bullet, u1 = 1.5 m/s\nMass of plank, m2 = 900 g = 900 × 10−3 kg\nInitial speed of plank, u2 = 0 m/s\nTo find: velocity, v = ?\nFormula: From the law of conservation of momentum,\nP_\"Initial\" = P_\"Final\"\nm1u1 + m2u2 = m1v1 + m2v2\nSince the bullet gets embedded in the plank and both move with the same speed, v1 = v2 = v\nSo, we can rewrite the equation as\nm1u1 + m2u2 = (m1+ m2)v\n10 × 10−3 kg × 1.5 m/s + 900 × 10−3 kg × 0 m/s = (10 × 10−3 kg + 900 × 10−3 kg)v\n= 1.5 × 10−2 + 0\n= 910 × 10−3 kg × v\nv = (1.5 xx 10^(-2))/(910 xx 10^(-3))\nv = (1.5 xx 10^(-2))/(91 xx 10¹ xx 10^(-3))\nv = (1.5 xx 10ᶜᵃⁿᶜᵉˡ(-2))/(91 xx 10ᶜᵃⁿᶜᵉˡ(-2))\nv = (1.5)/(91)\n\nv = 0.0165 m/s = 1.65 cm/s",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Laws of Motion",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "A person swims 100 m in the first 40 s, 80 m in the next 40 s and 45 m in the last 20 s. What is the average speed?",
+    "answer": "Given: s1 = 100 m, t1 = 40 s, s2 = 80 m, t2 = 40 s, s3 = 45 m, t3 = 20 s\nAverage speed = ?\nAverage speed = \"Total distance\"/\"Total time\"\nAverage speed = (s₁ + s₂ + s₃)/(t₁ + t₂ + t₃)\n= (100+80+45)/(40+40+20)\n= 225/100\n= 2.25 m/s",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Laws of Motion",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Explain the difference between potential energy and kinetic energy.",
+    "answer": "S. No.\nPotential Energy\nKinetic Energy\n\n1.\nIt is possessed by a body by virtue of its configuration and position.\nIt is possessed by a body by virtue of its motion.\n\n2.\nIt exists in several forms, including gravitational potential energy and electric potential energy, but work is not completed until it is converted into kinetic energy.\nIt only exists in one form and does not need to be converted into another in order to perform tasks.\n\n3.\nGravitational potential energy = mgh\nKinetic energy = 1/2 \"mv\"²\n\n4.\nPotential energy can be negative.\nKinetic energy cannot be negative.\n\n5.\nEg: A book kept on a shelf has potential energy.\nEg: A moving car possesses kinetic energy.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Work and Energy",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Derive the formula for the kinetic energy of an object of mass m, moving with velocity v.",
+    "answer": "Let the initial velocity of the object be u. Let an external force be applied to it so that it gets displaced by distance s and its velocity becomes v. In this scenario, the kinetic energy of the moving body is equal to the work that was required to change its velocity from u to v.\nThus, we have the velocity-position relation as:\nv2 = u2 + 2as\nor\ns = (&nu;² - u²)/(2a) ....(i)\nWhere a is the acceleration of the body during the change in its velocity\nNow, the work done on the body by the external force is given by:\nW = F × s\nF = ma …(ii)\nFrom equations (i) and (ii), we obtain,\nW = ma xx ((&nu;² - u²)/(2a)) = 1/2 m(&nu;² - u²)\nIf the body was initially at rest (i.e., u = 0), then\nW = 1/2m&nu;² \nSince kinetic energy is equal to the work done on the body to change its velocity from 0 to v, we obtain:\nKinetic energy, Ek = 1/2m&nu;²",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Work and Energy",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Prove that the kinetic energy of a freely falling object on reaching the ground is nothing but the transformation of its initial potential energy.",
+    "answer": "Let the object be at point A i.e. at height h above the surface of Earth as shown in the figure below.\n\nAt point A\nThe object is stationary i.e. its initial velocity, u = 0.\nKinetic energy, K = 1/2mv² = 1/2m u² = 0\nPotential energy, U = mgh ...... (i)\nAt point B\nLet the velocity of the object be vB and the object has fallen through distance x. \nUsing the third equation of motion, we have\nvB² = 0 + 2gx\n&rArr; vB² = 2gx\nKinetic energy , K = 1/2mvB² = mgx\nPotential energy , U = mg(h-x) ....(ii)\nAt point C\nLet the velocity of the object be vC and the object has fallen through a distance h.\nUsing the third equation of motion, we have\nvC² = 0 + 2gh\n&rArr; vB² = 2gh\nKinetic energy, K = 1/2 mvC² = mgh ....(iii)\nPotential energy, U = 0\nFrom (i) and (iii), we see that the Potential energy of the object at point A has transformed into its kinetic energy at point C. Thus, it can be concluded that the kinetic energy of a freely falling object reaching the ground is nothing but the transformation of its initial potential energy.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Work and Energy",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Determine the amount of work done when an object is displaced at an angle of 30° with respect to the direction of the applied force.",
+    "answer": "Suppose, when a constant force vecF is applied on a body located at point 'O', the displacement of that body is vecs and the angle between force and displacement is θ.\n\nDisplacement of body O →P, direction of force O →Q\nOn the basis of the diagram,\ncostheta = (\"OR\")/(\"OQ\")\n∴ OR = OQ cosθ\n= F cosθ\nHere the force applied on the body in the direction of displacement\n= F cosθ\n∴ Work done by force = (F cosθ)s = Fs cosθ\n\nDisplacement of body O →P, direction of force O →Q\ncos theta = (\"OS\")/(\"OP\")\n∴ OS = OP cosθ = s cosθ\nHere the displacement of the body in the direction of the force = s cosθ\n∴ work done by force on body = F(s cosθ) = Fs cosθ\nWhen θ = 30°, work (W) = Fs cos 30°\n= Fs√3/2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Work and Energy",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "If an object has 0 momentum, does it have kinetic energy? Explain your answer.",
+    "answer": "Momentum of an object, P = mv\nIf P = 0\n&rArr; \"v\" = 0\nThis is because the mass of the object can never be 0.\nNow, the kinetic energy of the object, \"K\" = 1/2 xx \"m\" xx \"v\"²\nSince, v = 0\n&rArr; K = 0\nHence, when the object has zero momentum, its kinetic energy is also zero.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Work and Energy",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Why is the work done on an object moving with uniform circular motion zero?",
+    "answer": "Work done on an object is given as W = F xx S costheta\nIn circular motion, the direction of force acting on the object is radially inward and the direction of motion of the object is tangential to the circular path at every instant of time. Thus, the angle theta between the force vector and displacement vector is always 90o i.e. theta = 90ᶜⁱʳᶜ.\nHence, W = F xx S cos 90 = 0\nHence, the work done on an object moving in uniform circular motion is zero.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Work and Energy",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Choose one or more correct alternatives. Which of the forces involved in dragging a heavy object on a smooth, horizontal surface, have the same magnitude? The horizontal applied force",
+    "answer": "The gravitational force and the reaction force in the vertical direction have the same magnitude. Friction is not action as the horizontal surface is smooth.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Work and Energy",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Study the Following Activity and Answer the Questions. 1. Take two aluminium channels of different lengths. 2. Place the lower ends of the channels on the floor",
+    "answer": "t the moment of releasing the balls, they possess potential energy.\nThe potential energy of the balls converts to kinetic energy as they roll down.\nThe balls will possess the same potential energy because the channels are of the same height as well as the weight of the balls being the same. So, the balls reaching the bottom of their respective channels will possess the same kinetic energy (following the law of conservation of energy). Thus, the balls will have the same velocity at the bottom of the channel. Because of the same velocity, they will cover equal distance on the ground. Thus, both the balls cover equal distance after rolling down the incline because they possessed the same potential energy at the top of the channels.\nThe total energy of the ball will eventually be in the form of kinetic energy.\nThe law of conservation of energy is demonstrated using this activity. At the top of the channels, the total mechanical energy of the balls is in the form of potential energy. Now, as the balls roll down, they come into motion. This motion shows that the balls now possess kinetic energy too. As the law of conservation of energy states that energy cannot be created nor destroyed, this means this kinetic energy came into existence because of a decrease in the potential energy of the ball (a decrease in potential energy is due to a decrease in height). Also, when the ball reaches the bottom, the total mechanical energy of the ball is in the form of kinetic energy. This shows that all the potential energy of the balls got converted to kinetic energy at the bottom.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Work and Energy",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "An electric pump has 2 kW power. How much water will the pump lift every minute to a height of 10 m?",
+    "answer": "Power, P = 2 kW\nPower, P = \"Work done (W)\"/\"Time Taken (T)\"\n&rArr; W = P × T\nFor every minute, i.e., 60 s, work done by the pump is\nW = 2 xx 1000 xx 60\n= 120000 J\nNow, this work is stored in water as its potential energy.\nThus,\nmgh = 120000 J\n&rArr; m = 120000/(9.8 xx 10)\n= 1224.5 kg\nHence, 1224.5 kg of water is lifted by the pump every minute to a height of 10 m.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Work and Energy",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "If a 1200 W electric iron is used daily for 30 minutes, how much total electricity is consumed in the month of April?",
+    "answer": "Data: P = 1200 W = 1.2 kW\nt = 30 minutes = 30/60 = 0.5 hr\nTo find: W = ?\nFormula: P = W/t\n∴ W = Pt\n∴ W = 1.2 × 0.5\n= 0.6 kWh\nApril has 30 days.\nTotal electricity consumed in April:\n= 0.60 × 30 \n= 18 kWh\n= 18 units",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Work and Energy",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "If the energy of a ball falling from a height of 10 metres is reduced by 40%, how high will it rebound?",
+    "answer": "Given:\nHeight (h1) = 10 m\nPE2 = PE1 - PE1 of 40%\nFind: Height (h2)\nFormula: P.E. = mgh\nCalculations:\nPE1 = mgh1 ...(i)\nPE2 = mgh2 ...(ii)\nPE2 = PE1 of 60%\nDividing equation (ii) by (i).\n\"PE\"₂/\"PE\"₁ = (\"mgh\"₂)/(\"mgh\"₁)\n(60%\"PE\"₁)/(\"PE\"₁) = \"h\"₂/10\n60/100 = \"h\"₂/10\n\"h\"₂ = (60 xx 10)/100\nh2 = 6 m\n∴ The ball will bounce up to a height of 6 m when it hits the ground.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Work and Energy",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "The velocity of a car increases from 54 km/hr to 72 km/hr. How much is the work done if the mass of the car is 1500 kg?",
+    "answer": "Given:\nInitial velocity of the car (u) = 54 km/hr\n= (54 xx 1000)/3600 m/s\n= 15 m/s\nFinal velocity of the car (v) = 72 km/hr\n= (72 xx 1000)/3600 m/s\n= 20 m/s\nMass of the car (m) = 1500 kg\nFind: Work done (W)\nFormula: Work done (W) = Final kinetic energy - Initial kinetic energy\nCalculations:\nW = 1/2\"mv\"² - 1/2\"mu\"²\nW = 1/2\"m\"(\"v\"² - \"u\"²)\nW = 1/2 xx 1500(20² - 15²)\n= 1/2 xx 1500(400 - 225)\n= 1/2 xx 1500 xx 175\nW = 131250 J\nWork done to increase the speed of the car 131250 J.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Work and Energy",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Ravi applied a force of 10 N and moved a book 30 cm in the direction of the force. How much was the work done by Ravi?",
+    "answer": "Given:\nForce (F) = 10 N,\nDisplacement (s) = 30 cm\n= 30 × 10−2 m\nFind: Work done (W) = ?\nFormula: W = F × s\nCalculations:\nW = 10 × 30 × 10−2 \nW = (10 xx 30)/100\nW = 3 J\nWork done by Ravi is 3 J.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Work and Energy",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "The accompanying figure shows some electrical appliances connected in a circuit in a house. Answer the following questions. By which method are the appliances connected?",
+    "answer": "The appliances are connected in parallel.\nThe potential difference between all appliances is the same with a parallel connection.\nNo, because each appliance has a different load (resistance), the current passing through them will differ.\nDomestic appliances are connected in parallel because the potential difference remains constant.\nNo, the other devices will continue working since the current passing through them follows separate routes.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Current Electricity",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "The following figure shows the symbols for components used in the accompanying electrical circuit. Place them at proper places and complete the circuit. Which law can you prove with the help",
+    "answer": "Electrical circuit showing the connection of various components\nThe above circuit can be proved by Ohm's law.\nOhm&rsquo;s law The relationship between the current flowing through a wire (I) and the potential difference across its ends (V) can be obtained from the law that was given by the German scientist George Simon Ohm.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Current Electricity",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Umesh has two bulbs having resistances of 15 Ω and 30 Ω. He wants to connect them in a circuit, but if he connects them one at a time the filament gets burnt. Answer the following.",
+    "answer": "When bulbs are connected in series, the circuit&rsquo;s effective resistance increases, reducing current through the bulbs. This prevents both bulbs from burning.\nThe following are the characteristics of series connection: \n\nThe circuit&rsquo;s effective resistance is calculated by adding the individual resistances of the resistors in the circuit.\nThe effective resistance of a series circuit is always greater than the maximum resistance in the circuit.\nThe current via multiple electrical components connected in series is the same.\nThe source voltage is distributed between the electrical components linked in series.\n\nThe effective resistance of the circuit = 15 &Omega; + 30 &Omega; = 45 &Omega;.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Current Electricity",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "The following table shows the current in Amperes and potential differences in Volts. Find the average resistance. What will be the nature of the graph between the current and potential difference?",
+    "answer": "From the following table,\nV1 = 4V, V2 = 5V, V3 = 6V\nI1 = 9 A, I2 = 11.25 A, I3 = 13.5 A\nR₁ = V₁/I₁ = 4/9 = 0.44 &Omega;\nR₂ = V₂/I₂ = 5/11.25 = 0.44 &Omega;\nR₃ = V₃/I₃ = 6/13.5 = 0.44 &Omega;\n\nV (Volt)\nI (Ampere)\nR(&Omega;) = bb(V/I)\n\n4\n9\n0.44\n\n5\n11.25\n0.44\n\n6\n13.5\n0.44\n\na. Average resistance (R) = (R₁ + R₂ + R₃)/3\n= (0.44 + 0.44 + 0.44)/3\n= 1.32/3 = 0.44\n∴ Average resistance (R) = 0.44 &Omega;\nb. A straight line will pass through the origin (0, 0) on the graph between current and potential difference.\nc. Here V₁/I₁ = V₂/I₂ = V₃/I₃ i.e. Ohm&rsquo;s law is clear from I &prop; V.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Current Electricity",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Match the pairs. ‘A’ Group ‘B’ Group 1. Free electrons a. V/R 2. Current b. Increases the resistance in the circuit 3. Resistivity c. Weakly attached 4. Resistances in series d. VA/LI",
+    "answer": "&lsquo;A&rsquo; Group \nAnswer\n\n1. Free electrons\nc. Weakly attached\n\n2. Current\na. V/R\n\n3. Resistivity\nd. VA/LI\n\n4. Resistances in series\nb. Increases the resistance in the circuit",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Current Electricity",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "The resistance of a conductor of length x is r. If its area of cross-section is a, what is its resistivity? What is its unit?",
+    "answer": "Resistivity of a conductor, &rho; = (RA)/L\nHere, L = x, R = r and A = a\ntherefore &rho; = (ra)/x\nThe unit of resistivity is ohm-metre (&Omega; m).",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Current Electricity",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Resistances R1, R2, R3 and R4 are connected as shown in the figure. S1 and S2 are two keys. Discuss the current flowing in the circuit in the following cases. Both S1 and S2 are closed. Both S1 and S2",
+    "answer": ".\n\nDue to the zero resistance of FG in a parallel series combination of R4, the resultant resistance of this combination will also be almost zero, and the entire electric current will flow through the path.\nResultant resistance of parallel series combination of R1, R2\n∴ I₃ = V/(R₃ + RS)\nV₁ = V - I₃ R₃\n= V - (R₃ V)/(R₃ + Rp)\n= V (1 - R₃/(R₃ + Rp))\n= V (Rp/(R₃ + Rp))\n∴ I₁ = V₁/R₁ = V/R₁(Rp/(R₃ + Rp))\nsimilarly, \nI₂ = V/R₂(Rp/(R₃ + Rp))\nb.\n\nEquivalent resistance of series combination of R1, R3, R4\nRS = R₁ + R₃ + R₄\nCurrent in the circuit,\nI = V/(R₁ + R₃ + R₄)\nc.\n\nRP = (R₁ R₂)/(R₁ + R₂)\nRS = R₃ + R₄ + (R₁ R₂)/(R₁ + R₂)\nI = V/RS = I₃ = I₄\nAlso, I = I₁ + I₂ and R₁ I₁ = R₂ I₂\n∴ I = I₁ + (I₁ R₁)/R₂\n∴ I₁(1 + R₁/R₂)\n= (I₁(R₁ + R₂))/R₂\nI₁ = (R₂ I)/(R₁ + R₂)\nand I₂ = (I₁ R₁)/R₂\n= R₁/R₂((R₁ I)/(R₁ + R₂))\n= (R₁ I)/(R₁ + R₂)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Current Electricity",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Three Resistances X1, X2 and X3 Are Connected in a Circuit in Different Ways. X is the Effective Resistance. the Properties Observed for These Different Ways of Connecting",
+    "answer": "Connected in series\nConnected in series\nConnected in parallel\nConnected in parallel\nConnected in series\nConnected in parallel",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Current Electricity",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "The resistance of a 1 m long nichrome wire is 6 ohm. If we reduce the length of the wire to 70 cm. what will its resistance be?",
+    "answer": "Given, L1 = 1 m, R1 = 6 &Omega;, L2 = 70 cm = 0.7 m, R2 = ?\nR = rho L/A\ntherefore R₁ = rho L₁/A and R₂ = rho L₂/A\ntherefore R₂/R₁ = L₂/L₁ = 0.7/1 = 0.7\n∴ R2 = 0.7, R1 = 0.7 × 6 = 4.2 &Omega;",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Current Electricity",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "When two resistors are connected in series, their effective resistance is 80 Ω. When they are connected in parallel, their effective resistance is 20 Ω. What are the values of the two resistances?",
+    "answer": "Given: Effective resistors in Series, RS = 80 &Omega;\nEffective resistors in Series, RP = 20 &Omega;\nFind: resistors (R1 and R2)\nFormula:\n\nRS = R1 + R2\n1/\"R\"_\"P\" = 1/\"R\"₁ + 1/\"R\"₂\n\nCalculations: From Formula (1),\n80 = R1 + R2\nFrom Formula (2),\n1/20 = 1/\"R\"₁ + 1/\"R\"₂\n1/20 = (\"R\"₂ + \"R\"₁)/(\"R\"₁ xx \"R\"₂)\n∵ R1 + R2 = 80\n∴ 1/20 = 80/(\"R\"₁ xx \"R\"₂)\n∴ R1 × R2 = 1600\n∴ R1 = 1600/\"R\"₂\nSubstituting this value in formula (i),\n1600/\"R\"₂ + \"R\"₂ = 80\n∴ 1600 + \"R\"₂² = 80 \"R\"₂\n∴ \"R\"₂² - 80\"R\"₂ + 1600 = 0\n∴ \"R\"₂² - 40\"R\"₂ - 40\"R\"₂ + 1600 = 0\n∴ \"R\"₂(\"R\"₂ - 40) - 40(\"R\"₂ - 40) = 0\n(R2 − 40) (R2 − 40) = 0\n∴ R2 = 40 &Omega;\n∴ R1 + 40 = 80\n∴ R1 = 40 &Omega;\nThe values of two resistors are 40 &Omega; and 40 &Omega;.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Current Electricity",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "If a charge of 420 C flows through a conducting wire in 5 minutes what is the value of the current?",
+    "answer": "The current flowing through the conducting wire is\n\"I\" = \"Charge (Q)\"/\"Time (t)\"\n&rArr; \"I\" = 420/(5 xx 60) = 1.4 \"A\"\nHence, the current flowing through the wire is 1.4 A.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Current Electricity",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Give example. Positive radicals",
+    "answer": "H+, Na+, K+, Ag+, Cu+, Hg+",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Give example. Basic radicals",
+    "answer": "Mg2+, K+, Fe2+, Cu2+",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Give example. Composite radicals",
+    "answer": "\\[\\ce{H3O^+, NH4^+, CO_3^2-, SO4^2-}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Give example. Metals with variable valency",
+    "answer": "Cu →Cu+, Cu2+\nHg →Hg+, Hg2+\nFe →Fe2+, Fe3+",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Give example. Bivalent acidic radicals",
+    "answer": "S2- ,O2- ,Se2-",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Give example. Trivalent basic radicals",
+    "answer": "l3+, Cr3+, Fe3+, Au3+",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Write symbols of the following elements and the radicals obtained from them and indicate the charge on the radicals. Mercury, potassium, nitrogen, copper, sulphur, carbon, chlorine, oxygen",
+    "answer": "sr. no.\n\nElement\n\nSymbols\nFree radicals\ncharge on the radicals\n\ni.\nMercury\nHg\nHg+\n+1\n\nHg2+\n+2\n\nii.\nPotassium\nK\nK+\n+1\n\niii.\nNitrogen\nN\nN3-\n-3\n\niv.\nCopper\nCu\nCu+\n+1\n\nCu2+\n+2\n\nv.\nSulphur\nS\nS2-\n-2\n\nvi.\nCarbon\nC\nC+\n+1\n\nvii.\n\nChlorine\n\nCl\nCl-\n-1\n\nviii.\nOxygen\nO\nO2-\n-2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Write the steps in deducing the chemical formulae of the following compound. Sodium sulphate",
+    "answer": "Sodium sulphate:\nThe Symbols and Valencies of Sodium and Sulphate.\n\nSymbol\nNa\nSO4\n\nValency\n1\n2\n\nCross-multiply the valencies\n\nThe chemical formula of Sodium sulphate is Na2SO4.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Write the steps in deducing the chemical formulae of the following compound. Potassium nitrate",
+    "answer": "Potassium nitrate:\nThe Symbols and Valencies of Potassium and Nitrate.\n\nSymbol\nK\nNO3\n\nValency\n1\n1\n\nCross-multiply the valencies\n\nThe chemical formula of the Potassium nitrate is KNO3.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Write the steps in deducing the chemical formulae of the following compound. Ferric phosphate.",
+    "answer": "Step 1: To write the symbols of the radicals (Basic radicals on the left and acidic radicals on the right) Fe PO4\nStep 2: To write the valency below the respective radical. \n\nStep 3: To cross-multiply as shown by arrows the number of radicals.\n\nStep 4: To write down the chemical formula of the compound.\nFePO4\n(Ferric phosphate)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Write the steps in deducing the chemical formulae of the following compound. Calcium oxide",
+    "answer": "Calcium oxide:\nThe Symbols and Valencies of Calcium and Oxygen.\n\nSymbol\nCa\nO\n\nValency\n2\n2\n\nCross-multiply the valencies\n\nThe chemical formula of Calcium oxide is CaO.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Write the steps in deducing the chemical formulae of the following compound. Aluminium hydroxide",
+    "answer": "luminium hydroxide:\nThe Symbols and Valencies of Aluminium and Hydroxide.\n\nSymbol\nAl\nOH\n\nValency\n3\n1\n\nCross-multiply the valencies\n\nThe chemical formula of Aluminium hydroxide is Al(OH)3.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Explain how the element sodium is monovalent.",
+    "answer": "The number of electrons that an atom of an element gives away or takes up while forming an ionic bond is called the valency of that element.\nSodium has an electrical configuration of 2, 8, 1. Na's outermost orbit has only one electron.\nA sodium ion is generated when a sodium atom gives one electron to an atom of another element.\nAs a result, sodium has a valency of one, making it monovalent. After the electrons have been exchanged, the electronic arrangement of the resultant ions is an octet.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "M is a bivalent metal. Write down the steps to find the chemical formulae of its compounds formed with the radicals, sulphate and phosphate.",
+    "answer": "The symbols and valencies of M and sulphate:\n\nsymbols\nM\nSO4\n\nvalencies\n2\n2\n\nCross-multiply the valencies\n\nThe chemical formula is MSO4.\nThe symbols and valencies of M and phosphate:\n\nsymbols\nM\nPO4\n\nvalencies\n2\n3\n\nCross-multiply the valencies\n\nThe chemical formula is M3(PO4)2.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Explain the need for a reference atom for atomic mass. Give some information about two reference atoms.",
+    "answer": "Mass of an atom is concentrated in its nucleus. It is the sum of proton(p) and neutron(n). The number (p + n) is called atomic mass number. \nTherefore, the concept of reference atom for atomic mass is taken into consideration.\nInitially hydrogen atom being lightest was chosen as the reference atom. The relative mass of hydrogen atom was accepted as (1). this is how relative atomic masses of various elements were determined in reference of hydrogen. For example: the mass of one nitrogen atom is fourteen (14) times that of a hydrogen atom.\nIn 1961, the carbon atom was selected as the reference atom. In this method, the relative mass of one atom of carbon was accepted as 12. The relative mass of a hydrogen atom compared to a carbon atom is 12 xx 1/12 i.e. 1 u.\nOn the relative masses of atoms, the mass of a proton and a neutron is approximately 1.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "What is meant by Unified Atomic Mass?",
+    "answer": "During earlier times, one way to determine an atom's mass directly was to evaluate its relative mass. However, relative mass is no longer recognized after creating a unified mass.\nUnified atomic mass is the unit of atomic mass called Dalton.\nIts symbol is &lsquo;u&rsquo;. 1u = 1.66053904 x 10-27 kg.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Explain with examples what is meant by a &#x27;mole&#x27; of a substance.",
+    "answer": "mole is the quantity of a substance whose mass in grams is equal in magnitude to the molecular mass of that substance in Daltons. Thus, the molecular mass of oxygen is 32 u, and therefore 32g oxygen is 1 mole of oxygen. The molecular mass of water is 18u. Therefore, 18g of water makes 1 mole of water.\n1 mole of a compound is the mass of that substance in grams equal in magnitude to its molecular mass. The SI unit is mol.\nNumber of moles of substances (n) = \"Mass of substance in grams\"/\"Molecular mass of substance\"",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Write the name of the following compound and deduce its molecular mass. Na2SO4",
+    "answer": "Na2SO4 - Sodium sulphate\n\nMolecule\nConstituent elements\nAtomic mass u\nNumber of atoms in the molecule\nAtomic mass × number of atoms\nMass of the Constituents u\n\nNa2SO4\nNa\n23\n2\n23 × 2\n46\n\nS\n32\n1\n32 × 1\n32\n\nO\n16\n4\n16 × 4\n64\n\nThe molecular mass of Na2SO4 = Sum of Constituent atomic masses\n(Molecular mass of Na2SO4) = (Atomic mass of Na) × 2 + (Atomic mass of S) × 1 + (Atomic mass of O) × 4\n= 2 × 23 + 1 × 32 + 4 × 16\n= 46 + 32 + 64 \n= 142 u",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Write the name of the following compound and deduce its molecular mass. K2CO3",
+    "answer": "K2CO3 - Potassium carbonate\n\nMolecule\nConstituent elements\nAtomic mass u\nNumber of atoms in the molecule\nAtomic mass × number of atoms\nMass of the Constituents u\n\nK2CO3\nK\n39\n2\n39 × 2\n78\n\nC\n12\n1\n12 × 1\n12\n\nO\n16\n3\n16 × 3\n48\n\nThe Molecular mass of K2CO3 = Sum of Constituent atomic masses\n(Molecular mass of K2CO3) = (Atomic mass of K) × 2 + (Atomic mass of C) × 1 + (Atomic mass of O) × 3\n= (39 × 2) + (12 × 1) + (16 × 3)\n= 78 + 12 + 48\n= 138 u",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Write the name of the following compound and deduce its molecular mass. CO2",
+    "answer": "CO2 - Carbon dioxide\n\nMolecule\nConstituent elements\nAtomic mass u\nNumber of atoms in the molecule\nAtomic mass × number of atoms\nMass of the Constituents u\n\nCO2\nC\n12\n1\n12 × 1\n12\n\nO\n16\n2\n16 × 2\n32\n\nThe molecular mass of CO2 = Sum of Constituent atomic masses\n(Molecular mass of CO2) = (Atomic mass of C) × 1 + (Atomic mass of O) × 2\n= (12 × 1) + (16 × 2)\n= 12 + 32\n= 44 u",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Write the name of the following compound and deduce its molecular mass. MgCl2",
+    "answer": "MgCl2 - Magnesium chloride\n\nMolecule\nConstituent elements\nAtomic mass u\nNumber of atoms in the molecule\nAtomic mass × number of atoms\nMass of the Constituents u\n\nMgCl2\nMg\n24\n1\n24 × 1\n24\n\nCl\n35.5\n2\n35.5 × 2\n71\n\nThe Molecular mass of MgCl2 = Sum of Constituent atomic masses\n(Molecular mass of MgCl2) = (Atomic mass of Mg) × 1 + (Atomic mass of Cl) × 2\n= (24 × 1) + (35.5 × 2)\n= 24 + 71\n= 95 u",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Write the name of the following compound and deduce its molecular mass. NaOH",
+    "answer": "NaOH - Sodium hydroxide\n\nMolecule\nConstituent elements\nAtomic mass u\nNumber of atoms in the molecule\nAtomic mass × number of atoms\nMass of the Constituents u\n\nNaOH\nNa\n23\n1\n23 × 1\n23\n\nO\n16\n1\n16 × 1\n16\n\nH\n1\n1\n1 × 1\n1\n\nThe molecular mass of NaOH = Sum of Constituent atomic masses\n(Molecular mass of NaOH) = (Atomic mass of Na) × 1 + (Atomic mass of O) × 1 + (Atomic mass of H) × 1\n= (23 × 1) + (16 × 1) + (1 × 1)\n= 23 + 16 + 1\n= 40 u",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Write the name of the following compound and deduce its molecular mass. AlPO4",
+    "answer": "lPO4 - Aluminium phosphate\n\nMolecule\nConstituent elements\nAtomic mass u\nNumber of atoms in the molecule\nAtomic mass × number of atoms\nMass of the Constituents u\n\nAlPO4\nAl\n27\n1\n27 × 1\n27\n\nP\n31\n1\n31 × 1\n31\n\nO\n16\n4\n16 × 4\n64\n\nThe molecular mass of AlPO4 = Sum of Constituent atomic masses\n(Molecular mass of AlPO4) = (Atomic mass of Al) × 1 + (Atomic mass of P) × 1 + (Atomic mass of O) × 4\n= (27 × 1) + (31 × 1) + (16 × 4)\n= 27 + 31 + 64\n= 122 u",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Write the name of the following compound and deduce its molecular mass. NaHCO3",
+    "answer": "NaHCO3 - Sodium bicarbonate\n\nMolecule\nConstituent elements\nAtomic mass u\nNumber of atoms in the molecule\nAtomic mass × number of atoms\nMass of the Constituents u\n\nNaHCO3\nNa\n23\n1\n23 × 1\n23\n\nH\n1\n1\n1 × 1\n1\n\nC\n12\n1\n12 × 1\n12\n\nO\n16\n3\n16 × 3\n48\n\nThe molecular mass of NaHCO3 = Sum of Constituent atomic masses\n(Molecular mass of NaHCO3) = (Atomic mass of Na) × 1 + (Atomic mass of H) × 1 + (Atomic mass of C) × 1 + (Atomic mass of O) × 3\n= (23 × 1) + (1 × 1) + (12 × 1) + (16 × 3)\n= 23 + 1 + 12 + 48\n= 84 u",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Two samples ‘m’ and ‘n’ of slaked lime were obtained from two different reactions. The details about their composition are as follows: ‘sample m’ mass: 7g Mass of constituent oxygen: 2g",
+    "answer": "s it is mentioned already:\n\nSample m Mass: 7g\nMass of constituent oxygen: 2g\nMass of constituent calcium: 5g\nSample n Mass: 1.4g\nMass of constituent oxygen: 0.4g\nMass of constituent calcium: 1.0g\n\nOut of all the laws of chemical combination, this is proved by the \"Law of Constant Proportion\". The Law Of Constant Proportion states that \"The proportion by weight of the constituent elements in various samples of the compound is fixed in ratio\".\nFor example: In sample m, the ratio of the proportion of elements (calcium: oxygen) is 5:2.\nCa:O = 5:2\nFor example: In sample n, the ratio of the proportion of elements (calcium: oxygen) is 1.0:0.4.\nCa:O = 1.0:0.4\n= 10:4\n= 5:2\nOn simplifying the ratio proportion by mass, we get the same values which verifies \"The Law Of Constant Proportion\".",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Deduce the number of molecules of the following compound in the given quantity. 32g oxygen",
+    "answer": "Number of moles in O2 = (\"Mass of O\"₂ \"in grams\")/\"Molecular mass of O\"₂\n= 32/32\n= 1 mole\n∴ 1 mole of O2 contains 6.022 × 1023 molecules.\n∴ The number of molecules in 32 grams of oxygen is 6.022 × 1023.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Deduce the number of molecules of the following compound in the given quantity. 90g water",
+    "answer": "Number of moles in water = \"Mass of water in grams\"/\"Molecular mass of water\"\n= 90/18\n= 5 moles\n∴ 5 moles of H2O contains = 5 × 6.022 × 1023 molecules = 30.11 × 1023 molecules.\nThe number of molecules in 90 grams of water is 3.01 × 1024.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Deduce the number of molecules of the following compound in the given quantity. 8.8g carbon dioxide",
+    "answer": "Number of moles in CO2 = (\"Mass of CO\"₂\" in grams\")/\"Molecular mass of CO\"₂\n= 8.8/44\n= 0.2 mole\n∴ 0.2 moles of CO2 contains = 0.2 × 6.022 × 1023 molecules = 1.2044 × 1023 molecules.\n∴ The number of molecules in 8.8 grams of carbon dioxide is 1.2044 × 1023.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Deduce the number of molecules of the following compound in the given quantity. 7.1 g chlorine",
+    "answer": "No. of moles in chlorine = \"Mass of chlorine in grams\"/\"Molecular mass of chlorine\"\n= 7.1/71\n= 0.1 mole\n∴ 0.1 moles of Cl2 contains = 0.1 × 6.022 × 1023 molecules\n= 0.6022 × 1023 molecules\n∴ The number of molecules in 7.1 grams of chlorine is 6.022 × 1023",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "If 0.2 mol of the following substance is required how many grams of that substance should be taken? Sodium chloride",
+    "answer": "We know that,\nNumber of moles of a substance = \"Mass of the substance in grams\"/\"Molecular mass of the substance\"\nMolar mass = sum of constituent atomic masses\nMolar mass of NaCl = 23 + 35.5 = 58.5 g/mol\nNumber of moles of a substance = \"Mass of the substance in grams\"/\"Molecular mass of the substance\"\nLet Mass of the substance in grams be x,\n0.2 = \"x\"/58.5 = 11.7 g\nWe need, 11.7 g of NaCl for obtaining 0.2 moles of NaCl.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "If 0.2 mol of the following substance is required how many grams of that substance should be taken? magnesium oxide",
+    "answer": "Molar mass of MgO = 24 + 16 = 40 g/mol\nNumber of moles of a substance = \"Mass of the substance in grams\"/\"Molecular mass of the substance\"\nLet Mass of the substance in grams be x,\n0.2 = \"x\"/40 = 8g\nwe need, 8g of MgO to obtain 0.2 moles of MgO.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "If 0.2 mol of the following substance is required how many grams of that substance should be taken? Calcium carbonate",
+    "answer": "Molar mass of CaCO3 = 40 + 12 + 3(16) = 100 g/mol\nNumber of moles of a substance = \"Mass of the substance in grams\"/\"Molecular mass of the substance\"\nLet Mass of the substance in grams be x,\n0.2 = \"x\"/100 = 20g\nwe need, 20 g of CaCO3 for obtaining 0.2 moles of CaCO3.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Measurement of Matter",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "Identify the Odd One Out and Justify. Chloride, Nitrate, Hydride, Ammonium",
+    "answer": "mmonium",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Identify the Odd One Out and Justify. Hydrogen Chloride, Sodium Hydroxide, Calcium Oxide, Ammonia",
+    "answer": "Hydrogen chloridesodium hydroxidecalcium oxideammonia",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Identify the odd one out and justify. Acetic acid, carbonic acid, hydrochloric acid, nitric acid",
+    "answer": "cetic acidcarbonic acidhydrochloric acidnitric acid",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Identify the odd one out and justify. Ammonium chloride, sodium chloride, potassium nitrate, sodium sulphate",
+    "answer": "mmonium chloridesodium chloridepotassium nitratesodium sulphate",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Identify the odd one out and justify. Sodium nitrate, sodium carbonate, sodium sulphate, sodium chloride",
+    "answer": "sodium carbonatesodium sulphatesodium chloride",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Identify the odd one out and justify. Calcium oxide, magnesium oxide, zinc oxide, sodium oxide.",
+    "answer": "zinc oxidesodium oxide",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Identify the odd one out and justify. Crystalline blue vitriol, crystalline common salt, crystalline ferrous sulphate, crystalline sodium carbonate.",
+    "answer": "crystalline common saltcrystalline ferrous sulphatecrystalline sodium carbonate",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Identify the odd one out and justify. Sodium chloride, potassium hydroxide, acetic acid, sodium acetate.",
+    "answer": "cetic acidSodium acetate",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Write down the changes that will be seen in the instance and explain the reason behind them. 50 ml water is added to 50 ml solution of copper sulphate.",
+    "answer": "When 50 mL of water is added to a 50 mL solution of copper sulphate, a reversible reaction occurs, and the colour changes from pale blue to white and then back to blue when water is added again.\n\\[\\ce{CuSO4 + H2O <-> CuSO4 * 5H2O}\\] (BLUE VITRIOL).",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Write down the changes that will be seen in the instance and explain the reason behind them. Two drops of the indicator phenolphthalein were added to a 10ml solution of sodium hydroxide.",
+    "answer": "Phenolphthalein is an indicator used for determining the quantity of base. When two drops of Phenolphthalein indicator are added to a 10 mL solution of Sodium hydroxide, the solution turns pink in colour because the acidic part of phenolphthalein reacts with the base, forming sodium salt of phenolphthalein which has a pink colour.\nFor example: In acid-base titration phenolphthalein is used to detect the endpoint of the base.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Write down the changes that will be seen in the instance and explain the reason behind them. Two or three filings of copper were added to 10 ml dilute nitric acid and stirred.",
+    "answer": "When copper metal reacts with dilute nitric acid, the metal does not displace hydrogen from the acid like a reaction with other metals. Instead, the reaction produces nitric oxide (NO).\n\\[\\ce{3Cu + 8HNO3 (conc) -> 3Cu(NO3)2 + 2NO + 4H2O}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Write down the changes that will be seen in the instance and explain the reason behind them. A litmus paper was dropped into 2ml dilute HCl. Then 2ml concentrated NaOH was added to it and stirred.",
+    "answer": "When litmus paper is dipped into 2 mL of dilute HCl solution, then blue litmus paper is turned into red colour and there is no effect on red litmus paper. Again, if the same litmus paper is dipped into 2 mL of concentrated NaOH solution, then red litmus paper turns into a blue colour but there is no effect on blue litmus paper. This is due to the respective properties of blue and red litmus paper with acid and base.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Write down the changes that will be seen in the instance and explain the reason behind them. Magnesium oxide was added to dilute HCl and magnesium oxide was added to dilute NaOH.",
+    "answer": "Magnesium oxide is a base. when a base reacts with an acid, it forms salt and water. This reaction is known as a neutralisation reaction.\nMgO(s) + 2HCl(l) → MgCl2(aq) + H2O(l)\nMgO does not react with NaOH.As NaOH is a base bases react only with oxides of non-metal to form salt and water because oxides of non-metals are said to be acidic in nature so a neutralization reaction takes place. But MgO is an oxide of metal so, the reaction is not possible.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Write down the changes that will be seen in the instance and explain the reason behind them. Zinc oxide was added to dilute HCl and zinc oxide was added to dilute NaOH.",
+    "answer": "When zinc oxide is added to HCl, zinc chloride and water are produced. In this reaction, zinc oxide is basic, which proves that it is amphoteric. When zinc oxide is mixed with NaOH, sodium zincate (Na2ZnO2) and water are produced. In this reaction, zinc oxide is acidic, due to which it is amphoteric, as it shows both acidic and basic properties.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Write down the changes that will be seen in the instance and explain the reason behind them. Dilute HCl was added to the limestone.",
+    "answer": "Limestone is calcium carbonate. When limestone is added to a 10% solution of dilute HCl, then brisk effervescence of CO2 is released due to the reaction of the acid with the carbonate of metals.\n\\[\\ce{2HCl + CaCO3 -> CaCl2 + CO2 + H2O}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Write down the changes that will be seen in each instance and explain the reason behind them. Pieces of blue vitriol were heated in a test tube. On cooling, water was added to it.",
+    "answer": "When pieces of blue vitriol are heated in a test tube, then the crystal structure of blue vitriol breaks down to form a colourless powder and water comes out. This water is called water of crystallization. when water is added to the same test tube, the white powder turns into a blue colour again. This is due to reversible reactions taking place from anhydrous salt to hydrous salt and vice-versa.\nCUSO4 . 5H2O ↔ CUSO4 + 5H2O",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Write down the changes that will be seen in each instance and explain the reason behind them. Dilute H2SO4 was taken in an electrolytic cell and an electric current was passed through it.",
+    "answer": "In dilute H2SO4, H+ and \"SO\"₄^(2-) ions are produced due to dissociation. Electric current passes through these ions. During this process H2 gas is produced at the negative side, and O2 gas is produced at the positive side.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Classify the following oxides into three types and name the types. CaO, MgO, CO2, SO3, Na2O, ZnO, Al2O3, Fe2O3",
+    "answer": "cidic Oxides: CO2 (Carbon dioxide), SO3 (Sulfur trioxide)\nBasic Oxides: CaO (Calcium oxide), MgO (Magnesium oxide), Na2O (Sodium oxide)\nAmphoteric Oxides: ZnO (Zinc oxide), Al2O3 (Aluminium oxide), Fe2O3 (Ferric oxide)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Explain by drawing a figure of the electronic configuration. Formation of sodium chloride from sodium and chlorine.",
+    "answer": "There is one electron in the outermost orbit of the sodium atom, after its release, sodium becomes a positive ion. At the same time, the chlorine atom gains one electron in its outermost orbit, making the chlorine atom have eight electrons in its outermost orbit. Due to this process, chlorine negative ion is formed. Due to the electrical attraction between the positive ion of sodium and the negative ion of chlorine, an ionic bond is formed between them, and this results in the formation of sodium chloride.\n\\[\\ce{\\underset{(2, 8, 1)}{Na} -> \\underset{(2, 8)}{Na+} + e-}\\];\n\\[\\ce{\\underset{(2, 8, 7)}{Cl + e-} -> \\underset{(2, 8, 8)}{Cl-}}\\]\n\\[\\ce{Na+ + Cl- -> NaCl}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Explain by drawing a figure of the electronic configuration. Formation of magnesium chloride from magnesium and chlorine.",
+    "answer": "There are 2 electrons in the outermost orbit of the magnesium atom, which are discarded to form a double positive ion of magnesium. There are 7 electrons in the chlorine atom. An atom of chlorine gains one electron and completes 8 electrons in the outermost orbit to form chloride ion. Two electrons of chlorine given from one atom of magnesium are accepted by two atoms of chlorine, and two negative ions of chlorine are formed. Due to electrostatic attraction between the positive ion of magnesium and the negative ion of chlorine, an ionic bond is formed between them, forming magnesium chloride.\n\n\\[\\ce{\\underset{(2, 8, 2)}{Mg} -> \\underset{(2, 8)}{Mg++} + 2e-;}\\]\n\\[\\ce{\\underset{(2, 8, 7)}{2Cl} + 2e- -> \\underset{(2, 8, 8)}{2Cl-}}\\]\n\\[\\ce{Mg++ + 2Cl- -> MgCl2}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Show the dissociation of the following compound on dissolving in water, with the help of a chemical equation and write whether the proportion of dissociation is small or large. Hydrochloric acid",
+    "answer": "\\[\\ce{HCl ->[water] H+ + Cl-}\\] dissociation is large.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Show the dissociation of the following compound on dissolving in water, with the help of a chemical equation and write whether the proportion of dissociation is small or large. Sodium chloride",
+    "answer": "\\[\\ce{NaCl ->[water] Na+ + Cl-}\\] dissociation is large.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Show the dissociation of the following compound on dissolving in water, with the help of a chemical equation and write whether the proportion of dissociation is small or large. Potassium hydroxide",
+    "answer": "\\[\\ce{KOH ->[water] K+ + OH-}\\] - dissociation is large.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Show the dissociation of the following compound on dissolving in water, with the help of a chemical equation and write whether the proportion of dissociation is small or large. Ammonia",
+    "answer": "\\[\\ce{NH3 ->[water] NH4+ + OH-}\\] &rArr; dissociation is small.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Show the dissociation of the following compound on dissolving in water, with the help of a chemical equation and write whether the proportion of dissociation is small or large. Acetic acid",
+    "answer": "\\[\\ce{CH3COOH ->[water] H+ + CH3COO-}\\] &rArr; dissociation is small.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Show the dissociation of the following compound on dissolving in water, with the help of a chemical equation and write whether the proportion of dissociation is small or large. Magnesium chloride",
+    "answer": "\\[\\ce{MgCl2->[water] Mg^2+ + 2Cl-}\\] &rArr; dissociation is large.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Show the dissociation of the following compound on dissolving in water, with the help of chemical equation and write whether the proportion of dissociation is small or large. Copper sulphate",
+    "answer": "\\[\\ce{CuSO4 ->[water] Cu^{2+} + SO^{2-}_4}\\] &rArr; dissociation is large",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Write down the concentration of the following solution in g/L and mol/L. 7.3g HCl in 100ml solution",
+    "answer": "Given:\nWeight in grams = 7.3g\nVolume in litres = 100 mL = 0.1L (1mL = 1/1000L)\nMolecular mass of HCl = 1 + 35.4 = 36.4 g/mol\nConcentration in \"g\"/\"L\" = (7.3\"g\")/(0.1\"L\")\nConcentration in g/L = 73g/L\nNo. of Moles(n) = \"weight\"/\"molecular mas\"\n= (7.3\"g\")/(34.5 \"g/mol\")\n= 0.2 mol\nConcentration in \"mol\"/\"L\" = \"no. of mole\"/\"Volume in L\"\nConcentration in \"mol\"/\"L\" = (0.2 \"mole\")/(0.1 \"L\")\nConcentration in mol/L = 2mol/L\nThus, Concentration in g/L is 73g/L and Concentration in mol/L is 2mol/L.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Write down the concentration of the following solution in g/L and mol/L. 2g NaOH in 50ml solution",
+    "answer": "Given:\nWeight in grams = 2g\nVolume in litres = 50 mL = 0.05L (1 mL = 1/1000L)\nMolecular mass of NaOH = 23 + 16 + 1 = 40 g/mol\nConcentration in \"g\"/\"L\" = (2\"g\")/(0.5\"L\")\nConcentration in = 40 g/L\nNo. of Moles(n) = \"weight\"/\"molecular mas\"\n= (2\"g\")/(40 \"g/mol\")\n= 0.05 mol\nConcentration in \"mol\"/\"L\" = \"no. of mole\"/\"Volume in L\"\nConcentration in \"mol\"/\"L\" = (0.05 \"mole\")/(0.05 \"L\")\nConcentration in mol/L = 1mol/L\nThus, Concentration in g/L is 40g/L and Concentration in mol/L is 1mol/L.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Write down the concentration of the following solution in g/L and mol/L.  3g CH3COOH in 100ml solution",
+    "answer": "Given:\nMass of solute (CH3COOH) = 3 g\nVolume of solution = 100 mL = 0.1 L\nMolar mass of CH3COOH = 60 g/mol\nConcentration in g/L:\nConcentration (g/L) = \"Mass of solute (g)\"/\"Volume of solution (L)\"\n= 3/0.1 \n= 30 g/L\nConcentration in mol/L (Molarity):\nMolarity (M) = \"Moles of solute\"/\"Volume of solution in L\"\nMoles of CH3COOH = 3/60\n= 0.05 mol\nMolarity = 0.05/0.1\n= 0.5 mol/L",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "Write down the concentration of the following solution in g/L and mol/L. 4.9g H2SO4 in 200ml solution",
+    "answer": "Given: \nWeight in grams = 4.9g\nVolume in litres = 200mL = 0.2L (1mL = 1/1000L)\nMolecular mass of H2SO4 = 2 × 1 + 32 + 4 × 16 = 98 g/mol\nConcentration in \"g\"/\"L\" = (4.9\"g\")/(0.2\"L\")\nConcentration in = 24.5 g/L\nNo. of Moles(n) = \"weight\"/\"molecular mass\"\n= (4.9\"g\")/(98 \"g/mol\")\n= 0.05 mol\nConcentration in \"mol\"/\"L\" = \"no. of mole\"/\"Volume in L\"\nConcentration in \"mol\"/\"L\" = (0.05 \"mole\")/(0.02 \"L\")\nConcentration in mol/L = 0.25 mol/L\nThus, Concentration in g/L is 24.5 g/L and Concentration in mol/L is 0.25 mol/L.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "Classify the acids according to their basicity and give one example of each type.",
+    "answer": "The number of ionizable hydrogen (H+) ions present in one molecule of an acid is called its basicity.\nBased on Basicity acids were classified into different types:\n\nMono-basic acids - HCl, HNO3, CH3COOH\nDi-basic acids - H2SO4, H2CO3\nTri-basic acids - H3BO3, H3PO4",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 32,
+    "isFree": true
+  }
+]

@@ -8,7 +8,7 @@ import {
   LayoutDashboard, Users, Compass, GitBranch, Building2, Award,
   FileText, PhoneCall, UserPlus, Settings, LogOut, Shield, Menu,
   X, ChevronDown, Bell, Search, GraduationCap, BarChart3, MessageSquare,
-  TrendingUp, BookOpen, ChevronRight, Sparkles,
+  TrendingUp, BookOpen, ChevronRight, Sparkles, Home, Beaker, Lightbulb, Library, ClipboardList,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAuthStore, isAdmin } from "@/lib/auth-store";
@@ -34,7 +34,13 @@ const sidebarItems = [
   {
     section: "Content",
     items: [
+      { icon: BookOpen, label: "Solutions", href: "/admin/solutions" },
       { icon: FileText, label: "Blog", href: "/admin/blog" },
+      { icon: Beaker, label: "Mock Tests", href: "/admin/mock-tests" },
+      { icon: GraduationCap, label: "Entrance Exams", href: "/admin/entrance-exams" },
+      { icon: Library, label: "Textbooks (PDF)", href: "/admin/textbooks" },
+      { icon: Lightbulb, label: "Concept Notes", href: "/admin/concept-notes" },
+      { icon: ClipboardList, label: "Syllabus", href: "/admin/syllabus" },
       { icon: PhoneCall, label: "Counselling", href: "/admin/counselling" },
       { icon: UserPlus, label: "Leads", href: "/admin/leads" },
     ],
@@ -164,12 +170,13 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         <div className={cn("p-3 border-t border-slate-200", !sidebarOpen && "flex flex-col items-center")}>
           <Link
             href="/"
+            target="_blank"
             className={cn(
-              "flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100 transition-colors mb-1"
+              "flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium bg-brand-royal/5 text-brand-royal hover:bg-brand-royal/10 transition-colors mb-1"
             )}
           >
-            <GraduationCap className="h-5 w-5 flex-shrink-0" />
-            {sidebarOpen && "View Site"}
+            <Home className="h-5 w-5 flex-shrink-0" />
+            {sidebarOpen && "Home"}
           </Link>
           <button
             onClick={handleLogout}
@@ -277,11 +284,12 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             <div className="p-3 border-t border-slate-200">
               <Link
                 href="/"
-                className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm text-slate-600 hover:bg-slate-100 transition-colors mb-1"
+                target="_blank"
+                className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium bg-brand-royal/5 text-brand-royal hover:bg-brand-royal/10 transition-colors mb-1"
                 onClick={() => setMobileSidebarOpen(false)}
               >
-                <GraduationCap className="h-5 w-5 flex-shrink-0" />
-                View Site
+                <Home className="h-5 w-5 flex-shrink-0" />
+                Home
               </Link>
               <button
                 onClick={handleLogout}

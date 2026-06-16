@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Write the following set in roster form. Set of even natural numbers",
+    "answer": "= {2, 4, 6, 8, ...}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Write the Following Set in Roster Form. Set of Even Prime Numbers from 1 to 50",
+    "answer": "The set of even prime numbers from 1 to 50 = {2}\nExplanation:\nA prime number is a whole number that is greater than one and has exactly two factors, one and itself.\nPrime numbers from 1 to 50: {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47}\nEven Prime numbers: {2}\nNumber 2 is the only prime even number.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Write the following set in roster form. Set of negative integers.",
+    "answer": "C = {..., -5, -4, -3, -2, -1}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Write the following set in roster form. Seven basic sounds of a sargam (sur)",
+    "answer": "D = {SA, RE, GA, MA, PA, DHA, NI}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Write the following symbolic statement in words. 4/3 ∈ Q",
+    "answer": "4/3 is an element of set Q.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Write the following symbolic statement in words. -2 ∉ N",
+    "answer": "-2 is not an element of set N (natural numbers).",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Write the following symbolic statement in words. P = {p | p is an odd number}",
+    "answer": "P is a set of p such that p is an odd number.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Write any two sets by listing method and by rule method.",
+    "answer": "Listing method - A = {6, 7, 8, 9}\nRule method - A = {x | x &isin; N and 5 < x < 10}\nListing method - B = {a, e, i, o, u}\nRule method - B = {y | y is vowel of English alphabet}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Write the Following Set Using Listing Method. All Months in the Indian Solar Year.",
+    "answer": "= {Chaitra, Vaishakh, Jyestha, Aashadha, Shravana, Bhadrapada, Ashwina, Kartika, Margashirsha, Paush, Magha, Falguna}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Write the following set using listing method. Letters in the word ‘COMPLEMENT’.",
+    "answer": "B = {C, O, M, P, L, E, N, T}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Write the following set using listing method. Set of human sensory organs.",
+    "answer": "C = {Nose, Tongue, Skin, Ears, Eyes}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Write the following set using listing method. Set of prime numbers from 1 to 20.",
+    "answer": "D = {2, 3, 5, 7, 11, 13, 17, 19}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Write the Following Set Using Listing Method. Names of Continents of the World.",
+    "answer": "E = {Asia, Africa, Europe, North America, South America, Australia, Antartica}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Write the following set using rule method. A = { 1, 4, 9, 16, 25, 36, 49, 64, 81, 100}",
+    "answer": "= {x | x = n2, n &isin; N and 1 ≤ n ≤ 10}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Write the following set using rule method. B = {6, 12, 18, 24, 30, 36, 42, 48}",
+    "answer": "B = {x | x = 6y, y &isin; N and 1 ≤ y ≤ 8}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Write the following set using rule method. C = {S, M, I, L, E}",
+    "answer": "C = {x | x is a letter of the word 'SMILE'}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Write the following set using rule method. D = {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday}",
+    "answer": "D = {p | p is a day of the week.}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Write the following sets using rule method. X = {a, e, t}",
+    "answer": "X = {y&thinsp;|&thinsp;y is a letter in the word 'ate' or 'tea' or 'eat'}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Decide which of the following are equal sets and which are not. Justify your answer. A = {x | 3x - 1 = 2} B = {x | x is a natural number but x is neither prime nor composite} C = {x | x ∈ N, x < 2}",
+    "answer": "i. Since, A = {x | 3x - 1 = 2} ...(Rule method)\n3x - 1 = 2\n3x = 3\n∴ x = 1\nx = {1} ...(Roster Method)\nii. B = {x | x is a natural number but x is neither prime nor composite} ...(Rule method)\nB = {1} ...(Listing method)\niii. C = {x | x &isin; N, x < 2} ...(Rule method)\nN = {1, 2, 3, 4, .....}\nC = {1} ...(Listing method)\nFrom (i), (ii) and (iii)\nSo, A = B = C",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Decide whether sets A and B are equal sets. Give reason for your answer. A = Even prime numbers B = {x | 7x − 1 = 13}",
+    "answer": "= Even prime numbers\nSince 2 is the only even prime number,\nA = {2} ...(i)\nB = {x | 7x − 1 = 13}\n7x − 1 = 13\n7x = 13 + 1\n7x = 14\nx = 14/7\nx = 2\n∴ B = {2} ...(ii)\n∴ The elements in set A and B is identical … [From (i) and (ii)] \nA = B\nHence, A and B are equal sets.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Which of the following is the empty set? why? A = {a | a is a natural number smaller than zero.}",
+    "answer": "= {a | a is a natural number smaller than zero.} = {}\nSo, A is an empty set.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Which of the following is an empty set? why? B = {x | x2 = 0}",
+    "answer": "B = {x | x2 = 0} = {0}\nSo, B is not an empty set.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "State the following statement is empty set or not? why? C = {x | 5x - 2 = 0, x ∈ N}",
+    "answer": "&rArr; 5x - 2 = 0\n&rArr; 5x = 2\n&rArr; x = 2/5 \nWe know that natural number, N = {1, 2, ...}\n∴ C = {x | 5x - 2 = 0, x &isin; N} = {}\n∴ C is an empty set.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Write with reason, Whether the following set is finite or infinite. A = {x | x < 10, x is a natural number}",
+    "answer": "= {x | x < 10, x is a natural number}\nA = {1, 2, 3, 4, 5, 6, 7, 8, 9}\nSo, A is a finite set.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Write with reason, whether the following set is finite or infinite. B = {y | y < -1, y is an integer}",
+    "answer": "B = {y | y < -1 , y is an integer}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Write with reason, whether the following set is finite or infinite. C = Set of students of class 9 from your school.",
+    "answer": "C = Set of students of class 9 from your school.\nSince the number of elements of set C is the countable number.\nSo, C is a finite set.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Write with Reason, Which of the Following Set Are Finite Or Infinite. Set of People from Your Village.",
+    "answer": "D = Set of people from your village.\nSince the number of elements of set D is the countable number.\nSo, D is a finite set.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Write with reason, whether the following set is finite or infinite. Set of apparatus in the laboratory",
+    "answer": "E = Set of apparatus in the laboratory \nSince the number of elements of set E is the countable number.\nSo, E is a finite set.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Write with Reason, Which of the Following Set Are Finite Or Infinite. Set of Whole Numbers",
+    "answer": "F = Set of whole numbers\nF = {0, 1, 2, 3, 4, ...} \nSo, F is an infinite set.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Write with reason, whether the following set is finite or infinite. Set of the rational number",
+    "answer": "G = Set of the rational number \nSince the number of elements of set G is infinite.\nSo, G is an infinite set.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "If A = {a, b, c, d, e}, B = {c, d, e, f}, C = {b, d}, D = {a, e} then the following statement is true or false? C ⊆ B",
+    "answer": "False",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "If A = {a, b, c, d, e}, B = {c, d, e, f}, C = {b, d}, D = {a, e} then the following statement is true or false? A ⊆ D",
+    "answer": "False",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "If A = {a, b, c, d, e}, B = {c, d, e, f}, C = {b, d}, D = {a, e} then the following statement is true or false? D ⊆ B",
+    "answer": "False",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "If A = {a, b, c, d, e}, B = {c, d, e, f}, C = {b, d}, D = {a, e} then the following statement is true or false? D ⊆ A",
+    "answer": "TrueFalse",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "If A = {a, b, c, d, e}, B = {c, d, e, f}, C = {b, d}, D = {a, e} then the following statement is true or false? B ⊆ A",
+    "answer": "False",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "If A = {a, b, c, d, e}, B = {c, d, e, f}, C = {b, d}, D = {a, e} then the following statement is true or false? C ⊆ A",
+    "answer": "TrueFalse",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "Take the set of natural numbers from 1 to 20 as universal set and show set X using Venn diagram. X = {x | x ∈ N, and 7 < x < 15}",
+    "answer": "We have,\nU = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}\nX = {x | x &isin; N, and 7 < x < 15}\nX = {8, 9, 10, 11, 12, 13, 14}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "Take the set of natural numbers from 1 to 20 as universal set and show set Y using Venn diagram. Y = {y | y ∈ N, y is prime number from 1 to 20}",
+    "answer": "We have,\nU = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}\nY = {y | y &isin; N, y is prime number from 1 to 20}\nY = {2, 3, 5, 7, 11, 13, 17, 19}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "U = {1, 2, 3, 7, 8, 9, 10, 11, 12} P = {1, 3, 7, 10} then show the sets U, P and P&#x27; by the Venn diagram. Verify (P&#x27;)&#x27; = P",
+    "answer": "(i) We have, U = {1, 2, 3, 7, 8, 9, 10, 11, 12} and P = {1, 3, 7, 10}\nP' = U - P = {2, 8, 9, 11, 12}\n\n(ii) U = {1, 2, 3, 7, 8, 9, 10, 11, 12} and P = {1, 3, 7, 10} \nP' = {2, 8, 9, 11, 12}\n∴ (P')' = U - P' = {1, 3, 7, 10}\n∴ (P')' = P",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "A = {1, 3, 2, 7} Then Write Any Three Subsets of A.",
+    "answer": "We have,\nA = {1, 3, 2, 7} \nThe three subsets of A are: {1}, {2} and {1, 2, 3}. \nDisclaimer: There are 24 = 16 subsets\nThe following are subsets of the set A.\n{}, {1}, {2}, {3}, {7}, {1, 2}, {1, 3}, {1, 7}, {2, 3}, {2, 7}, {3, 7}, {1, 2, 3}, {2, 3, 7}, {1, 3, 7}, {1, 2, 7} and {1, 2, 3, 7}.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "Write the subset relation between the sets. P is the set of all residents in Pune. M is the set of all residents in Madhya Pradesh. I is the set of all residents in Indore.",
+    "answer": "Since Pune is a city in Maharashtra, and Maharashtra is a state in India.\nSo, P &sube; H and P &sube; B\nSimilarly,\nIndore is a city in Madhya Pradesh, and Madhya Pradesh is a state in India.\nSo, I &sube; M and I &sube; B\nA resident of Madhya Pradesh and Maharashtra is a resident of India.\nSo, M &sube; B and H &sube; B",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "Which set can be the universal set? P is the set of all residents in Pune. M is the set of all residents in Madhya Pradesh. I is the set of all residents in Indore.",
+    "answer": "The set B can be the universal set for the above sets.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "Which set of numbers could be the universal set for the set given below? A = set of multiples of 5. B = set of multiples of 7. C = set of multiples of 12.",
+    "answer": "We have,",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 43,
+    "isFree": true
+  },
+  {
+    "question": "Which set of numbers could be the universal set for the set given below? P = set of integers which are multiples of 4. T = set of all even square numbers.",
+    "answer": "We have,\nP = set of integers which are multiples of 4 = {4, 8, 12, ...}; and\nT = set of all even square numbers = {4, 16, 36, 64, 100, ...} \nSo, P can be the Universal set for the sets P and T.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 44,
+    "isFree": true
+  },
+  {
+    "question": "Let all the students of a class is an Universal set. Let set A be the students who secure 50% or more marks in Maths. Then write the complement of set A.",
+    "answer": "ll the students of a class is an Universal set i.e.\nU = set of all the students of a class and\nA = set of the students who secure 50% or more marks in Maths \nNow we have to find the complement of A.\nThe complement of A is represented by A' and it can be calculated as\nA' = U - A\nA' = All the students in the class obtained less than 50 percent marks.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 45,
+    "isFree": true
+  },
+  {
+    "question": "If n(A) = 15, n(A ∪ B) = 29, n(A ∩ B) = 7 then n(B) = ?",
+    "answer": "We have,\nn(A) = 15, n(A &cup; B) = 29, n(A &cap; B) = 7 \nSince, n(B) = n(A &cup; B) + n(A &cap; B) - n(A)\n= 29 + 7 - 15\nn(B) = 21",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 46,
+    "isFree": true
+  },
+  {
+    "question": "In a Hostel There Are 125 Students, Out of Which 80 Drink Tea, 60 Drink Coffee and 20 Drink Tea and Coffee Both. Find the Number of Students Who Do Not Drink Tea Or Coffee.",
+    "answer": "Let A be the set of students who drink tea, and B be the set of students who drink coffee.\nWe have,\nn(U) = 125, n(A) = 80, n(B) = 60, n(A &cap; B) = 20\nSince, \nn(A &cup; B) = n(A) + n(B) - n(A &cap; B)\n= 80 + 60 - 20\nn(A &cup; B) = 120\nSo, the number of students who do not drink tea or coffee = 125 - 120 = 5",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 47,
+    "isFree": true
+  },
+  {
+    "question": "In a competitive exam 50 students passed in English. 60 students passed in Mathematics. 40 students passed in both the subjects. None of them fail in both the subjects.",
+    "answer": "Let A be the set of students who passed in English, and B be the set of students who passed in Mathematics.\nWe have,\nn(A) = 50, n(B) = 60, n(A &cap; B) = 40\nSince, \nn(A &cup; B) = n(A) + n(B) - n(A &cap; B)\n= 50 + 60 - 40\nn(A &cup; B) = 70 \nSo, the number of students who passed at least in one of the subjects is 70.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 48,
+    "isFree": true
+  },
+  {
+    "question": "A Survey Was Conducted to Know the Hobby of 220 Students of Class Ix. Out of Which 130 Students Informed About Their Hobby as Rock Climbing and 180 Students Informed About Their Hobby as Sky Watching.",
+    "answer": "Let A be the set of students who follow the hobby of rock climbing, and B be the set of students who follow the hobby of sky watching.\nWe have, n(A) = 130, n(B) = 180, n(A &cap; B) = 110, n(U) = 220\nSince,\nn(A &cup; B) = n(A) + n(B) - n(A &cap; B)\n= 130 + 180 - 110\n= 200\nSo, the number of students who do not have any of the two hobbies\n= n(U) - n(A &cup; B)\n= 220 - 200\n= 20\nAlso, the number of students who follow the hobby of rock climbing only\n= n(A) - n(A &cap; B)\n= 130 - 110\n= 20\nAnd, the number of students who follow the hobby of sky watching only\n= n(B) - n(A &cap; B)\n= 180 - 110\n= 70",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 49,
+    "isFree": true
+  },
+  {
+    "question": "Observe the given Venn diagram and write the following sets. 1. A 2. B 3. A ∪ B 4. U 5. A&#x27; 6. B&#x27; 7. (A ∪ B)&#x27;",
+    "answer": "= {m, n, x, y, z}\nB = {m, n, p, q, r}\nA &cup; B = {m, n, x, y, z, p, q, r}\nU = {m, n, s, x, t, y, z, p, q, r}\nA' = {s, t, p, q, r}\nB' = {x, s, t, y, z}\n(A &cup; B)' = {s, t}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 50,
+    "isFree": true
+  },
+  {
+    "question": "If M = {1, 3, 5}, N = {2, 4, 6}, then M ∩ N = ?",
+    "answer": "phi{2, 4, 6}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 51,
+    "isFree": true
+  },
+  {
+    "question": "P = { X | X is an Odd Natural Number, 1 < X ≤ 5 }. How to Write this Set in Roster Form?",
+    "answer": "{3, 5}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 52,
+    "isFree": true
+  },
+  {
+    "question": "P = {1, 2, ........., 10}, What type of set P is?",
+    "answer": "Finite set None of these",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 53,
+    "isFree": true
+  },
+  {
+    "question": "M ∪ N = {1, 2, 3, 4, 5, 6} and M = {1, 2, 4} then which of the following represent set N?",
+    "answer": "{3, 4, 5, 6}{2, 5, 6}{4, 5, 6}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 54,
+    "isFree": true
+  },
+  {
+    "question": "If P ⊆ M, then Which of the following set represent P ∩ (P ∪ M)?",
+    "answer": "PMP &cup; MP'&cap; M",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 55,
+    "isFree": true
+  },
+  {
+    "question": "Which of the following sets are empty sets?",
+    "answer": "Set of intersecting points of parallel lines.Set of even prime numbers.Month of an English calendar having less than 30 days.P = {x | x &isin; I, -1 < x < 1}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 56,
+    "isFree": true
+  },
+  {
+    "question": "Which of the following collections is a set? (A) Colours of the rainbow (B) Tall trees in the school campus (C) Rich people in the village (D) Easy examples in the book",
+    "answer": "Colours of the rainbow Tall trees in the school campus.Rich people in the villageEasy examples in the book",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 57,
+    "isFree": true
+  },
+  {
+    "question": "Which of the following set represent N ∩ W?",
+    "answer": "{1, 2, 3, .....}{0, 1, 2, 3, ....} {0} { }",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 58,
+    "isFree": true
+  },
+  {
+    "question": "P = {x | x is a letter of the word &#x27;indian&#x27;} then which one of the following is set P in listing form?",
+    "answer": "{i, n, d, a}{i, n, d, i, a}{n, d, a}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 59,
+    "isFree": true
+  },
+  {
+    "question": "If T = {1, 2, 3, 4, 5} and M = {3, 4, 7, 8} then T ∪ M = ?",
+    "answer": "{1, 2, 3, 4, 5, 7, 8} {3, 4}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 60,
+    "isFree": true
+  },
+  {
+    "question": "Out of 100 persons in a group, 72 persons speak English and 43 persons speak French. Each one out of 100 persons speak at least one language.",
+    "answer": "Let A be the set of persons speaking English and B be the set of persons speaking French.\nSo, n(A) = 72; n(B) = 43; n(A &cup; B) = 100\nNow,\nn(A) + n(B) = n(A &cup; B) + n(A &cap; B)\n&rArr; n(A &cap; B) = 72 + 43 - 100\n&rArr; n(A &cap; B) = 15 \nSo, the number of person who speak French and English both is 15.\nAlso,\nn(A) = n(A - B) + n(A &cap; B)\n&rArr; n(A - B) = 72 - 15\n&rArr; n(A - B) = 57 \nSo, the number of person who speak only English is 57.\nAnd, \nn(B) = n(B - A) + n(A &cap; B)\n&rArr; n(B - A) = 43 - 15\n&rArr; n(B - A) = 28\nSo, the number of person who speak only French is 28.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 61,
+    "isFree": true
+  },
+  {
+    "question": "70 Trees Were Planted by Parth and 90 Trees Were Planted by Pradnya on the Occasion of Tree Plantation Week.",
+    "answer": "Let A be the set of trees planted by Parth and B be the set of trees planted by Pradnya. \nSo, n(A) = 70; n(B) = 90; n(A &cap; B) = 25 \nn(A &cup; B) =?\nNow, n(A &cup; B) = n(A) + n(B) - n(A &cap; B)\nn(A &cup; B) = 70 + 90 - 25\nn(A &cup; B) = 135\nHence, the number of trees planted by Parth or Pradnya is 135.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 62,
+    "isFree": true
+  },
+  {
+    "question": "If n(A) = 20, n(B) = 28 and n(A ∪ B) = 36 then n(A ∩ B) = ?",
+    "answer": "We have, \nn(A) = 20, n(B) = 28 and n(A &cup; B) = 36\nn(A &cup; B) = n(A) + n(B) - n(A &cap; B)\n36 = 20 + 28 - n(A &cap; B)\n36 = 48 - n(A &cap; B)\n∴ n(A &cap; B) = 48 - 36\n∴ n(A &cap; B ) = 12",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 63,
+    "isFree": true
+  },
+  {
+    "question": "In a class, 8 students out of 28 have a dog as their pet animal at home, 6 students have a cat as their pet animal.",
+    "answer": "Let U be the universe of students in a class, D is the set of dog keepers, and C is the set of students who keep cats.\nWe have, \nTotal number of students = 28; \nn (U) = 28\nn (D) = n (dog only) + n (dog and cat)\n= 8 + 10 = 18\n\nn (C) = n (Cat only) + n (dog and cat)\n= 6 + 10 = 16\nn (D &cup; C) = n (D) + n (C) − n (D &cap; C)\n= 18 + 16 - 10 \n= 34 − 10\n= 24 \nStudents who do not have a pet \n= n (U) − n (D &cup; C)\n= 28 − 24\n= 4\nSo, the number of students that do not have a dog or a cat as their pet is 4.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 64,
+    "isFree": true
+  },
+  {
+    "question": "Represent the union of two sets by Venn diagram for the following. A = {3, 4, 5, 7} B = {1, 4, 8}",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 65,
+    "isFree": true
+  },
+  {
+    "question": "Represent the union of two sets by Venn diagram for the following. P = {a, b, c, e, f} Q = {l, m, n, e, b}",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 66,
+    "isFree": true
+  },
+  {
+    "question": "Represent the union of two sets by Venn diagram for the following. X = {x | x is a prime number between 80 and 100} Y = {y | y is an odd number between 90 and 100}",
+    "answer": "X = {x | x is a prime number between 80 and 100} = {83, 89, 97};\nY = {y | y is an odd number between 90 and 100} = {91, 93, 95, 97, 99}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 67,
+    "isFree": true
+  },
+  {
+    "question": "Write the subset relations between the following sets. X = set of all quadrilaterals. Y = set of all rhombuses. S = set of all squares. T = set of all parallelograms. V = set of all rectangles.",
+    "answer": "Rhombus, squares, parallelograms and rectangles all are quadrilateral.\n∴ Y &sube; X, S &sube; X, T &sube; X, V &sube; X\nEvery square is a rhombus, parallelogram and rectangle.\n∴ S &sube; Y, S &sube; T, S &sube; V\nEvery rhombus and rectangle is a parallelogram.\n∴ Y &sube; T, V &sube; T",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 68,
+    "isFree": true
+  },
+  {
+    "question": "If M is any set, then write M ∪ ϕ and M ∩ ϕ.",
+    "answer": "If M is any set, then\nM &cup; phi = M \nand M &cap; phi = phi",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 69,
+    "isFree": true
+  },
+  {
+    "question": "Observe the Venn diagram and write the given sets U, A, B, A ∪ B, A ∩ B.",
+    "answer": "1) U = {1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 13}\n2) A = {1, 2, 3, 5, 7}\n3) B = {1, 5, 8, 9, 10}\n4) A &cup; B = {1, 2, 3, 5, 7, 8, 9, 10}\n5) A &cap; B = {1, 5}",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 70,
+    "isFree": true
+  },
+  {
+    "question": "If n(A) = 7, n(B) = 13, n(A ∩ B) = 4, then n(A ∪ B) =?",
+    "answer": "We have, \nn(A) = 7, n(B) = 13 and n(A &cap; B) = 4\nSince, n(A &cup; B) = n(A) + n(B) - n(A &cap; B)\n= 7 + 13 - 4\n∴ n(A &cup; B) = 16",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Sets",
+    "questionNumber": 71,
+    "isFree": true
+  },
+  {
+    "question": "Classify the decimal form of the given rational number into terminating and non-terminating recurring type. 135",
+    "answer": "Denominator = 5 = 1 × 5\nSince, 5 is the only prime factor denominator.\nThe decimal form of the rational number 13/5 will be terminating type.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Classify the decimal form of the given rational number into terminating and non-terminating recurring type. 2/11",
+    "answer": "Denominator = 11 = 1 × 11\nSince, the denominator is other than prime factors 2 or 5.\n∴ The decimal form of the rational number 2/11 will be non-terminating recurring type.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Classify the decimal form of the given rational number into terminating and non-terminating recurring type. 2916",
+    "answer": "Denominator = 16 = 2 × 2 × 2 × 2\nSince, 2 is the only prime factor in the denominator.\nThe decimal form of the rational number 29/16 will be terminating type.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Classify the decimal form of the given rational number into terminating and non-terminating recurring type. 17125",
+    "answer": "Denominator = 125 = 5 × 5 × 5\nSince, 5 is the only prime factor in the denominator.\nThe decimal form of the rational number 17/125 will be terminating type.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Classify the decimal form of the given rational numbers into terminating and non-terminating recurring type. 116",
+    "answer": "Since , 6 = 2¹ xx 5⁰ xx 3¹ \n&rArr; The denominator is not in the form of 2ᵐ xx 5 ⁿ, where m and n are non - negative integers.\nSo , the decimal form of 11/6 will be non-terminating reccuring type.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational number in decimal form. 127/200",
+    "answer": "1Show Solution127/200\n= 127/200 xx 5/5\n= 635/1000\n= 0.635",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational number in decimal form. 25/99",
+    "answer": "1Show Solution25/99 = 4/4 xx 25/99\n= 1/4 xx 100/99\n= 1/4 xx 1.010101...\n= 0.2525...\n= 0.25̅.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational number in decimal form. 237",
+    "answer": "1Show Solution23/7\n= 3.2857142857...\n= 3.285714̅",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational number in decimal form. 4/5",
+    "answer": "4/5\n= 4/5 × 2/2\n= 8/10\n= 0.8",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational number in decimal form. 17/8",
+    "answer": "1Show Solution17/8\n= 17/8 × 125/125\n= 2125/1000\n= 2.125",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational numbers in pq form. 0⋅6∙",
+    "answer": "Let x = 0.666.... = \\[\\ce{0.\\overset{\\bullet}{6}}\\]\n∴ 10x = 6.666... = \\[\\ce{0.\\overset{\\bullet}{6}}\\]\n∴ 10x − x = \\[\\ce{6.\\overset{\\bullet}{6} - 0.\\overset{\\bullet}{6}}\\]\n∴ 9x = 6\n∴ x = 6/9\n∴ x =2/3 \n∴ \\[\\ce{0.\\overset{\\bullet}{6}}\\] = 2/3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational number in p/q form. 0.bar37",
+    "answer": "Let x = 0.37̅ ...(1)\nMultiplying both sides by 100, we get\n100x = 37.37̅ ...(2)\nSubtracting (1) from (2), we get\n∴ 100x - x = 37.37̅ - 0.37̅\n∴ 99x = 37 \ntherefore x = 37/99\nSo, 0.37̅ = 37/99",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational numbers in p/q form. 3.bar17",
+    "answer": "Let x = 3.17 ...(1)\nMultiplying both sides by 100, we get\n100x = 317.17 ...(2)\nSubtracting (1) from (2), we get\n∴ 100x - x = 317.17 - 3.17\n∴ 99x = 314 \ntherefore x = 314/99\nSo, 3.17 = 314/99",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational number in p/q form. 15.bar89",
+    "answer": "Let x = 15.89̅ ...(1)\nMultiplying both sides by 100, we get\n100x = 1589.89̅ ...(2)\nSubtracting (1) from (2), we get\n∴ 100x − x = 1589.89̅ − 15.89̅\n∴ 99x = 1574\ntherefore x = 1574/99 \nSo, 15.89̅ = 1574/99",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational number in pq form. 2.bar514",
+    "answer": "Let x = 2.514̅ ...(1)\nMultiplying both sides by 1000, we get \n1000x = 2514.514̅ ...(2)\nSubtracting (1) from (2), we get\n∴ 1000x &ndash; x = 2514.514̅-2.514̅\n∴ 999x = 2512\ntherefore x = 2512/999\nSo, 2.514̅=2512/999",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Show that 42 is an irrational number.",
+    "answer": "Let us assume that 4√2 is a rational number.\n=> 4 √2 = p/q, where p and q are the integers and q ≠ 0.\n=> √2 = p/(4q)\nSince, p,q and 4 are integers. So, p/(4q) is a rational number.\nBut this contradicts the fact that √2 is an irrational number.\nThis contradiction has arisen due to the wrong assumption that 4 √2 is a rational number.\nHence, 4 √2 is an irrational number.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Prove that 3 +5 is an irrational number.",
+    "answer": "Let us assume that 3 + √5 is a rational number.\n=> 3 + √5 = p /q, where p and q are the integers and q ≠0.\n=> √5 = p/q - 3 = (p - 3q)/q\nSince p, q and 3 are integers. So, (p - 3q)/q is a rational number.\n∵ => √5 is an irrational number.\nThis contradiction has arisen due to the wrong assumption that 3 + √5 is a rational number.\nHence, 3 + √5 is an irrational number.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Represent the numbers 5 and 10 on a number line.",
+    "answer": "(i) Steps of construction for √5\nStep 1: Draw a number line. Mark O as the zero on the number line. \nStep 2: At point A, draw AB ⟂ OA such that AB = 1 unit.\nStep 3: With point O as the centre and radius OB, draw an arc intersecting the number line at point P.\nThus, P is the point for √5 on the number line.\n\n(ii) Steps of construction for √10\nStep 1: Draw a number line. Mark O as the zero on the number line.\nStep 2: At point A, draw AB ⟂ OA such that AB = 1 unit.\nStep 3: With point O as the centre and radius OB, draw an arc intersecting the number line at point C.\nThus, C is the point for √10 on the number line.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Write any three rational number between the two number given below. 0.3 and -0.5",
+    "answer": "1/2 [0.3 + (- 0.5)]\n= 1/2 (0.3 - 0.5)\n= 1/2 (- 0.2)\n= - 0.1\n1/2 (-0.1 + 0.3)\n= 1/2 (0.2)\n= 0.1\n1/2 [- 0.1 + (- 0.5)]\n= 1/2 (- 0.1 - 0.5)\n= 1/2 (- 0.6)\n= - 0.3\n∴ The three rational numbers between 0.3 and -0.5 are -0.3, -0.1 and 0.1",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Write any three rational numbers between the two numbers given below. −2.3 and −2.33",
+    "answer": "−2.3 = −2.300 and −2.33 = −2.330\n1/2 [−2.300 + (−2.330)]\n= 1/2 (−2.300 −2.330)\n= 1/2 (−4.630)\n= −2.315\n1/2 [−2.315 + (−2.300)] \n= 1/2 [−2.315 − 2.300]\n= 1/2 (−4.615)\n= −2.3075\n= 1/2 [−2.315 + (−2.330)]\n= 1/2 (−2.315 − 2.330)\n= 1/2 (−4.645)\n= −2.3225 \n∴ The three rational numbers between −2.3 and −2.33 are −2.315, −2.3025 and −2.3225.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Write any three rational number between the two number given below. 5.2 and 5.3",
+    "answer": "5.2 = 5.20 and 5.3 = 5.30\n1/2 (5.20 + 5.30)\n= 1/2 (10.50) = 5.25\n∴ The three rational numbers between 5.2 and 5.3 are 5.24 and 5.26.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Write any three rational numbers between the two number given below. -4.5 and -4.6",
+    "answer": "-4.5 = -4.50 and -4.6 = -4.60\n= 1/2[(-4.5) + (-4.6)]\n= 1/2 (-9.1)\n= -4.55\n∴ The three rational numbers between -4.5 and -4.6 are -4.51, -4.52 and -4.53.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "State the order of the surd given below.  root (3)(7)",
+    "answer": "root (3)(7) = 7 ^(1/3)\nThe order of the surd is 3.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "State the order of the surd given below. 512",
+    "answer": "5 √12\n= 5 xx 12^(1/2)\nThe order of the surd is 2.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "State the order of the surd given below. 104",
+    "answer": "root (4)(10)\n= 10^(1/4)\nThe order of the surd is 4.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "State the order of the surd given below. √39",
+    "answer": "√39\n= 39^(1/2)\nThe order of the surd is 2.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "State the order of the surd given below. root (3)(18)",
+    "answer": "root (3)(18)\n= 18^(1/3)\nThe order of the surd is 3.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "State whether the following number is a surd or not. 513",
+    "answer": "Since, root (3)(51)\n= (3 xx 17)^(1/3)\nSo, root (3)(51) is a surd.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "State whether the following number is a surd or not. root4 16",
+    "answer": "root (4)(16)\n= root (4)(2⁴)\n= (2 xx 2 xx 2 xx 2)^(1/4)\n= (2⁴)^(1/4)\n= 2 ....(Rational number)\nSo, root (4)(16) is not a surd.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 29,
+    "isFree": true
+  }
+]

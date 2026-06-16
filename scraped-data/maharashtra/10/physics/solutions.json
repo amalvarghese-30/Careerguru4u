@@ -1,0 +1,2422 @@
+[
+  {
+    "question": "Study the entries in the following table and rewrite them putting the connected items in a single row. I II III Mass m/s2 Zero at the centre Weight kg Measure of inertia Acceleration due to gravity",
+    "answer": "I\nII\nIII\n\nMass\nkg\nMeasure of inertia\n\nWeight\nN\nDepends on height\n\nAcceleration due to gravity\nm/s2 \nZero at the centre\n\nGravitational constant\nNm2/kg2\nSame in the entire universe",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "What is the difference between the mass and weight of an object?",
+    "answer": "Sr. No.\nMass\nWeight\n\n1.\nMass is the amount of matter contained in a body.\nWeight is the force exerted on a body due to the gravitational pull of another body, such as Earth, the sun, and the moon.\n\n2.\nMass is an intrinsic property of a body.\nWeight is an extrinsic property of a body.\n\n3.\nMass is the measure of inertia. \nWeight is the measure of force.\n\n4.\nThe mass of a body remains the same everywhere in the universe.\nThe weight of a body depends on the local acceleration due to gravity where it is placed.\n\n5.\nThe mass of a body cannot be zero.\nThe weight of a body can be zero.\n\n6.\nThe SI unit of mass is the kilogram (kg).\nSince weight is a force, its SI unit is the newton (N).\n\n7.\nThe mass of a body can be measured using a beam balance and a pan balance.\nThe weight of a body can be measured using a spring balance and a weighing machine.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Will the mass and weight of an object on the earth be same as their values on Mars? Why?",
+    "answer": "The mass of an object on the Earth will be same as that on Mars but its weight on both the planets will be different. This is because the weight (W) of an object at a place depends on the acceleration due to gravity of that place i.e. W = mg or W &prop; g and since the values of acceleration due to gravity on both the planets differ, thus the weight of the object will be different for both the planets.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "What is the free fall?",
+    "answer": "The motion of any object under the influence of the force of gravity alone is called free fall.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "What is the acceleration due to gravity?",
+    "answer": "ccording to Newton&rsquo;s second law of motion, a force acting on a body results in its acceleration. Thus, the gravitational force due to the earth on a body results in its acceleration. This is called acceleration due to gravity and is denoted by &lsquo;g&rsquo;.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "What are escape velocity?",
+    "answer": "The minimum velocity required to project an object to escape from the Earth's gravitational pull is known as escape velocity. It is given as: vesc = √((2\"GM\")/\"R\")",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "What is centripetal force?",
+    "answer": "The force required to keep an object under circular motion is known as centripetal force. This force always acts towards the centre of the circular path.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Write the three laws given by Kepler. How did they help Newton to arrive at the inverse square law of gravity?",
+    "answer": "The orbit of a planet moving around the sun\nKepler&rsquo;s first law: The orbit of a planet is an ellipse with the Sun at one of the foci.\nIn the above figure, the elliptical orbit of a planet revolving around the sun. The position of the Sun is indicated by S.\nKepler&rsquo;s second law: The line joining the planet and the sun sweeps equal areas in equal intervals of time. \nA → B, C → D and E → F are the displacements of the planet in equal intervals of time.\nThe straight lines AS and CS sweep equal areas in equal intervals of time, i.e., area ASB and CSD are equal.\nKepler&rsquo;s third law: The square of its period of revolution around the Sun is directly proportional to the cube of the mean distance of a planet from the Sun.\nThus, if r is the average distance of the planet from the Sun and T is its period of revolution, then\nT2 α r3 i.e., (T²)/(r³) = constant = K\nFor simplicity, we shall assume the orbit to be a circle.\n\nCircular motion of planet around the sun\nS denotes the position of the Sun, P denotes the position of a planet at a given instant, and r denotes the radius of the orbit (= the distance of the planet from the Sun). Here, the speed of the planet is uniform.\nv = \"distance travelled\"/\"time taken\"\n= (2pir)/T\nIf m is the mass of the planet, the centripetal force exerted on the planet by the Sun (= gravitational force),\nF = (mv²)/r\nF = (m ((2pir)/T)²)/r\nF = (4 m pi²r)/T²\nMultiplying and dividing by r2 we get,\nF = (4 m pi²)/r²\nF = (r³/T²) ...(i)\nAccording to Kepler&rsquo;s third law,\nT²/r³ = K ...(ii) [∵ K = constant]\nSubstituting (ii) in (i)\nF = (4m pi²)/(K) xx 1/r²\nF = constant × 1/r² [∵ where, (4 m pi²)/K = constant]\n∴ F prop 1/r²",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "A stone is thrown vertically upwards with initial velocity u reaches a height ‘h’ before coming down. Show that the time taken to go up is the same as the time taken to come down.",
+    "answer": "We have v = u + at ...(1)\nand s = ut + 1/2 \"at\"² ...(2)\n∴ s = (\"v\" - \"at\")\"t\" + 1/2\"at\"²\n= \"vt\" - \"at\"²+1/2\"at\"²\n∴ \"s\" = \"vt\" - 1/2 \"at\"² ...(3)\nAs the stone moves upward from (A → B) [AB = h]\nS = AB = h, t = t1,\na = − g (retardation)\nu = u and v = 0\n∴ From Eq. (3), h = 0 − 1/2 (-\"g\")\"t\"₁²\n∴ h = 1/2\"gt\"₁² ...(4)\nAs the stone moves downward from (B → A)\nt = t2, u = 0, s = h and a = g\n∴ From Eq. (2), h = 1/2\"gt\"₂² ...(5)\nFrom Eqs. (4) and (5), \n\"t\"₁² = \"t\"₂²\n∴ \"t\"₁ = \"t\"₂ (∵ t1, t2 are positive.)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "If the value of g suddenly becomes twice its value, it will become two times more difficult to pull a heavy object along the floor. Why?",
+    "answer": "The weight of an object is defined as the force with which the earth attracts the object. It is given as,\nW = F = mg.\nThe weight of an object depends on the mass of the object and the value of acceleration due to gravity.\nIf the value of g doubles, the force with which the earth attracts the object also becomes twice.\nThus, the object becomes twice as heavier, making it harder to be pulled along the floor.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Explain why the value of g is zero at the centre of the earth.",
+    "answer": "The value of g changes as one travels deeper into the earth. It decreases as we move from the earth&rsquo;s surface to its centre. We will assume the earth as a uniformly dense sphere. Consider a particle of mass m at point P at a distance (R − d) from the earth&rsquo;s centre. the gravitational force on the particle due to the earth is\n\nF = (GmM')/((R - d)²), where M' is the mass of the sphere of radius (R − d).\nDensity = \"Mass\"/\"Volume\"\n∴ Mass = volume × density\n∴ M' = 4/3 pi (R - d)³ xx M/(4/3 pi R³) = (M(R - d)³)/R³\nThis is because the outer spherical shell is not effective. In this case, the acceleration due to gravity is \ng = F/m = G/((R - d)²),\n(M (R - d)³)/R³ = (GM (R - d))/R³\nWhere M is the mass of the earth. Thus, g decreases as d increases. It is less than that at the earth&rsquo;s surface ((GM)/R²). At the earth&rsquo;s centre, d = R ∴ g = 0.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Let the period of revolution of a planet at a distance R from a star be T. Prove that if it was at a distance of 2R from the star, its period of revolution will be 8 T.",
+    "answer": "From Kepler's third law of planetary motion, we have\n\\[T^2 \\propto r^3\\] ..........(i)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "An object takes 5 s to reach the ground from a height of 5 m on a planet. What is the value of g on the planet?",
+    "answer": "Given: Time (t) = 5 s, height (s) = 5 m\ns = ut + 1/2 gt2\n5 = 0 xx 5 + 1/2 g(5)²\n∴ 5 = 1/2 g xx 25\n∴ g = 2/5\n∴ g = 0.4 m/s2 \nThe gravitational acceleration of the planet is 0.4 m/s2.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "The radius of planet A is half the radius of planet B. If the mass of A is MA, what must be the mass of B so that the value of g on B is half that of its value on A?",
+    "answer": "1Show SolutionThe acceleration due to gravity of a planet is given as\n\\[\\text{g} = \\frac{\\text{GM}}{\\text{r}^2}\\]\nFor planet A: \n\n\\[\\text{g}_\\text{A} = \\frac{\\text{GM}_A}{\\text{r}_\\text{A}^2}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "The mass and weight of an object on earth are 5 kg and 49 N respectively. What will be their values on the moon? Assume that the acceleration due to gravity on the moon is 1/6th of that on the earth.",
+    "answer": "Given: Mass on earth (me) = 5 kg, weight on earth (We) = 49 N,\nacceleration due to gravity on moon (gm) = 9.8/6 m/s2 = 1.6333 m/s2\nTo find: Mass (mm), weight (Wm) on moon\nFormula: Wm = mmgm\nCalculation: The mass of the object is independent of gravity and remains unchanged i.e., 5 kg.\nFrom formula,\nWm = 5 × 1.6333\n∴ Wm = 8.1665 N &asymp; 8.17 N\nOn moon, the mass of the object is 5 kg and the weight is 8.17 N.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "An object thrown vertically upwards reaches a height of 500 m. What was its initial velocity? How long will the object take to come back to the earth? Assume g = 10 m/s2",
+    "answer": "From newton&rsquo;s third equation of the motion;\nV2 = u2 + 2as\n\nWhere;\n\nV = Final velocity;\n\nU = initial velocity;\n\nT = time taken;\n\nS = distance travelled;\n\nA = acceleration;\nAccording to our question;\n\nThe figure below illustrates the situation given in the question\n\nV = 0 (Velocity at maximum height is zero);\n\nS = 500m ;\n\nA = -10 m/s2 (because when object will be going up the acceleration due to gravity will be acting downwards to make object to fall. Hence by sign convention direction of motion and acceleration is opposite therefore a is negative);\nPutting the above values we get\n\n02 = u2 + (2 x (-10) x 500)\n\n0 = u2 - 10000\n\nu2 = 10000\n\n&rArr; u = √10000 =100\nTherefore initial velocity is 100m/s.\n\nFrom the Newton&rsquo;s first law of motion;\nv = u + at\n\nWhere symbols have there usual meanings as above;\n\nv = 0 (velocity at maximum height is zero);\n\nu = initial velocity = 100m/s;\n\na = - 10m/s2 (because when object will be going up the acceleration due to gravity will be acting downwards to make object to fall. Hence by sign convention direction of motion and acceleration is opposite therefore a is negative);\nPutting the values we get;\n0 = 100 + ( -10t )\n\n= 100 = 10t\n\nt = 100/10 = 10s\nNow we know that time required by an object to go up is same as time required to come down.\nTherefore;\n\nTotal time = time of ascent + time of descent \n= 10 + 10 = 20 s\n\nHence total time to come back to earth is 20 seconds.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "A ball falls off a table and reaches the ground in 1 s. Assuming g = 10 m/s2, calculate its speed on reaching the ground and the height of the table.",
+    "answer": "Here, t =1 s\ng = 10 m/s2\nu = 0\nLet v be the velocity of the ball on reaching the ground.\nThus, from first equation of motion, we have\nv = u + gt\n&rArr; v = 10 x 1 = 10 m/s\nHence, the speed of the object on reaching the ground is 10 m/s.\nLet h be the height of the table. Thus, from the second equation of motion, we have \n\"S\" = \"ut\" + 1/2 \"gt\"²\n&rArr; \"h\" = 0 + 1/2 xx 10×1²\n&rArr; h = 5 m \nHence, the height of the table is 5 m.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "The masses of the earth and moon are 6 × 1024 kg and 7.4 × 1022 kg, respectively. The distance between them is 3.8 × 105 km. Calculate the gravitational force of attraction between the two?",
+    "answer": "the mass of the earth, M = 6 × 1024 kg\nthe mass of the moon,\nm = 7.4 × 1022 \nthe distance between the earth and the moon,\nd = 3.84 × 105 km\n= 3.84 × 105 × 1000 m\n= 3.84 × 108 m\nG = 6.7 × 10-11 Nm2kg-2 \nthe force exerted by the earth on the moon is\nF = (\"G\" \"M\" xx \"m\")/\"d\"² \n= (6.7 xx 10⁻11 \"Nm\"²\"kg\"⁻2 xx 6 xx 10²⁴ \"kg\" xx 7.4 xx 10²² \"kg\")/(3.84 xx 10⁸ \"m\")²\n= ((6.7 xx 10⁻11) xx (6 xx 10²⁴) xx (7.4 xx 10²²))/(3.84 xx 10⁸)²\n= (6.7 xx 6 xx 7.4)/(3.84 xx 3.84) xx 10¹⁹\n= 2 × 1020 N.\nThus the force exerted by the earth on the moon is 2 × 1020 N.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "The mass of the earth is 6 × 1024 kg. The distance between the earth and the sun is 1.5 × 1011 m. If the gravitational force between the two is 3.5 × 1022 N, what is the mass of the sun?",
+    "answer": "Given: Mass of the earth (Me) = 6 × 1024 kg,\nGravitational force (F) = 3.5 × 1022 N,\nDistance (R) = 1.5 × 1011 m,\nGravitational constant (G) = 6.7 × 10-11 Nm2/kg2\nThe gravitational force between the Sun and the Earth can be found out using the formula,\n\nF = (\"G\"\"m\"₁\"m\"₂)/\"r\"²",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Gravitation",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Rearrange the columns 2 and 3 so as to match with the column 1. Column 1 Column 2 Column 3 i. Triadii. Octaveiii. Atomic numberiv. Periodv.",
+    "answer": "Column I",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "The Number of Electrons in the Outermost Shell of Alkali Metals is ..... 1 2 3 7",
+    "answer": "1237",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "The molecular formula of the chloride of an element X is XCl. This compound is a solid having a high melting point. Which of the following elements be present in the same group as X.",
+    "answer": "NaMgAlSi",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "In which block of the modern periodic table are the nonmetals found?(i) s-block (ii) p-block(iii) d-block (iv) f-block",
+    "answer": "p-blockd-blockf-block",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "An element has its electron configuration as 2, 8, 2. Now answer the following question. What is the atomic number of this element?",
+    "answer": "The atomic number of this element is 12.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "An element has its electron configuration as 2, 8, 2. Now answer the following question. What is the group of this element?",
+    "answer": "The number of electrons in the element's outermost shell is two. This means it has a valency of 2. As a result, it belongs to Group 2.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "An element has its electron configuration as 2, 8, 2. Now answer the following question. To which period does this element belong?",
+    "answer": "The element with an electron configuration of 2, 8, 2 belongs to the third period of the periodic table. The period number corresponds to the number of electron shells or energy levels occupied by electrons in an atom. Since this configuration indicates electrons in three shells (2 electrons in the first shell, 8 in the second, and 2 in the third), the element is in the third period.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "An element has its electron configuration as 2, 8, 2. Now answer the following question. With which of the following elements would this element resemble? (Atomic numbers are given in the brackets)",
+    "answer": "The element would resemble beryllium (Be).\nExplanation:\nThe given element has an electron configuration of 2, 8, 2, indicating that it contains two electrons in its outermost shell. It resembles beryllium (Be), which likewise possesses two valence electrons. Elements with the same number of valence electrons have similar chemical characteristics. Thus, the provided element resembles beryllium.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Write down the electronic configuration of the following elements from the given atomic numbers. 3Li, 14Si, 2He, 11Na, 15P Which of these elements belong to be period 3?",
+    "answer": "3Li, 14Si, 2He, 11Na, 15P\nElectronic configuration of the following elements is:\n3Li = 2,1\n14Si = 2,8,4\n2He = 2\n11Na = 2,8,1\n15P = 2,8,5\n14Si, 11Na, 15P belong to the third period because according to their electronic configuration, each element contains three shells i.e. K,L,M.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Write Down the Electronic Configuration of the Following Elements from the Given Atomic Numbers. Answer the Following Question with Explanation. Of These Elements Belong Tot He Second Group?",
+    "answer": "1H, 7N, 20Ca, 16S, 4Be, 18Ar\nElectronic configuration of the following elements is:\n1H = 1\n7N = 2,5\n20Ca = 2,8,8,2\n16S = 2,8,6\n4Be = 2,2\n18Ar = 2,8,8\n20Ca, 4Be belong to second group because these elements have 2 electrons in its outermost shell.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Write down the electronic configuration of the following elements from the given atomic numbers. Answer the following question with explanation. 7N, 6C, 8O, 5B, 13Al Which is the most electronegative",
+    "answer": "7N, 6C, 8O, 5B, 13Al\nThe electronic configuration of the following elements is:\n7N =2, 5\n6C = 2, 4\n8O = 2, 6\n5B = 2, 3\n13Al = 2, 8, 3\n8O is the most electronegative element among these because electronegativity increases as we move from left to right in a period of the periodic table.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Write Down the Electronic Configuration of the Following Elements from the Given Atomic Numbers. Answer the Following Question with Explanation. 4be, 6c, 8o, 5b, 13al Which is the Most",
+    "answer": "4Be, 6C, 8O, 5B, 13Al\nElectronic configuration of the following elements is:\n4Be = 2,2 \n6C = 2,4 \n8O = 2,6\n5B = 2,3\n13Al = 2,8,3\n13Al is the most electropositive element among these because 4Be, 6C, 8O, 5B belong to same period, but 13Al belong to next period. According to the trend, electropositive character of an elements increases as we move from top to bottom in a group of the periodic table. This happens as the tendency of an atom to lose electrons increases due to decrease in nuclear charge and increase in numbers of shell.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Write Down the Electronic Configuration of the Following Elements from the Given Atomic Numbers. Answer the Following Question with Explanation. 11na, 15p, 17cl, 14si, 12mg Which of These",
+    "answer": "11Na, 15P, 17Cl, 14Si, 12Mg\nElectronic configuration of the following elements is:\n11Na = 2,8,1\n15P = 2,8,5\n17Cl = 2,8,7\n14Si = 2,8,4\n12Mg = 2,8,2\n11Na has largest size among these because according to the trend, atomic radius decreases as we move from left to right in a period of the periodic table. The atomic number of elements increases which means the number of protons and electrons in the atoms increases. Due to large positive charge on the nucleus, the electrons are pulled closer to the nucleus and the size of atom decreases.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Write Down the Electronic Configuration of the Following Elements from the Given Atomic Numbers. Answer the Following Question with Explanation. 19k, 3li, 11na, 4be Which of These Atoms Has Smallest",
+    "answer": "19K, 3Li, 11Na, 4Be\nElectronic configuration of the following elements is:\n19K = 2,8,8,1 \n3Li = 2,1\n11Na = 2,8,1\n4Be = 2,2\n4Be has smallest atomic radius because 19K, 3Li, 11Na are present in same group 1 but Be is present in group 2. According to the trend, as we move from left to right atomic size of an atoms decreases. Due to large positive charge on the nucleus, the electrons are pulled closer to the nucleus and the size of atom decreases.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Write down the electronic configuration of the following elements from the given atomic numbers. 13Al, 14Si, 11Na, 12Mg, 16S Which of the above elements has the highest metallic character?",
+    "answer": "13Al, 14Si, 11Na, 12Mg, 16S\nElectronic configuration of the following elements is:\n13Al = 2,8,3\n14Si = 2,8,4\n11Na = 2,8,1\n12Mg = 2,8,2\n16S = 2,8,6\n11Na has the highest metallic character because metallic character of an elements decreases as we move from left to right in a modern periodic table. This happens as the tendency of an atom to lose electrons decreases due to gradual increase in the number of protons and nuclear charge.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Write Down the Electronic Configuration of the Following Elements from the Given Atomic Numbers. Answer the Following Question with Explanation. 6c, 3li, 9f, 7n, 8o Which of the Above Elements",
+    "answer": "6C, 3Li, 9F, 7N, 8O\nElectronic configuration of the following elements is:\n6C = 2,4\n3Li = 2,1\n9F = 2,7\n7N = 2,5\n8O = 2,6\n9F has the highest nonmetallic character because non-metallic character of an elements increases as we move from left to right in a period of the periodic table. This happens as the tendency of an atom to gain electrons increases due to increase in nuclear charge, the valence electrons are pulled in strongly by the nucleus and it becomes easier for an atom to gain electrons.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Write the name and symbol of the element from the description. The atom having the smallest size.",
+    "answer": "Helium (He)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Write the name and symbol of the element from the description. The atom having the smallest atomic mass.",
+    "answer": "Name: Hydrogen\nSymbol: H",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Write the name and symbol of the element from the description. The most electronegative atom.",
+    "answer": "Name: Fluorine\nSymbol: F",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Write the name and symbol of the element from the description. The noble gas with the smallest atomic radius.",
+    "answer": "Name: Helium\nSymbol: He",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Write the Name and Symbol of the Element from the Description.The Most Reactive Nonmetal.",
+    "answer": "Fluorine (F)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Write a short note. Mendeleev’s periodic law.",
+    "answer": "Mendeleev&rsquo;s periodic law.\n\nAccording to Mendeleev&rsquo;s Periodic Law, &ldquo;Physical and chemical properties of elements are a periodic function of their atomic masses&rdquo;.\nMendeleev classified elements according to their atomic masses and arranged these elements in increasing order of their atomic masses.\nMendeleev classified the periodic table into horizontal rows and vertical columns. The horizontal rows are called periods, and the vertical columns are called groups. Mendeleev&rsquo;s Periodic Table contains seven horizontal rows and 8 vertical columns.\nThe elements with similar properties come into the same group.\nMendeleev also left gaps in his periodic table for undiscovered elements like aluminium, silicon, and Boron in his periodic table and named them Eka-Aluminium, Eka-silicon, and Eka-Boron.\nMendeleev not only predicted the existence of Eka-Aluminium, Eka-silicon and Eka-Boron but also described the general physical properties of these elements.\nThese elements were discovered later and named Gallium, Germanium and Scandium.\nMendeleev's periodic table could predict the properties of several elements on the basis of their position in the periodic table.\nMendeleev's periodic table could accommodate noble gases when they were discovered.\n\nDemerits of Mendeleev's periodic table:\n\nThe position of isotopes could not be explained.\nThe wrong order of atomic masses of some elements could not be explained.\nPosition of Hydrogen could not be assigned in a periodic table.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Write a short note. Structure of the modern periodic table.",
+    "answer": "Structure of the modern periodic table: \nPeriodic Table: It is the table of chemical elements arranged in order of atomic number such that elements with similar atomic structure appear in the vertical columns. The Modern periodic law states that The chemical and physical properties of elements are a periodic function of their atomic numbers. The modern periodic table is based on modern periodic law. \n\nGroups: There are 18 vertical columns in the periodic table. Each column is called a group. All elements in a group have similar chemical and physical properties because they have the same number of valence electrons.\nPeriods: In periodic table elements are arranged in a series of rows. Elements of the same period have the same number of electron shells.\nBlocks: The table is divided into four blocks: s-block, p-block, d-block, and f-block, based on the type of orbital being filled. s- and p-blocks are called representative elements, d-block are transition metals, and f-block are inner transition elements (lanthanides and actinides).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Write a short note. Position of isotopes in the Mendeleev’s and the modern periodic table.",
+    "answer": "Isotopes: Isotopes are the atoms having the same atomic number but different atomic masses.\nTherefore, according to Mendeleev&rsquo;s classification, these should be placed at different places depending upon their atomic masses.\nFor example, hydrogen isotopes with atomic masses 1,2 and 3 should be placed at three places. However, isotopes have not been given separate places in the periodic table because of their similar properties. So this was a drawback of Mendeleev's periodic table as he could not explain the position of isotopes.\nThe modern periodic table is based upon the arrangement of the elements on the basis of their atomic number. So, all the isotopes of hydrogen should be placed at the same place depending upon their atomic number.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reasons for the following: Atomic radius goes on decreasing while going from left to right in a period.",
+    "answer": "While going from left to right within a period, the atomic number increases one by one, meaning the positive charge on the nucleus increases by one unit at a time.\nHowever, the additional electron gets added to the same outermost shell. Due to the increased nuclear charge, the electrons are pulled towards the nucleus to a greater extent, and thereby the size of the atom decreases.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Write a scientific reason. Metallic character goes on decreasing while going from left to right in a period.",
+    "answer": "n atom's metallic nature is characterised by its propensity for losing electrons.\nElectrons are added to the same outermost shell as they move from left to right over time. At the same time, protons are added to the nucleus, increasing its charge.\nAs a result of the higher effective nuclear charge, these electrons are attracted to the nucleus more strongly.\nAs a result, it is more difficult to remove a valence electron from an atom.\n\nHence, metallic character goes on decreasing while going from left to right in a period.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Write a scientific reason. Atomic radius goes on increasing down a group.",
+    "answer": "tomic radius increases as we move from top to bottom in a group because a new shell of electrons is added to the atoms at every step.\nThe number of electron shells increases gradually, due to which the size of the atoms increases.\nAs the size of the atoms increases, it leads to an increase in the atomic radius.\nThe distance between the nucleus and the outermost electrons increases, so the attractive force of the nucleus decreases.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reason. Elements belonging to the same group have the same valency.",
+    "answer": "The valency of an element is determined by the number of valence electrons in the outermost shell of an atom of an element.\nAll the elements in a group have the same number of valence electrons. Therefore, elements in the same group should have the same valency.\nFor example, the elements of group I contain only one valence electron, the valency of elements of group I is one. Similarly for group II, the valency is two.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Write the scientific reason. The third period contains only eight elements even though the electron capacity of the third shell is 18",
+    "answer": "The current periodic table consists of seven horizontal rows, known as periods. Periodic elements are ordered in increasing order of atomic numbers. The third row consists of 8 elements, with an electron capacity of 18.\nDuring the third period, the atomic number and number of electrons in the shell rise as you move left to right. The number of elements in the third period is determined by electronic configuration and the octet rule.\n\nAtomic No.\n11\n12\n13\n14\n15\n16\n17\n18\n\nElements\nNa\nMg\nAl\nSi\nP\nS\nCl\nAr\n\nArgon (Ar) is the final element of the third period with a maximum capacity of 18 electrons. The octet of electrons is full, and because argon belongs to the zero group, the third shell has 18 electrons.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Write the name from the description. The period with electrons in the shells K, L and M.",
+    "answer": "The period with electrons in the shells K, L and M = 3 period",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "Write the name from the description. The group with valency zero.",
+    "answer": "The group with valency zero = Group 18 noble elements",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "Write the name from the description. The family of nonmetals having valency one.",
+    "answer": "The family of nonmetals having valency one = Halogens",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "Write the name from the description. The family of metals having valency one.",
+    "answer": "The family of metals having valency one = Alkali metals",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "Write the name from the description. The family of metals having valency two.",
+    "answer": "The family of metals having valency two = Alkaline earth metals",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "Write the names from the description. The metalloids in the second and third periods.",
+    "answer": "Boron and Silicon.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "Write the names from the description. Non-metals in the third period.",
+    "answer": "The third period includes only 4 non-metals. These are as follows.\n\nPhosphorous (P)\nSulfur (S)\nChlorine (Cl)\nArgon (Ar)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "Write the names from the description. Two elements having valency 4.",
+    "answer": "Carbon and Silicon.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Periodic Classification of Element",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "Choose the Correct Option from the Bracket and Explain the Statement Giving Reason.To Prevent Rusting, a Layer of ........ Metal is Applied on Iron Sheets.",
+    "answer": "To prevent rusting, a layer of zinc metal is applied on iron sheets.\nReason:\nZinc is a non-corrosive metal. Therefore, layer of zinc prevents rusting.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Choose the Correct Option from the Bracket and Explain the Statement Giving Reason.The Conversion of Ferrous Sulphate to Ferric Sulphate is ........ Reaction.",
+    "answer": "The conversion of ferrous sulphate to ferric sulphate is an oxidation reaction. \nExplanation:\nOxidation means losing one or more electrons. During this conversion, Fe2+ is converted into Fe3+ by losing one electron. Therefore, it is an oxidation reaction.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "What is the reaction called when oxidation and reduction take place simultaneously? Explain with one example.",
+    "answer": "1Show SolutionThe process in which oxidation and reduction occur simultaneously is called as redox reaction.\n\nOxidation is the loss of electrons or an increase in oxidation state by a molecule, atom, or ion.\nReduction is the gain of electrons or a decrease in oxidation state by a molecule, atom, or ion.\n\nFor example: If we add a stannous chloride solution to the yellow solution of ferric chloride then light green ferrous chloride solution and stannic chloride solution are produced.\n\n\\[\\ce{2FeC l_{3(aq)} + SnC I_{2(aq)} -> 2FeC l_{2(aq)} + SnC I_{4(aq)}}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Write answer to the following. How can the rate of the chemical reaction, namely, decomposition of hydrogen peroxide be increased?",
+    "answer": "\\[\\ce{\\underset{peroxide}{\\underset{Hydrogen}{2H2O}_{2(l)}} -> \\underset{water}{2H2O} + \\underset{oxygen}{O2\\uparrow}}\\]\n\nThe decomposition of hydrogen peroxide (H2O2) into water and oxygen takes place slowly at room temperature.\nHowever, hydrogen peroxide decomposes rapidly in the presence of manganese dioxide (MnO2) powder, which acts as a catalyst.\nThus, by adding manganese dioxide (MnO2) powder, the rate of a chemical reaction can be increased.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Explain the term reactant and product giving examples.",
+    "answer": "Reactant: The substance which take part in a chemical reaction are called reactants.\nProduct: the substance which forms as a result of chemical reaction is called products.\nThe new substance produced as a result of chemical reaction is called products.\nFor example: When two sodium atoms react with two chlorine atoms(reactants), they give a completely new compound (product) i.e. sodium chloride (two atoms).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Explain the types of reaction with reference to oxygen and hydrogen. Illustratre with examples.",
+    "answer": "There are three main types of chemical reactions with reference to oxygen and hydrogen: \n\nCombination Reaction\nWhen two atoms react to form a compound, it is known as a combination reaction.\nFor example: \\[2 H_2 + O_2 \\to 2 H_2 O\\]\nDecomposition Reaction\nWhen a compound breaks into simple molecular substances from which it is made up, it is known as a decomposition reaction.\nFor example: \\[2 H_2 O \\to 2 H_2 + O_2\\]\n\nOxidation and reduction reaction:\nOxidation:\n\nThe addition of oxygen to a substance is called oxidation.\nThe removal of hydrogen to a substance is called oxidation.\n\nReduction:\n\nThe addition of hydrogen to a substance is called reduction.\nThe removal of oxygen to a substance is called reduction.\nFor example: \\[CuO + H_2 \\to Cu + H_2 O\\]\n\nIn the above reaction, copper oxide is changing to Cu. That is, oxygen is being removed from copper oxide. So, copper oxide is being reduced to copper.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Write the answer to the following. Explain the similarity and difference in two events, namely adding NaOH to water and adding CaO to water.",
+    "answer": "Chemical equations involved:\n\n\\[\\ce{NaOH(s)+H2O(l) -> {Na}^+_{(aq)} + OH^-_{(aq)} + \\triangle (HEAT)}\\]\n\\[\\ce{CaO(s) + H2O(l) -> Ca(OH)2(aq) + \\triangle(HEAT)}\\]\n\nSimilarities:\n\nBoth of the equations are exothermic. It means a lot of heat is evolved during the reaction.\nBoth reactions form strong basic solutions\n\n Differences:\n\nSodium Hydroxide is a strong base that dissociates to form Na+ and OH− ions While Calcium oxide adds water to form Calcium Hydroxide which further dissociates.\nNaOH is a monoacidic base. and CaO is a diacidic base.\n NaOH and CaO should be added to water gradually with constant stirring. CaO, on reacting with water, produces a basic solution called Calcium hydroxide which is used for whitewashing and this reaction is more dangerous as compared to NaOH.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Explain the term with examples. Endothermic reaction",
+    "answer": "Endothermic reaction:\nAn endothermic reaction is any chemical reaction that absorbs heat from its environment. The absorbed energy provides the activation energy for the reaction to occur. A hallmark of this type of reaction is that it feels cold.\nA good example of an endothermic reaction involves dissolving a salt. The salt doesn't have to be table salt, and the solvent doesn't need to be water. \n\nThe reaction of barium hydroxide octahydrate crystals with dry ammonium chloride\nDissolving ammonium chloride in water\nThe reaction of thionyl chloride (SOCl2) with cobalt(II) sulphate heptahydrate\nMixing water and ammonium nitrate\nMixing water with potassium chloride\nReacting ethanoic acid with sodium carbonate\nPhotosynthesis (chlorophyll is used to react carbon dioxide plus water plus energy to make glucose and oxygen)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Explain the  terms with examples.  Combination reaction",
+    "answer": "Combination reaction:\nThose reactions in which two or more substances combine to form single substance is called combination reaction\nFor example : Magnesium and oxygen combine, when heated, to form magnesium oxide.\n\n\\[2Mg + O_2 \\to 2MgO\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Terms with Examples. Balanced Equation",
+    "answer": "balanced equation is an equation for a chemical reaction in which the number of atoms for each element in the reaction and the total charge are the same for both the reactants and the products. In other words, the mass and the charge are balanced on both sides of the reaction.\nThe balanced equation is:\n2 Fe2O3 + 3 C → 4 Fe + 3 CO2\nBoth the left and right sides of the equation have 4 Fe, 6 O, and 3 C atoms. When you balance equations, it's a good idea to check your work by multiplying the subscript of each atom by the coefficient. When no subscript is cited, consider it to be 1. It's also good practice to cite the state of matter of each reactant. This is listed in parentheses immediately following the compound. For example, the earlier reaction could be written as:\n2 Fe2O3(s) + 3 C(s) → 4 Fe(s) + 3 CO2(g)\nwhere s indicates a solid and g is a gas state of matter.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Explain the terms with examples. Displacement reaction",
+    "answer": "Displacement reaction:\nDisplacement reaction is a chemical reaction in which a more reactive element displaces a less reactive element from its compound. Both metals and non-metals take part in displacement reactions. Chemical reactivity of metals is linked with their relative positions in the activity series.\nA metal placed higher in the activity series can displace the metal that occupies a lower position from the aqueous solution of its salt.\n\nFor example:\nZn(s) + CuSO4(aq) → ZnSO4(aq) + Cu(s)\n2AI(s) + 3CuSO4(aq) → 3Cu(s) + AI2(SO4)3(aq)\nFe(s) + CuSO4(aq) → Cu(s) + FeSO4(aq)\nPb(s) +CuCI2(aq) → PbCI2(aq) + Cu(s)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific reason. When the gas formed on heating limestone is passed through freshly prepared lime water, the lime water turns milky.",
+    "answer": "When limestone is heated, calcium oxide and carbon dioxide gas are formed.\n\\[\\ce{\\underset{\\text{carbonate}}{\\underset{\\text{Calcium}}{CaCO_{3(s)}}} + Heat -> \\underset{\\text{oxide}}{\\underset{\\text{Calcium}}{CaO_{(s)}}} + \\underset{\\text{dioxide}}{\\underset{\\text{Carbon}}{CO2\\uparrow}}}\\]\nWhen carbon dioxide gas is passed through freshly prepared lime water, the solution turns milky due to the formation of calcium carbonate, which is insoluble in water.\n\\[\\ce{\\underset{\\text{hydroxide}}{\\underset{\\text{Calcium}}{Ca(OH)2_{(aq)}}} + \\underset{\\text{dioxide}}{\\underset{\\text{Carbon}}{CO_{2(g)}}} -> \\underset{\\text{carbonate}}{\\underset{\\text{Calcium}}{CaCO_{3(s)}}} + \\underset{\\text{Water}}{H2O_{(l)}}}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reason. It takes time for pieces of Shahabad tile to disappear in HCl, but its powder disappears rapidly.",
+    "answer": "The rate of a chemical reaction depends upon the size of the reactant particles taking part in the reaction.\nSmaller the size of the reactant particles, higher is the rate of reaction.\nThe size of reactant particles is more in pieces of Shahabad tile as compared to powder of Shahabad tile.\nWhen HCl is added to pieces of Shahabad tile, the CO2 effervescence is formed slowly. However, when HCl is added to Shahabad powder, the CO2 effervescence is formed at a faster rate. \nHence, it takes time for pieces of Shahabad tile to disappear in HCl, but its powder disappears rapidly.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reason. While preparing dilute sulphuric acid from concentrated sulphuric acid in the laboratory, the concentrated sulphuric acid is added slowly to water with constant stirring.",
+    "answer": "1Show Solution\nThe preparation of dilute sulphuric acid falls into the category of an extreme exothermic process.\nDuring the preparation of dilute sulphuric acid, a large amount of water is taken into a glass container that is surrounded by ice. Cool it for twenty minutes. Now a small quantity of conc. H2SO4 is added slowly with stirring. Therefore, only a small amount of heat is liberated at a time. In this way, dilute sulphuric acid is prepared.\nOn the other hand, in the process of dilution or conc. sulphuric acid with water, a very large amount of heat is liberated. As a result, water gets evaported instantaneously if it is poured into conc. H2SO4, which may cause an accident.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reason. It is reccommended to use air tight container for storing oil for long time.",
+    "answer": "When edible oil is left aside for long time, it undergoes air oxidation.\nDue to this, the taste and smell of oil changes and it becomes rancid. If food is cooked in this oil, its taste also changes.\nThus, the oil will become unfit for consumption.\nThe process of oxidation reaction of oil can be slowed down by storing it in air tight container. \nHence, it is recommended to use air tight container for storing oil for long time.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Observe the following picture a write down the chemical reaction with the explanation.",
+    "answer": "The rusting of iron is an oxidation process. The rust on iron does not form by a simple reaction between oxygen and iron surface. The rust is formed by an electrochemical reaction. 'Fe' oxidises to Fe2O3.XH2O (Rust) is on one part of the iron surface, while oxygen gets reduced to H2O in another part of the surface. Different regions on the surface of iron become anode and cathode.\n(1) Fe is oxidised to Fe2+ in the anode region.\n\\[\\ce{Fe(s) -> Fe^{2+}(aq) + 2e^-}\\]\n(2) O2 is reduced to form water in the cathode region.\n\\[\\ce{O2(g) + 4H^+(aq) + 4e^- -> 2H2O(l)}\\]\nWhen Fe2+ ions migrate from the anode region, they react with water and further get oxidised to form Fe3+ ions.\nA reddish-coloured hydrated oxide is formed from Fe3+ ions. It is called rust. It collects on the surface.\n\\[\\ce{2Fe^{3+}(aq) + 4H2O(l) -> Fe2O3.H2O(s) + 6H^+(aq)}\\]\nDue to various components of the atmosphere, oxidation of metals takes place, consequently resulting in their damage. This is called 'corrosion'. Iron rusts, and a reddish-coloured layer is collected on it. This is the corrosion of iron.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Identify from the Reaction the Reactants that Undergo Oxidation and Reduction.A. Fe + S → Fes",
+    "answer": "1Show SolutionFe + S → FeS\nIn a reaction, Fe is changing to FeS. That means, iron loses electrons to form FeS. Loss of electron from a substance is called oxidation, so iron undergoes oxidation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Identify from the following reaction the reactants that undergo oxidation and reduction. 2AgA2O⟶4Ag+OA2 ↑",
+    "answer": "In a reaction, silver oxide is changing to silver. That is, oxygen is being removed from silver oxide. Removal of oxygen from a substance is called reduction, so silver oxide undergoes reduction.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Identify from the reaction the reactants that undergo oxidation and reduction. 2Mg + O2 → 2MgO",
+    "answer": "1Show SolutionIn a reaction, magnesium is changing to magnesium oxide. That means, oxygen is being added to magnesium. Addition of oxygen to a substance is called oxidation, so magnesium undergoes oxidation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Identify from the reaction the reactants that undergo oxidation and reduction. NiO+H2⟶Ni+H2O",
+    "answer": "In a reaction, nickel oxide is changing to nickel. That is, oxygen is being removed from nickel oxide. Removal of oxygen from a substance is called reduction, so nickel oxide undergoes reduction.\nIn a reaction, hydrogen is changing to H2O. That is, oxygen is being added to hydrogen. Addition of oxygen to a substance is called oxidation, so hydrogen undergoes oxidation.\nThe reactions in which oxidation and reduction take place simultaneously are called Redox reactions.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Balance the equation stepwise. H2S2O7(l) + H2O(l) → H2SO4(l)",
+    "answer": "H2S2O7(l) + H2O(l) → H2SO4(l)\nStep 1: Count the number of each atom on the reactant side:\n\nElements\nNo. of atoms in the reactant\n\nH\n4\n\nS\n2\n\nO\n8\n\nStep 2: Count the number of each atom on the product side:\n\nElements\nNo. of atoms in the product\n\nH\n2\n\nS\n1\n\nO\n4\n\nStep 3: Number of atoms of elements on both side is not the same.\nIf we multiply the product side by 2, then the number of atoms in the product and reactant side gets balanced.\n\nElements\nNo. of atoms in the reactant\nNo. of atoms in the product\n\nH\n4\n2 × 2 = 4\n\nS\n2\n1 × 2 = 2\n\nO\n8\n4 × 2 = 8\n\nH2S2O7(l) + H2O(l) → 2H2SO4(l)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Balance the equation stepwise. SO2(g) + H2S(aq) → S(s) + H2O(l)",
+    "answer": "SO2(g) + H2S(aq) → S(s) + H2O(l) \nStep1: Count the number of each atom in reactant side:\nH = 2\nS = 2\nO = 2\nStep 2: Count the number of each atom in product side:\nH = 2\nS = 1\nO = 1\nStep 3: Then balance the number of each atom in an equation by multiplying reactant and product side with numeral value:\nIf we multiply H2S by 2 in the reactant side and S by 3 and H2O by 2 on the product side, the number of atoms in the product and reactant side gets the balance.\nSO2(g) + 2H2S(aq) → 3S(s) + 2H2O(l)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Balance the Equation Stepwise. Ag(S) + Hcl(Aq) → Agcl ↓+ H2 ↑",
+    "answer": "g(s) + HCl(aq) → AgCl &darr;+ H2 &uarr;\nStep1. Count the number of each atom in reactant side:\nH= 1\nAg=1 \nCl=1\nStep2. Count the number of each atom in product side:\nH= 2\nAg=1\nCl=1\nStep3.Then balance the number of each atom in an equation by multiplying reactant and product side with numeral value:\nIf we multiply Ag by 2 and HCl by 2 in the reactant side and AgCl by 2 in the product side, then number of atoms in product and reactant side gets balance.\n2Ag(s) + 2HCl(aq) → 2AgCl &darr;+ H2 &uarr;",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Balance the equation stepwise. NaOH(aq) + H2SO4(aq) → Na2SO4(aq) + H2O(l)",
+    "answer": "NaOH(aq) + H2SO4(aq) → Na2SO4(aq) + H2O(l)\nStep1: Count the number of each atom in reactant side:\nNa = 1\nH = 3 \nO = 5\nS = 1\nStep 2: Count the number of each atom in product side:\nNa = 2\nH = 2\nO = 5 \nS = 1\nStep3: Then balance the number of each atom in an equation by multiplying reactant and product side with numeral value:\nIf we multiply NaOH by 2 in the reactant side and H2O by 2 in the product side, then number of atoms in product and reactant side gets balance. \n2NaOH(aq) + H2SO4(aq) → Na2SO4(aq) +2H2O(l)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Identify the endothermic and exothermic reaction. HCl + NaOH → NaCl + H2O + heat",
+    "answer": "Exothermic reactionEndothermic reaction",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Identify the Endothermic and Exothermic Reaction. B. 2 K C L O 3 ( S ) → δ 2 K C L ( S ) + 3 O 2 ↑",
+    "answer": "Endothermic reaction",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Identify the endothermic and exothermic reaction. CaO+HX2O⟶Ca(OH)X2+Heat",
+    "answer": "Exothermic reactionEndothermic reaction",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Identify the endothermic and exothermic reaction. CaCOX3(s)→ΔCaOX(s)+COX2",
+    "answer": "Endothermic reaction",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Reactants Products Type of Chemical Reaction Bacl2(Aq) + Znso4(Aq)H2co3(Aq)Displacement2agcl(S)Feso4(Aq) + Cu(S)Combinationcuso4(Aq) + Fe(S)Baso4↓ + Zncl2(Aq)Decomposition",
+    "answer": "Reactants\nProducts\nType of chemical reaction\n\nBaCl2(aq) + ZnSO4(aq)\n BaSO4&darr; + ZnCl2(aq)\n Double displacement\n\n2AgCl(s)\n2Ag(s) + Cl2(g) \n Decomposition \n\nCuSO4(aq) + Fe(s)\nFeSO4(aq) + Cu(s) \n Displacement\n\nH2O(l) + CO2(g)\nH2CO3(aq)\n Combination",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Chemical reactions and equations",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Tell the odd one out. Give proper explanation. Fuse wire, bad conductor, rubber gloves, generator.",
+    "answer": "Generator",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Tell the odd one out. Give a proper explanation. Voltmeter, Ammeter, Galvanometer, Thermometer",
+    "answer": "Thermometer",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Tell the odd one out. Give proper explanation. Loud speaker, Microphone, Electric motor, Magnet.",
+    "answer": "Magnet",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Explain the construction and working of the following. Draw a neat diagram and label it. Electric motor",
+    "answer": "Construction: Electric motor consists of the following parts:\n\nRectangular coil: A large number of turns of insulated copper wire wound on iron core in rectangular shape forms a coil ABCD as shown in following figure.\nStrong magnet: The coil is placed in between two pole pieces (N and S) of a strong horse shoe magnet which provides a strong magnetic field. The sides AB and CD are perpendicular to the direction of the magnetic field.\nSplit ring: It consists of two halves of a metallic ring (X and Y). The ends of the coil are connected to these rings. The outer conducting surfaces of spilt rings X and Y are in contact with the two stationary carbon brushes. Spilt rings reverse the direction of current in the coil.\nBrushes: Two carbon brushes E and F are used to press the split rings.\nAxle: The two halves of the rings have a resistive coating in their inner surfaces and are tightly fitted on the axle. The main function of an axle is to rotate with the coil.\nBattery: The battery supplies the current to the coil.\n\nWorking:\n\nWhen the circuit is completed, the current passes through the brush E from A to B in branch AB.\nAs, the magnetic field acts from north pole to south pole, according to Fleming&rsquo;s left-hand rule, the force experienced by arm AB is in the downward direction and arm CD is in the upward direction.\nBoth these forces are equal in magnitude and opposite in direction and hence, the coil rotates in an anticlockwise direction.\nAfter half rotation, the split rings X and Y come in contact with brushes E and F respectively.\nAgain the current starts passing through the coil in opposite direction.\nThe force acting on branch BA is upward and DC is downward, this force again moves the coil in an anticlockwise direction.\nThis shows that the current in the loop ABCD is reversed after every half rotation, and the loop continues to rotate in the same direction.\nThus, the coil rotates with the help of electrical energy.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Construction and Working of the Following. Draw a Neat Diagram and Label It.Electric Generator (Ac)",
+    "answer": "Electric Generator principle : An electric generator is a machine that generates electricity by rotating its rotor in a magnetic field. Thus, it converts mechanical energy into electrical energy.\nConstruction: A generator consists of a rectangular coil MNST of insulated copper wire placed between two strong magnetic poles. The two ends of the coil MNST are connected with brushes A and B of rings C and D respectively. The inner sides of the rings are insulated. They are attached with an axle X, which can be rotated mechanically. Brushes A and B are connected with a galvanometer that can measure the flow of current in coil MNST.\n\nWorking: When the axle is rotated, lengths MN and ST move up and down respectively. Since lengths MN and ST are moving in a magnetic field, a current gets induced in these lengths caused by an electromagnetic induction. The direction of the induced current in both the lengths is given by Fleming&rsquo;s right hand rule.\n\nSince length MN is moving upwards in the magnetic field that acts from left to right, the direction of the induced current will be from M to N. Similarly, the direction of the induced current in length ST will be from S to T. Hence, an induced current will set up in the coil in the direction MNST, which produces deflection in the galvanometer.\nAfter half-rotation, length MN starts moving down, whereas length ST starts moving up. The direction of the induced current in the coil gets reversed i.e., the induced current will now flow from T to M via S and N i.e., TSNM. Therefore, we can conclude that after each half-rotation, the direction of the induced current is reversed. This current is called an alternating current (AC). An AC reverses its direction after equal time intervals.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Difference: Ac Generator and Dc Generator.",
+    "answer": "C generator\nDC generator\n\ni.\nIt is used to produce alternating current.\nIt is used to produce direct current.\n\nii.\nIt has two simple ring-type commutators.\nIt has a single split-ring commutator.\n\niii.\nFrequency of induced current is 50Hz.\nFrequency of induced current is 0Hz.\n\niv.\nCurrent changes its directions.\nCurrent flows in same direction.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Which device is used to produce electricity? Describe with a neat diagram.",
+    "answer": "Electric Generator (DC)Voltmeter",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "How Does the Short Circuit Form? What is Its Effect?",
+    "answer": "The household electrical connections mainly consist of live, neutral and earth wires.\nThe potential difference between live and neutral wires is around 220 V.\nSometimes, due to fault in the electrical appliances or damage of the insulating coating around the two wires i.e., neutral and live, the two wires come in contact with each other and large current flows through them causing short circuit.\nLarge amount of heat is produced due to flow of this large current. Any inflammable material like wood, plastic, cloth, etc. present around the short-circuited place can catch fire.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific reason. Tungsten metal is used to make a solenoid type coil in an electric bulb.",
+    "answer": "1Show Solution\nThe electric bulb operates under the principle of the heating effect of electric current.\nThe bulb&rsquo;s solenoid-type coil has a very high melting point and high resistance.\nThe solenoid-type coil of the lightbulb becomes heated to a high temperature (up to 3400°C) and begins to shine when current is delivered through it.\n\nAs a result, tungsten metal creates a solenoid-type coil in an electric bulb.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Give Scientific Reasonin the Electric Equipment Producing Heat E.G. Iron, Electric Heater, Boiler, Toaster Etc, an Alloy Such as Nichrome is Used, Not Pure Metals.",
+    "answer": "In the electric equipment producing heat, such as iron, electric heater, boiler, toaster etc., an alloy such as Nichrome is used, not pure metals because of the following reasons:\n(i) Resistivity of Nichrome is more compared to pure metal.\n(ii) Melting point of Nichrome is high as compared to pure metal.\n(iii) Nichrome does not get oxidised when heated in air whereas metal does.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific reason: For electric power transmission, copper or aluminium wire is used.",
+    "answer": "Copper and aluminium are excellent electrical conductors.\nSince the resistance of copper and aluminium is very low, the amount of heat generated while carrying an electric current through them is also low.\n\nTherefore, copper or aluminium wires are used for electricity transfer.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Give Scientific reason. In practice, the unit kWh is used for the measurement of electrical energy, rather than joule.",
+    "answer": "Electrical energy = Electrical power × time.\nFor practical applications, devices consuming high electrical power are used over a period of time.\nThis leads to heavy expenditure of electrical energy. To measure such value of energy unit joule is significantly small.\nHence, unit kWh is used in practice. Unit 1 kWh represents power of 1 kW used for 1 hour and equals 3.6 × 106 J.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Which of the Statement Given Below Correctly Describes the Magnetic Field Near a Long, Straight Current Carrying Conductor?",
+    "answer": "The magnetic lines of force are in concentric circles with the wire as the center, in a plane perpendicular to the conductor.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "What is a solenoid?",
+    "answer": "solenoid is a copper wire with a resistive coating coiled into a chain of loops. When an electric current flows through a solenoid, magnetic lines of force form in a pattern. Solenoid magnetic fields are similar to those created by bar magnets. A solenoid's open ends function as magnetic north and south poles, respectively.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Compare the magnetic field produced by a solenoid with the magnetic field of a bar magnet. Draw neat figures and name various components.",
+    "answer": "Magnetic lines of force (magnetic field lines) due to a current-carrying solenoid \nWhere,\nB: Battery, \nK: Plug key,\nI: Current,\nN: North pole,\nS: South pole\n\nMagnetic lines of force around a bar magnet\nOn comparing field lines produced by a solenoid with that produced by a bar magnet, we observe that they are very much identical. Thus, a solenoid acts as a bar magnet when current is passed through it. One face of the coil acts as the south pole and the other face as the north pole",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Name the following diagram and explain the concept behind it.",
+    "answer": "Name: Fleming&rsquo;s right-hand rule\nConcept: It represents Fleming&rsquo;s right-hand rule used for finding the direction of the induced current with respect to the directions of the magnetic field and motion of the conductor.\n\nThe direction of the current induced in a conductor can be obtained by holding the thumb, the index finger, and the middle finger of your right hand mutually perpendicular to each other. In this situation, the thumb indicates the direction of the motion of the conductor, the index finger points along the magnetic field, and the middle finger points along the current induced in the conductor.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Name the following diagram and explain the concept behind it.",
+    "answer": "Name: Fleming&rsquo;s left-hand rule\nConcept: It represents Fleming&rsquo;s left-hand rule used for finding the direction of the magnetic force when a current-carrying conductor is placed in a magnetic field.\n\nAccording to this rule, the left-hand thumb, index finger, and middle finger are stretched so as to be perpendicular to each other. If the index finger is in the direction of the magnetic field and the middle finger points in the direction of the current, then the direction of the thumb is the direction of the force on the conductor.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Identify the figure and give its use.",
+    "answer": "Figure: Cartridge type fuse/Electric fuse\nUses: \n\nIt is a safety device that protects the wiring from overheating caused by an excessive current supply.\nIt melts when a high current travels through the circuit, causing the circuit to break and the current to stop flowing through it.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Identify the figure and give its use.",
+    "answer": "Figure: MCB (Miniature Circuit Breaker)\nUses: An MCB is a device which functions as a fuse but does not require replacement. MCB falls down to break the circuit when a heavy amount of current flows through it. Once the fault is rectified, the MCB is reset.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Identify the figure and explain their use.",
+    "answer": "The figure given is of a DC generator.\nUse of D.C. generator:\n\nA DC generator converts mechanical energy into direct current.\nThe DC generator is used to power stable current generators, boosters, and arc lamps.\nDC generators are also utilised to compensate for voltage drops inside feeds.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Heat energy is being produced in a resistance in a circuit at the rate of 100 W. The current of 3 A is flowing in the circuit. What must be the value of the resistance?",
+    "answer": "Given: Power, P = 100 W\nCurrent, I = 3 A\nResistance, R = ?\nWe know, P = I2R\n&rArr; R = P/I²\n= 100/3²\n= 100/9\n= 11.11 &Omega;\n∴ The value of the resistance is 11.11 &Omega;.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Example. Two Tungsten Bulbs of Wattage 100 W and 60 W Power Work on 220 V Potential Difference. If They Are Connected in Parallel, How Much Current Will Flow in Main Conductor?",
+    "answer": "1Show Solution Power of first bulb, P1 = 100 W\nPower of second bulb, P2 = 60 W\nNow,\nResistance of first bulb, R₁ = (V²)/(P₁)=(220×220)/100 = 484 &Omega;\n\nResistance of second bulb, \\[R_2 = \\frac{V^2}{P_2} = \\frac{220 \\times 220}{60} = 806 . 7 \\Omega\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Who will spend more electrical energy? 500 W TV Set in 30 mins, or 600 W heater in 20 mins?",
+    "answer": "For T.V. set: Power = 500 W,\nTime = 30 min = 30 × 60 s\n∴ Energy = Power × time\nE1 = 500 × 30 × 60 = 900 × 103 J\nFor Heater: Power = 600 W,\nTime = 20 min = 20 × 60 s\n∴ Energy (E2) = 600 × 20 × 60\n= 720 × 103 J\nComparing E1 and E2, E1 > E2\n∴ Energy spent by T.V. set (E1) is greater.\nThe energy consumed by the T.V. set is more than that consumed by the heater.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "An electric iron of 1100 W is operated for 2 hrs daily. What will be the electrical consumption expenses for that in the month of April? (The electric company charges Rs 5 per unit of energy).",
+    "answer": "Electric power required for working of iron, P = 1100 W\nDuration for which the iron is operated daily = 2 h = \\[2 \\times 60 \\times 60 = 7200 s \\]\nElectric energy consumed by iron in 7200 s is\n\n\\[E = 1100 \\times 7200 = 7920000 J\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Fill in the Blank and Rewrite the Sentence.If Objects of Equal Masses Are Given Equal Heat, Their Final Temperature Will Be Different. this is Due to Difference in Their ................. .",
+    "answer": "If objects of equal masses are given equal heat, their final temperature will be different. This is due to difference in their different specific heat capacity.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Observe the Following Graph. Considering the Change in Volume of Water as Its Temperature is Raised from 0°C, Discuss the Difference in the Behaviour of Water and Other Substances. What is this",
+    "answer": "The majority of substances reduce when cooled and expand when heated. On the other hand, it is obvious from the graph that water displays a unique and unusual behavior between 0 and 4 degrees Celsius. Between 0°C and 4°C, water minimizes rather than expands. It shows the typical expansion characteristic seen in other compounds after 4°C. Water therefore has its maximum density and minimum volume at 4°C. Water that displays this behavior between 0°C and 4°C is referred to as anomalous water behavior.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "What is meant by specific heat capacity?",
+    "answer": "Specific heat capacity of a body can be defined as the amount of heat energy required to raise the temperature of the unit mass of that body by 1°C (or 1 K). \nIt is given as:\ns = (Delta Q)/(DeltaT xx m)\nwhere,\n&Delta;Q = Amount of heat energy supplied\n&Delta;T = Rise in temperature\nm = Mass of the body",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "How Will You Prove Experimentally that Different Substances Have Different Specific Heat Capacities?",
+    "answer": "Experiment to prove different substances have different specific heat capacities:\n\nTake three balls of iron, copper, and lead of equal mass and put them in boiling water for some time. Then, take them out of the water and measure their temperature.\nAll of them will be at temperature 100oC. Now, put them immediately on the thick slab of wax. Note the depth that each of the balls goes into the wax. The ball which absorbs more heat from the water will give more heat to wax. More wax will thus melt and the ball will go deeper into the wax. It will be observed that the iron ball goes deepest into the wax. The lead ball goes the least and the copper ball goes to intermediate depth. This shows that for the equal rise in temperature, the three balls have absorbed different amounts of heat.\nThis means that the property which determines the amount of heat absorbed by a ball is different for the three balls. This property is called the specific heat capacity.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "While deciding the unit for heat, which temperature interval is chosen? Why?",
+    "answer": "When deciding the unit for heat (which is a calorie), the temperature interval chosen is 14.5oC-15.5oC.\nWe know that the amount of heat released or absorbed by a body is given as DeltaQ = msDeltaT\nNow, we also know that one calorie is defined as the amount of heat required to raise the temperature of 1 g of water through 1oC. Thus, for 1 calorie of heat energy, the specific heat capacity of water should be 1 cal g-1 oC-1. It is found experimentally that the specific heat capacity of water is 1 cal g-1 oC-1 when the temperature range is 14.5oC-15.5oC.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Following Temperature Vs Time Graph.",
+    "answer": "1Show SolutionIn the given graph, line AB represents conversion of ice into water at constant temperature. When ice is heated, it melts at 0oC and converts into water maintaining constant temperature of 0oC. This constant temperature, at which the ice converts into water is called the melting point of ice. Also, during this transition, the ice absorbs heat energy. This heat energy is utilised for weakening the bonds between the atoms or molecules in the ice to transform itself into liquid. This heat energy absorbed by ice, at constant temperature, to convert it into liquid is called the latent heat of fusion.\nOnce all the ice is transformed into water, the temperature of water starts rising. It increases upto 100oC. Line BC in the graph represents rise in temperature of water from 0oC to 100oC. Thereafter, even though heat energy is supplied to water, its temperature does not rise. The heat energy is absorbed by water at this temperature and is used to break the bonds between molecules of the liquid and convert the liquid into gaseous state. Thus, during transformation from liquid phase to gas phase, heat energy is absorbed by the liquid, but its temperature does not change. The constant temperature at which the liquid transforms into gaseous state is called the boiling point of the liquid. The heat energy absorbed at constant temperature during transformation of liquid into gas is called the latent heat of vaporization.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "What is the role of the anomalous behaviour of water in preserving aquatic life in regions of cold climate?",
+    "answer": "1Show SolutionDuring the winter in frigid places, the temperature of the atmosphere drops significantly below 0°C. As the temperature drops, the water on the surfaces of lakes and ponds contracts. As a result, its density rises, and it sinks to the bottom. This process continues until the temperature of all the water in a lake drops to 4°C. As the water near the surface cools more, reaching temperatures below 4°C, it begins to expand rather than compress. As a result, its density drops, and it remains on the surface. The temperature of the water at the surface continues to decrease to 0 degrees Celsius. Finally, the water at the surface turns into ice, but the water behind the layer of ice remains at 4°C. Ice does not transfer heat well. As a result, the ice layer at the surface prevents heat from leaving the water and entering the atmosphere. Fish, other aquatic animals, and plants can survive in the water beneath the ice layer since the temperature remains at 4°C.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following: How can you relate the formation of water droplets on the outer surface of a bottle taken out of refrigerator with formation of dew?",
+    "answer": "The bottle taken out from the refrigerator has a lower temperature than the temperature of the surrounding environment, i.e., outside air in the atmosphere. It cools the air surrounding it. Air in the vicinity becomes saturated with vapour and the excess vapour condenses on the surface of the bottle in the form of water droplets. This phenomenon takes place due to air reaching its dew point temperature.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following: In cold regions in winter, the rocks crack due to anomalous expansion of water.",
+    "answer": "Normally, liquids expand on heating and contract on cooling. But water exhibits an exceptional behaviour in the temperature range of 0 °C to 4 °C.\nWhen water is cooled from 4°C to 0°C, it expands instead of contracting. Its volume increases, and its density decreases. At 4°C, the volume of water is at its minimum, and its density is at its maximum.\nWhen the temperature drops below 0°C and water freezes into ice, it expands significantly.\nThis behaviour of water between temperature intervals of 0 °C to 4 °C is called anomalous behaviour of water.\nIn cold regions during winter, when water in the cracks of rocks freezes, it expands. This expansion creates pressure on the surrounding rock. \nAs a result, the rocks experience force from the expanding ice and may crack.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "What is meant by latent heat? How will the state of matter transform if latent heat is given off?",
+    "answer": "The heat energy required to change substance from one state to another at constant temperature is called as latent heat of a substance.\nWhen latent heat is given off from a substance, it causes the strengthening of the bonds between atoms or molecules causing a change of state of the substance.\nWhen a liquid substance gives off latent heat of fusion, strengthening of bonds results into pulling of atoms or molecules of liquid closer and eventually it changes into solid-state.\nSimilarly, when a gaseous substance gives off latent heat of vaporisation, strengthening of bonds results into the pulling of atoms or molecules of gas closer and eventually it changes into a liquid state.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Which principle is used to measure the specific heat capacity of a substance?",
+    "answer": "Principle of heat exchange is used to measure the specific heat capacity of a substance.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following: Explain the role of latent heat in the change of state of a substances?",
+    "answer": "When a solid is heated, initially, its temperature increases. Here, the heat absorbed by the body (substance) is used in increasing the kinetic energy of the particles (atomic, molecules, etc.) of the body as well as for doing work against the forces of attraction between them. As the heating is continued, at a certain temperature (melting point), solid is converted into liquid. In this case, the amount of heat energy absorbed at constant temperature by unit mass of a solid to convert into liquid phase is called the specific latent heat of fusion.\nWhen a liquid is converted into the gaseous phase (gaseous state), at the boiling point, the heat absorbed is used for breaking the bonds between the atoms or molecules. This heat is called the latent heat of vaporization. Some solids, under certain conditions, are directly transformed into the gaseous phase. Here, the heat is absorbed, but the temperature remains constant. The absorbed heat is used for breaking the bonds between atoms or molecules. This heat is called the latent heat of sublimation.\nIn general, latent heat is the heat absorbed or given out by a substance during a change of state at a constant temperature.\nIn transformations from liquid to solid, gas to liquid and gas to solid, latent heat is given out by the body (substance).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "On what basis and how will you determine whether air is saturated with vapour or not?",
+    "answer": "On the basis of the amount of water vapours present in the air, it can be either saturated or unsaturated. If the amount of water vapours exceeds the amount that the air can contain, then it is called saturated. If the amount of water vapour is less than the limit of the amount that air can contain, then it is called unsaturated.\nWe can determine whether the air is saturated with vapour or not in terms of relative humidity. If the relative humidity is 100%, the air will be saturated; otherwise not.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Read the following paragraph and answer the questions. If heat is exchanged between a hot and cold object, the temperature of the cold object goes on increasing",
+    "answer": "Heat is transferred from the object at higher temperature to the object at lower temperature.\nWe learn the principle of heat exchange from this process.\nPrinciple of heat exchange states that the heat energy lost by hot object is always equal to heat gained by cold object provided that the system of both the objects is isolated.\nThe specific heat of an object can be measured using this principle.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Problems:Equal Heat is Given to Two Objects a and B of Mass 1 G. Temperature of a Increases by 3°C and B by 5°C. Which Object Has More Specific Heat? and by What Factor?",
+    "answer": "\\[s = \\frac{∆ Q}{m ∆ T}\\]\nLet Q cal of heat is given to both A and B.\nFor body A,\n\\[s_1 = \\frac{Q}{1 \\times 3} = \\frac{Q}{3} \\text {cal }g^{- 1} {}^o C^{- 1}\\]\nFor body B,\n\\[s_2 = \\frac{Q}{1 \\times 5} = \\frac{Q}{5} \\text { cal } g^{- 1} {}^o C^{- 1}\\]\nNow,\n\\[\\frac{s_1}{s_2} = \\frac{\\frac{Q}{3}}{\\frac{Q}{5}} = \\frac{5}{3}\\]\n\\[ \\Rightarrow s_1 = \\frac{5}{3} s_2\\]\nThus, specific heat capacity of body A is more than body B and by a factor of \\[\\frac{5}{3}\\].",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Liquid Ammonia is Used in Ice Factory for Making Ice from Water. If Water at 20°C is to Be Converted into 2 Kg Ice at 0°C, How Many Grams of Ammonia Are to Be Evaporated?",
+    "answer": "Given: 1) Change in temperature of water (&Delta;T) = 20° C \n2) mass of ice (m) = 2 kg = 2000 g/2 × 103 g\n3) (\"L\"_\"vap\")_\"ammonia\" = 341 cal/g\n4) Specific heat of wate (Cw) = 1 cal/g° C\n5) (\"L\"_\"melt\")_\"ice\" = 80 cal/g\nFind: Mass of ammonia (M)\n1) Amount of heat released in converting water at 20° C to water at 0°C (Q1)\nQ1 = m × c × &Delta;T\n= 2 × 103 × 1 × 20\nQ1 = 40 × 103 cal\n2) Amount of heat released in converting water at 0° C into ice at 0° C (Q2)\nQ2 = mw × Lmelt\n= 2 × 103 × 80\n= 160 × 103 cal\nTotal heat given out (Q3) = Q1 + Q2\nQ3 = (40 + 160)103 \nQ3 = 200 × 103 cal\nAccording to principle of heat exchange - heat released by water is used by liquid ammonia\nQ3 = \"M\"\"L\"_((\"vap\")_(\"ammonia\"))\n200 × 103 = M × 341\nM = (200 xx 10³)/341\nM = 586.5 g",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "A Thermally Insulated Pot Has 150 G Ice at Temperature 0°C. How Much Steam of 100°C Has to Be Mixed to It, So that Water of Temperature 50°C Will Be Obtained?",
+    "answer": "mount of heat required in converting 150 g ice to 0°C to water at 0°C = \\[150 \\times 80 = 12000 \\text { cal }\\] \nAmount of heat energy required in heating 150 g water at 0°C to 150 g water at 50°C = \\[150 \\times 1 \\times 50 = 7500 \\text { cal }\\]\nTotal heat energy required to convert 150 g ice at 0°C to water at 50°C = 19500 cal\nLet m g be the amount of steam be mixed with water to bring the final temperature of system at 50°C.\nThe amount of heat released in converting m g of steam at 100°C to water at 100°C = \\[m \\times 540 = 540m\\]\nThe amount of heat released in converting m g of water at 100°C to water at 50°C = \\[m \\times \\times 1 \\times 50 = 50m\\]\nTotal heat energy released to convert m g steam at 100°C to water at 50°C = 590m cal\nUsing the principle of calorimetry, we have\n590m = 19500\n\\[m = \\frac{19500}{590} = 33 g\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "A calorimeter has mass 100 g and specific heat 0.1 kcal/ kg °C. It contains 250 gm of liquid at 30°C having specific heat of 0.4 kcal/kg °C. If we drop a piece of ice of mass 10 g at 0°C,",
+    "answer": "Let the final temperature of the mixture be T.\nAmount of heat required in converting 10 g ice to 0°C to water at 0°C = 10 × 80 = 800 cal\nTotal amount of heat required in converting 10 g water to 0°C to water at T°C = 10 × 1 × T = 10T\nTotal heat energy required to convert 10 g ice at 0°C to water at T°C = 800 + 10T\nAmount of heat released to raise the temperature of calorimeter at 30°C to T°C = 100 × 0.1 × (30 - T) = 10(30 - T)\nAmount of heat released to raise the temperature of 250g of eater at 30°C to T°C = 250 × 0.4 × (30 - T) = 100(30 - T)\nTotal amount of heat released in the process = 110(30 - T)\nUsing the principle of calorimeter, we have \n110(30 - T) = 800 + 10T\n\n&rArr; T = 20.83° C",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Fill in the blank and Explain the completed sentences. Refractive index depends on the of light.",
+    "answer": "Refractive index depends on the velocity of light.\nExplanation:\n\nRefractive index depends on the velocity of light in the medium.\nAs light has different velocity in the different medium refractive index also changes.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Prove the Statement . If the Angle of Incidence and Angle of Emergence of a Light Ray Falling on a Glass Slab Are I and E Respectively, Prove That, I = E.",
+    "answer": "1Show Solution\nLet \\[\\mu\\] be the refractive index of the glass slab. Then, according to Snell's law,\n\\[\\frac{\\sin i}{\\sin r_1} = \\mu\\] .....(i) \n\nand",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Prove the statement. A rainbow is the combined effect of the refraction, dispersion, and total internal reflection of light.",
+    "answer": "The rainbow is a wonderful phenomenon that combines several phenomena, including internal reflection, refraction and dispersion of light.\nFollowing a rainstorm, a rainbow appears in the sky.\nThe droplets of water function as tiny prisms.\nWhen water droplets in the atmosphere enter, they refract and disperse incident sunlight, producing a spectrum.\nThe light rays are then internally reflected within the droplet before being refracted.\nThe seven-colored rainbow is seen as a result of all these occurrences together.\nA rainbow can be observed in the morning on the west and in the evening on the east.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "What is the reason for the twinkling of stars?",
+    "answer": "Changing refractive index of the atmospheric gases",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Mark the Correct Answer in The Question. If the Refractive Index of Glass with Respect to Air is 3/2, What is the Refractive Index of Air with Respect to Glass?",
+    "answer": "\\[\\frac{2}{3}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "If in a medium, the speed of light is 1.5 × 10^8 m/s how much will the absolute refractive index of that medium be?",
+    "answer": "1Show SolutionAbsolute refractive index of a medium μ = \"Speed of light in vaccum\"/ \"Speed of light in the medium\"\n&rArr; μ = (3 xx 10⁸)/(1.5 xx 10⁸) = 2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Example. If the Absolute Refractive Indices of Glass and Water Are 3/2 and 4/3 Respectively, What is the Refractive Index of Glass with Respect to Water?",
+    "answer": "Given,\nRefractive index of glass = 3/2\nRefractive index of water = 4/3 \nRefractive index of glass with respect to water \n= \"Refractive index of glass\"/\"Refractive index of water\"\nOn substituting the values, we get,\n= (3/2)/(4/3)\n= 9/8\nHence, the refractive index of glass with respect to water is 9/8.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Match the Columns in the Following Table and Explain Them. Column 1 - Farsightedness, Presbyopia, Nearsightedness; Column 2 - Nearby object can be seen clearly, Far away object can be seen clearly",
+    "answer": "Column 1\nColumn 2\nColumn 3\n\nFarsightedness\n\nFar away object can be seen clearly",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Draw a figure explaining various terms related to a lens.",
+    "answer": "Terms Associated with Lenses:\nOptical centre\nOptical centre is a point at the centre of the lens. It always lies inside the lens and not on the surface. It is denoted by &lsquo;O&rsquo;.\n\nCentre of curvature\nIt is the centre point of arcs of the two spheres from which the given spherical lens (concave or convex) is made. Since a lens constitutes two spherical surfaces, it has two centers of curvature.\n\nRadius of curvature\nThe distance of the optical centre from either of the centre of curvatures is termed as the radius of curvature.\nPrincipal axis\nThe imaginary straight line joining the two centers of curvature and the optical centre (O) is called the principal axis of the lens.\n\nFocus\nThe focus (F) is the point on the principal axis of a lens where all incident parallel rays, after refraction from the lens meet or appear to diverge from. For lenses there are two foci (F1 and F2) depending on the direction of incident rays.\n\nFocal length\nThe distance between the focus (F1 or F2) and the optical centre (O) is known as the focal length of the lens.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "At which position will you keep an object in front of a convex lens so as to get a real image of the same size as the object? Draw a figure.",
+    "answer": "When an object is placed at the centre of curvature 2F1 of a convex lens, we will get a real image of the same size as the object.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific reason. Simple microscope is used for watch repairs.",
+    "answer": "1Show Solution\nWhen an object is put inside the focal length of a magnifying glass or simple microscope (convex lens), the larger and erect image appears on the same side of the lens as the object.\nBy altering the distance between the object and the lens, the image can be obtained at the shortest distance of distinct vision. Thus, a watch repairer may see the minute parts of a watch more clearly with the use of a magnifying glass (a rudimentary microscope) than with the naked eye, and without putting any strain on the eye. As a result, watch repairers utilise a magnifying glass (a basic microscope) to repair the timepieces.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reason:One can sense colours only in bright light.",
+    "answer": "The light sensitive screen of the eye, called the retina, has two types of light sensitive cells.\nRod cells are concerned with vision in dim light and cone cells are responsible for the vision in presence of light.\nCone cells are also concerned with colour perception. They do not respond to dim light or no light.\nThus, the knowledge of the colour is possible in presence of light and not in dark.\nHence, we can identify and differentiate colours in presence of light.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reason: We cannot clearly see an object kept at a distance less than 25 cm from the eye.",
+    "answer": "The muscles attached to the eye lens (ciliary muscles) help in fine adjustments of the focal length of the lens.\nThe capacity of these muscles to contract or relax to adjust the focal length (i.e., power of accommodation) has a limit.\nThe minimum distance of an object from a normal eye for which the eye lens can decrease its focal length to the least possible value, is 25 cm.\nHence, we cannot clearly see an object kept at a distance less than 25 cm from the eye.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Working of an Astronomical Telescope Using Refraction of Light.",
+    "answer": "The astronomical telescope consists of two lenses: objective and eyepiece. Objective has larger focal length and diameter to accommodate maximum amount of light coming from the far away (astronomical) objects. A parallel beam of rays from an astronomical object is made to fall on the objective lens of the telescope. It forms a real, inverted and diminished image A'B' of the object. The eyepiece is so adjusted that A'B' lies just at the focus of the eye piece. Therefore, a highly magnified image of the object is formed at infinity. The same has been shown in the figure below.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Distinguish between: Farsightedness and Nearsightedness.",
+    "answer": "Farsightedness\nNearsightedness\n\n1.\nThis problem arises due to slight flattening of the eyeball.\nThis problem arises due to slight elongation of the eyeball.\n\n2.\nThe curvature of the cornea and eye lens decreases so that the converging power becomes less.\nThe curvature of the cornea and eye lens increases so that the converging power becomes more.\n\n3.\nThe distance between the eye lens and the retina decreases.\nThe distance between the eye lens and the retina increases.\n\n4.\nThe near point of the eye shifts farther away from the eye.\nThe far point of the eye shifts closer to eye.\n\n5.\nA person suffering from this defect can see distant objects clearly but is unable to see nearby objects.\nA person suffering from this defect can see nearby objects clearly but is unable to see distant objects.\n\n6.\nIt can be corrected by using spectacles having convex lenses of suitable focal length.\nIt can be corrected by using spectacles having concave lenses of suitable focal length.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Distinguish between: Concave lens and Convex lens",
+    "answer": "Concave lens\nConvex lens\n\n1.\nIt is a diverging lens because it diverges the rays falling on it.\nIt is a converging lens because it converges the rays falling on it.\n\n2.\nIt is thin at the center and bulged at the edge.\nIt is thin at the edge and bulged at the centre.\n\n3.\nThe image formed by concave lens is always diminished and virtual.\nThe image formed by convex lens can be real as well as virtual. Also, the image formed can be diminished as well as magnified.\n\n4.\nIt has a virtual focus.\nIt has a real focus.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "What is the function of iris and the muscles connected to the lens in human eye?",
+    "answer": "Function of Iris: The iris is a muscular diaphragm that controls the size of the pupil, which, in turn, controls the amount of light entering the eye. It also gives color to the eye.\nFunction of ciliary muscles: The ciliary muscles hold the eye lens in position and adjust its focal length by expanding and contracting.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Example.Doctor Has Prescribed a Lens Having Power +1.5 D. What Will Be the Focal Length of the Lens? What is the Type of the Lens and What Must Be the Defect of Vision?",
+    "answer": "Given:\nPower of lens, P = +1.5 D\nNow, focal length of lens, \\[f = \\frac{1}{P} = + \\frac{1}{1 . 5} = + 0 . 67 m\\]\nSince, the focal length is positive, the lens prescribed for correction is convex lens. Thus, the defect of vision is farsightedness or hypermetropia.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Example.5 Cm High Object is Placed at a Distance of 25 Cm from a Converging Lens of Focal Length of 10 Cm. Determine the Position, Size and Type of the Image.",
+    "answer": "Given:\nHeight of object, ho = 5 cm\nObject distance, u = -25 cm\nSince the lens is converging, thus it is a convex lens.\nFocal length of the lens, f = 10 cm\nUsing lens formula,\n\\[\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}\\]\n\\[ \\Rightarrow \\frac{1}{v} = \\frac{1}{10} + \\frac{1}{- 25} = \\frac{3}{50}\\]\n\\[ \\Rightarrow v = \\frac{50}{3} = 16 . 7 cm\\]\nThus, the image is formed\n16 . 7 cm right of the lens. \nNow, we know\n\\[\\frac{v}{u} = \\frac{h_i}{h_o}\\]\n\\[ \\Rightarrow h_i = \\frac{50}{3 \\times - 25} \\times 5 = -\\frac{10}{3} = - 3 . 3 \\text{cm}\\]\nThus, the size of the image is 3.3 cm. Negative sign shows that the image formed is real and inverted. Hence, the image formed is real and inverted and diminished.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Example. Three Lenses Having Power 2, 2.5 and 1.7 D Are Kept Touching in a Row. What is the Total Power of the Lens Combination?",
+    "answer": "Given:\nP1 = 2D, P2 = 2.5D, P3 = 1.7D\nLet the total power of the lens combination be P. Thus,\nP = P1 + P2 + P3 = 2 + 2.5 + 1.7 = 6.2D",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following example. An object kept 60 cm from a lens gives a virtual image 20 cm in front of the lens. What is the focal length of the lens? Is it a converging lens or diverging lens?",
+    "answer": "Given:\nObject distance, u = −60 cm\nImage distance, v = −20 cm\nUsing lens formula,\n\\[\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}\\]\n\\[ \\Rightarrow \\frac{1}{f} = \\frac{1}{- 20} - \\frac{1}{- 60} = - \\frac{1}{30}\\]\n\\[ \\Rightarrow f = - 30 \\text{ cm }\\]\n\nSince, the focal length is negative, the lens is a diverging lens or a concave lens.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Write Name. Alloy of Sodium with Mercury.",
+    "answer": "Sodium amalgam, commonly denoted as Na(Hg), it is an alloy of mercury and sodium.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Write name. Molecular formula of the common ore of aluminium.",
+    "answer": "Bauxite (Al2O3.2H2O) is the common ore of aluminium.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Write name. The oxide that forms salt and water by reacting with both acid and base.",
+    "answer": "Metal oxides which react with both acids as well as bases to produce salts and water are also known as amphoteric oxides. For example: Al2O3 is an amphoteric oxide. An amphoteric compound is a molecule or ion that can react both an acid as well as a base to produce salt and water.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Write name. The device used for grinding an ore.",
+    "answer": "The device used for grinding an ore- Ball mill",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Write Name. the Nonmetal Having Electrical Conductivity.",
+    "answer": "Graphite an allotrope of carbon is a good conductor of electricity.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Write Name. The Reagent that Dissolves Noble Metals.",
+    "answer": "qua regia is 1:3 mixture of concentrated nitric and hydrochloric acids. It dissolves noble metals such as gold, palladium, and platinum.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Make Pairs of Substances and Their Properties Substance- a. Potassium bromide (KBr) b. Gold c. Sulphur d. Neon",
+    "answer": "Substance\nProperty\n\na. Potassium bromide (KBr)\n2. Soluble in water\n\nb. Gold\n4. High ductility\n\nc. Sulphur\n1. Combustible\n\nd. Neon\n3. No chemical reaction",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Identify the Pairs of Metals and Their Ores from the Following. Group A- a. Bauxite b. Cassiterite c. Cinnabar Group B- i. Mercury ii. Aluminium iii. Tin",
+    "answer": "Group A\nGroup B\n\na. Bauxite\nii. Aluminium\n\nb. Cassiterite\niii. Tin\n\nc. Cinnabar\ni. Mercury",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Term of Metallurgy .",
+    "answer": ". Metallurgy: The various processes involved in the extraction of metals from its ores and refining is called metallurgy.\nThe major steps involved for the extraction of a metal from its ore are:\n(i) Concentration of ores (or enrichment of ore)\n(ii) Conversion of concentrated ore into metal\n(iii) Refining (purification) of impure metal",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following term: Ores",
+    "answer": "Ores are the minerals from which metals can be profitably and conveniently mined.\nExamples: Bauxite (Al2O3.H2O). Cinnabar (HgS).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Explain the term Minerals.",
+    "answer": "The compounds of metals that occur in nature along with the impurities are called minerals.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Term Gangue .",
+    "answer": "Gangue is the unwanted impurities like rock material, dust, soil, sand, earthy particles, limestone, mica etc. present in an ore.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reason. Lemon or tamarind is used for cleaning copper vessels turned greenish.",
+    "answer": "Copper vessels turned greenish due to the formation of copper carbonate layer.\nThe citric acid present in the lemon or tamarind neutralizes the basic copper carbonate and dissolves the layer.\nThat is why tarnished copper vessels are cleaned with lemon or tamarind juice to give the surface of the copper vessel its characteristic lustre.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reason. Generally the ionic compounds have high melting points.",
+    "answer": "Ionic compounds are composed of cations and anions.\nThese ions are held together by strong electrostatic forces of attraction.\nConsiderable amount of energy is required to break these strong forces of attraction. \nHence, the melting points of ionic compounds are high.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reason. Sodium is always kept in kerosene.",
+    "answer": "1Show SolutionKerosene contains sodium as:\n\nAs a highly reactive metal, sodium interacts with water in a highly exothermic manner.\nIt has a strong reaction with water and oxygen.\nIt can generate much heat when it reacts with oxygen and water vapor in the atmosphere.\nTo prevent this strong reaction, it is thus stored or maintained in kerosene.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reason. Pine oil is used in froth flotation.",
+    "answer": "Pine oil is hydrophobic.\nThe particles of the metal sulphide ores which are hydrophobic get wetted by pine oil.\nThey float with the foam on the surface of water.\nThus, by using this property some ores which contain hydrophobic particles in them can be concentrated by froth floatation process. \nHence, pine oil is used in froth floatation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reason. Anodes need to be replaced from time to time during the electrolysis of alumina.",
+    "answer": "In the electrolysis of alumina, graphite rod is used as anode.\n\nDuring the electrolytic reduction of alumina, aluminium is produced at the cathode and oxygen gas is evolved at the anode.\nThis gas reacts with the graphite rods (anode) and forms carbon dioxide.\n\nThus, the graphite rods are continuously eroded. Hence, anodes are replaced from time to time during the electrolysis of alumina.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "When a Copper Coin is Dipped in Silver Nitrate Solution, a Glitter Appears on the Coin After Some Time. Why Does this Happen? Write the Chemical Equation.",
+    "answer": "Copper is more reactive than silver. Hence, displacement reaction occurs. When copper coin is dipped in silver nitrate solution, it forms copper nitrate and silver metal. A shining white deposit of silver metal is formed on copper coin. The grey solid crystal(glitters) of Ag metal appears on the copper coin and solution turns blue in colour.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "The electronic configuration of metal ‘A’ is 2,8,1 and that of metal ‘B’ is 2,8,2. Which of the two metals is more reactive? Write their reaction with dilute hydrochloric acid.",
+    "answer": "On moving from left to right in a period of periodic table, the chemical reactivity of elements first decreases from sodium to silicon and then increases from phosphorus to chlorine.\nThe electronic configuration of metal &lsquo;A&rsquo; is 2, 8, 1. This is electronic configuration of sodium metal.\nThe electronic configuration of metal &lsquo;B&rsquo; is 2, 8, 2. This is electronic configuration of magnesium metal. \nIn the first element of third period, sodium, there is 1 valence electron which it can lose easily to react with other substances, so it is very reactive metal. The second element magnesium has 2 valence electrons. It is not easy for an atom to lose 2 electrons, so magnesium is less reactive than sodium. \nReaction with dil hydrochloric acid:\n\\[2Na + 2HCl \\to 2NaCl + H_2 \\]\n\\[Mg + 2HCl \\to MgC l_2 + H_2\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Draw a neat labelled diagram. Magnetic separation method.",
+    "answer": "Magnetic separation method-",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Draw a neat labelled diagram. Froth floatation method.",
+    "answer": "Froth floatation method-",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Draw a neat labelled diagram. Electrolytic reduction of alumina.",
+    "answer": "Electrolytic reduction of alumina-",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Draw a neat labelled diagram. Hydraulic separation method.",
+    "answer": "Hydraulic separation method-",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Write Chemical Equation for the Event.Aluminium Came in Contact with Air.",
+    "answer": "luminum came in contact with air.\nAluminum is a very reactive metal. The outer surface of the metal is actually covered by a very thin layer of oxide which keeps the metal protected from the air. But when the oxide layer is damaged, aluminum comes in contact with the air. It is easily attacked by air. Then aluminum starts reacting with the oxygen. It will burn as bright white flame to change into aluminum(III) oxide.\nChemical Equation: \n\n\\[4Al + 3 O_2 \\to 2A l_2 O_3\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Iron filings are dropped in aqueous solution of copper sulphate. or Iron dissolved in aqueous solution of copper sulphate.",
+    "answer": "Iron displaces copper from copper sulphate solution forming ferrous sulphate and copper.\n\\[\\ce{\\underset{\\text{Iron}}{Fe_{(s)}} + \\underset{\\text{Copper sulphate}}{CuSO_{4(aq)}} -> \\underset{\\text{Ferrous sulphate}}{FeSO_{4(aq)}} + \\underset{\\text{Copper}}{Cu_{(s)}}}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Write the chemical equation for the event. A reaction was brought about between ferric oxide and aluminium.",
+    "answer": "luminium is more reactive than iron. Aluminium metal replaces iron from ferric oxide to form aluminium oxide and iron\nChemical Equation: \\[\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Write chemical equation for the event. Electrolysis of alumina is done.",
+    "answer": "1Show SolutionThe electrolysis of alumina is carried out in a steel tank lined inside with graphite. The graphite lining serves as cathode. Anode is also made up of graphite rods hanging in the molten mass. The electrolyte consists of alumina dissolved in fused Cryolite(Na3AlF6) and Fluorspar(CaF2). Cryolite lowers the melting point of alumina and fluorspar increases the fluidity of the mass so that the liberated aluminum metal may sink at the bottom of the cell. When electric current is passed through this mixture, the aluminum is collected at the cathode in molten state and sinks at the bottom.\n\nIonization of Alumina:2Al2O3 → 6O-2 + 4Al+3\nReaction at Cathode: 4Al+3 + 12e- → 4Al\nReaction at Anode: 6O-2 → 3O2 + 12e-, C + O2 → CO2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Write a chemical equation for the following event. Zinc oxide is dissolved in dilute hydrochloric acid.",
+    "answer": "Zinc Oxide is an inorganic compound with formula ZnO. It is insoluble in water. When Zinc oxide reacts with hydrochloric acid it forms zinc chloride and water. It also leads to the formation of small bubbles of hydrogen. This is a double displacement reaction.\nChemical Equation: \n\\[\\ce{ZnO + 2HCl -> ZnCl2 + H2O}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Complete The Statement Using Every Given Option. During the Extraction of Aluminium.............. Ingredients and Gangue in Bauxite.",
+    "answer": "Bauxite is the main ore of aluminium. Silica (SiO2), ferric oxide (Fe2O3) and titanium oxide (TiO2) are the impurities present in bauxite.\nIngredient in bauxite are molten cryolite (Na3AIF6), fluorspar (CaF2).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Complete The Statement Using Every Given Option.During the Extraction of Aluminium..............Use of Leaching During the Concentration of Ore.",
+    "answer": "The separation of impurities(silica (SiO2), ferric oxide (Fe2O3) and titanium oxide (TiO2)) in bauxite ore is done by leaching process using either Bayer&rsquo;s method or Hall&rsquo;s method.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "Complete The Statement Using Every Given Option.During the Extraction of Aluminium..............Chemical Reaction of Transformation of Bauxite into Alumina by Hall’S Process.",
+    "answer": "In the Hall&rsquo;s process the bauxite is in powdered form and then leached by heating with aqueous sodium carbonate in the digester to form water soluble sodium aluminate. Then the insoluble impurities are filtered out. The filtrate is warmed and neutralised by passing carbon dioxide gas through it. This results in the precipitation of aluminium hydroxide.\n\\[A l_2 O_3 2 H_2 O (s) + N a_2 C O_3 (aq) \\to 2NaAl O_2 (aq) + C O_2 + 2 H_2 O (l)\\]\n\\[ 2NaAl O_2 (aq) + 3 H_2 O + C O_2 (g) \\to 2Al(OH )_3 + N a_2 C O_3 \\]\nThe precipitate of Al(OH)3 obtained in both, Bayer&rsquo;s and Hall&rsquo;s processes is filtered, washed, dried and then calcined by heating at 10000C to obtain alumina.\n\n\\[2Al(OH )_3 \\to A l_2 O_3 + 3 H_2 O\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "Complete the statement using every given option. During the extraction of aluminium......... Heating the aluminium ore with concentrated caustic soda.",
+    "answer": "When aluminium ore is heated with caustic soda (NaOH) solution under high pressure for 2 to 8 hours at 140° - 150° C, water-soluble sodium aluminate is formed.\n\n\\[\\ce{Al2O3 + 2NaOH -> 2NaAlO2 + H2O}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "Divide the metals Cu, Zn, Ca, Mg, Fe, Na, Li into three groups, namely reactive metals, moderately reactive metals and less reactive metals.",
+    "answer": "Reactive metals\nModerately reactive metals\nLess reactive metals\n\nCa\nFe\nCu\n\nNa\nZn\n \n\nLi\nMg",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "Match the Pairs. Group &#x27;A&#x27; Group &#x27;B&#x27; A. C2h6 1. Unsaturated Hydrocarbon B. C2h2 2. Molecular Formula of an Alcohol C. Ch4o 3. Saturated Hydrocarbon D. C3h6 4. Triple Bond",
+    "answer": "Group 'A'\nGroup 'B'\n\na. C2H6\n1. Saturated hydrocarbon\n\nb. C2H2\n2. Triple bond\n\nc. CH4O\n3. Molecular formula of an alcohol\n\nd. C3H6\n4. Unsaturated hydrocarbon",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Draw an Electron Dot Structure of the Following Molecule. (Without Showing the Circle) :Methane",
+    "answer": "Methane",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Draw an Electron Dot Structure of the Following Molecule. (Without Showing the Circle) :Ethene",
+    "answer": "Ethene",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Draw an Electron Dot Structure of the Following Molecule. (Without Showing the Circle) :Methanol",
+    "answer": "Methanol",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Draw an Electron Dot Structure of the Following Molecule. (Without Showing the Circle) :Water",
+    "answer": "Water",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Draw all possile structural formulae of compound from their molecular formula given below. C3H8",
+    "answer": "C3H8 Propane:",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Draw All Possile Structural Formulae of Compound from Their Molecular Formula Given Below.C4h10",
+    "answer": "C4H10",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Draw All Possile Structural Formulae of Compound from Their Molecular Formula Given Below.C3h4",
+    "answer": "C3H4\n \nPropyne",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Structural isomerism term with example.",
+    "answer": "It is a phenomenon in which the compounds having different structural formulas have the same molecular formula.\nE.g. n-Butane and isobutane are structural isomers as they have different structural formulae but have a same molecular formula: C4H10. \n\\[\\begin{array}{cc}\n\\ce{H}\\phantom{...}\\ce{H}\\phantom{...}\\ce{H}\\phantom{...}\\ce{H}\\\\\n|\\phantom{....}|\\phantom{....}|\\phantom{....}|\\\\\n\\ce{H - C - C - C - C - H}\\\\\n|\\phantom{....}|\\phantom{....}|\\phantom{....}|\\\\\n\\ce{H}\\phantom{...}\\ce{H}\\phantom{...}\\ce{H}\\phantom{...}\\ce{H}\\\\\\end{array}\\]\nn-Butane (C4H10)\n\nIsobutane (C4H10)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Following Term with Example.Covalent Bond",
+    "answer": "Covalent bond\nCovalent bond is a chemical bond that involves the sharing of an electron pairs between atoms. These electron pairs are known as shared pairs or bonding pairs. It is also known as molecular bond. For example: Molecules that have covalent linkages are hydrogen, nitrogen, chlorine, water, and ammonia (H2, N2, Cl2, H2O, NH3).\n\nA single line indicates a single bond between two atoms (i.e. involving one electron pair), double lines (=) indicate a double bond between two atoms (i.e. involving two electron pairs), and triple lines (&equiv;) represent a triple bond (C&equiv;O).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Following Term with Example.Hetero Atom in a Carbon Compound",
+    "answer": "Hetero atom is any atom which is not carbon or hydrogen. These are non-carbon, hydrogen atoms which replace carbon in the back bone of the molecular structure, usually found in heterocyclic compounds. Typical hetero atoms are nitrogen, oxygen, sulphur, phosphorus, chlorine, bromine and iodine.\nFor example: Oxygen is hetero atom in ethanol ( C2H5-O-H)\nSimilarly, Nitrogen is the hetero atom in Ethyl amine ( CH3-CH2-NH2) \nPyridine is a heterocyclic compound with hetero atom nitrogen, furan with hetero atom oxygen.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following term with an example. Functional group",
+    "answer": "Functional group: The functional group is defined as an atom or group of atoms joined in a specific manner, which gives the chemical properties of the organic compound and they are the centers for chemical reactivity. Compounds having a similar functional group have undergoes similar reactions.\n\nFor example:\n1. Alkane: The functional group presence in the alkane is \\[\\ce{-C-C -}\\]. The IUPAC group suffix of an alkane is &ndash; ane.\nExample: Methane CH4\n2. Alkene: The functional group presence in the alkene is \\[\\ce{- C = C -}\\] (double bond). The IUPAC group suffix of an alkene is &ndash; ene.\nExample: butene\n3. Alkynes: The functional group presence in the alkyne is \\[\\ce{- C &equiv; C -}\\] (triple bond). The IUPAC group suffix of an alkyne is &ndash; yne.\n4. Arenes: They contain a benzene ring as the functional group. \nExample: Benzene\n5. Halides: The functional group presence in halides is X(halogen).\nExample: Chloromethane\n6. Alcohols: The functional group, which is present in alcohol, is -OH. The IUPAC group suffix of alcohol is &ndash; ol.\nExample: Ethanol\n\\[\\begin{array}{cc}\n|\\phantom{..........}|\\phantom{....}\\\\\n\\ce{- C - OH - C - OH}\\\\\n|\\phantom{..........}|\\phantom{....}\n\\end{array}\\]\n7. Aldehydes: The functional group, which is present in an aldehyde, is \\[\\ce{- CHO}\\]. The IUPAC group suffix of an aldehyde is \\[\\ce{&ndash;al}\\].\nExample: Formaldehyde\n\\[\\begin{array}{cc}\n\\phantom{....}\\ce{O}\\\\\n|\\phantom{....}||\\phantom{.}\\\\\n\\ce{- C - C - H}\\\\\n|\\phantom{......}\n\\end{array}\\]\n8. Ketones: The functional group, which is present in a ketone is \\[\\ce{>C=O}\\]. The IUPAC group suffix of a ketone is &ndash;one.\nExample: Acetone\n\\[\\begin{array}{cc}\n\\ce{O}\\\\\n|\\phantom{....}||\\phantom{....}|\\\\\n\\ce{- C - C - C -}\\\\\n|\\phantom{.........}|\n\\end{array}\\]\n9. Carboxylic acid: The functional group present in a carboxylic acid is \\[\\ce{- COOH}\\]. The IUPAC group suffix of a carboxylic acid is &ndash; oic acid.\nExample: Acetic acid\n\\[\\begin{array}{cc}\n\\phantom{..}\\ce{O}\\\\\n|\\phantom{....}||\\phantom{...}\\\\\n\\ce{- C - C - OH}\\\\\n|\\phantom{........}\n\\end{array}\\]\n10. Amine: The functional groups present in an amine are \\[\\ce{- NH2 > NH > N -}\\] The IUPAC group prefix of an amine is amino &ndash; or the suffix is &ndash;amine.\nExample: Methylamine\n\\[\\begin{array}{cc}\n|\\phantom{....}\\\\\n\\ce{- C - \\overset{\\bullet\\bullet}{N} -}\\\\\n|\\phantom{....}|\\end{array}\\]\n11. Ester: The functional group present in an ester is \\[\\ce{-COOR}\\] .\nThe IUPAC group suffix of an ester is &ndash;ate.\nExample: Ethyl acetate\n\\[\\begin{array}{cc}\n\\phantom{.}|\\phantom{........}|\\phantom{.......}|\\phantom{........}|\\\\\n\\ce{- C - O - C -- C - O - C -}\\\\\n\\phantom{.}|\\phantom{........}|\\phantom{.......}|\\phantom{........}|\\\\\\end{array}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Following Term with Example.Alkane",
+    "answer": "lkane: Alkane is a saturated hydrocarbon. It is formed, when there is sharing of one electron pair between carbon atoms in a compound. The general formula for alkane is CNH2N+2, where N is equal to no of carbon atom in a compound.\nFor example:\n\nC2H6\nEthane\n\nC3H8\npropane\n\nC4H10\nbutane\n\nC5H12\npentane\n\nC6H14\nhexane\n\nC7H16\nheptane\n\nC8H18\noctane\n\nC9H20\nnonane\n\nC10H22\ndecane\n\nC11H24\nundecane",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Following Term with Example.Unsaturated Hydrocarbon",
+    "answer": "Unsaturated hydrocarbon: An unsaturated hydrocarbon is a hydrocarbon containing at least one double or triple bond.\nFor example:\nAlkenes - These unsaturated hydrocarbons are molecules that contain at least one carbon-to-carbon double bond. With the chemical formula consisting of CnH2n. The simplest alkene is ethylene.\nAlkynes - These unsaturated hydrocarbons are molecules that contain at least one carbon-to-carbon triple bond. Acetylenes are common examples of alkynes.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following term with example. Homopolymer",
+    "answer": "homopolymer is a polymer formed from same type of monomer units.\nFor examples: Polyvinylchloride (PVC), Polyethylene, Polystyrene are homopolymer.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Following Term with Example.Monomer",
+    "answer": "Monomer: A monomer is a molecule that forms the basic unit for polymers. They may be considered as building blocks from which proteins are made. Monomers may bind to other monomer unit to form a repeating chain molecule. Monomers may be either natural or synthetic in origin.\nFor example: Ethylene, vinyl chloride, styrene etc.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following term with example. Reduction",
+    "answer": "chemical reaction in which a substance gains hydrogen or loses oxygen is called a reduction reaction.\nE.g. In the following reaction, ethylene (ethene) is reduced to ethane.\n\\[\\ce{\\underset{\\text{Ethylene}}{H2C = CH2} ->[H2][Pt/Ni] \\underset{\\text{Ethane}}{CH3CH3}}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following term with an example. Oxidant",
+    "answer": "The substances which can give oxygen to other substance are called oxidants or oxidizing agents.\nE.g. Potassium permanganate (KMnO4) and potassium dichraomate (K2Cr2O7) in acidic or alkaline medium are commonly used oxidants.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Write the Iupac Name of the Following Structural Formulae. Ch3-ch2-ch2-ch3",
+    "answer": "CH3-CH2-CH2-CH3 = Butane",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Write the Iupac Name of the Following Structural Formulae.Ch3-choh-ch3",
+    "answer": "CH3-CH(OH)-CH3 = Propan-2-ol",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Write the Iupac Name of the Following Structural Formulae.Ch3-ch2-cooh",
+    "answer": "CH3-CH2-COOH = Propanoic acid",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Write the IUPAC name of the following structural formulae.CH3-CH2-NH2",
+    "answer": "CH3-CH2-NH2 = Ethan-1-amine",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Write the Iupac Name of the Following Structural Formulae.Ch3-cho",
+    "answer": "CH3-CHO = Ethanal",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Write the Iupac Name of the Following Structural Formulae.Ch3-co-ch2-ch3",
+    "answer": "CH3-CO-CH2-CH3 = Butan-2-one",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Identify the type of the following reaction of carbon compound.CH3 -CH2 -CH2-OH → CH3 -CH2 -COOH",
+    "answer": "CH3 -CH2 -CH2-OH → CH3 -CH2 -COOH = Oxidation reaction(acidic KMnO4)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Identify the type of the following reaction of carbon compound. CHA3−CHA2−CHA3⟶3COA2+4HA2O",
+    "answer": "The given reaction is a type of combustion reaction.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Identify the Type of the Following Reaction of Carbon Compound.Ch3 -ch = Ch -ch3 + Br2 → Ch3 -chbr - Chbr -ch3",
+    "answer": "CH3 -CH = CH -CH3 + Br2 → CH3 -CHBr - CHBr -CH3 = Addition reaction",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Identify the type of the following reaction of carbon compound.CH3 -CH3 + Cl2 → CH3 -CH2 -Cl + HCl",
+    "answer": "CH3 -CH3 + Cl2 → CH3 -CH2 -Cl + HCl = Substitution reaction",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Identify the Type of the Following Reaction of Carbon Compound. Ch3 -ch2 -ch2 -ch2 -oh → Ch3 -ch2 -ch=Ch2 + H2o",
+    "answer": "CH3 -CH2 -CH2 -CH2 -OH → CH3 -CH2 -CH=CH2 + H2O = Dehydration reaction",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Identify the Type of the Following Reaction of Carbon Compound.Ch3 -ch2 -cooh + Naoh → Ch3 -ch2 -coo - Na+ + H2o",
+    "answer": "CH3 -CH2 -COOH + NaOH → CH3 -CH2 -COO - Na+ + H2O = Neutralization reaction(reaction with base)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "Identify the Type of the Following Reaction of Carbon Compound.Ch3 -cooh + Ch3 -oh → Ch3 -coo- Ch3 + H2o",
+    "answer": "CH3 -COOH + CH3 -OH → CH3 -COO- CH3 + H2O = Esterification reaction",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "Write Structural Formulae for the Following Iupac Name.Pent-2-one",
+    "answer": "Pent-2-one\n\\[\\begin{array}{cc}\n\\ce{O}\\phantom{..............}\\\\\n||\\phantom{..............}\\\\\n\\ce{CH3 - C - CH2 - CH2 - CH3}\\\\\n\\end{array}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "Write Structural Formulae for the Following Iupac Name.2-chlorobutane",
+    "answer": "2-chlorobutane",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "Write Structural Formulae for the Following Iupac Name.Propan- 2 Ol",
+    "answer": "Propan- 2 ol",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "Write Structural Formulae for the Following Iupac Name.Methanal",
+    "answer": "Methanal",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "Write Structural Formulae for the Following Iupac Name.Butanoic Acid",
+    "answer": "Butanoic acid",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "Write Structural Formulae for the Following Iupac Name.1-bromopropane",
+    "answer": "1-bromopropane",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "Write Structural Formulae for the Following Iupac Name.Ethanamine",
+    "answer": "Ethanamine",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "Write Structural Formulae for the Following Iupac Name.Butanone",
+    "answer": "Butanone",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "Write Answer as Directed.What Causes the Existance of Very Large Number of Carbon Compound ?",
+    "answer": "Organic compounds mean carbon compounds. Carbon is unique element in the periodic table. It has 4 valence electrons. That means each individual carbon atom can bind to 4 other atoms of almost any variety and each of those 4 can bind to 4 others atoms. This leads to formation of organic compounds having incredible variety and complexity - short chains, long chains, ring structures, branched structures and so on.This self linking property of carbon atom is called catenation, which leads to existance of very large number of carbon compound.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "Write Answer as Directed.Saturated Hydrocarbons Are Classified into Three Types. Write These Names Giving One Example Each.",
+    "answer": "Saturated hydrocarbons are classified into three types:\n\nSaturated hydrocarbon\nExample\nStructure\n\n1) Straight chain hydrocarbons\nPropane C3H8\n\n2)Branched chain hydrocarbon\nisobutane C4H10\n\n3)Cyclic hydrocarbon\nCyclohexane C6H12",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "Write answer as directed.Give any four functional groups containing oxygen as the heteroatom in it. Write name and structural formula of one example each.",
+    "answer": "Four functional groups containing oxygen as the heteroatom in it are as follows:\n1. Alcohols: The functional group, which is present in alcohol, is -OH. The IUPAC group suffix of alcohol is &ndash;ol.\nExample: Ethanol\n\\[\\begin{array}{cc}\n\\ce{H}\\phantom{..}\\ce{H}\\\\\n|\\phantom{...}|\\\\\n\\phantom{..}\\ce{H-C-C-OH}\\\\\n|\\phantom{...}|\\\\\n\\ce{H}\\phantom{..}\\ce{H}\n\\end{array}\\]\n2. Aldehydes: The functional group, which is present in an aldehyde, is -CHO. The IUPAC group suffix of an aldehyde is &ndash;al.\nExample: Acetaldehyde\n\\[\\begin{array}{cc}\n\\ce{H}\\phantom{..}\\ce{H}\\\\\n|\\phantom{...}|\\phantom{}\\\\\n\\ce{H-C-C=O}\\\\\n|\\phantom{....}\\\\\n\\ce{H}\\phantom{....}\n\\end{array}\\]\n3. Carboxylic acid: The functional group present in a carboxylic acid is -COOH. The IUPAC group suffix of a carboxylic acid is &ndash;oic acid.\nExample: Acetic acid\n\\[\\begin{array}{cc}\n\\ce{H}\\phantom{..}\\ce{O}\\phantom{..}\\\\\n|\\phantom{...}||\\phantom{..}\\\\\n\\ce{H-C-C-OH}\\\\\n|\\phantom{......}\\\\\n\\ce{H}\\phantom{......}\n\\end{array}\\]\n4. Ketones\nExamples:- Acetone\n\\[\\begin{array}{cc}\n\\ce{H}\\phantom{..}\\ce{O}\\phantom{..}\\ce{H}\\\\\n|\\phantom{...}||\\phantom{...}|\\\\\n\\ce{H-C-C-C-H}\\\\\n|\\phantom{.......}|\\\\\n\\ce{H}\\phantom{......}\\ce{H}\n\\end{array}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "Give names of three functional groups containing three different hetero atoms. Write name and structural formula of one example each.",
+    "answer": "Ethanamine containing nitrogen as the hetero atom\nCH3 - CH2 - NH2\nAlcohol containing oxygen as the hetero atom\n\nExample: propan-2-ol\n\\[\\begin{array}{cc}\n\\ce{OH}\\\\\n|\\phantom{..}\\\\\n\\ce{CH3-CH-CH3}\\\\\n\\end{array}\\]\n\n2-chlorobutane containing Chlorine as the hetero atom.\n\\[\\begin{array}{cc}\n\\phantom{.}\\ce{CI}\\\\\n|\\\\\\phantom{........}\n\\ce{CH3CH-CH2CH3}\\\\\n\\end{array}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 43,
+    "isFree": true
+  },
+  {
+    "question": "Write Answer as Directed.Give Names of Three Natural Polymers. Write the Place of Their Occurance and Names of Monomers from Which They Are Formed.",
+    "answer": "Natural polymers \nMonomer unit\nOccurance\n\n1.Polysaccaride\n Glucose \nStarch\n\n2.Cellulose \n Glucose \n Wood (cell wall of plant cells)\n\n3.Proteins \n alpha aminoacids \nMuscles, Hairs, Skin, Egg\n\n4.D.N.A \nNucleotide(base-deoxyribose-phosphate) \nChromosomes of animals\n\n5.R.N.A \nNucleotide(base-ribose-phosphate ) \nChromosomes of plants\n\n6.Rubber \nIsoprene(CH2=C(CH3)-CH=CH2 ) \n Latex of rubber tree",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 44,
+    "isFree": true
+  },
+  {
+    "question": "Write answer as directed. What is meant by vinegar and gashol? What are their uses?",
+    "answer": "Vinegar is the type of liquid which consist of acetic acid ( Ethanoic acid ). It is basically produced by the process of fermentation of ethanol through ethanoic acid in the presence of bacteria.\nReaction involved in the formation of Vinegar:\nCH₃CH₂OH + O₂ → CH₃COOH + H₂O\nFermentation is the process of converting sugar into alcohol. But if the cork of the bottle open for sometimes then there is a second type of fermentation happened. In this process, alcohol is changes into acetic acid, so the main compound which formed is vinegar.\nUses of Vinegar are:\n\nIt is used in the preparation of the food.\nIt is used in pickling.\nIt is used as folk medicine material.\nIt is used as a household cleaning agent\n\nGasohol is a mixture of 90% gasoline and 10% of anhydrous Alcohol (Ethyl Alcohol). It is commonly known as alternative fuel or motor fuel.\nBenefits of gasohol are:-\n\nIt is cheaper.\nIt is eco-friendly.\nIt has higher performance.\nIt is used as a cleaner for the environment.\nIt doesn't freeze in typical conditions.\n\nUses of gasohol are:\n\nIt is used in a fuel or petroleum Industry\nIt is used in an automobiles industry\nIt is used as common gasoline or hydrous around the world.\nIt is used as a flexible fuel vehicle, because it do not freeze in typical conditions.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 45,
+    "isFree": true
+  },
+  {
+    "question": "Write Answer as Directed.What is a Catalyst ? Write Any One Reaction Which is Brought About by Use of Catalyst ?",
+    "answer": "Catalyst is a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.\n\nFor example:",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 46,
+    "isFree": true
+  },
+  {
+    "question": "Fill in the blank and explain the statement with reasoning:  If the height of the orbit of a satellite from the earth surface is increased, the tangential velocity of the satellite will ...... .",
+    "answer": "If the height of the orbit of a satellite from the earth surface is increased, the tangential velocity of the satellite will decrease.\nExplanation: This can be easily inferred from the formula of critical or tangential velocity.\n\n\\[v_c = \\√{\\frac{GM}{R + h}}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Fill in the Blank and Explain the Statement with Reasoning: the Initial Velocity (During Launching) of the Managalyaan, Must Be Greater than ..............Of the Earth.",
+    "answer": "The initial velocity (during launching) of the Managalyaan, must be greater than escape velocity of the earth.\nExplanation:\nSince 24 September 2014, the Mars Orbiter Mission, also known as Mangalyaan, has been orbiting Mars.\nIt was launched by the Indian Space Research Organization on 5 November 2013.\nThe initial speed of Mangalyaan must be higher than the escape speed of the earth, which is 11.2 km/s.\nThe answer to the question is therefore 11.2 km/s.\nIt travelled over 200 million kilometers and entered the Red Planet's orbit successfully.\nThe ISRO launched it and was an extremely successful project.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "State with Reasons Whether the Sentence Is True Or False.If a Spacecraft Has to Be Sent Away from the Influence of Earth’S Gravitational Field, Its Velocity Must Be Less than the Escape Velocity.",
+    "answer": "The statement is false. This is because the minimum velocity with which the spacecraft must be projected so that it escapes the Earth's gravitational pull is known as escape velocity. So, the initial velocity of the spacecraft must be greater than or equal to escape velocity of Earth.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "State with reason whether the sentence is true or false. The escape velocity on the moon is less than that on the earth.",
+    "answer": "The statement is true.\nReason:\nEscape velocity on a planet is given as:\n\n\\[v_{ \\text{esc} } = \\√{\\frac{2GM}{R}} = \\√{2gR}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "State with Reasons Whether the Sentence Is True Or False . A Satellite Needs a Specific Velocity to Revolve in a Specific Orbit.",
+    "answer": "The specific velocity with which the satellite revolves around a planet is known as critical velocity. It is given as\n\n\\[v_c = \\√{\\frac{GM}{R + h}}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "State with Reasons Whether the Sentence Is True Or False . If the Height of the Orbit of a Satellite Increases, Its Velocity Must Also Increase.",
+    "answer": "The specific velocity with which the satellite revolves around a planet is known as critical velocity. It is given as \n\n\\[v_c = \\√{\\frac{GM}{R + h}}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "What is meant by an artificial satellite? How are the satellites classified based on their functions?",
+    "answer": "manmade object revolving around a planet in a fixed orbit is known as artificial satellites. \nBased on their functions, satellites are classified as following:\n\nType of satellite\n Function of satellite\n\nWeather satellite\nStudy and prediction of weather\n\nCommunication satellite\nEstablish communication between different location in the world through the use of specific waves\n\nBroadcast satellite\nTelecasting of television programs\n\nNavigational satellite\nFix the location of any place on the Earth&rsquo;s surface in terms of its very precise latitude and longitude\n\nMilitary Satellite\nCollect information for security aspects\n\nEarth Observation\nSatellite\nStudy of forests, deserts, oceans, polar ice on the earth&rsquo;s surface, exploration and management of natural resources, observation and guidance in case of natural calamities like flood and earthquake",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Answer the Question:What is Meant by the Orbit of a Satellite? on What Basis and How Are the Orbits of Artificial Satellites Classified?",
+    "answer": "n orbit is a specific path (elliptical or circular) or trajectory around a planet in which a satellite revolves. ​Depending on the height of the satellite&rsquo;s orbit above the Earth&rsquo;s surface, the satellite orbits are classified as below:\n\nHigh Earth Orbits (Height from the earth&rsquo;s surface > 35780 km): If the height of the satellite&rsquo;s orbit above the earth&rsquo;s surface is greater than or equal to 35780 km, the orbit is called High earth Orbit\nMedium Earth Orbit (Height above the earth&rsquo;s surface 2000 km to 35780 km): If the height of the satellite orbit above the earth&rsquo;s surface is in between 2000 km and 35780 km, the orbits are called medium earth orbits.\nLow Earth Orbits (Height above the earth&rsquo;s surface: 180 km to 2000 km): If the height of the satellite orbit above the earth&rsquo;s surface is in between 180 km and 2000 km, the orbits are called Low earth Orbits.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Why are geostationary satellites not useful for studies of polar regions?",
+    "answer": "The orbit of a geostationary satellite is above the equator. \nThe time of revolution for the earth around itself and that for geostationary satellites to revolve around the earth are the same.\nThe polar regions lie at very high latitudes and are outside the field of view of satellites positioned above the equator, so they cannot be properly observed.\nThese satellites are stationary with reference to the Earth they can observe a specific portion of the Earth continuously. \n\nTherefore, geostationary satellites are not useful for studies of polar regions.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "What is meant by satellite launch vehicles? Explain a satellite launch vehicle developed by ISRO with the help of a schematic diagram.",
+    "answer": "The vehicles with the help of which the satellites are placed in their specific orbits are called satellite launch vehicles.\nPolar satellite launch vehicle (PSLV) designed by ISRO is shown in the figure below. This PSLV is a four-stage satellite launch vehicle. Each of these stages contains fuel that is burned, and each stage is detached from the vehicle after reaching a specific height. There is a place at the top of the fourth stage to keep the polar satellite to be launched.\nAmongst the four stages, the first stage, along with six rocket booster engines, provides the initial thrust to the launcher. This stage contains solid fuel.\n\nThe second and fourth stages have liquid fuel in them, whereas the third stage works on the solid fuel.\nThe second and third stages increase the velocity of the PSLV and help it attain the desired height. The fourth, i.e., the last stage, sets the satellite into its desired orbit.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Why it is beneficial to use satellite launch vehicles made of more than one stage?",
+    "answer": "The launch vehicle's fuel accounts for the majority of its overall weight. \nAs a result, a significant amount of weight must be carried by the vehicle.\nIn launch vehicles with multiple stages, the vehicle's initial thrust is provided by the fuel in the first stage. The vehicle's fuel tank will be empty once this fuel is used up. This gradually lowers the vehicle's weight. \n\nTherefore, using satellite launch vehicles with multiple stages is advantageous.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Complete the Following Table.",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "If Mass of a Planet is Eight Times the Mass of the Earth and Its Radius is Twice the Radius of the Earth, What Will Be the Escape Velocity for that Planet?",
+    "answer": "1Show SolutionEscape velocity for Earth is\n\n\\[v_{esc} = \\√{\\frac{2G M_e}{R_e}} = 11 . 2 km/s\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Solve the problem. How much time a satellite in an orbit at height 35780 km above earth&#x27;s surface would take, if the mass of the earth would have been four times its original mass?",
+    "answer": "Given:\nHeight of the satellite, h = 35780 km\nLet the original mass of Earth be M. Then its new mass will be 4M.\nThe time taken by the satellite to revolve around the Earth's orbit is given as\nT = (2piR)/(vc)\nNow, vc is given as\nvc = √((GM)/(R + h))\nThus,\nT = (2pi(R + h))/(√((GM)/(R + h))) = (2pi(R + h)√(R + h))/(√(GM)) ...(i)\n= T propto 1/(√(M)) ...(ii)\n\nThus, from equation (ii), we see that when the mass of the Earth becomes 4 times, the time period of revolution of the satellite should be halved.\ni.e., T_(4M) = T/2 ...(iii)\nNow, h = 35780 km\nM = 6 × 1024 kg\nR = 6.4 × 105 m\nG = 6.67 × 10−11 N m2/kg2\nPutting the values of h, M and R first, we get\nT = 24 h\nUsing (iii), we get\nT_(4M) = 24/2 = 12h",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "If the height of a satellite completing one revolution around the earth in T seconds is h1 meter, then what would be the height of a satellite taking 22T seconds for one revolution?",
+    "answer": "Let us assume the height of the satellite completing one revolution in 2√2 T seconds as h2.\nT = (2pi\"r\")/\"v\"_\"c\",i.e., T = (2pi(\"R\"+\"h\"₁))/(√(\"GM\"/((\"R\"+ \"h\"₁)))\n∴ T = 2pi√((\"R\"+\"h\"₁)³/\"GM\") ...(1)\nand 2√2 T = 2pi√((\"R\"+\"h\"₁)³/\"GM\")\nfrom Eqs. (1) and (2),\n∴ \"T\"/(2√2 \"T\")=(2pi√((\"R\"+\"h\"₁)³/\"GM\"))/(√(((\"R\"+ \"h\"₂)³)/\"GM\")\n∴ 1/√8=√((\"R\"+\"h\"₁)³)/(√((\"R\"+ \"h\"₂)³)\n∴ 1/2=((\"R\"+\"h\"₁))/((\"R\"+\"h\"₂)\n∴ R + h2 = 2R + 2h1\n∴ h2 = R + 2h1",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Space Missions",
+    "questionNumber": 15,
+    "isFree": true
+  }
+]

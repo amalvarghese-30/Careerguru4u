@@ -1,0 +1,53 @@
+{
+  "board": "Maharashtra Board",
+  "class": 10,
+  "course": {
+    "id": 1440,
+    "slug": "maharashtra-board-10th-standard-ssc-english-medium",
+    "medium": "english"
+  },
+  "subjects": [
+    {
+      "name": "Biology",
+      "slug": "biology",
+      "id": "8416",
+      "url": "https://www.shaalaa.com?subjects=biology_8416"
+    },
+    {
+      "name": "Chemistry",
+      "slug": "chemistry",
+      "id": "8415",
+      "url": "https://www.shaalaa.com?subjects=chemistry_8415"
+    },
+    {
+      "name": "English 2 Literature English Class",
+      "slug": "english-2-literature-english-class",
+      "id": "8887",
+      "url": "https://www.shaalaa.com?subjects=english-2-literature-english-class_8887"
+    },
+    {
+      "name": "Geography",
+      "slug": "geography",
+      "id": "8861",
+      "url": "https://www.shaalaa.com?subjects=geography_8861"
+    },
+    {
+      "name": "History And Civics Class",
+      "slug": "history-and-civics-class",
+      "id": "8886",
+      "url": "https://www.shaalaa.com?subjects=history-and-civics-class_8886"
+    },
+    {
+      "name": "Mathmetics",
+      "slug": "mathmetics",
+      "id": "8862",
+      "url": "https://www.shaalaa.com?subjects=mathmetics_8862"
+    },
+    {
+      "name": "Physics",
+      "slug": "physics",
+      "id": "8414",
+      "url": "https://www.shaalaa.com?subjects=physics_8414"
+    }
+  ]
+}

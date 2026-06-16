@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "For the following experiment write sample space ‘S’ and number of sample points n(S). Two-digit numbers are formed using digits 2, 3 and 5 without repeating a digit.",
+    "answer": "Let 'S' be the sample space\nSample Space (S) = {23, 25, 32, 35, 52, 53}\n∴ n(S) = 6\nHence, the required number of sample spaces is 6.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "The Arrow is Rotated and It Stops Randomly on the Disc. Find Out on Which Colour It May Stop.",
+    "answer": "Sample Space (S) = {Red, Purple, Orange, Yellow, Blue, Green}\n∴ n(S) = 6\nHence, the number of colours on which the arrow may stop is 6.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "In the month of March 2019, Find the days on which the date is a multiple of 5. (see the given page of the calender)",
+    "answer": "The dates multiple of 5 are 5, 10, 15, 20, 25 and 30.\nFrom the calender, we can observe on these dates, the days fall are Tuesday,\nSunday, Friday, Wednesday, Monday, Saturday\nSample Space = {Tuesday, Sunday, Friday, Wednesday, Monday, Saturday}\n∴ n(S) = 6\nHence, the total number days on which the date is a multiple of 5 is 6.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Form a ‘Road Safety Commitee’ of Two, from 2 Boys (B1, B2) and 2 Girls(G1, G2). Complete the Following Activity to Write the Sample Space.",
+    "answer": "(a) Committee of 2 boys = B1, B2\n(b) Committee of 2 girls = G1, G2\n(c) Committee of one boy and one girl = (B1, G1), (B1, G2), (B2, G1), (B2, G2)\n ∴ Sample space = {(B1, B2), (G1, G2), (B1, G1), (B1, G2), (B2, G1), (B2, G2)}\nor n(S) = 6",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Write Sample Space ‘S’ and Number of Sample Point N(S) for the Following Experiment. Also Write Events A, B, C in the Set Form and Write N(A), N(B), N(C).",
+    "answer": "Sample Space = {1, 2, 3, 4, 5, 6}\n∴ n(S) = 6\n A = {2, 4, 6}\n∴ n(A) = 3,\nB = {1, 3, 5}\n∴ n(B) = 3,\nC = {2, 3, 5}\n∴ n(C) = 3",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Write sample space ‘S’ and number of sample point n(S) for the following experiment. Also write events A, B, C in the set form and write n(A), n(B), n(C). Two dice are rolled simultaneously,",
+    "answer": "Two dice are rolled simultaneously.\nSample Space (S) = {[(1,1)(1,2)(1,3)(1,4)(1,5)(1,6)],[(2,1)(2,2)(2,3)(2,4)(2,5)(2,6)], [(3,1)(3,2)(3,3)(3,4)(3,5)(3,6)],[(4,1) (4,2)(4,3)(4,4)(4,5)(4,6)],[(5,1)(5,2)(5,3)(5,4)(5,5)(5,6)],[(6,1)(6,2)(6,3)(6,4)(6,5)(6,6)]}\n∴ n(S) = 36",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Write Sample Space ‘S’ and Number of Sample Point N(S) for the Following Experiment. Also Write Events A, B, C in the Set Form and Write N(A), N(B), N(C",
+    "answer": "Sample Space (S) = {HHH, HHT, HTT, HTH, THT, TTH, THH, TTT}\n∴ n(S) = 8\n A = {HHH, HHT, HTH, THH}\n∴ n(A) = 4\n B = {TTT}\n∴ n(B) = 1\n C = {HHH, HHT, THT ,THH}\n∴ n(C) = 4",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Write Sample Space ‘S’ and Number of Sample Point N(S) for the Following Experiment. Also Write Events ).Two Digit Numbers Are Formed Using Digits 0, 1, 2, 3, 4, 5 Without Repetition of the Digits.",
+    "answer": "Sample Space (S) = {10, 12, 13, 14, 15, 20, 21, 23, 24, 25, 30, 31, 32, 34, 35, 40, 41, 42, 43, 45, 50, 51, 52, 53, 54}\n∴ n(S) = 25\n A = {10, 12, 14, 20, 24, 30, 32, 34, 40, 42, 50, 52, 54}\n∴ n(A) = 13\n B = {12, 15, 21, 24, 30, 42, 45, 51, 54}\n∴ n(B) = 9\n C = {51, 52, 53, 54}\n∴ n(C) = 4",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Write Sample Space ‘S’ and Number of Sample Point N(S) for the Following Experiment. from Three Men and Two Women, Environment Committee of Two Persons is to Be Formed.",
+    "answer": "Let the three men be M1, M2, M3 and the two women be W1, W2.\nOut of these men and women, a environment committee of two persons is to be formed.\n∴ Sample space,\nS = {M1M2, M1M3, M1W1, M1W2, M2M3, M2W1, M2W2, M3W1, M3W2, W1W2}\n∴ n (S) = 10\nCondition for event A: There must be at least one woman member.\n∴ A = {M1W1, M1W2, M2W1, M2W2, M3W1, M3W2, W1W2}\n∴ n (A) = 7\nCondition for event B: One man, one woman committee to be formed.\n∴ B = {M1W1, M1W2, M2W1, M2W2, M3W1, M3W2}\n∴ n (B) = 6\nCondition for event C: There should not be a woman member.\n∴ C = {M1M2, M1M3, M2M3}\n∴ n (C) = 3",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Write Sample Space ‘S’ and Number of Sample Point N(S) for the Following Experiment. Also Write Events A, B, C in the Set Form and Write N(A), N(B), N(C).One Coin and One Die Are Thrown Simultaneous",
+    "answer": "S = {H1, H2, H3, H4, H5, H6 T1, T2, T3, T4, T5, T6}\n∴ n(S) = 12\n A = {H1, H3, H5}\n∴ n(A) = 3\n B = {H2, H4, H6, T2, T4, T6}\n∴ n(B) = 6\n C = {}\n∴ n(C) = 0",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "If two coins are tossed, find the probability of the following event. Getting at least one head.",
+    "answer": "Sample Space (S) = {HH, HT, TT, TH}\n∴ n(S) = 4\nEvent A: Getting at least one head\nA = {HH, HT, TH}\n∴ n(A) = 3 \ntherefore P(A) = (n(A))/(n(S))\n= 3/4\nHence, the probability of getting at least one head is 3/4.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "If Two Coins Are Tossed, Find the Probability of the Following Event.Getting No Head ?",
+    "answer": "Sample Space (S) = {HH, HT, TT, TH}\n∴ n(S) = 4 \nEvent B: Getting no head\nB = {TT}\n∴ n(B) = 1 \ntherefore P(B) =(n(B))/(n(S))\n= 1/4\n​Hence, the probability of getting no head is 1/4.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "If two dice are rolled simultaneously, find the probability of the following event.The sum of the digits on the upper faces is at least 10.",
+    "answer": "Sample Space (S) = {[(1,1)(1,2)(1,3)(1,4)(1,5)(1,6)],[(2,1)(2,2)(2,3)(2,4)(2,5)(2,6)], [(3,1)(3,2)(3,3)(3,4)(3,5)(3,6)],[(4,1) (4,2)(4,3)(4,4)(4,5)(4,6)],[(5,1)(5,2)(5,3)(5,4)(5,5)(5,6)],[(6,1)(6,2)(6,3)(6,4)(6,5)(6,6)]}\n∴ n(S) = 36\nEvent A: sum of the digits on the upper faces is at least 10\nA = {(4,6), (5,5), (5,6), (6,4), (6,5), (6,6)}\n∴ n(A) = 6 \n∴ P(A) = (n(A))/(n(S))\n= 6/36\n= 1/6\nHence, the probability that the sum of the digits on the upper faces is at least 10 is 1/6.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "If two dice are rolled simultaneously, find the probability of the following event. The sum of the digits on the upper faces is 33.",
+    "answer": "If two dice are rolled simultaneously.\nSample Space (S) = {[(1,1)(1,2)(1,3)(1,4)(1,5)(1,6)],[(2,1)(2,2)(2,3)(2,4)(2,5)(2,6)], [(3,1)(3,2)(3,3)(3,4)(3,5)(3,6)],[(4,1) (4,2)(4,3)(4,4)(4,5)(4,6)],[(5,1)(5,2)(5,3)(5,4)(5,5)(5,6)],[(6,1)(6,2)(6,3)(6,4)(6,5)(6,6)]}\n∴ n(S) = 36\nEvent B: sum of the digits on the upper faces is 33\nB = {}\n∴ n(B) = 0 \ntherefore P(B) = (n(B))/(n(S)\n= 0/36\n = 0\n​Hence, the probability that the sum of the digits on the upper faces is 33 is 0.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "If Two Dice Are Rolled Simultaneously, Find the Probability of the Following Event.The Digit on the First Die is Greater than the Digit on Second Die.",
+    "answer": "Sample Space (S) = {[(1,1)(1,2)(1,3)(1,4)(1,5)(1,6)],[(2,1)(2,2)(2,3)(2,4)(2,5)(2,6)], [(3,1)(3,2)(3,3)(3,4)(3,5)(3,6)],[(4,1) (4,2)(4,3)(4,4)(4,5)(4,6)],[(5,1)(5,2)(5,3)(5,4)(5,5)(5,6)],[(6,1)(6,2)(6,3)(6,4)(6,5)(6,6)]}\n∴ n(S) = 36\nEvent C: digit on the first die is greater than the digit on second die\nC = {(2,1), (3,1), (3,2), (4,1), (4,2), (4,3), (5,1), (5,2), (5,3), (5,4), (6,1), (6,2), (6,3), (6,4), (6,5)}\n∴ n(C) = 15 \ntherefore P (C) =(n(C))/(n(S))\n =15/36\n=5/12\n​Hence, the probability that digit on the first die is greater than the digit on second die is =5/12",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "There are 15 tickets in a box, each bearing one of the numbers from 1 to 15. One ticket is drawn at random from the box. Find the probability of event that the ticket drawn - shows an even number.",
+    "answer": "Sample Space (S) = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}\n∴ n(S) = 15\nEvent A: the ticket shows an even number\nA = {2, 4, 6, 8, 10, 12, 14}\n∴ n(A) = 7 \n∴ P (A) = (n(A))/(n(S))\n= 7/15\nHence, the probability that the ticket shows an even number is 7/15.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "There are 15 tickets in a box, each bearing one of the numbers from 1 to 15. One ticket is drawn at random from the box. Find the probability of event that the ticket drawn",
+    "answer": "Sample Space (S) = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}\n∴ n(S) = 15\nEvent B: the ticket shows a number which is a multiple of 5\nB = {5, 10, 15 }\n∴ n(B) = 3 \n∴ P (B) = \"n(B)\"/\"n(S)\" =3/15 =1/5​\nHence, the probability that the ticket shows a number which is a multiple of 5 is =1/5​.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "A two digit number is formed with digits 2, 3, 5, 7, 9 without repetition. What is the probability that the number formed is an odd number?",
+    "answer": "Sample Space (S) = {23, 25, 27, 29, 32, 35, 37, 39, 52, 53, 57, 59, 72, 73, 75, 79, 92, 93, 95, 97}\n∴ n(S) = 20\nEvent A: The number is odd.\n∴ A = {23, 25, 27, 29, 35, 37, 39, 53, 57, 59, 73, 75, 79, 93, 95, 97}\n∴ n(A) = 16 \n∴ P(A) = (n(A))/(n(S))\n= 16/20\n= 4/5\nEvent B: The number is a multiple of 5.\nB = {25, 35, 75, 95}\n∴ n(B) = 4 \n∴ P(B) = (n(B))/(n(S))\n= 4/20\n= 1/5",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "A card is drawn at random from a pack of well shuffled 52 playing cards. Find the probability that the card drawn is – an ace.",
+    "answer": "card is drawn at random from a pack of well shuffled 52 playing cards.\n&lsquo;S&rsquo; is the sample space. \n∴ n(S) = 52\nEvent A: The card drawn is an ace\n∴ n(A) = 4\n∴ P(A) = (n(A))/(n(S)\n= 4/52\n=1/13\nHence, the probability that the card drawn is an ace is = 1/13.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "A card is drawn at random from a pack of well shuffled 52 playing cards. Find the probability that the card drawn is a spade.",
+    "answer": "There are 52 playing cards.\n∴ n(S) = 52\nLet B be the event that the card drawn is a spade.\nThere are 13 spade cards.\n∴ n(B) = 13\n∴ P(B) = (n(B))/(n(S))\n= 13/52\n= 1/4\nHence, the probability that the card drawn is a spade is =1/4.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Which number cannot represent a probability? 2/3, 0.5, 15/10, 15%, 0.7",
+    "answer": "1.5 15%0.715/10",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Choose the Correct Alternative Answer for the Following Question. a Die is Rolled. What is the Probability that the Number Appearing on Upper Face is Less than 3 ?",
+    "answer": "1/3 1/20",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Choose the Correct Alternative Answer for the Following Question. What is the Probability of the Event that a Number Chosen from 1 to 100 Is A Prime Number ?",
+    "answer": "1/413/50",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Choose the Correct Alternative Answer There Are 40 Cards in a Bag. Each Bears a Number from 1 to 40. What is the Probability that the Card Bears a Number Which is a Multiple of 5 ?",
+    "answer": "1/5 3/5 4/51/3",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Choose the correct alternative answer for the following question. If n(A) = 2, P(A) = 15, then n(S) = ?",
+    "answer": "105/22/51/3",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "Basketball players John, Vasim, Akash were practising the ball drop in the basket. The probabilities of success for John, Vasim and Akash are 45, 0.83 and 58% respectively.",
+    "answer": "The probability that the ball is dropped in the basket by John = 4/5 = 0.80\nThe probability that the ball is dropped in the basket by Vasim = 0.83\nThe probability that the ball is dropped in the basket by Akash = 58% = 58/100 = 0.58\n0.83 > 0.80 > 0.58\n∴ Vasim has the greatest probability of success.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "In a hockey team, there are 6 defenders, 4 offenders, and 1 goalee. Out of these, one player is to be selected randomly as a captain.",
+    "answer": "Given:\nNumber of defenders = 6 \nNumber of offenders = 4\nNumber of goalee = 1\nLet S be the sample space.\n∴ n(S) = Number of defenders + Number of offenders + Number of goalee\n= 6 + 4 + 1\n= 11\nEvent A: The goalee will be selected\nGiven: n(A) = 1\n∴ \"P\" (\"A) = (n(A))/(n(S)) =1/11\nHence, the probability that the goalee will be selected is 1/11.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "In a hockey team there are 6 defenders, 4 offenders and 1 goalee. Out of these, one player is to be selected randomly as a captain.",
+    "answer": "Given:\nNumber of defenders = 6 \nNumber of offenders = 4\nNumber of goalee = 1\nLet S be the sample space.\n∴ n(S) = Number of defenders + Number of offenders + Number of goalee\n= 6 + 4 + 1\n= 11\nEvent B: A defender will be selected will be a defender\nGiven: n(B) = 6\n∴ P(B) = (n(B))/(n(S)) = 6/11\nHence, the probability that the defender will be selected is 6/11.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "Joseph Kept 26 Cards in a Cap, Bearing One English Alphabet on Each Card. One Card is Drawn at Random. What is the Probability that the Card Drawn is a Vowel Card ?",
+    "answer": "Let S be the sample space.\nWe are given that there are 26 cards in a cap bearing one English alphabet on each card.\n∴ n(S) = 26\nLet A be the event of drawing is a vowel card.\nThere are 5 vowels out of 26 English alphabets.\n∴ n(A) = 5\ntherefore P(A) = (n(A))/(n(S))\n=5/26\nHence, the probability that the card drawn is a vowel card is =5/26.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "A balloon vendor has 2 red, 3 blue and 4 green balloons. He wants to choose one of them at random to give it to Pranali. What is the probability of the event that Pranali gets, a red balloon.",
+    "answer": "1Show SolutionGiven: Number of red balloon = 2\nNumber of blue balloon = 3\nNumber of green balloon = 4\nLet S be the sample space.\n∴ n(S) = Number of red balloon + Number of blue balloon + Number of green balloon \n= 2 + 3 + 4\n= 9\nLet A be the event of getting a red balloon.\nGiven: n(A) = 2\n∴ P(A) = (n(A))/(n(S))\n= 2/9\nHence, the probability of the event that Pranali gets a red balloon is 2/9.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "A balloon vendor has 2 red, 3 blue and 4 green balloons. He wants to choose one of them at random to give it to Pranali. What is the probability of the event that Pranali gets, a blue balloon.",
+    "answer": "1Show SolutionGiven: Number of red balloon = 2\nNumber of blue balloon = 3\nNumber of green balloon = 4\nLet S be the sample space.\n∴ n(S) = Number of red balloon + Number of blue balloon + Number of green balloon \n= 2 + 3 + 4\n= 9\nLet B be the event of getting a blue balloon.\nGiven: n(B) = 3\n∴ P(B) = (n(B))/(n(S))\n= 3/9\n= 1/3\nHence, the probability of the event that Pranali gets a blue balloon is 1/3.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "A balloon vendor has 2 red, 3 blue and 4 green balloons. He wants to choose one of them at random to give it to Pranali. What is the probability of the event that Pranali gets, a green balloon.",
+    "answer": "1Show SolutionGiven: \nNumber of red balloons = 2\nNumber of blue balloons = 3\nNumber of green balloons = 4\nLet S be the sample space.\n∴ n(S) = Number of red balloons + Number of blue balloon + Number of green balloon\n= 2 + 3 + 4\n= 9\nLet C be the event of getting a green balloon.\nGiven: n(C) = 4\n∴ P(C) = (\"n\"(\"C\"))/(\"n\"(\"S\"))\n= 4/9\nHence, the probability that Pranali gets green balloon is 4/9.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "A box contains 5 red, 8 blue and 3 green pens. Rutuja wants to pick a pen at random. What is the probability that the pen is blue?",
+    "answer": "Let 5 red pens be R1, R2, R3, R4, R5; \n8 blue pens be B1, B2, B3, B4, B5, B6, B7, B8 and \n3 green pens be G1, G2, G3.\nSample space,\nS = {R1, R2, R3, R4, R5, B1, B2, B3, B4, B5, B6, B7, B8, G1, G2, G3}\n∴ n(S) = 16\nLet A be the event Rutuja picks a blue pen.\n∴ A = {B1, B2, B3, B4, B5, B6, B7, B8}\n∴ n(A) = 8\n∴ P(A) = (\"n\"(\"A\"))/(\"n\"(\"S\")) = 8/16\n∴ P(A) = 1/2\n∴ The probability that Rutuja picks a blue pen is 1/2.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "Six Faces of a Die Are as Shown Below.If the Die is Rolled Once, Find the Probability of - ‘A’ Appears on Upper Face.",
+    "answer": "Total number of faces = 6\nNumber of faces having A = 2\nTherefore, required probability = \\text { Number of faces having A}/text { Total number of faces}\n=2/6\n=1/3\nHence, the probability that &lsquo;A&rsquo; appears on upper face is=1/3.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "Six Faces of a Die Are as Shown Below. If the Die is Rolled Once, Find the Probability of -‘D’ Appears on Upper Face.",
+    "answer": "Total number of faces = 6\nNumber of faces having D = 1\nTherefore, required probability = \\text {Number of faces having D}/text {Total number of faces}\n=1/6\nHence, the probability that &lsquo;D&rsquo; appears on upper face is =1/6.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "A Box Contains 30 Tickets, Bearing Only One Number from 1 to 30 on Each. If One Ticket is Drawn at Random, Find the Probability of an Event that the Ticket Drawn Bears an Odd Number .",
+    "answer": "Total number of tickets = 30\nNumber of tickets bearing odd number = 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29\n= 15\nTherefore, required probability = \\text { Number of tickets bearing odd number}/text { Total number of tickets}\n=15/30\n=1/2\nHence, the probability that the ticket drawn bears an odd number is =1/2.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "A Box Contains 30 Tickets, Bearing Only One Number from 1 to 30 on Each. If One Ticket is Drawn at Random, Find the Probability of an Event that the Ticket Drawn Bears a Complete Square Number.",
+    "answer": "Total number of tickets = 30\nNumber of tickets bearing perfect square number = 1, 4, 9, 16, 25\n= 5\nTherefore, required probability = \\text { Number of tickets bearing perfect number}/text { Total number of tickets}\n=5/30\n=1/6\nHence, the probability that the ticket drawn bears a perfect square number is=1/6.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "Length and Breadth of a Rectangular Garden Are 77 M and 50 M. There is a Circular Lake in the Garden Having Diameter 14 M. Due to Wind, a Towel from a Terrace on a Nearby Building Fell into the Garde",
+    "answer": "rea of the garden = 77 xx 50 = 3850\nDiameter of the circular lake =14 m \n∴ Radius of the circular lake =14/2 =7m\nNow, area of the circular lake =pi(radius)2\n=22/7 xx 7 xx 7\n= 154\nTherefore, required probability =154/3850\n=1/25\nHence, the probability that towel fell in the lake is =1/25.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 43,
+    "isFree": true
+  },
+  {
+    "question": "In a game of chance, a spinning arrow comes to rest at one of the numbers 1, 2, 3, 4, 5, 6, 7, 8. All these are equally likely outcomes. Find the probability that it will rest at 8.",
+    "answer": "Total number of outcomes = 8\nNumber of favourable outcomes (8) = 1\nTherefore, required probability =\\text {Number of favorable outcomes}/text { Total number of outcomes}\n=1/8\n= 0.125 \n= 12.5%",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 44,
+    "isFree": true
+  },
+  {
+    "question": "In a Game of Chance, a Spinning Arrow Comes to Rest at One of the Numbers 1, 2, 3, 4, 5, 6, 7, 8. All These Are Equally Likely Outcomes. Find the Probability that It Will Rest at an Odd Number.",
+    "answer": "Total number of outcomes = 8\n Number of favourable outcomes (odd number) = 1, 3, 5, 7\n= 4\nTherefore, required probability =\\text {Number of favorable outcomes}/text { Total number of outcomes}\n=4/8\n=1/2\nHence, the probability that the spinning arrow will rest at odd number is =1/2.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 45,
+    "isFree": true
+  },
+  {
+    "question": "In a Game of Chance, a Spinning Arrow Comes to Rest at One of the Numbers 1, 2, 3, 4, 5, 6, 7, 8. All These Are Equally Likely Outcomes. Find the Probability that It Will Rest at a Number Greater than",
+    "answer": "Total number of outcomes = 8 \nNumber of favourable outcomes (a number greater than 2) = 3, 4, 5, 6, 7 and 8\n= 6\nTherefore, required probability =\\text {Number of favorable outcomes}/text { Total number of outcomes}\n=6/8\n=3/4\nHence, the probability that the spinning arrow will rest at a number greater than 2 is =3/4.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 46,
+    "isFree": true
+  },
+  {
+    "question": "In a Game of Chance, a Spinning Arrow Comes to Rest at One of the Numbers 1, 2, 3, 4, 5, 6, 7, 8. All These Are Equally Likely Outcomes. Find the Probability that It Will Rest at A Number Less T",
+    "answer": "Total number of outcomes = 8\nNumber of favourable outcomes (a number less than 9) = 1, 2, 3, 4, 5, 6, 7, 8\n= 8 \nTherefore, required probability =\\text {Number of favorable outcomes}/text { Total number of outcomes}\n=8/8\n =1\nHence, the probability that the spinning arrow will rest at a number less than 9 is 1.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 47,
+    "isFree": true
+  },
+  {
+    "question": "There are six cards in a box, each bearing a number from 0 to 5. Find the probability of the following event, that a card drawn show, a natural number.",
+    "answer": "Total number of cards = 6\nNumber of cards bearing a natural number = 1, 2, 3, 4, 5\n= 5\nRequired probability = \\text { Number of cards bearing a natural number}/\\text { Total number of cards}\n= 5/6\nHence, the probability that a card drawn shows a natural number is 5/6.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 48,
+    "isFree": true
+  },
+  {
+    "question": "There Are Six Cards in a Box, Each Bearing a Number from 0 to 5. Find the Probability of the Following Event, that a Card Drawn Show, Number Less than 1.",
+    "answer": "Total number of cards = 6\nNumber of cards bearing a number less than 1 = 1\nTherefore, required probability =\\text { Number of cards bearing a natural numberless than 1}/\\text { Total number of cards}\n= 1/6\nHence, the probability that a card drawn shows a number less than 1 is =1/6.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 49,
+    "isFree": true
+  },
+  {
+    "question": "There are six cards in a box, each bearing a number from 0 to 5. Find the probability of the following event, that a card drawn show a whole number.",
+    "answer": "Total number of cards = 6\nNumber of cards bearing a whole number = 0, 1, 2, 3, 4, 5\n= 6\nRequired probability =\\text { Number of cards bearing a whole number}/\\text { Total number of cards}\n= 6/6\n= 1\nHence, the probability that a card drawn shows a whole number is 1.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 50,
+    "isFree": true
+  },
+  {
+    "question": "There Are Six Cards in a Box, Each Bearing a Number from 0 to 5. Find the Probability of the Following Event, that a Card Drawn Show, a Number is Greater than 5.",
+    "answer": "Total number of cards = 6\nNumber of cards bearing a number greater than 5 = 0\nTherefore, required probability =\\text { Number of cards bearing a number greater than 5}/\\text { Total number of cards}\n=0/6\n=0\nHence, the probability that a card drawn shows a number greater than 5 is 0.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 51,
+    "isFree": true
+  },
+  {
+    "question": "A Bag Contains 3 Red, 3 White and 3 Green Balls. One Ball is Taken Out of the Bag at Random. What is the Probability that the Ball Drawn is – Red.",
+    "answer": "Total number of balls = 3 + 3 + 3\n= 9\nNumber of red balls = 3\nTherefore, required probability =\\text { Number of red balls}/text { Total number of balls}\n=3/9\n=1/3\nHence, the probability that a red ball is drawn is =1/3.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 52,
+    "isFree": true
+  },
+  {
+    "question": "A Bag Contains 3 Red, 3 White and 3 Green Balls. One Ball is Taken Out of the Bag at Random. What is the Probability that the Ball Drawn is –Not Red.",
+    "answer": "Total number of balls = 3 + 3 + 3\n= 9\nNumber of balls which are not red = 3 + 3\nTherefore, required probability =\\text { Number of red balls}/text { Total number of balls}\n=6/9\n=2/3\nHence, the probability that a ball drawn is not red is =2/3",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 53,
+    "isFree": true
+  },
+  {
+    "question": "A Bag Contains 3 Red, 3 White and 3 Green Balls. One Ball is Taken Out of the Bag at Random. What is the Probability that the Ball Drawn is – Either Red Or White.",
+    "answer": "Total number of balls = 3 + 3 + 3\n= 9\nNumber of red and white balls = 3 + 3 = 6\nTherefore, required probability = \\text { Number of red and white balls}/text { Total number of balls}\n= 6/9\n= 2/3\nHence, the probability that a ball drawn is either red or white is 2/3.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 54,
+    "isFree": true
+  },
+  {
+    "question": "Each card bears one letter from the word ‘mathematics’ The cards are placed on a table upside down. Find the probability that a card drawn bears the letter ‘m’.",
+    "answer": "Here, S = {m, a, t, h, e, m, a, t, i, c, s}\nTotal number of letters in word 'mathematics' n(S) = 11\nLet A be the event that the card drawn bears the letter m.\nThen A = {m, m}\n∴ n(A) = 2\n∴ P(A) = (n(A))/(n(S)\n∴ P(A) = 2/11\nHence, the probability that a card drawn bears the letter &lsquo;m&rsquo; is =2/11.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 55,
+    "isFree": true
+  },
+  {
+    "question": "Out of 200 Students from a School, 135 like Kabbaddi and the Remaining Students Do Not like the Game. If One Student is Selected at Random from All the Students, Find the Probability that the Student",
+    "answer": "Total number of students = 200\nNumber of students who like Kabbaddi = 135\nTherefore, number of students who don't like Kabbaddi = 200 − 135\n= 65\nTherefore, required probability = \\text { Number of students who don'tlike Kabbaddi}/text{Total number of students} \n=65/200\n=13 /40\nHence, the probability that the student selected dosen't like Kabbaddi is =13 /40.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 56,
+    "isFree": true
+  },
+  {
+    "question": "A Two Digit Number is to Be Formed from the Digits 0, 1, 2, 3, 4. Repetition of the Digits is Allowed. Find the Probability that the Number So Formed is a - Prime Number.",
+    "answer": "Two digits numbers which can be formed using the digits 0, 1, 2, 3, 4 are 10, 11, 12 ,13 ,14 ,20, 21 ,22, 23, 24, 30, 31, 32, 33, 34, 40, 41, 42, 43 and 44\nTherefore, total numbers outcomes = 20\nNumber of favourable outcomes (prime numbers) = 11, 13, 23, 31, 41 and 43\n= 6\nTherefore, required probability =\\text { Number of favorable outcomes}/text { Total number of outcomes}\n=6/20\n=3/10\nHence, the probability that the prime number formed is =3/10",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 57,
+    "isFree": true
+  },
+  {
+    "question": "A Two Digit Number is to Be Formed from the Digits 0, 1, 2, 3, 4. Repetition of the Digits is Allowed. Find the Probability that the Number So Formed is a - Multiple of 4.",
+    "answer": "Two digits numbers which can be formed using the digits 0, 1, 2, 3, 4 are 10, 11, 12 ,13 ,14 ,20, 21 ,22, 23, 24, 30, 31, 32, 33, 34, 40, 41, 42, 43 and 44\nTherefore, total numbers outcomes = 20\nNumber of favourable outcomes (multiple of 4) = 12, 20, 24, 32, 40 and 44\n= 6\nTherefore, required probability =\\text { Number of favorable outcomes}/text { Total number of outcomes}\n=6/20\n=3/10\nHence, the probability that the number so formed is a multiple of 4 is =3/10",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 58,
+    "isFree": true
+  },
+  {
+    "question": "A two digit number is to be formed from the digits 0, 1, 2, 3, 4. Repetition of the digits is allowed. Find the probability that the number so formed is a - multiple of 11.",
+    "answer": "Two digits numbers which can be formed using the digits 0, 1, 2, 3, 4 are 10, 11, 12 ,13 ,14 ,20, 21 ,22, 23, 24, 30, 31, 32, 33, 34, 40, 41, 42, 43 and 44\nTherefore, total numbers outcomes = 20\nNumber of favourable outcomes (multiple) = 11, 22, 33 and 44\n= 4\nTherefore, required probability =\\text { Number of favorable outcomes}/text { Total number of outcomes}\n=4/20\n=1/5\n​Hence, the probability that the number so formed is a multiple of 11 is =1/5.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 59,
+    "isFree": true
+  },
+  {
+    "question": "The faces of a die bear numbers 0, 1, 2, 3, 4, 5. If the die is rolled twice, then find the probability that the product of digits on the upper face is zero.",
+    "answer": "Sample space,\n\nS =\n{(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5),\n\n \n(1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5),\n\n \n(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5),\n\n \n(3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5),\n\n \n(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5),\n\n \n(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5)}\n\n∴ n(S) = 36\nLet A be the event that the product of digits on the upper face is zero.\n∴ A = {(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0)}\n∴ n(A) = 11\n∴ P(A) = (n(A))/(n(S))\n∴ P(A) = 11/36\n∴ The probability that the product of the digits on the upper face is zero is 11/36.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 60,
+    "isFree": true
+  },
+  {
+    "question": "Do the Following Activity -activity I : Total Number of Students in Your Class, N(S) Number of Students from Your Class, Wearing Spectacles, N(A) =Probability of a Randomly Selected Student Wearing",
+    "answer": "ctivity I : \n\nTotal number of students in your class, n(S) = 40\n\nNumber of students from your class, wearing spectacles, n(A) = 6\n\nProbability of a randomly selected student wearing spectacles, P(A) =6/40\n=3/20\nProbability of a randomly selected student not wearing spectacles, P(B) =(40-6)/40\n=34/40\n=17/20",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 61,
+    "isFree": true
+  },
+  {
+    "question": "Do the Following Activity -activity Ii : Decide the Sample Space Yourself and Fill in the Following Boxes.",
+    "answer": "Let us suppose the sample space be {1, 2, 3, 4, 5, 6, 7, 8, 9 10} \nEvent A: Getting an even number\nA = {2, 4, 6, 8, 10}\n∴ n(A) = 5\nNow,P(A)=(n(A))/(n(S)\n=5/10\n=1/2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 62,
+    "isFree": true
+  },
+  {
+    "question": "The following table shows the number of students and the time they utilized daily for their studies. Find the mean time spent by students for their studies by direct method.",
+    "answer": "Time\nClass mark (xi)\nNo. of students (fi)\nxi × fi\n\n0 - 2\n1\n7\n7\n\n2 - 4\n3\n18\n54\n\n4 - 6\n5\n12\n60\n\n6 - 8\n7\n10\n70\n\n8 - 10\n9\n3\n27\n\nTotal\n \nbb(sumfᵢ=50)\nbb(sumxᵢxxfᵢ=218)\n\nMean = (sum xᵢ fᵢ)/(sum fᵢ)\n= 218/50\n= 109/25\n= 4.36 hours\nHence, the mean time spent by students on their studies is 4.36 hours.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "In the following table, the toll (in ₹) paid by drivers and the number of vehicles is shown. Find the mean of the toll by &#x27;assumed mean&#x27; method. Toll (Rupees) 300 - 400 400 - 500 500 - 600 600 - 700",
+    "answer": "Class\n(Toll in ₹)\nClass Mark\nxi\nDeviations \ndi = xi − A \ndi = xi − 550\nFrequency\n(Number of vehicles\nfi)\nFrequency × deviation\nfi × di\n\n300 - 400 \n350\n−200\n80\n−16000\n\n400 - 500\n450\n−100\n110\n−11000\n\n500 - 600\n550 = A\n0\n120\n0\n\n600 - 700\n650\n100\n70\n7000\n\n700 - 800\n750\n200\n40\n8000\n\n \n \n \n\n∑fi = 420",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "A Milk Centre Sold Milk to 50 Customers. the Table Below Gives the Number of Customers and the Milk They Purchased. Find the Mean of the Milk Sold by Direct Method.",
+    "answer": "Class",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "A frequency distribution table for the production of oranges of some farm owners is given below. Find the mean production of oranges by ‘assumed mean’ method.",
+    "answer": "Let us take 37.5 as the assumed mean. Then A = 37.5 and deviation di = xi − A = xi − 37.5\n\nClass Production (Thousand rupees)\nClass Mark\nxi\nDeviations di = xi − A = xi − 37.5\nFrequency\n(Farm owners)\nfi\nFrequency × deviation\nfi × di \n\n25-30 \n27.5\n−10\n20\n−200\n\n30-35\n32.5\n−5\n25\n−125\n\n35-40\n37.5 → A\n0\n15\n0\n\n40-45\n42.5\n5\n10\n50\n\n45-50\n47.5\n10\n10\n100\n\nTotal\n-\n-\n∑fi = 80\n∑fidi = −175\n\nHere, ∑fidi = −175, ∑fi = 80\nRequired Mean (bar d) = (sum fᵢ dᵢ)/(sum fᵢ)\n= (-175)/80\n= −2.1875\n&asymp; −2.19\nMean (bar X) = A + bar d\n= 37.5 + (−2.19)\n= 37.5 + 2.19\n= 35.31 thousands\n= 35.31 × 1000\n= 35310\nHence, the mean production of oranges is Rs 35310.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "A frequency distribution of funds collected by 120 workers in a company for the drought affected people are given in the following table. Find the mean of the funds by ‘step deviation’ method.",
+    "answer": "Class\nFund (Rupees)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "The Following Table Gives the Information of Frequency Distribution of Weekly Wages of 150 Workers of a Company. Find the Mean of the Weekly Wages by &#x27;Step Deviation&#x27; Method.",
+    "answer": "Class\n(Weekly wages rupees)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "The Following Table Shows Classification of Number of Workers and the Number of Hours They Work in a Software Company. Find the Median of the Number of Hours They Work.",
+    "answer": "Class",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "The frequency distribution table shows the number of mango trees in a grove and their yield of mangoes. Find the median of data.",
+    "answer": "Class (Number of",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "The following table shows the classification of number of vehicles and their speeds on Mumbai-Pune express way. Find the median of the data. Average Speed of Vehicles (Km/hr)",
+    "answer": "Class",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "The production of electric bulbs in different factories is shown in the following table. Find the median of the productions. No. of bulbs produced (Thousands) 30 - 40 40 - 50 50 - 60 60 - 70 70 - 80",
+    "answer": "Class",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "The following table shows the information regarding the milk collected from farmers on a milk collection centre and the content of fat in the milk, measured by a lactometer.",
+    "answer": "The maximum class frequency is 80.\nThe class corresponding to this frequency is 4 - 5.\nSo, the modal class is 4 - 5.\nL (the lower limit of modal class) = 4\nf1 (frequency of the modal class) = 80 \nfo (frequency of the class preceding the modal class) = 70\nf2 (frequency of the class succeeding the modal class) = 60\nh (class size) = 1 \nMode = \\[L + \\left(\\frac{f_1 - f_0}{2 f_1 - f_0 - f_2} \\right) \\times h\\]\n= \\[4 + \\left(\\frac{80 - 70}{2 \\times 80 - 70 - 60} \\right) \\times 1\\]\n\n= 4 + 0.33\n= 4.33\nHence, the modal fat content is 4.33.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Electricity Used by Some Families is Shown in the Following Table. Find The Mode for Use of Electricity.",
+    "answer": "The maximum class frequency is 100. \nThe class corresponding to this frequency is 60 - 80. \nSo, the modal class is 60 - 80.\nL (the lower limit of modal class) = 60\nf1 (frequency of the modal class) = 100\nfo (frequency of the class preceding the modal class) = 70\nf2 (frequency of the class succeeding the modal class) = 80\nh (class size) = 20\nMode = \\[L + \\left( \\frac{f_1 - f_0}{2 f_1 - f_0 - f_2} \\right) \\times h\\]\n\\[= 60 + \\left( \\frac{100 - 70}{2 \\times 100 - 70 - 80} \\right) \\times 20\\]\n= 60 + 12\n= 72\nHence, the modal electricity is 72 units.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Grouped frequency distribution of supply of milk to hotels and the number of hotels is given in the following table. Find the mode of the supply of milk. Milk (Litre) 1-3 3-5 5-7 7-9 9-11 11-13",
+    "answer": "Milk (Litre)\n1-3\n3-5\n5-7\n7-9\n9-11\n11-13\n\nNo. of hotels\n7\n5\n15\n20 → f0\n35 → f1\n18 → f2\n\nThe maximum class frequency is 35.\nThe class corresponding to this frequency is 9-11.\nSo, the modal class is 9-11. \nL (the lower limit of modal class) = 9\nf1 (frequency of the modal class) = 35 \nf0 (frequency of the class preceding the modal class) = 20\nf2 (frequency of the class succeeding the modal class) = 18\nh (class size) = 2\nMode = L + [(f₁ - f₀)/(2f₁ - f₀ - f₂)] xx h\n= 9 + [(35 - 20)/(2 xx 35 - 20 - 18)] xx 2\n= 9 + (15/(70 - 38)) xx 2\n= 9 + 15/32 xx 2\n= 9 + 15/16\n= 9 + 0.9375\n= 9.9375 &asymp; 9.94\nHence, the mode of the supply of milk is 9.94 litres.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "The following frequency distribution table gives the ages of 200 patients treated in a hospital in a week. Find the mode of ages of the patients.",
+    "answer": "Class\nAge (years)\nContinuous class\nFrequency \n(No. of patients)\n\nLess than 5\n0 − 4.5\n38\n\n5 − 9\n4.5 − 9.5\n32 → f0\n\n10 − 14\n9.5 − 14.5\n50 → f1\n\n15 − 19\n14.5 − 19.5\n36 → f2\n\n20 − 24\n19.5 − 24.5\n24\n\n25 − 29\n24.5 − 29.5\n20\n\nHere, the maximum frequency is 50.\nThe class corresponding to this frequency is 9.5 - 14.5.\nSo, the modal class is 9.5 - 14.5.\nL = Lower class limit of the modal class = 9.5\nh = Class interval of the modal class = 5\nf1 = frequency of the modal class = 50\nf0 = frequency of the class preceding the modal class = 32\nf2 = frequency of the class succeeding the modal class = 36\n∴ Mode = \"L\" + ((f₁ − f₀)/(2 f₁ − f₀ − f₂)) × h\n= 9.5 + ((50 - 32)/(2(50) - 32 - 36)) × 5\n= 9.5 + ((18)/(100 - 68)) × 5\n= 9.5 + 0.5625 × 5\n= 9.5 + 2.8125\n\n= 12.3125 &asymp; 12.31",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Draw a histogram of the following data. Height of Student (Cm) 135 - 140, 140 - 145, 145 - 150, 150 - 155 No. of Students 4, 12, 16, 8",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "The table below shows the yield of jowar per acre. Show the data by histogram. Yield per acre (quintal) 2 - 3 4 - 5 6 - 7 8 - 9 10 - 11 No. of farmers 30 50 55 40 20",
+    "answer": "The given classes are not continuous. Converting into the continuous classes, we get\n\nYield per acre (quintal)\nClass (continuous)\nNo. of farmers\n\n2 - 3\n1.5 - 3.5\n30\n\n4 - 5\n3.5 - 5.5\n50\n\n6 - 7\n5.5 - 7.5\n55\n\n8 - 9\n7.5 - 9.5\n40\n\n10 - 11\n9.5 - 11.5\n20",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "In the Following Table, the Investment Made by 210 Families is Shown. Present It in the Form of a Histogram.",
+    "answer": "The histogram for the given data is",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Time Alloted for the Preparation of an Examination by Some Students is Shown in the Table. Draw a Histogram to Show the Information.",
+    "answer": "The histogram for the given data is",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Observe the following frequency polygon and write the answers of the questions below it. Which class has the maximum number of students? Write the classes having zero frequency.",
+    "answer": "The class 60 - 70 has the maximum number of students, i.e., 60.\nThe classes 20 - 30 and 90 - 100 have zero frequency.\nThe class-mark of the class having frequency of 50 students is 55.\nThe lower and upper class limits of the class having class marks of 85 are 80 and 90.\nNumber of students in the class 80-90 are 15.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Show the Following Data by a Frequency Polygon.",
+    "answer": "Consider the following table.\n\nClass\n(Electricity bill in Rupees)\nClass Mark\nFrequency \n(Number of families)\n\n0 - 200\n100\n240\n\n200 - 400\n300\n300\n\n400 - 600\n500\n450\n\n600 - 800\n700\n350\n\n800 - 1000\n900\n160\n\nThe frequency polygon using the class mark and frequency given in the above table as",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "The following table shows the classification of percentages of marks of students and the number of students. Draw a frequency polygon from the table. Result (Percentage) 30 - 40 40 - 50 50 - 60 60",
+    "answer": "Consider the following table:\n\nClass\n(Result in %)\nClass Mark\nFrequency \n(Number of students)\nCoordinates of points\n\n20 - 30\n25\n0\n(25, 0)\n\n30 - 40\n35\n7\n(35, 7)\n\n40 - 50\n45\n33\n(45, 33)\n\n50 - 60\n55\n45\n(55, 45)\n\n60 - 70\n65\n65\n(65, 65)\n\n70 - 80\n75\n47\n(75, 47)\n\n80 - 90\n85\n18\n(85, 18)\n\n90 - 100\n95\n5\n(95, 5)\n\n100 - 110\n105\n0\n(105, 0)\n\nThe frequency polygon using the class mark and frequency given in the above table",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "The Age Group and Number of Persons, Who Donated Blood in a Blood Donation Camp is Given Below. Draw a Pie Diagram from It.",
+    "answer": "The measures of central angles are given in the table.\n\nAge group (Yrs)\nNo. of persons\nCentral Angle\n\n20 - 25\n80\n\\[\\frac{80}{200} \\times 360 = 144^\\circ\\]\n\n25 - 30\n60\n\\[\\frac{60}{200} \\times 360 = 108^\\circ\\]\n\n30 - 35\n35\n\\[\\frac{35}{200} \\times 360 = 63^\\circ\\]\n\n35 - 40\n25\n\\[\\frac{25}{200} \\times 360 = 45^\\circ\\]\n\nTotal\n200\n360°\n\nThe pie diagram showing the above data is given below:",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "The Marks Obtained by a Student in Different Subjects Are Shown. Draw a Pie Diagram Showing the Information.",
+    "answer": "The measures of central angles are given in the table.\n\nSubjects\nMarks\nCentral Angle\n\nEnglish\n50\n\n\\[\\frac{50}{400} \\times 360 = 45^\\circ\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "In a tree plantation programme, the number of trees planted by students of different classes is given in the following table. Draw a pie diagram showing the information.",
+    "answer": "Total number of trees planted = 40 + 50 + 75 + 50 + 70 + 75 = 360\nMeasure of central angle (θ) = (\"Number of scores in the components\")/(\"Total number of scores\")xx360ᶜⁱʳᶜ\n\nAge group (Yrs)\nNo. of. trees\nCentral Angle\n\n5th\n40\n\n\\[\\frac{40}{360} \\times 360 = 40^\\circ\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "The Following Table Shows the Percentages of Demands for Different Fruits Registered with a Fruit Vendor. Show the Information by a Pie Diagram.",
+    "answer": "The measures of central angles are given in the table.\n\nFruits\nPercentages of demand\nCentral Angle\n\nMango\n30\n\n\\[\\frac{30}{100} \\times 360 = 108^\\circ\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "The Pie Diagram in Figure Shows the Proportions of Different Workers in a Town. Answer the Following Question with Its Help. If the Total Workers is 10,000;",
+    "answer": "Number of workers working in the field of construction\n\n\\[= \\frac{\\text{ central angle for construction }}{360^\\circ} \\times 10000\\]\n\n\\[= \\frac{72^\\circ}{360^\\circ} \\times 10000\\]\n​= 2000",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "The Pie Diagram in Figure Shows the Proportions of Different Workers in a Town. Answer the Following Question with Its Help. How Many Workers Are Working in the Administration ?",
+    "answer": "Number of workers working in the administration\n\\[= \\frac{\\text{ central angle for administration }}{360^\\circ} \\times 10000\\]\n\n\\[= \\frac{36^\\circ}{360^\\circ} \\times 10000\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "The pie diagram in figure shows the proportions of different workers in a town. Answer the following question with its help. What is the percentage of workers in production?",
+    "answer": "To find the percentage of workers in Production, use the angle given in the pie chart.\nAngle for Production = 90°\nA full circle = 360°\nPercentage formula:\nPercentage = (\"Sector angle\")/360^@ xx 100\nSubstitute values:\n90/360 xx 100\n= 25%",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "The annual investments of a family are shown in the adjacent pie diagram. Answer the following questions based on it. If the investment in shares is ₹ 2000, find the total investment.",
+    "answer": "1Show SolutionMeasure of central angle (θ) = \"Number of scores in the components\"/\"Total number of scores\" xx 360^\\circ\n(1) Central angle for shares (θ) = 60°\n∴ 60° = \"Amount invested in shares\"/\"Total investment\" xx 360^\\circ\n∴ 60° = 2000/\"Total investment\" xx 360^\\circ\n∴ Total investment = (2000 xx 360^\\circ)/(60^\\circ) = ₹ 12000\nThe total investment is Rs. 12000.\n(2) Central angle for deposit in bank (θ) = 90°\n∴ 90° = \"Amount deposited in bank\"/\"Total investment\" xx 360^\\circ\n∴ 90° = \"Amount deposited in bank\"/12000 xx 360^\\circ\n∴ Amount deposited in bank = (90^\\circ xx 12000)/(360^\\circ) = ₹ 3000\n∴ The amount deposited in bank is Rs. 3000.\n(3) Difference in central angle for immovable property and mutual fund (θ) = 120° &ndash; 60° = 60°\n∴ 60° = \"Difference in investments\"/\"12000\" xx 360^\\circ\n∴ Difference in investments = (60^\\circ xx 12000)/(360^\\circ) = ₹ 2000\n∴ Rs. 2000 more is invested in immovable property than in mutual fund.\n(4) Central angle for post (θ) = 30°\n∴ 30° = \"Amount deposited in post\"/12000 xx 360^\\circ\n∴ Amount invested in post = (30^\\circ xx 12000)/(360^\\circ) = ₹ 1000\n∴ The amount invested in post is Rs. 1000.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Find the correct answer from the alternatives given.The persons of O– blood group are 40%. The classification of persons based on blood groups is to be shown by a pie diagram.",
+    "answer": "144°",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "Find the Correct Answer from the Alternatives Given.Different Expenditures Incurred on the Construction of a Building Were Shown by a Pie Diagram. the Expenditure Rs 45,",
+    "answer": "2,16,0003,60,0004,50,0007,50,000",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "Find the Correct Answer from the Alternatives Given. the Formula to Find Mean from a Grouped Frequency Table is X = a + ∑ F I U I ∑ F I × H G .",
+    "answer": "\\[\\frac{x_i - A}{g}\\]\\[\\frac{A - x_i}{g}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "Find the Correct Answer from the Alternatives Given. the Median of the Distances Covered per Litre Shown in the Above Data is in the Group . . . . . .",
+    "answer": "16 - 18 18-20",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "Find the Correct Answer from the Alternatives Given. the Above Data is to Be Shown by a Frequency Polygon. the Coordinates of the Points to Show Number of Students in the Class 4-6 Are . . . .",
+    "answer": "(5, 8)(8, 4)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "The Following Table Shows the Income of Farmers in a Grape Season. Find the Mean of Their Income.",
+    "answer": "Class",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "The Loans Sanctioned by a Bank for Construction of Farm Ponds Are Shown in the Following Table. Find the Mean of the Loans.",
+    "answer": "Class",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "The Weekly Wages of 120 Workers in a Factory Are Shown in the Following Frequency Distribution Table. Find the Mean of the Weekly Wages.",
+    "answer": "Class",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "The following frequency distribution table shows the amount of aid given to 50 flood affected families. Find the mean of the amount of aid.",
+    "answer": "Class",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "The Distances Covered by 250 Public Transport Buses in a Day is Shown in the Following Frequency Distribution Table. Find the Median of the Distance.",
+    "answer": "Class",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "The prices of different articles and demand for them is shown in the following frequency distribution table. Find the median of the prices. Price (Rupees) 20 less than, 20 - 40, 40 - 60, 60 - 80",
+    "answer": "Class",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "The Following Frequency Table Shows the Demand for a Sweet and the Number of Customers. Find the Mode of Demand of Sweet.",
+    "answer": "The maximum class frequency is 60. \nThe class corresponding to this frequency is 250 - 500.\nSo, the modal class is 250 - 500.\nL (the lower limit of modal class) = 250\nf1 (frequency of the modal class) = 60 \nfo (frequency of the class preceding the modal class) = 10\nf2 (frequency of the class succeeding the modal class) = 25\nh (class size) = 250 \nMode = L + ((f₁-f₀)/(2f₁-f₀-f₂))xx h\n= 250+((60-10)/(2×60-10-25)) xx 250\n= 250 + 147.06\n= 397.06\nHence, the modal demand of sweet is 397.06 grams.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "Draw a Histogram for the Following Frequency Distribution.",
+    "answer": "The histogram for the given data is",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "In a Handloom Factory Different Workers Take Different Periods of Time to Weave a Saree. the Number of Workers and Their Required Periods Are Given Below. Present the Information a Frequency Polygon.",
+    "answer": "Consider the following table \n\nClass\n(Number of days)\nClass Mark\nFrequency \n(Number of workers)\n\n8 - 10\n9\n5\n\n10 - 12\n11\n16\n\n12 - 14\n13\n30\n\n14 - 16\n15\n40\n\n16 - 18\n17\n35\n\n18 - 20\n19\n14\n\nThe frequency polygon using the class mark and frequancy given in the above table as",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Statistics",
+    "questionNumber": 43,
+    "isFree": true
+  }
+]

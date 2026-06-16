@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "What is meant by neutralization?",
+    "answer": "neutralization reaction is a reaction in which an acid and a base react to form water and salt. It involves the combination of H+ ions and OH- ions to generate water. The neutralization of a strong acid and strong base has a pH equal to 7. The neutralization of a strong acid and a weak base will have a pH of less than 7. The neutralization of a strong base neutralizes a weak acid will be greater than 7.\n\\[\\ce{\\underset{Acid}{HX} + \\underset{Base}{BOH} -> \\underset{Salt}{BX} + \\underset{Water}{H2O}}\\]\nWhen a solution is neutralized, it means that salts are formed from equal weights of acid and base.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "Give two examples from everyday life of the neutralization reaction.",
+    "answer": "Neutralization reaction has applications in daily life:\n\nSelf-defence by animals and plants through chemical warfare:\nBee stings are acidic; a household remedy for a bee sting is baking soda or sodium bicarbonate, which is a basic substance. A wasp stings are mildly basic; a household remedy for this will be vinegar, also known as acetic acid. These simple treatments ease these painful stings by a process called neutralization.\npH in our digestive system:\nAn acidic stomach, due to eating too much spicy food can be relieved by taking an antacid. The antacid is alkaline/basic in nature and helps to neutralize the stomach's acidity, or you may take magnesium hydroxide (Milk of magnesia) and sodium hydrogen carbonate (Baking soda).\npH change as the cause of tooth decay:\nWhen we eat food containing sugar, the bacteria present in our mouth break down the sugar to form acids (such as lactic acid). Thus, acid is formed in the mouth after digestion. This will lead to the cause of tooth decay. The best way to prevent tooth decay is to clean the mouth after eating food with toothpaste, which is basic in nature. This will result in the neutralization of an acid by a base. \nSoil pH and plant growth:\nMost plants grow best when the pH of the soil is close to 7. That's neural. If the soil is too acidic or too basic (alkaline), the plants grow badly. The acidic soil is neutralized by treatment with materials like quicklime (calcium oxide), slaked lime (calcium hydroxide) or chalk (calcium carbonate). If the soil is too basic, then alkalinity can be reduced by adding decaying organic matter (manure or composite), which contains acidic materials.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "Explain what is meant by electrolysis of water. Write the electrode reactions and explain them.",
+    "answer": "Electrolysis of water is the decomposition of water into oxygen and hydrogen gas due to an electric current being passed through acidified water.\nCathode reaction:\n\\[\\ce{2H2O_{(l)} + 2e- -> H_{2(g)} + 2OH_{(aq)}}\\]\nAnode reaction:\n\\[\\ce{2H2O_{(l)} -> O_{2(g)} + 4H^+_{(aq)} + 4e^-}\\]\nIt is found that the volume of gas formed near the cathode is double that of the gas formed near the anode. Hydrogen gas is formed near the cathode, and oxygen gas near the anode.\nFrom this, it is clear that water electrolysis has taken place and its constituent element has been released.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "Write the chemical equation for the following activity. NaOH solution was added to HCl solution.",
+    "answer": "When an acid and a base react, the reaction is called a neutralization reaction. Let's see how a neutralization reaction produces both water and salt, using as an example the reaction between solutions of hydrochloric acid and sodium hydroxide.\n\\[\\ce{HCl_{(l)} + NaOH_{(l)} -> NaCl_{(s)} + H2O_{(l)} + {Energy}}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "Write the chemical equation for the following activity. Zinc dust was added to dilute H2SO4.",
+    "answer": "When zinc reacts with dilute sulphuric acid, it forms zinc sulphate and hydrogen gas is liberated.\n\\[\\ce{\\underset{Zinc}{Zn(s)} + \\underset{Sulphuric acid}{H2SO4_{(aq)}} -> \\underset{Zinc sulphate}{ZnSO4_{(aq)}} + \\underset{Hydrogen}{H2(g)}}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "Write the chemical equation for the following activity. Dilute nitric acid was added to calcium oxide.",
+    "answer": "When dilute nitric acid reacts with calcium oxide, it forms calcium nitrate and water.\n\n\\[\\ce{\\underset{Calcium oxide}{CaO_{(s)}} + \\underset{Dilute nitric acid}{2HNO3_{(aq)}} -> \\underset{Calcium nitrate}{Ca(NO3)2_{(aq)}} + \\underset{water}{H2O_{(l)}}}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "Write the chemical equation for the following activity. Carbon dioxide gas was passed through the KOH solution.",
+    "answer": "When carbon dioxide gas is passed through the KOH solution, it forms potassium carbonate and water.\n\\[\\ce{CO2_{(g)} + 2KOH_{(aq)} -> K2CO3_{(aq)} + H2O}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "Write the chemical equation for the following activity. Dilute HCl was poured on baking soda.",
+    "answer": "On pouring dilute HCl on baking soda (NaHCO3), sodium chloride is formed and CO2 gas is liberated.\n\\[\\ce{\\underset{{Baking soda}}{NaHCO3_{(s)}} + HCl_{(aq)} -> \\underset{{Sodium chloride}}{NaCl_{(aq)}} + H2O + \\underset{{Carbon dioxide}}{CO2_{(g)}\\uparrow}}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "State the differences between acids and bases.",
+    "answer": "cids\nBases\n\n1.\nThese are sour to taste.\nThese are bitter to taste.\n\n2.\nAcids are proton donors or electron acceptors.\nBases are proton acceptors or electron donors.\n\n3.\nAcids have a pH value of < 7.\nBases have a pH value > 7.\n\n4.\nAcids turn blue litmus red.\nBases do not change the colour of blue litmus.\n\n5.\nAcids do not change the colour of red litmus.\nBases turn red litmus blue.\n\n6.\nWith china rose indicator, these give a dark pink colour.\nBases give green colour with china rose indicator.\n\n7.\nAcids do not change the colour of the turmeric indicator.\nBases turn the colour of the turmeric indicator to red\n\n8.\nAcid is a substance that contains hydrogen ion (H+)\nBases are substances that contain hydroxyl ion (OH-)\n\n9.\ni.e., \\[\\ce{HCl, H2SO4, H3PO4}\\]\ni.e., \\[\\ce{NaOH, KOH, Ca(OH)2}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "State the difference. Cation and anion",
+    "answer": "Cation\nAnion\n\n1. Positively charged ions are called cations.\n1. Negatively charged ions are called anions.\n\n2. Due to the effect of electric current, cations are attracted towards the negative edge.\n2. Due to the effect of electric current, anions are attracted towards the positive front.\n\n3. For example: In NaCl, Na+ is the cation.\n3. For example: In NaCl, Cl- is the anion.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "State the difference. Negative electrode and positive electrode.",
+    "answer": "Negative electrode\nPositive electrode\n\n1. The electrode connected to the negative terminal of a battery by means of a conducting wire is called a negative electrode.\n1. The electrode connected to the positive terminal of a battery by means of a conducting wire is called a positive electrode.\n\n2. A negative electrode is called the cathode.\n2. The positive electrode is called the anode.\n\n3. Cathode accepts electrons from cations\n3. Anode gives electrons to anions",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 43,
+    "isFree": true
+  },
+  {
+    "question": "Classify aqueous solutions of the following substances according to their pH into three groups: 7, more than 7, and less than 7. Common salt, sodium acetate, hydrochloric acid",
+    "answer": "pH\nSubstances\n\n7\nCommon salt, Potassium bromide\n\nGreater than 7\n\nSodium acetate, Calcium hydroxide, \nSodium carbonate, Ammonia\n\nLess than 7\nHydrochloric acid, Carbon dioxide, Ammonium chloride, \nVinegar, Sulphur dioxide.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 44,
+    "isFree": true
+  },
+  {
+    "question": "Obtain a sample of rainwater. Add to it a few drops of universal indicator. Measure its pH. Describe the nature of the sample of rainwater and explain the effect it has on the living world.",
+    "answer": "When a few drops of the global indicator are added to the rainwater sample, the pH value of that water becomes slightly less than 7, i.e. 6.5, which means that this water is slightly acidic. This water contains micronutrients and nutrients. Nitrates are formed in this water due to nitrogen coming from the air. Therefore, providing natural fertilizer for living things is helpful, especially for plants and vegetation. Due to acid rainwater, river water's pH decreases while flowing in the river. Thus, it becomes difficult for aquatic creatures to survive during such times.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Acids, Bases and Salts",
+    "questionNumber": 45,
+    "isFree": true
+  },
+  {
+    "question": "Match the proper terms from columns A and C with the description in column B. ‘A’ ‘B’ ‘C’ Thallophyta Seeds are formed in fruits. Fern Bryophyta No natural covering on seeds. Cycas Pteridophyta",
+    "answer": "'A'\n\n 'B'\n 'C'\n\nThallophyta\nThese plants mainly grow in water.\n Algae\n\nBryophyta\nThese plants need water for reproduction.\nMoss\n\nPteridophyta\nTissues are present for the conduction of water and food.\nFern\n\nGymnosperms \nNo natural covering on seeds.\nCycas\n\nAngiosperms\nSeeds are formed in fruits.\nTamarind",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Classification of Plants",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. Write the characteristics of subkingdom Phanerogams.",
+    "answer": "The word &lsquo;Phanerogamae&rsquo; comprises the words &lsquo;phaneros&rsquo; meaning &lsquo;visible&rsquo; and &lsquo;gamos&rsquo; implying &lsquo;reproduction&rsquo;. They show characteristics like-\n\nWell-differentiated and visible reproductive tissues that ultimately make seeds.\nSeeds consist of the embryo along with stored food which helps in the initial growth of the embryo during germination.\n\nPhanerogams are further subdivided into gymnosperms and angiosperms on the basis of seeds which are enclosed in a fruit or not. Gymnosperms produce seeds which are not enclosed by fruit and hence are called naked seeds whereas angiosperms produce seeds which are enclosed in fruits.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Classification of Plants",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. Distinguish between monocots and dicots.",
+    "answer": "Monocots\n\nDicots\n\nThe embryo in a monocot seed has one cotyledon.\nThe embryo in a dicot seed has two cotyledons.\n\nThe sepals or petals are in multiples of three.\nThe sepals or petals are in multiples of four or five.\n\nThe stem vascular bundles are scattered.\nThe stem vascular bundles are arranged in a ring.\n\nThe leaves have parallel venation.\nThe leaves have reticulate venation.\n\nThey have fibrous or adventitious roots.\nThey have a tap-root system.\n\nExamples: Maize, Banana, Wheat, Jowar.\nExamples: Sunflower, Mustard beans",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Classification of Plants",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. Write a paragraph in your own words about the ornamental plants called ferns.",
+    "answer": "Ferns\n\n\"Neche\" means \"ferns.\" This plant is important among the beautiful plants of the garden.\nFerns are plants with well-articulated organs such as roots, stems, leaves, etc., which have independent organs for independent movement to transport water and food.\nFerns are used in gardens, but they do not produce flowers and fruits; hence, they are also called &ldquo;non-flowering plants&rdquo;.\nFerns reproduce by spores found on the underside of plant leaves, and for this there are sporangia on the fronds. This is asexual reproduction, and sexual reproduction occurs by gamete formation.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Classification of Plants",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. Sketch, label and describe the Spirogyra.",
+    "answer": "Spirogyra is a green alga belonging to the Thallophyta group of plants. It is commonly found in fresh water, such as ponds, lakes, and slow-moving streams.\nIt can survive only in water. The body of Spirogyra is long, thin, and filamentous, like a thread. It is made up of many cells joined end to end, forming an unbranched filament.\nEach cell contains chlorophyll, which allows the plant to perform photosynthesis and prepare its own food.\nA unique feature of Spirogyra is its spiral-shaped chloroplasts, which run along the length of the cell. \nWithin these spiral chloroplasts are small, dot-like structures called pyrenoids, which help in the storage of starch. Spirogyra is a multicellular and non-vascular organism.\nIt reproduces asexually through fragmentation, where the filament breaks into smaller pieces, and each piece grows into a new organism.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Classification of Plants",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. Write the characteristics of the plants belonging to the division Bryophyta.",
+    "answer": "The characteristics of bryophytes are:\n\nThey are the first plants to live on land but require moist conditions to survive. For this reason, they are called &lsquo;the amphibians of the plant kingdom&rsquo;.\nThey are non-vascular, i.e., they do not have specialized vascular tissues (xylem and phloem) for the conduction of water and food.\nThey lack true roots, stems and leaves. However, they show more body differentiation than thallophytes.\nThey have rhizoids instead of tree roots.\nThey do not bear flowers and seeds.\nThey reproduce both sexually as well as asexually.\nBryophytes exhibit an 'alternation of generations' in which the gametophytic phase (haploid) alternates with the sporophytic phase (diploid).\nExamples of bryophytes are Riccia, Marchantia, and Funaria.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Classification of Plants",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Sketch and label the figure of the following plant and explain them in brief. Marchantia",
+    "answer": "It belongs to subkingdom cryptogams and division Bryophyta. It grows on damp ground and old walls, especially during the rainy season, forming a sort of green carpet. The thallus bears a number of rhizoids on the lower surface. On the upper surface, thallus shows a stalk bearing a capsule which contains spores. The capsule at maturity liberates spores for asexual reproduction.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Classification of Plants",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Sketch and label the figure of the following plant and explain them in brief. Funaria",
+    "answer": "Funaria\nFunaria is a plant of the Bryophyta department of the Cotyledon subfamily. It is also called moss, but the name moss is used for about 200 different species. This plant is amphibious because it grows in moist soil and requires water for reproduction. The structure of this plant is long like a flat ribbon, and it has root like organs. Under favorable conditions, stalks and capsules appear. Spores are formed from the capsule, so Marchesia can reproduce asexually. Apart from this, sexual reproduction also takes place in it.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Classification of Plants",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Sketch and label the figure of the following plant and explain them in brief. Fern",
+    "answer": "Ferns\nThe ferns are nonflowering vascular plants that can have a height ranging from 1 - 1.2 cm up to 10 to 25 metres. On Earth, the tropics are the regions that are abundant with ferns while the Arctic and Antarctica have few fern species. The characteristics of the structure of the fern are as follows -\n\nRhizomes are the stems of the fern which mostly grow on or beneath the soil surface.\nThese horizontal growing stems are protected by various structures such as hairs, scales, embryonic leaves, and leaf bases.\nThe vasculature in the fern stem follows a dictyostele pattern in which the vascular bundles are interconnected with each other.\nSclerenchyma is a mechanical hard tissue that passes between the two vascular bundles.\nAlso known as fronds, some species of ferns have palmate leaves or dichotomous leaves.\nThe leaves of the fern possess a midrib which is divided into pinnae.\nThe green and photosynthetic leaves are produced from the fiddleheads, which are the young fronds.\nThe leaves bear stomata on the lower epidermis and have a well-defined vascular system composed of xylem, phloem, and pericycle.\nFerns have thin and wiry roots that can be used for cultivating orchids.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Classification of Plants",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Collect a monocot and dicot plant available in your area. Observe the plants carefully and describe them in scientific language.",
+    "answer": "(1) Hibiscus (A dicot plant)\n\nRoot: Tap root\nStem: Erect and branched\nLeaf: Simple, alternate, with reticulate venation.\nCalyx: Sepals-5, Gamosepalous\nCorolla: Petals-5, Gamopetalous\nAndroecium: Stamen is indefinite. Filaments are united to form a staminal tube. The staminal tube bears reniform (kidney-shaped) anthers.\nGynoecium: Pentacarpellary, syncarpous.\n\nA Twig\n\nL.S. flower\n\nGynoecium\n\nAnther\n\n(2) Onion (Allium cepa) \nA small herb with a tunicated bulb\n\n Root: Fibrous\nStem: Underground stem (bulb) \nLeaves: Hollow and tubular\nFlower: Complete, bisexual\nPerianth: Made up of 6 lobes, % arranged in two whorls of 3 each.\nAndroecium: Made up of 6 stamens, Epiphyllous.\nGynoecium: Tricarpellary, syncarpous, ovary superior.\n\nFlower\n\nAndroecium\n\nInflorescence\n\nGynoecium",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Classification of Plants",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Which criteria are used for the classification of plants? Explain with reasons.",
+    "answer": "The presence or absence of organs is the first criterion for the classification of plants. The presence or absence of separate conducting tissues for the conduction of water and food is the next consideration for classification. Do the plants bear seeds? If they do then, whether the seeds are enclosed in a fruit or not is also an important criterion for classification. Finally, plants are grouped depending on the number of cotyledons in the seeds.\nAt the higher levels of plant classification, different characteristics are considered for classification, e.g. depending upon the absence or presence of flowers, fruits and seeds, plants are classified as cryptogams or phanerogams. Depending upon whether seeds are enclosed within a fruit or not, phanerogams are classified as gymnosperms and angiosperms. Angiosperms are further classified as monocots or dicots depending upon the number of cotyledons in seeds.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Classification of Plants",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following table (Carefully study the carbon, oxygen and nitrogen cycles). Bio-geo-chemical cycles Biotic processes Abiotic processes 1. Carbon cycle 2. Oxygen cycle 3. Nitrogen cycle",
+    "answer": "Bio-geo-chemical cycles\n Biotic processes \n Abiotic processes \n\n1. Carbon cycle\n \n\nRelease of oxygen and CO2 through photosynthesis and respiration respectively.\n \nRelease of CO2 in the atmosphere by the burning of fossil fuels, wood, etc.\n\n2. Oxygen cycle\n \n\nRelease of O2 through\nphotosynthesis and its consumption in processes like respiration etc.\n \nPhotodissociation of water vapour in the upper atmosphere, as a result of which oxygen is released when water molecules are split by light and combustion.\n\n3. Nitrogen cycle\n \nNitrogen fixation, nitrification, ammonification\nNitrogen fixation in the atmosphere and denitrification",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Correct and rewrite the following statement and justify your correction. Carnivores occupy the second trophic level in the food chain.",
+    "answer": "The statement is Incorrect. \nCorrect statement: Carnivores occupy the third trophic level in the food chain.\nJustification:\nBecause the trophic level means the producers, and the secondary trophic level names secondary consumers, carnivores eat them.\nE.g.: grass > deer > lion",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Correct and rewrite the following statement and justify your correction. The flow of nutrients in an ecosystem is considered to be a ‘one-way’ transport.",
+    "answer": "Correct Statement: The flow of nutrients in an ecosystem is cyclical.\nExplanation:\nNutrients, necessary for the growth of organisms, are continuously transferred from abiotic to biotic factors and biotic to abiotic factors within an ecosystem. This cycle operates continuously through the medium of the biosphere formed by the lithosphere, atmosphere and hydrosphere",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Correct and rewrite the following statement and justify your correction. Plants in an ecosystem are called primary consumers.",
+    "answer": "The statement is incorrect.\nCorrect statement: Plants in an ecosystem are called primary producers.\nJustification: Plants are not primary consumers; they are primary producers. This is because they produce their own food through the process of photosynthesis, converting sunlight into energy. Primary consumers, on the other hand, are herbivores that eat these plants to obtain energy.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Give reason. Energy flow through an ecosystem is ‘one way’.",
+    "answer": "The producers convert solar energy into chemical energy in the form of organic compounds. The primary consumers (herbivores) derive their nutrition from the producers. According to the energy transfer law, only 10% of energy is transferred from one trophic level to the other. So, the energy that is captured by the producers does not revert back to the Sun and the energy transferred to the herbivores does not come back to the producers. It just keeps on moving to the next trophic level in a unidirectional way. That is why the flow of energy in the food chain is always unidirectional/one-way.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Give reason. Equilibrium is necessary in the various bio-geo-chemical cycles.",
+    "answer": "The cyclic flow of nutrients within an ecosystem is called as the biogeochemical cycle.\nA continuous transfer of nutrients which are necessary for the growth of organisms occurs from abiotic to biotic factors and biotic to abiotic factors in an ecosystem. \nThis nutrient cycle operates continuously through the biosphere formed by the lithosphere, atmosphere and hydrosphere. The recycling of these biogeochemicals depends upon the level of energy transfer in the ecosystem. \nAny type of disturbance at any level of these cycles affects the ecosystems and nature&rsquo;s balance. Hence, there should be equilibrium in the various biogeochemical cycles.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Give reason. The flow of nutrients through an ecosystem is cyclic.",
+    "answer": "Flow of nutrients through an ecosystem is cyclic as the nutrients move from one trophic level to another trophic level all the way up and then back down. The cyclic flow of nutrients occur in the following manner:\n\nProducers/green plants which are present at the lowest trophic level manufacture the nutrients by the help of the sun's energy through the process of photosynthesis.\nThese nutrients manufactured by the producers are passed on to the primary consumers/herbivores.\nThe secondary consumers feed on primary consumers resulting in the passage of nutrients from the primary consumers to the secondary consumers. \nThe tertiary and the quaternary consumers also obtain nutrients from feeding one or all of the lower trophic levels. \n\nFinally, these nutrients are transferred back to the soil from the higher trophic levels through decomposition. The process of decomposition is carried out by organisms such as bacteria and fungi.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following cycle in your own words with a suitable diagram. Carbon cycle.",
+    "answer": "Carbon cycle\n\nThe circulation and recycling of carbon from the atmosphere to living organisms and after their death back to the atmosphere is called the carbon cycle.\n\nCarbon dioxide is the main source of carbon in the atmosphere and water bodies. Green plants produce carbohydrates with the help of carbon dioxide from the atmosphere in the process of photosynthesis.\n\\[\\ce{\\underset{{Carbon dioxide}}{6CO2&darr;} + \\underset{{water}}{12H2O} ->[{light}][{chloroplasts}]\\underset{{sugar}}{C6H12O6} + \\underset{{water}}{6H2O} + \\underset{{oxygen}}{6O2&uarr;}}\\]\nThese carbohydrates are transferred in the form of food in the food chain by plants to herbivores and then by herbivores to carnivores.\nIn the process of respiration, plants and animals oxidize carbohydrates and release energy. Along with this, carbon dioxide gas is released into the atmosphere.\n\\[\\ce{\\underset{{sugar}}{C6H12O6} + \\underset{{oxygen}}{6O2} -> \\underset{{Carbon dioxide}}{6CO2&uarr;} + \\underset{{water}}{6H2O} + {energy}}\\]\nMicroorganisms produce carbon dioxide during the process of fermentation and oxygen respiration.\nOrganic matter is decomposed by microorganisms. During this process, carbon dioxide gas is also produced and this gas gets mixed in the atmosphere.\nDuring the combustion of fuel, the rapid burning of organic matter with oxygen produces energy and carbon dioxide gas.\nIn the form of carbon dioxide from the atmosphere, carbon enters the food chain through vegetation. Through various processes like respiration, combustion, fermentation, decomposition, carbon dioxide is returned to the atmosphere and the cyclical cycle of carbon is completed.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following cycle in your own words with a suitable diagram. Nitrogen cycle.",
+    "answer": "Nitrogen cycle\n\nThe nitrogen cycle involves the conversion of nitrogen from its elemental form in the atmosphere into simpler molecules in the soil and water. These further get converted into more complex molecules in living beings. Finally, the complex molecules are reduced and released back into the atmosphere as simple nitrogen molecules.\nFixing atmospheric nitrogen involves the following steps:\n\nNitrogen fixation: It is the process wherein atmospheric nitrogen is converted into water-soluble nitrates. This step is performed by organisms like Rhizobium, Azotobacter and blue-green algae.\n\\[\\ce{N2 → NO3− or NH4}\\]\nNitrification: It is the process in which ammonia is first converted into nitrites and then into nitrates. This step is performed by nitrifying bacteria like Nitrosomonas and Nitrobacter.\n\\[\\ce{NH3 → NO2− → NO3−}\\]\nAssimilation: In this step, NH3 and NO3 are incorporated into the biological tissues.\nAmmonification: It is the process in which complex, dead organic matter is decomposed into ammonia. This step is performed by organisms like decay bacteria and fungi.\n\\[\\ce{Organic nitrogen compounds → NH4+}\\]\nDenitrification: It is the process wherein the nitrates present in the soil are reduced to release nitrogen back into the atmosphere.\n\\[\\ce{NO3− → N2}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following cycle in your own words with a suitable diagram. Oxygen cycle.",
+    "answer": "Oxygen cycle\n\nOxygen is an important component of life. We cannot survive without oxygen. It comprises about 21% of atmospheric air.\nIt is also present in dissolved form in water bodies and helps in the survival of aquatic life. In combined form, it is found both in Earth&rsquo;s crust and in the air.\nIn the air, it occurs as carbon dioxide. In the crust, it is present as oxides of most metals and silicon and also as carbonate, sulphate, nitrate and other minerals.\nOxygen is also a part of several essential bio-molecules such as carbohydrates, proteins, nucleic acids and fats.\nThere are processes that utilize atmospheric oxygen. At the same time, the balance of oxygen in the atmosphere is also maintained. \n\nOxygen is utilized during respiration, combustion and formation of oxides of nitrogen.\nOxygen is returned to the atmosphere in only one major way, and that is photosynthesis.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "What would you do to help maintain the equilibrium in the various bio-geo-chemical cycles? Explain in brief.",
+    "answer": "Biogeochemical cycles are the basis of life and play an important role in the maintenance of life on Earth. Any kind of disturbance to these cycles can result in the destruction of life. We have seen from all the biological cycles that plants play a crucial role in these cycles. Plants are required for the existence of life on Earth and any kind of harm to them can directly affect life on Earth. Deforestation due to industrialisation and increased population has resulted in the loss of forest cover on Earth. In order to maintain the equilibrium in biological cycles following steps should be undertaken:\n\nreduce deforestation\nreduce the carbon imprint\nminimise the use of fossil fuels and encourage the use of renewable sources of energy.\nconserve water\nconserve biodiversity as both plants and animals are a part of these biological cycles.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Explain in detail the inter-relationship between the food chain and the food web.",
+    "answer": "Between producers, consumers, and decomposers, interaction is constant. There is a definite sequence in these interactions, which is called the food chain. Each chain consists of four, five or more links. An ecosystem consists of many food chains that are interconnected at various levels. Thus, a food web is formed. An organism may be the prey of many other organisms. For example, an insect feeds upon the leaves of various plants, but the same insect is the prey for different animals like frogs, wall lizards, birds, etc. Thus, many interconnected food chains form an intricate food web.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "State the different types of bio-geochemical cycles and explain the importance of those cycles.",
+    "answer": "To maintain the concentrations of different naturally occurring substances in the environment, there are mechanisms that constantly recycle these substances. These recycling mechanisms are called biogeochemical cycles. So, biogeochemical cycles are the cyclic flow of nutrients between non-living environments and living organisms.\nTypes of Biogeochemical Cycles:\nThere are two major types of biogeochemical cycles\n\nGaseous cycle: These are the biogeochemical cycles in which the reservoir pool is the atmosphere or hydrosphere. For example, the carbon cycle, nitrogen cycle etc.\nSedimentary cycles: These are the biogeochemical cycles in which the reservoir pool is generally lithosphere. For example, the Phosphorous cycle, Sulphur cycle etc.\n\nImportance of bio-geochemical cycle:\n\nPlants require nutrients such as water, CO2, phosphorus, potassium, nitrogen, and so on, whereas animals require carbohydrates, proteins, lipids, and so on.\nAfter death, producers and consumers decompose and emit substances that mix with the soil.\nThe biogeochemical cycle allows for the cyclic movement of nutrients.\nThe cyclic migration of elements such as carbon, nitrogen, phosphorus, and others happens continuously on Earth.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following with suitable examples. What type of changes occur in the amount of energy during its transfer from plants to apex consumers?",
+    "answer": "The ecosystem's plants store part of the solar energy as food. This energy is passed on from one trophic level to the next. At every trophic level, the organism uses some amount of energy for its own life processes and some amount of energy is lost to the surroundings. Decomposers dissipate some amount of energy in the form of heat. However, no part of the energy ever returns to the Sun. Hence, such energy passage is called &lsquo;one way&rsquo; transport. Energy is, therefore, greatest at the base of the pyramid and least at the apex. For example, humans at the pyramid's peak have 10 kcal of energy, whereas phytoplanktons at the pyramid's base have 10,000 kcal.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following with suitable examples. What are the differences between the flow of matter and of energy in an ecosystem? Why?",
+    "answer": "Energy flow in an ecosystem\nFlow of Nutrients in an ecosystem\n\n1. The flow of energy in an ecosystem is unidirectional.\n1. The flow of nutrients in an ecosystem is cyclic.\n\n2. Energy is transferred from producers to consumers via one trophic level to the next.\n\n2. Primary consumers pass on nutrients from producers, while primary consumers pass on nutrients to secondary consumers. Only decomposers provide nutrients in a cyclical manner.\n\n3. Some part of the energy that is not utilized is thrown into the atmosphere.\n3. Nutrients are not destroyed in the ecosystem.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Energy Flow in an Ecosystem",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Write the name of microbes found in the following food material. Yoghurt",
+    "answer": "Lactobacilli",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Write the name of microbes found in the following food material. Bread",
+    "answer": "Yeast",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Write the name of microbes found in the following food material. Root nodules of leguminous plants",
+    "answer": "Rhizobium",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Write the name of microbes found in the following food material. idli",
+    "answer": "Yeast",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Write the name of microbes found in the following food material. Dosa",
+    "answer": "Yeast",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Write the name of microbes found in the following food material. Spoiled potato curry",
+    "answer": "Bacteria: \n\nBacillus cereus \n\nClostridium perfringens \n\nStaphylococcus aureus \n\nPseudomonas spp. \n\nEscherichia coli (E. coli)\n\nFungi:\n\nAspergillus spp.\n\nPenicillium spp.\n\nRhizopus spp.\n\nCandida spp.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Identify the odd word out and say why it is the odd one. Pneumonia, diphtheria, chickenpox, cholera.",
+    "answer": "ChickenpoxCholera",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Identify the odd word out and say why it is the odd one. Lactobacilli, Rhizobia, Yeast, Clostridia",
+    "answer": "Clostridia\nExplanation:\nClostridium will be the out one because lactobacilli, rhizobium, and yeast are useful microorganisms, whereas clostridium is a harmful micro-organism.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Identify the odd word out and say why it is the odd one. Root rot, rust (tambera), rubella, mozaic.",
+    "answer": "RubellaMozaic",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reasons. Foam accumulates on the surface of ‘dal’ kept for a long time in summer.",
+    "answer": "Summer provides ideal conditions and appropriate temperatures for the growth of bacteria and fungi. At this time, their reproduction occurs very rapidly. On the other hand, infection starts spreading in Dal stored for a long time. In this, the fermentation process begins. As a result, carbon dioxide is formed, and foam appears.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reasons. Why are naphthalene balls kept with clothes to be put away?",
+    "answer": "Naphthalene balls contain a chemical substance called naphthalene. Due to this substance, white insects or termites do not appear on clothes. Along with this, naphthalene also protects from fungi. Naphthalene balls are used to keep clothes fine and durable.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Write down the modes of infection and the preventive measures against fungal diseases.",
+    "answer": "Fungal infections are caused by fungi which are found in soil, air, water, as well as on plants, animals, and people. Fungal infections are transmitted to a healthy individual by coming in contact with the spores of the fungi. It may get transmitted by contact with infected soil, water or air. Fungal transmission can also occur from person to person, however, the chances of person-to-person transmission are possible in case of skin infections. Usually, fungal infections are not serious, but they can turn out to be serious or even fatal in the case of immunocompromised patients, for example, people suffering from AIDS.\nMeasures which can prevent the transmission of fungal diseases are:\n\none should maintain proper hygiene\none should avoid sharing personal products like a hair brush\navoid direct contact with people who have a fungal infection\nclean or discard the infected objects and garments \nwash all bed linen regularly to get rid of any fungal spores\none should avoid wearing tight clothes, jeans and shoes\nkeeping areas like feet, groins, underarms and buttocks dry and clean",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Match the pairs. ‘A’ group 1. Rhizobium 2. Clostridium 3. Penicillium 4. Yeast ‘B’ group a. Food poisoning b. Nitrogen fixation c. Bakery products d. Production of antibiotics",
+    "answer": "&lsquo;A&rsquo; group \nAnswer\n\n1. Rhizobium\nb. Nitrogen fixation\n\n2. Clostridium\na. Food poisoning\n\n3. Penicillium\nd. Production of antibiotics\n\n4. Yeast\nc. Bakery products",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Which vaccines are given to infants? Why?",
+    "answer": "Young children have low natural immunity, so vaccines are given to protect them from infectious diseases.\nThe BCG vaccine, given within the first week after birth, provides protection against tuberculosis.\nAfter this, a triple vaccine (DPT - Diphtheria, Pertussis, Tetanus) (diphtheria, whooping cough, tetanus) is given in the third, fourth, and fifth months. It contains preventive vaccines for diseases like whooping cough and gonorrhoea.\nAt the time of triple vaccination, oral polio doses are given.\nAfter this, the nine-month-old child is given MMR (Mumps, Measles, Rubella), i.e., a preventive vaccine for diseases like mumps, measles, and rubella.\nSchool-going children are vaccinated against typhoid and cholera and sometimes also given vaccines against hepatitis.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "How is a vaccine produced?",
+    "answer": "Microbes were injected into horses and monkeys for immunizations. Laboratory animals create antibodies to fight these microorganisms. Proteins called antibodies battle disease-causing germs. The animals' blood antibodies were used for immunizations.\nBiotechnology allows laboratories to make vaccines with bacteria. For this, the disease-causing bacterium is being thoroughly investigated. Genes and DNA of such microorganisms are examined. Labs synthesise proteins that fight such germs using this information. Safe vaccinations safeguard the body from sickness.\nGerm extracts are used in some vaccines. These bacteria are inactive. When injected, they start the defense. Vaccinated people have antibodies. When this person is exposed to identical bacteria later, the defense mechanism comes in quickly and prevents illness.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "How do antibiotics cure disease?",
+    "answer": "Microorganisms have certain biochemical pathways which are needed for their survival; for example, respiration and enzyme synthesis. Antibiotics bind with the precursors required for these pathways and block them. In the absence of essential life processes, the microorganisms are killed. For example, penicillin kills a bacterium by blocking the cell wall formation in bacteria. Once the disease-causing organism is dead, there is no more spread of the disease and the patient starts recovering.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Are the antibiotics given to humans and animals the same? Why?",
+    "answer": "Different types of diseases harm animals as well. They also become infected with bacteria, viruses, and fungi. As a result, the veterinary specialist prescribes antibiotics to them during their therapy. Because the germs that infect humans are of different species than the pathogens that infect animals, some antibiotics are different. Only a few are identical to human antibiotics.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Why is it necessary to safely store the pathogens of a disease against which vaccines are to be produced?",
+    "answer": "Vaccines are dead/weakened microorganisms which provide immunity against diseases by inducing immune response of the body. Since, these microorganisms are dead/weakened, they lose their disease-causing abilities and thus pose no harm. However, if these microorganisms are not stored properly and if they are in their infective stage, they can result in widespread of the disease.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "What are ‘broad-spectrum antibiotics&#x27;?",
+    "answer": "Some antibiotics are useful against a wide variety of bacteria. They are called broadspectrum antibiotics. Examples are ampicillin, amoxicillin, tetracycline, etc. When the pathogen cannot be identified even though the symptoms of the disease are visible, broad-spectrum antibiotics are used.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in brief. What is fermentation?",
+    "answer": "Fermentation is the process in which a substance breaks down into a simpler substance.\nFermentation refers to the metabolic process by which organic molecules (mainly carbohydrates, such as starch or sugar) are converted into acids, gases, or alcohol in the absence of oxygen or any electron transport chain.\nThe formation of curd from milk is an example of fermentation. The Lactobacilli convert lactose to lactic acid. This reduces the pH and results in the separation of milk proteins from the milk, and the yoghurt is formed.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Define antibiotic.",
+    "answer": "Carbon compounds obtained from some bacteria and fungi for destroying or preventing the growth of harmful micro-organisms are called &lsquo;Antibiotics&rsquo;.\nExamples of antibiotics: Penicillin, ampicillin,",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Useful and Harmful Microbes",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Match the items in column ‘A’ with the proper ones in column ‘B’ and explain their impact on the environment. Column ‘A’ Column ‘B’ 1. Harmful waste a. Glass, rubber, carry bags, etc.",
+    "answer": "Column 'A'\nAnswers\n\n1. Harmful waste \nc. Radioactive material\n\n2. Domestic waste\nd. Leftover food, vegetables, peelings of fruits.\n\n3. Biomedical waste\ne. Bandages, cotton, needles, etc.\n\n4. Industrial waste\nb. Chemicals, pigments, ash, etc. \n\n5. Urban waste \na. Glass, rubber, carry bags, etc.\n\nImpact on the environment is explained as follows:\n\nHarmful waste - It is dangerous to the environment or human health. It is considered toxic because it is harmful to human health when a person is exposed to substances through inhalation, ingestion or touch.\nDomestic waste - It is the waste generated by the daily usage of domestic materials. Uncollected domestic waste causes health hazard as well as pollutes the environment and endanger the life of people at large.\nBiomedical waste - It is a kind of infectious material waste which is obtained especially from hospitals and causes infectious diseases.\nIndustrial waste - It is produced by the industrial processes during the manufacturing of several things. This waste can be liquid, solid or gaseous, it pollutes air, soil, and nearby water sources. Water discharged from factories pollutes rivers and lakes. Dumping of industrial waste into the river causes water pollution.\nUrban waste - This waste leads to serious health and environmental issues if not disposed of or managed properly.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "How is first aid provided to victims of disasters who are injured?",
+    "answer": "The main purpose of first aid is to prevent loss of life, prevent deterioration, and start the recovery process. So it is important to know what the first aid or emergency measures.\nThe following first aid should be provided to victims of disasters:\n\nAirway: If a person faces difficulty in breathing, raise the chin or hold the head in a backwards sloping position so as to keep the respiratory passage open.\nBreathing: If the person has stopped breathing, give artificial respiration mouth-to-mouth.\nCirculation: If the person is unconscious, first give mouth-to-mouth respiration. If the person doesn&rsquo;t revive, perform CPR (cardio-pulmonary resuscitation) by pressing the heart hard using both palms. Repeat these two steps alternately after every 15 minutes.\nBleeding: Cover the wound with an antiseptic pad and apply pressure for 5 minutes using your thumb or palm.\nFracture: Impossible the fractured part using any wooden rods, rulers, etc.\nBurns: Hold the burnt part under cold and flowing water for at least 10 minutes.\nSprain, Twisting, and Contusion: Let the person rest, apply an ice pack on the injured area, then massage it gently, and keep the affected area elevated.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "State the scientific and eco-friendly methods of waste management.",
+    "answer": "The scientific and eco-friendly methods of waste management are:\n\nWaste separation: This is the first step in waste management. Classification of dry waste and wet waste is very important for further processing of waste.\nComposting: Decomposing kitchen waste in small pits in the backyard, garden, or terrace is called composting. Good quality compost can be made by composting food scraps, fruit peels, vegetables, etc.\nVermicomposting: In this method, solid waste is rapidly decomposed with the help of earthworms. Manure obtained from vermicomposting is useful for agriculture, as it is rich in nutrients.\nSecured landfill: In this method, the waste is kept in a special place safely away from human habitation. In such places, the ground is covered with plastic and clay so that the waste water does not seep into the ground.\nPyrolysis: It is a method for solid waste management. It is the chemical decomposition of solid waste by heat under high pressure, and the end products of pyrolysis are used to produce steam and electricity.\nThe combustion of the furnace/bhashimation: This is an industrial method in which the waste is converted into a simple solid or aerodynamic form. In this method, the garbage in the furnace is infused at high temperatures. Generally, this method is used for biological medical waste.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Explain with suitable examples, the relationship between weather forecasting and disaster management.",
+    "answer": "With the help of science and technology, it is now easy to predict the weather.\nThe weather forecast is a helpful to manage effective disaster during the natural disasters of floods, earthquakes, hurricanes, etc.\nFor example, in 2014, the Meteorological Department predicted the 'hood hood' storm on the shores of Andhra and Odisha.\n\nTo prevent the adverse effects of the storm, the National Disaster Management implemented 35 teams of security guards in Andhra and Odisha. On October 12, when the storm actually hit the place, 38 trains along the east coast were cancelled. \nThe schools in the region were closed, and the storm in Andaman affected the transport service. The fishermen were prioritized and some trees swallowed on the ground due to the high temperature of the storm, causing the main roads to be closed.\nWhere the fieldwork could not be completed, 9 out of 13 districts had announced a warning about the storm. Out of a total of 7 million people, 5 lakh people from Andhra Pradesh were relocated to a safe place and sent to the Relief Camp, the most massive bunkers were kept in the bunkers.\nThe Odisha government issued a 'high alert' in 16 districts. \n\nFrom this example, it is clear that according to weather forecasting, we can take appropriate precautions for disaster management and be prepared to face disaster. This, in turn, helps reduce the severity of the damage and can get rid of the disaster.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Why is e-waste harmful? Express your opinion about this.",
+    "answer": "E-waste refers to electronic wastes, that include old and discarded electric appliances, such as computers, TVs, refrigerators, cell phones, electronic toys, batteries, etc. Most of the electronic waste is generated in cities, however, due to a faster rate of development and improved lifestyle, small towns and villages are also contributing to e-waste generation.\nE-wastes is very dangerous and polluting as it contains many harmful substances, such as plastics, lead, cadmium, and mercury. These substances are not just non-biodegradable, but they also result in several life-threatening diseases, including cancer. Many of these harmful metals can enter the food chain and result in bioaccumulation.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "How will you register individual participation in solid waste management?",
+    "answer": "Putting the garbage into the trash.\nRepair and maintain the goods and use them for longer.\nUsing 3 'R' mantras in solid waste management. Reduce (reducing waste), reuse (reuse of waste), recycle (recycling of waste)\nPut the plastic wrap of chocolate, biscuits, ice cream or cold materials into dust bins without putting it in the road or open space.\nAvoid the use of plastic bags and use bags made from cloth bags, home old saris, bedsheets, and curtains as an alternative.\nWriting on both sides of the paper. Re-use of greeting cards, and gift papers.\nBy reducing the use of tissue paper, use a handkerchief near themselves.\nUsing a rechargeable battery instead of leading batteries.\nTo encourage themselves, family and society in solid waste management, implementing various programs.\nAvoiding &lsquo;use and throw&rsquo; type of articles like pens, canned cold drinks and tetra-packs etc.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Write note. Meteorology",
+    "answer": "The branch of science that deals with the study of the earth's atmosphere and majorly focuses on weather processes and forecasting is known as meteorology. Weather forecasting is made depending on the various variables like temperature, air pressure, winds etc. as they vary with time. Storms, lightning, rainfall etc. are also studied under meteorology. Predictions made by the meteorological department are important to citizens, aviation services, farmers and various other organisations.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Write a note. Climatic factors",
+    "answer": "Climate is defined as the average conditions that are expected at a certain place over a number of years. Climate remains constant for a region and does not change continuously. It influences our lives in terms of our basic needs like food, clothing, and shelter as well as our occupations. Climatic factors are factors which affect the climate of a region; for example, the direction and speed of wind, temperature, atmospheric pressure, clouds, rainfall, humidity, visibility, etc. These climatic factors are important in the development of infrastructures like high scrapers, bridges, airport runways, etc.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Write note. Monsoon model",
+    "answer": "For the first time, a model predicting monsoons was developed in 1877 by H. F. Blanford, the then-founder of IMD. This was the first prediction of its kind and the parameter which was chosen for this prediction was the snowfall in the Himalayas. In the 1930s, the then director of IMD, Sir Gilbert Walker established a relationship between the Indian monsoon and the various worldwide climatic factors. It was Dr Vasantrao Govarikar who finally developed the monsoon model based on 16 worldwide climatic parameters and this model was in use from 1990 to 2002.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Write note. Industrial waste",
+    "answer": "Industrial waste is the waste that is produced from industries during the manufacturing process. For example pieces of metals, plastic, chemicals, etc. Industrial wastes are also a major source of environmental pollution. They lead to air and water pollution. The fumes which are generated from industries are highly poisonous and directly affect the respiratory systems of animals, humans and birds. The industrial waste materials are rich in toxic substances and heavy metals such as mercury, lead, copper, and cadmium. Mercury is a toxic substance, which exhibits the phenomenon of biomagnification when it enters the ecosystem via the food chain. Since these chemicals cannot be decomposed, they keep on accumulating at each trophic level. The maximum concentration is accumulated at the top carnivore&rsquo;s level. This increase in the concentration of pollutants or harmful chemicals with the increase in trophic level is called biological magnification.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Write note. Plastic waste",
+    "answer": "Plastic is something which we use on a daily basis and has become an inseparable part of our lives. Despite its various uses, one of the major disadvantages of plastic is that it is an environmental pollutant. Plastic is considered non-biodegradable because it is made of very long polymer chains, which take quite a long time to degrade. Moreover, none of the saprophytes contain enzymes to digest plastic and obtain its nutrients. Since plastic is non-biodegradable, its proper disposal is also important or it may lead to problems like choking of sewage system, resulting in overflow of drains and death of animals by consuming plastic bags.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Write note. Principles of first aid.",
+    "answer": "First aid is the emergency measure to be followed at the time of disaster before medical help arrives. The Basic Principles of First-Aid are:\n\nAirway: If a person faces difficulty in breathing, raise the chin or hold the head in a backwards sloping position, so as to keep the respiratory passage open.\nBreathing: If the person has stopped breathing, give artificial respiration mouth-to-mouth.\nCirculation: If the person is unconscious, first give mouth-to-mouth respiration. If the person doesn't revive, perform CPR (cardio-pulmonary resuscitation) by pressing the heart hard using both palms. Repeat these two steps alternately after every 15 minutes.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Give examples of the importance of climate in the living world with explanations, in your own words.",
+    "answer": "Climate is defined as the weather conditions which have prevailed in a region over a long duration of time. Climate plays an important role in determining our basic needs like the type of food, clothing, and shelter as well as our occupations. For example, people living in colder regions would eat food that liberates more heat to keep them warm whereas people living in hotter areas food eat food which have cooling properties. From this one example, we can understand how important climate is for all the living beings on this earth. The type of vegetation, animals, birds, and insects which are found in a region is determined by its climatic conditions polar bears are found in polar regions (arctic and Antarctic) whereas camels are found in desert areas. These are just a few examples that explain the importance of climate. We have often read and heard about global warming and its disastrous effect on the climate. Any effect on the climatic conditions of a region would directly affect the existence of living beings in that region.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Explain with suitable examples, the care to be taken when using the methods of transporting patients.",
+    "answer": "The following methods can be used for carefully transporting patients:\n\nCarrying piggyback: This method can be used for transporting patients who are unconscious.\nCradle method: It can be used for transporting children and under-weight victims.\nPulling or lifting method: It can be used for carrying an unconscious patient through a short distance.\nHuman crutch method: This method is useful if one of the legs of the victim is injured. The victim should be supported with a minimum load on the other leg.\nCarrying on a two-hand chair: This method can be used for those patients who cannot use their hands but can hold their body upright.\nCarrying on a four-hand chair: This method is implied when support is needed for the part below the waist.\nStretcher: If a conventional stretcher is not available in an emergency, then a temporary stretcher can be made using bamboo, blankets, etc.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Distinguish between Weather and climate.",
+    "answer": "Sr. No.\nWeather\nClimate\n\n(i)\nAtmospheric conditions at a specific time at a particular place are referred to as weather.\nThe climate of a particular region is the average of daily readings of various weather-related parameters recorded for several years.\n\n(ii)\nIt is a short-term state of the atmosphere.\nIt is a long-term permanent state of the atmosphere.\n\n(iii)\nWeather is related to a specific location and specific time.\nThe climate is released to a longer duration and larger area.\n\n(iv)\nThe Weather conditions in a region can change continuously.\nThe climate of a region does not change continuously. It remains stable for a long time compared to air.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Explain the difference. Degradable and non-degradable waste",
+    "answer": "Sr. No.\n\nDegradable waste\n\nNon-degradable waste\n\n(i)\n\nDegradable waste can be degraded or broken down into simpler, harmless substances by living organisms like microbes or microorganisms.\n\nNon-degradable waste cannot be degraded or broken down into simpler substances by living organisms.\n\n(ii)\n\nThe degradation process in degradable waste is fast.\n\nThe degradation process in non-degradable waste is slower than in biodegradable.\n\n(iii)\n\nDegradable waste is not collected but is used up in a short time.\n\nNon-degradable waste is often collected.\n\n(iv)\n\nBreakdown of these wastes enriches the soil such as plant and animal wastes. Therefore, such wastes are beneficial for the soil.\n\nThey do not break down and cause soil pollution. For e.g. plastics, glass, etc. Such wastes are harmful to the soil.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Environmental Management",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Explain the role and importance of information communication in science and technology.",
+    "answer": "The role of information communication in science and technology are the following:\n\nLearning science has become easier and more enriching now, thanks to science and technology.\nWith the help of simulations, science and technology are now assisting students in learning by conducting cost-effective experiments and demonstrations.\nThis technology is becoming increasingly suitable for students to perform and observe experiments at home.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Information Communication Technology (ICT)",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Which application software in the computer system did you find useful while studying science, and how?",
+    "answer": "Following are the application software which I find helpful while learning science:\n\nCalculator: It helps verify the calculations done in physics and chemistry.\nMicrosoft Excel: It is helpful in making me understand how to plot graphs between various physical quantities present in science.\nMicrosoft PowerPoint: It enabled me to make interactive presentations for various topics present in science.\nWeb Browser (Chrome/Internet Explorer): Browsers can be used to find information related to science topics on websites, which are useful for gathering information.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Information Communication Technology (ICT)",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "How does a computer work?",
+    "answer": "Input unit: All types of information/data is entered into the computer through this unit. Generally, a keyboard is used to enter data or information.\nOutput Unit: The result/solution/answer is eventually sent to the output unit. Generally a screen/monitor or printer is used as an output unit.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Information Communication Technology (ICT)",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "What precautions should be taken while using various types of software on the computer?",
+    "answer": "The precautions to be taken while using various types of software on the computer are:\n\nWhile using software, make sure that too many are not used simultaneously. Otherwise, it is going to slow your computer.\nWhile working on Excel, keep the data in tabular form. Also, enter the data sequentially. Even, avoid using unnecessary space and special characters.\n\nIn case of downloading a new software,\n\nmake sure that the site is authenticated from where it is being downloaded.\nmake sure that your computer has antivirus installed so as to protect it from any harmful bugs.\ntry to give the limited and required amount of access permission to the software.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Information Communication Technology (ICT)",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Which are the various devices used in information communication? How are they used in the context of science?",
+    "answer": "The various devices used in information communication are:\nAudio, mobile, computer, radio, television, internet, e-mail, video conferencing etc. are devices used in information communication.\nUse of Information and Communication Technology in Science:\n\nMobile: By audio recording and videography of lectures related to science subjects, students are provided the facility of revision. Through this, information related to science can be obtained.\nTelevision: Science related academic lessons can be reviewed. Science related programs can be studied on channels like National Geographic, Animal Planet, Discovery Channel.\nComputer: Information related to science is stored in computers, and it is used for presenting, writing and creating information.\n Internet: Information related to science can be obtained by using computers and internet. By visiting various websites, necessary information and pictures can be copied. Scientific experiments and creations can also be inspected here.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Information Communication Technology (ICT)",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Using a spreadsheet, draw graphs between distance and time, using the information about the movements of Amar, Akbar and Anthony given in the table below in the lesson on the Laws of Motion.",
+    "answer": "Precautions to be followed while drawing the graph:\n\nKeep the data in tabular form.\nData should be entered sequentially.\nAvoid using unnecessary space and special characters.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Information Communication Technology (ICT)",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Explain the differences between the different generations of computers. How did science contribute to these developments?",
+    "answer": "Computer Generations\n\nNo.\nInformation\nFirst generation\nSecond generation\nThird generation\nFourth generation\nFifth generation\n\n1.\nPeriods\n1946 to 1959\n1959 to 1963\n1964 to 1971\n1971 to 1990\n1990 to date\n\n2.\nMain component\nVacuum tube based\nTransistor-based\nIntegrated circuit based\nmicroprocessor based\n\n \nParallel Processing, Networking\n\n3.\nInput Device\npunch card\npunch card\nKeyboard\nKeyboard, mouse\nKeyboard, mouse, scanner and more\n\n4.\n\nNeed for AC to keep cool\n\nYes\nYes\nYes\nNo\nNo\n\n5.\n\nLanguage\n\nmachine language\nmachine and assembly languages COBOL\nHigh-level programming language, Operating System\nGraphical User Interface (GUI)\nGUI\n\nAs time progresses, the size, price and maintenance cost of computers are decreasing. The working speed of the computer and its storage capacity are increasing.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Information Communication Technology (ICT)",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "What devices will you use to share with others the knowledge that you have?",
+    "answer": "Some of the devices which we can use to share knowledge with others are:\n\nComputer and networking hardware for writing books and blogs, participating in forums and chat rooms, and preparing presentations.\nTelephone (both landline and mobile) for answering oral queries and social media discussions. \nTelevision, by participating in discussions and debates.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Information Communication Technology (ICT)",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Using information communication technology, prepare powerpoint presentations on at least three topics in your textbook. Make a flowchart of the steps you used while making these presentations.",
+    "answer": "The steps to be followed while preparing a presentation are:\n\nClick on the icon given below the desktop.\n\nIt is necessary to have the content, images or both related to the component on which the presentation is to be made.\nSelect New option in the File tab and select Blank Slide. (You can select the required slide as per the presentation.)\n\nType the required information on the selected slide and insert the picture.\nDesign the slide with the help of Design tab.\n\nWith the help of Animations tab, give animation to the slide and show the slide.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Information Communication Technology (ICT)",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Which technical difficulties did you face while using the computer? What did you do to overcome them?",
+    "answer": "The information entered was destroyed due to sudden power supply.\nRemedy: When entering the information in the computer, the working file is repeatedly saved at regular intervals. U.P.S. Due to adding the (UPS) instrument, information can be saved for some time despite a minor time of any malfunction of the power supply.\nWhile uploading the photo, the photo was not being uploaded due to the network problem.\nRemedy: Photo was uploaded by changing the size and format of the photo.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Information Communication Technology (ICT)",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Explain the difference between a plane mirror, a concave mirror, and a convex mirror with respect to the type and size of the images produced.",
+    "answer": "Mirror\nType of image\nSize of image\n\nPlane mirror\nVirtual and erect.\nSame size as that of the object.\n\nConcave mirror\nReal and inverted as well as virtual and erect depending on the position of an object with respect to the mirror.\nMagnified, diminished as well as the same size as that of the object depending on the position of an object with respect to the mirror.\n\nConvex mirror\nAlways virtual and erect.\nAlways diminished.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "State the different positions of the source of light with respect to the concave mirror in Torches.",
+    "answer": "In a Torch, the light source is at the hub of a concave mirror, which gives you parallel light.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "State the different positions of the source of light with respect to the concave mirror in Projector lamps.",
+    "answer": "In a projector lamp, the light source is at the centre of the curvature of a concave mirror, which produces an image of the shape of the object itself.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "State the different positions of the source of light with respect to the concave mirror in Floodlights.",
+    "answer": "In a floodlight, the light source is slightly beyond the radius of curvature, which gives us the right light.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Why are concave mirrors used in solar devices?",
+    "answer": "concave mirror is also known as a converging mirror because of its ability to focus parallel rays of light at a single point on its focal plane. This property is used in solar devices. Parallel rays from the Sun, when reflected by the concave mirror, are focused at a particular point, generating a significant amount of heat. This heat is essential for the proper functioning of solar devices, such as solar cookers or solar furnaces.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Why are the mirrors fitted on the outside of cars convex?",
+    "answer": "The image formed by a convex mirror is small and straight.\nThis image remains straightforward; But as we move the mirror further away from the object, the image becomes smaller.\nAs a result, we see all the surrounding images in the mirror.\nThe use of convex mirrors in the outside of the vehicle gives the driver a straight, narrow and clear image of the vehicles behind the vehicle.\nTherefore, the mirror fitted on the outside of the vehicle is convex.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Why does obtaining the image of the sun on paper with the help of a concave mirror burn the paper?",
+    "answer": "The rays from the Sun are parallel. When these rays fall on the concave mirror, they converge to a single point on the focal plane of the mirror. Thus, a lot of heat is produced at that point. Now, if a paper is placed at that point to get the image of the Sun, the paper gets burnt because of the huge amount of heat concentrated at that point.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "If a spherical mirror breaks, what type of mirrors are the individual pieces?",
+    "answer": "fter the breakdown of the spherical mirror, each piece of the mirror is the same type of original mirror (concave/convex), as the reflective background and curvature have no differences in radius.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "What sign conventions are used for reflection from a spherical mirror?",
+    "answer": "Sign Conventions for Spherical Mirrors:\nAccording to the Cartesian sign convention, the pole of the mirror is taken as the origin. The principal axis is taken as the X-axis of the frame of reference. The sign conventions are as follows.\n\nThe object is always kept on the left of the mirror.\nAll distances parallel to the principal axis are measured from the pole of the mirror.\nAll distances measured towards the right of the pole are taken to be positive, while those measured towards the left are taken to be negative.\nDistances measured vertically upwards from the principal axis are taken to be positive.\nDistances measured vertically downwards from the principal axis are taken to be negative.\nThe focal length of a concave mirror is negative, while that of a convex mirror is positive.\n\n Cartesian sign conventions",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Draw ray diagrams for the cases of images obtained in concave mirrors as described in the table below. Images formed by concave mirrors Position of the object 1 Between pole and focus",
+    "answer": "Object between the focus (F) and the pole (P):\n\nP: pole, C: Centre of curvature, F: Focus, PF: Focal length (f), PC: Radius of curvature (R), AB: Object, A'B': Image, PB: Object distance (u), PB': Image distance (&nu;)\nHere, the image forms from behind the mirror. It is enlarged and virtually upright.\nObject at the focus (F):\n\nC: Centre of curvature, F: Focus, PF: Focal length (f), PC: Radius of curvature (R), AB: Object, PB: Object distance (u)\nHere the image is formed at infinite distance. It is real, inverted and huge in size.\nObject between the centre of curvature (C) and the focus (F):\n\nC: Centre of curvature, F: Focus, PF: Focal length (f), PC: Radius of curvature (R), AB: Object, A'B': Image, PB: Object distance (u), PB': Image distance (&nu;)\nHere the image exits the center of curvature. It is real, inverted and larger in size than the object.\nObject at the centre of curvature:\n\nC: Centre of curvature, F: Focus, PF: Focal length (f), PC: Radius of curvature (R), AB: Object, A'B': Image, PB: Object distance (u), PB': Image distance (&nu;)\nIn this situation the image is formed at the center of curvature only. It is real, inverted and similar in size.\nObject between infinity and Centre of curvature:\n\nC: Centre of curvature, F: Focus, PF: Focal length (f), PC: Radius of curvature (R), AB: Object, A'B': Image, PB: Object distance (u), PB': Image distance (&nu;)\nHere the image is between the center of curvature and the principal focus. The image is real, inverted and smaller than the object.\nObject at infinity:\n\nC: Centre of curvature, F: Focus, PF: Focal length (f), PC: Radius of curvature(R), AB: Object at infinity \nIn this situation, the image is formed at the principal focus of the concave mirror. It is real, contrasting and much smaller in size.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Which type of mirror is used in the following? Periscope",
+    "answer": "Plane mirror",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Which type of mirror is used in the following? Floodlights",
+    "answer": "Concave mirror",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Which type of mirror is used in the following? Shaving mirror",
+    "answer": "Concave mirror",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Which type of mirror is used in the following? Kaleidoscope",
+    "answer": "Plane mirror",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 14,
+    "isFree": true
+  }
+]

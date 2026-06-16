@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "∆ABC is an equilateral triangle. Point P is on base BC such that PC = 13BC, if AB = 6 cm find AP.",
+    "answer": "∆ABC is an equilateral triangle.\nIt is given that,\nPC = 1/3BC\nPC = 1/3 xx 6\nPC = 2 cm\n∴ BP = BC − PC\n= 6 − 2\n= 4 cm\nSince, ∆ABC is an equilateral triangle, OA is the perpendicular bisector of BC.\nOC = \"BC\"/2\n= 6/2\n= 3 cm\n∴ OP = OC − PC\n= 3 − 2\n= 1 cm ...(1)\nAccording to Pythagoras theorem,\nIn ∆AOB,\nAB2 = AO2 + OC2\n∴ (6)2 = AO2 + (3)2\n∴ 36 = AO2 + 9\n∴ AO2 = 36 − 9\n∴ AO2 = 27\n∴ AO = √27\n∴ AO = 3√3 cm ...(2)\nIn ∆AOP,\nAP2 = AO2 + OP2\n∴ AP2 = (3√3)² + (1)² \n∴ AP2 = 27 + 1\n∴ AP2 = 28\n∴ AP = √28\n∴ AP = 2√7 cm",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Pythagoras Theorem",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "From the information given in the figure, prove that PM = PN = √3 × a",
+    "answer": "1Show SolutionSince ∆PQR is an equilateral triangle, PS is the perpendicular bisector of QR.\n∴ QS = SR = \\[\\frac{a}{2}\\] ...(1)\nNow, According to Pythagoras theorem,\nIn ∆PQS,\n\\[{PQ}^2 = {QS}^2 + {PS}^2 \\]\n\\[ \\Rightarrow a^2 = \\left( \\frac{a}{2} \\right)^2 + {PS}^2 \\]\n\\[ \\Rightarrow {PS}^2 = a^2 - \\frac{a^2}{4}\\]\n\\[ \\Rightarrow {PS}^2 = \\frac{4 a^2 - a^2}{4}\\]\n\\[ \\Rightarrow {PS}^2 = \\frac{3 a^2}{4}\\]\n\\[ \\Rightarrow PS = \\frac{\\√{3}a}{2} . . . \\left( 2 \\right)\\]\nIn ∆PMS,\n\n\\[{PM}^2 = {MS}^2 + {PS}^2 \\]\n\\[ \\Rightarrow {PM}^2 = \\left( a + \\frac{a}{2} \\right)^2 + \\left( \\frac{\\√{3}}{2}a \\right)^2 \\]\n\\[ \\Rightarrow {PM}^2 = \\left( \\frac{3a}{2} \\right)^2 + \\left( \\frac{\\√{3}}{2}a \\right)^2 \\]\n\\[ \\Rightarrow {PM}^2 = \\frac{9 a^2}{4} + \\frac{3 a^2}{4}\\]\n\\[ \\Rightarrow {PM}^2 = \\frac{12 a^2}{4}\\]\n\\[ \\Rightarrow {PM}^2 = 3 a^2 \\] ...Taking square root\n\\[ \\Rightarrow PM = \\√{3}a . . . \\left( 3 \\right)\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Pythagoras Theorem",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "Prove that the sum of the squares of the diagonals of a parallelogram is equal to the sum of the squares of its sides.",
+    "answer": "Diagonals of a parallelogram bisect each other, i.e., O is the midpoint of AC and BD.\nIn ∆ABD, point O is the midpoint of side BD.\nBO = OD = 1/2BD\n∴ by Apollonius theorem,\nAB2 + AD2 = 2AO2 + 2BO2 ...(1)\nIn ∆CBD, point O is the midpoint of side BD.\nBO = OD = 1/2BD\n∴ by Apollonius theorem,\nCB2 + CD2 = 2CO2 + 2BO2 ...(2)\nAdding (1) and (2), we get,\nAB2 + AD2 + CB2 + CD2 = 2AO2 + 2BO2 + 2CO2 + 2BO2\n&rArr; AB2 + AD2 + CB2 + CD2 = 2AO2 + 4BO2 + 2AO2 ...(∵ OC = OA)\n&rArr; AB2 + AD2 + CB2 + CD2 = 4AO2 + 4BO2\n&rArr; AB2 + AD2 + CB2 + CD2 = (2AO)2 + (2BO)2\n&rArr; AB2 + AD2 + CB2 + CD2 = (AC)2 + (BD)2\n&rArr; AB2 + AD2 + CB2 + CD2 = AC2 + BD2\n∴ the sum of the squares of the diagonals of a parallelogram is equal to the sum of the squares of its sides.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Pythagoras Theorem",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "Pranali and Prasad Started Walking to the East and to the North Respectively, from the Same Point and at the Same Speed. After 2 Hours Distance Between Them Was 15 √ 2 Km. Find Their Speed per Hour.",
+    "answer": "It is given that, Pranali and Prasad have same speed.\nThus, they cover same distance in 2 hours.\ni.e. OA = OB\n\nLet the speed be x km per hour.\n\nAccording to Pythagoras theorem,\nIn ∆AOB\n\\[{AB}^2 = {AO}^2 + {OB}^2 \\]\n\\[ \\Rightarrow \\left( 15\\√{2} \\right)^2 = {AO}^2 + {OA}^2 \\]\n\\[ \\Rightarrow 450 = 2 {AO}^2 \\]\n\\[ \\Rightarrow {AO}^2 = \\frac{450}{2}\\]\n\\[ \\Rightarrow {AO}^2 = 225\\]\n\\[ \\Rightarrow AO = 15 km\\]\n\\[ \\Rightarrow BO = 15 km\\]\n\\[\\text{Speed} = \\frac{Distance}{Time}\\]\n\\[ = \\frac{15}{2}\\]\n\\[ = 7 . 5 \\text{km per hour}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Pythagoras Theorem",
+    "questionNumber": 43,
+    "isFree": true
+  },
+  {
+    "question": "In ∆ABC, ∠BAC = 90°, seg BL and seg CM are medians of ∆ABC. Then prove that:4(BL2 + CM2) = 5 BC2",
+    "answer": "Given: &Delta; ABC right angled at A, i.e., A = 90, where BL and CM are the medians.\nTo Prove: 4(BL2 + CM2) = 5BC2\nProof:\nSince BL is the median,\nAL = CL = 1/2 AC ...(1)\nSimilarly, CM is the median\nAM = MB = 1/2AB ...(2)\n∴ by Pythagoras theorem,\n(Hypotenuse)2 = (Height)2 + (Base)2 ...(3)\nIn &Delta;BAC,\n(BC)2 = (AB)2 + (AC)2 ...(4)\n∠BAC = 90°\nIn &Delta;BAL,\n(BL)2 = AB2 + AL2 ...(From 1)\nBL2 = AB2 + ((\"AC\")/2)²\nBL2 = AB2 + (\"AC\"²/4)\nMultiply both sides by 4,\n4BL2 = 4AB2 + AC2 ...(5)\nIn &Delta;MAC,\nCM2 = AM2 + AC2 ...(From 2)\nCM2 = ((\"AB\")/2)² + AC2\nCM2 = (\"AB\")²/4 + AC2\nMultiply both sides by 4,\n4CM2 = AB2 + 4AC2 ...(6)\nAdding 5 and 6,\n4BL2 + 4CM2 = (4AB2 + AC2) + (AB2 + 4AC2)\n4(BL2 + CM2) = 5AB2 + 5AC2\n∴ 4(BL2 + CM2) = 5BC2\nHence, proved.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Pythagoras Theorem",
+    "questionNumber": 44,
+    "isFree": true
+  },
+  {
+    "question": "Sum of the Squares of Adjacent Sides of a Parallelogram is 130 Sq.Cm and Length of One of Its Diagonals is 14 Cm. Find the Length of the Other Diagonal.",
+    "answer": "It is given that,\nAB2 + AD2 = 130 sq. cm\nBD = 14 cm\n\nDiagonals of a parallelogram bisect each other.\ni.e. O is the midpoint of AC and BD.\n\nIn ∆ABD, point O is the midpoint of side BD.\n\n\\[BO = OD = \\frac{1}{2}BD = 7 cm\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Pythagoras Theorem",
+    "questionNumber": 45,
+    "isFree": true
+  },
+  {
+    "question": "In ∆ABC, seg AD ⊥ seg BC, DB = 3CD. Prove that: 2AB2 = 2AC2 + BC2",
+    "answer": "In ∆ABC, AD ⟂ BC, and BD = 3CD ...(Given) \nIn ∆ADC, ∠ADC = 90°\nBy Pythagoras&rsquo; theorem,\nAC2 = AD2 + CD2 \n2AC2 = 2AD2 − 2CD2 ...(1) [Multiplied by 2]\nIn ∆ADB, ∠ADB = 90°\nby Pythagoras&rsquo; theorem,\nAB2 = AD2 + BD2 \n2AB2 = 2AD2 + 2BD2 ...(2) [Multiplied by 2]\nSubtracting equation (1) from (2)\n2AB2 − AC2 = (2AD2 + 2BD2) − (2AD2 + 2CD2) \n= 2AD2 + 2BD2 − 2AD2 − 2CD2\n= 2(3CD)2 − 2CD2 \n= 2 × 9CD2 − 2CD2 ...[Given] \n= 18CD2 − 2CD2\n= 16CD2\n∴ 2AB2 − 2AC2 = 16CD2 ...(3)\nBC = CD + DB [C−D−B]\nBC = CD + 3CD = 4CD\nBC2 = 16 CD2 ...(4) [squaring both sides]\nFrom (3) & (4)\n2AB2 − 2AC2 = BC2\n∴ 2AB2 = 2AC2 + BC2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Pythagoras Theorem",
+    "questionNumber": 46,
+    "isFree": true
+  },
+  {
+    "question": "In an isosceles triangle, length of the congruent sides is 13 cm and its base is 10 cm. Find the distance between the vertex opposite the base and the centroid.",
+    "answer": "\\[\\text{Area of the triangle} = \\√{s\\left( s - a \\right)\\left( s - b \\right)\\left( s - c \\right)}\\]\n\\[s = \\frac{a + b + c}{2}\\]\n\\[ = \\frac{13 + 13 + 10}{2}\\]\n\\[ = \\frac{36}{2}\\]\n= 18 cm\n\\[\\text{Area of the triangle} = \\√{18\\left( 18 - 13 \\right)\\left( 18 - 13 \\right)\\left( 18 - 10 \\right)}\\]\n\\[ = \\√{2 \\times 3 \\times 3 \\times 5 \\times 5 \\times 2 \\times 2 \\times 2}\\]\n= 60 sq.cm\n\\[\\text{Also}, \\]\n\\[\\text{Area of the triangle} = \\frac{1}{2} \\times base \\times height\\]\n\\[ \\Rightarrow 60 = \\frac{1}{2} \\times 10 \\times \\text{height}\\]\n\\[ \\Rightarrow \\text{height} = \\frac{60}{5}\\]\n= 12 cm",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Pythagoras Theorem",
+    "questionNumber": 47,
+    "isFree": true
+  },
+  {
+    "question": "In a Trapezium Abcd, Seg Ab || Seg Dc Seg Bd ⊥ Seg Ad, Seg Ac ⊥ Seg Bc, If Ad = 15, Bc = 15 and Ab = 25. Find A(▢Abcd)",
+    "answer": "ccording to Pythagoras theorem,\nIn ∆ADB\n\\[{AB}^2 = {AD}^2 + {DB}^2 \\]\n\\[ \\Rightarrow \\left( 25 \\right)^2 = \\left( 15 \\right)^2 + {BD}^2 \\]\n\\[ \\Rightarrow 625 = 225 + {BD}^2 \\]\n\\[ \\Rightarrow {BD}^2 = 625 - 225\\]\n\\[ \\Rightarrow {BD}^2 = 400\\]\n\\[ \\Rightarrow BD = 20\\]\nNow,\nA (&Delta;ADB) = 1/2 xx \"base\" xx \"height\"",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Pythagoras Theorem",
+    "questionNumber": 48,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, ∆PQR is an equilateral triangle. Point S is on seg QR such that QS = n13 QR. Prove that : 9 PS2 = 7 PQ2",
+    "answer": "Let the side of equilateral triangle ∆PQR be x.\nPT be the altitude of the ∆PQR.\nWe know that, in equilateral triangle, altitude divides the base in two equal parts.\n∴ QT = TR = \\[\\frac{1}{2}QR = \\frac{x}{2}\\]\nGiven: QS = \\[\\frac{1}{3}\\] QR = \\[\\frac{x}{3}\\]\n\\[\\therefore ST = QT - QS = \\frac{x}{2} - \\frac{x}{3} = \\frac{x}{6}\\]\nAccording to Pythagoras theorem,\nIn ∆PQT\n\\[{PQ}^2 = {QT}^2 + {PT}^2 \\]\n\\[ \\Rightarrow \\left( x \\right)^2 = \\left( \\frac{x}{2} \\right)^2 + {PT}^2 \\]\n\\[ \\Rightarrow x^2 = \\frac{x^2}{4} + {PT}^2 \\]\n\\[ \\Rightarrow {PT}^2 = x^2 - \\frac{x^2}{4}\\]\n\\[ \\Rightarrow {PT}^2 = \\frac{3 x^2}{4}\\]\n\\[ \\Rightarrow PT = \\frac{\\√{3}x}{2}\\]\nIn ∆PST \\[{PS}^2 = {ST}^2 + {PT}^2 \\]\n\\[ \\Rightarrow {PS}^2 = \\left( \\frac{x}{6} \\right)^2 + \\left( \\frac{\\√{3}x}{2} \\right)^2 \\]\n\\[ \\Rightarrow {PS}^2 = \\frac{x^2}{36} + \\frac{3 x^2}{4}\\]\n\\[ \\Rightarrow {PS}^2 = \\frac{x^2 + 27 x^2}{36}\\]\n\\[ \\Rightarrow {PS}^2 = \\frac{28 x^2}{36}\\]\n\\[ \\Rightarrow {PS}^2 = \\frac{7 x^2}{9}\\]\n\\[ \\Rightarrow 9 {PS}^2 = 7 {PQ}^2\\]\nHence, 9 PS2 = 7 PQ2.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Pythagoras Theorem",
+    "questionNumber": 49,
+    "isFree": true
+  },
+  {
+    "question": "Seg Pm is a Median of ∆Pqr. If Pq = 40, Pr = 42 and Pm = 29, Find Qr.",
+    "answer": "In ∆PQR, point M is the midpoint of side QR.\n\n\\[QM = MR = \\frac{1}{2}QR\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Pythagoras Theorem",
+    "questionNumber": 50,
+    "isFree": true
+  },
+  {
+    "question": "Seg Am is a Median of ∆Abc. If Ab = 22, Ac = 34, Bc = 24, Find Am",
+    "answer": "In ∆ABC, point M is the midpoint of side BC.\n\n\\[BM = MC = \\frac{1}{2}BC = 12\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Pythagoras Theorem",
+    "questionNumber": 51,
+    "isFree": true
+  },
+  {
+    "question": "In the Adjoining Figure the Radius of a Circle with Centre C is 6 Cm, Line Ab is a Tangent at A. Answer the Following Questions.",
+    "answer": "(1) It is given that line AB is tangent to the circle at A.\n∴ ∠CAB = 90&ordm; (Tangent at any point of a circle is perpendicular to the radius throught the point of contact)\nThus, the measure of ∠CAB is 90&ordm;. \n\n(2) Distance of point C from AB = 6 cm (Radius of the circle)\n(3) ∆ABC is a right triangle. \nCA = 6 cm and AB = 6 cm\nUsing Pythagoras theorem, we have\n\\[{BC}^2 = {AB}^2 + {CA}^2 \\]\n\\[ \\Rightarrow BC = \\√{6^2 + 6^2} \\]\n\\[ \\Rightarrow BC = 6\\√{2} cm\\]\nThus, d(B, C) = \\[6\\√{2}\\]\n(4) In right ∆ABC, AB = CA = 6 cm\n∴ ∠ACB = ∠ABC (Equal sides have equal angles opposite to them)\nAlso, ∠ACB + ∠ABC = 90&ordm; (Using angle sum property of triangle)\n∴ 2∠ABC = 90&ordm;\n&rArr; ∠ABC = \\[\\frac{90^\\circ}{2}\\]\nThus, the measure of ∠ABC is 45&ordm;.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "In the adjoining figure, O is the centre of the circle. From point R, seg RM and seg RN are tangent segments touching the circle at M and N. If (OR) = 10 cm and radius of the circle = 5 cm,",
+    "answer": "(1) It is given that seg RM and seg RN are tangent segments touching the circle at M and N, respectively. \n∴ ∠OMR = ∠ONR = 90&ordm; ...(Tangent at any point of a circle is perpendicular to the radius throught the point of contact)\n\nOM = 5 cm and OR = 10 cm\nIn right ∆OMR,\nOR2 = OM2 + MR2\nMR = √(\"OR\"² - \"OM\"²\nMR = √(10² - 5²)\nMR = √(100 - 25)\nMR = √75\nMR = 5√3 cm\nTangent segments drawn from an external point to a circle are congruent.\n∴ MR = NR = 5√3\n(2) In right ∆OMR,\n∠MRO = \"OM\"/\"MR\"\n∠MRO = (5 \"cm\")/(5√3cm)\n= 1/√3\n∠MRO = tan 30°\n∠MRO = 30°\nThus, the measure of ∠MRO is 30&ordm;.\nSimilarly, ∠NRO = 30&ordm;\n(3) ∠MRN = ∠MRO + ∠NRO\n= 30&ordm; + 30&ordm; = 60&ordm;\nThus, the measure of ∠MRN is 60&ordm;.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Seg RM and seg RN are tangent segments of a circle with centre O. Prove that seg OR bisects ∠MRN as well as ∠MON with the help of activity.Proof: In ∆RMO and ∆RNO, ∠RMO ≅ ∠RNO = 90° ......[",
+    "answer": "To Prove: Seg OR bisects ∠MRN as well as ∠MON\nProof: In &Delta;MRO and &Delta;NRO\nseg OM ≅ seg ON ...[radii of the circle]\nseg OR ≅ seg OR ......[Common side]\nseg RM ≅ seg RN ......[Tangent Segment theorem]\nBy S.S.S. Test\n∴ &Delta;MRO ≅ &Delta;NRO\n∴ ∠MOR ≅ ∠NOR\n∴ ∠MRO ≅ ∠NRO\n∴ seg OR bisects ∠MRN and ∠MON.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "What is the distance between two parallel tangents of a circle having radius 4.5 cm? Justify your answer.",
+    "answer": "1Show Solution\nIn the given figure, O is the centre of the circle. Line PT and line QR are two parallel tangents to the circle at P and Q, respectively.\n∴ ∠OPT + ∠OQR = 180&ordm; ...(Sum of adjacent interior angles on the same side of the transversal is supplementary)\n&rArr; POQ is a straight line segment.\n∴ PQ is the diameter of the circle.\nPQ = Distance between the parallel tangents PT and QR\n= 2 × Radius\n= 2 × 4.5\n= 9 cm\nThus, the distance between two parallel tangents of the circle is 9 cm.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Two circles having radii 3.5 cm and 4.8 cm touch each other internally. Find the distance between their centres.",
+    "answer": "1Show SolutionIt is given that two circle having radii 3.5 cm and 4.8 cm touch each other internally.\nWe know, the distance between the centres of the circles touching internally is equal to the difference of their radii.\n∴ Distance between the centres of the two circles\n= 4.8 cm &ndash; 3.5 cm\n= 1.3 cm\nThus, the distance between their centres is 1.3 cm.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Two circles of radii 5.5 cm and 4.2 cm touch each other externally. Find the distance between their centres.",
+    "answer": "Let the two circles having centres P and R touch each other externally at point Q.\n\nHere, PQ = 5.5 cm, QR = 4.2 cm\nThe two circles touch each other externally. ...(P−Q−R)\nIf the circles touch each other externally, distance between their centres is equal to the sum of their radii.\n∴ By theorem of touching circles,\n∴ PR = PQ + QR \n∴ PR = 5.5 + 4.2\n∴ PR = 9.7 cm\n∴ The distance between the centres of the circles is 9.7 cm.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "If radii of two circles are 4 cm and 2.8 cm. Draw a figure of this circles touching each other externally.",
+    "answer": "If two circles touch each other externally, the distance between their centres equals the sum of the radii.\nDistance between the centres = 4 cm + 2.8 cm = 6.8 cm.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "If radii of two circles are 4 cm and 2.8 cm. Draw a figure of this circles touching each other internally.",
+    "answer": "If two circles touch each other internally, then the distance between their centres equals the difference of the radii.\nDistance between the centres = 4 cm − 2.8 cm = 1.2 cm",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, the Circles with Centres P and Q Touch Each Other at R. a Line Passing Through R Meets the Circles at a and B Respectively. Prove that – (1) Seg Ap || Seg Bq,",
+    "answer": "(1) In ∆APR, AP = RP (Radii of the same circle)\n∴ ∠ARP = ∠RAP .....(1) (In a triangle, equal sides have equal angles opposite to them) \nIn ∆BQR, QR = QB (Radii of the same circle)\n∴ ∠RBQ = ∠BRQ .....(2) (In a triangle, equal sides have equal angles opposite to them)\nAlso, ∠ARP = ∠BRQ .....(3) (Vertically opposite angles)\nFrom (1), (2) and (3), we have\n∠RAP = ∠RBQ\n∴ seg AP || seg BQ (If a transversal intersect two lines such that a pair of alternate interior angles is equal, then the two lines are parallel)\n(2) In ∆APR and ∆RQB,\n∠RAP = ∠RBQ (Proved)\n∠ARP = ∠BRQ (Vertically opposite angles)\n\n∴ ∆APR ~ ∆RQB (AA similarity criterion)\n(3) ∠RBQ = ∠PAR = 35&ordm;\n∴ ∠BRQ = ∠RBQ = 35&ordm;\nIn ∆RQB,\n∠BRQ + ∠RBQ + ∠RQB = 180&ordm; (Angle sum property)\n∴ 35&ordm; + 35&ordm; + ∠RQB = 180&ordm;\n&rArr; 70&ordm; + ∠RQB = 180&ordm;\n&rArr; ∠RQB = 180&ordm; − 70&ordm; = 110&ordm;\nThus, the measure of ∠RQB is 110&ordm;.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, the circles with centres A and B touch each other at E. Line l is a common tangent which touches the circles at C and D respectively.",
+    "answer": "If two circles touch each other externally, then the distance between their centres is equal to the sum of their radii.\n∴ AB = AE + EB = 4 cm + 6 cm = 10 cm \nIt is given that l is a common tangent which touches the circles at C and D. \n∴ ∠ACD = ∠CDF = 90&ordm; ...(Tangent theorem)\nDraw AF ⟂ BD.\n\nHere, ACDF is a rectangle.\n∴ CD = AF and DF = AC ...(Opposite sides of the rectangle are equal)\nFB = BD − DF\nFB = 6 cm − 4 cm\n= 2 cm\nIn right ∆AFB,\n\\[{AB}^2 = {AF}^2 + {FB}^2 \\]\n∴ 102 = AF2 + 22\n∴ 100 = AF2 + 4\n∴ AF2 = 100 − 4\n∴ AF2 = 96\n∴ AF = √96\n∴ AF = √(16 × 6)\n∴ CD = AF = \\[4\\√{6}\\] cm\nThus, the length of seg CD is \\[4\\√{6}\\] cm.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, points G, D, E, and F are concyclic points of a circle with centre C. ∠ECF = 70°, m(arc DGF) = 200°. Find m(arc DE) and m(arc DEF).",
+    "answer": "m(arc EF) = m∠ECF ...(Definition of measure of minor arc)\n∴ m(arc EF) = 70&ordm;\n(i) m(arc DE) + m(arc DGF) + m(arc EF) = 360&ordm; ...(Measure of a circle is 360&ordm;)\n∴ m(arc DE) + 200° + 70&ordm; = 360&ordm; \n∴ m(arc DE) = 360&ordm; − 200° − 70&ordm;\n∴ m(arc DE) = 90&ordm;\n(ii) m(arc DEF) = m(arc DE) + m(arc EF) ...(Arc addition property)\n∴ m(arc DEF) = 90&ordm; + 70&ordm;\n∴ m(arc DEF) = 160&ordm;\nThus, m(arc DE) = 90&ordm; and m(arc DEF) = 160&ordm;.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, ∆QRS is an equilateral triangle. Prove that, (1) arc RS ≅ arc QS ≅ arc QR (2) m(arc QRS) = 240°.",
+    "answer": "∆QRS is an equilateral triangle. ...(Given)\n∴ seg RS ≅ seg QS ≅ seg QR ...(Sides of an equilateral triangle)\nArcs of the same circle are equal, if the related chords are congruent.\n∴ arc RS ≅ arc QS ≅ arc QR.\nLet m(arc RS) = m(arc QS) = m(arc QR) = x ...(1)\nm(arc RC) + m(arc QS) + m(arc QR) = 360° ...(Measure of a circle is 360°)\n∴ x + x + x = 360°\n∴ 3x = 360°\n∴ x = 360/3\n∴ x = 120°\n∴ m(arc RS) = m(arc QS) = m(arc QR) = 120°\nm(arc QRS) = m(arc QR) + m(arc RS) ...(Arcs addition postulate)\n∴ m(arc QRS) = 120° + 120°\n∴ m(arc QRS) = 240°",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, chord AB ≅ chord CD, Prove that, arc AC ≅ arc BD.",
+    "answer": "Chord AB ≅ Chord CD ...(Given)\n∴ Arc ACB ≅ Arc CBD ...(Arcs corresponding to congruent chords.)\n∴ m(arc ACB) = m(arc CBD) ...(1)\nBut m(arc ACB) = m(arc AC) + m(arc CB) ...(2)\nand m(arc CBD) = m(arc CB) + m(arc BD) ...(3)\nFrom (1), (2) and (3), we get,\nm(arc AC) + m(arc CB) = m(arc CB) + m(arc BD)\n∴ m(arc AC) = m(arc BD)\n∴ arc AC ≅ arc BD\nHence, proved.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, in a circle with centre O, length of chord AB is equal to the radius of the circle. Find measure of each of the following. (1) ∠ AOB (2)∠ ACB (3) arc AB (4) arc ACB.",
+    "answer": "(1) In the given figure, OA and OB are the radii of the circle.\nOA = OB = AB (Given)\n∴ ∆OAB is an equilateral triangle.\n&rArr; ∠AOB = ∠OAB = ∠OBA = 60&ordm;\nThus, the measure of ∠AOB is 60&ordm;.\n(2) The measure of an angle subtended by an arc at a point on the circle is half of the measure of the angle subtended by the arc at the centre.\n∠ACB = \\[\\frac{1}{2}\\] ∠AOB = \\[\\frac{1}{2}\\] x 60° = 30°\nThus, the measure of ∠ACB is 30&ordm;.\n(3) m(arc AB) = ∠AOB = 60&ordm; (Measure of an arc is the measure of its corresponding central angle)\nThus, the measure of arc AB is 60&ordm;.\n(4) m(arc ACB) = 360&ordm; − m(arc AB) = 360&ordm; − 60&ordm; = 300&ordm;\nThus, the measure of arc ACB is 300&ordm;.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, ▢PQRS is cyclic. side PQ ≅ side RQ. ∠PSR = 110°, Find -(1) measure of ∠PQR (2) m(arc PQR) (3) m(arc QR) (4) measure of ∠PRQ",
+    "answer": "(1) ▢PQRS is a cyclic quadrilateral. ...[Given]\n∴ ∠PSR + ∠PQR = 180° ...[Opposite angles of a cyclic quadrilateral are supplementary]\n∴ 110° + ∠PQR = 180°\n∴ ∠PQR = 180° − 110°\n∴ m∠PQR = 70°\n(2) ∠PSR = 1/2 m(arc PQR) .....[Inscribed angle theorem]\n∴ 110° = 1/2 m(arc PQR)\n∴ m(arc PQR) = 220°\n(3) In ∆PQR,\nSide PQ ≅ side RQ ...[Given]\n∴ ∠PRQ ≅ ∠QPR ...[Isosceles triangle theorem]\nLet ∠PRQ = ∠QPR = x\nNow, ∠PQR + ∠QPR + ∠PRQ = 180° ...[Sum of the measures of angles of a triangle is 180°]\n∴ ∠PQR + x + x = 180°\n∴ 70° + 2x = 180°\n∴ 2x = 180° − 70°\n∴ 2x = 110°\n∴ x = (110°)/2\n∴ x = 55°\n∴ ∠PRQ = ∠QPR = 55° ......(i)\nBut, ∠QPR = 1/2 m(arc QR) .....[Inscribed angle theorem]\n∴ 55° = 1/2 m(arc QR)\n∴ m(arc QR) = 110°\n(4) In ∆PQR,\n∠PQR + ∠PRQ + ∠QPR = 180° ...[Sum of the measures of angles of a triangle is 180°]\n70° + ∠PRQ + 55° = 180°\n∠PRQ = 180° - 125°\n∠PRQ = 55°.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "□MRPN is cyclic, ∠R = (5x – 13)°, ∠N = (4x + 4)°. Find measures of ∠R and ∠N.",
+    "answer": "squareMRPN is cyclic. ...(Given)\n∴ by theorem of cyclic quadrilateral,\n∠R + ∠N = 180°\n∴ (5x − 13)° + (4x + 4)° = 180°\n∴ 5x − 13 + 4x + 4 = 180°\n∴ 9x − 9 = 180\n∴ 9x = 180 + 9\n∴ 9x = 189\n∴ x = 189/9\n∴ x = 21\n∠R = 5x − 13\n∴ ∠R = 5(21) − 13\n∴ ∠R = 105 − 13\n∴ ∠R = 92°\n∠N = (4x + 4)\n∴ ∠N = 4(21) + 4\n∴ ∠N = 84 + 4\n∴ ∠N = 88°",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, seg RS is a diameter of the circle with centre O. Point T lies in the exterior of the circle. Prove that ∠ RTS is an acute angle.",
+    "answer": "Let seg RT intersect circle at point M. Draw seg MS.\n\nAngle inscribed in a semicircle is a right angle.\n∴ ∠RMS = 90°\n∴ seg SM ⟂ side RT\n∴ &Delta;TMS is a right angled triangle.\n∴ ∠TMS + ∠MTS + ∠TSM = 180° ...(Sum of all angles of a triangle is 180°)\n∴ 90° + ∠MTS + ∠TSM = 180°\n∴ ∠MTS + ∠TSM = 180° − 90°\n∴ ∠MTS + ∠TSM = 90°\n∴ ∠MTS < 90°\ni.e., ∠RTS < 90° ...(R-M-T)\n∴ ∠RTS is an acute angle. ...(By definition)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Prove that, any rectangle is a cyclic quadrilateral.",
+    "answer": "Given: ▢ABCD is a rectangle.\nTo prove: ▢ABCD is a cyclic quadrilateral.\nProof:\n▢ABCD is a rectangle. ...[Given]\n∴ ∠A = ∠B = ∠C = ∠D = 90° ...[Angles of a rectangle]\nNow, ∠A + ∠C = 90° + 90° \n∴ ∠A + ∠C = 180°\nWe know, if a pair of opposite angles of a quadrilateral is supplementary, then the quadrilateral is cyclic.\n∴ ▢ABCD is a cyclic quadrilateral. ...[Converse of cyclic quadrilateral theorem]\nSo, any rectangle is a cyclic quadrilateral.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, altitudes YZ and XT of ∆WXY intersect at P. Prove that, (1) □WZPT is cyclic. (2) Points X, Z, T, Y are concyclic.",
+    "answer": "(1) ∠WZP = ∠WTP = 90°\n∴ ∠WZP + ∠WTP = 90° + 90° = 180°\n∴ by converse of cyclic quadrilateral theorem,\nsquareWZPT is cyclic.\n(2) ∠XZY = ∠XTY = 90° ...(Given)\n∴ points X and Y on line XY subtend equal angles at two distinct points Z and T on the same side of line XY.\nIf two points on a given line subtend equal angles at two distinct points that lie on the same side of the line, then the four points are concyclic.\n∴ Points X, Z, T, Y are concyclic.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, m(arc NS) = 125°, m(arc EF) = 37°, find the measure ∠NMS.",
+    "answer": "m(arc NS) = 125°\nm(arc EF) = 37°\nChords EN and FS intersect externally at point M.\n∴ m∠NMS = 1/2 [m(arc NS) - m(arc EF)]\n= 1/2 (125ᶜⁱʳᶜ - 37ᶜⁱʳᶜ)\n= 1/2 xx 88ᶜⁱʳᶜ\n∴ m∠NMS = 44°",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, chords AC and DE intersect at B. If ∠ABE = 108°, m(arc AE) = 95°, find m(arc DC).",
+    "answer": "We know that if two chords of a circle intersect each other in the interior of a circle, then the measure of the angle between them is half the sum of measures of the arcs intercepted by the angle and its opposite angle.\n∴ ∠ABE = 1/2[m(arc AE) + m(arc DC)]\n∴ m(arc AE) + m(arc DC) = 2∠ABE\n∴ 95&ordm; + m(arc DC) = 2 × 108°\n∴ m(arc DC) = 216° − 95° = 121°\n∴ The measure of arc DC is 121°.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, ray PQ touches the circle at point Q. PQ = 12, PR = 8, find PS and RS.",
+    "answer": "Using tangent secant segments theorem, we have\nPQ2 = PR × PS\n∴ (12)2 = 8 × PS\nPS = 144/8 \n= 18 units\n∴ RS = PS − PR\n= 18 − 8\n∴ RS = 10 units",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, Chord Mn and Chord Rs Intersect at Point D. (1) If Rd = 15, Ds = 4, Md = 8 Find Dn (2) If Rs = 18, Md = 9, Dn = 8 Find Ds",
+    "answer": "If two chords of a circle intersect each other in the interior of the circle, then the product of the lengths of the two segments of one chord is equal to the product of the lengths of the two segments of the other chord.\n\n(1) MD × DN = RD × DS\n&rArr; 8 × DN = 15 × 4\n&rArr; DN = \\[\\frac{60}{8}\\] = 7.5 units\n\n(2) MD × DN = RD × DS ...[Theorem of internal division of chords] \n&rArr; MD × DN = (RS − DS) × DS\n&rArr; 9 × 8 = (18 − DS) × DS\n&rArr; DS2 − 18DS + 72 = 0\n&rArr; DS2 − 12DS − 6DS + 72 = 0\n&rArr; DS(DS − 12) − 6(DS − 12) = 0\n&rArr; (DS − 12)(DS − 6) = 0\n&rArr; DS − 12 = 0 or DS − 6 = 0\n&rArr; DS = 12 units or DS = 6 units",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, O is the centre of the circle and B is a point of contact. seg OE ⊥ seg AD, AB = 12, AC = 8, find (1) AD (2) DC (3) DE.",
+    "answer": "(1) Line AB is the tangent at point B and seg AD is the secant. ...(Given)\n∴ By the tangent secant segments theorem,\n∴ AC × AD = AB2 \n∴ 8 × AD = 122 \n∴ 8 × AD = 144\n∴ AD = 144/8\n∴ AD = 18 units\n(2) AD = AC + DC ... [A &ndash; C &ndash; D]\n∴ 18 = 8 + DC\n∴ DC = 18 &ndash; 8\n∴ DC = 10 units\n(3) seg OE ⟂ seg AD ...[Given]\ni.e. seg OE ⟂ seg CD ...[A &ndash; C &ndash; D]\n∴ DE = 1/2 × \"DC\" ...(Perpendicular drawn from the centre of the circle to the chord bisects the chord)\n∴ DE = 1/2 × 10\n∴ DE = 5 units",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, If Pq = 6, Qr = 10, Ps = 8 Find Ts.",
+    "answer": "Using the theorem of chords intersecting outside the circle, we have\nPT × PS = PR × PQ\n&rArr; (TS + PS) × PS = (QR + PQ) × PQ\n&rArr; (TS + 8) × 8 = (10 + 6) × 6\n&rArr; 8TS + 64 = 16 × 6 = 96\n&rArr; 8TS = 96 − 64 = 32\n&rArr; TS = \\[\\frac{32}{8}\\] = 4 units",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, seg EF is a diameter and seg DF is a tangent segment. The radius of the circle is r. Prove that, DE × GE = 4r2",
+    "answer": "Given: \nIn the given figure, seg EF is a diameter and seg DF is a tangent segment. The radius of the circle is r.\nTo prove, DE × GE = 4r2\nseg DF ⟂ seg HF\n∴ ∠HFD = 90&ordm; ...(Tangent at any point of a circle is perpendicular to the radius through the point of contact.)\nUsing the tangent secant segments theorem, we have\nDF2 = DE × DG ...(1)\nNow, In &Delta;DFE, ∠F = 90&ordm;\nBy Pythagoras&rsquo; theorem,\nDE2 = DF2 + EF2\nDE2 = DE × DG + (2r)2 ...(From eqn (1) and diameter = 2 × radius)\nDE2 = DE × DG + 4r2\nDE2 − DE × DG = 4r2\nDE × (DE − DG) = 4r2\nDE × GE = 4r2 ...(D - G - E)\nHence, DE × GE = 4r2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Four Alternative Answers for the Following Questions Are Given. Choose the Correct Alternative. Two Circles of Radii 5.5 Cm and 3.3 Cm Respectively Touch Each Other.",
+    "answer": "8.8 or 2.2 cm",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Two circles intersect each other such that each circle passes through the centre of the other. If the distance between their centres is 12, what is the radius of each circle?",
+    "answer": "12 cm 24 cmcan&rsquo;t say",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Four Alternative Answers for the Following Question is Given. Choose the Correct Alternative. Length of a Tangent Segment Drawn from a Point Which is at a Distance",
+    "answer": "7 cm 14 cm",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Four Alternative Answers for the Following Question is Given. Choose the Correct Alternative. If Two Circles Are Touching Externally, How Many Common Tangents of Them Can Be Drawn?",
+    "answer": "Three Four",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "∠ACB is inscribed in arc ACB of a circle with centre O. If ∠ACB = 65°, find m(arc ACB).",
+    "answer": "230°",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "Four Alternative Answers for the Following Question is Given. Choose the Correct Alternative.Chords Ab and Cd of a Circle Intersect Inside the Circle at Point E. If Ae = 5.6, Eb = 10, Ce = 8, Find Ed.",
+    "answer": "7811.29",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "In a cyclic ▢ABCD, twice the measure of ∠A is thrice the measure of ∠C. Find the measure of ∠C?",
+    "answer": "72°90°108°",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "Points A, B, C are on a circle, such that m(arc AB) = m(arc BC) = 120°. No point, except point B, is common to the arcs. Which is the type of ∆ABC?",
+    "answer": "Equilateral triangle Scalene triangle Right angled triangle Isosceles triangle",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "Four Alternative Answers for the Following Question is Given. Choose the Correct Alternative.(10) Seg Xz is a Diameter of a Circle. Point Y Lies in Its Interior.",
+    "answer": "Only three All",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "Line l touches a circle with centre O at point P. If radius of the circle is 9 cm, answer the following. (1) What is d(O, P) = ? Why? (2) If d(O, Q) = 8 cm, where does the point Q lie?",
+    "answer": "Radius of the circle = 9 cm\n(1) It is given that line l is tangent to the circle at P.\n∴ OP = 9 cm ...(Radius of the circle)\nd(O, P) = 9 cm\n(2) d(O, Q) = 8 cm < Radius of the circle \n∴ Point Q lies in the interior of the circle.\n(3) If d(OQ) = 15 cm, then there are two locations of point Q on the line l. One on the left of point P and one on the right of point P.\n\nThe tangent at any point of a circle is perpendicular to the radius through the point of contact.\n∴ ∠OPQ = 90&ordm;\nIn right ∆OPQ,\nOQ2 = OP2 + PQ2\nPQ = √(\"OQ\"² - \"OP\"²)\nPQ = √(15² - 9²)\nPQ = √(225 - 81)\nPQ = √(144) ...[Taking the square root of both sides]\nPQ = 12 cm\nThus, the two locations of the point Q on line l, which are at a distance of 12 cm from point P.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, M is the Centre of the Circle and Seg Kl is a Tangent Segment. If Mk = 12, Kl = 6 √ 3 Then Find –",
+    "answer": "1Show Solution(1)\nThe tangent at any point of a circle is perpendicular to the radius through the point of contact.\n∴ ∠MLK = 90&ordm;\n\nIn right ∆MLK,\n\\[{MK}^2 = {ML}^2 + {LK}^2 \\]\n\\[ \\Rightarrow ML = \\√{{MK}^2 - {LK}^2}\\]\n\\[ \\Rightarrow ML = \\√{\\left( 12 \\right)^2 - \\left( 6\\√{3} \\right)^2}\\]\n\\[ \\Rightarrow ML = \\√{144 - 108}\\]\n\\[ \\Rightarrow ML = \\√{36} = 6 \\] units\nThus, the radius of the circle is 6 units.\n(2)\nIn right ∆MLK,\n\\[\\tan\\angle K = \\frac{ML}{KL}\\] \n\\[ \\Rightarrow \\tan\\angle K = \\frac{6}{6\\√{3}} = \\frac{1}{\\√{3}}\\] \n\\[ \\Rightarrow \\tan\\angle K = \\tan30°\\] \n\\[ \\Rightarrow \\angle K = 30°\\]\nUsing angle sum property, we have\n\\[\\angle K + \\angle L + \\angle M = 180^\\circ\\]\n\\[ \\Rightarrow 30^\\circ + 90^\\circ + \\angle M = 180^\\circ\\]\n\\[ \\Rightarrow 120^\\circ + \\angle M = 180^\\circ\\]\n\\[ \\Rightarrow \\angle M = 180^\\circ - 120^\\circ = 60^\\circ\\]\nThus, the measures of ∠K and ∠M are 30&ordm; and 60&ordm;, respectively.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, O is the centre of the circle. Seg AB, seg AC are tangent segments. Radius of the circle is r and l(AB) = r, Prove that ▢ABOC is a square. Proof: Draw segment OB and OC.",
+    "answer": "Proof: Draw segment OB and OC.\nl(AB) = r ...[Given] (i)\nAB = AC ...\\[\\boxed{\\text{[Tangent segment theorem]}}\\] (ii)\nBut OB = OC = r ...\\[\\boxed{\\text{[Radii of the same circle]}}\\] (iii)\nFrom (i), (ii) and (iii)\nAB = \\[\\boxed{\\text{AC}}\\] = OB = OC = r\n∴ Quadrilateral ABOC is \\[\\boxed{\\text{rhombus}}\\]\nSimilarly, ∠OBA = \\[\\boxed{90°}\\] ...[Tangent Theorem]\nIf one angle of \\[\\boxed{\\text{rhombus}}\\] is right angle, then it is a square.\n∴ Quadrilateral ABOC is a square.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, ▢Abcd is a Parallelogram. It Circumscribes the Circle with Centre T. Point E, F, G, H Are Touching Points. If Ae = 4.5, Eb = 5.5, Find Ad.",
+    "answer": "BCD is a parallelogram.\n\n∴ AB = CD .....(1) (Opposite sides of parallelogram are equal)\n\nAD = BC .....(2) (Opposite sides of parallelogram are equal)\n\nTangent segments drawn from an external point to a circle are congruent.\n\nAE = AH .....(3)\n\nDG = DH .....(4)\n\nBE = BF .....(5)\n\nCG = CF .....(6)\n\nAdding (3), (4), (5) and (6), we get\n\nAE + BE + CG + DG = AH + DH + BF + CF\n\n&rArr; AB + CD = AD + BC .....(7)\n\nFrom (1), (2) and (7), we have\n\n2AB = 2AD\n\n&rArr; AB = AD\n\n∴ AD = AB = AE + EB = 4.5 + 5.5 = 10 units",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, circle with centre M touches the circle with centre N at point T. Radius RM touches the smaller circle at S. Radii of circles are 9 cm and 2.5 cm.",
+    "answer": "Radius of circle with centre M = 9 cm\nRadius of circle with centre N = 2.5 cm\nJoin MT and NS. \n\nIf two circles touch each other, their point of contact lie on the line joining their centres. So, the points M, N and T are collinear.\n(1)\nLength of segment MT = 9 cm (Radius of circle with centre M)\nThus, the length of the segment MT is 9 cm.\n(2)\nLength of segment NT = 2.5 cm (Radius of circle with centre N)\n∴ Length of segment MN = Length of segment MT − Length of segment NT = 9 − 2.5 = 6.5 cm\nThus, the length of the segment MN is 6.5 cm.\n(3)\nThe tangent at any point of a circle is perpendicular to the radius through the point of contact.\nIn the given figure, seg RM is tangent to the circle with centre N at point S.\n∴ ∠NSM = 90&ordm;\nIn right ∆NSM,\n\\[{MN}^2 = {NS}^2 + {SM}^2 \\]\n\\[ \\Rightarrow SM = \\√{{MN}^2 - {NS}^2}\\]\n\\[ \\Rightarrow SM = \\√{\\left( 6 . 5 \\right)^2 - \\left( 2 . 5 \\right)^2}\\]\n\\[ \\Rightarrow SM = \\√{42 . 25 - 6 . 25}\\]\n\\[ \\Rightarrow SM = \\√{36} = 6 \\] cm\n∴ SR = MR − SM = 9 − 6 = 3 cm (MR = Radius of the circle with centre M)\n&rArr; MS : SR = 6 cm : 3 cm = 2 : 1\nThus, the ratio MS : SR is 2 : 1.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "In the adjoining figure circles with centres X and Y touch each other at point Z. A secant passing through Z intersects the circles at points A and B respectively. Prove that, radius XA || radius YB.",
+    "answer": "Construction: Draw segments XZ and YZ.\nProof:\nBy theorem of touching circles, points X, Z, Y are \\[\\boxed{\\text{collinear}}\\].\n∴ ∠XZA ≅ \\[\\boxed{\\text{∠BZY}}\\] ...(Opposite angles)\nLet ∠XZA = ∠BZY = a ...(i)\nNow, seg XA ≅ seg XZ ...[Radii of the same circle]\n∴∠XAZ = \\[\\boxed{\\text{∠XZA}}\\] = a ...[Isosceles triangle theorem] (ii)\nSimilarly, seg YB ≅ seg YZ ...[Radii of the same circle]\n∴∠BZY = \\[\\boxed{\\text{∠ZBY}}\\] = a ...[Isosceles triangle theorem] (iii)\n∴ from (i), (ii), (iii),\n∠XAZ = \\[\\boxed{\\text{∠ZBY}}\\]\n∴ radius XA || radius YB ...\\[\\boxed{\\text{[Alternate angle test]}}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, Circles with Centres X and Y Touch Internally at Point Z . Seg Bz is a Chord of Bigger Circle and It Itersects Smaller Circle at Point A. Prove That, Seg Ax || Seg By.",
+    "answer": "Circles with centres X and Y touch internally at point Z.\nJoin YZ.\n\nBy theorem of touching circles, points Y, X, Z are collinear.\nNow, seg XA ≅ seg XZ (Radii of circle with centre X)\n∴∠XAZ = ∠XZA (Isosceles triangle theorem) .....(1)\nSimilarly, seg YB ≅ seg YZ (Radii of circle with centre Y)\n∴∠BZY = ∠ZBY (Isosceles triangle theorem) .....(2)\nFrom (1) and (2), we have\n∠XAZ = ∠ZBY\nIf a pair of corresponding angles formed by a transversal on two lines is congruent, then the two lines are parallel.\n∴ seg AX || seg BY (Corresponding angle test)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "In the figure, line l touches the circle with centre O at point P. Q is the midpoint of radius OP. RS is a chord through Q such that chords RS || line l. If RS = 12, find the radius of the circle.",
+    "answer": "Let the radius of the circle be r.\nLine l is the tangent to the circle and\nseg OP is the radius. ...[Given]\n∴ seg OP ⟂ line l ...[Tangent theorem]\nchord RS || line l ...[Given]\n∴ seg OP ⟂ chord RS\n∴ QS = 1/2 RS ...[Perpendicular drawn from the center of the circle to the chord bisects the chord]\n∴ QS = 1/2 xx 12\n∴ QS = 6 cm\nAlso, OQ = 1/2 OP ...[Q is the midpoint of OP]\n∴ OQ = 1/2 r\nIn ∆OQS, ∠OQS = 90° ...[seg OP ⟂ chord RS]\n∴ OS2 = OQ2 + QS2 ...[Pythagoras theorem]\n∴ r² = (1/2 r)² + 6²\n∴ r² = 1/4 r² + 36\n∴ r² - 1/4 r² = 36\n∴ 3/4 r² = 36\n∴ r² = (36 xx 4)/3\n∴ r2 = 48\n∴ r = √(48)\n∴ r = 4√(3) cm ...[Taking square root of both sides]\n∴ The radius of the given circle is 4√(3) cm.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 43,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, Seg Ab is a Diameter of a Circle with Centre C. Line Pq is a Tangent, Which Touches the Circle at Point T. Seg Ap ⊥ Line Pq and Seg Bq ⊥ Line Pq. Prove That, Seg Cp ≅ Seg Cq.",
+    "answer": "Seg AB is a diameter of a circle with centre C.\n∴ AC = CB ...(Radii of the circle)\nJoin CP, CT and CQ.\n\nIt is given that line PQ is a tangent, which touches the circle at point T.\n∴ ∠CTP = ∠CTQ = 90&ordm; ...(Tangent at any point of a circle is perpendicular to the radius through the point of contact)\n&rArr; seg CT ⟂ line PQ\nAlso, seg AP ⟂ line PQ and seg BQ ⟂ line PQ.\n∴ seg AP || seg CT || seg BQ\nWe know, the ratio of the intercepts made on a tranversal by three parallel lines is equal to the ratio of the corresponding intercepts made on any other transversal by the same parallel lines.\n\\[\\therefore \\frac{PT}{TQ} = \\frac{AC}{CB}\\]\n\\[ \\Rightarrow \\frac{PT}{TQ} = 1 \\left( AC = CB \\right)\\]\n\\[ \\Rightarrow PT = TQ\\] ...(1)\nIn ∆CPT and ∆CQT,\nseg PT ≅ seg TQ ...[From (1)]\n∠CTP = ∠CTQ ...(Tangent theorem)\nseg CT ≅ seg CT ...(Common)\n∴ ∆CPT ≅ ∆CQT ...(SAS congruence criterion)\n&rArr; seg CP ≅ seg CQ ...(Corresponding parts of congruent triangles)\nHence proved.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 44,
+    "isFree": true
+  },
+  {
+    "question": "Draw Circles with Centres A, B and C Each of Radius 3 Cm, Such that Each Circle Touches the Other Two Circles.",
+    "answer": "Radius of each circle = 3 cm\nIf two circles touch each other externally, then the distance between their centres is equal to the sum of their radii.\n∴ AB = 3 cm + 3 cm = 6 cm\nBC = 3 cm + 3 cm = 6 cm\nCA = 3 cm + 3 cm = 6 cm\nDraw a line seg AB = 6 cm. \nWith A as centre and radius = 6 cm, mark an arc.\nWith B as centre and radius = 6 cm, mark an arc intersecting the previous drawn arc at C. \nJoin AC and BC.\nNow, with A, B and C as centres and radius = 3 cm, draw three circles. \n\nIt can be seen that, each circle touches the other two circles.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 45,
+    "isFree": true
+  },
+  {
+    "question": "Prove that Any Three Points on a Circle Cannot Be Collinear.",
+    "answer": "Let A, B and C be any three points on a circle. Suppose these three points A, B and C on the circle are collinear. \nTherefore, the perpendicular bisectors of the chords AB and BC must be parallel because two or more lines which are perpendicular to a given line are parallel to each other.\nNow, AB and BC are the chords of the circle. We know that the perpendicular bisector of the chord of a circle passing through its centre. \nSo, the perpendicular bisectors of the chords AB and BC must intersect at the centre of the circle.\nThis is a contradiction to our statement that the perpendicular bisectors of AB and BC must be parallel, as parallel lines do not intersect at a point.\nHence, our assumption that three points A, B and C on the circle are collinear is not correct.\nThus, any three points on a circle cannot be collinear.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 46,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, Line Pr Touches the Circle at Point Q. Answer the Following Questions with the Help of the Figure.",
+    "answer": "(1)\nQuadrilateral ATSQ is a cyclic quadrilateral.\n∴ ∠TAQ + ∠TSQ = 180&ordm; (Opposite angles of a cyclic quadrilateral are supplementary)\n(2)\nThe angle between a tangent of a circle and a chord drawn from the point of contact is congruent to the angle inscribed in the arc opposite to the arc intercepted by that angle.\nHere, PR is the tangent and AQ is the chord.\n∴ ∠AQP ≅ ∠ATQ and ∠AQP ≅ ∠ASQ\n&rArr; ∠AQP ≅ ∠ATQ ≅ ∠ASQ\n(3)\nAngles inscribed in the same arc are congruent.\n∴ ∠QTS ≅ ∠SAQ\nAlso, the angle between a tangent of a circle and a chord drawn from the point of contact is congruent to the angle inscribed in the arc opposite to the arc intercepted by that angle.\nHere, PR is the tangent and QS is the chord.\n∴ ∠QTS ≅ ∠SQR \n&rArr; ∠QTS ≅ ∠SAQ ≅ ∠SQR\n(4)\n∠TQS = ∠TAS = 65&ordm; (Angles inscribed in the same arc are congruent)\nThe measure of an inscribed angle is half of the measure of the arc intercepted by it.\n∴ ∠TAS = 1/2 m(arc TS)\n&rArr; m(arc TS) = 2∠TAS = 2 × 65&ordm; = 130&ordm;\nThus, the measure of ∠TQS is 65&ordm; and arc TS is 130&ordm;.\n(5)\nThe angle between a tangent of a circle and a chord drawn from the point of contact is congruent to the angle inscribed in the arc opposite to the arc intercepted by that angle.\nHere, PR is the tangent and AQ is the chord.\n∴ ∠ATQ = ∠AQP = 42&ordm; .\nAlso, PR is the tangent and QS is the chord.\n∴ ∠QTS ≅ ∠SQR = 58&ordm;\n∠ATQ = ∠ATQ + ∠QTS = 42&ordm; + 58&ordm; = 100&ordm;\nThus, the measure of ∠ATQ is 100&ordm;.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 47,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, O is the Centre of a Circle, Chord Pq ≅ Chord Rs If ∠ Por = 70° and (Arc Rs) = 80°, Find –",
+    "answer": "O is the centre of the circle. \nchord PQ ≅ chord RS (Given)\n&rArr; arc PQ ≅ arc RS (Correspondidng arcs of congruent chords of a circle are congruent)\n&rArr; m(arc PQ) = m(arc RS)\n&rArr; m(arc PQ) = 80&ordm; [m(arc RS) = 80&ordm;]\n(1)\nm(arc PR) = ∠POR = 70&ordm; (Measure of a minor arc is the measure of its central angle)\n(2)\nm(arc PR) + m(arc PQ) + m(arc QS) + m(arc RS) = 360&ordm;\n&rArr; 70&ordm; + 80&ordm; + m(arc QS) + 80&ordm; = 360&ordm;\n&rArr; m(arc QS) = 360&ordm; − 230&ordm; = 130&ordm;\n(3) \nm(arc QSR) = m(arc QS) + m(arc RS) = 130&ordm; + 80&ordm; = 210&ordm;",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 48,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, M(Arc Wy) = 44°, M(Arc Zx) = 68°, Then (1) Find the Measure of ∠ Ztx. (2) If Wt = 4.8, Tx = 8.0, Yt = 6.4, Find Tz. (3) If Wx = 25, Yt = 8, Yz = 26, Find Wt.",
+    "answer": "XW and YZ are two chords of a circle intersecting each other in the interior of the circle at T.\n(1) \nIf two chords of a circle intersect each other in the interior of a circle then the measure of the angle between them is half the sum of measures of arcs intercepted by the angle and its opposite angle. \n∴ ∠ZTX = 1/2[m(arc ZX) + m(arc WY)] =1/2 xx(68° + 44°) = 1/2 xx 112° = 56°\nThus, the measure of ∠ZTX is 56&ordm;.\n(2)\nWT × TX = YT × TZ (Theorem of internal division of chords)\n&rArr; 4.8 × 8 = 6.4 × TZ\n&rArr; TZ =(4.8×8)/6.4 = 6\n(3)\nWT × TX = YT × TZ (Theorem of internal division of chords)\n\n&rArr; WT × (WX − WT) = YT × (YZ − YT)\n\n&rArr; WT × (25 − WT) = 8 × (26 − 8)\n\n&rArr; 25WT − WT2 = 8 × 18 = 144\n\n&rArr; WT2 − 25WT + 144 = 0\n\n&rArr; WT2 − 16WT − 9WT + 144 = 0\n\n&rArr; WT(WT − 16) − 9(WT − 16) = 0\n\n&rArr; (WT − 16)(WT − 9) = 0\n\n&rArr; WT − 16 = 0 or WT − 9 = 0\n\n&rArr; WT = 16 or WT = 9",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 49,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure,(1) m(arc CE) = 54°, m(arc BD) = 23°, find measure of ∠CAE.(2) If AB = 4.2, BC = 5.4, AE = 12.0, find AD.(3) If AB = 3.6, AC = 9.0, AD = 5.4, find AE.",
+    "answer": "(1) m(arc CE) = 54°, m(arc BD) = 23°\n∠CAE has its vertex outside the circle and intercept and CE and BD.\nIf two lines containing chords of a circle intersect each other outside the circle, then the measure of angle between them is half the difference in measures of the arcs intercepted by the angle. \n∴ ∠CAE = 1/2 × [m(arc CE) - m(arc BD)]\n∴ ∠CAE = 1/2 × [54 - 23]\n∴ ∠CAE = 1/2 × 31\n∴ ∠CAE = 15.5&ordm;\n(2) AB = 4.2, BC = 5.4, AE = 12 ...(Given)\nAC = AB + BC ...(A - B - C)\n∴ AC = 4.2 + 5.4\n∴ AC = 9.6\nChord CB and chord ED intersect at point A outside the circle.\n∴ by theorem of external division of chords.\nAB × AC = AD × AE\n∴ 4.2 × 9.6 = AD × 12\n∴ AD = (4.2×9.6)/12\n∴ AD = (4.2 × 9.6 × 100)/(12 × 100)\n∴ AD = (42 × 96)/(1200)\n∴ AD = (42 × 8)/(100)\n∴ AD = 3.36\n(3) AB = 3.6, AC = 9 cm and AD = 5.4 ...(Given )\nchords CB and ED intersect at point A outside the circle.\n∴ by theorem of external division of chords,\nAB × AC = AD × AE\n∴ 3.6 × 9 = 5.4 × AE\n∴ AE = (3.6 × 9)/5.4\n∴ AE = (3.6 × 9 × 10)/(5.4 × 10)\n∴ AE = (36 × 9)/54\n∴ AE = 6",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 50,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, Chord Ef || Chord Gh. Prove That, Chord Eg ≅ Chord Fh. Fill in the Blanks and Write the Proof.",
+    "answer": "Proof: Draw seg GF.\n\n∠EFG = ​∠FGH .....property of alternate angles of parallel lines (I)\n\n∠EFG = ​ \\[\\frac{1}{2}m\\left( arc EG \\right)\\] .....inscribed angle theorem (II)\n\n∠FGH = ​ \\[\\frac{1}{2}m\\left( arc FH \\right)\\] .....inscribed angle theorem (III)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 51,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, P is the Point of Contact. (1) If M(Arc Pr) = 140°, ∠ Por = 36°, Find M(Arc Pq) (2) If Op = 7.2, Oq = 3.2, Find Or and Qr (3) If Op = 7.2, Or = 16.2, Find Qr.",
+    "answer": "Join PQ. \n\n(1)\nThe measure of an inscribed angle is half of the measure of the arc intercepted by it.\n∴ ∠PQR =\\[\\frac{1}{2}\\] m(arc PR) = \\[\\frac{1}{2} \\times 140°\\] = 70&ordm;\nIn ∆POQ, \n∠PQR = ∠POQ + ∠OPQ (Measure of an exterior angle of a triangle is equal to the sum of its remote interior angles) \n&rArr; 70&ordm; = 36&ordm; + ∠OPQ\n&rArr; ∠OPQ = 70&ordm; − 36&ordm; = 34&ordm;\nThe angle between a tangent of a circle and a chord drawn from the point of contact is congruent to the angle inscribed in the arc opposite to the arc intercepted by that angle.\n∴ ∠PRQ = ∠OPQ = 34&ordm;\nNow,\n∠PRQ = \\[\\frac{1}{2}\\]m(arc PQ) (The measure of an inscribed angle is half of the measure of the arc intercepted by it)\n&rArr; m(arc PQ) = 2∠PRQ = 2 × 34&ordm; = 68&ordm;\n(2)\nOP is the tangent and OQR is the secant.\n∴ OQ × OR = OP2 (Tangent secant segment theorem)\n&rArr; 3.2 × OR = (7.2)2\n&rArr; OR = \\[\\frac{7 . 2 \\times 7 . 2}{3 . 2}\\] = 16.2 units\n∴ QR = OR − OQ = 16.2 − 3.2 = 13 units\n\n(3)\nOP is the tangent and OQR is the secant.\n∴ OQ × OR = OP2 (Tangent secant segment theorem)\n&rArr; OQ × 16.2 = (7.2)2\n&rArr; OQ = \\[\\frac{7 . 2 \\times 7 . 2}{16 . 2}\\] = 3.2 units\n\n∴ QR = OR − OQ = 16.2 − 3.2 = 13 units",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 52,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, Circles with Centres C and D Touch Internally at Point E. D Lies on the Inner Circle. Chord Eb of the Outer Circle Intersects Inner Circle at Point A. Prove That, Seg Ea ≅ Seg Ab.",
+    "answer": "Circles with centres C and D touch internally at point E.\nJoin ED.\nBy theorem of touching circles, points E, C and D are collinear. \n\nSince D lies on the inner circle with centre C, therefore, ED is the diameter of the inner circle.\n∴ ∠EAD = 90&ordm; (Angle inscribed in a semi-circle is a right angle)\nEB is the chord of the outer circle with centre D.\n∴ Point A is the mid-point of chord EB. (Perpendicular drawn from the centre of a circle on its chord bisects the chord)\n&rArr; seg EA ≅ seg AB",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 53,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, Seg Ab is a Diameter of a Circle with Centre O. the Bisector of ∠ Acb Intersects the Circle at Point D. Seg Ad ≅ Seg Bd. Complete the Following Proof by Filling in the Blanks.",
+    "answer": "Given: Seg AB is a diameter of a circle with centre O. The bisector of ∠ACB intersects the circle at point D.\nTo Prove: seg AD ≅ seg BD.\n\nProof: Draw seg OD. \n∠ACB = 90° ...(Angle inscribed in semicircle)\n∠DCB = 45° ...(CD is the bisector of ∠C)\nm(arc DB) = 2∠DCB = 90° ...(Inscribed angle theorem)\n∠DOB = 90° ...(Definition of measure of an arc)(I)\nseg OA ≅ seg OB ...( Radii of the circle )(II)\n∴ line OD is perpendicular bisector of seg AB. ...[From (I) and (II)]\n∴ seg AD ≅ seg BD",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 54,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, Seg Mn is a Chord of a Circle with Centre O. Mn = 25, L is a Point on Chord Mn Such that Ml = 9 And D(O,L) = 5. Find the Radius of the Circle.",
+    "answer": "seg MN is a chord of a circle with centre O.\nDraw OP ⟂ MN and join OM. \n\nMP = PN = (MN)/2 = 25/2units (Perpendicular drawn from the centre of a circle on its chord bisects the chord)\n∴ LP = MP − ML = 25/2-9=7/2units\nIn right ∆OPL,\n\\[{OL}^2 = {LP}^2 + {OP}^2 \\]\n\\[ \\Rightarrow OP = \\√{{OL}^2 - {LP}^2}\\]\n\\[ \\Rightarrow OP = \\√{5^2 - \\left( \\frac{7}{2} \\right)^2}\\]\n\\[ \\Rightarrow OP = \\√{25 - \\frac{49}{4}}\\]\n\\[ \\Rightarrow OP = \\√{\\frac{51}{4}} = \\frac{1}{2}\\√{51} \\] units\nIn right ∆OPM,\n\\[{OM}^2 = {MP}^2 + {OP}^2 \\] \n\\[ \\Rightarrow OM = \\√{\\left( \\frac{25}{2} \\right)^2 + \\left( \\frac{\\√{51}}{2} \\right)^2}\\] \n\\[ \\Rightarrow OM = \\√{\\frac{625 + 51}{4}}\\] \n\\[ \\Rightarrow OM = \\√{\\frac{676}{4}}\\] \n\\[ \\Rightarrow OM = \\√{169} = 13 \\] units\n\nThus, the radius of the circle is 13 units.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 55,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, Two Circles Intersect Each Other at Points S and R. Their Common Tangent Pq Touches the Circle at Points P, Q. Prove That, ∠ Prq + ∠ Psq = 180°",
+    "answer": "It is given that two circles intersect each other at points S and R.\nJoin RS.\n\nThe angle between a tangent of a circle and a chord drawn from the point of contact is congruent to the angle inscribed in the arc opposite to the arc intercepted by that angle.\nPQ is the tangent to the smaller circle and PR is the chord.\n∴ ∠RPQ = ∠PSR .....(1)\nAlso, PQ is the tangent to the bigger circle and RQ is the chord.\n∴ ∠RQP = ∠QSR .....(2)\nAdding (1) and (2), we get\n∠RPQ + ∠RQP = ∠PSR + ∠QSR\n&rArr; ∠RPQ + ∠RQP = ∠PSQ .....(3) \nIn ∆PRQ,\n∠RPQ + ∠RQP + ∠PRQ = 180&ordm; .....(4) (Angle sum property)\nFrom (3) and (4), we get\n∠PSQ + ∠PRQ = 180&ordm;\nHence proved.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 56,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, Two Circles Intersect at Points M and N. Secants Drawn Through M and N Intersect the Circles at Points R, S and P, Q Respectively. Prove that : Seg Sq || Seg Rp.",
+    "answer": "It is given that two circles intersect at points M and N. Secants drawn through M and N intersect the circles at points R, S and P, Q.\nJoin MN. \n\nQuadrilateral PRMN is a cyclic quadrilateral.\n∴ ∠PRM = ∠MNQ .....(1) (Exterior angle of a cyclic quadrilateral is congruent to the angle opposite to its adjacent interior angle)\nQuadrilateral QSMN is a cyclic quadrilateral.\n∴ ∠QSM = ∠MNP .....(2) (Exterior angle of a cyclic quadrilateral is congruent to the angle opposite to its adjacent interior angle)\nAdding (1) and (2), we get\n∠PRM + ∠QSM = ∠MNQ + ∠MNP .....(3)\nNow, \n∠MNQ + ∠MNP = 180&ordm; .....(4) (Angles in linear pair) \nFrom (3) and (4), we get\n∠PRM + ∠QSM = 180&ordm; \nNow, line RS is transversal to the lines PR and QS such that \n∠PRS + ∠QSR = 180&ordm;\n∴ seg SQ || seg RP (If the interior angles formed by a transversal of two distinct lines are supplementary, then the two lines are parallel)\n\nHence proved.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 57,
+    "isFree": true
+  },
+  {
+    "question": "In the given figure, two circles intersect each other at points A and E. Their common secant through E intersects the circles at points B and D.",
+    "answer": "It is given that two circles intersect each other at points A and E.\nJoin AE, AB and AD.\n\nThe angle between a tangent of a circle and a chord drawn from the point of contact is congruent to the angle inscribed in the arc opposite to the arc intercepted by that angle.\nBC is the tangent to the smaller circle and BE is the chord.\n∴ ∠EBC = ∠BAE .....(1)\nAlso, CD is the tangent to the bigger circle and ED is the chord.\n∴ ∠EDC = ∠DAE .....(2)\nAdding (1) and (2), we get\n∠EBC + ∠EDC = ∠BAE + ∠DAE\n&rArr; ∠EBC + ∠EDC = ∠BAD .....(3) \nIn ∆BCD,\n∠DBC + ∠BDC + ∠BCD = 180&ordm; .....(4) (Angle sum property)\nFrom (3) and (4), we get\n∠BAD + ∠BCD = 180&ordm;\nIn quadrilateral ABCD, \n∠BAD + ∠BCD = 180&ordm;\nTherefore, quadrilateral ABCD is cyclic. (If a pair of opposite angles of a quadrilateral is supplementary, the quadrilateral is cyclic)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 58,
+    "isFree": true
+  },
+  {
+    "question": "In the Given Figure, Seg Ad ⊥ Side Bc, Seg Be ⊥ Side Ac, Seg Cf ⊥ Side Ab. Ponit O is the Orthocentre. Prove that , Point O is the Incentre of ∆Def.",
+    "answer": "It is given that seg AD ⟂ side BC, seg BE ⟂ side AC and seg CF ⟂ side BC. O is the orthocentre of ∆ABC.\nJoin DE, EF and DF.\n\n∠AFO + ∠AEO = 90&ordm; + 90&ordm; = 180&ordm; \n∴ Quadrilateral AEOF is cyclic. (If a pair of opposite angles of a quadrilateral is supplementary, the quadrilateral is cyclic)\n&rArr; ∠OAE = ∠OFE .....(1) (Angles inscribed in the same arc are congruent)\n∠BFO + ∠BDO = 90&ordm; + 90&ordm; = 180&ordm; \n∴ Quadrilateral BFOD is cyclic. (If a pair of opposite angles of a quadrilateral is supplementary, the quadrilateral is cyclic)\n∴ seg OD subtends equal angles ∠OFD and ∠OBD on the same side of OD.\n&rArr; ∠OBD = ∠OFD .....(2) (Angles inscribed in the same arc are congruent)\nIn ∆ACD,\n∠DAC + ∠ACD = 90&ordm; .....(3) (Using angle sum property of triangle)\nIn ∆BCE,\n​∠BCE + ∠CBE = 90&ordm; .....(4) (Using angle sum property of triangle)\nFrom (3) and (4), we get\n∠DAC + ∠ACD = ∠BCE + ∠CBE\n&rArr; ∠DAC = ∠CBE .....(5)\nFrom (1), (2) and (5), we get\n∠OFE = ∠OFD\n&rArr; OF is the bisector of ∠EFD.\nSimilarly, OE and OD are the bisectors of ∠DEF and ∠EDF, respectively.\nHence, O is the incentre of ∆DEF. (Incentre of a triangle is the point of intersection of its angle bisectors)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Circle",
+    "questionNumber": 59,
+    "isFree": true
+  },
+  {
+    "question": "∆ABC ~ ∆LMN. In ∆ABC, AB = 5.5 cm, BC = 6 cm, CA = 4.5 cm. Construct ∆ABC and ∆LMN such that BCMNBCMN=54.",
+    "answer": "Construct ∆ABC such that AB = 5.5 cm, BC = 6 cm and CA = 4.5 cm. \n∆ABC and ∆LMN are similar.\n\nTherefore, their corresponding sides are proportional.\n∴ \"AB\"/\"LM\" = \"BC\"/\"MN\" = \"CA\"/\"NL\" = 5/4\nAB = 5.5 cm, BC = 6 cm, CA = 4.5 cm\n∴ 5.5/\"LM\" = 6/\"MN\" = 4.5/\"NL\" = 5/4\n∴ 5.5/\"LM\" = 5/4\n∴ (5.5 xx 4)/5 = \"LM\"\n∴ 4.4 = LM\n∴ 6/\"MN\" = 5/4\n∴ (6 xx 4)/5 = \"MN\"\n∴ 4.8 = MN\n∴ 4.5/\"NL\" = 5/4\n∴ (4.5 xx 4)/5 = \"NL\"\n∴ 3.6 = NL\nIn ∆ABC, AB = 5.5 cm, BC = 6 cm, CA = 4.5 cm\nNow, construct ∆LMN such that LM = 4.4 cm, MN = 4.8 cm and NL = 3.6 cm.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "∆PQR ~ ∆LTR. In ∆PQR, PQ = 4.2 cm, QR = 5.4 cm, PR = 4.8 cm. Construct ∆PQR and ∆LTR, such that PQLTPQLT=34.",
+    "answer": "Rough figure:\n\nSteps of construction:\n\nDraw &Delta;PQR such that PQ = 4.2 cm, QR = 5.4 cm and PR = 4.8 cm.\nDraw a ray at point R, making a suitable angle with seg RQ.\nTake equal parts RR1, R1R2, R2R3, R3R4 on ray RX.\nJoin the points Q and R3.\nDraw seg TR4 || seg QR3.\nDraw seg LT || seg PQ.\n\nConstruction:",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "∆RST ~ ∆XYZ. In ∆RST, RS = 4.5 cm, ∠RST = 40°, ST = 5.7 cm Construct ∆RST and ∆XYZ, such that 𝑅⁢𝑆𝑋⁢𝑌=35.",
+    "answer": "Construct ∆RST such that RS = 4.5 cm, ∠RST = 40° and ST = 5.7 cm.\n∆RST and ∆XYZ are similar.\nSo, their corresponding sides are proportional and corresponding angles are equal.\n\\[\\therefore \\frac{RS}{XY} = \\frac{ST}{YZ} = \\frac{RT}{XZ} = \\frac{3}{5}\\]\n\\[\\Rightarrow \\frac{4 . 5}{XY} = \\frac{5 . 7}{YZ} = \\frac{3}{5}\\]\n\\[\\Rightarrow XY = \\frac{5}{3} \\times 4 . 5 = 7 . 5 \\text{ cm }, YZ = \\frac{5}{3} \\times 5 . 7 = 9 . 5 \\] cm\nAlso, ∠XYZ = ∠RST = 40°\nNow, construct ∆XYZ such that XY = 7.5 cm, ∠XYZ = 40° and YZ = 9.5 cm.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "∆AMT ~ ∆AHE. In ∆AMT, AM = 6.3 cm, ∠TAM = 50°, AT = 5.6 cm, (AM)/(AH) = 7/5. Construct ∆AHE.",
+    "answer": "nalysis:\n\nAs shown in the figure,\nLet A &ndash; H &ndash; M as well as points A &ndash; E &ndash; T be collinear.\n∆AMT ~ ∆AHE,\n∴ ∠TAM ≅ ∠EAH ...[Corresponding angles of similar triangles]\n(AM)/(AH) = (MT)/(HE) = (AT)/(AE) ...(i) [Corresponding sides of similar triangles]\n∴ (AM)/(AH) = 7/5 ...(ii) [Given]\n(AM)/(AH) = (MT)/(HE) = (AT)/(AE) = 7/5 ...[From (i) and (ii)]\n∴ Sides of ∆AHE are smaller than sides of ∆AMT.\n∴ If seg AH will be equal to 5 parts out of 7 equal parts of side AM.\nSo, if we construct ∆AMT, point H will be on side AM, at a distance equal to 5 parts from A.\nNow, point E is the point of intersection of ray AT and a line through H, parallel to MT.\n∆AHE is the required triangle similar to ∆AMT.\nSteps of construction:\n\nDraw ∆AMT such that AM = 6.3 cm, ∠TAM = 50°, AT = 5.6 cm.\nDraw ray AB making an acute angle with side AM.\nTaking convenient distance on the compass, mark 7 points A1, A2, A3, A4, A5, A6 and A7, such that AA1 = A1A2 = A2A3 = A3A4 = A4A5 = A5A6 = A6A7.\nJoin A7M. Draw line parallel to A7M through A5 to intersects seg AM at H.\nDraw a line parallel to side TM through H. Name the point of intersection of this line and seg AT as E.\n∆AHE is the required triangle similar to ∆AMT.\n\nHere, ∆AMT ~ ∆AHE.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Construct a tangent to a circle with centre P and radius 3.2 cm at any point M on it.",
+    "answer": "Steps of Construction:\nStep 1: Draw a circle with centre P and radius 3.2 cm.\nStep 2: Take any point M on the circle.\nStep 3: Draw ray PM.\nStep 4: Draw line l perpendicular to ray PX through point M.\n\nHere, line l is the required tangent to the circle at the point M.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Draw a Circle of Radius 2.7 Cm. Draw a Tangent to the Circle at Any Point on It.",
+    "answer": "Steps of Construction:\nStep 1: Draw a circle with centre C and radius 2.7 cm.\nStep 2: Take any point P on the circle.\nStep 3: Draw ray CX. \nStep 4: Draw line l perpendicular to ray CX through point P.\n\nHere, line l is the required tangent to the circle at the point P.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Draw a Circle of Radius 3.6 Cm. Draw a Tangent to the Circle at Any Point on It Without Using the Centre.",
+    "answer": "Steps of Construction:\nStep 1: Draw a circle with radius 3.6 cm. Mark any point C on it.\nStep 2: Draw chord CB and an inscribed ∠CAB.\nStep 3: With the centre A and any convenient radius draw an arc intersecting the sides of ∠BAC in points M and N.\nStep 4: Using the same radius and centre C, draw an arc intersecting the chord CB at point R.\nStep 5: Taking the radius equal to d(MN) and centre R, draw an arc intersecting the arc drawn in step 4. Suppose D be the point of intersection of these arcs. Draw line CD.\n\nHere, line CD is the required tangent to the circle.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Draw a circle of radius 3.3 cm Draw a chord PQ of length 6.6 cm. Draw tangents to the circle at points P and Q. Write your obeservation about the tangents.",
+    "answer": "Steps of Construction:\nStep 1: Draw a circle with centre U with radius 3.3 cm, Mark any point P on it.\nStep 2: Draw chord PQ = 6.6 cm (PQ is the diameter of the circle). \nStep 3: Draw rays UX and UY.\nStep 4: Draw line l perpendicular to ray UX through point P.\nStep 5: Draw line m perpendicular to ray UY through point Q.\n\nHere, line l and line m are the required tangents to the circle at points P and Q, respectively.\nIt can be observed that the tangents l and m are parallel to each other.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Draw a circle with radius 3.4 cm. Draw a chord MN of length 5.7 cm in it. construct tangents at point M and N to the circle.",
+    "answer": "1Show SolutionSteps of Construction:\n​Step 1: Draw a circle of radius 3.4 cm with centre C. Mark any point M on it.\nStep 2: Draw chord MN = 5.7 cm and an inscribed ∠NOM.\nStep 3: With the centre O and any convenient radius draw an arc intersecting the sides of ∠MPN in points P and Q.\nStep 4: Using the same radius and centre M, draw an arc intersecting the chord MN at point R.\nStep 5: Taking the radius equal to d(PQ) and centre R, draw an arc intersecting the arc drawn in step 4. Suppose S be the point of intersection of these arcs. Draw line MS.\nStep 6: With the centre M and any convenient radius draw an arc intersecting the sides of ∠OMN in points T and U.\nStep 7: Using the same radius and centre N, draw an arc intersecting the chord MN at point V.\nStep 8: Taking the radius equal to d(TU) and centre V, draw an arc intersecting the arc drawn in step 7. Suppose W be the point of intersection of these arcs. Draw line NW.\n\nHere, line MS and NW are the required tangents to the circle at points M and N, respectively.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Draw a Circle with Centre P and Radius 3.4 Cm. Take Point Q at a Distance 5.5 Cm from the Centre. Construct Tangents to the Circle from Point Q.",
+    "answer": "Steps of Construction:\nAs shown in the figure, let Q be a point in the exterior of circle at a distance of 5.5 cm.\nLet QR and QS be the tangents to the circle at points R and S respectively.\n\n∴ seg PR ⟂ tangent QR …[Tangent is perpendicular to radius]\n∴ ∠PRQ = 90°\n∴ point R is on the circle having PQ as diameter. …[Angle inscribed in a semicircle is a right angle]\nSimilarly, point S also lies on the circle having PQ as diameter.\n∴ Points R and S lie on the circle with PQ as diameter.\nOn drawing a circle with PQ as diameter, the points where it intersects the circle with centre P, will be the positions of points R and S respectively.\nRay QR and QS are the required tangents to the circle from point Q.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Draw a circle with radius 4.1 cm. Construct tangents to the circle from a point at a distance 7.3 cm from the centre.",
+    "answer": "Steps of Construction:\nAs shown in the figure, let Q be a point in the exterior of circle at a distance of 5.5 cm.\nLet QR and QS be the tangents to the circle at points R and S respectively.\n∴ seg PR ⟂ tangent QR …[Tangent is perpendicular to radius]\n∴ ∠PRQ = 90°\n\n∴ point R is on the circle having PQ as diameter. …[Angle inscribed in a semicircle is a right angle]\nSimilarly, point S also lies on the circle having PQ as diameter.\n∴ Points R and S lie on the circle with PQ as diameter.\nOn drawing a circle with PQ as diameter, the points where it intersects the circle with centre P, will be the positions of points R and S respectively.\nRay QR and QS are the required tangents to the circle from point Q.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Select the Correct Alternative for the Following Question. the Number of Tangents that Can Be Drawn to a Circle at a Point on the Circle is ............... . (A) 3 (B) 2 (C) 1 (D) 0",
+    "answer": "10",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Select the Correct Alternative for the Following Question. the Maximum Number of Tangents that Can Be Drawn to a Circle from a Point Out Side It is .............. . (A) 2 (B) 1 (C) One and Only O",
+    "answer": "21one and only one0",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Select the Correct Alternative for the Following Question. (3) If ∆Abc ~ ∆Pqr and a B P Q = 7 5 , Then ............... (A) ∆Abc is Bigger. (B) ∆Pqr is Bigger.",
+    "answer": "∆ABC is bigger. ∆PQR is bigger.Both triangles will be equal.Can not be decided.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Draw a circle with centre O and radius 3.5 cm. Take point P at a distance of 5.7 cm from the centre. Draw tangents to the circle from point P.",
+    "answer": "Steps of Construction:\nStep 1: Construct a circle of radius 3.5 cm with centre O.\nStep 2: Take a point P in the exterior of the circle such that OP = 5.7 cm\nStep 3: Draw segment OP. Draw a perpendicular bisector of segment OP to get its midpoint M.\nStep 4: Draw a circle with radius OM and centre M.\nStep 5: Name the point of intersection of the two circles as A and B.\nStep 6: Draw line PA and line PB.\n\nHere, line PA and line PB are tangents to the circle from point P.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Draw Any Circle. Take Any Point a on It and Construct Tangent at a Without Using the Centre of the Circle.",
+    "answer": "Steps of Construction:\nStep 1: Draw a circle with any radius and mark any point A on it.\nStep 2: Draw chord AB and an inscribed ∠BCA.\nStep 3: With the centre C and any convenient radius draw an arc intersecting the sides of ∠ACB in points M and N.\nStep 4: Using the same radius and centre A, draw an arc intersecting the chord AB at point O.\nStep 5: Taking the radius equal to d(MN) and centre O, draw an arc intersecting the arc drawn in step 4. Suppose D be the point of intersection of these arcs. Draw line AD.\n\nHere, line AD is the required tangent to the circle.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Draw a circle of diameter 6.4 cm. Take a point R at a distance equal to its diameter from the centre. Draw tangents from point R.",
+    "answer": "Steps of Construction:\n​Step 1: Construct a circle of radius = \\[\\frac{6 . 4}{2}\\] = 3.2 cm with centre O.\nStep 2: Take a point R in the exterior of the circle such that OR = 6.4 cm.\nStep 3: Draw segment OR. Draw the perpendicular bisector of segment OR to get its midpoint M.\nStep 4: Draw a circle with radius OM and centre M.\nStep 5: Name the point of intersection of the two circles as A and B.\nStep 6: Draw line RA and line RB.\n\nHere, line RA and line RB are tangents to the circle from point R.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Draw a Circle with Centre P. Draw an Arc Ab of 100° Measure. Draw Tangents to the Circle at Point a and Point B.",
+    "answer": "Steps of Construction:\nStep 1: Draw a circle with centre P and any radius.\nStep 2: Take any point A on the circle.\nStep 3: Construct ∠APB = 100°, such that point B is on the circle.\nStep 4: Draw rays PA and PB. \nStep 5: Draw line l perpendicular to ray PX through point A.\nStep 6: Draw line m perpendicular to ray PY through point B.\n\nHere, line l and line m are the required tangents to the circle at the point A and point B, respectively.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Draw a Circle of Radius 3.4 Cm and Centre E. Take a Point F on the Circle. Take Another Point a Such that E-f-a and Fa = 4.1 Cm. Draw Tangents to the Circle from Point A.",
+    "answer": "Steps of Construction:\n​Step 1: Construct a circle of radius 3.4 cm with centre E.\nStep 2: Mark a point F on the circle.\nStep 3: Take a point A in the exterior of the circle such that FA = 4.1 cm\nStep 4: Draw segment FA. Draw perpendicular bisector of segment EA to get its midpoint M.\nStep 5: Draw a circle with radius EM and centre M.\nStep 6: Name the point of intersection of the two circles as X and Y.\nStep 7: Draw line AX and line AY.\n\nHere, line AX and line AY are tangents to the circle from point A.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "∆ABC ~ ∆LBN. In ∆ABC, AB = 5.1 cm, ∠B = 40°, BC = 4.8 cm, ACLN=47. Construct ∆ABC and ∆LBN.",
+    "answer": "s shown in the figure,\nLet B &ndash; C &ndash; N and B &ndash; A &ndash; L.\n\n∆ABC ~ ∆LBN ...[Given]\n∴ ∠ABC ≅ ∠LBN ...[Corresponding angles of similar triangles]\n\"AB\"/\"LB\"=\"BC\"/\"BN\"=\"AC\"/\"LN\" ...(i) [Corresponding sides of similar triangles]\nBut, \"AC\"/\"LN\"=4/7 ...(ii) [Given]\n∴ \"AB\"/\"LB\"=\"BC\"/\"BN\"=\"AC\"/\"LN\" ...[From(i) and (ii)]\n∴ Sides of ∆LBN are longer than corresponding sides of ∆ABC.\n∴ If seg BC is divided into 4 equal parts, then seg BN will be 7 times each part of seg BC.\nSo, if we construct ∆ABC, point N will be on side BC, at a distance equal to 7 parts from B.\nNow, point L is the point of intersection of ray BA and a line through N, parallel to AC.\n∆LBN is the required triangle similar to ∆ABC.\nSteps of construction:\n\nDraw ∆ABC of given measure. Draw ray BD making an acute angle with side BC.\nTaking convenient distance on compass, mark 7 points B1, B2, B3, B4, B5, B6 and B7 such that BB1 = B1B2 = B2B3 B3= B44 = B4B5 = B5B6 = B6B7.\nJoin B4C. Draw line parallel to B4C through B7 to intersects ray BC at N.\nDraw a line parallel to side AC through N. Name the point of intersection of this line and ray BA as L.\n\n∆LBN is the required triangle similar to ∆ABC.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Construct ∆Pyq Such That, Py = 6.3 Cm, Yq = 7.2 Cm, Pq = 5.8 Cm. If Y Z Y Q = 6 5 , Then Construct ∆Xyz Similar to ∆Pyq.",
+    "answer": "Rough Figure\nAnalysis:\nAs shown in the figure,\nLet Y &ndash; Q &ndash; Z and Y &ndash; P &ndash; X.\n∆XYZ ~ ∆PYQ …[Given]\n∴ ∠XYZ ≅ ∠PYQ …[Corresponding angles of similar triangles]\n\\[\\frac{XY}{PY} = \\frac{YZ}{YQ} = \\frac{XZ}{PQ}\\] …(i) [Corresponding sides of similar triangles]\nBut, \\[\\frac{YZ}{YQ} = \\frac{6}{5}\\] …[From (i) and (ii)]\n∴ Sides of∆XYZ are longer than corresponding sides of ∆PYQ.\n∴ If seg YQ is divided into 5 equal parts, then seg YZ will be 6 times each part of seg YQ.\nSo, if we construct ∆PYQ, point Z will be on side YQ, at a distance equal to 6 parts from Y.\nNow, point X is the point of intersection of ray YP and a line through Z, parallel to PQ.\n∆XYZ is the required triangle similar to ∆PYQ.\n\nSteps of construction:\n\nDraw ∆ PYQ of given measure. Draw ray YT making an acute angle with side YQ.\nTaking convenient distance on compass, mark 6 points Y1, Y2, Y3, Y4, Y5 and Y6 such that YY1 = Y1Y2 = Y2Y3 = Y3Y4 = Y4Y5 = Y5Y6.\nJoin Y5Q. Draw line parallel to Y5Q through Y6 to intersects ray YQ at Z.\nDraw a line parallel to side PQ through Z. Name the point of intersection of this line and ray YP as X.\n\n∆XYZ is the required triangle similar to ∆PYQ.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Geometric Constructions",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Find the distance between the following pairs of points: (2, 3), (4, 1)",
+    "answer": "1Show Solutionl = √((x₂ - x₁)² + (y₂ - y₁)²)\n= √((4 - 2)² + (1 - 3)²)\n = √(2² + (- 2)²)\n= √(4 + 4)\n= √(8)\n= √(4 × 2)\n= 2√(2) units",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Co-ordinate Geometry",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Find the distance between the following pairs of points: (−5, 7), (−1, 3)",
+    "answer": "1Show SolutionDistance between (−5, 7) and (−1, 3) is given by\nl = √((x₂-x₁)²+(y₂-y₁)²) \nl = √((-5-(-1))² + (7 -3)²)\n= √((-4)²+(4)²)\n= √(16+16) \n= √32\n= 4√2 units",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Co-ordinate Geometry",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Find the distance between the following pair of points. R(0, -3), S(0, 52)",
+    "answer": "Suppose co-ordinates of point R are (x1 , y1) and of point S are (x2, y2).\nx1 = 0, y1 = -3, x2 = 0, y2 = 5/2\nAccording to distance formula,\nd(R, S) = √((x₂ - x₁)² + (y₂ - y₁)²)\nd(R, S) = √((0 - 0)² + [5/2 - (- 3)]²)\nd(R, S) = √((0)² + [5/2 + 3]²)\nd(R, S) = √((0)² + (11/2)²)\nd(R, S) = √(0 + 121/4)\nd(R, S) = √(121/4)\nd(R, S) = 11/2\n∴ distance between points R and S is 11/2.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Co-ordinate Geometry",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Find the distance between the following pair of points. L(5, –8), M(–7, –3)",
+    "answer": "L(5, &ndash;8), M(&ndash;7, &ndash;3)\nLet L (x1, y1) and M (x2, y2) be the given points.\n∴ x1 = 5, y1 = &ndash;8, x2 = &ndash;7, y2 = &ndash;3\nBy distance formula,\n\"d(L, M)\" = √((x₂ &ndash; x₁)² + (y₂ &ndash; y₁)²)\n\"d(L, M)\" = √((&ndash;7 &ndash; 5)² + [&ndash;3 &ndash; (&ndash; 8)]²)\n\"d(L, M)\" = √((&ndash;7 &ndash; 5)² + (&ndash;3 + 8)²)\n\"d(L, M)\" = √((&ndash;12)² + (5)²)\n\"d(L, M)\" = √(144 + 25)\n\"d(L, M)\" = √(169)\nd(L, M) = 13 units\n∴ The distance between the points L and M is 13 units.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Co-ordinate Geometry",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Find the distance between the following pair of point. T(–3, 6), R(9, –10)",
+    "answer": "T(&ndash;3, 6), R(9, &ndash;10)\nLet T (x1, y1) and R (x2, y2) be the given points.\n∴ x1 = −3, y1 = 6, x2 = 9, y2 = −10\n\\[\\mathrm{d(T,R)}=\\√{\\left(x_{2}-x_{1}\\right)^{2}+\\left(y_{2}-y_{1}\\right)^{2}}\\]\n= \\[\\√{\\left[9-(-3)\\right]^{2}+\\left(-10-6\\right)^{2}}\\]\n= \\[\\√{\\left(9+3\\right)^{2}+\\left(-10-6\\right)^{2}}\\]\n= \\[\\√{12^{2}+\\left(-16\\right)^{2}}\\]\n= \\[\\√{144 + 256}\\]\n= \\[\\√{400}\\]\n= 20\n∴ d(T, R) = 20 units\n∴ The distance between the points T and R 20 units.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Co-ordinate Geometry",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Find the distance between the following pairs of point. W (-72,4), X (11, 4)",
+    "answer": "Let the co-ordinates of point W are (x1, y1) and of point X are (x2, y2)\n((-7)/2,4) = (x1, y1)\n(11, 4) = (x2, y2)\nd (W, X) = √((x₂-x₁)²+(y₂-y₁)²)\n= √((11-(-7/2))²+(4-4)²\n= √((11+7/2)²+0)\n= (11 + 7/2)\n= 11/1+7/2\n= (22+7)/2\n= 29/2\n= 14.5\n∴ Distance between points W and X is 14.5.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Co-ordinate Geometry",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Determine whether the points are collinear. A(1, −3), B(2, −5), C(−4, 7)",
+    "answer": "Given: A(1, −3), B(2, −5), C(−4, 7)\nLet,\nA(1, −3) = A(x1, y1)\nB(2, −5) = B(x2, y2)\nC(−4, 7) = C(x3, y3)\nBy the distance formula,\nd(A, B) = √((x₂ - x₁)² + (y₂ - y₁)²)\n= √((2 - 1)² + [-5 - (-3)]²)\n= √((1)² + (-5 + 3)²)\n= √((1)² + (-2)²)\n= √(1+ 4)\n= √(5) ...(1)\nd(B, C) = √((x₃ - x₂)² + (y₃ - y₂)²)\n= √((- 4 - 2)² + [7 - (-5)]²)\n= √((-6)² + [7 + 5]²)\n= √((-6)² + (12)²)\n= √(36 + 144)\n= √(180)\n= √(36 xx 5)\n= 6√(5) ...(2)\nd(A, C) = √((x₃ - x₁)² + (y₃ - y₁)²)\n= √((-4 - 1)² + [7 - (-3)]²)\n= √((-4 - 1)² + (7 + 3)²)\n= √((-5)² + (10)²)\n= √(25 + 100)\n= √(125)\n= √(25 × 5)\n= 5√(5) ...(3)\nAdding (1) and (3)\n∴ d(A, B) + d(A, C) = d(B, C)\n∴ √5 + 5√5 = 6√5 ...(4)\n∴ d(A, B) + d(A, C) = d(B, C) ...[From (2) and (4)]\n∴ Points A(1, −3), B(2, −5) and C(−4, 7) are collinear.\nHence proved.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Co-ordinate Geometry",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Determine whether the points are collinear. L(–2, 3), M(1, –3), N(5, 4)",
+    "answer": "L(&ndash;2, 3), M(1, &ndash;3), N(5, 4)\nAccording to distance formula,\nd(L, M) = √((x₂ &ndash; x₁)² + (y₂ &ndash; y₁)²)\nd(L, M) = √([1 &ndash; (&ndash;2)]² + (&ndash;3 &ndash; 3)²)\nd(L, M) = √((1 + 2)² + (&ndash;3 &ndash; 3)²)\nd(L, M) = √((3)² + (&ndash;6)²)\nd(L, M) = √(9 + 36)\nd(L, M) = √(45)\nd(L, M) = √(9 × 5)\n∴ d(L, M) = 3√(5) ...(1)\nd(M, N) = √((x₂ &ndash; x₁)² + (y₂ &ndash; y₁)²)\nd(M, N) = √((5 &ndash; 1)² + [4 &ndash; (&ndash; 3)]²)\nd(M, N) = √((5 &ndash; 1)² + (4 + 3)²)\nd(M, N) = √((4)² + (7)²)\nd(M, N) = √(16 + 49)\n∴ d(M, N) = √(65) ...(2)\nd(L, N) = √((x₂ &ndash; x₁)² + (y₂ &ndash; y₁)²)\nd(L, N) = √([5 &ndash; (&ndash; 2)]² + (4 &ndash; 3)²)\nd(L, N) = √((5 + 2)² + (4 &ndash; 3)²)\nd(L, N) = √((7)² + (1)²)\nd(L, N) = √(49 + 1)\nd(L, N) = √(50) \nd(L, N) = √(25 × 2) \n∴ d(L, N) = 5√(2) ...(3) \nFrom (1), (2), and (3), \nSum of two sides is not equal to the third side.\nHence, the given points are not collinear.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Geometry Co-ordinate Geometry",
+    "questionNumber": 8,
+    "isFree": true
+  }
+]

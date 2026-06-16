@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Give reasons why the following sentence is right or wrong: The main aim of distributional maps is to show location.",
+    "answer": "Wrong",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Give reasons why following sentence are right or wrong: In choropleth maps, only one value is assigned to the sub-administrative unit.",
+    "answer": "RightWrong",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Give reasons why following sentence is right or wrong: In choropleth maps, colours/tints do not change according to the values of the variables.",
+    "answer": "Wrong",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Give Reasons Why Following Sentence Is Right Or Wrong: Choropleth Maps Are Used to Show Altitudes.",
+    "answer": "Wrong",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Give Reasons Why Following Sentence Is Right Or Wrong: Isopleth Maps Are Used to Show Population Distribution.",
+    "answer": "Wrong",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Give Reasons Why Following Sentence is Right Or Wrong: in Dot Method, Every Dot Should Have an Appropriate Scale.",
+    "answer": "RightWrong",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Give Reasons Why Following Sentence Is Right Or Wrong: Isopleth Maps Are Not Made Using Isolines.",
+    "answer": "Wrong",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Give Reasons Why Following Sentence is Right Or Wrong: Distribution of Various Geographical Elements Can Be Shown Using Dot Method.",
+    "answer": "RightWrong",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Explain the use and types of distributional maps.",
+    "answer": "Use of distributional maps: The distributional maps help explain the distribution patterns of a particular geographical variable.\nThe following are the types of distributional maps.\n\nDot method: A dot map is prepared using statistical data. While preparing dot maps, only data gathered through counting is used. The way a variable is distributed throughout the region, the dots are used to show its distribution on the map - for example, the population of a region, the distribution of cattle, etc.\nChoropleth Method: The data regarding various geographical variables is shown by shades or tints of various colours. While making such maps, the data used for different variables is obtained through various processes such as measurement, surveying, etc.\nIsopleth method: The distribution was shown with the help of lines showing equal values. When the distribution of a variable is continuous, the isopleth method is then used to show its distribution&mdash;for example, altitude, temperature, rainfall, etc.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Differentiate between choropleth and isopleths methods.",
+    "answer": "Choropleth and Isopleth maps are two different forms of distributional maps that are used tor represent various geographical elements in a region. At first glance, they may look similar but the methodology behind them is completely different and they also utilize different data. The following table differentiates between the two methods.\n\n \nChoropleth method \nIsopleth method \n\n1.\nDifferent Geographical variables are represented by either shade of the same colour or by different colors.\nThe data for the variable under study is demarcated by isolines which are lines joining the places having the same value. \n\n2.\nContinuous or varying data can be used for mapping purposes.\nOnly continuous data is used.\n\n3.\nAdministrative boundaries define data boundary and hence continuous data may be misrepresented. \nAdministrative boundaries do not define a data boundary. Data boundary is defined by isolines.\n\n4.\nThe smallest and largest values of given data are used to classify the data range into acceptable classes.\nPlaces having the same data value determine the drawing of isolines. The range is determined by the difference in these isolines. \n\n5.\nColor gradient or patterns allow map interpretation deeper the color higher the value of data under study. \nPlacement of lines allows map interpretation, the closer the isolines steeper the data distribution. \n\n6.\nMainly used for data like population density, distribution, etc. \nMainly used for continuous data like temperature, rainfall, altitude, etc.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Explain with reasons the method which is best suited to show the distribution of population in a region.",
+    "answer": "Population refers to the number of people residing in a clearly demarcated geographic area. Often, for study, this demarcated area is based on administrative divisions. Thus, the number of people living at a given time in a country, state, district, village, etc., refers to the area's population. Two types of thematic maps can be used to show the population distribution of any given site. These are dot distribution maps and choropleth maps.\n\nDot distribution maps - Uses dots to represent pre-calculated values of the chosen variable. The value of each dot is calculated based on the highest and lowest recorded population data. The beads used should be uniform in size, corresponding to their index. Dot placement depends on natural and artificial features like rivers, roads, etc. This method makes it easy to read maps and allows for a precise interpretation of population distribution in a given area. But with the increasing density of dots, the map loses its efficiency.\nChoropleth maps - Shades of the same colour or other colours represent the population data for different geographical areas. Every sub-administrative region has one assigned value. Data is divided into classes after ascertaining the highest and lowest matters; each class gets a particular shade. The shade becomes darker with the increasing importance of the given variables. Administrative boundaries play a vital role in this form of maps. Since classes are used for data division, population density is often represented through these maps.\n\nFrom the above discussion, it is evident that dot distribution maps are ideal for representing the population distribution of an area, as administrative boundaries define the data collected. Choropleth maps should be used only with intensity to convey a clearer picture.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Which method will you use for the following information? Talukawise wheat production in the district",
+    "answer": "Choropleth Method\nExplanation:\nChoropleth Method, in which information distributed over different geographical areas is visualized based on different colour schemes. In the Choropleth Method, the amount of wheat production of each taluka of the district is indicated on the basis of different colours. Each colour represents the quantity of wheat produced. For example, a light colour indicates low production, while a dark colour indicates high production.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Which method will you use for the following information? Distribution of the altitude of the land in the district.",
+    "answer": "Isopleth maps.\nExplanation:\nThe administrative boundaries do not bind the altitude of any region, being a distance measurement and are continuous in nature. Thus, isopleth maps represent altitudes in a better manner.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Which method will you use for the following information? Distribution of domestic animals in the State.",
+    "answer": "Dot method.\nExplanation:\nThe dot distribution map takes into account absolute values. This allows the proper representation of the distribution of domestic animals in a state. Also, the placement of the dots would allow one to see the major areas for domesticated animals.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Which method will you use for the following information ? The distribution of population density in India.",
+    "answer": "Choropleth method\nExplanation :\nSuppose the distribution is done on the basis of state boundaries. In that case, several states can be classed together under a single class and the choropleth map would allow one single colour for each class of population density. This would create a clear picture as the assigned color would darken with higher densities.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Which method will you use for the following information ? Temperature distribution in Maharashtra State.",
+    "answer": "Isopleth method\nExplanation:\nTemperature is a continuous variable, and accurate data is also available regarding it. Places with equal temperatures in the state can be joined by isolines, creating an accurate isopleth map for further interpretation.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Study the Population Distribution Map of Kolhapur District and Answer the Following Questions: (1) Which Method Has Been Used to Show the Distribution of Population in the District?",
+    "answer": "The Dot method has been used to show the population distribution in the given Kolhapur district map.\nAccording to the given population distribution map of Kolhapur District, the population depicted in the map exhibits that the densely populated areas are in the North Eastern side of Kolhapur district. The population gradually decreases as one moves towards the western and southern areas. The taluk Gaganbavada in the west has the least population, while Kolhapur in the north-eastern part has the most population.\nThe population represented by the largest circle equals around 20 lakhs of people as per the index in the given map. According to the map, this population is in Kolhapur, part of Kharvin Taluka.\nGaganbavada Taluka has the least population.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Now We Will Prepare a Map Using Dot Method. Carry Out the Following Activity. See the Map of Nandurbar Given in Fig. Carefully.",
+    "answer": "To determine the value of a single dot in the above exercise, the highest and lowest rural populations of District Nandurbar for 2011 are considered. The following shows the calculation of a single dot value:\n1 Single Dot = (\"Highest rural population\"-\"Lowest rural population\")/\"Number of Talukas\"\n1 Single Dot = (346352 - 133291)/6\n1 Single Dot = 35510.17\n1 Single Dot = 36000 rural population(approx.)\nThe following table shows how many dots each taluka should be given. This is arrived at through the following Equation =\n36000 rural population is represented by 1 dot\nTherefore, x rural population is represented by (x)/36000 dots\n\nS.No.\nTalukas\nRural Population\n2011\nNo of dots(x)/3600 \nNo of dots\n\n1.\nAkkalkuwa\n2,15,974\n5.9\n6\n\n2.\nAkrani\n1,89,661\n5.26\n5\n\n3.\nTaloda\n1,33,291\n3.70\n4\n\n4.\nShahada\n3,46,352\n9.62\n10\n\n5.\nNandurbar\n2,56,409\n7.12\n7\n\n6.\nNawapur\n2,31,134\n6.42\n6\n\nMap with Dots:\n\nDescription:\nFrom the above dot map, it is clear that the district of Nandurbar has a well-distributed rural population as per 2011 data. The lowest distribution is in Talode taluka, given its small area. The largest distribution is in Shahade taluka, which has many riverine basins. Sparse distribution can also be observed in the Akrani and Akkalkuwa talukas, with the Satpuda mountain ranges. Most of the rural population is in the talukas, which have several river basins running through them, like the Plain of the Tapi River.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Distributional Maps",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "On which of the following are slow movements in the earth’s interior dependent?",
+    "answer": "VelocityDirection",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "When waves divert from each other, what do they create?",
+    "answer": "TensionMountain",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "For the formation of a rift valley, which of the following processes should occur in the earth’s crust?",
+    "answer": "TensionWeathering",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Which of these is a fold mountain?",
+    "answer": "The HimalayasThe Western Ghats",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "The formation of extensive plateaus is a result of which type of movements ?",
+    "answer": "Continent-buildingHorizontal",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Give geographical reason. Buildings collapsed at the foothills of the Himalayas because of an earthquake. Before collapsing they were moving forward and backward.",
+    "answer": "The seismic waves can be divided into primary, secondary, and surface waves.\nWhen energy is released from the Earth's interior, the primary waves are the first to reach the surface.\nSubjected to a &lsquo;P&rsquo; wave, particles in the rock move in the direction of waves to and from and therefore, these waves are also called forward-backward waves. \nThus, during an earthquake, the buildings at the foothills of the Himalayas moved forward and backwards as they were first subjected to &ldquo;P&rdquo; waves.\nThese movements create tremendous tension in the earth&rsquo;s crust, and when the tension goes beyond limits, the energy is released in the form of waves, which is the cause of the trembling of the earth&rsquo;s surface.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Give Geographical Reason. There is a Difference in the Formation of the Meghalaya Plateau and the Deccan Plateau.",
+    "answer": "The Meghalaya plateau is a type of block mountain. It was formed when horizontal movements of the waves within the earth&rsquo;s crust moved away, creating tension on the surface and finally creating faults. When the surface between two parallel faults rises up, it forms block mountains. It is characterized by a flat top and steep sides, as seen in the Meghalaya Plateau.\nThe Deccan plateau is a by-product of a volcanic eruption. During the eruption in a fissure type volcano, the magma comes out not from one single vent but from several fissures. This magma cools down and forms a gently rolling plateau, as seen in the Deccan plateau. Thus, there is a difference in the formation of Meghalaya Plateau and Deccan Plateau.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Give a geographical reason. Most of the volcanoes are found on the plate boundaries.",
+    "answer": "The plate boundaries are directly related to the areas of volcanoes.\nMost of the volcanoes are located on the plate boundaries.\nThe part of the plate boundary which slides under the crust, results in the loss of material. Such boundaries are called plate consuming boundaries.\nIn areas where new material (magma) is coming up onto the Earth&rsquo;s crust, they are called plate creating boundaries.\nBoth the processes result in earthquakes and volcanoes. Thus, most of the volcanoes are formed in the plate boundaries.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Give Geographical Reason. the Barren Island is Becoming Conical in Shape.",
+    "answer": "Barren Island in the Andaman Sea remains quiet for some time and then suddenly awakens.\nThe eruption of this volcano is of central nature.\nDue to the eruption of this volcano, the land rises up like a mountain in the shape of a cone. Therefore the shape of Barren Island is becoming conical.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Give geographical reason. Volcanic eruptions can cause earthquakes.",
+    "answer": "Volcanic eruptions occur when either plates sink below another plate (subduction), heating and creating magma, or plates pull apart, allowing magma to rise to the surface. In both these conditions, magma creates volcanoes when it reaches the surface.\nThus, most of the volcanoes are found on the plate boundaries. An earthquake occurs when the tension in the normal movements within the earth&rsquo;s crust increases, forming massive waves creating trembling on the earth&rsquo;s surface.\nThus, volcanic eruptions can cause earthquakes because of the massive amount of energy that is released during an eruption.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Identify and Name the Internal Movement. Tsunamis Are Generated in Coastal Areas.",
+    "answer": "Sudden Movement\nExplanation:\nA tsunami is a seismic sea wave which is caused by the displacement of a large volume of water, generally in an ocean or a large lake. This displacement can occur because of earthquakes or volcanic eruptions under the ocean floor both of which are categorized as sudden earth movements.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Identify and name the internal movement. The Himalayas are an example of fold mountains.",
+    "answer": "Slow movement\nExplanation :\nThe Himalayas were formed around 40 to 50 million years ago when the Indo-Australian plate collided with the Eurasian plate. This caused compression in the Tethys sea which raised the ocean floor and folds were formed in the soft rocks to create the mountains.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Identify and Name the Internal Movement. Molten Magma is Thrown Out of the Earth’S Mantle.",
+    "answer": "Sudden Movement\nExplanation: \nHot solid, liquid and gaseous materials are thrown out from the mantle of the earth onto the surface of the earth. This process is called volcanic eruption. During this process, ash, water vapour, various types of poisonous and inflammable gases, hot molten magma, etc., are thrown out.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Identify and Name the Internal Movement. Rift Valley is Formed Because of Faulting.",
+    "answer": "The slow movement\nExplanation:\nWhen the energy waves within the earth&rsquo;s mantle move away from each other, they create tension on the layers of rock surrounding the waves, leading to fractures in the earth&rsquo;s crust. Sometimes, two fractures can occur parallel to each other, and the crust between these fractures subside, forming the rift valley.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Arrange the following statements in chronological order in which an earthquake occurs. (a) The earth’s surface vibrates. (b) The plates suddenly move.",
+    "answer": "b. The plates suddenly move.\nc. Due to the movements in the mantle compression goes on increasing.\nd. Along the weak point (faultlines), rocks break apart.\ne. Stored energy is released in the form of seismic waves.\na. The earth&rsquo;s surface vibrates.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Distinguish between Block Mountain and Fold Mountain.",
+    "answer": "Block mountain \nFold mountain \n\n1.\nBlock mountains are formed due to faulting which is caused when the horizontal movements within the earth&rsquo;s crust move away from each other.\nFold mountains are formed due to folding which occurs when the horizontal movements within the earth&rsquo;s crust move towards each other. \n\n2.\nTension within the earth&rsquo;s crust causes block mountain formation.\nCompression within the earth&rsquo;s crust causes folds mountain formation.\n\n3.\nBlock mountains are characterised by steep slopes and flat tops.\nFold mountains are characterized by large scale complex folds that have greater height but are comparatively narrow in width.\n\n4.\nBlack forest mountains in Europe and the Meghalaya Plateau of India are examples of block mountain.\nThe Himalayas, the Aravalis, the Rockies, the Andes, the Alps are the major fold mountain of the world.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Distinguish between Primary and Secondary Seismic Waves",
+    "answer": "Sr. No.\nPrimary Seismic Waves\n Secondary Seismic Waves\n\n1.\nThe waves that reach the earth&rsquo;s surface first once energy is emitted from the earth&rsquo;s surface are called primary seismic waves.\nThe waves that reach the earth&rsquo;s surface after the primary waves once energy is emitted from the earth&rsquo;s surface are called secondary seismic waves.\n\n2.\nThese waves can travel through all three mediums of liquid, solid and gaseous states.\nThese waves can travel through only solid-state mediums and get absorbed in any liquid-state mediums.\n\n3.\nThey have high velocity and move in a radial direction from the focus of the earthquake.\nThey have lower velocity than Primary waves and scatter in all directions from the earthquake focus point.\n\n4.\nThese waves are often called forward-backward waves, as particles through which these waves pass tend to move to and fro in the direction of the waves.\nThese waves cause the particles it passes through to move up and down.\n\n5.\nInitial waves are felt but are not damaging to a great extent.\nThese waves are more damaging, causing the maximum destruction during an earthquake.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Distinguish between Earthquakes and volcanoes.",
+    "answer": "Earthquakes\nVolcanoes\n\n1.\nAn earthquake occurs when the tension in the normal movements within the earth's crust increases, leading to massive waves creating trembling on the earth's surface.\nVolcanoes form when tectonic plates collide, pushing one plate beneath another. Tectonic plates also move away from one another to produce volcanoes. Hot magma rises from the mantle at mid-ocean ridges, separating the plates. This molten rock then rises and erupts on the surface, building up a volcano.\n\n2.\nEarthquakes are difficult to predict because of the random pattern in their occurrence.\nVolcanoes are easier to predict as eruptions of varying rates precede their formation.\n\n3.\nEarthquakes originate from deep within the earth's mantle \nVolcanoes are surface features.\n\n4.\nEarthquakes only lead to destruction.\nVolcanoes may cause the formation of the new crust as magma ejected from a volcano cools down to from new surfaces.\n\n5.\nEarthquakes will typically nor produce significant debris but debris will result from the disturbances caused by the earthquake.\nVolcanoes can produce significant debris through ashfalls, mudslides, etc.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Give reasons why an earthquake occurs.",
+    "answer": "Because of the movements occurring in the interior of the earth, tremendous tension is created in the earth&rsquo;s crust. When the tension goes beyond limits, the energy is released in the form of waves. This results in the trembling of the earth&rsquo;s surface, i.e., an earthquake occurs.\nThe causes of earthquakes are as follows:\n\nMoving the plates\nColliding of plates\nPlates sliding one below the other\nForming of fractures in rock layers due to tension in the interior of the earth.\nOccurring volcanic eruptions",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Which type of movements have led to the formation of the major fold mountains in the world?",
+    "answer": "Fold mountains are formed due to folding which occurs when the horizontal movements within the earth&rsquo;s crust move towards each other.\n\nThe release of energy from within the earth&rsquo;s crust causes movements in the earth&rsquo;s mantle.\nVelocity and direction define the result of these movements on the earth&rsquo;s surface.\nWhen the movements are slow and horizontal in nature they can lead to formation of mountains and other landforms.\nSlow horizontal movements that move towards each other create compression in the earth&rsquo;s crust.\nThis causes the rock layers to fold over each other and rise in height.\nWith constant high pressure large scale complex folds are formed, uplifting the earth&rsquo;s surface and forming fold mountains.\n\nThe Himalayas, the Aravalis, the Rockies, the Andes, the Alps are the major fold mountains of the world.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "How is the magnitude of the earthquake related to the collapse of houses?",
+    "answer": "If the magnitude of an earthquake is high, it results in extensive destruction of buildings. The magnitude of an earthquake is directly related to the collapse of houses. Higher magnitude earthquakes release more energy, causing stronger seismic waves and more intense ground shaking, which increases the likelihood and severity of structural damage, including the collapse of houses.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "What are the effects of earthquakes on the earth’s surface and human life?",
+    "answer": "Cracks/fractures develop on the ground.\nCauses landslides which leads to sliding of rocks.\nSometimes the groundwater changes its course. For example, wells may get water or may dry up.\nSome areas get uplifted while some may subside.\nTsunamis are generated in oceans. These waves can cause great loss of life and property in the coastal areas.\nIn snow-covered areas, avalanches may occur.\nBuildings collapse and loss of life and property occurs.\nTransportation routes get disrupted.\nCommunication system collapses.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Explain the types of seismic waves.",
+    "answer": "During an earthquake, accumulated tension is released in massive waves to cause the trembling at the surface of the earth. These waves are called seismic waves and are of three types &ndash;\n\nPrimary Seismic Waves or P waves:\n\nThe waves that reach the earth&rsquo;s surface first once energy is emitted from the earth&rsquo;s surface are called primary seismic waves.\nThese waves can travel through all the three mediums of liquid, solid and gaseous states.\nThey have high velocity and move in a radial direction from the focus of the earthquake.\nThese waves are often called forward-backward waves as particles through which these waves pass tend to move to and fro in the direction of the waves.\nInitial waves are felt but are not damaging to a great extent.\n\nSecondary Seismic Waves or S waves:\n\nThe waves that reach the earth&rsquo;s surface after the primary waves once energy is emitted from the earth&rsquo;s surface are called secondary seismic waves.\nThese waves can travel through only solid state medium and get absorbed in any liquid state mediums.\nThey have lower velocity than Primary waves and scatter in all directions from the earthquake focus point.\nThese waves cause the particles it passes through to move up and down.\nThese waves are more damaging causing the maximum destruction during an earthquake.\n\nSurface seismic waves or L waves:\n\nThese waves are generated after the main P and S waves reach the epicenter.\nThey travel in the direction of the circumference of the earth along the crust.\nThey are highly destructive.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Explain the types of volcanoes on the basis of periodicity of eruption with examples.",
+    "answer": "The eruption classification of volcanoes is as follows:\n\nClassification according to Eruption: Volcanoes are classified according to eruption into the following two types:\n\nCentral-type or conical volcano:\n\nWhen a volcano erupts, lava forms a large tube-like path and flows out through these tube-like channels. This is called a central volcano.\nWhen lava comes out, it spreads around the mouth of this vent, forming cone-shaped mountains and conical volcanic mountains.\nEg., Mt. Fujiyama in Japan and Mt. Kilimanjaro in Tanzania are examples of central-type volcanoes and conical mountains.\n\nFissure-type volcanoes:\n\nDuring the eruption, when the magma comes out not from a single vent but from many cracks (fissures), it is called a fissure-type volcanic eruption.\nThe molten material coming out with the eruption spreads on both sides of the fissure.\nAs a result, volcanic plateaus are formed.\nEg., The Deccan Plateau of India has also been formed due to such a type of volcanic eruption.\n\nClassification according to the period of eruption: Volcanoes are classified into three types according to the period of eruption:\n\nActive Volcano: If the volcanic eruptions are regular even in the present times, then such volcanoes are called active volcanoes. ex. Mt Fujiyama in Japan, Mt. Stromboli in Mediterranean Sea.\nDormant Volcanoes: When a volcano has not erupted for a long time but may suddenly become active, it is called a dormant volcano. ex. Mt. Vesuvius in Italy, Mt. Katmai in Alaska, and Barren Island in India.\nExtinct Volcano: Those volcanoes which have not erupted in the past since long and are not likely to erupt in the future are called extinct volcanoes. ex. Mt. Kilimanjaro in Tanzania.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Show the epicentre, focus and the primary, secondary and surface waves of an earthquake with the help of a neat labelled diagram.",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Show the Following on a Given Outline Map of the World. (a) Mt. Kilimanjaro (b) Mid-Atlantic Earthquake zone (c) Mt. Fuji Krakatoa (d) Mt. Vesuvius",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Endogenetic Movements",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "What is mechanical weathering?",
+    "answer": "The breaking, splitting, and separating of parts of rocks without any change in their chemical composition is called 'mechanical weathering.'\nExfoliation, granular disintegration, and fragmentation are processes of mechanical weathering.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "What are the main types of chemical weathering?",
+    "answer": "Water plays an important role in chemical weathering. Rock is a mixture of many minerals. Water is a universal solvent. Many things get dissolved easily in water. The solubility increases because the matter has dissolved in water. And those materials which do not dissolve easily in water get dissolved in such solutions. In areas that receive heavy rainfall, chemical weathering occurs in the following way.\n\nCarbonation: The rainwater travels through the atmosphere before reaching the ground. Carbon dioxide in the air gets mixed in the water in this process. Dilute carbonic acid gets formed. Materials like limestone get easily dissolved in such acids.\nSolution: Some minerals in the rock get dissolved in water. Limestone is formed due to chemical precipitation between water and alkalis. Similarly, because of solution, alkalis in the rock dissolve and make them brittle.\nOxidation: This process occurs in rocks which have iron present in them. The iron in the rock comes in contact with water and chemical reaction takes place between iron and oxygen. Hence, a reddish coloured layer forms on the rocks.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "How does biological weathering occur?",
+    "answer": "Besides mechanical and chemical weathering, biological factors are also responsible for weathering of rocks.\nAs the roots grow bigger, they create tension in the rocks and start breaking them.\nAnts make large anthills. Rats, mice, rabbits and other worms and insects make burrows in the ground. These animals are called burrowing animals.\nBecause of their activity, weathering of rock occurs. Besides these, algae, moss, lichen, other flora etc. grow in the rocks. They also help in weathering.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Distinguish between weathering and mass wasting.",
+    "answer": "Weathering\nMass Wasting\n\n1.\nIt is the disintegration, breaking down and decomposition of components in the earths crust through the action of natural or other agents.\nIt is the movement of rocks and other particles along slopes and hills because of the action of gravity and force and gets amassed in the bases.\n\n2.\nIt can be mechanical, chemical or biological.\nIt can be rapid movements like rock falls or landslides or slower movements like erosion. \n\n3.\nIt does not result in the occurence of any natural disaster.\nIt can result in disaster like landslides.\n\n4.\n Weathering is of three types &ndash; Mechanical, Chemical and Biological.\nMass wasting is of two types &ndash; Rapid and Slow.\n\n5.\nBreaking or weakening of rocks is called as weathering.\nWhen weathered rock material moves down the slopes due to gravity and accumulate near the foothills or gentle slopes, it is mass wasting.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Write whether the statement are true or false. Correct the incorrect one. Climate affects earthquakes.",
+    "answer": "False",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Write Whether the Statement Are True Or False. Correct the Incorrect One. Mechanical Weathering is Less Effective in Humid Climates.",
+    "answer": "True False",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Write whether the statement are true or false. Correct the incorrect one. Mechanical weathering happens on a large scale in dry climates.",
+    "answer": "True False",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Write Whether the Statement Are True Or False. Correct the Incorrect One. the Breaking Down of Rocks into Smaller Particles is Called Weathering.",
+    "answer": "True False",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Write whether the statement are true or false. Correct the incorrect one. Lateritic rocks are formed through exfoliation.",
+    "answer": "False",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Complete the flowchart below. Weathering process",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Identify the Type of Weathering from the Given Description. Some Animals Live Inside the Grounds by Making Burrows.",
+    "answer": "Biological weathering\nExplanation:\nAnts make large anthills. Rats, mice, rabbits and other worms and insects make burrows in the ground. These animals are called burrowing animals. Because of their activity, weathering of rock occurs. Besides these, algae, moss, lichen, other flora etc. grow in the rocks. They also help in weathering.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Identify the Type of Weathering from the Given Description. the Rock Rusts.",
+    "answer": "Chemical weathering\nExplanation:\nThis process occurs in rocks which have iron present in them. The iron in the rock comes in contact with water and chemical reaction takes place between iron and oxygen. Hence, a reddish coloured layer forms on the rocks. This is called rust.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Identify the type of weathering from the given description. Water which has accumulated in the crevices of the rocks freezes. Consequently, the rock break .",
+    "answer": "Mechanical weathering\nExplanation:\nWhen the water solidifies and becomes frost, its volume and dimensions increases. The particles of water expand. When the temperature falls below 0 ̊ and becomes negative, the water that has accumulated in the crevices and joints of the rock freezes. This created pressure within the rocks resulting in its weathering.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Identify the type of weathering from the given description. The pipes supplying water in colder regions break.",
+    "answer": "Mechanical weathering\nExplanation:\nWhen the water solidifies and becomes frost, its volume and dimensions increases. The particles of water expand. When the temperature falls below 0 ̊ and becomes negative, the water that has accumulated within the pipes freezes. This created pressure within the pipes will culminate in its breaking.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Identify the type of weathering from the given description. Sand formation occurs in deserts.",
+    "answer": "Mechanical weathering\nExplanation:\nWith the increase in temperature, the minerals and components in the rocks expand and enlarge. With the fall in temperature, it contracts and reduces. This results in the accumulation of pressure between the cracks and joints in the rocks. They disintegrate with the increase in the pressure. This weathering results in the formation of sand.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Using the internet, look for incidences of a few landslides that have occurred in India and write about them briefly.",
+    "answer": "Using the internet, look for incidences of a few landslides that have occurred in India and write about them briefly.\n\nGuwahati Landslide, Assam: The landslide took place on September 18, 1948 due to heavy rains. Over 500 people died in the landslide, and according to the reports, the landslide buried an entire village.\nDarjeeling Landslide, West Bengal: The landslide happened around October 4, 1968. The landslide was triggered by floods, and the 60 km long highway was cut into 91 parts. As per reports, thousands of people died in the landslide.\nMalpa Landslide, Uttarakhand: Consecutive landslides occurred between August 11 and August 17 in 1998 in the village of Malpa, where over 380 people died as the entire village washed away in the landslide. The landslide is one of the worst landslides in India.\nMumbai Landslide, Maharashtra: The landslide was caused in July 2000. The landslide took place in the suburbs of Mumbai due to heavy rains, which was followed by land erosion. As per reports, around 67 people died, and the local trains were also stricken.\nAmboori Landslide, Kerala: The landslide was known as the worst landslide in Kerala's history. The landslide occurred on November 9, 2001, due to heavy rains, and around 40 people died in the incident.\nKedarnath Landslide, Uttarakhand: The landslide took place on June 16, 2013, and was the result of Uttarakhand floods. Over 5700 were reported dead, and over 4200 villages had been affected by the floods and post-flood landslides.\nMalin Landslide, Maharashtra: This landslide occurred on July 30, 2014, in a village in Malin. The landslide occurred due to heavy rainfall, and around 151 people died and 100 people went missing after the disaster.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-1",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Rewrite the correct statement: The temperature range helps the wind in its work.",
+    "answer": "Correct Incorrect",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Rewrite the correct statement: River’s work is more prominent than other agents of erosion in desert regions.",
+    "answer": "Incorrect",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Rewrite the correct statement: The work of groundwater is effective in the area with soft rocks.",
+    "answer": "This statement is correct.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Rewrite the correct statement: The work of wind is not limited like river, glacier or the sea waves and takes place everywhere.",
+    "answer": "Correct Incorrect",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Correct and rewrite the incorrect statement: The ice on the lateral side of the glacier moves faster than the ice at the base.",
+    "answer": "This statement is incorrect.\nCorrect statement:\nThe ice in the middle of a glacier actually flows faster than the ice along the sides of a glacier.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Correct and rewrite the incorrect statement: The depositional work by rivers happens because of gentle slope, reduced speed and transported sediments.",
+    "answer": "Correct Incorrect",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Correct and rewrite the incorrect statement: A river flows at a faster speed than the glacier.",
+    "answer": "CorrectIncorrect",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Correct and Rewrite the Incorrect Statement: the Speed of the Glacier is More on Both the Banks than in the Middle.",
+    "answer": "Incorrect",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Identify the Wrong Pair (1) Deposition - V–Shaped Valley (2) Transport - Ripple Marks (3) Erosion - Mushroom Rocks",
+    "answer": "Deposition - V-shaped valleyTransport - Ripple MarksErosion - Mushroom Rocks",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Identify and name the landform in the following diagram:",
+    "answer": "V-shaped valley",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Identify and name the landform in the following diagram:",
+    "answer": "Canyon",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Identify and name the landform in the following diagram:",
+    "answer": "Delta",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following table by classifying the landforms according to their agents of erosion. (waterfall, delta, cirque, arete, barchans, moraine, pothole, mushroom rock, sinkholes, beach, pillars",
+    "answer": "Rivers\nWind\nGlacier\nSea waves\nGround Water\n\nWaterfall\nBarchans\nCirque\nBeach\nSinkholes\n\nDelta\nMushroom rock\nAretes\nLagoons\nPillars\n\nPothole\n \nMoraine",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "List the landforms that are a result of the erosional work of the rivers.",
+    "answer": "The following landforms are formed by the erosional work of the rivers and they are:\n\nV-shaped Valley: The formation of a V-shaped valley is a direct result of a river&rsquo;s erosional activity. Over time, as the river carries more sediment, it expends more energy on transportation, leading to reduced erosion of the riverbed itself. However, erosion of the valley&rsquo;s sides and banks intensifies, causing the sides to retreat and the valley to broaden, forming a shape similar to the letter &lsquo;V&rsquo; with nearly vertical sides.\nGorge: Found primarily in a river&rsquo;s upper course, a gorge is a deep, slender valley characterized by its steep sides. In regions with mountains, rivers flow swiftly, causing more erosion at the riverbed than at the banks. This process creates a gorge, notable for its precipitous sides and confined riverbed.\nWaterfall: Waterfalls emerge from the erosional processes of a river. As river water travels over elevated terrain, it plunges down cliffs, creating waterfalls. In areas where hard and soft rock formations are adjacent, the softer rock erodes more quickly than the harder rock. This uneven erosion along the riverbed results in the creation of a waterfall due to the disparity in height.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Which agent is responsible for formation of stalactites and stalagmites and where are they formed?",
+    "answer": "The work of groundwater is responsible for the formation of stalactites and stalagmites.\nIn areas of limestone, the alkaline water seeps through the roof of the limestone caves.\nWhen this water evaporates, minerals get deposited at the bottom and at the top of the limestone caves. This leads to formation of stalactites and stalagmites.\nWater from the end of the stalactite leaves more calcite in a pile on the cave floor, and pretty soon a cone-like stalagmite forms. That's why stalactites and stalagmites are usually formed in pairs.\nSometimes they grow together to form a pillar or column.\nThey are formed in the Bora caves of Vishakhapatnam district in Andhra Pradesh and this is considered as one of the major limestone caves in India.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "List the landforms that are produced by the depositional work of the sea waves.",
+    "answer": "Following are the landforms are formed by the depositional work of the sea waves.\n\nBeaches: Land between two headlands. Because of the headlands, coast is somewhat protected from the onslaught of the waves.\nSandbars: The landforms are produced due to deposition of sand on the sea coasts. Beach is one of them. The waves carry away the sand on the beaches.\nLagoons: Lagoons are commonly divided into coastal lagoons and atoll lagoons. Both types of lagoon lakes are shallow and are separated from the main sea.\nSea arches: The sea arches is the tall, rocky part of the sea that is formed by the action of the sea. These rocky beaches are usually created by continuous erosion of the waves and physical and chemical reactions to the rocks.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Name the types of moraines.",
+    "answer": "Depending on the location of the deposits, moraines can be divided into 4 types:\n\nGround moraines: If the lower part of a glacier is heavily charged with debris which it cannot transport, the excess load is deposited as ground moraine. It consists of an irregular sheet of glacial drift over the valley floor.\nLateral moraines: Lateral moraines form along each side of a valley glacier. It is a ridge of glacial load by the side of a glacier or lying along the side of a valley which was formerly occupied by a glacier.\nMedial moraines: When two glaciers flow side by side, they do not unite. The result is that two lateral moraines of these glaciers mingle together, giving rise to a medial moraine\nTerminal moraines: End moraines that mark the farthest advance of the glacier's snout are called terminal moraines. When the snout remains stationary for a long period of several years, an arcuate ridge comprising glacial debris is built up.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Observe the following picture carefully. Identify the landforms formed by different agents of erosion. Number them with pencil here and write their names in the sequence in your notebook.",
+    "answer": "Sea Arch\nBeach\nLagoons \nCirques\nHorn\n'U' shaped Valley\nLateral Moraines",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Go to a River Bank Or a Sea Coast and Observe the Erosional, Depositional and Transportational Work Done by Them.",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Make a Collage of Pictures of Land Forms by Collecting Them from Magazines and Newspapers.",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Exogenetic Movements Part-2",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Identify the Precipitation Type with the Help of the Description Given:",
+    "answer": "Rainfall",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Identify the precipitation type with the help of the description given: It seems as if water droplets are floating in the atmosphere. In London,",
+    "answer": "Fog",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Identify the precipitation type with the help of the description given: It never precipitates like this in equatorial areas. Precipitation in the solid form sometimes causes damage to the crops.",
+    "answer": "Hailstones",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Identify the precipitation type with the help of the description given: A white cotton like layer spreads on the earth’s surface. Because of this form of precipitation",
+    "answer": "Snow",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Look at the following picture and identify the correct rainfall type.",
+    "answer": "Convectional rainfall is what the image shows, and it happens in tropical areas. Precipitation results from the upward flow of warm, humid air that cools, condenses, and forms clouds. Areas like the Congo River basin in Africa and the Amazon basin in South America frequently experience this kind of rainfall.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Look at the following picture and identify the correct rainfall type.",
+    "answer": "Orographic rainfall",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Look at the following picture and identify the correct rainfall type.",
+    "answer": "Cyclonic rainfall occurs more in temperate zones.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Look at the figures above and answer the following questions: 1) In fig B, on which side of the mountain is it raining more? 2) Shade the rain shadow region in fig B and name it.",
+    "answer": "From the given figure it is understood that it is raining more on the left side of the mountain. The windward side of the mountains gets more rain.\n\nFig A shows Convectional Rainfall whereas the Fig C shows Cyclonic rainfall.\nCyclonic rainfall are associated with Stormy winds and floods.\nSingapore experiences Convectional rainfall.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Identify the odd man out: Orographic rainfall, Acid rain, Cyclonic rainfall, Convectional rainfall",
+    "answer": "cid rainCyclonic rainfallConvectional rainfall",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Identify the odd man out: Snowfall, Rainfall, Hailstones, Dew",
+    "answer": "Dew",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Identify the odd man out: Thermometer, rain gauge, anemometer, measuring jar",
+    "answer": "Measuring jar",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "In what ways does precipitation occur on the earth?",
+    "answer": "Precipitation occurs when water falls as a solid or liquid from the clouds to the earth's surface. The most common types of precipitation are snow, hailstorms, and rainfall.\n\nSnow: When the temperature in the atmosphere falls below the freezing point, water vapour directly turns into snowflakes. This is called sublimation. Here, the vapour in the form of gas transforms into solid snow. Precipitation in the form of solid particles of snow is known as snowfall.\nHail: When there is lot of heat on the earth&rsquo;s surface, the upward air flow blows at a greater speed. Because of this upward flow, the temperature of the air reduces and the condensation of the water vapour takes place. Dark clouds are formed. Because of the upward movement of air, these water droplets go to a higher altitude. Here, solidification of these droplets occur and hailstones are formed.\nRainfall: We get water generally in the form of rainfall. The temperature of the air with water vapour reduces when it goes higher and condensation of the vapour occurs. Clouds formed with the condensed water droplets and dust particles accumulate. As these water droplets increase in the size, they cannot float in the air anymore because of their weight. They come down as rainfall.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Comment on the rainfall occurring in the rain shadow area.",
+    "answer": "Winds coming from lakes or seas are moisture-laden. They are obstructed by the high mountain ranges coming in their way.\nThey start going upwards along the slope of the mountains. The temperature of these winds drops, condensation occurs, and rainfall takes place. Thus, because of the obstruction of the mountains, this type of rainfall occurs.\nThe windward side of the mountains gets more rain; the amount of vapour in the air reduces after crossing the mountain, and the moisture-holding capacity of the air increases.\nThe leeward side of the mountain gets less rainfall, and hence this area is identified as a rain-shadow area.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Which type of rainfall occurs in most of the world? Why?",
+    "answer": "Orographic Rainfall occurs when moisture-laden winds are forced to rise because of mountain barriers. This type of rainfall is the most common and widespread in the world.\nSince about 70 percent of Earth&rsquo;s surface is water, moist winds often move from sea to land. Unlike this, convectional and cyclonic rainfall are not experienced everywhere or throughout the year.\nDue to the presence of numerous mountains and hill ranges, moist winds are obstructed, pushed upward, condensed, and then bring rainfall. The extent of this rainfall is very wide and found globally.\nBy contrast, convectional rainfall is restricted to equatorial regions, and cyclonic rainfall mainly occurs in the temperate zones. Therefore, orographic rainfall is received in the highest proportion across the world.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "If condensation occurs closer to the earth’s surface, what types of forms become visible?",
+    "answer": "If condensation and solidification of the water vapour in the atmosphere closer to the earth's surface are visible, they are in the form of fog, dew or frost.\n\nFog:\n\nThe temperature of the layers of the air near the surface of the earth reduces. As the temperature reduces, water vapour condenses.\nIn this process the water vapour turns into microscopic water particles and floats in the air.\nWhen the density of these droplets in the air increases it leads to the formation of fog.\n\nDew:\n\nWhen moisture-laden air near the earth's surface comes in contact with very cold objects condensation of water vapour takes place.\nThey turn into very small water droplets and stick to the surface of cold objects, e.g., leaves and this is called dew.\n\n Frost:\n\nWhen the temperature of the air reaches less than 0°C, the water droplet stuck to the surface of the cold objects and freezes.\nThis frozen water droplet is called frost.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "What precautions should be taken while measuring rainfall?",
+    "answer": "The following precautions should be taken while measuring rainfall.\n\nRainfall is a significant source of water for the planet Earth and is created when water vapour and air temperature change. \nThe term \"rain gauge\" refers to the device that measures rainfall. \nThe rain that falls into the funnel, which is used to measure it, is collected in a bottle that is attached to the gauge.\nThe funnel has a certain diameter. A measuring jug is then used to measure the gathered water. Rain gauge readings should be taken every three hours in locations experiencing high rainfall. Rain is measured in millimetres by the measuring jar.\nThe gauge must be maintained on a flat-mount, 30 cm high, on open ground.\nSo that there are no obstacles in the way of collecting the rainwater.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Distinguish between Dew and frost.",
+    "answer": "Sr. No.\nDew\nFrost\n\n1.\nWhen moisture-laden air near the earth&rsquo;s surface comes into contact with very cold objects, condensation of vapour takes place into small water droplets called dew. \nIf the temperature of the air is less then 0°C, the water droplets stuck to the surface of cold objects, freezes forming frost.\n\n2.\nWater vapour condenses and forms droplets of water.\nWater droplets stuck to cold surface turns to frozen water droplets.\n\n3.\nDew sticks to the cold object but does not freeze.\nIt sticks to the cold object and freeze.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Distinguish between Snow and hail.",
+    "answer": "Sr. No.\nSnow\nHail\n\n1.\nForm of precipitation where water vapour freezes into ice crystals, forming snowflakes.\nForm of precipitation where raindrops freeze into hard balls of ice inside thunderclouds.\n\n2.\nCaused when temperature falls below 0°C.\nCaused by strong upward winds in thunderclouds that freeze raindrops into ice.\n\n3.\nSnow is soft, light, and flaky.\nHail is hard, solid, and round.\n\n4.\nAccumulation can block transport and communication.\nCan damage crops and property and even cause injuries.\n\n5.\nSnowflakes are hexagonal crystals.\nHailstones have concentric ice layers.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Using the rain gauge in your school, measure the rainfall continuously for one week occurring in your surroundings. Make a bar graph",
+    "answer": "The rainfall was monitored daily for one week in and around my school premises and the result obtained are presented in the form of the Bar Diagram Below.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Precipitation",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Tick the correct box according to the salinity of the ocean water ✓. (a) Slanting sunrays, melting snow. (b) Cloudy sky, rainfall throughout the year.",
+    "answer": "Salinity\n\n \nHigh \nMedium \nLow \n\n(a) Slanting sunrays, melting snow.\n \n \n✓\n\n(b) Cloudy sky, rainfall throughout the year.\n \n✓\n \n\n(c) Clear skies for the most part, perpendicular sunrays.\n✓\n \n \n\n(d) Less supply of freshwater, desert area around.\n✓\n \n \n\n(e) Low temperatures, ample supply of river water.\n \n \n✓\n\n(f) Continental location, desert around, low rainfall.\n✓",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Geography Social Science 2 9th",
+    "chapter": "Geography [English] Standard 9 Properties of sea water",
+    "questionNumber": 1,
+    "isFree": true
+  }
+]

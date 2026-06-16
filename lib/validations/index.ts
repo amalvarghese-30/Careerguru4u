@@ -107,6 +107,39 @@ export const blogPostSchema = z.object({
   coverImage: z.string().optional(),
 });
 
+export const resumeSchema = z.object({
+  templateId: z.string().min(1, "Template is required"),
+  title: z.string().optional(),
+  personalInfo: z.object({
+    fullName: z.string().min(2, "Full name is required"),
+    email: z.string().email("Invalid email"),
+    phone: z.string().min(10, "Valid phone number is required"),
+    location: z.string().min(1, "Location is required"),
+    linkedin: z.string().optional(),
+    portfolio: z.string().optional(),
+  }),
+  education: z.array(z.object({
+    degree: z.string().min(1, "Degree is required"),
+    institution: z.string().min(1, "Institution is required"),
+    year: z.string().optional(),
+    score: z.string().optional(),
+  })).min(1, "At least one education entry is required"),
+  skills: z.array(z.string()).min(1, "At least one skill is required"),
+  experience: z.array(z.object({
+    title: z.string().optional(),
+    company: z.string().optional(),
+    duration: z.string().optional(),
+    description: z.string().optional(),
+  })).optional().default([]),
+  projects: z.array(z.object({
+    name: z.string().optional(),
+    description: z.string().optional(),
+    link: z.string().optional(),
+    technologies: z.array(z.string()).optional(),
+  })).optional().default([]),
+  achievements: z.array(z.string()).optional().default([]),
+});
+
 export const settingsSchema = z.object({
   siteName: z.string().optional(),
   tagline: z.string().optional(),

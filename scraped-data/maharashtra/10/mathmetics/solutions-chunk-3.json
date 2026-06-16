@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Find how many three digit natural numbers are divisible by 5.",
+    "answer": "The three digit natural numbers divisible by 5 are 100, 105, 110, …, 995.\nThe above sequence is an A.P.\n∴ a = 100, d = 105 &ndash; 100 = 5\nLet the number of terms in the A.P. be n.\nThen, tn = 995\nSince, tn = a + (n &ndash; 1)d\n∴ 995 = 100 + (n &ndash; 1)5\n∴ 995 &ndash; 100 = (n &ndash; 1)5\n∴ 895 = (n &ndash; 1)5\n∴ n &ndash; 1 = 895/5\n∴ n &ndash; 1 = 179\n∴ n = 179 + 1 = 180\n∴ There are 180 three digit natural numbers which are divisible by 5.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "The 11th term and the 21st term of an A.P. are 16 and 29 respectively, then find the 41th term of that A.P.",
+    "answer": "Let a be the first term and d be the common difference.\nt11 = 16, t21 = 29 ...(Given)\ntn = a + (n − 1)d\n∴ t11 = a + (11 − 1)d\n∴ 16 = a + 10d \n∴ a + 10d = 16 ...(i)\nSimilarly, \ntn = a + (n − 1)d\n∴ t21 = a + (21 − 1)d\n∴ 29 = a + 20d \n∴ a + 20d = 29 ...(ii)\nSubtracting equation (i) from (ii), we get,\n\\[\\begin{array}{l} \n\\phantom{\\texttt{0}}\\texttt{ a + 20d = 29}\\\\ \\phantom{\\texttt{}}\\texttt{- a + 10d = 16}\\\\ \\hline\\phantom{\\texttt{}}\\texttt{ (-) (-) (-)}\\\\ \\hline \\end{array}\\]\n∴ 10d = 13\n∴ d = 13/10\nPutting the value of d = 13/10 in equation (i),\na + 10d = 16 \n∴ a + 10(13/10) = 16\n∴ a + 13 = 16\n∴ a = 16 − 13\n∴ a = 3\ntn = a + (n − 1)d\n∴ t41 = 3 + (41 − 1)(13/10)\n∴ t41 = 3 + 40 × 13/10\n∴ t41 = 3 + 52\n∴ t41 = 55\n∴ 41st term of the A.P. is 55.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "11, 8, 5, 2,.... in this A.P. Which Term is Number –151?",
+    "answer": "The given sequence is 11, 8, 5, 2,.... &ndash;151.\n\\[a_n = a + \\left( n - 1 \\right)d\\]\n\\[ \\Rightarrow - 151 = 11 + \\left( n - 1 \\right)\\left( - 3 \\right)\\]\n\\[ \\Rightarrow - 151 = 11 - 3n + 3\\]\n\\[ \\Rightarrow - 151 = 14 - 3n\\]\n\\[ \\Rightarrow 3n = 14 + 151\\]\n\\[ \\Rightarrow 3n = 165\\]\n\\[ \\Rightarrow n = 55\\]\nHence, 55th term is number &ndash;151.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "In the natural numbers from 10 to 250, how many are divisible by 4?",
+    "answer": "The least positive natural number from 10 to 250 divisible by 4 is 12.\nThe sequence divisible by 4 is 12, 16, 20, .... , 248.\nNow,\n\\[t_n = a + \\left( n - 1 \\right)d\\]\n\\[ \\Rightarrow 248 = 12 + \\left( n - 1 \\right)\\left( 4 \\right)\\]\n\\[ \\Rightarrow 248 = 12 + 4n - 4\\]\n\\[ \\Rightarrow 248 = 8 + 4n\\]\n\\[ \\Rightarrow 248 - 8 = 4n\\]\n\\[ \\Rightarrow 4n = 240\\]\n\\[ \\Rightarrow n = 60\\]\n\nHence, 60 numbers are divisible by 4.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "In an A.P. 17th term is 7 more than its 10th term. Find the common difference.",
+    "answer": "In an A.P., 17th term is 7 more than its 10th term. ...(Given)\nThe formula for nth term of an A.P. is tn = a + (n − 1)d\nThe 10th term can be written as,\nt10 = a + (10 − 1)d \nt10 = a + 9d\nThe 17th term can be written as,\nt17 = a + (17 − 1)d \nt17 = a + 16d \nNow, according to the question,\nt17 = 7 + t10\nSubstituting the value of t17 and t10 in the above equation,\n∴ a + 16d = 7 + a + 9d\n∴ 16d = 7 + 9d\n∴ 16d − 9d = 7\n∴ 7d = 7\n∴ d = 7/7 = 1\nHence, the common difference of the given AP is 1.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "First term and the common differences of an A.P. are 6 and 3 respectively; find S27. Solution: First term = a = 6, common difference = d = 3, S27 = ?",
+    "answer": "It is given that,\nFirst term (a) = 6\nCommon difference (d) = 3 \nSn = n/2 [bb(2a) + (n - 1)d] - Formula\n∴ S27 = 27/2 [2(6) + (27 - 1)bb((3))]\n= 27/2 (12 + 26 (3))\n= 27/2 (12 + 78)\n= 27/2 xx bb90\n= 1215\n\nHence, S27 = 1215.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "Find the sum of first 123 even natural numbers.",
+    "answer": "2, 4, 6, ..., 2n are the even natural numbers.\nHere, t1 = a = 2, t2 = 4, t3 = 6\nFirst term (a) = 2\nCommon difference (d) = t2 − t1 = 4 − 2 = 2\nNumber of terms (n) = 123\nWe know that,\nSn = n/2[2a + (n − 1)d]\n∴ S123 = 123/2 [2 × 2 + (123 − 1) × 2]\n∴ S123 = 123/2 [4 + 122 × 2]\n∴ S123 = 123/2 [4 + 244]\n∴ S123 = 123/2 × 248\n∴ S123 = 123 × 124\n∴ S123 = 15252\n\nHence, the sum of first 123 even natural numbers is 15252.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "Find the sum of all even numbers between 1 and 350.",
+    "answer": "1Show SolutionThe given sequence is 2, 4, 6, 8 ... 344, 346, 348\nNow, surely the above-mentioned range is in an A.P. or Arithmetic Progression. (Because the difference between two consecutive numbers in the given series is always constant.)\nThe above sequence is an A.P. with\na = t1 = 2,\nd = t2 - t1\n= 4 - 2\n= 2\ntn = 348\nSince tn = a + (n - 1) d\n∴ 348 = 2 + (n - 1) 2\n∴ 348 = 2 - 2n + 2\n∴ 348 = 2 + 2n - 2\n∴ 348 = 2n\n∴ n = 348/2\n∴ n = 174\nThus, the number of terms (n) = 174.\nNow, Sn = n/2 [2a + (n - 1)d]\n∴ S174 = 174/2 [2(2) + (174 - 1)2]\n= 87 [4 + (173)2]\n= 87 [4 + 346]\n= 87 × 350\n= 30450\nHence, the sum of all even numbers between 1 and 350 is 30450.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "In an A.P. 19th term is 52 and 38th term is 128, find sum of first 56 terms.",
+    "answer": "For an A.P., Let a be the first term and d be the common difference.\nt19 = 52 and t38 = 128 ...(Given)\nSince tn = a + (n &ndash; 1)d\nFor t19 = 52,\n∴ t19 = a + (19 &ndash; 1)d\n∴ 52 = a + 18d\n∴ a + 18d = 52 ...(i)\nFor t38 = 128,\n t38 = a + (38 &ndash; 1)d\n∴ 128 = a + 37d\n∴ a + 37d = 128 ...(ii)\nSubtracting equation (i) from (ii), we get,\n\\[\\begin{array}{l} \n\\phantom{\\texttt{0}}\\texttt{ a + 37d = 128}\\\\ \\phantom{\\texttt{}}\\texttt{- a + 18d = 52}\\\\ \\hline\\phantom{\\texttt{}}\\texttt{ (-) (-) (-)}\\\\ \\hline \\end{array}\\]\n∴ 19d = 76\n∴ d = 4\nSubstituting d = 4 in equation (i),\na + 18d = 52\n∴ a + 18 × 4 = 52\n∴ a + 72 = 52\n ∴ a = 52 &ndash; 72\n ∴ a = &ndash; 20\nNow, Sn = n/2 [ 2a + (n - 1)d]\n∴ S56 = 56/2 [2 × (&ndash; 20) + (56 - 1) × 4]\n∴ S56 = 28(&ndash; 40 + 220)\n∴ S56 = 28 × 180\n∴ S56 = 5040\n∴ The sum of the first 56 terms is 5040.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following activity to find the sum of natural numbers from 1 to 140 which are divisible by 4. Sum of numbers from 1 to 140, which are divisible by 4 = □",
+    "answer": "From 1 to 140, natural numbers divisible by 4 are 4, 8, ... 136.\na = 4, d = 4\nNow, \n\\[t_n = a + \\left( n - 1 \\right)d\\]\n\\[136 = 4 + \\left( n - 1 \\right)4\\]\n\\[ \\Rightarrow 136 = 4 + 4n - 4\\]\n\\[ \\Rightarrow 4n = 136\\]\n\\[ \\Rightarrow n = 34\\]\nThus, number of terms (n) = 34.\nWe know that,\n\\[S_n = \\frac{n}{2}\\left( 2a + \\left( n - 1 \\right)d \\right)\\]\n\\[ \\therefore S_{34} = \\frac{34}{2}\\left( 2(4) + \\left( 34 - 1 \\right)\\left( 4 \\right) \\right)\\]\n\\[ = 17\\left( 8 + 132 \\right)\\]\n\\[ = 17\\left( 140 \\right)\\]\n\\[ = 2380\\]\n\nHence, the sum of numbers from 1 to 140, which are divisible by 4 = 2380",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "Sum of first 55 terms in an A.P. is 3300, find its 28^th term.",
+    "answer": "For an A.P., let a be the first term and d be the common difference.\nS55 = 3300 ...[Given]\nWe know that, \nSince Sn = n/2 [2a + (n - 1)d]\n∴ S₅₅ = 55/2 [2a + (55 - 1)d]\n∴ 3300 = 55/2 [2a + 54d]\n∴ 3300 = 55/2 xx 2[a + 27d]\n∴ 3300 = 55[a + 27d]\n∴ a + 27d = 3300/55\n∴ a + 27d = 60 ...(i)\nNow, tn = a + (n &ndash; 1)d\n∴ t28 = a + (28 &ndash; 1)d\n∴ t28 = a + 27d\n∴ t28 = 60 ...[From (i)]\n∴ 28th term of A.P. is 60.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "In an A.P. sum of three consecutive terms is 27 and their product is 504, find the terms.(Assume that three consecutive terms in A.P. are a – d, a, a + d).",
+    "answer": "Let the three consecutive terms of an A.P. be a &ndash; d, a, a + d.\nAccording to the first condition\na &ndash; d + a + a + d = 27\n3a = 27\na = 27/3\na = 9\nAccording to the second condition\n(a &ndash; d) × (a) × (a + d) = 504\n(9 &ndash; d) × 9 × (9 + d) = 504 .....(∵ a = 9)\n(9 &ndash; d) (9 + d) = 504/9\n(9 &ndash; d) (9 + d) = 56\n92 &ndash; d2 = 56 .....[∵ a2 &ndash; b2 = (a &ndash; b) (a + b)]\n81 &ndash; d2 = 56\n81 &ndash; 56 = d2\n25 = d2\nTaking square root on both sides\n√25 = √(\"d\"²)\n&plusmn;5 = d\na = 9, d = 5\nThree consecutive terms of an A.P. are\na &ndash; d = 9 &ndash; 5 = 4\na = 9\na + d = 9 + 5 = 14\n4, 9, 14\na = 9, d = &ndash;5\na &ndash; d = 9 &ndash; (&ndash;5) = 9 + 5 = 14\na = 9\na + d = 9 + 5 = 14\n14, 9, 4\n∴ 4, 9, 14 or 14, 9, 4",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "Find Four Consecutive Terms in an A.P. Whose Sum is 12 and Sum of 3rd and 4th Term is 14. (Assume the Four Consecutive Terms in A.P. Are a – D, A, a + D, a +2d)",
+    "answer": "ssume that the four consecutive terms in A.P. are a &ndash; d, a, a + d, a +2d . \nIt is given that,\nSum of four consecutive terms = 12\nSum of 3rd and 4th term = 14\n\\[\\left( a - d \\right) + a + \\left( a + d \\right) + \\left( a + 2d \\right) = 12\\]\n\\[ \\Rightarrow 4a + 2d = 12\\]\n\\[ \\Rightarrow 2a + d = 6\\]\n\\[ \\Rightarrow 2a = 6 - d . . . \\left( 1 \\right)\\]\n\\[\\left( a + d \\right) + \\left( a + 2d \\right) = 14\\]\n\\[ \\Rightarrow 2a + 3d = 14\\]\n\\[ \\Rightarrow 6 - d + 3d = 14\\]\n\\[ \\Rightarrow 2d = 14 - 6\\]\n\\[ \\Rightarrow 2d = 8\\]\n\\[ \\Rightarrow d = 4 \\left( \\text { from} \\left( 1 \\right) \\right)\\]\n\\[ \\Rightarrow 2a = 6 - d\\]\n\\[ \\Rightarrow 2a = 6 - 4\\]\n\\[ \\Rightarrow 2a = 2\\]\n\\[ \\Rightarrow a = 1\\]\nHence, the terms are &ndash;3, 1, 5 and 9.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "If the 9th term of an A.P. is zero then show that the 29th term is twice the 19th term?",
+    "answer": "It is given that,\nt9 = 0 \nNow,\ntn = a + (n - 1)d\nt9 = a + (9 - 1)d\n&rArr; 0 = a + 8d\n&rArr; a = -8d ...(1)\nt29 = a + (29 - 1)d\n= -8d + 28d \n= 20d ...(2)\nt19 = a + (19 - 1)d\n= -8d + 18d\n= 10d ...(3)\nFrom (2) and (3), we get\nt29 = 2t19\nHence, the 29th term is twice the 19th term.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "On 1st Jan 2016, Sanika decides to save Rs 10, Rs 11 on second day, Rs 12 on third day. If she decides to save like this, then on 31st Dec 2016 what would be her total saving?",
+    "answer": "ccording to the question, we can form an A.P.\n10, 11, 12, 13, ……\nHence, the first term a = 10\nSecond term t1 = 11\nThird term t2 = 12\nThus, common difference d = t2 &ndash; t1 = 12 &ndash; 11 = 1\nHere, number of terms from 1st Jan 2016 to 31st Dec 2016 is,\nn = 366\nWe need to find S366\nNow, by using the sum of the nth term of an A.P. we will find its sum\nSn = n/2[2a + (n - 1)d]\nWhere, n = no. of terms\na = first term\nd = common difference\nSn = sum of n terms\nThus, on substituting the given value in the formula we get,\n&rArr; S366 = 366/2[2 × 10 + (366 - 1) × 1]\n&rArr; S366 = 183 [ 20 + 365]\n&rArr; S366 = 183 × 385\n&rArr; S366 = Rs 70,455",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "A man borrows Rs 8000 and agrees to repay with a total interest of Rs 1360 in 12 monthly installments. Each installment being less than the preceding one by Rs 40.",
+    "answer": "Money he borrows = Rs. 8000\nTotal interest = Rs. 1360 \nTotal money he will pay after 12 months = Rs (8000 + 1360) = Rs 9360\nn = 12 and S12 = 9360\nEach installment being less than the preceding one by Rs 40.\nd = −40\nNow,\nSn = n/2 [2a + (n − 1)d]\n∴ S12 = 12/2 [2a + (12 − 1)(− 40)]\n∴ 9360 = 6[2a + 11 × (− 40)]\n∴ 9360 = 6(2a − 440)\n∴ 9360/6 = 2a − 440\n∴ 1560 = 2a − 440\n∴ 1560 + 440 = 2a\n∴ 2000 = 2a\n∴ a = 2000/2\n∴ a = 1000\ntn = a + (n − 1)d\n∴ t12 = 1000 + (12 − 1)(− 40)\n∴ t12 = 1000 + 11(− 40)\n∴ t12 = 1000 − 440\n∴ t12 = 560\n∴ Amount of the first instalment is Rs. 1000 and that of the last instalment is Rs. 560.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "Sachin Invested in a National Saving Certificate Scheme. in the First Year He Invested Rs 5000 , in the Second Year Rs 7000, in the Third Year Rs 9000 and So On. Find the Total Amount that He",
+    "answer": "Sachin invested in first year = Rs 5000\nSecond year investment = Rs 7000 \nThird year investment = Rs 9000\nTotal investment = Rs (5000 + 7000 + 9000 + ..... + in 12 years)\nHere,\na = 5000\nd = 2000\nn = 12\nNow,\n\\[S_n = \\frac{n}{2}\\left( 2a + \\left( n - 1 \\right)d \\right)\\]\n\\[ S_{12} = \\frac{12}{2}\\left( 2a + \\left( 12 - 1 \\right)d \\right)\\]\n\\[ = \\frac{12}{2}\\left( 2\\left( 5000 \\right) + \\left( 12 - 1 \\right)\\left( 2000 \\right) \\right)\\]\n\\[ = 6\\left( 10000 + 22000 \\right)\\]\n\\[ = 6\\left( 32000 \\right)\\]\n\\[ = 192000\\]\n\nHence, the total amount that he invested in 12 years is Rs 192000.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 43,
+    "isFree": true
+  },
+  {
+    "question": "There is an auditorium with 27 rows of seats. There are 20 seats in the first row, 22 seats in the second row, 24 seats in the third row and so on.",
+    "answer": "Total number of rows = 27\nNumber of seats in the first row = 20 \nNumber of seats in the second row = 22\nNumber of seats in the third row = 24\nTotal number of seats = 20 + 22 + 24 + ..... + upto 27 rows\nHere,\na = 20\n\nd = 22 &ndash; 20 = 2\nWe know that, tn = a + (n &ndash; 1)d\nt15 = 20 + (15 &ndash; 1) (2)\n= 20 + 14 × 2\n= 20 + 28\nt15 = 48\nNow S27 = ?\nSn = n/2 [2a + (n - 1)d]\nS27 = 27/2 [2 xx 20 + (27 - 1)2]\n= 27/2 [40 + 26 xx 2]\n= 27/2 [40 + 52]\n= 27/2 xx 92\n= 27 × 46\nS27 = 1242\nHence, the number of seats in the 15th row is 48, and there are 1242 seats in the auditorium.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 44,
+    "isFree": true
+  },
+  {
+    "question": "Kargil’S Temperature Was Recorded in a Week from Monday to Saturday. All Readings Were in A.P. the Sum of Temperatures of Monday and Saturday Was 5°C More than Sum of Temperatures of Tuesday and",
+    "answer": "The readings of the temperature were in A.P.\nLet, first term = a\ncommon difference = d \nTemperature of Monday = a\nTemperature of Tuesday = a + d\nTemperature of Wednesday = a + 2d\nTemperature of Thursday = a + 3d\nTemperature of Friday = a + 4d\nTemperature of Saturday = a + 5d\nThe sum of temperatures of Monday and Saturday was 5°C more than sum of temperatures of Tuesday and Saturday.\n\\[\\therefore a + \\left( a + 5d \\right) = 5 + \\left( a + d + a + 5d \\right)\\]\n\\[ \\Rightarrow 2a + 5d = 5 + 2a + 6d\\]\n\\[ \\Rightarrow 6d - 5d = - 5\\]\n\\[ \\Rightarrow d = - 5\\]\nAlso, the temperature of Wednesday was &ndash;30° celsius.\n\n\\[\\therefore a + 2d = - 30\\]\n\\[ \\Rightarrow a + 2\\left( - 5 \\right) = - 30\\]\n\\[ \\Rightarrow a - 10 = - 30\\]\n\\[ \\Rightarrow a = - 30 + 10\\]\n\\[ \\Rightarrow a = - 20\\]\nHence, the temperature on the other five days were:\nMonday = &ndash;20° celsius\nTuesday = &ndash;25° celsius\nThursday = &ndash;35° celsius\nFriday = &ndash;40° celsius\nSaturday = &ndash;45° celsius",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 45,
+    "isFree": true
+  },
+  {
+    "question": "On the World Environment Day Tree Plantation Programme Was Arranged on a Land Which is Triangular in Shape. Trees Are Planted Such that in the First Row There is One Tree, in the",
+    "answer": "Total number of rows = 25\nNumber of trees in first row = 1\nNumber of trees in second row = 2 \nNumber of trees in third row = 3\nTotal number of trees = 1 + 2 + 3 + ..... + upto 25 rows\nHere,\na = 1\nd = 1\nn = 25\nNow,\n\\[S_n = \\frac{n}{2}\\left( 2a + \\left( n - 1 \\right)d \\right)\\]\n\\[ S_{25} = \\frac{25}{2}\\left( 2a + \\left( 25 - 1 \\right)d \\right)\\]\n\\[ = \\frac{25}{2}\\left( 2\\left( 1 \\right) + 24\\left( 1 \\right) \\right)\\]\n\\[ = \\frac{25}{2}\\left( 2 + 24 \\right)\\]\n\\[ = \\frac{25}{2}\\left( 26 \\right)\\]\n\\[ = 25 \\times 13\\]\n\\[ = 325\\]\n\nHence, the total number of trees are 325.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 46,
+    "isFree": true
+  },
+  {
+    "question": "Choose the Correct Alternative Answer For the Following Question .First Four Terms of an A.P. Are ....., Whose First Term is –2 and Common Difference is –2.(A) -2,0,2,4 (B) -2,4 ,-8,16(C)-2, -4,-6,",
+    "answer": "-2, -4,-6,-8 -2, -4 ,-8,-16",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 47,
+    "isFree": true
+  },
+  {
+    "question": "Choose the Correct Alternative Answer For the Following Question . What is the Sum of the First 30 Natural Numbers ?(A) 464 (B)465 (C)462 (D)461",
+    "answer": "465462461",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 48,
+    "isFree": true
+  },
+  {
+    "question": "Choose the Correct Alternative Answer For the Following Question . in an A.P. First Two Terms Are –3, 4 Then 21st Term is ...",
+    "answer": "137 17",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 49,
+    "isFree": true
+  },
+  {
+    "question": "Choose the Correct Alternative Answer For the Following Question . If for Any A.P. D = 5 Then T18 – T13 = ....",
+    "answer": "2530",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 50,
+    "isFree": true
+  },
+  {
+    "question": "Choose the Correct Alternative Answer For the Following Question . 15, 10, 5,... in this A.P Sum of First 10 Terms Is...",
+    "answer": "-75-12575125",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 51,
+    "isFree": true
+  },
+  {
+    "question": "Choose the Correct Alternative Answer For the Following Question . In an A.P. 1st Term is 1 and the Last Term is 20. the Sum of All Terms is = 399 Then N = ....",
+    "answer": "382119",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 52,
+    "isFree": true
+  },
+  {
+    "question": "Find the Fourth Term from the End in an A.P. –11, –8, –5,...., 49.",
+    "answer": "The given sequence is &ndash;11, &ndash;8, &ndash;5,...., 49.\n\nHere,\nFirst term (a) = &ndash;11\nCommon difference (d) = 3 \nn = 4\nLast term (l) = 49\nWe know that,\n\\[n^{th}\\text { term from the end} = l - \\left( n - 1 \\right)d\\]\n\\[ 4^{th} \\text { term from the end} = l - \\left( 4 - 1 \\right)d\\]\n\\[ = 49 - 3\\left( 3 \\right)\\]\n\\[ = 49 - 9\\]\n\\[ = 40\\]\n\nHence, the fourth term from the end is 40.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 53,
+    "isFree": true
+  },
+  {
+    "question": "In an A.P. the 10th Term is 46 Sum of the 5th and 7th Term is 52. Find the A.P.",
+    "answer": "It is given that,\nt10 = 46\nt5 + t7 = 52\nNow,\n\\[t_n = a + \\left( n - 1 \\right)d\\]\n\\[ t_{10} = a + \\left( 10 - 1 \\right)d\\]\n\\[ \\Rightarrow 46 = a + 9d\\]\n\\[ \\Rightarrow a = 46 - 9d . . . \\left( 1 \\right)\\]\n\\[ t_5 + t_7 = 52\\]\n\\[ \\Rightarrow \\left( a + \\left( 5 - 1 \\right)d \\right) + \\left( a + \\left( 7 - 1 \\right)d \\right) = 52\\]\n\\[ \\Rightarrow a + 4d + a + 6d = 52\\]\n\\[ \\Rightarrow 2a + 10d = 52\\]\n\\[ \\Rightarrow 2\\left( 46 - 9d \\right) + 10d = 52 \\left( \\text { from }\\left( 1 \\right) \\right)\\]\n\\[ \\Rightarrow 92 - 18d + 10d = 52\\]\n\\[ \\Rightarrow 92 - 8d = 52\\]\n\\[ \\Rightarrow 8d = 92 - 52\\]\n\\[ \\Rightarrow 8d = 40\\]\n\\[ \\Rightarrow d = 5\\]\n\\[ \\Rightarrow a = 46 - 9\\left( 5 \\right) \\left( \\text { from }\\left( 1 \\right) \\right)\\]\n\\[ \\Rightarrow a = 46 - 45\\]\n\\[ \\Rightarrow a = 1\\]\n\nHence, the given A.P. is 1, 6, 11, 16, ....",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 54,
+    "isFree": true
+  },
+  {
+    "question": "The A.P. in which 4th term is –15 and 9th term is –30. Find the sum of the first 10 numbers.",
+    "answer": "It is given that,\nt4 = &ndash;15\nt9 = &ndash;30\nNow,\ntn = a + (n - 1)d\nt4 = a + (4 - 1)d\n&rArr; -15 = a + 3d\n&rArr; a = -15 - 3d ...(1)\n&rArr; t9 = a + (9 - 1)d\n&rArr; -30 = a + 8d\n&rArr; a + 8d = -30\n&rArr; -15 - 3d + 8d = -30 ...(From 1)\n&rArr; -15 + 5d = -30\n&rArr; 5d = -30 + 15\n&rArr; 5d = -15\n&rArr; d = -3\n&rArr; a = -15 - 3(-3) ...(From 1)\n&rArr; a = -15 + 9\n&rArr; a = -6\nt1 = a = -6\nt2 = t1 + d = -6 - 3 = -9\nt3 = t2 + d = -9 - 3 = -12\nt4 = t3 + d = -12 - 3 = -15 \nHence, the given A.P. is &ndash;6, &ndash;9, &ndash;12, -15, ....\nNow,\n\\[S_n = \\frac{n}{2}\\left( 2a + \\left( n - 1 \\right)d \\right)\\]\n\\[ S_{10} = \\frac{10}{2}\\left( 2a + \\left( 10 - 1 \\right)d \\right)\\]\n= 5 (2 (-6) + 9 (-3))\n= 5 (-12 - 27)\n= 5 (-39)\n= -195\n\nHence, the sum of the first 10 numbers is &ndash;195.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 55,
+    "isFree": true
+  },
+  {
+    "question": "Two A.P.’ s are given 9, 7, 5, ... and 24, 21, 18, ... If nth term of both the progressions are equal then find the value of n and nth term.",
+    "answer": "The given sequence is 9, 7, 5, ...\nHere, a = 9, d = 7 &ndash; 9 = &ndash;2\ntn = a + (n &ndash; 1)d ...(Formula)\n= 9 + (n &ndash; 1) × (&ndash;2)\n= 9 &ndash; 2n + 2\n∴ tn = 11 &ndash; 2n ...(1)\nThe second A.P. is 24, 21, 18, ...\nHere, a = 24, d = 21 &ndash; 24 = &ndash;3\ntn = a + (n &ndash; 1)d ...(Formula)\n= 24 + (n &ndash; 1) × (&ndash;3)\n= 24 &ndash; 3n + 3\n∴ tn = 27 &ndash; 3n ...(2)\nFrom the given condition,\n11 &ndash; 2n = 27 &ndash; 3n\n∴ &ndash;2n + 3n = 27 &ndash; 3n\n∴ n = 16\nNow we find t16\ntn = a + (n &ndash; 1)d ...(Formula)\n∴ t16 = 9 + (16 &ndash; 1) × (&ndash;2) ...(Taking values from 1st A.P.)\n= 9 + 15 × (&ndash;2)\n= 9 &ndash; 30\n∴ t16 = &ndash;21\n∴ The value of n is 16, and the nth (16th) term is &ndash;21.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 56,
+    "isFree": true
+  },
+  {
+    "question": "If sum of 3rd and 8th terms of an A.P. is 7 and sum of 7th and 14th terms is –3 then find the 10th term.",
+    "answer": "Let the first term and common difference of an AP are a and d, respectively.\nAccording to the questiuon,\na3 + a8 = 7 and a7 + a14 = &ndash;3\n&rArr; a + (3 &ndash; 1)d + a + (8 &ndash; 1)d = 7 ...[∵ an = a + (n &ndash; 1)d]\nAnd a + (7 &ndash; 1)d + a + (14 &ndash; 1)d = &ndash;3\n&rArr; a + 2d + a + 7d = 7\nAnd a + 6d + a + 13d = &ndash;3\n&rArr; 2a + 9d = 7 ...(i)\nAnd 2a + 19d = &ndash;3 ...(ii)\nOn subtracting equation (i) from equation (ii), we get\n10d = &ndash;10\n&rArr; d = &ndash;1\n2a + 9(&ndash;1) = 7 ...[From equation (i)]\n&rArr; 2a &ndash; 9 = 7\n&rArr; 2a = 16\n&rArr; a = 8\n∴ a10 = a + (10 &ndash; 1)d\n= 8 + 9(&ndash;1)\n= 8 &ndash; 9\n= &ndash;1",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 57,
+    "isFree": true
+  },
+  {
+    "question": "In an A.P. the first term is – 5 and the last term is 45. If the sum of all numbers in the A.P. is 120, then how many terms are there? What is the common difference?",
+    "answer": "It is given that,\na = &ndash; 5\nl = 45\nSn = 120\nNow,\n\\[S_n = \\frac{n}{2}\\left( a + l \\right)\\]\n\\[ \\Rightarrow 120 = \\frac{n}{2}\\left( - 5 + 45 \\right)\\]\n\\[ \\Rightarrow 120 = \\frac{n}{2}\\left( 40 \\right)\\]\n\\[ \\Rightarrow 120 \\times 2 = n\\left( 40 \\right)\\]\n\\[ \\Rightarrow 240 = n\\left( 40 \\right)\\]\n\\[ \\Rightarrow n = \\frac{240}{40}\\]\n\\[ \\Rightarrow n = 6\\]\nHence, there are 6 terms.\nAlso,\n\\[l = a + \\left( 6 - 1 \\right)d\\]\n\\[ \\Rightarrow 45 = - 5 + 5d\\]\n\\[ \\Rightarrow 45 + 5 = 5d\\]\n\\[ \\Rightarrow 5d = 50\\]\n\\[ \\Rightarrow d = 10\\]\n\nHence, the common difference is 10.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 58,
+    "isFree": true
+  },
+  {
+    "question": "Sum of 1 to n natural numbers is 36, then find the value of n.",
+    "answer": "It is given that,\na = 1\nd = 1\nSn = 36\nNow,\n\\[S_n = \\frac{n}{2}\\left( 2a + \\left( n - 1 \\right)d \\right)\\]\n\\[ \\Rightarrow 36 = \\frac{n}{2}\\left( 2\\left( 1 \\right) + \\left( n - 1 \\right)\\left( 1 \\right) \\right)\\]\n\\[ \\Rightarrow 36 \\times 2 = n\\left( 2 + n - 1 \\right)\\]\n\\[ \\Rightarrow 72 = n\\left( n + 1 \\right)\\]\n\\[ \\Rightarrow n^2 + n - 72 = 0\\]\n\\[ \\Rightarrow n^2 + 9n - 8n - 72 = 0\\]\n\\[ \\Rightarrow n\\left( n + 9 \\right) - 8\\left( n + 9 \\right) = 0\\]\n\\[ \\Rightarrow \\left( n + 9 \\right)\\left( n - 8 \\right) = 0\\]\n\\[ \\Rightarrow n = - 9\\text { or n} = 8\\]\n\\[ \\Rightarrow n = 8 \\left( \\because n \neq - 9 \\right)\\]\n\nHence, the value of n is 8.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 59,
+    "isFree": true
+  },
+  {
+    "question": "Divide 207 in Three Parts, Such that All Parts Are in A.P. and Product of Two Smaller Parts Will Be 4623.",
+    "answer": "Let the three numbers be a &ndash; d, a and a + d.\nAccording to the question,\n\\[\\left( a - d \\right) + a + \\left( a + d \\right) = 207\\]\n\\[ \\Rightarrow 3a = 207\\]\n\\[ \\Rightarrow a = 69\\]\nAlso,\n\\[\\left( a - d \\right)a = 4623\\]\n\\[ \\Rightarrow \\left( 69 - d \\right)\\left( 69 \\right) = 4623\\]\n\\[ \\Rightarrow 69 - d = \\frac{4623}{69}\\]\n\\[ \\Rightarrow 69 - d = 67\\]\n\\[ \\Rightarrow 69 - 67 = d\\]\n\\[ \\Rightarrow d = 2\\]\n\nHence, the three numbers are 67, 69 and 71.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 60,
+    "isFree": true
+  },
+  {
+    "question": "There Are 37 Terms in an A.P., the Sum of Three Terms Placed Exactly at the Middle is 225 and the Sum of Last Three Terms is 429. Write the A.P.",
+    "answer": "Let the first term be a and the common difference be d.\nSince, the A.P. contains 37 terms, the middle term is \\[\\left( \\frac{37 + 1}{2} \\right)^{th} = {19}^{th}\\] term.\nAccording to the question,\n\\[a_{18} + a_{19} + a_{20} = 225\\] \n\\[ \\Rightarrow \\left( a + \\left( 18 - 1 \\right)d \\right) + \\left( a + \\left( 19 - 1 \\right)d \\right) + \\left( a + \\left( 20 - 1 \\right)d \\right) = 225\\]\n\\[ \\Rightarrow 3a + 17d + 18d + 19d = 225\\]\n\\[ \\Rightarrow 3a + 54d = 225\\]\n\\[ \\Rightarrow 3\\left( a + 18d \\right) = 225\\]\n\\[ \\Rightarrow a + 18d = \\frac{225}{3}\\]\n\\[ \\Rightarrow a + 18d = 75\\]\n\\[ \\Rightarrow a = 75 - 18d . . . \\left( 1 \\right)\\]\nAlso,\n\n\\[a_{35} + a_{36} + a_{37} = 429\\]\n\\[ \\Rightarrow \\left( a + \\left( 35 - 1 \\right)d \\right) + \\left( a + \\left( 36 - 1 \\right)d \\right) + \\left( a + \\left( 37 - 1 \\right)d \\right) = 429\\]\n\\[ \\Rightarrow 3a + 34d + 35d + 36d = 429\\]\n\\[ \\Rightarrow 3a + 105d = 429\\]\n\\[ \\Rightarrow 3\\left( a + 35d \\right) = 429\\]\n\\[ \\Rightarrow a + 35d = \\frac{429}{3}\\]\n\\[ \\Rightarrow 75 - 18d + 35d = 143 \\left( \\text { from } \\left( 1 \\right) \\right)\\]\n\\[ \\Rightarrow 17d = 143 - 75\\]\n\\[ \\Rightarrow 17d = 68\\]\n\\[ \\Rightarrow d = 4\\]\n\\[ \\Rightarrow a = 75 - 18\\left( 4 \\right) \\left(\\text { from } \\left( 1 \\right) \\right)\\]\n\\[ \\Rightarrow a = 75 - 72\\]\n\\[ \\Rightarrow a = 3\\]\n\nHence, the resulting A.P is 3, 7, 11, ....",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 61,
+    "isFree": true
+  },
+  {
+    "question": "If first term of an A.P. is a, second term is b and last term is c, then show that sum of all terms is (a+c)(b+c−2a)2(b−a).",
+    "answer": ", b, ..., c\nt1 = a, d = b - a, tn = c\nWe know that\ntn = a + (n - 1)d\nc = a + (n - 1)(b - a)\n(c-a)/(b-a)=n-1 \n(c-a)/(b-a)+1/1=n\n(c-a+b-a)/(b-a)=n\n∴ n = (c+b-2a)/(b-a) ...(1)\nNow, \nSn = n/2[t₁ + tn]\nSn = (c+b-2a)/((b-a)2)[a+c]\nSn = ((a+c)(b+c-2a))/(2(b-a))\nHence proved.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 62,
+    "isFree": true
+  },
+  {
+    "question": "If the sum of first p terms of an A.P. is equal to the sum of first q terms then show that the sum of its first (p + q) terms is zero. (p ≠ q)",
+    "answer": "Given that Sp=Sn\nWe know, \nSn = n/2[2a + (n - 1)d]\nLet a be the first term of the AP and d be the common difference\np/2(2a+(p-1)d)=q/2(2a+(q-1)d)\np(2a+(p-1)d)=q(2a+(q-1)d)\n2ap+(p-1)dp=2aq+(q-1)dq\n2ap-2aq+(p-1)dp-(q-1)dq=0\n2a(p-q)+d(p²-p-q²+q)=0\n2a(p-q)+d[p²-q²-1(p-q)]=0\n2a(p-q)+d[(p+q)(p-q)-1(p-q)]=0\n2a(p-q)+d(p-q)[p+q-1]=0\np ≠ q\np - q ≠ 0\nDividing throughout by (p - q),since p ≠ q.\n2a+(p+q-1)d=0 ... (i)\nUsing eq (i)\nS_(p+q)=(p+q)/2(2a+(p+q-1)d)\nS_(p+q)=(p+q)/2×0\nS_(p+q)=0\nHence, the sum of its first (p + q) terms is zero.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 63,
+    "isFree": true
+  },
+  {
+    "question": "If M Times the Mth Term of an A.P. is Eqaul to N Times Nth Term Then Show that the (M + N)Th Term of the A.P. is Zero.",
+    "answer": "We know,\n\\[a_n = a + \\left( n - 1 \\right)d\\]\nAccording to the question,\n\\[m\\left( a_m \\right) = n\\left( a_n \\right)\\]\n\\[ \\Rightarrow m\\left( a + \\left( m - 1 \\right)d \\right) = n\\left( a + \\left( n - 1 \\right)d \\right)\\]\n\\[ \\Rightarrow am + \\left( m - 1 \\right)md = an + \\left( n - 1 \\right)nd\\]\n\\[ \\Rightarrow am + m^2 d - md = an + n^2 d - nd\\]\n\\[ \\Rightarrow am - an = n^2 d - nd - m^2 d + md\\]\n\\[ \\Rightarrow a\\left( m - n \\right) = d\\left( n^2 - m^2 \\right) + d\\left( m - n \\right)\\]\n\\[ \\Rightarrow a\\left( m - n \\right) = d\\left( m + n \\right)\\left( n - m \\right) + d\\left( m - n \\right)\\]\n\\[ \\Rightarrow a\\left( m - n \\right) = d\\left[ \\left( m + n \\right)\\left( n - m \\right) + \\left( m - n \\right) \\right]\\]\n\\[ \\Rightarrow a\\left( m - n \\right) = d\\left[ - \\left( m + n \\right)\\left( m - n \\right) + \\left( m - n \\right) \\right]\\]\n\\[ \\Rightarrow a\\left( m - n \\right) = d\\left( m - n \\right)\\left[ 1 - m - n \\right]\\]\n\\[ \\Rightarrow a = d\\left( 1 - m - n \\right) \\left( \\because m \neq n \\right)\\]\n\\[ \\Rightarrow a = d\\left( 1 - m - n \\right) . . . \\left( 1 \\right)\\]\nNow,\n\\[a_{m + n} = \\left( a + \\left( m + n - 1 \\right)d \\right)\\]\n\\[ = \\left( \\left( 1 - m - n \\right)d + \\left( m + n - 1 \\right)d \\right) \\left( \\text{from } \\left( 1 \\right) \\right)\\]\n\\[ = d\\left( 1 - m - n + m + n - 1 \\right)\\]\n\\[ = 0\\]\n\nHence, the (m + n)th term of the A.P. is zero.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 64,
+    "isFree": true
+  },
+  {
+    "question": "Rs 1000 is invested at 10 percent simple interest. Check at the end of every year if the total interest amount is in A.P. If this is an A.P. then find interest amount after 20 years.",
+    "answer": "It is given that,\nPrincipal (P) = Rs 1000\nRate (R) = 10%\nSimple interest (S.I.) =\\[\\frac{P \\times R \\times T}{100}\\]\nSimple interest after an year = \\[\\frac{1000 \\times 10 \\times 1}{100} = Rs 100\\]\nSimple interest after 2 years = \\[\\frac{1000 \\times 10 \\times 2}{100} = Rs 200\\]\nSimple interest after 3 years = \\[\\frac{1000 \\times 10 \\times 3}{100} = Rs 300\\]\nHence, the total interest amount is in A.P. i.e. 100, 200, 300,....\nHere,\na = 100\nd = 100\nNow,\n\\[a_n = a + \\left( n - 1 \\right)d\\]\n\\[ a_{20} = a + \\left( 20 - 1 \\right)d\\]\n\\[ = 100 + 19\\left( 100 \\right)\\]\n\\[ = 100 + 1900\\]\n\\[ = 2000\\]\n\nHence, the interest amount after 20 years is Rs 2000.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Arithmetic Progression",
+    "questionNumber": 65,
+    "isFree": true
+  },
+  {
+    "question": "‘Pawan Medical’ Supplies Medicines. on Some Medicines the Rate of Gst is 12%, Then What is the Rate of Cgst and Sgst?",
+    "answer": "Rate of GST = 12% .........(Given)\nRate of CGST = Rate of SGST\nAlso,\nRate of CGST + Rate of SGST = Rate of GST\n&rArr; 2 × Rate of CGST = 12%\n&rArr; Rate of CGST = 6%\n∴ Rate of SGST = 6%",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "On certain article if rate of CGST is 9% then what is the rate of SGST? and what is the rate of GST?",
+    "answer": "Rate of CGST = 9%\nRate of SGST = Rate of CGST\nRate of CGST = 9%\n∴ Rate of GST = Rate of SGST + Rate of CGST\n= 9% + 9%\n=18%\nThus, the rate of SGST is 9% and the rate of GST is 18%.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "‘M/S. Real Paint’ Sold 2 Tins of Lustre Paint and Taxable Value of Each Tin is Rs 2800. If the Rate of Gst is 28%, Then Find the Amount of Cgst and Sgst Charged in the Tax Invoice.",
+    "answer": "Total taxable value of 2 tins of lustre paint = Rs 2,800 × 2 = Rs 5,600\n\nRate of GST = 28%\n\n∴ Rate of CGST = Rate of SGST = 14%\n\nAmount of CGST charged = Amount of SGST charged = \\[\\frac{14}{100} \\times 5600\\] = Rs 784\nThus, the amount of CGST charged is Rs 784 and the amount of SGST charged is Rs 784 in the tax invoice.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "The taxable value of a wristwatch belt is Rs 586. The rate of GST is 18%. Then what is the price of the belt for the customer ?",
+    "answer": "The rate of GST is 18%.\nThe taxable value of the belt is ₹ 586\n∴ GST on the belt = 18/100 xx 586\n= ₹ 105.48\nThe price of the belt for the customer\n= Taxable value + GST\n= ₹ (586 + 105.48)\n= ₹ 691.48\n∴ The price of the belt for the customer is ₹ 691.48.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "The Total Value (With Gst) of a Remote-controlled Toy Car is Rs 1770. Rate of Gst is 18% on Toys. Find the Taxable Value, Cgst and Sgst for this Toy-car.",
+    "answer": "Let the taxable value of the toy car be Rs x.\n​Rate of GST = 18% (Given)\nTaxable value of the toy car + Amount of GST = Rs 1770\n\\[\\therefore x + \\frac{18}{100}x = 1770\\]\n\\[ \\Rightarrow \\frac{118}{100}x = 1770\\]\n\\[ \\Rightarrow x = \\frac{100}{118} \\times 1770 = 1500\\]\nSo, the taxable value of the toy-car is Rs 1,500.\nNow,\nRate of CGST = Rate of SGST = 9%\n∴ Amount of CGST on the toy-car = Amount of SGST on the toy-car = \n\\[\\frac{9}{100} \\times 1500\\] = Rs 135",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "‘Tiptop Electronics’ Supplied an Ac of 1.5 Ton to a Company. Cost of the Ac Supplied is Rs 51,200 (With Gst). Rate of Cgst on Ac is 14%. Then Find the Following Amounts",
+    "answer": "ccording to the question",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Prasad Purchased a Washing-machine from &#x27;Maharashtra Electronic Goods&#x27;. Discount of 5% Was Given on Printed Price of Rs 40,000. Rate of Gst Charged Was 28%. Find Purchase Price of Washing Machine.",
+    "answer": "Printed price of washing machine = Rs 40,000\n\nDiscount on washing machine = 5% of Rs 40,000 = \n\\[\\frac{5}{100} \\times 40000\\] = Rs 2,000 Taxable value of washing machine = Rs 40,000 − Rs 2,000 = Rs 38,000\n\nRate of GST = 28%\n\nAmount of GST on washing machine = 28% of Rs 38,000 = \\[\\frac{28}{100} \\times 38000\\] = Rs 10,640 ∴ Purchase price of washing machine\n\n= Taxable value of washing machine + Amount of GST on washing machine\n\n= Rs 38,000 + Rs 10,640\n\n= Rs 48,640\n\nSo, the purchase price of washing machine is Rs 48,640.\n\nNow,\n \nAmount of CGST = Amount of SGST = \\[\\frac{1}{2}\\] × Amount of GST on washing machine = \\[\\frac{1}{2}\\] × 10640 = Rs 5,320\n\nThus, the amount of CGST is Rs 5,320 and the amount of SGST is Rs 5,320 in the tax invoice.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "&#x27;Chetana Store&#x27; Paid Total Gst of Rs 1,00,500 at the Time of Purchase and Collected Gst Rs 1,22,500 at Time of Sale During 1st of July 2017 to 31st July 2017. Find the Gst Payable by Chetana Stores.",
+    "answer": "Tax collected at the time of sale = Rs 1,22,500\n\nTax collected at the time of purchase = Rs 1,00,500\n\n∴ GST payable = Tax collected at the time of sale − Tax collected at the time of purchase = Rs 1,22,500 − Rs 1,00,500 = Rs 22,000\n\nThus, the GST payable by Chetana Stores is Rs 22,000.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Nazama is a Proprietor of a Firm, Registered Under Gst. She Paid Gst Rs 12,500 on Purchase and Collected Rs 14,750 on Sale. What is Amount of Itc to Be Claimed ? What is the Amount of Gst Payable ?",
+    "answer": "Tax collected at the time of purchase = Rs 12,500\n\n∴ Amount of ITC to be claimed by Nazama = Rs 12,500\n\nTax collected at the time of sale = Rs 14,750\n\n∴ GST payable = Tax collected at the time of sale − Tax collected at the time of purchase = Rs 14,750 − Rs 12,500 = Rs 2,250\n\nThus, the amount of GST payable by Nazama is Rs 2,250.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Amir Enterprise Purchased Chocolate Sauce Bottles and Paid Gst of Rs 3800. He Sold Those Bottles to Akbari Bros. and Collected Gst of Rs 4100",
+    "answer": "Tax collected by Amir Enterprise at the time of purchase = Rs 3,800\nTax collected by Amir Enterprise at the time of sale = Rs 4,100\n∴ GST payable by Amir Enterprise = Tax collected at the time of sale − Tax collected at the time of purchase = Rs 4,100 − Rs 3,800 = Rs 300\nCGST payable by Amir Enterprise = SGST payable by Amir Enterprise = \\[\\frac{300}{2}\\] = Rs 150\nTax collected by Akbari Bros. at the time of purchase = Rs 4,100\n\nTax collected by Akbari Bros. at the time of sale = Rs 4,500\n\n∴ GST payable by Akbari Bros. = Tax collected at the time of sale − Tax collected at the time of purchase = Rs 4,500 − Rs 4,100 = Rs 400\n\nCGST payable by Akbari Bros. = SGST payable by Akbari Bros. = \\[\\frac{400}{2}\\] = Rs 200",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Malik Gas Agency (Chandigarh Union Territory) Purchased Some Gas Cylinders for Industrial Use for Rs 24,500, and Sold Them to the Local Customers for Rs 26,500.",
+    "answer": "Input tax (tax paid at the time of purchase) = 5% of Rs 24,500 = \\[\\frac{5}{100} \\times 24500\\] = Rs 1,225\nOutput tax (tax paid at the time of sale) = 5% of Rs 26,500 = \\[\\frac{5}{100} \\times 26500\\] = Rs 1,325\n∴ GST payable = Output tax − Input tax = Rs 1,325 − Rs 1,225 = Rs 100\nThus, the GST payable by Malik Gas Agency is Rs 100.\nCGST payable = UTGST payable = \\[\\frac{100}{2}\\] = Rs 50 \n\nThus, the CGST payable by Malik Gas Agency is Rs 50 and ​the UTGST payable by Malik Gas Agency is Rs 50.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "M/s Beauty Products paid 18% GST on cosmetics worth Rs 6000 and sold to a customer for Rs 10,000. What are the amounts of CGST and SGST shown in the tax invoice issued?",
+    "answer": "GST in the tax invoice = 18% of Rs 10,000 = 18/100 xx 10,000 = Rs. 1,800\n∴ CGST in the tax invoice = SGST in the tax invoice = (1800)/2 = Rs. 900\nThus, the amount of CGST in the tax invoice is Rs 900 and the amount of SGST in the tax invoice is Rs. 900.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Prepare Business to Consumer (B2c) Tax Invoice Using Given Information. Write the Name of the Supplier, Address, State, Date, Invoice Number, Gstin Etc.",
+    "answer": "Tax Invoice of Goods Purchase\n\n GSTIN: 27ZZZZZ9999B1AB",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Prepare Business to Business (B2b) Tax Invoice as per the Details Given Below. Name of the Supplier, Address, Date Etc. as per Your Choice. Supplier - Name, Address, State, Gstin, Invoice No., Date",
+    "answer": "Tax Invoice of Goods Purchase\n\nSupplier:\nRama Books, \nGSTIN: 27UVWXY9821K1Z4\n\n \nKhed-Shivapur, Pune Invoice No. 55,\n\nMobile No: 7588580000 Email: [email protected] \n\nRecipient:\nKrishna Books,\nGSTIN: 27MNOPQ5432KlZ4 \n\n \nCentral Market-Ramapur, Mumbai \n\nMobile No: 7558850000 Email:[email protected]\n\nInvoice No. GST/128\nInvoice Date: 23-Feb-2018\n\nSr. No.\nHSN Code\nName of the Item\nRate\nQuantity\nTaxable Amount\nCGST\nSGST\nTotal\n\nRate\nTax\nRate\nTax\n\n1\n3924\nPencil boxes\nRs. 20\n100\nRs. 2000\n6%\nRs. 120\n6%\nRs. 120\nRs. 2240\n\n2\n9503\nJigsaw Puzzles\nRs. 100\n50\nRs. 5000\n6%\nRs. 300\n6%\nRs. 300\nRs. 5600\n\nTotal\nRs 7000\n \nRs 420\n \nRs 420\nRs 7840",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Complete the Following Table by Writting Suitable Numbers and Words. Sr.No Fv Share is At Mv (1) Rs 100 Par ... (2) ... Premium Rs 500 Rs 575 (3) Rs 10 ... Rs 5",
+    "answer": "(1) When share is at par, MV (Market value) = FV (Face value)\n\n∴ MV = FV = Rs 100\n\n(2) FV = MV − Premium = Rs 575 − Rs 500 = Rs 75\n\n(3) FV = Rs 10 and MV = Rs 5\n\nSince MV < FV, so the share is at discount.\n\nDiscount = FV − MV = Rs 10 − Rs 5 = Rs 5\n\nThe complete table is given below:\n\nSr.No\nFV\nShare is at\nMV\n\n(1)\nRs 100\npar\nRs 100\n\n(2)\nRs 75\npremium Rs 500\nRs 575\n\n(3)\nRs 10\ndiscount Rs 5\nRs 5",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Mr.Amol Purchased 50 Shares of Face Value Rs100 When the Market Value of the Share Was Rs 80. Company Had Given 20% Dividend. Find the Rate of Return on Investment.",
+    "answer": "FV = Rs 100\n\nMV = Rs 80\n\nNumber of shares purchased = 50\n\nSum invested = Number of shares purchased × MV of each share = 50 × 80 = Rs 4,000\n\nDividend received on each share = 20% of FV of each share = 20% of Rs 100 = \\[\\frac{20}{100} \\times 100\\] = Rs 20 \nTotal dividend received = Number of shares purchased × Dividend received on each share = 50 × 20 = Rs 1,000\n∴ Rate of return on investment = \\[\\frac{\\text{ Total dividend received } }{\\text{ Sum invested} } \\] 100 % = \\[ \\frac{1000}{4000} \\] × 100 = 25 %\n\nThus, the rate of return on investment is 25%.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Joseph Purchased Following Shares, Find His Total Investment.Company a : 200 Shares,Fv = Rs 2premium = Rs 18company B : 45 Shares,Mv = Rs 500company C : 1 Share,Mv = Rs 10,540.",
+    "answer": "Market value of each share of company A\n= FV + Premium\n= Rs 2 + Rs 18\n= Rs 20\nInvestment in company A\n= Number of shares of company A × MV of each share of company A\n= 200 × 20\n= Rs 4,000\nInvestment in company B\n= Number of shares of company B × MV of each share of company B\n= 45 × 500\n= Rs 22,500\nInvestment in company C\n= Number of shares of company C × MV of each share of company C\n= 1 × 10540\n= Rs 10,540\n∴ Total investment = Investment in company A + Investment in company B + Investment in company C \n= Rs 4,000 + Rs 22,500 + Rs 10,540\n= Rs 37,040\nThus, the total investment of Joseph is Rs 37,040.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Smt. Deshpande purchased shares of FV Rs 5 at a premium of Rs 20. How many shares will she get for Rs 20,000 ?",
+    "answer": "Market value of each share = FV + Premium = Rs 5 + Rs 20 = Rs 25\nSum invested = Rs 20,000\n∴ Number of shares = \\[\\frac{\\text{ Sum invested} }{\\text{ Market value of each share} } = \\frac{20000}{25}\\] = 800\n\nThus, the number of shares purchased by Smt. Deshpande are 800.\nSmt. Deshpande got 800 shares for ₹ 20,000.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Shri Shantilal Has Purchased 150 Shares of Fv Rs 100, for Mv of Rs 120. Company Has Paid Dividend at 7%. Find the Rate of Return on His Investment.",
+    "answer": "FV of each share = Rs 100\n\nMV of each share = Rs 120\n\nNumber of shares purchased = 150\n\nSum invested = Number of shares purchased × MV of each share = 150 × 120 = Rs 18,000\n\nDividend received on each share = 7% of FV of each share = 7% of Rs 100 = \\[\\frac{7}{100}\\] × 100 = Rs 7\nTotal dividend received = Number of shares purchased × Dividend received on each share = 150 × 7 = Rs 1,050\n\n∴ Rate of return on investment = \\[\\frac{\\text{ Total dividend received } }{\\text{ Sum invested } } \\] x 100 % = \\[\\frac{1050}{18000}\\] x 100 % = 5.83%\n\nThus, the rate of return on investment is 5.83%.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "If the face value of both the shares is same, then which investment out of the following is more profitable? Company A : dividend 16%, MV = ₹ 80, Company B : dividend 20%, MV = ₹ 120.",
+    "answer": "Let the face value of each share be ₹ x.\nThe market value of each share of company A = ₹ 80\nDividend = 16% \nDividend = % Dividend × F.V.\nDividend = 16/100 xx x = 0.16x\nSum Invested = ₹ 80\nNow, Rate of return = \"Dividend Income\"/\"Sum Invested\" × 100\n= (0.16x)/80 xx 100\n= (16x)/80\n= Rate of return = x/5%\nThe market value of each share of company B = ₹ 120\nDividend = 20%\nDividend = % Dividend × F.V.\nDividend = 20/100 xx x = 0.2x\nSum Incested = ₹ 120\nRate of return = \"Dividend Income\"/\"Sum Invested\" × 100\n= (0.2x)/120 xx 100\n= (2x)/120\n= x/6%\nRate of return = x/6%\n∵ Rate of return of company A > The rate of return of company B.\n∴ Investment in company A is more profitable",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Market value of a share is Rs 200. If the brokerage rate is 0.3% then find the purchase value of the share.",
+    "answer": "Market value of the share = Rs 200\nBrokerage = 0.3% of Rs 200 = 0.3/100×200\n= 60/100\n= Rs. 0.6\n∴ Purchase value of the share = MV + Brokerage\n= 200 + 0.6\n= 200.60\nThus, the purchase value of the share is Rs 200.60.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "A Share is Sold for the Market Value of Rs 1000. Brokerage is Paid at the Rate of 0.1%. What is the Amount Received After the Sale?",
+    "answer": "Market value of the share = Rs 1,000\n\nBrokerage = 0.1% of Rs 1,000 = \\[\\frac{0 . 1}{100} \\times 1000\\] = Rs 1\n\n∴ Selling price of the share = MV − Brokerage = Rs 1,000 − Rs 1 = Rs 999\n\nThus, the amount received after the sale is Rs 999.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Fill in the blanks given in the contract note of sale-purchase of shares. (B - buy S - sell) No. of shares MV of shares Total value Brokerage 0.2% 9% CGST on brokerage 9% SGST on brokerage",
+    "answer": "Number of shares bought = 100\nMV value of each share = Rs 45\n∴ Total value = Number of shares bought × MV value of each share\n= 100 × 45\n= Rs 4,500\nBrokerage = 0.2% of Rs 4,500 = \\[\\frac{0 . 2}{100} \\times 4500\\] = Rs 9\n9% CGST on brokerage = 9% of Rs 9 = \\[\\frac{9}{100} \\times 9\\] = Rs 0.81\n9% SGST on brokerage = 9% of Rs 9 = \\[\\frac{9}{100} \\times 9\\] = Rs 0.81\n∴ Total value of the shares = Rs 4,500 + Brokerage + 9% CGST on brokerage + 9% CGST on brokerage\n= Rs 4,500 + Rs 9 + Rs 0.81 + Rs 0.81\n= Rs 4,510.62\nNumber of shares sold = 75\nMV value of each share = Rs 200\n∴ Total value = Number of shares sold × MV value of each share = 75 × 200 = Rs 15,000\nBrokerage = 0.2% of Rs 15,000 = \\[\\frac{0 . 2}{100} \\times 15000\\] = Rs 30\n9% CGST on brokerage = 9% of Rs 30 = \\[\\frac{9}{100} \\times 30\\] = Rs 2.70\n9% SGST on brokerage = 9% of Rs 30 = \\[\\frac{9}{100} \\times 30\\] = Rs 2.70\n∴ Total value of the shares = Rs 15,000 − Brokerage − 9% CGST on brokerage − 9% SGST on brokerage \n= Rs 15,000 − Rs 30 − Rs 2.70 − Rs 2.70 \n= Rs 14,964.60\nThe complete table is given below:\n\nNo. of",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Smt. Desai Sold Shares of Face Value Rs 100 When the Market Value Was Rs 50 and Received Rs 4988.20. She Paid Brokerage 0.2% and Gst on Brokerage 18%, Then How Many Shares Did She Sell ?",
+    "answer": "Total amount received = Rs 4988.20\n\nMV of each share = Rs 50\n\nBrokerage per share = 0.2% of Rs 50 = \\[\\frac{0 . 2}{100} \\times 50\\] = Rs 0.1\nGST per share on brokerage = 18% of Rs 0.1 = \\[\\frac{18}{100} \\times 0 . 1\\] = Rs 0.018",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Mr. D&#x27;souza purchased 200 shares of FV ₹ 50 at a premium of ₹ 100. He received 50% dividend on the shares. After receiving the dividend he sold 100 shares at a discount of ₹ 10",
+    "answer": "Number of shares purchased = 200 shares\nFV of the share = ₹ 50\npremium = ₹ 100\nRate of the dividend = 50%\nBrokerage = ₹ 20\nCost (or MV) of each share = FV of each share + Premium\n= ₹ 50 + ₹ 100\n= ₹ 150\n∴ Amount invested = Cost of each share × Number of shares purchased\n= ₹ 150 × 200\n= ₹ 30,000\nTotal investment = sum invested + brokerage\n= ₹ 30,000 + 20\n= ₹ 30,020\nTotal Dividend received = Number of shares purchased × Dividend received on each share\n= 200 × \\[\\left( \\frac{50}{100} \\times 50 \\right)\\]\n= ₹ 5,000\nShares is at discount = 10%\nMarket value = FV - Discount\n= ₹ 50 - 10\n= ₹ 40\nThe selling price of the share = No. of shares × Market value\n= ₹ 40 × 100\n= ₹ 4,000\nThe amount received after selling 100 shares = selling price of the share - Brokerage\n= ₹ 4,000 - 20\n= ₹ 3,980\nCase II:\nRemaining shares = 100\nShares is at premium = ₹ 75\nFV of the shares = ₹ 50\nMV of the shares = FV + Premium\n= ₹ 50 + ₹ 75\n= ₹ 125\n∴ Selling price of 100 shares at a premium of ₹ 75\n= ₹ 125 × 100\n= ₹ 12,500\nThe amount received after selling 100 shared = selling price of the share - Brokerage\n= ₹ 12,500 - ₹ 20\n= ₹ 12,480\nThe total amount Mr Dssouza received = Dividend + Amount received by the case (II) + Amount received by the case (II)\n= ₹ 5,000 + ₹ 3,980 + ₹ 12,480\n= ₹ 21, 460\nTotal Investment Mr. D'souza = ₹ 30,020\nTotal investment is less than the total amount received\n∴ Loss = Total Investment - Amount received\n= ₹ 30,020 - ₹ 21,460\n= ₹ 8,560\nThus, Mr. D'souza incurred a loss of ₹ 8,560.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Write the Correct Alternative for the Following. the Tax Levied by the Central Government for Trading Within State is ...",
+    "answer": "CGST SGSTUTGST",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Write the Correct Alternative for Each of the Following. Gst System Was Introduced in Our Country from ...",
+    "answer": "1st July 2017",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Write the Correct Alternative for Each of the Following. the Rate of Gst on Stainless Steel Utensils is 18%, Then the Rate of State Gst is ...",
+    "answer": "9 % 36%0.9%",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Write the Correct Alternative for the Following. When a Registered Dealer Sells Goods to Another Registered Dealer Under Gst, Then this Trading is Termed as ...",
+    "answer": "B2BBC B2C",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "A Dealer Has Given 10% Discount on a Showpiece of Rs 25,000. Gst of 28% Was Charged on the Discounted Price. Find the Total Amount Shown in the Tax Invoice. What is the Amount of Cgst and Sgst ?",
+    "answer": "Printed price of showpiece = Rs 25,000\nDiscount on showpiece = 10% of Rs 25,000\n= 10/100 xx 25000\n= Rs 2,500\nTaxable value of showpiece = Rs 25,000 − Rs 2,500\n= Rs 22,500\nRate of GST = 28%\nAmount of GST on showpiece = 28% of Rs 22,500\n= 28/100 xx 22500\n\n= Rs 6,300 \n\n∴ Purchase price of showpiece = Taxable value of showpiece + Amount of GST on showpiece\n= Rs 22,500 + Rs 6,300\n= Rs 28,800\nSo, the total amount shown in the tax invoice is Rs 28,800.\nNow,\nAmount of CGST = Amount of SGST = 1/2 × Amount of GST on a showpiece\n= 1/2 xx 6300\n= Rs 3,150 \n\nThus, the amount of CGST is Rs 3,150 and the amount of SGST is Rs 3,150.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "A Ready-made Garment Shopkeeper Gives 5% Discount on the Dress of Rs 1000 and Charges 5% Gst on the Remaining Amount, Then What is the Purchase Price of the Dress for the Customer",
+    "answer": "Printed price of dress = Rs 1,000\nDiscount on dress = 5% of Rs 1,000 = \n\\[\\frac{5}{100} \\times 1000\\] = Rs 50\nTaxable value of dress = Rs 1,000 − Rs 50 = Rs 950\nRate of GST = 5%\nAmount of GST on dress = 5% of Rs 950 = \\[\\frac{5}{100} \\times 950\\] = Rs 47.50\n∴ Purchase price of dress = Taxable value of dress + Amount of GST on dress\n= Rs 950 + Rs 47.50\n= Rs 997.50\nThus, the purchase price of the dress for the customer is Rs 997.50.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "A Trader from Surat, Gujarat Sold Cotton Clothes to a Trader in Rajkot, Gujarat. the Taxable Value of Cotton Clothes is Rs 2.5 Lacs. What is the Amount of Gst at 5% Paid by the Trader in Rajkot ?",
+    "answer": "Taxable value of cotton clothes = Rs 2.5 lacs = Rs 2,50,000\n\nRate of GST = 5%\n\n∴ Amount of GST paid by the trader = 5% of Rs 2,50,000 = \\[\\frac{5}{100} \\times 250000\\] = Rs 12,500\nThus, the amount of GST paid by the trader is Rs 12,500.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "Smt. Malhotra purchased solar panels for the taxable value of Rs 85,000. She sold them for Rs 90,000. The rate of GST is 5%. Find the ITC of Smt. Malhotra. What is the amount of GST payable by her?",
+    "answer": "Taxable purchase value of the solar panels = Rs 85,000\nRate of GST = 5%\n∴ Input tax credit (ITC) = 5% of Rs 85,000\n= \\[\\frac{5}{100} \\times 85000\\] = Rs 4,250 \nSelling price of the solar panels = Rs 90,000\n∴ Output tax = 5% of Rs 90,000 = \\[\\frac{5}{100} \\times 90000\\] = Rs 4,500\nAmount of GST payable = Output tax − Input tax (ITC) = Rs 4,500 − Rs 4,250 = Rs 250\nThus, the amount of ITC is Rs 4,250 and the amount of GST payable by Smt. Malhotra is Rs 250.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "A Company Provided Z-security Services for the Taxable Value of Rs 64,500. Rate of Gst is 18%. Company Had Paid Gst of Rs 1550 for Laundry Services and Uniforms Etc. What is the Amount of Itc.",
+    "answer": "Input tax credit = GST paid by the company for laundry services and uniforms etc = Rs 1,550\n\nTaxable value for the services paid by the company = Rs 64,500\n\nRate of GST = 18%\n\n∴ Output tax = 18% of Rs 64,500 = \\[\\frac{18}{100} \\times 64500\\] = Rs 11,610\nGST payable = Output tax − Input credit tax = Rs 11,610 − Rs 1,550 = Rs 10,060\n\n∴ CGST payable = SGST payable = \\[\\frac{\\text{ GST payable} }{2} = \\frac{10060}{2}\\] = Rs 5,030\n\nThus, the amount of CGST payable by the company is Rs 5,030 and the SGST payable by the company is Rs 5,030.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "A dealer supplied Walky-Talky set of Rs 84,000 (with GST) to police control room. Rate of GST is 12%. Find the amount of state and central GST charged by the dealer.",
+    "answer": "Let the taxable value of the Walky-Talky set be Rs x.\nAmount of walky-talky = Taxable value + GST\n84,000 = x + 12% of x\n84,000 = x + 12/100 xx x\n84,000 = x + (12x)/100\n84,000 = (100x + 12x)/100\n84,000 × 100 = 112x\n(84,000 xx 100)/112 = x\n∴ x = 75,000\n∴ The taxable value of the Walky-Talky is Rs 75,000.\nRate of GST = 12%\n∴ CGST = SGST = 6% of 75,000\n= 6/100 xx 75,000\n∴ CGST = SGST = Rs 4,500\n∴ The amount of CGST and SGST charged by the dealer is Rs. 4,500 each. The taxable value of the set is Rs. 75,000.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "A wholesaler purchased electric goods for the taxable amount of Rs 1,50,000. He sold it to the retailer for the taxable amount of Rs 1,80,000.",
+    "answer": "Rate of GST is 18%.\nInput tax credit of wholesaler = 18% of Rs 1,50,000\n18/100×150000\n= Rs 27,000\nOutput tax of wholesaler = 18% of Rs 1,80,000\n18/100×180000\n= Rs 32,400\nGST in tax invoice of wholesaler:\nCGST in tax invoice of wholesaler = SGST in tax invoice of wholesaler \n= \"Output tax of wholesaler\"/2\n= 32400/2 \n= Rs 16,200\nInput tax credit of retailer = 18% of Rs 1,80,000\n= 18/100×180000\n= Rs 32,400\nOutput tax of retailer = 18% of Rs 2,20,000\n= Rs 39,600\n​GST in tax invoice of retailer:\nCGST in tax invoice of retailer = SGST in tax invoice of retailer\n= \"Output tax of retailer\"/2\n= 39600/2\n= Rs 19,800\nGST payable by wholesaler = Output tax of wholesaler − Input tax credit of wholesaler\n= Rs 32,400 − Rs 27,000\n= Rs 5,400\nCGST payable by wholesaler = SGST payable by wholesaler \n= \"GST payable by wholesaler\"/2\n= 5400/2\n= Rs 2,700\nGST payable by retailer = Output tax of retailer − Input tax credit of retailer\n= Rs 39,600 − Rs 32,400\n= Rs 7,200\nCGST payable by retailer = SGST payable by retailer\n= \"GST payable by retailer\"/2\n= 7200/2 \n= Rs 3,600",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "Anna Patil (Thane, Maharashtra) supplied vacuum cleaner to a shopkeeper in Vasai (Mumbai) for the taxable value of Rs 14,000, and GST rate of 28%.",
+    "answer": "Rate of GST is 28%.\nOutput tax of Anna Patil = 28% of Rs 14,000 = \\[\\frac{28}{100} \\times 14000\\] = Rs 3,920\n∴ CGST in tax invoice of Anna Patil = SGST in tax invoice of Anna Patil = \n\n\\[\\frac{\\text{ Output tax of Anna Patil} }{2} = \\frac{3920}{2}\\] = Rs 1,960\nThus, the amount of CGST and SGST shown in the tax invoice issued by Anna Patil is Rs 1,960.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "Anna Patil (Thane, Maharashtra) Supplied Vacuum Cleaner to a Shopkeeper in Vasai (Mumbai) for the Taxable Value of Rs 14,000, and Gst Rate of 28%.",
+    "answer": "Rate of GST is 28%\nInput tax credit of shopkeeper in Vasai = 28% of Rs 14,000 = \\[\\frac{28}{100} \\times 14000\\] = Rs 3,920 \nOutput tax of shopkeeper in Vasai = 28% of Rs 16,800 = \\[\\frac{28}{100} \\times 16800\\] = Rs 4,704\n∴ CGST in tax invoice of shopkeeper in Vasai = SGST in tax invoice of shopkeeper in Vasai = \\[\\frac{\\text{ Output tax of shopkeeper in Vasai }}{2} = \\frac{4704}{2}\\] = Rs 2,352 \n\nThus, the amount of CGST and SGST charged by the shopkeeper in Vasai is Rs 2,352.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "Anna Patil (Thane, Maharashtra) Supplied Vacuum Cleaner to a Shopkeeper in Vasai (Mumbai) for the Taxable Value of Rs 14,000, and Gst Rate of 28%.",
+    "answer": "Rate of GST is 28%\nGST payable by shopkeeper in Vasai = Output tax of shopkeeper in Vasai − Input tax credit of shopkeeper in Vasai = Rs 4,704 − Rs 3,920 = Rs 784\n\n∴ CGST payable by shopkeeper in Vasai = SGST payable by shopkeeper in Vasai = \\[\\frac{\\text{ GST payable by shopkeeper in Vasai} }{2} = \\frac{784}{2}\\] = Rs 392\n\nThus, the CGST and SGST payable by shopkeeper in Vasai at the time of filing the return is Rs 392.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "For the given trading chain prepare the tax invoice I, II, III, GST at the rate of 12% was charged for the article supplied. Prepare the statement of GST payable under each head by the wholesaler",
+    "answer": "GST in Tax Invoice of Wholesaler:\nTaxable value of article = ₹ 5,000\nRate of GST = 12%\nGST payable = 12% of ₹ 5,000 = \\[\\frac{12}{100} \\times 5000\\] = ₹ 600\nCGST payable = SGST payable = \\[\\frac{\\text{ GST payable} }{2} = \\frac{600}{2}\\] = ₹ 300\nGST in Tax Invoice of Distributor:\nTaxable value of article = ₹ 6,000\nRate of GST = 12%\nGST payable = Output tax − Input credit tax = 12% of ₹ 6,000 − 12% of ₹ 5,000 = \\[\\frac{12}{100} \\times \\left( 6000 - 5000 \\right) = \\frac{12}{100} \\times 1000\\] = ₹ 120\n\nCGST payable = SGST payable = \\[\\frac{\\text{ GST payable} }{2} = \\frac{120}{2}\\] = ₹ 60\n\nGST in Tax Invoice of Retailer:",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "For the Given Trading Chain Prepare the Tax Invoice I, Ii, Iii, Gst at the Rate of 12% Was Chanrged for the Article Supplied. at the End What Amount is Paid by the Consumer ?",
+    "answer": "mount paid by the consumer for the article\n\n= Taxable value of article to the retailer + GST payable by retailer\n\n= ₹ 6,500 + ₹ 780\n\n= ₹ 7,280",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "For the Given Trading Chain Prepare the Tax Invoice I, Ii, Iii, Gst at the Rate of 12% Was Chanrged for the Article Supplied. Write Which of the Invoices Issued Are B2b and B2c ?",
+    "answer": "The invoice issued from wholesaler to distributor and the invoice issued from distributor to retailer are B2B invoices whereas the invoice issued from retailer to consumer is B2C invoice.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "Write the Correct Alternative for the Following Questions. If the Face Value of a Share is Rs 100 and Market Value is Rs 75, Then Which of the Following Statements is Correct ?",
+    "answer": "The share is at discount of Rs 25The share is at premium of Rs 25The share is at discount of Rs 75",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 43,
+    "isFree": true
+  },
+  {
+    "question": "Write the Correct Alternative for the Following Questions. What is the Amount of Dividend Received per Share of Face Value Rs 10 and Dividend Declared is 50%.",
+    "answer": "Rs 5 Rs 500 Rs 100",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 44,
+    "isFree": true
+  },
+  {
+    "question": "Write the Correct Alternative for the Following Questions. the Nav of a Unit in Mutual Fund Scheme is Rs 10.65 Then Find the Amount Required to Buy 500 Such Units",
+    "answer": "53255235 53250053250",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 45,
+    "isFree": true
+  },
+  {
+    "question": "Write the Correct Alternative for the Following Questions. Rate of Gst on Brokerage is ...",
+    "answer": "18% 28%",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 46,
+    "isFree": true
+  },
+  {
+    "question": "Find the Purchase Price of a Share of Fv Rs 100 If It is at Premium of Rs 30. the Brokerage Rate is 0.3%.",
+    "answer": "MV of the share = FV of the share + Premium = Rs 100 + Rs 30 = Rs 130\n\nBrokerage = 0.3% of Rs 130 = \\[\\frac{0 . 3}{100} \\times 130\\] = Rs 0.39\n∴ Purchase price of the share = MV of the share + Brokerage = Rs 130 + Rs 0.39 = Rs 130.39\n\nThus, the purchase price of the share is Rs 130.39.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 47,
+    "isFree": true
+  },
+  {
+    "question": "Prashant Bought 50 Shares of Fv Rs 100, Having Mv Rs 180. Company Gave 40% Dividend on the Shares. Find the Rate of Return on Investment.",
+    "answer": "FV of each share = Rs 100\n\nMV of each share = Rs 180\n\nNumber of shares purchased = 50\n\nSum invested = Number of shares purchased × MV of each share = 50 × 180 = Rs 9,000\n\nDividend received on each share = 40% of FV of each share = 40% of Rs 100 = \\[\\frac{40}{100} \\times 100\\] = Rs 40\nTotal dividend received = Number of shares purchased × Dividend received on each share = 50 × 40 = Rs 2,000\n\n∴ Rate of return on investment = \\[\\frac{\\text{ Total dividend received} }{\\text{ Sum invested} }\\] x 100 % =\\[ \\frac{2000}{9000}\\] x 100 % = 22.2%\n\nThus, the rate of return on investment is 22.2%.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 48,
+    "isFree": true
+  },
+  {
+    "question": "Find the Amount Received When 300 Shares of Fv Rs 100, Were Sold at a Discount of Rs 30.",
+    "answer": "MV of each share = FV of each share − Discount = Rs 100 − Rs 30 = Rs 70\n\nNumber of shares sold = 300\n\n∴ Amount received on selling the shares = MV of each share × Number of shares sold = 70 × 300 = Rs 21,000\n\nThus, the amount received on selling the shares is Rs 21,000.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 49,
+    "isFree": true
+  },
+  {
+    "question": "Find the Number of Shares Received When Rs 60,000 Was Invested in the Shares of Fv Rs 100 and Mv Rs 120.",
+    "answer": "Sum invested = Rs 60,000\n\nMV of each share = Rs 120\n\n∴ Number of shares received = \n\n\\[\\frac{\\text{ Sum invested} }{\\text{ MV of each share} } = \\frac{60000}{120}\\] = 500",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 50,
+    "isFree": true
+  },
+  {
+    "question": "Smt. Mita Agrawal invested ₹ 10,200 when MV of the share is ₹ 100. She sold 60 shares when the MV was ₹ 125 and sold remaining shares when the MV was ₹ 90. She paid 0.1% brokerage for each trading.",
+    "answer": "mount invested = ₹ 10,200\n\nThe Market value of each share = ₹ 100\n\n∴ Number of shares purchased = \\[\\frac{\\text{ Amount invested} }{\\text{ Market value of each share} } = \\frac{10200}{100}\\] = 102\n\nBrokerage paid for purchasing the shares = 0.1% of ₹ 10,200 = \\[\\frac{0 . 1}{100} \\times 10,200\\] = ₹ 10.20",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 51,
+    "isFree": true
+  },
+  {
+    "question": "Market value of shares and dividend declared by the two companies is given below. Face Value is same and it is Rs 100 for both the shares. Investment in which company is more profitable ?(1) Company",
+    "answer": "For company A:\nThe face value of each share is Rs. 100.\nMarket value of share of company A = Rs. 132\nRate of dividend = 12%\nDividend = 12% of FV = 12% of Rs. 100 = (12)/(100) × 100 = ₹ 12.\nRate of return = \"Dividend\"/\"Sum invested\" × 100% = (12)/(132) × 100% = 9.09%\nFor company B:\nThe face value of each share is Rs. 100.\nMarket value of share of company B = Rs. 144\nRate of dividend = 16%\nDividend = 16% of FV = 16% of Rs. 100 =(16)/(100) × 100 = ₹ 16.\nRate of return = \"Dividend\"/\"Sum invested\" × 100% = (16)/(144) × 100% = 11.11%\n∴ Rate of return from company B > Rate of return from company A\nThus, the investment in company B is more profitable.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 52,
+    "isFree": true
+  },
+  {
+    "question": "Shri. Aditya Sanghavi Invested Rs 50,118 in Shares of Fv Rs 100, When the Market Value is Rs 50. Rate of Brokerage is 0.2%",
+    "answer": "Sum invested = Rs 50,118\n\nFace value of each share = Rs 100\n\nMarket value of each share = Rs 50\n\nBrokerage = 0.2%\n\nBrokerage per share = 0.2% of Rs 50 = \\[\\frac{0 . 2}{100} \\times 50\\] = Rs 0.1\nGST per share on brokerage = 18% of Rs 0.1 = \\[\\frac{18}{100} \\times 0 . 1\\] = Rs 0.018\nCost of 1 share = Market value of each share + Brokerage per share + GST per share on brokerage = Rs 50 + Rs 0.1 + Rs 0.018 = Rs 50.118\n\n∴ Number of shares purchased = \\[\\frac{\\text{ Sum invested } }{\\text{ Cost of each share} } = \\frac{50118}{50 . 118}\\] = 1000",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 53,
+    "isFree": true
+  },
+  {
+    "question": "Shri. Batliwala sold shares of ₹ 30,350 and purchased shares of ₹ 69,650 in a day. He paid brokerage at the rate of 0.1% on sale and purchase. 18% GST was charged on brokerage.",
+    "answer": "1Show SolutionBrokerage = 0.1%\nGST = 18%\nAt the time of selling shares:\nTotal sales amount of shares = ₹ 30,350\nBrokerage = 0.1% of 30,350\n= 0.1/100 × 30,350\n= ₹ 30.35\nGST = 18% of ₹ 30.35\n= 18/100 × 30.35\n= ₹ 5.463\nFor purchasing shares: \nTotal purchase amount of shares = ₹ 69,650\nBrokerage = 0.1% of 69,650\n= 0.1/100 × 69,650\n= ₹ 69.65\nGST = 18% of ₹ 69.65\n= 18/100 × 69.65\n= ₹ 12.537\n∴ Total expenditure on brokerage and tax = Brokerage and tax on selling + Brokerage and tax on purchasing\n= (30.35 + 5.463) + (69.65 + 12.537)\n= Rs. 118\n∴ Total expenditure on brokerage and tax is Rs. 118.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 54,
+    "isFree": true
+  },
+  {
+    "question": "Smt. Aruna Thakkar Purchased 100 Shares of Fv 100 When the Mv is Rs 1200. She Paid Brokerage at the Rate of 0.3% and 18% Gst on Brokerage. Find the Following – (1) Net Amount Paid for 100 Shares.",
+    "answer": "Face value of each share = Rs 100\n\nMarket value of each share = Rs 1,200\n\nNumber of shares purchased = 100\n\n(1) Net amount paid for 100 shares = Market value of each share × Number of shares purchased = Rs 1,200 × 100 = Rs 1,20,000\n\n(2) Rate of brokerage = 0.3%\n\n∴ Brokerage paid on sum invested = 0.3% of Rs 1,20,000 = \\[\\frac{18}{100} \\times 69 . 65\\] = Rs 360\n\n(3) GST paid on brokerage = 18% of Rs 360 = \\[\\frac{18}{100} \\times 360\\] = Rs 64.80",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 55,
+    "isFree": true
+  },
+  {
+    "question": "Smt. Anagha Doshi Purchased 22 Shares of Fv Rs 100 for Market Value of Rs 660. Find the Sum Invested. After Taking 20% Dividend, She Sold All the Shares When Market Value Was Rs 650.",
+    "answer": "For purchasing shares:\nFace value of each share = ₹ 100\nMarket value of each share = ₹ 660\nNumber of shares purchased = 22\nRate of brokerage = 0.1%\nSum invested = Market value of each share × Number of shares\n= 660 × 22\n= ₹ 14,520\nBrokerage = 0.1% of sum invested\n= (0.1)/(100) × 14520\n= ₹ 14.52\n∴ Amount invested for 22 shares = Sum invested + Brokerage\n= 14520 + 14.52\n= ₹ 14534.52\nFor dividend:\nRate of dividend = 20%\n∴ Total dividend received = Number of shares purchased × Dividend received on each share \n= 22 × 20/100 × 100\n= ₹ 440\nFor selling shares:\nMarket value = ₹ 650, Rate of brokerage = 0.1%\nMarket value of 22 shares = 22 × 650 = ₹ 14,300\nBrokerage = 0.1% of 14300\n= 0.1/100 × 14300\n= ₹ 14.30\nSmt. Anagha income = Dividend + Market value of 22 shares − Brokerage\n= 440 + 14300 − 14.30\n= ₹ 14725.7\nSince, income > Amount invested\n∴ Profit is gained.\n∴ Profit = Income − Amount invested\n= 14725.7 − 14534.52 \n= ₹ 191.18\nProfit Percentage = \"Profit\"/\"Amount invested\" × 100\n= 191.18/14534.52 × 100\n= 1.31%\n∴ Percentage of profit in the share trading is 1% (nearest integer).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Financial Planning",
+    "questionNumber": 56,
+    "isFree": true
+  },
+  {
+    "question": "How Many Possibilities is the Following ?Vanita Knows the Following Sites in Maharashtra. She is Planning to Visit One of Them in Her Summer Vacation.",
+    "answer": "Total number of possible places in Maharashtra which can Vanita visit = 8",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "How Many Possibilities is Following?Any Day of a Week is to Be Selected Randomly.",
+    "answer": "Total number of days in a week = Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday = 7.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "How Many Possibilities is Following?Select One Card from the Pack of 52 Cards.",
+    "answer": "Total number of cards = 52",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "How Many Possibilities is Following?One Number from 10 to 20 is Written on Each Card. Select One Card Randomly.",
+    "answer": "Total number of cards = 11",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "For the Following Experiment Write Sample Space ‘S’ and Number of Sample Points N(S).One Coin and One Die Are Thrown Simultaneously.",
+    "answer": "Sample Space (S) = {1H, 1T, 2H, 2T, 3H, 3T, 4H, 4T, 5H, 5T, 6H, 6T}\n∴ n(S) = 12\nHence, the required number of sample spaces is 12.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Probability",
+    "questionNumber": 5,
+    "isFree": true
+  }
+]

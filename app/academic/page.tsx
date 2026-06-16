@@ -1,10 +1,10 @@
 // app/academic/page.tsx
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Search, BookOpen, TrendingUp, ChevronRight, GraduationCap, Filter } from "lucide-react";
+import { Search, BookOpen, TrendingUp, ChevronRight, GraduationCap, Filter, Download, Lightbulb, FileQuestion, FileText, ClipboardList } from "lucide-react";
 import { GlassCard } from "@/components/ui/GlassCard";
 
 const boards = [
@@ -14,14 +14,27 @@ const boards = [
 ];
 
 const trendingSolutions = [
-    { title: "CBSE Class 10 Science Chapter 1: Chemical Reactions", views: "15.2K", href: "/academic/cbse/10/science/chapter-1" },
-    { title: "Maharashtra Board Class 10 Maths Chapter 3: Arithmetic Progression", views: "12.8K", href: "/academic/maharashtra-board/10/maths/chapter-3" },
-    { title: "ICSE Class 10 Physics Chapter 2: Work, Energy and Power", views: "10.5K", href: "/academic/icse/10/physics/chapter-2" },
-    { title: "CBSE Class 10 Math Chapter 9: Some Applications of Trigonometry", views: "9.8K", href: "/academic/cbse/10/maths/chapter-9" },
+    { title: "CBSE Class 10 Science — Chapter-wise Solutions", views: "15.2K", href: "/academic/cbse/10/science" },
+    { title: "Maharashtra Board Class 10 Mathematics — All Chapters", views: "12.8K", href: "/academic/maharashtra-board/10/mathematics" },
+    { title: "ICSE Class 10 Physics — Textbook Solutions", views: "10.5K", href: "/academic/icse/10/physics" },
+    { title: "CBSE Class 10 Mathematics — Complete Solutions", views: "9.8K", href: "/academic/cbse/10/mathematics" },
 ];
 
 export default function AcademicHubPage() {
     const [searchQuery, setSearchQuery] = useState("");
+    const [stats, setStats] = useState({ solutions: 0, textbooks: 0, conceptNotes: 0, mcqs: 0 });
+
+    useEffect(() => {
+        fetch("/api/academic/stats")
+            .then(r => r.json())
+            .then(data => setStats({
+                solutions: data.solutions || 0,
+                textbooks: data.textbooks || 0,
+                conceptNotes: data.conceptNotes || 0,
+                mcqs: data.mcqs || 0,
+            }))
+            .catch(() => {});
+    }, []);
 
     return (
         <div className="pt-20">
@@ -143,10 +156,10 @@ export default function AcademicHubPage() {
                 <div className="container-custom">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                         {[
-                            { value: "30,000+", label: "Solutions", icon: BookOpen },
-                            { value: "3", label: "Boards", icon: GraduationCap },
-                            { value: "5,000+", label: "Chapters", icon: Filter },
-                            { value: "2,00,000+", label: "Happy Students", icon: TrendingUp },
+                            { value: stats.solutions > 0 ? `${(stats.solutions / 1000).toFixed(1)}K+` : "—", label: "Solutions", icon: FileText, color: "text-brand-royal" },
+                            { value: stats.textbooks > 0 ? `${stats.textbooks}+` : "—", label: "Textbook PDFs", icon: Download, color: "text-red-500" },
+                            { value: stats.conceptNotes > 0 ? `${stats.conceptNotes}+` : "—", label: "Notes & Videos", icon: Lightbulb, color: "text-amber-500" },
+                            { value: stats.mcqs > 0 ? `${(stats.mcqs / 1000).toFixed(1)}K+` : "—", label: "MCQ Questions", icon: FileQuestion, color: "text-green-600" },
                         ].map((stat, i) => (
                             <motion.div
                                 key={stat.label}
@@ -156,8 +169,8 @@ export default function AcademicHubPage() {
                                 transition={{ delay: i * 0.1 }}
                                 className="text-center"
                             >
-                                <div className="h-12 w-12 rounded-xl bg-primary-100 flex items-center justify-center mx-auto mb-3">
-                                    <stat.icon className="h-6 w-6 text-primary-600" />
+                                <div className="h-12 w-12 rounded-xl bg-slate-50 flex items-center justify-center mx-auto mb-3">
+                                    <stat.icon className={`h-6 w-6 ${stat.color}`} />
                                 </div>
                                 <div className="text-2xl font-bold text-slate-800">{stat.value}</div>
                                 <div className="text-sm text-slate-500">{stat.label}</div>

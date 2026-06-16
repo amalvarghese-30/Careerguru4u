@@ -15,6 +15,7 @@ const footerSections = [
       { label: "Important Questions", href: "/academic/important-questions" },
       { label: "Sample Papers", href: "/academic/sample-papers" },
       { label: "Previous Year Papers", href: "/academic/pyqs" },
+      { label: "Entrance Exam Prep", href: "/mock-test/entrance" },
     ],
   },
   {
@@ -73,6 +74,7 @@ export function Footer() {
                   src="/Career Guru.jpeg"
                   alt="Career Guru"
                   fill
+                  sizes="224px"
                   className="object-contain"
                 />
               </div>

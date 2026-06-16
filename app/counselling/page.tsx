@@ -20,21 +20,21 @@ const counsellors = [
         expertise: "Career Counselling, Stream Selection",
         experience: "12+ years",
         rating: 4.9,
-        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&h=100&fit=crop",
     },
     {
         name: "Prof. Amit Mehta",
         expertise: "College Admissions, MBA Guidance",
         experience: "15+ years",
         rating: 4.8,
-        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+        image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop",
     },
     {
         name: "Ms. Neha Gupta",
         expertise: "Career Planning, Skill Development",
         experience: "8+ years",
         rating: 4.9,
-        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
+        image: "https://images.unsplash.com/photo-1594744803329-e58a532c2fef?w=100&h=100&fit=crop",
     },
 ];
 

@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Complete the following activity to solve the simultaneous equations.5x + 3y = 9 -----(I)2x − 3y = 12 ----- (II)",
+    "answer": "5x + 3y = 9 -----(I)\n2x − 3y = 12 ----- (II)\nAdding equations (I) and (II)\n5x + 3y = 9\n2x − 3y = 12_\n7x = 21\nx = 21/7\nx = 3\nPutting the value of x = 3 in (I) we get\n5x + 3y = 9\n5(3) + 3y = 9\n15 + 3y = 9\n3y = 9 − 15\n3y = −6\ny = (-6)/3\ny = −2\nThus, (x, y) = (3, −2)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. 3a + 5b = 26; a + 5b = 22",
+    "answer": "3a + 5b = 26 ...(1)\na + 5b = 22 ...(2)\n3a + 5b = 26 ...(1)\n a + 5b = 22 ...(2)\n− − − \n 2a = 4\n∴ a = 4/2\n∴ a = 2\nPut in equation ...(1)\n3a + 5b = 26\n3(2) + 5b = 26\n6 + 5b = 26\n5b = 26 − 6\n5b = 20\n∴ b = 20/5\n∴ b = 4\nThus, a = 2, b = 4",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. x + 7y = 10; 3x – 2y = 7",
+    "answer": "x + 7y = 10 ...(I)\n3x &ndash; 2y = 7 ...(II) \nMultiply equation (I) by 3,\n3x + 21y = 30 ...(III)\nSubtracting (II) from (III), we get,\n\\[\\begin{array}{l} \n\\phantom{\\texttt{0}}\\texttt{ 3x + 21y = 30}\\\\ \\phantom{\\texttt{}}\\texttt{&ndash; 3x &ndash; 2y = 7}\\\\ \\hline\\phantom{\\texttt{}}\\texttt{ (-) (+) (-)}\\\\ \\hline \\end{array}\\]\n∴ 23y = 23\n∴ y = 23/23 \n∴ y = 1\nPutting the value of y = 1 in (II), we get,\n3x &ndash; 2y = 7\n∴ 3x &ndash; 2(1) = 7\n∴ 3x &ndash; 2 = 7\n∴ 3x = 7 + 2\n∴ 3x = 9\n∴ x = 9/3\n∴ x = 3\nThus, (x, y) = (3, 1).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation.2x – 3y = 9; 2x + y = 13",
+    "answer": "2x &ndash; 3y = 9 ....(I)\n2x + y = 13 .....(II)\nSubtracting (I) from (II) we get\n2x &ndash; 3y = 9\n2x + y = 13\n&ndash; &ndash; &ndash; \n0 &ndash;4y = &ndash;4\ny = (-4)/(-4)\ny = 1\nSubstitute y = 1 in equation (II)\n2x + y = 13\n2x + 1 = 13\n2x = 13 − 1\n2x = 12\nx = 12/2\nx = 6\nThus, (x, y) = (6, 1)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. 5m – 3n = 19; m – 6n = –7",
+    "answer": "5m &ndash; 3n = 19 ...(I)\nm &ndash; 6n = &ndash;7 ...(II)\nMultiply equation (I) by 2, we get,\n10m &ndash; 6n = 38 ...(III)\nSubtracting (II) from (III), we get,\n\\[\\begin{array}{l} \n\\phantom{\\texttt{0}}\\texttt{10m &ndash; 6n = 38}\\\\ \\phantom{\\texttt{}}\\texttt{&ndash; m &ndash; 6n = &ndash;7}\\\\ \\hline\\phantom{\\texttt{}}\\texttt{(-) (+) (+)}\\\\ \\hline \\end{array}\\]\n∴ 9m = 45\n∴ m = 45/9\n∴ m = 5\nPutting the value of m = 5 in equation (II), we get,\nm &ndash; 6n = &ndash;7\n∴ 5 &ndash; 6n = &ndash;7\n∴ &ndash; 6n = &ndash;7 &ndash; 5\n∴ &ndash; 6n = &ndash;12\n∴ n = (&ndash;12)/(&ndash; 6)\n∴ n = 2\nThus, (m, n) = (5, 2).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. 5x + 2y = –3; x + 5y = 4",
+    "answer": "5x + 2y = −3 ...(1)\nx + 5y = 4 ...(2)\nx + 5y = 4 &rArr; x = 4 − 5y\n5(4 − 5y) + 2y = −3\n20 − 25y + 2y = −3\n20 − 23y = −3\n−23y = −3 − 20\n−23y = −23\ny = 1\nx + 5(1) = 4\nx + 5 = 4\nx = −1\nx = −1, y = 1",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. 13x+y=103 ; 2x+14y=114",
+    "answer": "1/3x + y = 10/3 ...(I)\n2x + 1/4y = 11/4 ...(II)\nMultiply (I) with 3 and (II) with 4\nx + 3y = 10 ...(III)\n8x + y = 11 ...( IV)\nMultiply (IV) with 3\n24x + 3y = 33 ...(V)\nSubtracting (V) from (III)\n&rArr; x - 24x + 3y - 3y = 10 - 33\n&rArr; -23x = -23\n&rArr; x = 1\nPutting the value of x = 1 in (III)\n1 + 3y = 10\n3y = 10 - 1\n3y = 9\ny = 9/3\ny = 3\nThus, (x, y) = (1, 3)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. 99x + 101y = 499; 101x + 99y = 501",
+    "answer": "dding equation (i) and (ii) we get,\n99x + 101y = 499 ...(i)\n101x + 99y = 501 ...(ii)\n200x + 200y = 1000\nx + y = 1000/200 ...[Dividing both sides by 200]\n∴ x + y = 5 ...(iii)\nSubtracting equation (ii) from (i) we get,\n 99x + 101y = 499\n 101x + 99y = 501\n&ndash; &ndash; &ndash; \n&ndash;2x + 2y = &ndash;2\n&ndash;x + y = &ndash;1\nx &ndash; y = 1 ...(iv)\n x + y = 5 ...(iii)\n x &ndash; y = 1 ...(iv)\n2x = 6\n∴ x = 6/2\n∴ x = 3\nPut x = 3 in the equation no. (iii)\nx + y = 5\n3 + y = 5\n∴ y = 5 &ndash; 3\n∴ y = 2\nx = 3, y = 2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation.49x – 57y = 172; 57x – 49y = 252",
+    "answer": "49x &ndash; 57y = 172 ...(I)\n57x &ndash; 49y = 252 ...(II)\nAdding equations (I) and (II)\n(49x + 57x) + (&ndash;57y &ndash; 49y) = 172 + 252\n106x + (&ndash;106y) = 424\n106(x &ndash; y) = 424\n(x &ndash; y) = 424/106\n∴ x &ndash; y = 4 ...(III)\nSubtracting (II) from (I) we have\n(57x &ndash; 49x) + [&ndash;49y &ndash; (&ndash;57y)] = 252 &ndash; 172\n8x + (&ndash;49y + 57y) = 80\n8x + 8y = 80\n8(x + y) = 80\nx + y = 80/8\nx + y = 10 ...(IV)\nAdding (III) and (IV)\nx + x &ndash; y + y = 4 + 10\n2x = 14\nx = 7\nPutting the value of x = 7 in (IV) we get\nx + y = 10\n7 + y = 10\ny = 10 &ndash; 7\ny = 3\nThus, (x, y) = (7, 3)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following table to draw the graph of the equation x + y = 3: x 3 □ □ y □ 5 3 (x, y) (3, 0) □ (0, 3)",
+    "answer": "x + y = 3\n\nx\n3\n\n\\[\\boxed{−2}\\]\n\n\\[\\boxed{0}\\]\n\ny\n\\[\\boxed{0}\\]\n5\n3\n\n(x, y)\n(3, 0)\n\n\\[\\boxed{(−2, 5)}\\]\n\n(0, 3)\n\n[Substitute y = 5 in the given equation. \nx + 5 = 3 ∴ x = 3 − 5 ∴ x = −2. \nSubstitute y = 3 in the given equation. \nx + 3 = 3 ∴ x = 3 − 3 ∴ x = 0.]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equations graphically. x + y = 6 ; x – y = 4",
+    "answer": "The given simultaneous equations are \nx + y = 6\n∴ y = 6 &ndash; x\n\ny = 6 &ndash; x\n∴ y = 6 &ndash; 0\n∴ y = 6\n\ny = 6 &ndash; x\n∴ y = 6 &ndash; 2\n∴ y = 4\ny = 6 &ndash; x\n∴ y = 6 &ndash; 6\n∴ y = 0\n\n \n\nx\n0\n2\n6\n\ny\n6\n4\n0\n\n(x, y)\n(0, 6)\n(2, 4)\n(6, 0)\n\nx &ndash; y = 4\n∴ y = x &ndash; 4\n\ny = x &ndash; 4\n∴ y = 0 &ndash; 4\n∴ y = &ndash;4\n\ny = x &ndash; 4\n∴ y = 4 &ndash; 4\n∴ y = 0\ny = x &ndash; 4\n∴ y = 5 &ndash; 4\n∴ y = 1\n\n \n\nx\n0\n4\n5\n\ny\n&ndash;4\n0\n1\n\n(x, y)\n(0, &ndash;4) \n(4, 0)\n(5, 1)\n\n Point of intersection of the two lines is (5, 1).\n∴ x = 5 and y = 1 is the solution of the simultaneous equations x + y = 6 and x &ndash; y = 4.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Simultaneous Equations Graphically.X + Y = 5 ; X – Y = 3",
+    "answer": "x + y = 5 ....(1)\nx &ndash; y = 3 .....(2) \nIn the equation x + y = 5\nPutting x = 0 \nx + y = 5 \n0 + y = 5\ny = 5\nPutting y = 0\nx + y = 5\nx + 0 = 5\nx = 5\nPutting y = 3\nx + y = 5\nx + 3 = 5\nx = 5 - 3\nx = 2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equations graphically. x + y = 0 ; 2x – y = 9",
+    "answer": "x + y = 0 \n\nx\n1\n2\n3\n5\n\ny\n− 1\n− 2\n− 3\n− 5\n\n(x, y)\n(1, − 1)\n(2, − 2)\n(3, − 3)\n(5, − 5)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation graphically. 3x – y = 2 ; 2x – y = 3",
+    "answer": "3x &ndash; y = 2\n3x - 2 = y\ny = 3x -2\n\nx\n0\n1\n2\n-1\n\ny\n-2\n1\n4\n-5\n\n(x, y)\n(0, -2\n(1, 1)\n(2, 4)\n(-1, -5)\n\n2x &ndash; y = 3 \n\nx\n0\n1\n2\n3\n\ny\n-3\n-1\n1\n3\n\n(x, y)\n(0, -3)\n(1, -1)\n(2, 1)\n(3, 3)\n\nThe point of intersection of the two lines is (−1, −5).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Simultaneous Equation Graphically. 3x – 4y = –7; 5x – 2y = 0",
+    "answer": "3x &ndash; 4y = &ndash;7\n\nx\n1\n0\n-2.3\n\ny \n2.5\n1.7\n0\n\n5x &ndash; 2y = 0\n\nx\n0\n2\n4\n\ny \n0\n5\n10\n\n​Point of intersection of the two lines is (1, 2.5).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Simultaneous Equations Graphically.2x – 3y = 4 ; 3y – X = 4",
+    "answer": "i. 2x &ndash; 3y = 4\ny = (2\"x\" - 4)/3\nPut x = 2 \ny = (2(2) - 4)/3\n= (4 - 4)/3\n= 0/3\n= 0\nPut x = 3.5\ny = (2(3.5) - 4)/3\n= (7 - 4)/3\n= 3/3\n= 1\nPut x = 1\ny = (2(1) - 4)/3\n= (2 - 4)/3\n= -2/3\n= −0.6\n\nx\n2\n3.5\n1\n\ny\n0\n1\n−0.6",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Fill in the blanks with correct number: |(3,2),(4,5)| = 3 xx square - square xx 4 = square - 8 = square",
+    "answer": "|(3,2),(4,5)| = 3 × \\[\\boxed5\\] − \\[\\boxed2\\] × 4 = \\[\\boxed{15}\\] − 8 = \\[\\boxed7\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Find the value of following determinant. |(-1,7),(2,4)|",
+    "answer": "|(- 1, 7),(2, 4)|\n= (−1 × 4) − (7 × 2)\n= −4 − 14\n= − 18",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Find the value of following determinant. |(5,3),(-7,0)|",
+    "answer": "|(5,3), (-7,0)|\n= (5 × 0) − (3 × (−7))\n= 0 − (−21)\n= 0 + 21\n= 21",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Find the values of following determinant. |(7/3,5/3), (3/2, 1/2)|",
+    "answer": "|(7/3,5/3), (3/2, 1/2)|\nValue = (7/3×1/2) - (5/3×3/2)\nvalue = 7/6 - 15/6\n= (7-15)/6 \n= (-8)/6\n=-4/3",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equations using Cramer’s rule. 3x – 4y = 10 ; 4x + 3y = 5",
+    "answer": "Given equations,\n3x − 4y = 10 ...(1)\n4x + 3y = 5 ...(2)\na1 = 3, a2 = 4, b1 = −4, b2 = 3, c1 = 10, c2 = 5\nD = |(a₁, b₁), (a₂, b₂)|\nD = |(3, -4), (4, 3)|\n= 3 × 3 − 4 × (&ndash; 4) \n= 9 + 16\n= 25\nDₓ = |(c₁, b₁), (c₂, b₂)|\nDₓ = |(10, -4), (5, 3)|\n= 10 × 3 − (−4) × 5\n= 30 + 20\n= 50\nDy = |(a₁, c₁), (a₂, c₂)|\nDy = |(3, 10), (4, 5)|\n= 3 × 5 − 4 × 10\n= 15 − 40\n= −25\nBy using cramer's rule,\nx = Dₓ/D\n= 50/25\n= 2\ny = Dy/D\n= (-25)/25\n= −1\n(x, y) = (2, −1) is the solution of the given simultaneous equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equations using Cramer’s rule. 4x + 3y – 4 = 0; 6x = 8 – 5y",
+    "answer": "4x + 3y &ndash; 4 = 0\n6x = 8 &ndash; 5y\nWrite the given equations in the form ax + by = c\n4x + 3y = 4 \n6x + 5y = 8\nD = |(4, 3), (6, 5)| = 4 × 5 - 3 × 6 = 20 - 18 = 2\nDx = |(4, 3), (8, 5)| = 4 × 5 - 3 × 8 = 20 - 24 = - 4\nDy = |(4, 4), (6, 8)| = 4 × 8 - 4 × 6 = 32 - 24 = 8\nBy using Cramer&rsquo;s Rule,\nx = \"D\"ₓ/\"D\" = (-4)/2 = -2\ny = \"D\"y/\"D\" = (8)/2 = 4\n\n(x, y) = (&ndash;2, 4) is the solution of the given equations.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Simultaneous Equations Using Cramer’S Rule.X + 2y = –1 ; 2x – 3y = 12",
+    "answer": "x + 2y = &ndash;1 ; 2x &ndash; 3y = 12\n\n\\[D = \\begin{vmatrix}1 & 2 \\\\ 2 & - 3\\end{vmatrix} = 1 \\times \\left( - 3 \\right) - 2 \\times 2 = - 3 - 4 = - 7\\]\n\\[ D_x = \\begin{vmatrix}- 1 & 2 \\\\ 12 & - 3\\end{vmatrix} = \\left( - 1 \\right) \\times \\left( - 3 \\right) - 2 \\times 12 = 3 - 24 = - 21\\]\n\\[ D_y = \\begin{vmatrix}1 & - 1 \\\\ 2 & 12\\end{vmatrix} = 1 \\times 12 - \\left( - 1 \\right) \\times 2 = 12 + 2 = 14\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equations using Cramer’s rule. 6x – 4y = –12; 8x – 3y = –2",
+    "answer": "Given equations,\n6x &ndash; 4y = &ndash;12 \n8x &ndash; 3y = &ndash;2\nD = |(6, &ndash; 4), (8, &ndash; 3)| = 6 × (&ndash; 3) &ndash; (&ndash; 4) × 8 = &ndash; 18 + 32 = 14\nDx = |(&ndash;12, &ndash; 4), (&ndash;2, &ndash; 3)| = (&ndash;12) × (&ndash; 3) &ndash; (&ndash; 4) × (&ndash;2) = 36 &ndash; 8 = 28\nDy = |(6, &ndash;12), (8, &ndash; 2)| = 6 × (&ndash; 2) &ndash; (&ndash; 12) × 8 = &ndash; 12 + 96 = 84\nBy using Cramer&rsquo;s rule,\n\nx = \"D\"ₓ/\"D\" = 28/14 = 2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation using Cramer’s rule. 4m + 6n = 54; 3m + 2n = 28",
+    "answer": "4m + 6n = 54; 3m + 2n = 28\n\\[D = \\begin{vmatrix}4 & 6 \\\\ 3 & 2\\end{vmatrix} = 4 \\times 2 - 6 \\times 3 = 8 - 18 = - 10\\]\n\\[D_m = \\begin{vmatrix}54 & 6 \\\\ 28 & 2\\end{vmatrix} = 54 \\times 2 - 6 \\times 28 = 108 - 168 = - 60\\]\n\\[D_n = \\begin{vmatrix}4 & 54 \\\\ 3 & 28\\end{vmatrix} = 4 \\times 28 - 54 \\times 3 = 112 - 162 = - 50\\]\n\\[m = \\frac{D_m}{D} = \\frac{- 60}{- 10} = 6\\]\n\\[n = \\frac{D_n}{D} = \\frac{- 50}{- 10} = 5\\]\n\\[\\left(m, n \\right) = \\left(6, 5 \\right)\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equations using Cramer’s rule.2x + 3y = 2; x - y2=12.",
+    "answer": "2x + 3y = 2; x - y/2 = 1/2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. 2x−3y=15;8x+5y=77",
+    "answer": "\\[\\frac{2}{x} - \\frac{3}{y} = 15; \\frac{8}{x} + \\frac{5}{y} = 77\\]\n\\[\\text{ Let }\\frac{1}{x} = u\\text{ and }\\frac{1}{y} = v\\]\nSo, the equation becomes\n\\[2u - 3v = 15 . . . . . \\left( I \\right)\\]\n\\[8u + 5v = 77 . . . . . \\left( II \\right)\\]\nMultiply (I) with 4 we get\n\\[8u - 12v = 60 . . . . . \\left( III \\right)\\]\n(II) − (III)\n\\[8u - 8u + 5v - \\left( - 12v \\right) = 77 - 60\\]\n\\[ \\Rightarrow 17v = 17\\]\n\\[ \\Rightarrow v = 1\\]\n\n\\[\\text{ Putting the value of v in }\\left( I \\right)\\]\n\\[2u - 3\\left( 1 \\right) = 15\\]\n\\[ \\Rightarrow 2u = 15 + 3 = 18\\]\n\\[ \\Rightarrow u = 9\\]\nThus, \n\\[\\frac{1}{x} = u = 9\\]\n\\[ \\Rightarrow x = \\frac{1}{9}\\]\n\\[\\frac{1}{y} = v = 1\\]\n\\[ \\Rightarrow y = 1\\]\n\\[\\left( x, y \\right) = \\left( \\frac{1}{9}, 1 \\right)\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equations. xyxyxyxy10x+y+2x-y=4;15x+y-5x-y=-2",
+    "answer": "10/(\"x\" + \"y\") + 2/(\"x\" - \"y\") = 4; 15/(\"x\" + \"y\") - 5/(\"x\" - \"y\") = -2\nLet 1/(\"x\" + \"y\") = u and 1/(\"x\" - \"y\") = v\nSo, the equation becomes\n10u + 2v = 4 ....(I)\n15u − 5v = −2 ....(II)\nMultiplying (I) with 5 and (II) with 2 we get\n50u + 10v = 20 ....(III)\n30u − 10v = −4 .....(IV)\nAdding (III) and (IV) we get\nu = 16/80 = 1/5\nPutting this value in (I)\n10 xx 1/5 + 2\"v\" = 4\n&rArr; 2 + 2v = 4\n&rArr; 2v = 4 - 2\n&rArr; 2v = 2\n&rArr; v = 2/2\n&rArr; v = 1\n1/(\"x\" + \"y\") = 1/5 and 1/(\"x\" - \"y\") = 1\n&rArr; x + y = 5 and x − y = 1\nSolving these equations we get\nx + y = 5\nx − y = 1\n2x = 6\nx = 6/2\nx = 3\nput x = 3 in the equation (x − y = 1)\n3 − y = 1\n3 − 1 = y\ny = 2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. 27𝑥−2 +31𝑦+3 =85,31𝑥−2 +27𝑦+3 =89",
+    "answer": "Given: 27(1/(x -2)) + 31(1/(y + 3)) = 85 ...(1)\n31(1/(x -2)) + 27(1/(y + 3)) = 89 ...(2)\nLet 1/(x - 2) = m and 1/(y + 3) = n\n27m + 31n = 85 ...(3)\n31m + 27n = 89 ...(4)\nAdding equations (3) and (4), we get,\n\\[\\begin{array}{l} \n\\phantom{\\texttt{0}}\\texttt{27m + 31n = 85}\\\\ \\phantom{\\texttt{}}\\texttt{+31m + 27n = 89}\\\\ \\hline \\end{array}\\]\n∴ 58m + 58n = 174\n∴ m + n = 3 ...(5) ...[Dividing both sides by 58]\nSubtracting equations (4) and (3), we get,\n\\[\\begin{array}{l} \n\\phantom{\\texttt{0}}\\texttt{27m + 31n = 85}\\\\ \\phantom{\\texttt{}}\\texttt{−31m − 27n = −89}\\\\ \\hline\\phantom{\\texttt{}}\\texttt{ (−) (+) (+)}\\\\ \\hline \\end{array}\\]\n∴ − 4m + 4n = −4\n∴ −m + n = −1 ...(6) [Dividing both sides by 4]\nAdding equations (5) and (6), we get,\n\\[\\begin{array}{l} \n\\phantom{\\texttt{0}}\\texttt{m + n = 3}\\\\ \\phantom{\\texttt{}}\\texttt{−m + n = −1}\\\\ \\hline \\end{array}\\]\n∴ 2n = 2\nn = 2/2 = 1.\n∴ n = 1\n∴ n + 1 = 3\n∴ n = 3 − 1\n∴ n = 2\n∴ (m, n) = (2, 1)\nResubstitute the values of m and n\n&rArr; 1/(x − 2) = 2 \n&rArr; 2(x − 2) = 1\n&rArr; 2x − 4 = 1\n&rArr; 2x = 4 + 1\n&rArr; 2x = 5\n&rArr; x = 5/2\n∴ 1/(y + 3)\n&rArr; 1/(y + 3) = 1\n&rArr; y + 3 = 1\n&rArr; y = 1 − 3\n&rArr; y = −2\nHence, (x, y) = (5/2, -2)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. 13x+y+13x-y=34;12(3x+y) -12(3x-y) =-18",
+    "answer": "Given:\n1/(3x + y) + 1/(3x - y) = 3/4; 1/(2(3x + y)) - 1/(2(3x - y)) = -1/8\nlet 1/(3x + y) ​= a \"and\" 1/(3x − y) = b\nThen,\na + b = 3/4\n&rArr; 4a + 4b = 3 ...(I)\nSimilarly,\na/2 ​− b/2 ​= (-1)/8\n&rArr; (a − b)/2 ​= (-1)/8\n&rArr; a − b = (− 2)/8 ​\n&rArr; a − b = (−1​)/4\n&rArr; 4a − 4b = −1 ...(II)\nAdding I and II we get,\n4a + 4b = 3\n+ 4a − 4b = −1\n8a = 2\na = 2/8​\na = 1/4\nSubstituting the value of a in I we get,\n4 × 1/4​ + 4b = 3\n4b = 2\nb = 2/4 ​&rArr; 1/2\nThen,\n1/(3x + y) ​= 1/4​\n3x + y = 4 ...(III)\n1/(3x - y) = 1/2\n3x − y = 2 ...(IV)\nAdding (III) and (IV) we get,\n 3x + y = 4\n+ 3x − y = 2\n6x = 6\nx = 1\nSubstituting x = 1 in (III) we get,\n3 × 1 + y = 4\ny = 1\nThus, x = 1 and y = 1",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "Two numbers differ by 3. The sum of twice the smaller number and thrice the greater number is 19. Find the numbers.",
+    "answer": "Let the greater number be x and the smaller number be y. \nBy the first condition:\nTwo numbers differ by 3.\nx − y = 3 ...(1)\nBy the second condition:\nThe sum of twice the smaller number and thrice the greater number is 19.\n3x + 2y = 19 ...(2)\nMultiplying equation (1) by 2\n2x − 2y = 6 ...(3)\nAdding equations (2) and (3)\n3x + 2y = 19\n2x − 2y = 6 \n5x = 25\nx = 25/5\nx = 5\nPut x = 5 in equation (1)\nx − y = 3\n5 − y = 3\ny = 5 − 3\ny = 2\n∴ The greater number is 5, and the smaller number is 2.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following. 2x + y + 8 2y I am a rectangle.",
+    "answer": "The length of the given rectangle is 2x + y + 8 and 4x - y\n2x + y + 8 = 4x - y\n&rArr; y + y + 8 = 4x - 2x\n&rArr; 8 + 2y = 2x\n&rArr; 2x - 2y = 8\nDividing by 2\n&rArr; x - y = 4 ...(I)\nThe breadth of the rectangle is 2y and x + 4. \n2y = x + 4\n&rArr; x - 2y = -4 ...(II)\nSubtracting (II) from (I) \nx - x - y - (-2y) = 4 - (-4)\n&rArr; -y + 2y = 8\n&rArr; y = 8\nPutting the value of y = 8 in (I) we get\nx - 8 = 4\n&rArr; x = 4 + 8 = 12\nLength = 4x - y\n= 4 × 12 - 8\n= 40\nBreadth = 2 × 8\n= 16\nPerimeter = 2 (length + breadth)\n= 2 (40 + 16) \n= 112\nArea = length × breadth\n= 40 × 16\n= 640 sq. units",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "The sum of father’s age and twice the age of his son is 70. If we double the age of the father and add it to the age of his son the sum is 95. Find their present ages.",
+    "answer": "Let the father's age be x years and son's age be y years. \nSum of father&rsquo;s age and twice the age of his son is 70 so, \nx + 2y = 70 ......(I)\nDouble the age of the father added to the age of his son the sum is 95.\n2x + y = 95 .....(II)\nAdding (I) and (II), we get,\n\\[\\begin{array}{l} \n\\phantom{\\texttt{0}}\\texttt{ x + 2y = 70}\\\\ \n\\phantom{\\texttt{}}\\texttt{+ 2x + y = 95}\\\\\\hline \\end{array}\\]\n∴ 3x + 3y = 165\n\nDividing by 3,\nx + y = 55 ...(III)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "The denominator of a fraction is 4 more than twice its numerator. Denominator becomes 12 times the numerator, if both the numerator and the denominator are reduced by 6. Find the fraction.",
+    "answer": "Let the fraction be x/\"y\" .\nDenominator of a fraction is 4 more than twice its numerator.\nSo, \"y\" = 4 + 2x\n&rArr; 2x - \"y\" = &ndash; 4 ......(I)\nAlso, denominator becomes 12 times the numerator, if both the numerator and the denominator are reduced by 6.\nSo, \"y\" - 6 = 12(x - 6)\n&rArr; \"y\" - 6 = 12x - 72\n&rArr; 12x - \"y\" = 72 - 6 = 66\n&rArr; 12x - \"y\" = 66 ......(II)\nSubtracting (I) from (II)\n12x - 2x - \"y\" - (- \"y\") = 66 - (- 4)\n&rArr; 10x - 70\n&rArr; x = 70/10 = 7\n&rArr; x = 7\nPutting the value of x = 7 in (I)\n2(7) - \"y\" = - 4\n&rArr; 14 - \"y\" = - 4\n&rArr; \"y\" = 14 + 4 = 18\nThus, the fraction obtained is 7/18.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "Two Types of Boxes A, B Are to Be Placed in a Truck Having Capacity of 10 Tons.",
+    "answer": "Let the weight of box A be x and that of box B be y. \nWhen 150 boxes of type A and 100 boxes of type B are loaded in the truck, it weighs 10 tons i.e. 10000 kg.\nSo,\n\\[150x + 100y = 10000\\]\n\\[ \\Rightarrow 15x + 10y = 1000\\]\n\\[ \\Rightarrow 3x + 2y = 200 . . . . . \\left( I \\right)\\]\n \nWhen 260 boxes of type A are loaded in the truck, it can still accommodate 40 boxes of type B, so that it is fully loaded.\n\\[260x + 40y = 10000\\]\n\\[ \\Rightarrow 26x + 4y = 1000\\]\n\\[ \\Rightarrow 13x + 2y = 500 . . . . . \\left( II \\right)\\]\n \nSubtracting (I) from (II) we get\n\n\\[13x - 3x + 2y - 2y = 500 - 200\\]\n\\[ \\Rightarrow 10x = 300\\]\n\\[ \\Rightarrow x = 30\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "Out of 1900 km, Vishal travelled some distance by bus and some by aeroplane. The bus travels with an average speed of 60 km/hr and the average speed of the aeroplane is 700 km/hr.",
+    "answer": "We know \"speed\" = \"distance\"/\"time\"\nAverage speed of bus = 60km/h.\nLet the time taken in bus be x hours. \nAverage speed of plane = 700km/h.\nLet the time taken in the plane be y hours. \nTotal distance covered = 1900 km\n60x + 700y = 1900\n&rArr; 6x + 70y = 190\n&rArr; 3x + 35y = 95 ...(I)\nIt takes 5 hours to complete the journey so, \nx + y = 5 ...(II)\nMultiplying (II) with 3\n3x + 3y = 15 ...(III)\nSubtracting (III) from (I) we get\n3x - 3x + 35y - 3y = 95 - 15\n&rArr; 32y = 80 \n&rArr; y = 80/32\n&rArr; y = 2.5\nPutting the value of y = 2.5 in (II) we get\nx + 2.5 = 5\nx = 5 - 2.5\n&rArr; x = 2.5\nDistance travelled by Vishal by bus = speed × time\n= 60 × 2.5\n= 150 km",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "Choose Correct Alternative for the Following Question.To Draw Graph of 4x +5y = 19, Find Y When X = 1.A) 4(B) 3(C) 2(D) –3",
+    "answer": "32-3",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "For simultaneous equations in variables x and y, Dx = 49, Dy = –63, D = 7 then what is x?",
+    "answer": "7&ndash;71/7(-1)/7-1/7",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "Find the value of |(5, 3),(−7, −4)|.",
+    "answer": "1",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "Choose correct alternative for the following question. To solve x + y = 3; 3x – 2y – 4 = 0 by determinant method find D.",
+    "answer": "−5−1",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "Choose Correct Alternative for the Following Question.Ax + By = C And Mx + Ny = D And An ≠ Bm Then These Simultaneous Equations Have -(A)Only One Common Solution.(A)No Solution",
+    "answer": "Only one common solution.No solution.Infinite number of solutions.Only two solution.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following table to draw the graph of 2x – 6y = 3. x -5 x y x 0 (x, y) (-5, x) (x, 0)",
+    "answer": "2x &ndash; 6y = 3\n\nx\n-5\n3/2\n\ny\n(-13)/6\n0\n\n(x, y)\n(-5, (-13)/6)\n(3/2, 0)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation graphically. 2x + 3y = 12 ; x – y = 1",
+    "answer": "2x + 3y = 12\n∴ 3y = 12 &ndash; 2x\n∴ y = (12 - 2x)/3 \n\nx\n0\n6\n3\n\ny\n4\n0\n2\n\n(x, y)\n(0, 4) \n(6, 0)\n(3, 2)\n\nx &ndash; y = 1\n∴ y = x &ndash; 1\n\nx\n0\n1\n3\n\ny\n&ndash;1\n0\n2\n\n(x, y)\n(0, &ndash;1)\n(1, 0)\n(3, 2)\n\n \n\nThe solution of the given equations is the point of intersection of the two line i.e (3, 2).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 43,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation graphically. x – 3y = 1 ; 3x – 2y + 4 = 0",
+    "answer": "x - 3y = 1\nx - 1 = 3y\n∴ 3y = x - 1\n∴ y = (x - 1)/3\n\nx\n1\n4\n7\n\ny\n0\n1\n2\n\n(x,y)\n(1,0)\n(4,1)\n(7,2)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 44,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation graphically. 5x – 6y + 30 = 0 ; 5x + 4y – 20 = 0",
+    "answer": "Given:\n5x − 6y + 30 = 0 ...(1)\n5x + 4y − 20 = 0 ...(2)\nWrite in slope&ndash;intercept form (y = mx + c)\n5x − 6y + 30 = 0\n−6y = −5x − 30\ny = 5/6 x +5 ...(From (1)\n5x + 4y − 20 = 0\n4y = −5x + 20\ny = -5/4 x + 5 ...(From 2)\nPoints for first line\n\ny = 5/6 x +5 \n\nx\ny\n\n0\n5\n\n−6\n0\n\n→ Line passes through (0, 5) and (&ndash;6, 0)\nPoints for second line\n\ny = -5/4 x + 5\n\nx\ny\n\n0\n5\n\n4\n0\n\nWhen plotted, both lines meet at (0, 5).\nx = 0, y = 5:\nIn (1): 5(0) − 6(5) + 30 = 0\nIn (2): 5(0) + 4(5) − 20 = 0",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 45,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation graphically.3x – y – 2 = 0 ; 2x + y = 8",
+    "answer": "3x &ndash; y &ndash; 2 = 0 \n\nx\n0\n1\n\ny\n&ndash;2\n1",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 46,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Simultaneous Equation Graphically.3x + Y = 10 ; X – Y = 2",
+    "answer": "3x + y = 10\n\nx\n0\n1\n\ny\n10\n7\n\nx &ndash; y = 2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 47,
+    "isFree": true
+  },
+  {
+    "question": "Find the value of the following determinant. |4327|",
+    "answer": "= 4 × 7 − 3 × 2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 48,
+    "isFree": true
+  },
+  {
+    "question": "Find the value of the following determinant. |(5, -2), (-3, 1)",
+    "answer": "|(5, -2), (-3, 1)|\n&rArr; 5 × 1 − (−3) × (−2)\n&rArr; 5 − 6\n&rArr; −1",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 49,
+    "isFree": true
+  },
+  {
+    "question": "Find the value of the following determinant. |(3, -1), (1, 4)|",
+    "answer": "|(3, -1), (1, 4)|",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 50,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following equations by Cramer’s method. 6x – 3y = –10 ; 3x + 5y – 8 = 0",
+    "answer": "6x &ndash; 3y = &ndash;10 ; 3x + 5y &ndash; 8 = 0\n\\[D = \\begin{vmatrix}6 & - 3 \\\\ 3 & 5\\end{vmatrix} = (6 \\times 5) - \\left( - 3 \\right) \\times 3 = 30 + 9 = 39\\]\n\\[ D_x = \\begin{vmatrix}- 10 & - 3 \\\\ 8 & 5\\end{vmatrix} = (- 10 \\times 5) - \\left( - 3 \\right) \\times 8 = - 50 + 24 = - 26\\]\n\\[ D_y = \\begin{vmatrix}6 & - 10 \\\\ 3 & 8\\end{vmatrix} = (6 \\times 8) - \\left( - 10 \\right) \\times 3 = 48 + 30 = 78\\]\n\\[x = \\frac{D_x}{D} = \\frac{- 26}{39} = \\frac{- 2}{3}\\]\n\\[y = \\frac{D_y}{D} = \\frac{78}{39} = 2\\]\n\\[\\left( x, y \\right) = \\left( \\frac{- 2}{3}, 2 \\right)\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 51,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following equation by Cramer’s method. 4m − 2n = –4 ; 4m + 3n = 16",
+    "answer": "4m &ndash; 2n = &ndash;4 Here, a1 = 4, b1&thinsp;=&thinsp;&ndash;2, c1&thinsp;=&thinsp;&ndash;4\n4m + 3n = 16 Here, a2 = 4, b2&thinsp;=&thinsp;3, c2&thinsp;=&thinsp;16\nD = |(a₁, b₁), (a₂, b₂)|\n= |(4, -2), (4, 3)|\n= 4 × 3 &ndash;(&ndash;2) × 4\n= 12 + 8\nD = 20\nDm = |(c₁, b₁), (c₂, b₂)|\n= |(-4, -2), (16, 3)|\n= (&ndash;4) × 3 &ndash;(&ndash;2) × 16\n= &ndash;12 + 32\nDm = 20\nDn = |(a₁, c₁), (a₂, c₂)|\n= |(4, -4), (4, 16)|\n= 4 × 16 &ndash;(&ndash;4) × 4\n= 64 + 16\nDn = 80\nBy Cramer&rsquo;s rule,\nm = Dm/D\n= 20/20\nm = 1\nn = Dn/D\n= 80/20\nn = 4\nm = 1 and n = 4 is the solution of the given simultaneous equations.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 52,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following equations by Cramer’s method. 3x – 2y=52;13x+3y=-43",
+    "answer": "Given equation,\n3x &ndash; 2y = 5/2\n1/3x + 3y = -4/3\nD = |(3, -2), (1/3, 3)| = 3 × 3 - (-2) × 1/3 = 9 + 2/3 = 29/3\n \nDx = |(5/2, -2), (-4/3, 3)| = 5/2 × 3 - (-2) × (-4/3) = 15/2 - 8/3 = 29/6\n \nDy = |(3, 5/2), (1/3, -4/3)| = 3 × (-4/3) - 5/2 × (1/3) = - 4 - 5/6 = (-29)/6\nBy using cramer's method,\nx = \"D\"ₓ/\"D\" = (29/6)/(29/3) = 29/6 × 3/29 = 1/2\ny = \"D\"y/\"D\" = (-29/6)/(29/3) = (-29)/6 × 3/29 = (-1)/2\n(x, y) = (1/2, (-1)/2) is the solution of given equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 53,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following equations by Cramer’s method.7x + 3y = 15; 12y – 5x = 39",
+    "answer": "7x + 3y = 15; 12y &ndash; 5x = 39\n 7x + 3y = 15\n&ndash;5x + 12y = 39\nD = |(7,3),(-5,12)|\n= 7 × 12 − (−5) × 3\n= 84 + 15\n= 99\nDx = |(15,3),(39,12)|\n= 15 × 12 − 39 × 3\n= 180 − 117\n= 63\nDy = |(7,15),(-5,39)|\n= 7 × 39 − (−5) × 15 \n= 273 + 75\n= 348\nx = (\"D\"_\"x\")/(\"D\") = 63/99 = 7/11\ny = (\"D\"_\"y\")/(\"D\") = 348/99 = 116/33\n(x, y) = (7/11, 116/33)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 54,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following equation by Cramer’s method. xyxxyx+y-82=x+2y-143=3x-y4",
+    "answer": "1Show Solution(\"x\" + \"y\" - 8)/2 = (\"x\" + 2y - 14)/3\n3(x + y - 8) = 2(x + 2y - 14)\n3x + 3y - 24 = 2x + 4y - 28\n3x - 2x + 3y - 4y = -28 + 24 \n1x - 1y = -4 ...(1)\n(x + 2y - 14)/3=(3x-y)/4\n4(x + 2y - 14) = 3(3x - y)\n4x + 8y - 56 = 9x -3y\n-56 = 9x - 4x - 3y - 8y\n-56 = 5x - 11y\n5x - 11y = -56 ...(2)\nFrom 1 & 2\nD = |(1,-1),(5,-11)|=(1)(-11)-(5)(-1)\n= -11 - (-5)\n= -11 + 5\n= -6\nDx = |(-4,-1),(-56,-11)|=(-4)(-11)-(-56(-1)\n= 44 - 56\n= -12\nDy = |(1,-4),(5,-56)|=(1)(-56)-(5)(-4)\n= -56 - (-20)\n= -56 + 20\n= -36\nBy Cramer&rsquo;s Rule, we get\nx = Dₓ/D=-12/-6=2\ny = Dy/D=-36/-6=6\n(x, y) = (2, 6) is the solution.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 55,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. 2x+23y=16;3x+2y=0",
+    "answer": "\\[\\frac{2}{x} + \\frac{2}{3y} = \\frac{1}{6} ; \\frac{3}{x} + \\frac{2}{y} = 0\\]\n\nLet \\[\\frac{1}{x} = u\\text{ and }\\frac{1}{y} = v\\] \n\\[2u + \\frac{2}{3}v = \\frac{1}{6} \\]\n\\[12u + 4v = 1 . . . . . \\left( I \\right)\\]\n\\[3u + 2v = 0 . . . . . \\left( II \\right)\\]\nMultiply (II) with 2\n\n\\[6u + 4v = 0 . . . . . \\left( III \\right)\\]\n\n\\[\\left( I \\right) - \\left( III \\right)\\]\n\\[6u = 1\\]\n\\[ \\Rightarrow u = \\frac{1}{6}\\]\nPutting the value of u in II. \n\\[3 \\times \\frac{1}{6} + 2v = 0\\]\n\\[ \\Rightarrow \\frac{1}{2} + 2v = 0\\]\n\\[ \\Rightarrow v = \\frac{- 1}{4}\\]\n\\[\\frac{1}{x} = u\\]\n\\[ \\Rightarrow x = 6\\]\n\\[\\frac{1}{y} = v\\]\n\\[ \\Rightarrow y = - 4\\]\n\\[\\left( x, y \\right) = \\left( 6, - 4 \\right)\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 56,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equations. 72x+1+13y+2=27;132x+1+7y+2=33",
+    "answer": "\\[\\frac{7}{2x + 1} + \\frac{13}{y + 2} = 27 ; \\frac{13}{2x + 1} + \\frac{7}{y + 2} = 33\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 57,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. 148x+231y=527xy;231x+148y=610xy",
+    "answer": "\\[\\frac{148}{x} + \\frac{231}{y} = \\frac{527}{xy} ; \\frac{231}{x} + \\frac{148}{y} = \\frac{610}{xy}\\]\nMultiply by xy\n\n148y + 231x = 527 ...(1)\n231y + 148x = 610 ...(2)\nAdding equation (1) and (2)\n379y + 379x = 1137\nx + y = 3 ...(3)\n(2) - (1)\n83y - 83x = 83\n&rArr; y - x = 1 ...(4)\nAdding equation (3) + (4)\n2y = 4\n&rArr; y = 2\nPutting the value of y in (4)\n2 - x = 1\n&rArr; x = 1\n(x, y) = (1, 2)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 58,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Simultaneous Equations. 7 X − 2 Y X Y = 5 ; 8 X + 7 Y X Y = 15",
+    "answer": "\\[\\frac{7x - 2y}{xy} = 5 ; \\frac{8x + 7y}{xy} = 15\\]\n\n\\[\\Rightarrow \\frac{7}{y} - \\frac{2}{x} = 5\\text{ and }\\frac{8}{y} + \\frac{7}{x} = 15\\]\nLet \\[\\frac{1}{x} = u, \\frac{1}{y} = v\\]\n\\[7v - 2u = 5 . . . . . \\left( I \\right)\\]\n\\[8v + 7u = 15 . . . . . \\left( II \\right)\\]\nMultiply (I) with 7 and (II) with 2\n\\[49v - 14u = 35 . . . . . \\left( III \\right)\\]\n\\[16v + 14u = 30 . . . . . \\left( IV \\right)\\]\nAdding (III) and (IV)\n\\[65v = 65\\]\n\\[ \\Rightarrow v = 1\\]\n\\[\\text{ And }\\frac{1}{y} = v = 1\\]\n\\[ \\Rightarrow y = 1\\]\nPutting the value of v in (I)\n\\[7\\left( 1 \\right) - 2u = 5\\]\n\\[ \\Rightarrow u = 1\\]\n\\[\\frac{1}{x} = u = 1\\]\n\\[ \\Rightarrow x = 1\\]\n\\[\\left( x, y \\right) = \\left( 1, 1 \\right)\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 59,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equations. 12⁢(3⁢𝑥+4⁢𝑦) +15⁢(2⁢𝑥−3⁢𝑦) =14;53⁢𝑥+4⁢𝑦 −22⁢𝑥−3⁢𝑦 =−32.",
+    "answer": "1/(2(3\"x\" + 4\"y\")) + 1/(5(2\"x\" - 3\"y\")) = 1/4 ...(I)\n5/((3\"x\" + 4\"y\")) - 2/((2\"x\" - 3\"y\")) = -3/2 ...(II)\nSubstituting 1/((3\"x\" + 4\"y\")) = m and 1/((2\"x\" - 3\"y\")) = n in equation (I) and (II),\n1/2\"m\" + 1/5\"n\" = 1/4 ...(III)\n5m − 2n = -3/2 ...(IV)\nMultiply equation (III) by 20,\n∴ 10m + 4n = 5 ...(V)\nMultiply equation (IV) by 2,\n∴ 10m − 4n = − 3 ...(VI)\nAdding equation (V) and (VI),\n 10m + 4n = 5 \n+ 10m − 4n = − 3\n∴ 20m = 2\n∴ m = 2/20 = 1/10\nSubstituting m = 1/10 in equation (V),\n∴ 10 xx 1/10 + 4\"n\" = 5\n∴ 1 + 4n = 5\n∴ 4n = 5 − 1 = 4\n∴ n = 1\nBut, 1/((3\"x\" + 4\"y\")) = m and 1/((2\"x\" - 3\"y\")) = n\n∴ Substituting the values of m and n in the above equation, we get\n1/((3\"x\" + 4\"y\")) = 1/10\n∴ 3x + 4y = 10 ...(VII)\nAnd 1/((2\"x\" - 3\"y\")) = 1\n∴ 2x − 3y = 1 ...(VIII)\nMultiplying by 3 in equation (VII),\n9x + 12y = 30 ...(IX)\nMultiplying by 4 in equation (VIII),\n8x − 12y = 4 ...(X)\nAdding equation (IX) and (X), we get \n9x + 12y = 30\n+ 8x − 12y = 4\n 17x = 34\n∴ x = 34/17\n∴ x = 2\nSubstituting x = 2 in equation (VIII), we get\n2x − 3y = 1 ...(VIII)\n∴ 2 × 2 − 3y = 1\n∴ 4 − 3y = 1\n∴ 4 − 1 = 3y\n∴ 3y = 3\n∴ y = 1\n∴ The solution of the given equations is (x, y) = (2, 1).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 60,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Word Problem.A Two Digit Number and the Number with Digits Interchanged Add up to 143. in the Given Number the Digit in Unit’S Place is 3 More than the Digit in the Ten’S Place.",
+    "answer": "Let the digit in unit&rsquo;s place is x\nand that in the ten&rsquo;s place is y\n∴ the number = 10y + x\nThe number obtained by interchanging the digits is 10x + y\nAccording to the first condition two digit number + the number obtained by interchanging the digits = 143\n∴ 10y + x + 10x + y = 143\n∴ 11x + 11y = 143\nx + y = 13 ........(I) [Dividing both side by 11]\nFrom the second condition,\ndigit in unit&rsquo;s place = digit in the ten&rsquo;s place + 3\n∴ x = y + 3\n∴ x − y = 3 ........(II)\nAdding equations (I) and (II)\n x + y = 13\n+ x − y = 3\n2x = 16\nx = 16/2\nx = 8\nPutting this value of x in equation (I)\nx + y = 13\n8 + y = 13\ny = 13 − 8\n∴ y = 5\nThe original number is 10y + x\n= 10(5) + 8\n= 50 + 8\n= 58",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 61,
+    "isFree": true
+  },
+  {
+    "question": "Kantabai bought 112 kg tea and 5 kg sugar from a shop. She paid ₹ 50 as return fare for rickshaw. Total expense was ₹ 700.",
+    "answer": "Let the rate of tea be x ₹ per kg, and that of sugar be y ₹ per kg. \nWhen Kantabai bought the items by going to the shop,\n\\[\\frac{3}{2}x + 5y + 50 = 700\\]\n3/2x + 5y = 700 - 50\n3/2x xx 2 + 5y xx 2= 650 xx 2\n3x + 10y = 1300 ...(I)\nWhen Kantabai bought the items online, then\n2x + 7y = 880 ...(II)\nMultiplying (I) with 2 and (II) with 3, we get\n6x + 20y = 2600 ...(III)\n6x + 21y = 2640 ...(IV)\n(IV) - (III)\ny = 40\nPutting the value of y = 40 in (II)\n3x + 10 × 40 = 1300\n3x + 400 = 1300\n3x = 1300 - 400\nx = 900/3\n∴ x = 300\nThus, tea is 300 ₹ per kg, and sugar is 40 ₹ per kg.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 62,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following word problem. To find number of notes that Anushka had, complete the following activity.",
+    "answer": "Suppose, Anand gives Anushka x notes of Rs. 100 and y notes of Rs. 50 each.\n∴ Value of x notes of 100 rupees = ₹ 100x\nAnd value of y notes of 50 rupees = ₹ 50y\nBased on the first condition,\n∴ 100x + 50y = 2500\n∴ 2x + y = 50 ...(I) (Dividing each term of the equation by 50)\nBased on the second condition, the amount received on interchanging the number of notes works out to Rs. 500.\n∴ 50x + 100y = 2500 − 500\n∴ 50x + 100y = 2000\n∴ x + 2y = 40 ...(II) (Dividing each term of the equation by 50)\nAdding equation (I) and equation (II),\n 2x + y = 50\n+ x + 2y = 40\n3x + 3y = 90\n∴ x + y = 30 ...(III) (Dividing each side by 3)\nSubtracting equation (II) from equation (I),\n 2x + y = 50\n− x + 2y = 40\n− − − \nx − y = 10 ...(IV)\nAdding equation (III) and equation (IV),\n x + y = 30\n+ x − y = 10\n 2x = 40\n∴ x = 20\nSubstituting x = 20 in equation (III),\n∴ 20 + y = 30\n∴ y = 30 − 20\n∴ y = 10\nThe number of 100 rupee notes is 20 and the number of 50 rupee notes is 10.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 63,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Word Problem. Sum of the Present Ages of Manish and Savita is 31. Manish’S Age 3 Years Ago Was 4 Times the Age of Savita. Find Their Present Ages.",
+    "answer": "Suppose the present age of Manish is x years and Savita be y years.\nAccording to the first condition, the sum of their present ages is 31\n∴ x + y = 31 .......(i)\nThree years ago\nAge of Manish = (x &ndash; 3) years\nAge of Savita = (y &ndash; 3) years\nAccording to the second condition, 3 years ago Manish's age was 4 times the age of Savita's.\n∴ (x &ndash; 3) = 4(y &ndash; 3)\n∴ x &ndash; 3 = 4y &ndash; 12\n∴ x &ndash; 4y = &ndash; 12 + 3\n∴ x &ndash; 4y = &ndash; 9 ......(ii)\nSubtracting equation (ii) from equation (i), we get\n x + y = 31\nx &ndash; 4y = &ndash; 9\n&ndash; + + \n 5y = 40\n∴ y = 40/5\n∴ y = 8\nSubstituting y = 8 in equation (i),\n∴ x + y = 31\n∴ x + 8 = 31\n∴ x = 31 &ndash; 8\n∴ x = 23\n∴ Present age of Manish is 23 years and Savita is 8 years.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 64,
+    "isFree": true
+  },
+  {
+    "question": "In a factory the ratio of salary of skilled and unskilled workers is 5 : 3. Total salary of one day of both of them is Rs 720. Find daily wages of skilled and unskilled workers.",
+    "answer": "Ratio of salary of skilled to unskilled workers = 5 : 3\nLet one day salary of skilled person be x and that of unskilled person be y.\nTheir total one day salary Rs 720\n\\[x + y = 720 . . . . . \\left( I \\right)\\]\nAlso, \n\\[\\frac{x}{y} = \\frac{5}{3}\\]\n\\[ \\Rightarrow 3x = 5y\\]\n\\[ \\Rightarrow 3x - 5y = 0 . . . . . \\left( II \\right)\\]\nMultiplying (I) with 3 we get\n\\[3x + 3y = 2160 . . . . . \\left( III \\right)\\]\n(III) - (II)\n\\[8y = 2160\\]\n\\[ \\Rightarrow y = 270\\]\nPutting value of y in (I) we get\n\\[x = 450\\]\nOne day salary of skilled person Rs 450 and that of unskilled person Rs 270.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 65,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Word Problem. Places a and B Are 30 Km Apart and They Are on a St Raight Road. Hamid Travels from a to B on Bike. at the Same Time Joseph Starts from B on Bike, Travels Towards A.",
+    "answer": "Let the speed of Hamid be x km/h and that of Joseph be y km/h.\nWhen both travel in same direction so, the distance covered by them together will be 30 km. \nWe know \\[\\text{ Speed }= \\frac{\\text{ Distance }}{\\text{ Time }}\\]\nThey meet each other after 20 min = \\[\\frac{20}{60} = \\frac{1}{3}\\] hours ....(1 hour = 60 min)\n\\[\\frac{x}{3} + \\frac{y}{3} = 30\\]\n\\[ \\Rightarrow x + y = 90 . . . . . \\left( I \\right)\\]\nWhen Joseph started from point B but moved in the opposite direction. \nDistance travelled by Hamid - Distance travelled by Joseph = 30\n\\[\\Rightarrow 3x - 3y = 30\\]\n\\[ \\Rightarrow x - y = 10 . . . . . \\left( II \\right)\\]\nAdding (I) and (II) we get\n\\[2x = 100\\]\n\\[ \\Rightarrow x = 50\\]\nPutting the value of x in (II) we get\n\\[50 - y = 10\\]\n\\[ \\Rightarrow y = 40\\]\nThus, speed of Hamid is 50 km/h and that of Joseph is 40 km/h.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Linear Equations in Two Variables",
+    "questionNumber": 66,
+    "isFree": true
+  },
+  {
+    "question": "Write Any Two Quadratic Equations.",
+    "answer": "Two quadratic equations are \\[x^2 + 10x - 200 = 0\\] and \\[x^2 + 5x - 6 = 0\\].",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Decide Which of the Following Are Quadratic Equations. X2 + 5x – 2 = 0",
+    "answer": "x2 + 5x &ndash; 2 = 0\nOnly one variable x.\nMaximum index = 2\nSo, it is a quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Decide whether the following equation is quadratic equation or not. y2 = 5y – 10",
+    "answer": "y2 = 5y &ndash; 10\nOnly one variable y.\nMaximum index = 2\nSo, it is a quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Decide whether the following equation is quadratic equation or not. yyy2+1y=2",
+    "answer": "\"y\"² + 1/\"y\" = 2\n∴ \"y\" xx \"y\"² + \"y\" xx 1/\"y\" = \"y\" xx 2 ....[Multiplying both sides by y]\n∴ y3 + 1 = 2y\n∴ y3 − 2y + 1 = 0\nHere y is the only variable and the maximum index of the variable is not 2.\n∴ It is not a quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Decide whether the following equation is quadratic equation or not. x+1x=−2",
+    "answer": "\\[x + \\frac{1}{x} = - 2\\] \nMultiplying x by each term\nx xx x + x xx 1/x = x xx (-2)\n&rArr;x2 + 1 = -2x \nx2 + 2x + 1 = 0\nOnly one variable x.\nMaximum index = 2\nSo, it is a quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Decide Which of the Following Are Quadratic Equations. (M + 2) (M – 5) = 0",
+    "answer": "(m + 2) (m &ndash; 5) = 0 \n\\[\\Rightarrow m^2 - 3m - 10 = 0\\] \nOnly one variable m.\nMaximum index = 2\nSo, it is a quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Decide whether the following equation is quadratic equation or not. m3 + 3m2 – 2 = 3m3",
+    "answer": "m3 + 3m2 &ndash; 2 = 3m3\nm3 - 3m3 + 3m2 - 2 = 0\n-2m3 + 3m2 - 2 = 0\nOnly one variable m.\nMaximum index = 3\nSo, it is not a quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Write the Following Equations in the Form Ax2 + Bx + C = 0, Then Write the Values Of A, B, C for Each Equation. 2y = 10 – Y2",
+    "answer": "2y = 10 &ndash; y2 \n\\[\\Rightarrow y^2 + 2y = 10\\]\n\\[ \\Rightarrow y^2 + 2y - 10 = 0\\]\nSo, it is of the form ax2 + bx + c = 0 where a = 1, b = 2 and c = −10.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Write the following equation in the form ax2 + bx + c = 0, then write the values of a, b, c for the equation. (x – 1)2 = 2x + 3",
+    "answer": "(x &ndash; 1)2 = 2x + 3 \n(a − b)2 = a2 − 2ab + b2\n∴ x2 − 2 × x × 1 + 12 = 2x + 3\n∴ x2 − 2x + 1 = 2x + 3\n∴ x2 − 2x − 2x + 1 − 3 = 0\n∴ 1x2 − 4x − 2 = 0\n∴ 1x2 + (−4)x + (−2) = 0\nComparing the above equation with ax2 + bx + c = 0, we get\na = 1, b = −4, c = −2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Write the Following Equations in the Form Ax2 + Bx + C= 0, Then Write the Values of A, B, C for Each Equation. X2 + 5x = –(3 – X)",
+    "answer": "x2 + 5x = &ndash;(3 &ndash; x) \n\\[\\Rightarrow x^2 + 5x + 3 - x = 0\\]\n\\[ \\Rightarrow x^2 + 4x + 3 = 0\\] \nSo, it is of the form ax2 + bx + c = 0 where a = 1, b = 4 and c = 3.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Write the Following Equations in the Form Ax2 + Bx + C= 0, Then Write the Values of A, B, C for Each Equation. 3m2 = 2m2 – 9",
+    "answer": "3m2 = 2m2 &ndash; 9 \n\\[\\Rightarrow 3 m^2 - 2 m^2 + 9 = 0\\]\n\\[ \\Rightarrow m^2 + 0m + 9 = 0\\] \nSo, it is of the form ax2 + bx + c = 0 where a = 1, b = 0 and c = 9.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Write the Following Equation in the Form Ax2 + Bx + C= 0, Then Write the Values Of A, B, C for Equation. P(3+6p) = –5",
+    "answer": "p(3+6p) = &ndash;5 \n\\[\\Rightarrow 3 p + 6p^2 + 5 = 0\\]\n\\[ \\Rightarrow 6p^2 + 3p + 5= 0\\] \nSo, it is of the form ax2 + bx + c = 0 where a = 6, b = 3 and c = 5.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Write the Following Equations in the Form Ax2 + Bx + C= 0, Then Write the Values of A, B, C for Each Equation. X2 – 9 = 13",
+    "answer": "x2 &ndash; 9 = 13 \n\\[\\Rightarrow x^2 - 9 - 13 = 0\\]\n\\[ \\Rightarrow x^2 - 22 = 0\\]\n\\[ \\Rightarrow x^2 + 0x - 22 = 0\\] \nSo, it is of the form ax2 + bx + c = 0 where a = 1, b = 0 and c = −22.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Determine whether the values given against the quadratic equation are the roots of the equation. x2 + 4x – 5 = 0 , x = 1, –1",
+    "answer": "x2 + 4x &ndash; 5 = 0, x = 1, &ndash;1 \nFor x = 1\n\\[ \\left( 1 \\right)^2 + 4\\left( 1 \\right) - 5 = 0\\]\n\\[ \\Rightarrow 1 + 4 - 5 = 0\\]\n\\[ \\Rightarrow 5 - 5 = 0\\] \nSo, x = 1 is a solution of the given equation. \nFor x = &ndash;1 \n\\[\\left( - 1 \\right)^2 + 4\\left( - 1 \\right) - 5 = 0\\]\n\\[ \\Rightarrow 1 - 4 - 5 = 0\\]\n\\[ \\Rightarrow - 3 - 5 = 0\\]\n\\[ \\Rightarrow - 8 \neq 0\\]\nSo, x = &ndash;1 is not a solution of the given equation.\nThus, only x = 1 is root of the given equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Determine Whether the Values Given Against Each of the Quadratic Equation Are the Roots of the Equation. 2m2 – 5m = 0,",
+    "answer": "2m2 &ndash; 5m = 0, \n\\[m = 2, \\frac{5}{2}\\] \nWhen m = 2\n\\[2 \\left( 2 \\right)^2 - 5\\left( 2 \\right) = 0\\]\n\\[ \\Rightarrow 8 - 10 = 0\\]\n\\[ \\Rightarrow - 2 \neq 0\\]\nSo, m = 2 is not a solution of the given equation. \nWhen \\[m = \\frac{5}{2}\\]\n\\[2 \\left( \\frac{5}{2} \\right)^2 - 5\\left( \\frac{5}{2} \\right) = 0\\]\n\\[ \\Rightarrow \\frac{25}{2} - \\frac{25}{2} = 0\\]\nSo,\n\\[m = \\frac{5}{2}\\] is a solution of the given quadratic equation.\nThus, only \\[m = \\frac{5}{2}\\] is a root of the given quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Find k‚ if x = 3 is a root of equation kx2 – 10x + 3 = 0.",
+    "answer": "Given x = 3 is a root of equation kx2 &ndash; 10x + 3 = 0\nSo, x = 3 must satisfy the given quadration equation. \nk(3)2 &ndash; 10(3) + 3 = 0\n&rArr; 9k &ndash; 30 + 3 = 0\n&rArr; 9k &ndash; 27 = 0\n&rArr; 9k = 27\n&rArr; k = 27/9\n&rArr; k = 3",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "One of the Roots of Equation 5m2 + 2m + K = 0 is − 7 5 Complete the Following Activity to Find the Value of &#x27;K&#x27;.",
+    "answer": "(-7)/5 is a root of the quadratic equation 5m2 + 2m + k = 0.\n∴ Put m = (-7)/5 in the equation. \n5 × ((-7)/5)² + 2 xx (-7)/5 + k = 0\ncancel(5) xx 49/(cancel(5) xx 5) + 2 xx (-7)/5 + k = 0\n49/5 + (-14)/5 + k = 0\n(49 - 14)/5 + k = 0\n35/5 + k = 0\n7 + k = 0\nk = - 7",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Quadratic Equations by Factorisation. X2 – 15x + 54 = 0",
+    "answer": "x2 &ndash; 15x + 54 = 0 \n\\[\\Rightarrow x^2 - 9x - 6x + 54 = 0\\]\n\\[ \\Rightarrow x\\left( x - 9 \\right) - 6\\left( x - 9 \\right) = 0\\]\n\\[ \\Rightarrow \\left( x - 6 \\right)\\left( x - 9 \\right) = 0\\]\n\\[ \\Rightarrow \\left( x - 6 \\right) = 0 \\text{ or } \\left( x - 9 \\right) = 0\\]\n\\[ \\Rightarrow x = 6 \\text{ or } x = 9\\] \nSo, 6 and 9 are the roots of the given quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following quadratic equation by factorisation. x2 + x – 20 = 0",
+    "answer": "x2 + x &ndash; 20 = 0 \n\\[\\Rightarrow x^2 + 5x - 4x - 20 = 0\\]\n\\[ \\Rightarrow x\\left( x + 5 \\right) - 4\\left( x + 5 \\right) = 0\\]\n\\[ \\Rightarrow \\left( x - 4 \\right)\\left( x + 5 \\right) = 0\\]\n\\[ \\Rightarrow \\left( x - 4 \\right) = 0 \\text{ or } \\left( x + 5 \\right) = 0\\]\n\\[ \\Rightarrow x = 4 \\text{ or } x = - 5\\] \nSo, 4 and \\[-5\\] are the roots of the given quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Quadratic Equations by Factorisation. 2y2 + 27y + 13 = 0",
+    "answer": "2y2 + 27y + 13 = 0\n\\[2 y^2 + 26y + y + 13 = 0\\]\n\\[ \\Rightarrow 2y\\left( y + 13 \\right) + \\left( y + 13 \\right) = 0\\]\n\\[ \\Rightarrow \\left( 2y + 1 \\right)\\left( y + 13 \\right) = 0\\]\n\\[ \\Rightarrow \\left( 2y + 1 \\right) = 0 \\text{ or } \\left( y + 13 \\right) = 0\\]\n\\[ \\Rightarrow y = \\frac{- 1}{2} \\text{ or } y = - 13\\] \nSo, \\[\\frac{- 1}{2} \\text{ and } - 13\\] are the roots of the given quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following quadratic equation by factorisation. 5m2 = 22m + 15",
+    "answer": "5m2 = 22m + 15 \n\\[\\Rightarrow 5 m^2 - 22m - 15 = 0\\]\n\\[ \\Rightarrow 5 m^2 - 25m + 3m - 15 = 0\\]\n\\[ \\Rightarrow 5m\\left( m - 5 \\right) + 3\\left( m - 5 \\right) = 0\\]\n\\[ \\Rightarrow \\left( 5m + 3 \\right)\\left( m - 5 \\right) = 0\\]\n\\[ \\Rightarrow \\left( 5m + 3 \\right) = 0 or \\left( m - 5 \\right) = 0\\]\n\\[ \\Rightarrow m = \\frac{- 3}{5} \\text{ or } m = 5\\] \nSo, \\[\\frac{- 3}{5} \\text{ and } 5\\] are the roots of the given quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following quadratic equation by factorization. xx2x2-2x+12=0",
+    "answer": "2\"x\"² - 2\"x\" + 1/2 = 0\n∴ 2 xx 2\"x\"² - 2 xx 2\"x\" + 2 xx 1/2 = 2 xx 0 ....[Multiplying both sides by 2]\n∴ 4x2 − 4x + 1 = 0 .....[(-2 xx -2),(-2-2)] = +4\n∴ 4x2 − 2x − 2x + 1 = 0\n∴ 2x(2x − 1) − 1(2x − 1) = 0\n∴ (2x − 1) (2x − 1) = 0\n∴ 2x − 1 = 0 or 2x − 1 = 0\n∴ 2x = 1 or 2x = 1\n∴ x = 1/2 or x = 1/2\n∴ 1/2 and 1/2 are the roots of the given quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Quadratic Equations by Factorisation. 6 X − 2 X = 1",
+    "answer": "\\[6x - \\frac{2}{x} = 1\\] \n\\[\\Rightarrow 6 x^2 - 2 = 1x\\]\n\\[ \\Rightarrow 6 x^2 - 1x - 2 = 0\\]\n\\[ \\Rightarrow 6 x^2 - 4x + 3x - 2 = 0\\]\n\\[ \\Rightarrow 2x\\left( 3x - 2 \\right) + 1\\left( 3x - 2 \\right) = 0\\]\n\\[ \\Rightarrow \\left( 3x - 2 \\right)\\left( 2x + 1 \\right) = 0\\]\n\\[ \\Rightarrow \\left( 3x - 2 \\right) = 0 \\text{ or } \\left( 2x + 1 \\right) = 0\\]\n\\[ \\Rightarrow x = \\frac{2}{3} \\text{ or } x = \\frac{- 1}{2} \\]\n\\[\\frac{2}{3} \\text{ and } \\frac{- 1}{2}\\] are the roots of the given quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following quadratic equation by factorisation. 2x2+7x+52=0 to solve this quadratic equation by factorisation, complete the following activity.",
+    "answer": "√2 x² + 7x + 5√2 = 0\n√2x²+bb(5x)+bb(2x)+5√2=0 \nxbb((√2x+5)) + √2 bb((√2x+5)) = 0\nbb((√2x+5)) (x + √2) = 0\nbb((√2x+5)) = 0 or (x + √2) = 0\n∴ x = bb((-5)/√2) or x = -√2\n∴ bb((-5)/√2) and -√(2) are roots of the equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following quadratic equation by factorisation.3x2 - 2√6x + 2 = 0",
+    "answer": "3x2 - 2√6x + 2 = 0\nUsing splitting the middle term method,\n&rArr; 3x2 - √6x - √6x + 2 = 0.\n&rArr; 3x² - √(2 xx 3) x - √(2 xx 3) x + 2 = 0\n&rArr; 3x2 - (√2)(√3)x - (√2)(√3)x + 2 = 0.\n&rArr; √3x(√3x - √2) - √2(√3x - √2) = 0.\n&rArr; (√3x - √2)(√3x - √2) = 0\n&rArr; √3x - √2 = 0 or &rArr; √3x - √2 = 0\n&rArr; √3x = √2 or &rArr; √3x = √2\n&rArr; x = √2/√3 = √(2/3) or &rArr; x = √2/√3 = √(2/3) \nHence x = √(2/3) and √(2/3) are root of the equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following quadratic equation by factorisation. 2m (m − 24) = 50",
+    "answer": "2m (m − 24) = 50\n∴ 2m2 &ndash; 48m = 50\n∴ 2m2 &ndash; 48m &ndash; 50 = 0 \nDividing the whole equation by 2,\n∴ m2 &ndash; 24m &ndash; 25 = 0\n∴ m2 &ndash; 25m + m &ndash; 25 = 0\n∴ (m &ndash; 25)(m + 1) = 0\n∴ m &ndash; 25 = 0 or m + 1 = 0\n∴ m = 25 or m = &ndash; 1\n∴ The roots of the given quadratic equation are 25 and &ndash; 1.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following quadratic equation by factorisation. 25m2 = 9",
+    "answer": "\\[25 m^2 = 9\\] \n\\[\\Rightarrow 25 m^2 - 9 = 0\\]\n\\[ \\Rightarrow \\left( 5m \\right)^2 - 3^2 = 0\\]\n\\[ \\Rightarrow \\left( 5m - 3 \\right)\\left( 5m + 3 \\right) = 0 \\left[ \\because \\left( x - a \\right)\\left( x + a \\right) = x^2 - a^2 \\right]\\]\n\\[ \\Rightarrow \\left( 5m - 3 \\right) = 0 \\text{ or }\\left( 5m + 3 \\right) = 0\\]\n\\[ \\Rightarrow m = \\frac{3}{5}, \\frac{- 3}{5}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Quadratic Equation by Factorisation. 7 M 2 = 21 M",
+    "answer": "\\[7 m^2 = 21m\\] \n\\[\\Rightarrow 7 m^2 - 21m = 0\\]\n\\[ \\Rightarrow 7m\\left( m - 3 \\right) = 0\\]\n\\[ \\Rightarrow 7m = 0 \\text{ or } m - 3 = 0\\]\n\\[ \\Rightarrow m = 0 \\text{ or } m = 3\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following quadratic equation by factorisation. m2 - 11 = 0",
+    "answer": "m2 - 11 = 0\n&rArr; m² - (√11)² = 0\n&rArr; (m - √11) (m + √11) = 0\n&rArr; m-√11=0 or m+√11=0\n&rArr; m = √11 or m=-√(11)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following quadratic equation by completing the square method. x2 + x – 20 = 0",
+    "answer": "x2 + x &ndash; 20 = 0 \nIf x2 + x + k = (x + a)2, then x2 + x + k = x2 + 2ax + a2\nComparing the coefficients, we get,\n∴ 1 = 2a and k = a2\n∴ 1/2 = a and k = a2 = (1/2)² = 1/4\nNow, x2 + x &ndash; 20 = 0 \n∴ x² + x + 1/4 - 1/4 - 20 = 0\n∴ (x + 1/2)² - ((1 + 80)/4) = 0\n∴ (x + 1/2)² - 81/4 = 0\n∴ (x + 1/2)² = 81/4\nTaking square root of both sides, we get,\n∴ x + 1/2 = +- 9/2\n∴ x + 1/2 = 9/2 \"or\" x + 1/2 = - 9/2\n∴ x = 9/2 - 1/2 \"or\" x = - 9/2 - 1/2\n∴ x = 8/2 = 4 \"or\" x = - 10/2 = -5\n∴ The roots of the given quadratic equation are 4 and −5.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following quadratic equation by completing the square method. x2 + 2x – 5 = 0",
+    "answer": "x2 + 2x &ndash; 5 = 0 \nComparing x2 + 2x with x2 + 2xy,\n2xy = 2x\n∴ y = 1\n∴ y2 = 1\n∴ x2 + 2x + 1 is a perfect square trinomial.\nx2 + 2x &ndash; 5 = 0 \n∴ x2 + 2x + 1 − 1 − 5 = 0\n∴ (x + 1)2 − 6 = 0\n∴ (x + 1)² - (√6)² = 0\n∴ (x + 1 + √6) (x + 1 - √6) = 0\n∴ x + 1 + √6 = 0 or x + 1 - √6 = 0\n∴ x = -1 - √6 or x = -1 + √6\n-1 - √6, -1 + √6 are the roots of the given quadratic equation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following quadratic equation by completing the square method. m2 – 5m = –3",
+    "answer": "m2 &ndash; 5m = &ndash;3\n\\[\\Rightarrow m^2 - 5m + \\left( \\frac{- 5}{2} \\right)^2 - \\left( \\frac{- 5}{2} \\right)^2 = - 3\\]\n\\[ \\Rightarrow \\left( m^2 - 5m + \\frac{25}{4} \\right) - \\frac{25}{4} = - 3\\]\n\\[ \\Rightarrow \\left( m - \\frac{5}{2} \\right)^2 = - 3 + \\frac{25}{4}\\]\n\\[ \\Rightarrow \\left( m - \\frac{5}{2} \\right)^2 = \\frac {-12 + 25}{4}\\]\n\\[ \\Rightarrow \\left( m - \\frac{5}{2} \\right)^2 = \\frac{13}{4}\\]\n\\[ \\Rightarrow \\left( m - \\frac{5}{2} \\right)^2 = \\left( \\frac{\\√{13}}{2} \\right)^2 \\]\n\\[ \\Rightarrow m - \\frac{5}{2} = \\frac{\\√{13}}{2} \\text{ or } m - \\frac{5}{2} = - \\frac{\\√{13}}{2}\\]\n\\[ \\Rightarrow m = \\frac{\\√{13}}{2} + \\frac{5}{2} \\text{ or } m = - \\frac{\\√{13}}{2} + \\frac{5}{2}\\]\n\\[ \\Rightarrow m = \\frac{\\√{13} + 5}{2} \\text{ or } m = \\frac{5 - \\√{13}}{2}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Quadratic Equations by Completing the Square Method. 9y2 – 12y + 2 = 0",
+    "answer": "9y2 &ndash; 12y + 2 = 0 \n\\[\\Rightarrow y^2 - \\frac{12}{9}y + \\frac{2}{9} = 0\\]\n\\[ \\Rightarrow y^2 - \\frac{4}{3}y + \\frac{2}{9} = 0\\]\n\\[ \\Rightarrow y^2 - \\frac{4}{3}y + \\left( \\frac{\\frac{4}{3}}{2} \\right)^2 - \\left( \\frac{\\frac{4}{3}}{2} \\right)^2 + \\frac{2}{9} = 0\\]\n\\[ \\Rightarrow y^2 - \\frac{4}{3}y + \\left( \\frac{2}{3} \\right)^2 - \\left( \\frac{2}{3} \\right)^2 + \\frac{2}{9} = 0\\]\n\\[\\Rightarrow \\left[ y^2 - \\frac{4}{3}y + \\left( \\frac{4}{9} \\right) \\right] - \\left( \\frac{4}{9} \\right) + \\frac{2}{9} = 0\\]\n\\[ \\Rightarrow \\left( y - \\frac{2}{3} \\right)^2 - \\frac{2}{9} = 0\\]\n\\[ \\Rightarrow \\left( y - \\frac{2}{3} \\right)^2 = \\frac{2}{9}\\]\n\\[ \\Rightarrow \\left( y - \\frac{2}{3} \\right)^2 = \\left( \\frac{\\√{2}}{3} \\right)^2 \\]\n\\[\\Rightarrow y - \\frac{2}{3} = \\frac{\\√{2}}{3} \\text{ or } y - \\frac{2}{3} = - \\frac{\\√{2}}{3}\\]\n\\[ \\Rightarrow y = \\frac{\\√{2}}{3} + \\frac{2}{3} \\text{ or } y = - \\frac{\\√{2}}{3} + \\frac{2}{3}\\]\n\\[ \\Rightarrow y = \\frac{\\√{2} + 2}{3} \\text{ or } y = \\frac{- \\√{2} + 2}{3}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following quadratic equation by completing the square method. 2y2 + 9y + 10 = 0",
+    "answer": "2y2 + 9y +10 = 0 \ny² + 9/2y + 5 = 0 ...[Dividing both sides by 2]\nIf y2 + 9/2y + k = (y + a)², then\ny² + 9/2y + k = y² + 2ay + a²\nComparing the coefficients, we get\n9/2 = 2a and k = a²\n∴ a = 9/4 and k = (9/4)² = 81/16\nNow, y² + 9/2y + 5 = 0\n∴ y² + 9/2y + 81/16 - 81/16 + 5 = 0\n∴ (y + 9/4)² + ((-81 + 80)/16) = 0\n∴ (y + 9/4)² - 1/16 = 0\n∴ (y + 9/4)² = 1/16\nTaking the square root of both sides, we get\ny + 9/4 = &plusmn; 1/4\n∴ y + 9/4 = 1/4 or y + 9/4 = -1/4\n∴ y = 1/4 - 9/4 or y = -1/4 - 9/4\n∴ y = (-8)/4 = -2 or y = -10/4 = (-5)/2\n∴ The roots of the given quadratic equation are −2 and (-5)/2.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Mathmetics",
+    "chapter": "Algebra Quadratic Equations",
+    "questionNumber": 34,
+    "isFree": true
+  }
+]

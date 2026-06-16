@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 import { useAuthStore } from "@/lib/auth-store";
 import {
   LayoutDashboard, Compass, GraduationCap, Star, Heart, Award,
-  PhoneCall, TrendingUp, ArrowRight, LogOut, Briefcase, Building
+  PhoneCall, TrendingUp, ArrowRight, LogOut, Briefcase, Building, FileText, Download
 } from "lucide-react";
 
-type Tab = "overview" | "careers" | "colleges" | "counselling";
+type Tab = "overview" | "careers" | "colleges" | "counselling" | "resumes";
 
 interface Bookmark {
   _id: string; itemId: string; itemType: "career" | "college";
@@ -26,6 +26,7 @@ export default function DashboardPage() {
   const [mounted, setMounted] = useState(false);
   const [bookmarks, setBookmarks] = useState<Bookmark[]>([]);
   const [counselling, setCounselling] = useState<CounsellingRequest[]>([]);
+  const [resumes, setResumes] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
   const getToken = () => document.cookie.match(/cg-auth-token=([^;]+)/)?.[1] || "";
@@ -39,6 +40,7 @@ export default function DashboardPage() {
       const data = await res.json();
       setBookmarks(data.bookmarks || []);
       setCounselling(data.counsellingRequests || []);
+      setResumes(data.resumes || []);
     } catch (e) { console.error(e); } finally { setLoading(false); }
   }, []);
 
@@ -79,6 +81,7 @@ export default function DashboardPage() {
     { key: "careers", label: "Saved Careers", icon: Compass },
     { key: "colleges", label: "Saved Colleges", icon: Building },
     { key: "counselling", label: "Counselling", icon: PhoneCall },
+    { key: "resumes", label: "My Resumes", icon: FileText },
   ];
 
   const statusColors: Record<string, string> = {
@@ -141,6 +144,7 @@ export default function DashboardPage() {
             { icon: Building, label: "Saved Colleges", value: savedColleges.length, color: "from-brand-electric to-brand-sky" },
             { icon: Award, label: "Match Results", value: "0", color: "from-purple-500 to-pink-500" },
             { icon: PhoneCall, label: "Counselling", value: counselling.length, color: "from-emerald-500 to-teal-500" },
+            { icon: FileText, label: "My Resumes", value: resumes.length, color: "from-rose-500 to-orange-500" },
           ].map((stat) => (
             <motion.div key={stat.label} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="glass-card p-4 text-center">
               <div className={`h-10 w-10 rounded-xl bg-gradient-to-br ${stat.color} flex items-center justify-center mx-auto mb-3`}>
@@ -283,6 +287,75 @@ export default function DashboardPage() {
                   <p className="text-sm text-neutral-mediumGray">{r.message || "No message"} &bull; {new Date(r.createdAt).toLocaleDateString("en-IN")}</p>
                 </div>
                 <span className={`text-xs font-semibold px-3 py-1 rounded-full capitalize ${statusColors[r.status] || "bg-slate-100 text-slate-600"}`}>{r.status}</span>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {activeTab === "resumes" && (
+          <div className="space-y-4">
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="heading-card text-xl">My Resumes ({resumes.length})</h2>
+              <Link href="/ai-tools/resume-builder" className="btn-primary inline-flex items-center gap-2 py-2 px-4 text-sm">
+                <FileText className="h-4 w-4" /> Create New
+              </Link>
+            </div>
+            {resumes.length === 0 ? (
+              <div className="premium-card p-8 text-center text-neutral-mediumGray">
+                <FileText className="h-8 w-8 mx-auto mb-2 text-slate-300" />
+                <p>No saved resumes yet. Build your first ATS-optimized resume.</p>
+                <Link href="/ai-tools/resume-builder" className="btn-primary inline-flex items-center gap-2 mt-4">
+                  Build Resume <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            ) : resumes.map((r) => (
+              <div key={r._id} className="premium-card p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div className="flex items-start gap-3">
+                  <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-rose-500 to-orange-500 flex items-center justify-center flex-shrink-0 mt-1">
+                    <FileText className="h-5 w-5 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-neutral-nearBlack">
+                      {r.personalInfo?.fullName || "Untitled Resume"}
+                    </h3>
+                    <p className="text-sm text-neutral-mediumGray">
+                      {r.templateId && <span className="capitalize">{r.templateId} &bull; </span>}
+                      Updated {new Date(r.updatedAt).toLocaleDateString("en-IN")}
+                    </p>
+                    {r.atsScore != null && (
+                      <span className={`inline-block mt-1 text-xs font-semibold px-2 py-0.5 rounded-full ${
+                        r.atsScore >= 70 ? "bg-emerald-100 text-emerald-700" :
+                        r.atsScore >= 40 ? "bg-amber-100 text-amber-700" :
+                        "bg-red-100 text-red-700"
+                      }`}>
+                        ATS Score: {r.atsScore}/100
+                      </span>
+                    )}
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Link
+                    href={`/ai-tools/resume-builder`}
+                    className="text-sm text-brand-royal font-medium hover:underline px-3 py-1.5"
+                  >
+                    Edit
+                  </Link>
+                  <button
+                    onClick={async () => {
+                      try {
+                        await fetch(`/api/resume/${r._id}`, {
+                          method: "DELETE",
+                          headers: { Authorization: `Bearer ${getToken()}` },
+                          credentials: "include",
+                        });
+                        fetchDashboard();
+                      } catch (e) { console.error(e); }
+                    }}
+                    className="text-sm text-red-500 font-medium hover:underline px-3 py-1.5"
+                  >
+                    Delete
+                  </button>
+                </div>
               </div>
             ))}
           </div>

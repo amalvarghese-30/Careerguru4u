@@ -1,0 +1,372 @@
+[
+  {
+    "question": "In a village, the milk was collected from 50 milkmen at a collection center in litres as given below: 27, 75, 5, 99, 70, 12, 15, 20, 30, 35, 45, 80, 77, 90, 92, 72, 4, 33, 22, 15, 20, 28, 29, 14, 16",
+    "answer": "Show Solution\n\nClass interval\nTally marks\nFrequency\n\n0 - 10\ncancel(bb|bb|bb|bb|)\n5\n\n10 - 20\ncancel(bb|bb|bb|bb|) bb|bb|\n7\n\n20 - 30\ncancel(bb|bb|bb|bb|) cancel(bb|bb|bb|bb|)\n10\n\n30 - 40\ncancel(bb|bb|bb|bb|)\n5\n\n40 - 50\ncancel(bb|bb|bb|bb|)\n5\n\n50 - 60\nbb|bb|bb|bb|\n4\n\n60 - 70\nbb|bb|bb|\n3\n\n70 - 80\ncancel(bb|bb|bb|bb|)\n5\n\n80 - 90\nbb|bb|bb|\n3\n\n90 - 100\nbb|bb|bb|\n3\n\n \nTotal\n50",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "38 people donated to an organisation working for differently abled persons. The amount in rupees were as follows: 101, 500, 401, 201, 301, 160, 210, 125, 175, 190, 450, 151, 101, 351, 251, 451, 151",
+    "answer": "Show SolutionGiven:\n38 people donated to an organisation working for differently abled persons. The amount in rupees were as follows:\n101, 500, 401, 201, 301, 160, 210, 125, 175, 190, 450, 151, 101, 351, 251, 451, 151, 260, 360, 410, 150, 125, 161, 195, 351, 170, 225, 260, 290, 310, 360, 425, 420, 100, 105, 170, 250, 100.\n(i) The grouped frequency distribution table of the given data is as follows:\n\nClass interval\nTally marks\nFrequency\n\n100 - 149\ncancel(bb|bb|bb|bb|) bb|bb|\n7\n\n150 - 199\ncancel(bb|bb|bb|bb|) cancel(bb|bb|bb|bb|)\n10\n\n200 - 249\nbb|bb|bb|\n3\n\n250 - 299\ncancel(bb|bb|bb|bb|)\n5\n\n300 - 349\nbb|bb|\n2\n\n350 - 399\nbb|bb|bb|bb|\n4\n\n400 - 449\nbb|bb|bb|bb|\n4\n\n450 - 499\nbb|bb|\n2\n\n500 - 549\nbb|\n1\n\n \nTotal\n38\n\n(ii) As, 4 + 4 + 2 + 1 = 11\nSo, the number of people who donated rupees 350 or more is 11.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following cumulative frequency table: Class (Height in cm) 150 - 153, 153 - 156, 156 - 159, 159 - 162, 162 - 165, 165 - 168 Frequency (No. of students) 05, 07, 15, 10, 05, 03",
+    "answer": "Show Solution\n\nClass\n(Height in cm)\nFrequency\n(No. of students)\nLess than\ntype frequency\n\n150 - 153\n05\n05\n\n153 - 156\n07\n05 + \\[\\boxed{07}\\] = \\[\\boxed{12}\\]\n\n156 - 159\n15\n\\[\\boxed{12}\\] + 15 = \\[\\boxed{27}\\]\n\n159 - 162\n10\n\\[\\boxed{27}\\] + \\[\\boxed{10}\\] = 37\n\n162 - 165\n05\n37 + 5 = 42\n\n165 - 168\n03\n\\[\\boxed{42}\\] + \\[\\boxed{03}\\] = 45\n\n \nTotal (N) = 45",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following Cumulative Frequency Table: Class (Monthly income in Rs.)1000 - 5000, 5000 - 10000, 10000 - 15000, 15000 - 20000, 20000 - 25000, Frequency (No. of  individuals) 45, 19, 16,",
+    "answer": "Show Solution\n\nClass\n(Monthly income in Rs.)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "The data is given for 62 students in a certain class regarding their mathematics marks out of 100. Take the classes 0-10, 10-20.. 1. How many students obtained marks 40 or above 40?",
+    "answer": "Show SolutionThe data is given for 62 students in a certain class regarding their mathematics marks out of 100.\n55, 60, 81, 90, 45, 65, 45, 52, 30, 85, 20, 10, 75, 95, 09, 20, 25, 39, 45, 50, 78, 70, 46, 64, 42, 58, 31, 82, 27, 11, 78, 97, 07, 22, 27, 36, 35, 40, 75, 80, 47, 69, 48, 59, 32, 83, 23, 17, 77, 45, 05, 23, 37, 38, 35, 25, 46, 57, 68, 45, 47, 49.\nThe frequency distribution table for the given data is as follows:\n\nClass\n(Marks obtained)\nTally marks\nFrequency \n(No. of students)\n\n0 - 10\nbb|bb|bb|\n3 \n\n10 - 20 \nbb|bb|bb|\n3\n\n20 - 30 \ncancel(bb|bb|bb|bb|bb|) bb|bb|bb|bb|\n9\n\n30 - 40 \ncancel(bb|bb|bb|bb|bb|) bb|bb|bb|bb|\n9\n\n40 - 50 \ncancel(bb|bb|bb|bb|bb|) cancel(bb|bb|bb|bb|bb|) bb|bb|bb|\n13\n\n50 - 60 \ncancel(bb|bb|bb|bb|bb|) bb|\n6\n\n60 - 70\ncancel(bb|bb|bb|bb|bb|)\n5\n\n70 - 80 \ncancel(bb|bb|bb|bb|bb|) bb|\n6\n\n80 - 90 \ncancel(bb|bb|bb|bb|bb|)\n5\n\n90 - 100\nbb|bb|bb|\n3\n\n \n \nTotal N = 62\n\nThe cumulative frequency table more than or equal to the type for the given data is as follows:\n\nClass \n(Marks obtained)\nFrequency \n(No. of students)\nMore than or equal to\ntype cumulative frequency\n\n0 - 10\n3 \n62\n\n10 - 20\n3\n62 &minus; 3 = 59\n\n20 - 30 \n9\n59 &minus; 3 = 56\n\n30 - 40\n9\n56 &minus; 9 = 47\n\n40 - 50\n13\n47 &minus; 9 = 38\n\n50 - 60 \n6\n38 &minus; 13 = 25\n\n60 - 70\n5\n25 &minus; 6 = 19\n\n70 - 80 \n6\n19 &minus; 5 = 14\n\n80 - 90\n5\n14 &minus; 6 = 8\n\n90 - 100\n3\n8 &minus; 5 = 3\n\n \nTotal N = 62\n \n\nThe number of students who obtained marks 40 or above 40 is 38.\nThe number of students who obtained marks 90 or above 90 is 3.\nThe number of students who obtained marks 60 or above 60 is 19.\nThe cumulative frequency of equal to or more than type of the class 0-10 is 62.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "The data is given for 62 students in a certain class regarding their mathematics marks out of 100. Take the classes 0-10, 10-20.. 1. How many students obtained less than 40 marks?",
+    "answer": "Show SolutionThe data is given for 62 students in a certain class regarding their mathematics marks out of 100.\n55, 60, 81, 90, 45, 65, 45, 52, 30, 85, 20, 10, 75, 95, 09, 20, 25, 39, 45, 50, 78, 70, 46, 64, 42, 58, 31, 82, 27, 11, 78, 97, 07, 22, 27, 36, 35, 40, 75, 80, 47, 69, 48, 59, 32, 83, 23, 17, 77, 45, 05, 23, 37, 38, 35, 25, 46, 57, 68, 45, 47, 49.\n\nThe frequency distribution table for the given data is as follows:\n\nClass \n(Marks obtained)\nTally marks\nFrequency\n(No. of students)\n\n0 - 10\nbb|bb|bb|\n3 \n\n10 - 20 \nbb|bb|bb|\n3\n\n20 - 30 \ncancel(bb|bb|bb|bb|bb|) bb|bb|bb|bb|\n9\n\n30 - 40 \ncancel(bb|bb|bb|bb|bb|) bb|bb|bb|bb|\n9\n\n40 - 50 \ncancel(bb|bb|bb|bb|bb|) cancel(bb|bb|bb|bb|bb|) bb|bb|bb|\n13\n\n50 - 60 \ncancel(bb|bb|bb|bb|bb|) bb|\n6\n\n60 - 70\ncancel(bb|bb|bb|bb|bb|)\n5\n\n70 - 80 \ncancel(bb|bb|bb|bb|bb|) bb|\n6\n\n80 - 90 \ncancel(bb|bb|bb|bb|bb|)\n5\n\n90 - 100\nbb|bb|bb|\n3\n\n \n \nTotal N = 62\n\nThe cumulative frequency table of less than type for the given data is as follows:\n\nClass\n(Marks obtained)\nFrequency\n(No. of students)\nLess than type \ncumulative frequency\n\n0 - 10\n3\n3\n\n10 - 20\n3\n3 + 3 = 6\n\n20 - 30 \n9\n6 + 9 = 15\n\n30 - 40\n9\n15 + 9 = 24\n\n40 - 50\n13\n24 + 13 = 37\n\n50 - 60 \n6\n37 + 6 = 43\n\n60 - 70\n5\n43 + 5 = 48\n\n70 - 80 \n6\n48 + 6 = 54\n\n80 - 90\n5\n54 + 5 = 59\n\n90 - 100\n3\n59 + 3 = 62\n\n \nTotal N = 62\n \n\nThe number of students who obtained less than 40 marks is 24.\nThe number of students who obtained less than 10 marks is 3.\nThe number of students who obtained less than 60 marks is 43.\nThe cumulative frequency of the class 50-60 is 43.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Yield of soyabean per acre in quintal in Mukund&#x27;s field for 7 years was 10, 7, 5, 3, 9, 6, 9. Find the mean of yield per acre.",
+    "answer": "Show SolutionMean = \"The sum of all observations in the data\"/\"Total number of observations\"\nMean = ( 10 + 7 + 5 + 3 + 9 + 6 + 9 ) / 7\n= 49 / 7\n= 7\nSo, the mean of yield per acre is 7.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Find the median of the observations, 59, 75, 68, 70, 74, 75, 80.",
+    "answer": "Show SolutionThe observations in ascending order: 59, 68, 70, 74, 75, 75, 80.\nSince, the number of observation, n = 7, which is odd.\nMedian = ( (n + 1) / 2)^\"th\" = (( 7 + 1 ) / 2)^\"th\" = (8/2)^\"th\" = 4th Observation 74\nSo, the median of the observations is 74.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "The marks (out of 100) obtained by 7 students in Mathematics&#x27; examination are given below. Find the mode for these marks. 99, 100, 95, 100, 100, 60, 90",
+    "answer": "Show SolutionThe marks (out of 100) obtained by 7 students in Mathematics examination are given below: 99, 100, 95, 100, 100, 60, 90\nSince, 100 repeats for maximum times.\nSo, the mode for these marks is 100.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "The monthly salaries in rupees of 30 workers in a factory are given below. 5000, 7000, 3000, 4000, 4000, 3000, 3000, 3000, 8000, 4000, 4000, 9000, 3000, 5000,",
+    "answer": "Show SolutionThe monthly salaries in rupees of 30 workers in a factory are given below:\n5000, 7000, 3000, 4000, 4000, 3000, 3000, 3000, 8000, 4000, 4000, 9000, 3000, 5000, 5000, 4000, 4000, 3000, 5000, 5000, 6000, 8000, 3000, 3000, 6000, 7000, 7000, 6000, 6000, 4000\nThe frequency table of the above data is as follows:\n\nSalaries (Rs.) \n(xi)\nNumber of workers\n(fi)\nfixi\n\n3000\n8\n24000\n\n4000\n7\n28000\n\n5000\n5\n25000\n\n6000\n4\n24000\n\n7000\n3\n21000\n\n8000\n2\n16000\n\n9000\n1\n9000\n\n \nTotal N = 30\nTotal = 147000\n\nMean = (∑ fᵢxᵢ)/(∑ fᵢ)\nMean = 147000 / 30\n= 4900\nSo, the mean of monthly salary is Rs. 4900.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "In a basket there are 10 tomatoes. The weight of each of these tomatoes in grams is as follows: 60, 70, 90, 95, 50, 65, 70, 80, 85, 95. Find the median of the weights of tomatoes.",
+    "answer": "Show SolutionThe weight of 10 tomatoes in a basket in grams in ascending order is as follows:\n50, 60, 65, 70, 70, 80, 85, 90, 95, 95\nSince, the number of observations is 10, which is even.\nSo, median\n= 1/2 xx [(10 / 2)^\"th\" \"observation\" + ( 10/2 +1)^\"th\" \"observation\"]\n= 1/2 xx [5^\"th\" \"observation\" + ( 5 + 1)^\"th\" \"observation\"]\n= 1/2 xx [5^\"th\" \"observation\" + 6^\"th\" \"observation\"]\n= 1/2 xx [70 +80]\n= 150/2\n= 75\nThe median of the weights of tomatoes is 75 grams.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "A hockey player has scored following number of goals in 9 matches. 5, 4, 0, 2, 2, 4, 4, 3, 3. Find the mean, median and mode of the data.",
+    "answer": "Show SolutionThe scores of the hockey player in 9 matches in ascending order: 0, 2, 2, 3, 3, 4, 4, 4, 5\nMean = ( 5 + 4 + 0 + 2 + 2 + 4 + 4 + 3 + 3 ) / 9\n= 27 / 9\n= 3\nMedian = ((9 + 1)/2)^\"th\" = ( 10/2 )^\"th\" = 5th Observation = 3\nMode = The observation with the maximum occurrence = 4",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "The calculated mean of 50 observations was 80. It was later discovered that observation 19 was recorded by mistake as 91. What was the correct mean?",
+    "answer": "Show SolutionMean = \"The sum of all observations\"/\"Total number of observations\"\n∴ The sum of all observations = Mean x Total number of observations \n∴ The sum of 50 observations = 80 x 50\n= 4000\nSum of observations after correction = 4000 + 19 &ndash; 91\n= 3928 \n∴ Corrected mean = \"Sum of observations after correction\"/\"Total number of observations\"\n= 3928/50\n = 78.56\n∴ The corrected mean is 78.56.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Following 10 observations are arranged in ascending order as follows. 2, 3, 5, 9, x + 1, x + 3, 14, 16, 19, 20 If the median of the data is 11, find the value of x.",
+    "answer": "Show SolutionObservations are arranged in ascending order as follows:\n2, 3, 5, 9, x + 1, x + 3, 14, 16, 19, 20\nAs, the number of observations = 10, which is an even number.\n∴ The numbers in the five and six observations will come to the middle.\nMedian = 11\n∴ Median = ((x + 1) + (x + 3))/2\n∴ 11 = (2x + 4)/2\n∴ 11 × 2 = 2x + 4\n∴ 22 = 2x + 4\n∴ 22 &minus; 4 = 2x\n∴ 2x = 18\n∴ x = 18/2\n∴ x = 9\nSo, the value of x is 9.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "The mean of 35 observations is 20, out of which mean of first 18 observations is 15 and mean of last 18 observation is 25. Find the 18th observation.",
+    "answer": "Show SolutionMean = (\"sum of observations\")/(\"Total number of observations\")\n∴ sum of observations = Mean × Total number of observations\n∴ sum of 35 observations = 20 × 35\n= 700\nSum of first 18th observations = 15 × 18\n= 270\nSum of last 18th observations = 25 × 18\n= 450\n18th observation = Sum of first 18 observations + Sum of last 18 observations - 35th observations\n= 270 + 450 &minus; 700\n= 720 &minus; 700\n= 20\n∴ The 18th observation is 20.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "The Mean of 5 Observations is 50. One of the Observations Was Removed from the Data, Hence the Mean Became 45. Find the Observation Which Was Removed.",
+    "answer": "Show Solution\n∴ Sum of observations = Mean × Total number of observations\n&rArr; sum of 5 observations = 50 × 5 = 250\nTotal no of observations when One of the observations was removed from the data = 4\n&rArr; sum of 4 observations = 45 × 4 = 180\nSo, the observation which was removed = sum of 5 observations &minus; sum of 4 observations\n250 &minus; 180\n= 70\nThe observation which was removed is 70.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "There are 40 students in a class, out of them 15 are boys. The mean of marks obtained by boys is 33 and that for girls is 35. Find out the mean of all students in the class.",
+    "answer": "Show SolutionWe have,\nNumber of students in a class = 40\nNumber of boys in a class = 15,\nMean of marks obtained by boys = 33 \nMean of marks obtained by girls = 35\nNumber of girls in the class = 40 - 15 = 25\nSum of marks obtained by boys = Mean × Number of boys\n= 33 × 15\n= 495\nSum of marks obtained by girls = 35 × 25 = 875\nSo, the mean of all students in the class = \"Sum of marks obtained by students\"/\"Number of students\"\n= (495 + 875)/40\n= 1370/40\n= 34.25\nThe mean of all students in the class is 34.25.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "The weights of 10 students (in kg) are given below: 40, 35, 42, 43, 37, 35, 37, 37, 42, 37. Find the mode of the data.",
+    "answer": "Show SolutionThe following weights of 10 students (in kg) are arranged in ascending order as follows.\n35, 35, 37, 37, 37, 37, 40, 42, 42, 43.\nSince, the observation that occurs maximum = 37\nSo, the mode of the data is 37.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "In the following table, the information is given about the number of families and the siblings in the families less than 14 years of age. Find the mode of the data. No. of siblings 1 2 3 4 Families",
+    "answer": "Show SolutionGiven:\n\nNo. of siblings\n1\n2\n3\n4\n\nFamilies\n15\n25\n5\n5\n\nMode is the value that occurs most frequently in the data, i.e., the value with the highest frequency.\n\nFrequencies: 15, 25, 5, 5\nHighest frequency = 25\nCorresponding No. of Siblings = 2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "Find the mode of the following data. Marks 35 36 37 38 39 40 No. of Student 09 07 09 04 04 02",
+    "answer": "Show SolutionWe have,\n\nMarks\n35\n36\n37\n38\n39\n40\n\nNo. of Student \n09\n07\n09\n04\n04\n02\n\nSince, the marks that occurs the most are 35 and 37.\nSo, the mode of the given data are 35 and 37.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "Which of the following data is not primary?",
+    "answer": "To get information regarding plantation of soyabean done by each farmer from the village Talathi.Review the cleanliness status of canals by actually visiting them.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "What is the upper class limit for the class 25-35?",
+    "answer": "356030",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "What is the class-mark of class 25-35?",
+    "answer": "30",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "If the classes are 0-10, 10-20, 20-30... then in which class should the observation 10 be included?",
+    "answer": "10 - 200 - 10 and 10 - 20 in these 2 classes20 - 30",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "If x¯ is the mean of x1, x2 ............xn and y¯ is the mean of y1, y2, …….yn and z¯ is the mean of x1, x2 ............xn, y1, y2, ……….yn then z¯ =?",
+    "answer": "(bar x + bar y) / 2bar x + bary(bar x + bar y)/n (barx + bary)/(2n)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "The mean of five numbers is 50, out of which mean of 4 numbers is 46, find the 5th number:",
+    "answer": "66",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "Mean of 100 observations is 40. The 9th observation is 30. If this is replaced by 70 keeping all other observations same, find the new mean.",
+    "answer": "40.440.340.7",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "What is the the mode of 19, 19, 15, 20, 25, 15, 20, 15?",
+    "answer": "15201925",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 43,
+    "isFree": true
+  },
+  {
+    "question": "What is the median of 7, 10, 7, 5, 9, 10?",
+    "answer": "810",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 44,
+    "isFree": true
+  },
+  {
+    "question": "From following table, what is the cumulative frequency of less than type for the class 30-40? Class 0-10 10-20 20-30 30-40 40-50 Frequency 7 3 12 13 2",
+    "answer": "3522",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 45,
+    "isFree": true
+  },
+  {
+    "question": "The mean salary of 20 workers is Rs.10,250. If the salary of office superintendent is added, the mean will increase by Rs.750. Find the salary of the office superintendent.",
+    "answer": "Show SolutionWe have,\nThe mean salary of 20 workers is Rs.10,250.\nThe sum of salary of 20 workers = 10250 × 20 = Rs. 205000\nSince, the mean will increase by Rs.750 if the salary of office superintendent is added\nThe mean salary of 21 workers including office superintendent = 10250 + 750 = Rs. 11000\nThe sum of salary of 21 workers including office superintendent = 11000 × 21 = Rs. 231000\nSo, the salary of the office superintendent = 231000 - 205000 = Rs. 26000.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 46,
+    "isFree": true
+  },
+  {
+    "question": "The mean of nine numbers is 77. If one more number is added to it then the mean increases by 5. Find the number added in the data.",
+    "answer": "Show SolutionWe have, the mean of nine numbers is 77.\nThe sum of nine numbers = 77 × 9 = 693.\nThe new mean when one more number is added to it = 77 + 5 = 82.\nThe sum of ten numbers = 82 × 10 = 820.\nSo, the number added in the data = 820 &minus; 693 = 127.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 47,
+    "isFree": true
+  },
+  {
+    "question": "The monthly maximum temperature of a city is given in degree celcius in the following data. answer the following questions. 1. For how many days the maximum temperature was less than 34oC?",
+    "answer": "Show SolutionThe monthly maximum temperature of a city is given in degree celcius in the following data:\n29.2, 29.0, 28.1, 28.5, 32.9, 29.2, 34.2, 36.8, 32.0, 31.0, 30.5, 30.0, 33, 32.5, 35.5, 34.0, 32.9, 31.5, 30.3, 31.4, 30.3, 34.7, 35.0, 32.5, 33.5, 29.0, 29.5, 29.9, 33.2, 30.2\nThe grouped frequency distribution table of the given data is as follows:\n\nClass (Temperature)\nTally marks\nFrequency\n\n28 - 30\n cancel(bb|bb|bb|bb|) bb|bb|bb|\n8\n\n30 - 32\n cancel(bb|bb|bb|bb|) bb|bb|bb|\n8\n\n32 - 34\n cancel(bb|bb|bb|bb|) bb|bb|bb|\n8\n\n34 - 36\n cancel(bb|bb|bb|bb|)\n5\n\n36 - 38\nbb|\n1\n\n \n \nTotal N = 30\n\nThe number of days the maximum temperature was less than 34oC = 8 + 8 + 8 = 24.\nThe number of days the maximum temperature was 34oC or more than 34oC = 5 + 1 = 6.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 48,
+    "isFree": true
+  },
+  {
+    "question": "If the mean of the following data is 20.2, then find the value of p. xi 10 15 20 25 30 fi 6 8 p 10 6",
+    "answer": "Show SolutionWe have,\n\nbb(xᵢ)\nbb(fᵢ)\nbb(xᵢ fᵢ)\n\n10\n6\n60\n\n15\n8\n120\n\n20\np\n20p\n\n25\n10\n250\n\n30\n6\n180\n\n \nTotal N = (30 + p)\nTotal sum = (610 + 20 p)\n\nsince, mean = 20.2\n&rArr; (610 + 20\"p\")/(30 + \"p\") = 20.2\n&rArr; 610 + 20p = 20.2 (30 + p)\n&rArr; 610 + 20p = 606 + 20.2p\n&rArr; 20.2p - 20p = 610 - 606\n&rArr; 0.2p = 4\n&rArr; p = 4/0.2\n&rArr; p = 20",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 49,
+    "isFree": true
+  },
+  {
+    "question": "There are 68 students of 9th standard from model Highschool, Nandpur. They have scored following marks out of 80, in written exam of mathematics. 1. How many students, have scored marks less than 80?",
+    "answer": "Show SolutionThe marks scored by 68 students of 9th standard from model Highschool, Nandpur out of 80, in written exam of mathematics is as follows:\n\n70, 50, 60, 66, 45, 46, 38, 30, 40, 47, 56, 68, 80, 79, 39, 43, 57, 61, 51, 32, 42, 43, 75, 43, 36, 37, 61, 71, 32, 40, 45, 32, 36, 42, 43, 55, 56, 62, 66, 72, 73, 78, 36, 46, 47, 52, 68, 78, 80, 49, 59, 69, 65, 35, 46, 56, 57, 60, 36, 37, 45, 42, 70, 37, 45, 66, 56, 47\n\nClass (Marks)\nTally marks\nFrequency\nLess than type\ncumulative frequency\n\n30 &minus; 40\ncancel(bb|bb|bb|bb|)cancel(bb|bb|bb|bb|)bb|bb|bb|bb|\n14\n14\n\n40 &minus; 50\ncancel(bb|bb|bb|bb|)cancel(bb|bb|bb|bb|)cancel(bb|bb|bb|bb|)cancel(bb|bb|bb|bb|)\n20\n14 + 20 = 34\n\n50 &minus; 60\ncancel(bb|bb|bb|bb|)cancel(bb|bb|bb|bb|)bb|\n11\n34 + 11 = 45\n\n60 &minus; 70\ncancel(bb|bb|bb|bb|)cancel(bb|bb|bb|bb|)bb|bb|\n12\n45 + 12 = 57\n\n70 &minus; 80\ncancel(bb|bb|bb|bb|)bb|bb|bb|bb|\n9\n57 + 9 = 66\n\n80 &minus; 90\nbb|bb|\n2\n66 + 2 = 68\n\n \n \nTotal N = 68\n \n\nThe number of students, who have scored marks less than 80 is 66.\nThe number of students who have scored marks less than 40 is 14.\nThe number of students who have scored marks less than 60 is 45.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 50,
+    "isFree": true
+  },
+  {
+    "question": "There are 68 students of 9th standard from model Highschool, Nandpur. They have scored following marks out of 80, in written exam of mathematics. 70, 50, 60, 66, 45, 46, 38, 30, 40, 47, 56, 68, 80, 79",
+    "answer": "Show SolutionThe marks scored by 68 students of 9th standard from Model Highschool, Nandpur out of 80, in the written exam of mathematics are as follows:\n\n70, 50, 60, 66, 45, 46, 38, 30, 40, 47, 56, 68, 80, 79, 39, 43, 57, 61, 51, 32, 42, 43, 75, 43, 36, 37, 61, 71, 32, 40, 45, 32, 36, 42, 43, 55, 56, 62, 66, 72, 73, 78, 36, 46, 47, 52, 68, 78, 80, 49, 59, 69, 65, 35, 46, 56, 57, 60, 36, 37, 45, 42, 70, 37, 45, 66, 56, 47\n\nClass (Marks)\nFrequency\nequal to or more than \ntype cumulative frequency\n\n30 - 40\n14\n68\n\n40 - 50\n20\n68 &minus; 14 = 54\n\n50 - 60\n11\n54 &minus; 20 = 34\n\n60 - 70\n12\n34 &minus; 11 = 23\n\n70 - 80\n9\n23 &minus; 12 = 11\n\n80 - 90\n2\n11 &minus; 9 = 2\n\n \nTotal N = 68\n \n\nThe number of students who have scored marks 70 or more than 70 is 11.\n\nThe number of students who have scored marks 30 or more than 30 is 68.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 51,
+    "isFree": true
+  },
+  {
+    "question": "There are 10 observations arranged in ascending order as given below. 45, 47, 50, 52, x, x + 2, 60, 62, 63, 74. The median of these observations is 53.",
+    "answer": "Show SolutionThe 10 observations are arranged in ascending order as given below.\n45, 47, 50, 52, x, x + 2, 60 ,62 ,63 ,74.\nSince, the number of observations is 10, which is an even number.\n∴ 5th 6th and two such numbers mark in the middle. They are x + x + 2 respectively.\nThe median of the given observations is 53.\n∴ Median = (x + x + 2)/2\n∴ 53 = (2x + 2)/2\n∴ 53 × 2 = 2x + 2\n∴ 106 = 2x + 2\n∴ 104 = 2x\n∴ x = 104/2\n∴ x = 52\nGiven data = 45, 47, 50, 52, 52, 54, 60, 62, 63, 74.\n∴ Mean = \"Sum of all observations\"/\"Total number of all observations \"\n(45+47+50+52+52+54+60+62+63+74)/10\n= 559/10\n∴ Mean = 55.9\nSince, the observation that is occurring the maximum is 52.\nSo, the mode of the data is 52.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 52,
+    "isFree": true
+  }
+]

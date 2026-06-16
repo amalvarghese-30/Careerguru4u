@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Brain, TrendingUp, Target, Map, GraduationCap, Calculator, ArrowRight, Sparkles } from "lucide-react";
+import { Brain, TrendingUp, Target, Map, GraduationCap, Calculator, ArrowRight, Sparkles, FileText } from "lucide-react";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 
 const tools = [
@@ -49,6 +49,13 @@ const tools = [
     description: "Calculate the return on investment for different degrees and career paths.",
     gradient: "from-emerald-500 to-teal-500",
     href: "/ai-tools/roi-calculator",
+  },
+  {
+    icon: FileText,
+    title: "AI Resume Builder",
+    description: "Create professional, ATS-optimized resumes with smart scoring, multiple templates, and instant PDF download.",
+    gradient: "from-rose-500 to-orange-500",
+    href: "/ai-tools/resume-builder",
   },
 ];
 

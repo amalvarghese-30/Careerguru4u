@@ -21,13 +21,20 @@ export async function GET(req: NextRequest) {
       .limit(10)
       .toArray();
 
+    const resumes = await db.collection("resumes")
+      .find({ userId: user.userId })
+      .sort({ updatedAt: -1 })
+      .toArray();
+
     return NextResponse.json({
       bookmarks,
       counsellingRequests,
+      resumes,
       stats: {
         savedCareers: bookmarks.filter((b) => (b as Record<string, unknown>).itemType === "career").length,
         savedColleges: bookmarks.filter((b) => (b as Record<string, unknown>).itemType === "college").length,
         counsellingCount: counsellingRequests.length,
+        resumeCount: resumes.length,
       },
     });
   } catch (error) {

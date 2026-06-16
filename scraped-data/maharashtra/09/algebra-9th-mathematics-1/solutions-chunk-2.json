@@ -1,0 +1,902 @@
+[
+  {
+    "question": "State whether the following number is a surd or not. root(5)(81)",
+    "answer": "Since, root (5)(81)\n= root (5)(3⁴)\n= (3⁴)^(1/5)\n= 3^(4/5)\nSo, root (5)(81) is a surd.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "State whether the following number is a surd or not. √256",
+    "answer": "Since, √256\n= √(16²)\n= 16\nSo, √256 is not a surd.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "State whether the following number is a surd or not. root(3)(643)",
+    "answer": "Since, root (3)(64)\n= root(3)(4³)\n= (4³)^(1/3)\n= 4\nSo, root (3)(64) is not a surd.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "State whether the following number is a surd or not. √22/7",
+    "answer": "Since, √(22/7)\n= (22/7)^(1/2)\nSo, √(22/7) is a surd.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "Classify the given pair of surds into like surd and unlike surd. 52,513",
+    "answer": "Since, √52\n= √(4 xx 13)\n= 2 √13\nSo, √52, 5√13 is like surds.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "Classify the given pair of surds into like surd and unlike surd. √68, 5√3",
+    "answer": "Since, √68\n= √(4 xx 17)\n= 2 √17\nSo, √68, 5 √3 is unlike surds.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "Classify the given pair of surds into like surd and unlike surd. 418,72",
+    "answer": "Since, 4 √18 = 4 √(9 xx 2)\n= 4 xx 3 √2\n= 12 √2\nSo, 4 √18 , 7 √2 is like surds.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "Classify the given pair of surds into like surd and unlike surd. 19√12,6√3",
+    "answer": "19 √12, 6 √3\n19 √12 = 19 xx √(4×3)\n= 19 xx √4 xx √3\n= 19 xx 2√3\n= 38√3\nHere, the order of 38√3 and 6√3 is same and their radicands are also same.\n19 √12, 6 √3 are like surds.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "Classify the Given Pair of Surds into like Surd and Unlike Surd. 5 √22 , 7 √33",
+    "answer": "Since 5 √22 = 5 √(2 xx 11) and 7√33 = 7 √(3 xx 11)\nSo, 5 √22, 7 √33 is unlike surds.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "Classify the Given Pair of Surds into like Surd and Unlike Surd.5√5,√75",
+    "answer": "Since, √75 = √(25 xx 3) = 5 √3\nSo, 5√5, √75 is Unlike surds.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "Simplify the following surd. √27",
+    "answer": "√27 = √(9 xx 3)\n= √9xx√3\n= 3 √3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "Simplify the following surd. √50",
+    "answer": "√50 = √(25 xx 2) = √25xx√2 = 5 √2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "Simplify the following surd. √250",
+    "answer": "√250 = √(25 xx 10) = √25xx√10 = 5 √10",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "Simplify the following surd. √112",
+    "answer": "√112 = √(16 xx 7) = √16xx√7 = 4√7",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 43,
+    "isFree": true
+  },
+  {
+    "question": "Simplify the following surd. √168",
+    "answer": "√168 = √(4 xx 42) = √4xx√42 = 2 √42",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 44,
+    "isFree": true
+  },
+  {
+    "question": "Compare the following pair of surd. 7√2, 5 √3",
+    "answer": "Since 7√2 = √(49 xx 2) = √98 and\n5 √3 = √(25 xx 3) = √75\n√98 > √75\nSo, 7√2 > 5√3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 45,
+    "isFree": true
+  },
+  {
+    "question": "Compare the following pair of surd. √247, √274",
+    "answer": "247 < 274\n∴ √247 < √274",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 46,
+    "isFree": true
+  },
+  {
+    "question": "Compare the following pair of surd. 2√7, √28",
+    "answer": "Since 2√7 = √(4 xx 7) = √28\n∴ √28 = √28\nThat is, 2√7 = √28 ...(both are equal)\nSo, 2 √7 = √28",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 47,
+    "isFree": true
+  },
+  {
+    "question": "Compare the following pair of surd. 5 √5, 7 √2",
+    "answer": "Since, 5 √5 = √(25 xx 5) = √125 and\n7 √2 = √(49 xx 2) = √98\n √125 > √98\nSo, 5 √5 > 7 √2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 48,
+    "isFree": true
+  },
+  {
+    "question": "Compare the following pair of surd. 4 √42, 9 √2",
+    "answer": "Since, 4 √42 = √(16 xx 42) = √672 and \n9 √2 = √(81 xx 2) = √162\n√672 > √162\nSo, 4 √42 > 9 √2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 49,
+    "isFree": true
+  },
+  {
+    "question": "Compare the following pair of surd. 5 √3, 9",
+    "answer": "Since , 5 √3 = √(25 xx 3) = √75 and \n9 = √81\nSo, 5 √3 < 9",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 50,
+    "isFree": true
+  },
+  {
+    "question": "Compare the following pair of surd. 7,25",
+    "answer": "Since , 7 = √49 and \n2 √5 = √(4 xx 5) = √20\n √49 > √20\nSo, 7 > 2 √5",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 51,
+    "isFree": true
+  },
+  {
+    "question": "Simplify. 5√3+8√3",
+    "answer": "5 √3 + 8 √3\n= (5 + 8) √3\n= 13 √3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 52,
+    "isFree": true
+  },
+  {
+    "question": "Simplify. 95-45+125",
+    "answer": "9 √5 - 4 √5 + √125\n= 5 √5 + √(25 xx 5)\n= 5√5 + 5 √5\n= 10 √5",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 53,
+    "isFree": true
+  },
+  {
+    "question": "Simplify. 748-27-3",
+    "answer": "7 √48 - √27 - √3\n=7 √(16 xx 3) - √(9 xx 3) - √3\n= 7 xx 4 √3 - 3 √3 - √3\n= 28 √3 - 3 √3 - √3\n=(28-3-1)√3\n= 24 √3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 54,
+    "isFree": true
+  },
+  {
+    "question": "Simplify. √7 - 3/5 √7 + 2 √7",
+    "answer": "√7 - 3/5 √7 + 2 √7\n=(1-3/5+2)√7\n=(3-3/5)√7\n=((15-3)/5)√7\n= 12/5 √7",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 55,
+    "isFree": true
+  },
+  {
+    "question": "Multiply and write the answer in the simplest form. 312×18",
+    "answer": "3 √12 xx √18\n= 3 √(4 xx 3) xx √(9 xx 2)\n=3×2√3×3√2 \n= 6 √3 xx 3 √2\n= 18 √6",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 56,
+    "isFree": true
+  },
+  {
+    "question": "Multiply and write the answer in the simplest form. 312×715",
+    "answer": "3√12 xx 7 √15\n= 3 √(4 xx 3) xx 7 √(5×3)\n=3×2xx√3×7√5xx√3\n=3×2xx7xx√3xx√3xx√5\n=42×3xx√5\n= 126 √5",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 57,
+    "isFree": true
+  },
+  {
+    "question": "Multiply and write the answer in the simplest form. 38×5",
+    "answer": "3√8 xx √5\n= 3 √(4 xx 2) xx √5\n=3×2√2xx√5\n= 6 √2 xx √5\n= 6 √10",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 58,
+    "isFree": true
+  },
+  {
+    "question": "Multiply and write the answer in the simplest form. 58×28",
+    "answer": "5 √8 xx 2 √8\n=10√64\n= 10 × 8\n= 80",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 59,
+    "isFree": true
+  },
+  {
+    "question": "Divide and write the answer in simplest form. 98÷2",
+    "answer": "√98 ÷ √2\n= (√98)/(√2)\n= √(98/2)\n= √49\n= 7",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 60,
+    "isFree": true
+  },
+  {
+    "question": "Divide and write the answer in simplest form. 125÷50",
+    "answer": "√125 ÷ √50\n= √125/√50\n= √(125/50)\n= √((5 xx 25)/(2 xx 25))\n= √(5/2)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 61,
+    "isFree": true
+  },
+  {
+    "question": "Divide and write the answer in simplest form. 54÷27",
+    "answer": "√54 ÷ √27\n= √54/√27\n= √(54/27)\n= √2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 62,
+    "isFree": true
+  },
+  {
+    "question": "Divide and write the answer in simplest form. 310÷5",
+    "answer": "√310 ÷ √5\n= (√310)/ (√5)\n= √(310 / 5)\n= √((5×62)/5)\n= √62",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 63,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the denominator. 35",
+    "answer": "3 /√5\n= 3 /√5 xx √5 / √5\n= (3√5)/ (√5)²\n= (3√5)/5",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 64,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the denominator. 114",
+    "answer": "1/√14\n=1/√14 xx √14 / √14\n= √14 / (√14)²\n= √14 / 14",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 65,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the denominator. 57",
+    "answer": "5/√7\n= 5/√7 xx √7/ √7\n= (5 √7)/(√7)² \n= (5 √7)/7",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 66,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the Denominator. 6/9√3",
+    "answer": "6/(9√3)\n= 2/(3 √3) xx √3 / √3\n= (2 √3)/ (3 xx 3)\n= (2 √3)/ 9",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 67,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the denominator. 113",
+    "answer": "11 / √3\n=11 / √3 xx √3/ √3\n= (11 √3)/(√3)²\n= (11 √3)/ 3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 68,
+    "isFree": true
+  },
+  {
+    "question": "Multiply 3(7-3)",
+    "answer": "√3 (√7 - √3)\n= √3 xx √7 - √3 xx √3\n= √21 - √9\n= √21 - 3\n= - 3 + √21",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 69,
+    "isFree": true
+  },
+  {
+    "question": "Multiply. (5-7)2",
+    "answer": "(√5 - √7) √2\n= √5 xx √2 - √7 xx √2\n= (√5 - √7) √2\n= √10 - √14",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 70,
+    "isFree": true
+  },
+  {
+    "question": "Multiply. (32-3) (43-2)",
+    "answer": "(3√2 - √3) (4√3 - √2)\n= 3 √2 xx 4 √3 - 3 √2 xx √2 - √3 xx 4 √3 + √3 xx √2\n= 12 √6 - 3 xx 2 - 4 xx3 + √6\n= 13 √6 - 6 - 12\n= 13 √6 - 18",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 71,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the denominator. 17+2",
+    "answer": "1/(√7 + √2) \n= 1/(√7 + √2) xx (√7 - √2)/(√7 - √2)\n= (√7 - √2)/((√7)² - (√2)²) ....[(a + b)(a - b) = a²- b²] \n= (√7 - √2)/(7-2)\n= (√7 - √2)/5",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 72,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the denominator. 325-32",
+    "answer": "3/(2 √5 - 3 √2)\n= 3/(2 √5 - 3 √2) xx (2 √5 + 3 √2)/(2 √5 + 3 √2) \n= (3(2 √5 + 3 √2))/((2 √5)² - (3 √2)²)\n.....[(\"a\" + \"b\")(\"a\" - \"b\") = \"a\"² - \"b\"²]\n= (3(2 √5 + 3 √2))/(4 xx 5 - 9 xx 2)\n= (3(2 √5 + 3 √2))/(20 - 18)\n= (3(2 √5 + 3 √2))/2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 73,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the denominator. 47+43",
+    "answer": "4/(7+ 4 √3)\n= 4/(7+ 4 √3) xx (7- 4 √3)/(7 - 4 √3) \n= (4(7- 4 √3))/((7)² - (4 √3)²) ....[(a + b)(a - b) = a² - b²]\n= (4(7- 4 √3)) /(49 - 48)\n= 28 - 16 √3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 74,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the denominator. (√5 - √3)/(√5 + √3)",
+    "answer": "(√5 - √3)/(√5 + √3)\n= (√5 - √3)/(√5 + √3) xx (√5 - √3)/(√5 - √3)\n= (√5 - √3)²/((√5)² - (√3)²) ....[because (a + b)(a - b) = a² - b²]\n= ((√5)² - 2(√5)(√3) + (√3)²)/(5-3) ...[because (a - b)² = a² - 2ab + b²]\n= (5 - 2√15 + 3 )/2\n= (8 - 2√15)/2\n= (2 (4 - √15))/2\n= 4 -√15",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 75,
+    "isFree": true
+  },
+  {
+    "question": "Find the value. |15-2|",
+    "answer": "| 15 - 2 |\n= |13|\n= 13",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 76,
+    "isFree": true
+  },
+  {
+    "question": "Find the value. |4-9|",
+    "answer": "|4 - 9|\n= |- 5|\n= 5",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 77,
+    "isFree": true
+  },
+  {
+    "question": "Find the value. |7|×|-4|",
+    "answer": "|7| xx |-4|\n= 7 × 4\n= 28",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 78,
+    "isFree": true
+  },
+  {
+    "question": "Solve. |3x-5|=1",
+    "answer": "|3x - 5| = 1\n=> 3x - 5 = +- 1\n=> 3x - 5 = 1 or 3x - 5 = -1\n=> 3x = 1+5 or 3x = -1+5\n=> 3x = 6 or 3x = 4\ntherefore x = 2 or x = 4/3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 79,
+    "isFree": true
+  },
+  {
+    "question": "Solve. |7-2x|=5",
+    "answer": "|7 - 2x | = 5\n&rArr; 7 − 2x = &plusmn; 5\n&rArr; 7 − 2x = 5 or 7 − 2x = − 5\n&rArr; 2x = 7 − 5 or 2x = 7 + 5\n&rArr; 2x = 2 or 2x = 12\n∴ x = 1 or x = 6",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 80,
+    "isFree": true
+  },
+  {
+    "question": "Solve. |8-x2|=5",
+    "answer": "|(8 - x)/2| = 5\n=> (8 - x)/2 = +- 5\n=> (8 - x)/2 = 5 or(8 - x)/2 = -5\n=> (8 - x) = 5 xx 2 or (8 - x) = -5 xx 2 ...[multiplied by 2 on both sides]\n&rArr; 8 - x = 10 or 8 - x = -10\n&rArr; 8 - 10 = x or 8 + 10 = x\n&rArr; -2 = x or 18 = x\ntherefore x = -2 or x = 18",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 81,
+    "isFree": true
+  },
+  {
+    "question": "Solve. |5+x4|=5",
+    "answer": "|5 + x/ 4| = 5\n=> 5 + x/ 4 = +- 5\n=> 5 + x/ 4 = 5 or 5 + x/4 = -5\n=> x/4 = 5 - 5 or x/4 = -5-5\n=> x/4 = 0 or x/4 = -10\n=> x = 0 xx 4 or x = - 10 xx 4 ...[multiplied by 4 on both sides]\ntherefore x = 0 or x = - 40",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 82,
+    "isFree": true
+  },
+  {
+    "question": "Which one of the following is an irrational number? (A) √(16/25) (B) √5 (C) 3/9 (D) √196",
+    "answer": "√53/9√196",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 83,
+    "isFree": true
+  },
+  {
+    "question": "Which of the following is an irrational number? (A) 0.17 (B) 1.513 (C) 0 2. 746 (D) 0.101001000...",
+    "answer": "0.101001000.....",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 84,
+    "isFree": true
+  },
+  {
+    "question": "Decimal expansion of which of the following is non-terminating recurring?",
+    "answer": "3/11137/25",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 85,
+    "isFree": true
+  },
+  {
+    "question": "Every point on the number line represent, which of the following numbers?",
+    "answer": "Real numbers",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 86,
+    "isFree": true
+  },
+  {
+    "question": "What is n, if n is not a perfect square number?",
+    "answer": "Irrational numberOptions A, B, C all are correct.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 87,
+    "isFree": true
+  },
+  {
+    "question": "Which of the following is not a surd? (A) √7 (B) root (3)(17) (C) root (3)(64) (D) √193",
+    "answer": "root (3)(64)√193",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 88,
+    "isFree": true
+  },
+  {
+    "question": "What is the order of the surd 53?",
+    "answer": "65",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 89,
+    "isFree": true
+  },
+  {
+    "question": "Which one is the conjugate pair of 25+3?",
+    "answer": "-2√5 + √3-2√5 - √32 √3 - √5√3 + 2 √5",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 90,
+    "isFree": true
+  },
+  {
+    "question": "Write the following number in p/q form. 0.555",
+    "answer": "1Show Solution0.555\n= (0.555×1000)/(1×1000)\n= 555/1000\n= (5×111)/(5×200)\n= 111/200",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 91,
+    "isFree": true
+  },
+  {
+    "question": "Write the following number in pqpq form. 29.568",
+    "answer": "29.568 \nLet x = 29.568 ...(1)\nMultiplying both sides by 1000, we get \n1000x = 29568.568 ...(2)\nBy subtracting (1) from (2), we get\n&rArr; 1000x - x = 29568.568 - 29.568\n&rArr; 999 x = 29539 \n&rArr; x = 29539/999\n∴ 29.568 = 29539/999",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 92,
+    "isFree": true
+  },
+  {
+    "question": "Write the following number in pqpq form. 9.315315...",
+    "answer": "9.315315...\nSince, 9.315315... = 9.315\nLet x = 9.315 ...(1)\nMultiplying both sides by 1000, we get\n1000x = 9315.315 ...(2)\nBy subtracting (1) from (2), we get\n1000x − x = 9315.315 − 9.315\n&rArr; 999 x = 9306\n&rArr; x = 9306/999 \n&rArr; x = (9 xx 1034)/(9 xx 111)\n∴ 9.315 = 1034/111",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 93,
+    "isFree": true
+  },
+  {
+    "question": "Write the following numbers in pq form. 357.417417...",
+    "answer": "357.417417...\nLet x = 357.417 ...(1) \nMultiplying both sides by 1000, we get \n1000 x = 357417.417 ... (2)\nBy subtracting (1) from (2), we get\n&rArr; 1000x - x = 357417.417 - 357.417\n&rArr; 999 x = 357060\n&rArr; x = 357060/ 999\n∴ 357.417 =357060/ 999\n= 119020/333",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 94,
+    "isFree": true
+  },
+  {
+    "question": "Write the following numbers in pqpq form. 30.219",
+    "answer": "30.219 \nLet x = 30.219 ...(1)\nMultiplying both sides by 1000, we get\n1000x = 30219.219 ...(2)\nBy subtracting (1) from (2), we get\n&rArr; 1000x - x = 30219.219 - 30.219\n&rArr; 999 x = 30189\n&rArr; x = 30189/999 \ntherefore 30.219 = 10063/333",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 95,
+    "isFree": true
+  },
+  {
+    "question": "Write the following number in its decimal form. -57",
+    "answer": "0.7142857...\n\n7\n 5.0000000\n\n \n 50\n\n \n - 49\n\n \n 10\n\n \n - 7\n\n \n 30\n\n \n - 28\n\n \n 20\n\n \n - 14\n\n \n 60\n\n \n - 56\n\n \n 40\n\n \n - 35\n\n \n 50\n\n \n - 49\n\n \n 1\n\n(-5)/7 = −0.714285",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 96,
+    "isFree": true
+  },
+  {
+    "question": "Write the following number in its decimal form. 911",
+    "answer": "0.8181...\n\n11\n 9.0000\n\n \n 90\n\n \n - 88\n\n \n 20\n\n \n - 11\n\n \n 90\n\n \n - 88\n\n \n 20\n\n \n - 11\n\n \n 9\n\n9/11 = 0.81",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 97,
+    "isFree": true
+  },
+  {
+    "question": "Write the following number in its decimal form. √5",
+    "answer": "2.2360679...\n\n2\n 5.bar(00) bar(00) 00̅ 00̅ 00̅ 00̅ 00̅\n\n+ 2\n- 4\n\n42\n 100\n\n+ 2\n - 84\n\n443\n 1600\n\n+ 3\n -1329\n\n4466\n 27100\n\n+ 6\n - 26796\n\n44720\n 30400\n\n+ 0\n - 00000\n\n447206\n 3040000\n\n+ 6\n - 2683236\n\n4472127\n 35676400\n\n+ 7\n - 31304889\n\n44721349\n 437151100\n\n+ 9\n - 402492141\n\n44721358\n 34658959\n\n√5 = 2.23606797....",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 98,
+    "isFree": true
+  },
+  {
+    "question": "Write the following number in its decimal form. 121/13",
+    "answer": "9.3076923...\n\n13\n 121.000000\n\n \n - 117\n\n \n 40\n\n \n - 39\n\n \n 100\n\n \n - 91\n\n \n 90\n\n \n - 78\n\n \n 120\n\n \n - 117\n\n \n 30\n\n \n - 26\n\n \n 40\n\n \n - 39\n\n \n 1\n\n121/13 = 9.307692",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 99,
+    "isFree": true
+  },
+  {
+    "question": "Write the following number in its decimal form. 29/8",
+    "answer": "3.625\n\n8\n 29.000\n\n \n - 24\n\n \n 50\n\n \n - 48\n\n \n 20\n\n \n - 16\n\n \n 40\n\n \n - 40\n\n \n 00\n\n29/8 = 3.625",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 100,
+    "isFree": true
+  },
+  {
+    "question": "Show that 5+7 is an irrational number.",
+    "answer": "Let us assume that 5 +√7 is a rational number.\n&rArr; 5 +√7 = p/q, where p and q are two integers and q ≠ 0\n&rArr; √7 = p/q - 5 = (p-5q)/q\nSince, p, q and 5 are integers, so (p - 5q)/ q is a rational number.\nBut this contradicts the fact that √7 is an irrational number.\nThis contradiction has arisen due to our assumption that 5 +√7 is a rational number. \nHence, 5 +√7 is an irrational number.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 101,
+    "isFree": true
+  },
+  {
+    "question": "Write the Following Surd in Simplest Form. 3/4 √8",
+    "answer": "3/4 √8\n= 3/4 xx √(4 xx 2)\n= 3/4 xx 2 √2\n=3/2 √2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 102,
+    "isFree": true
+  },
+  {
+    "question": "Write the following surd in simplest form. -5945",
+    "answer": "-5/9 √45\n= -5/9 √(9 xx 5)\n= -5/9 xx 3√5\n=-5/3 √5",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 103,
+    "isFree": true
+  },
+  {
+    "question": "Write the simplest form of rationalising factor for the given surd. √32",
+    "answer": "Since , √32 = √(16 xx 2) = 4 √2\n∴ 4√2 xx √2 = 4 xx 2 = 8 is a rational number.\nSo, √2 is the simplest form of rationalising factor.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 104,
+    "isFree": true
+  },
+  {
+    "question": "Write the simplest form of rationalising factor for the given surd. √50",
+    "answer": "Since , √50 = √(25 xx 2) = 5 √2\n∴ 5√2 xx √2 = 5 xx 2 = 10 is a rational number.\nSo,√2 is the simplest form of rationalising factor.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 105,
+    "isFree": true
+  },
+  {
+    "question": "Write the simplest form of rationalising factor for the given surd. 27",
+    "answer": "Since , √27 = √(9 xx 3) = 3 √3\ntherefore 3√3 xx √3 = 3 xx 3 = 9 is a rational number.\nSo, √3 is the simplest form of rationalising factor.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 106,
+    "isFree": true
+  },
+  {
+    "question": "Write the simplest form of rationalising factor for the given surd. 3/5 √10",
+    "answer": "∴ 3/5√10 xx √10 = 3/5 xx 10 = 6 is a rational number. \nSo, √10 is the simplest form of rationalising factor.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 107,
+    "isFree": true
+  },
+  {
+    "question": "Write the simplest form of rationalising factor for the given surd. 3 √72",
+    "answer": "Since, 3 √72 =3 √(36 xx 2) =3 xx 6√2=18√2\n18√2 xx √2 = 18 xx 2 = 36 is a rational number.\nSo, √2 is the simplest form of rationalising factor.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 108,
+    "isFree": true
+  },
+  {
+    "question": "Write the simplest form of rationalising factor for the given surd. 4 √11",
+    "answer": "Since 4√11 xx √11 = 4 xx 11 = 44 is a rational number.\nSo, √11 is the simplest form of rationalising factor.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 109,
+    "isFree": true
+  },
+  {
+    "question": "Simplify. 47147+38192-1575",
+    "answer": "4/7 √147 + 3/8 √192 - 1/5 √75\n=4/7 √(49 xx 3) + 3/8 √(64 xx 3) - 1/5 √(25 xx 3)\n= 4/7 xx 7√3 + 3/8 xx 8 √3 - 1/5 xx 5 √3\n=4√3 + 3√3 - √3\n=(4+3-1)√3\n= 6√3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 110,
+    "isFree": true
+  },
+  {
+    "question": "Simplify. 5√3 + 2 √27 +1/√3",
+    "answer": "5√3 + 2 √27 +1/√3\n= 5√3 + 2 √(9 xx 3) +1/√3 xx √3/√3\n= 5√3 + 6√3 +√3/3\n=(5+6+1/3)√3\n= (11 + 1/3)√3\n= ((33 + 1)/3)√3\n= 34/3√3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 111,
+    "isFree": true
+  },
+  {
+    "question": "Simplify. √216 - 5 √6 +√294 -3/√6",
+    "answer": "√216 - 5 √6 +√294 -3/√6\n= √(36 xx 6) -5 √6 + √(49 xx 6) -3/√6 xx √6/√6\n= 6√6 - 5√6 + 7√6 -(3√6)/6\n= 6√6 - 5√6 + 7√6 -(√6)/2\n= (6 - 5 + 7 - 1/2) √6\n= (8/1 - 1/2) √6\n= ((16-1)/2) √6\n= 15/2√6",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 112,
+    "isFree": true
+  },
+  {
+    "question": "Simplify. 4 √12 - √75 - 7 √48",
+    "answer": "4 √12 - √75 - 7 √48\n= 4√(4 xx 3) - √(25 xx 3) - 7 √(16 xx 3)\n=4×2√3-5√3-7×4√3\n= 8√3 - 5 √3 - 28 √3\n=(8-5-28)√3\n=-25√3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 113,
+    "isFree": true
+  },
+  {
+    "question": "Simplify. 2 √48 - √75 - 1/ √3",
+    "answer": "2 √48 - √75 - 1/ √3\n= 2 √(16 xx 3) - √(25 xx 3) - 1/√3 xx √3/√3\n=2×4√3-5√3-√3/3\n= 8 √3 -5√3 - √3/3\n= 3 √3 - √3/3\n= (9 √3 - √3)/3\n= 8/3√3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 114,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the denominator. 1/√5",
+    "answer": "1/√5 = 1/√5 xx √5/ √5 ...[\"multiply numerator and denominator by\" √5]\n= √5/5",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 115,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the Denominator. 2/(3 √7)",
+    "answer": "2/(3 √7)\n= 2/(3 √7) xx √7/√7 ...[multiply numerator and denominator by √7]\n= (2√7)/(3 xx 7)\n= (2√7)/21",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 116,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the denominator. 1/(√3 - √2)",
+    "answer": "1/(√3 - √2)\n= 1/(√3 - √2) xx ((√3+ √2))/((√3+ √2))\n= ((√3 + √2))/((√3)² - (√2)²) ...[(a+b)(a-b) = a² - b²]\n= ((√3 + √2))/(3 - 2)\n= √3 + √2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 117,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the denominator. 1/(3 √5 + 2 √2)",
+    "answer": "1/(3 √5 + 2 √2)\n= 1/((3 √5 + 2 √2)) xx ((3 √5 - 2 √2))/((3 √5 - 2 √2))\n = ((3 √5 - 2 √2))/((3√5)² - (2√2)²) \n ...[(a+b)(a-b) = a² - b²] \n= ((3 √5 - 2 √2))/(45-8)\n= (3 √5 - 2 √2)/37",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 118,
+    "isFree": true
+  },
+  {
+    "question": "Rationalize the denominator. 12/(4√3 - √2)",
+    "answer": "12/(4√3 - √2)\n= 12/(4√3 - √2) xx (4√3 + √2)/(4√3 + √2)\n= (12 (4√3 + √2))/((4√3)² -(√2)²) ...[(a+b)(a-b) = a² - b²]\n=(12 (4√3 + √2))/(48 - 2)\n= (12 (4√3 + √2))/46\n= (6 (4√3 + √2))/23",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Real Numbers",
+    "questionNumber": 119,
+    "isFree": true
+  }
+]

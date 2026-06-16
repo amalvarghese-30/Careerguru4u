@@ -1,0 +1,362 @@
+[
+  {
+    "question": "Show the following numbers on a number line. Draw a separate number line for the example. 32,52,-32",
+    "answer": "3/2 , 5/2 , -3/2 can be represented on the number line as follows.\n\nHere, the denominator of each fraction is 2.\n∴ Each unit will be divided into 2 equal parts.",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Show the following numbers on a number line. Draw a separate number line for the example. 75,-25,-45",
+    "answer": "7/5, -2/5, -4/5 can be represented on the number line as follows:\n\nHere, the denominator of each fraction is 5.\n∴ Each unit will be divided into 5 equal parts.",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Show the following numbers on a number line. Draw a separate number line for the example. −58,118",
+    "answer": "(-5)/8 , 11/8 can be represented on the number line as follows.\n\nHere, the denominator of each fraction is 8.\n∴ Each unit will be divided into 8 equal parts.",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Show the following numbers on a number line. Draw a separate number line for the example. 1310,-1710",
+    "answer": "13/10 , (-17)/10 can be represented on the number line as follows.\n\nHere, the denominator of each fraction is 10.\n∴ Each unit will be divided into 10 equal parts.",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Observe the number line and answer the questions. (1) Which number is indicated by point B? (2) Which point indicates the number 134?",
+    "answer": "Here, each unit is divided into 4 parts.\n∴ the denominator will be 4.\n(1) Point B is on the 10th equal part on the left side of point O.\n∴ B is (-10)/4.\n(2) 1 3/4 = (4 xx 1 + 3)/4 = (4 + 3)/4 = 7/4\nHere, Point C is marked on the 7th equal part on the right side of point O.\n∴ Point C indicates 1 3/4.\n(3) 5/2 = (5 xx 2)/(2 xx 2) = 10/4 True\nPoint D is marked on the 10th equal part on the right side of O.\n∴ D denotes the number 10/4 = 5/2",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Compare the following number. −7, −2",
+    "answer": "If a and b are positive numbers such that a < b, then −a > −b.\nSince 2 < 7\n∴ −2 > −7",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Compare the following number. 0, -9 5",
+    "answer": "We know that a negative number is always less than 0.\ntherefore 0 > (-9)/5.",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Compare the following number. 8 7, 0",
+    "answer": "We know that, a positive number is always greater than 0.\ntherefore 8/7 > 0",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Compare the Following Number. − 5 4 , 1 4",
+    "answer": "We know that −5 < 1.\ntherefore (-5)/4 < 1/4",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Compare the Following Number. 40 29, 141 29",
+    "answer": "We know that, 40 < 141.\ntherefore 40/29 < 141/29",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Compare the Following Number. − 17 20, − 13 20",
+    "answer": "We know that, −17 < −13.\ntherefore -17/20 < (-13)/20",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Compare the following number. 15 12, 7 16",
+    "answer": "15/12 = (15 xx 4)/(12 xx 4) = 60/48 ; 7/16 = (7 xx 3)/(16 xx 3) = 21/48\nNow, 60/48 > 21/48\ntherefore 15/12 > 7/16",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Compare the following number. -25 8, -9 4",
+    "answer": "Let us first compare (-25)/8 and (-9)/4 .\n(- 25)/8 = (- 25 xx 1)/(8 xx 1) = (- 25)/8 ; (- 9)/4 = (- 9 xx 2)/(4 xx 2) = (-18)/8\nNow , (-25)/8 = (-18)/8\n= −25 < −18\ntherefore (−25)/8 < (−9)/4",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Compare the following number. 12 15, 3 5",
+    "answer": "12/15 = (12 xx 1)/(15 xx 1) = 12/15 ; 3/5 = (3 xx 3)/(5 xx 3) = 9/15\nNow, 12/15 > 9/15\ntherefore 12/15 > 3/5",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Compare the Following Number. − 7 11, − 3 4",
+    "answer": "Let us first compare -7/11 and -3/4.\nHere, the denominators of the given numbers are not the same.\nLCM of 11 and 4 = 44\n\\[-\\frac7{11}=-\\frac{7\\times4}{11\\times4}=-\\frac{28}{44}\\]\n\\[-\\frac34=-\\frac{3\\times11}{4\\times11}=-\\frac{33}{44}\\]\nSince 28 < 33\n∴ \\[\\frac{28}{44}<\\frac{33}{44}\\]\n∴ \\[-\\frac{28}{44}>-\\frac{33}{44}\\]\n∴ \\[-\\frac7{11}>-\\frac34\\]",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational number in decimal form. 9 37",
+    "answer": "The given number is 9/37 .\n\ntherefore 9/37 = 0.243243... = 0.243̅\nThe decimal form is 9/37 \"is\" 0.243̅ .",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational number in decimal form. 18 42",
+    "answer": "The given number is 18/42.\n\ntherefore 18/42 = 0.428571428571... = 0.428571̅\n\"The decimal form of\" 18/42 \"is\" 0.428571̅",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational number in decimal form. 914",
+    "answer": "The given number is 9/4 .\n\ntherefore 9/14 = 0.6428571428571.... = 0.6428571̅\n\"The decimal form of\" 9/14 \"is\" 0.6428571̅.",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational number in decimal form. -103 5",
+    "answer": "The given number is (-103)/5 .\n\ntherefore 103/5 = 20.6\n\"The decimal form of\" -103/5 \"is\" -20.6.",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Write the following rational number in decimal form. -11 13",
+    "answer": "The given number is -11/13.\n\ntherefore 11/13 = 0.846153846153... = 0.846153̅\n\"The decimal form of \" -11/13 \"is\" -0.846153̅ .",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "The Number √2 is Shown on a Number Line. Steps Are Given to Show √3 on the Number Line Using √2 . Fill in the Boxes Properly and Complete the Activity.",
+    "answer": "The point Q on the number line shows the number bb\\underline√2.\nA line perpendicular to the number line is drawn through the point Q. Point R is at unit distance from Q on the line.\nRight angled ∆ ORQ is obtained by drawing seg OR.\nl(OQ) = √2 , l(QR) = 1\n\n∴ by pythagoras theorem,\n[l(OR)]2 = [l(OQ)]2 + [l(QR)]2\n= bb√2² + bb1² = bb2 + bb1\n= 3\n∴ l(OR) = bb√2\nDraw an arc with centre O and radius OR. Mark the point of intersection of the line and the arc as C. The point C shows the number line √3.",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Show the Number √5 on the Number Line.",
+    "answer": "Draw a number line as shown in the figure. Let the point O represent 0 and point Q represent 2. Draw a perpendicular QR at Q on the number line such that QR = 1 unit. Join OR. Now, ∆OQR is a right angled triangle. \nBy Pythagoras theorem, we have\nOR2 = OQ2 + QR2\n= (2)2 + (1)2\n= 4 + 1\n= 5\n∴ OR = √5\nTaking O as the centre and radius OR = √5, draw an arc cutting the number line at C.\nClearly, OC = OR = √5\nHence, C represents √5 on the number line.",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Show the number √7 on the number line.",
+    "answer": "Draw a number line as shown in the figure and mark the points O, A and B on it such that OA = AB = 1 unit. The point O represents 0 and B represents 2. At B, draw CB perpendicular on the number line such that BC = 1 unit. Join OC. Now, ∆OBC is a right angled triangle.\nIn ∆OBC, by Pythagoras theorem\n(OC)2 = (OB)2 + (BC)2\n= (2)2 + (1)2\n= 4 + 1\n= 5\n∴ OC = √5\nTaking O as centre and radius OC = √5 , draw an arc cutting the number line at D.\nClearly, OC = OD = √5\nAt D, draw ED perpendicular on the number line such that ED = 1 unit. Join OE. Now, ∆ODE is a right angled triangle.\nIn ∆ODE, by Pythagoras theorem\n(OE)2 = (OD)2 + (DE)2\n= (√5)2 + (1)2\n= 5 + 1\n= 6\n∴ OE = √6\nTaking O as centre and radius OE = √6 , draw an arc cutting the number line at F.\nClearly, OE = OF = √6\nAt F, draw GF perpendicular on the number line such that GF = 1 unit. Join OG. Now, ∆OFG is a right angled triangle.\nIn ∆OFG, by Pythagoras theorem\n(OG)2 = (OF)2 + (FG)2\n= (√6)2 + (1)2\n= 6 + 1\n= 7\n∴ OG = √7\nTaking O as centre and radius OG = √7 , draw an arc cutting the number line at H.\nClearly, OG = OH = √7\nHence, H represents √7 on the number line.",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Rational and Irrational numbers",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "In the adjoining figure, each angle is shown by a letter. Fill in the boxes with the help of the figure. Corresponding angles. (1) ∠p and □ (2) ∠q and □ (3) ∠r and □",
+    "answer": "Corresponding angles: If the arms on the transversal of a pair of angles are in the same direction and the other arms are on the same side of the transversal, then it is called a pair of corresponding angles. \nCorresponding angles\n(1) ∠p and ∠w\n(2) ∠q and ∠x\n(3) ∠r and ∠y\n(4) ∠s and ∠z\nAlternate interior angles: A pair of angles which are on the opposite side of the transversal and inside the given lines that are intersected by the transversal.\n\nInterior alternate angles\n(5) ∠s and ∠x\n(6) ∠w and ∠r",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Parallel lines and transversals",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Observe the angles shown in the figure and write the following pair of angles. Interior alternate angles",
+    "answer": "lternate interior angles: A pair of angles which are on the opposite side of the transversal and inside the given lines that are intersected by the transversal.\nInterior alternate angles\n(a) ∠c and ∠e \n(b) ∠b and ∠h",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Parallel lines and transversals",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Observe the angles shown in the figure and write the following pair of angles. Corresponding angles",
+    "answer": "Corresponding angles: If the arms on the transversal of a pair of angles are in the same direction and the other arms are on the same side of the transversal, then it is called a pair of corresponding angles.\nCorresponding angles\n\n∠d and ∠h\n∠c and ∠g\n∠a and ∠e\n∠b and ∠f",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Parallel lines and transversals",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Observe the angles shown in the figure and write the following pair of angles. Interior angles",
+    "answer": "Interior angles: A pair of angles which are on the same side of transversal and inside the given lines that are intersected by the transversal.\nInterior angles\n\n∠c and ∠h\n∠b and ∠e",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Parallel lines and transversals",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "In the adjoining figure, if line m || line n and line p are a transversal then find x.",
+    "answer": "45°40°",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Parallel lines and transversals",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "In the adjoining figure, if line a || line b and line l is a transversal then find x.",
+    "answer": "30°",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Parallel lines and transversals",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "In the adjoining figure line p || line q. Line t and line s are transversals. Find measure of ∠x and ∠y using the measures of angles given in the figure.",
+    "answer": "Let us mark the points P and Q on p; R and S on q; A and B on t; C and D on s.\nSuppose PQ and AB intersect at K; PQ and CD intersect at X.\nSuppose RS and AB intersect at L; RS and CD intersect at Y.\nSince AB is a straight line and ray KQ stands on it,\nm∠ AKX + m∠ XKL = 180° (angles in linear pair)\n&rArr; 40° + m∠ XKL = 180°\n&rArr; m∠ XKL = 180° − 40°\n&rArr; m∠ XKL = 140°\nSince p || q and t is a transversal, then\nm∠ YLB = m∠ XKL (Corresponding angles)\n&rArr; x = 140°\nSince RS and CD are two straight lines intersecting at Y, then\nm∠ XYL = m∠ SYD (Vertically opposite angles)\n&rArr; m∠ XYL = 70°\nSince, p || q and s is a transversal, then\nm∠ KXY + m∠ XYL = 180° (Interior angles on same side of transversal are supplementary)\n&rArr; y + 70° = 180°\n&rArr; y = 180° − 70°\n&rArr; y = 110°",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Parallel lines and transversals",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "In the adjoining figure. line p || line q. line l || line m. Find measures of ∠a, ∠b, and ∠c, using the measures of given angles. Justify your answers.",
+    "answer": "Let us mark the points A and B on p; X and Y on q; P and Q on l; R and S on m.\nSuppose AB and XY intersect PQ at K and L respectively.\nSuppose AB and XY intersect RS at N and M respectively.\nSince p || q and l is a transversal, then\nm∠ AKL + m∠ XLK = 180° (Interior angles on same side of transversal are supplementary)\n&rArr; 80° + m∠ XLK = 180°\n&rArr; m∠ XLK = 180° − 80°\n&rArr; m∠ XLK = 100°\nSince PQ and XY are straight lines that intersect at L, then\nm∠ QLM = m∠ XLK (Vertically opposite angles)\n&rArr; a = 100°\nSince l || m and p is a transversal, then\nm∠ BNR = m∠ AKL (Alternate exterior angles)\n&rArr; c = 80°\nSince p || q and m is a transversal, then\nm∠ NMY= m∠ RNB (Corresponding angles)\n&rArr; b = c\n&rArr; b = 80°",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Parallel lines and transversals",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "In the adjoining figure, line a || line b. line l is a transversal. Find the measures of ∠x, ∠y, ∠z using the given information.",
+    "answer": "Let us mark the points A and B on l; K and M on a; L and N on b.\nSuppose KM and LN intersect AB at P and Q respectively.\nSince, a || b and l is a transversal, then\nm∠ PQL = m∠ APK (Corresponding angles)\n&rArr; x = 105°\nSince AB and LN are straight lines that intersect at Q, then\nm∠ BQN = m∠ PQL (Vertically opposite angles)\n&rArr; y = x\n&rArr; y = 105°\nSince AB is a straight line and ray QN stands on it, then\nm∠ BQN + m∠ PQN = 180° (Angles in linear pair)\n&rArr; y + m∠ PQN = 180°\n&rArr; 105° + m∠ PQN = 180°\n&rArr; m∠ PQN = 180° − 105°\n&rArr; m∠ PQN = 75°\nNow, m∠ APM = m∠ PQN (Corresponding angles)\n&rArr; z = 75°",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Parallel lines and transversals",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "In the adjoining figure, line p || line l || line q. Find ∠x with the help of the measures given in the figure.",
+    "answer": "Let us mark the points A, L and B on p; C, M and D on l; P, N and Q on q.\nSince, AB || CD and LM is a transversal intersecting AB at L and CD at M, then\nm∠ LMD = ​m∠ ALM (Alternate interior angles)\n&rArr; m∠ LMD = 40°\nSince, CD || PQ and MN is a transversal intersecting CD at M and PQ at N, then\nm∠ DMN = ​m∠ PNM (Alternate interior angles)\n&rArr; m∠ DMN = 30°\nNow, m∠ LMD + m∠ DMN = 40° + 30°\n&rArr; m∠ LMN = 70°\n&rArr; x = 70°",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Parallel lines and transversals",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Draw a line l. Take a point A outside the line. Through point A draw a line parallel to line l.",
+    "answer": "Steps of construction:\n\nDraw a line l. Take a point A outside the line l.\nDraw a segment AM ⟂ line l.\nTake another point N on line l.\nDraw a segment NB ⟂ line l, such that l(NB) = l(MA).\nDraw a line m passing through the points A and B is parallel to the line l.\n\nHence, the line m is the required line that passes through point A and parallel to line l.",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Parallel lines and transversals",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Draw a line l. Take a point T outside the line. Through point T draw a line parallel to line l.",
+    "answer": "Steps of construction:\n\nDraw a line l. Take a point T outside the line l.\nDraw a segment TM ⟂ line l.\nTake another point N on line l.\nDraw a segment NV ⟂ line l, such that l(NV) = l(MT).\nDraw a line m passing through the points T and V is parallel to the line l.\n\nHence, the line m is the required line that passes through point T and parallel to line l.",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Parallel lines and transversals",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Draw a line m. Draw a line n which is parallel to line m at a distance of 4 cm from it.",
+    "answer": "Steps of construction:\n\nDraw a line m.\nTake two points A and B on the line m.\nDraw perpendiculars to the line m at A and B.\nOn the perpendicular lines, take points P and Q at a distance of 4 cm from A and B, respectively.\nDraw a line n passing through the points P and Q.\n\nSo, line n is the required line parallel to the line m at a distance of 4 cm away from it.",
+    "board": "Maharashtra Board",
+    "class": 8,
+    "subject": "Mathematics 1 Algebra",
+    "chapter": "Mathematics [English] Standard 8 Parallel lines and transversals",
+    "questionNumber": 13,
+    "isFree": true
+  }
+]

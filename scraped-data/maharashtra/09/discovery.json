@@ -1,0 +1,83 @@
+{
+  "board": "Maharashtra Board",
+  "class": 9,
+  "course": {
+    "id": 1439,
+    "slug": "maharashtra-board-9th-standard-ssc-english-medium",
+    "medium": "english"
+  },
+  "subjects": [
+    {
+      "name": "Algebra 9th Mathematics 1",
+      "slug": "algebra-9th-mathematics-1",
+      "id": "8870",
+      "url": "https://www.shaalaa.com?subjects=algebra-9th-mathematics-1_8870"
+    },
+    {
+      "name": "English",
+      "slug": "english",
+      "id": "8905",
+      "url": "https://www.shaalaa.com?subjects=english_8905"
+    },
+    {
+      "name": "Geography Social Science 2 9th",
+      "slug": "geography-social-science-2-9th",
+      "id": "8878",
+      "url": "https://www.shaalaa.com?subjects=geography-social-science-2-9th_8878"
+    },
+    {
+      "name": "Geometry Mathematics 2",
+      "slug": "geometry-mathematics-2",
+      "id": "8877",
+      "url": "https://www.shaalaa.com?subjects=geometry-mathematics-2_8877"
+    },
+    {
+      "name": "Hindi Second Third Language Hindi Dusri Tisri Bhaasaa",
+      "slug": "hindi-second-third-language-hindi-dusri-tisri-bhaasaa",
+      "id": "8931",
+      "url": "https://www.shaalaa.com?subjects=hindi-second-third-language-hindi-dusri-tisri-bhaasaa_8931"
+    },
+    {
+      "name": "Hindi Composite",
+      "slug": "hindi-composite",
+      "id": "9150",
+      "url": "https://www.shaalaa.com?subjects=hindi-composite_9150"
+    },
+    {
+      "name": "History Political Science Social Science 1",
+      "slug": "history-political-science-social-science-1",
+      "id": "8879",
+      "url": "https://www.shaalaa.com?subjects=history-political-science-social-science-1_8879"
+    },
+    {
+      "name": "Marathi Second Language Mraathi Dvitiy Bhaasaa 9th Standard",
+      "slug": "marathi-second-language-mraathi-dvitiy-bhaasaa-9th-standard",
+      "id": "8932",
+      "url": "https://www.shaalaa.com?subjects=marathi-second-language-mraathi-dvitiy-bhaasaa-9th-standard_8932"
+    },
+    {
+      "name": "Marathi Composite Mraathi Snyukt Dvitiy Bhaasaa 9th Standard",
+      "slug": "marathi-composite-mraathi-snyukt-dvitiy-bhaasaa-9th-standard",
+      "id": "9162",
+      "url": "https://www.shaalaa.com?subjects=marathi-composite-mraathi-snyukt-dvitiy-bhaasaa-9th-standard_9162"
+    },
+    {
+      "name": "Sanskrit Second Language",
+      "slug": "sanskrit-second-language",
+      "id": "9151",
+      "url": "https://www.shaalaa.com?subjects=sanskrit-second-language_9151"
+    },
+    {
+      "name": "Sanskrit Composite",
+      "slug": "sanskrit-composite",
+      "id": "9152",
+      "url": "https://www.shaalaa.com?subjects=sanskrit-composite_9152"
+    },
+    {
+      "name": "Science And Tech",
+      "slug": "science-and-tech",
+      "id": "8880",
+      "url": "https://www.shaalaa.com?subjects=science-and-tech_8880"
+    }
+  ]
+}

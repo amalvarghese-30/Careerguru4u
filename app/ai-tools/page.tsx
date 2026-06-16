@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Sparkles, Brain, BarChart3, Target, ArrowRight, Zap, Star, Clock } from "lucide-react";
+import { Sparkles, Brain, BarChart3, Target, ArrowRight, Zap, Star, Clock, FileText } from "lucide-react";
 
 const tools = [
   {
@@ -44,6 +44,16 @@ const tools = [
     questions: "8 questions",
     time: "2 minutes",
     href: "/ai-tools/skill-analyzer",
+  },
+  {
+    id: "resume-builder",
+    name: "AI Resume Builder",
+    description: "Build a professional ATS-friendly resume step by step. Choose templates, preview live, and download as PDF.",
+    icon: FileText,
+    color: "from-rose-600 to-orange-500",
+    questions: "7 steps",
+    time: "5 minutes",
+    href: "/ai-tools/resume-builder",
   },
 ];
 

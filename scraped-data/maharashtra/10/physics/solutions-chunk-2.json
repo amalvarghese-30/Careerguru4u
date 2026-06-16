@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Name the following diagram and explain the concept behind it.",
+    "answer": "Name: Fleming&rsquo;s right-hand rule\nConcept: It represents Fleming&rsquo;s right-hand rule used for finding the direction of the induced current with respect to the directions of the magnetic field and motion of the conductor.\n\nThe direction of the current induced in a conductor can be obtained by holding the thumb, the index finger, and the middle finger of your right hand mutually perpendicular to each other. In this situation, the thumb indicates the direction of the motion of the conductor, the index finger points along the magnetic field, and the middle finger points along the current induced in the conductor.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Name the following diagram and explain the concept behind it.",
+    "answer": "Name: Fleming&rsquo;s left-hand rule\nConcept: It represents Fleming&rsquo;s left-hand rule used for finding the direction of the magnetic force when a current-carrying conductor is placed in a magnetic field.\n\nAccording to this rule, the left-hand thumb, index finger, and middle finger are stretched so as to be perpendicular to each other. If the index finger is in the direction of the magnetic field and the middle finger points in the direction of the current, then the direction of the thumb is the direction of the force on the conductor.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Identify the figure and give its use.",
+    "answer": "Figure: Cartridge type fuse/Electric fuse\nUses: \n\nIt is a safety device that protects the wiring from overheating caused by an excessive current supply.\nIt melts when a high current travels through the circuit, causing the circuit to break and the current to stop flowing through it.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Identify the figure and give its use.",
+    "answer": "Figure: MCB (Miniature Circuit Breaker)\nUses: An MCB is a device which functions as a fuse but does not require replacement. MCB falls down to break the circuit when a heavy amount of current flows through it. Once the fault is rectified, the MCB is reset.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Identify the figure and explain their use.",
+    "answer": "The figure given is of a DC generator.\nUse of D.C. generator:\n\nA DC generator converts mechanical energy into direct current.\nThe DC generator is used to power stable current generators, boosters, and arc lamps.\nDC generators are also utilised to compensate for voltage drops inside feeds.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Heat energy is being produced in a resistance in a circuit at the rate of 100 W. The current of 3 A is flowing in the circuit. What must be the value of the resistance?",
+    "answer": "Given: Power, P = 100 W\nCurrent, I = 3 A\nResistance, R = ?\nWe know, P = I2R\n&rArr; R = P/I²\n= 100/3²\n= 100/9\n= 11.11 &Omega;\n∴ The value of the resistance is 11.11 &Omega;.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Example. Two Tungsten Bulbs of Wattage 100 W and 60 W Power Work on 220 V Potential Difference. If They Are Connected in Parallel, How Much Current Will Flow in Main Conductor?",
+    "answer": "1Show Solution Power of first bulb, P1 = 100 W\nPower of second bulb, P2 = 60 W\nNow,\nResistance of first bulb, R₁ = (V²)/(P₁)=(220×220)/100 = 484 &Omega;\n\nResistance of second bulb, \\[R_2 = \\frac{V^2}{P_2} = \\frac{220 \\times 220}{60} = 806 . 7 \\Omega\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Who will spend more electrical energy? 500 W TV Set in 30 mins, or 600 W heater in 20 mins?",
+    "answer": "For T.V. set: Power = 500 W,\nTime = 30 min = 30 × 60 s\n∴ Energy = Power × time\nE1 = 500 × 30 × 60 = 900 × 103 J\nFor Heater: Power = 600 W,\nTime = 20 min = 20 × 60 s\n∴ Energy (E2) = 600 × 20 × 60\n= 720 × 103 J\nComparing E1 and E2, E1 > E2\n∴ Energy spent by T.V. set (E1) is greater.\nThe energy consumed by the T.V. set is more than that consumed by the heater.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "An electric iron of 1100 W is operated for 2 hrs daily. What will be the electrical consumption expenses for that in the month of April? (The electric company charges Rs 5 per unit of energy).",
+    "answer": "Electric power required for working of iron, P = 1100 W\nDuration for which the iron is operated daily = 2 h = \\[2 \\times 60 \\times 60 = 7200 s \\]\nElectric energy consumed by iron in 7200 s is\n\n\\[E = 1100 \\times 7200 = 7920000 J\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Effects of electric current",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Fill in the Blank and Rewrite the Sentence.If Objects of Equal Masses Are Given Equal Heat, Their Final Temperature Will Be Different. this is Due to Difference in Their ................. .",
+    "answer": "If objects of equal masses are given equal heat, their final temperature will be different. This is due to difference in their different specific heat capacity.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Observe the Following Graph. Considering the Change in Volume of Water as Its Temperature is Raised from 0°C, Discuss the Difference in the Behaviour of Water and Other Substances. What is this",
+    "answer": "The majority of substances reduce when cooled and expand when heated. On the other hand, it is obvious from the graph that water displays a unique and unusual behavior between 0 and 4 degrees Celsius. Between 0°C and 4°C, water minimizes rather than expands. It shows the typical expansion characteristic seen in other compounds after 4°C. Water therefore has its maximum density and minimum volume at 4°C. Water that displays this behavior between 0°C and 4°C is referred to as anomalous water behavior.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "What is meant by specific heat capacity?",
+    "answer": "Specific heat capacity of a body can be defined as the amount of heat energy required to raise the temperature of the unit mass of that body by 1°C (or 1 K). \nIt is given as:\ns = (Delta Q)/(DeltaT xx m)\nwhere,\n&Delta;Q = Amount of heat energy supplied\n&Delta;T = Rise in temperature\nm = Mass of the body",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "How Will You Prove Experimentally that Different Substances Have Different Specific Heat Capacities?",
+    "answer": "Experiment to prove different substances have different specific heat capacities:\n\nTake three balls of iron, copper, and lead of equal mass and put them in boiling water for some time. Then, take them out of the water and measure their temperature.\nAll of them will be at temperature 100oC. Now, put them immediately on the thick slab of wax. Note the depth that each of the balls goes into the wax. The ball which absorbs more heat from the water will give more heat to wax. More wax will thus melt and the ball will go deeper into the wax. It will be observed that the iron ball goes deepest into the wax. The lead ball goes the least and the copper ball goes to intermediate depth. This shows that for the equal rise in temperature, the three balls have absorbed different amounts of heat.\nThis means that the property which determines the amount of heat absorbed by a ball is different for the three balls. This property is called the specific heat capacity.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "While deciding the unit for heat, which temperature interval is chosen? Why?",
+    "answer": "When deciding the unit for heat (which is a calorie), the temperature interval chosen is 14.5oC-15.5oC.\nWe know that the amount of heat released or absorbed by a body is given as DeltaQ = msDeltaT\nNow, we also know that one calorie is defined as the amount of heat required to raise the temperature of 1 g of water through 1oC. Thus, for 1 calorie of heat energy, the specific heat capacity of water should be 1 cal g-1 oC-1. It is found experimentally that the specific heat capacity of water is 1 cal g-1 oC-1 when the temperature range is 14.5oC-15.5oC.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Following Temperature Vs Time Graph.",
+    "answer": "1Show SolutionIn the given graph, line AB represents conversion of ice into water at constant temperature. When ice is heated, it melts at 0oC and converts into water maintaining constant temperature of 0oC. This constant temperature, at which the ice converts into water is called the melting point of ice. Also, during this transition, the ice absorbs heat energy. This heat energy is utilised for weakening the bonds between the atoms or molecules in the ice to transform itself into liquid. This heat energy absorbed by ice, at constant temperature, to convert it into liquid is called the latent heat of fusion.\nOnce all the ice is transformed into water, the temperature of water starts rising. It increases upto 100oC. Line BC in the graph represents rise in temperature of water from 0oC to 100oC. Thereafter, even though heat energy is supplied to water, its temperature does not rise. The heat energy is absorbed by water at this temperature and is used to break the bonds between molecules of the liquid and convert the liquid into gaseous state. Thus, during transformation from liquid phase to gas phase, heat energy is absorbed by the liquid, but its temperature does not change. The constant temperature at which the liquid transforms into gaseous state is called the boiling point of the liquid. The heat energy absorbed at constant temperature during transformation of liquid into gas is called the latent heat of vaporization.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "What is the role of the anomalous behaviour of water in preserving aquatic life in regions of cold climate?",
+    "answer": "1Show SolutionDuring the winter in frigid places, the temperature of the atmosphere drops significantly below 0°C. As the temperature drops, the water on the surfaces of lakes and ponds contracts. As a result, its density rises, and it sinks to the bottom. This process continues until the temperature of all the water in a lake drops to 4°C. As the water near the surface cools more, reaching temperatures below 4°C, it begins to expand rather than compress. As a result, its density drops, and it remains on the surface. The temperature of the water at the surface continues to decrease to 0 degrees Celsius. Finally, the water at the surface turns into ice, but the water behind the layer of ice remains at 4°C. Ice does not transfer heat well. As a result, the ice layer at the surface prevents heat from leaving the water and entering the atmosphere. Fish, other aquatic animals, and plants can survive in the water beneath the ice layer since the temperature remains at 4°C.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following: How can you relate the formation of water droplets on the outer surface of a bottle taken out of refrigerator with formation of dew?",
+    "answer": "The bottle taken out from the refrigerator has a lower temperature than the temperature of the surrounding environment, i.e., outside air in the atmosphere. It cools the air surrounding it. Air in the vicinity becomes saturated with vapour and the excess vapour condenses on the surface of the bottle in the form of water droplets. This phenomenon takes place due to air reaching its dew point temperature.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following: In cold regions in winter, the rocks crack due to anomalous expansion of water.",
+    "answer": "Normally, liquids expand on heating and contract on cooling. But water exhibits an exceptional behaviour in the temperature range of 0 °C to 4 °C.\nWhen water is cooled from 4°C to 0°C, it expands instead of contracting. Its volume increases, and its density decreases. At 4°C, the volume of water is at its minimum, and its density is at its maximum.\nWhen the temperature drops below 0°C and water freezes into ice, it expands significantly.\nThis behaviour of water between temperature intervals of 0 °C to 4 °C is called anomalous behaviour of water.\nIn cold regions during winter, when water in the cracks of rocks freezes, it expands. This expansion creates pressure on the surrounding rock. \nAs a result, the rocks experience force from the expanding ice and may crack.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "What is meant by latent heat? How will the state of matter transform if latent heat is given off?",
+    "answer": "The heat energy required to change substance from one state to another at constant temperature is called as latent heat of a substance.\nWhen latent heat is given off from a substance, it causes the strengthening of the bonds between atoms or molecules causing a change of state of the substance.\nWhen a liquid substance gives off latent heat of fusion, strengthening of bonds results into pulling of atoms or molecules of liquid closer and eventually it changes into solid-state.\nSimilarly, when a gaseous substance gives off latent heat of vaporisation, strengthening of bonds results into the pulling of atoms or molecules of gas closer and eventually it changes into a liquid state.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Which principle is used to measure the specific heat capacity of a substance?",
+    "answer": "Principle of heat exchange is used to measure the specific heat capacity of a substance.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following: Explain the role of latent heat in the change of state of a substances?",
+    "answer": "When a solid is heated, initially, its temperature increases. Here, the heat absorbed by the body (substance) is used in increasing the kinetic energy of the particles (atomic, molecules, etc.) of the body as well as for doing work against the forces of attraction between them. As the heating is continued, at a certain temperature (melting point), solid is converted into liquid. In this case, the amount of heat energy absorbed at constant temperature by unit mass of a solid to convert into liquid phase is called the specific latent heat of fusion.\nWhen a liquid is converted into the gaseous phase (gaseous state), at the boiling point, the heat absorbed is used for breaking the bonds between the atoms or molecules. This heat is called the latent heat of vaporization. Some solids, under certain conditions, are directly transformed into the gaseous phase. Here, the heat is absorbed, but the temperature remains constant. The absorbed heat is used for breaking the bonds between atoms or molecules. This heat is called the latent heat of sublimation.\nIn general, latent heat is the heat absorbed or given out by a substance during a change of state at a constant temperature.\nIn transformations from liquid to solid, gas to liquid and gas to solid, latent heat is given out by the body (substance).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "On what basis and how will you determine whether air is saturated with vapour or not?",
+    "answer": "On the basis of the amount of water vapours present in the air, it can be either saturated or unsaturated. If the amount of water vapours exceeds the amount that the air can contain, then it is called saturated. If the amount of water vapour is less than the limit of the amount that air can contain, then it is called unsaturated.\nWe can determine whether the air is saturated with vapour or not in terms of relative humidity. If the relative humidity is 100%, the air will be saturated; otherwise not.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Read the following paragraph and answer the questions. If heat is exchanged between a hot and cold object, the temperature of the cold object goes on increasing",
+    "answer": "Heat is transferred from the object at higher temperature to the object at lower temperature.\nWe learn the principle of heat exchange from this process.\nPrinciple of heat exchange states that the heat energy lost by hot object is always equal to heat gained by cold object provided that the system of both the objects is isolated.\nThe specific heat of an object can be measured using this principle.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Problems:Equal Heat is Given to Two Objects a and B of Mass 1 G. Temperature of a Increases by 3°C and B by 5°C. Which Object Has More Specific Heat? and by What Factor?",
+    "answer": "\\[s = \\frac{∆ Q}{m ∆ T}\\]\nLet Q cal of heat is given to both A and B.\nFor body A,\n\\[s_1 = \\frac{Q}{1 \\times 3} = \\frac{Q}{3} \\text {cal }g^{- 1} {}^o C^{- 1}\\]\nFor body B,\n\\[s_2 = \\frac{Q}{1 \\times 5} = \\frac{Q}{5} \\text { cal } g^{- 1} {}^o C^{- 1}\\]\nNow,\n\\[\\frac{s_1}{s_2} = \\frac{\\frac{Q}{3}}{\\frac{Q}{5}} = \\frac{5}{3}\\]\n\\[ \\Rightarrow s_1 = \\frac{5}{3} s_2\\]\nThus, specific heat capacity of body A is more than body B and by a factor of \\[\\frac{5}{3}\\].",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Liquid Ammonia is Used in Ice Factory for Making Ice from Water. If Water at 20°C is to Be Converted into 2 Kg Ice at 0°C, How Many Grams of Ammonia Are to Be Evaporated?",
+    "answer": "Given: 1) Change in temperature of water (&Delta;T) = 20° C \n2) mass of ice (m) = 2 kg = 2000 g/2 × 103 g\n3) (\"L\"_\"vap\")_\"ammonia\" = 341 cal/g\n4) Specific heat of wate (Cw) = 1 cal/g° C\n5) (\"L\"_\"melt\")_\"ice\" = 80 cal/g\nFind: Mass of ammonia (M)\n1) Amount of heat released in converting water at 20° C to water at 0°C (Q1)\nQ1 = m × c × &Delta;T\n= 2 × 103 × 1 × 20\nQ1 = 40 × 103 cal\n2) Amount of heat released in converting water at 0° C into ice at 0° C (Q2)\nQ2 = mw × Lmelt\n= 2 × 103 × 80\n= 160 × 103 cal\nTotal heat given out (Q3) = Q1 + Q2\nQ3 = (40 + 160)103 \nQ3 = 200 × 103 cal\nAccording to principle of heat exchange - heat released by water is used by liquid ammonia\nQ3 = \"M\"\"L\"_((\"vap\")_(\"ammonia\"))\n200 × 103 = M × 341\nM = (200 xx 10³)/341\nM = 586.5 g",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "A Thermally Insulated Pot Has 150 G Ice at Temperature 0°C. How Much Steam of 100°C Has to Be Mixed to It, So that Water of Temperature 50°C Will Be Obtained?",
+    "answer": "mount of heat required in converting 150 g ice to 0°C to water at 0°C = \\[150 \\times 80 = 12000 \\text { cal }\\] \nAmount of heat energy required in heating 150 g water at 0°C to 150 g water at 50°C = \\[150 \\times 1 \\times 50 = 7500 \\text { cal }\\]\nTotal heat energy required to convert 150 g ice at 0°C to water at 50°C = 19500 cal\nLet m g be the amount of steam be mixed with water to bring the final temperature of system at 50°C.\nThe amount of heat released in converting m g of steam at 100°C to water at 100°C = \\[m \\times 540 = 540m\\]\nThe amount of heat released in converting m g of water at 100°C to water at 50°C = \\[m \\times \\times 1 \\times 50 = 50m\\]\nTotal heat energy released to convert m g steam at 100°C to water at 50°C = 590m cal\nUsing the principle of calorimetry, we have\n590m = 19500\n\\[m = \\frac{19500}{590} = 33 g\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "A calorimeter has mass 100 g and specific heat 0.1 kcal/ kg °C. It contains 250 gm of liquid at 30°C having specific heat of 0.4 kcal/kg °C. If we drop a piece of ice of mass 10 g at 0°C,",
+    "answer": "Let the final temperature of the mixture be T.\nAmount of heat required in converting 10 g ice to 0°C to water at 0°C = 10 × 80 = 800 cal\nTotal amount of heat required in converting 10 g water to 0°C to water at T°C = 10 × 1 × T = 10T\nTotal heat energy required to convert 10 g ice at 0°C to water at T°C = 800 + 10T\nAmount of heat released to raise the temperature of calorimeter at 30°C to T°C = 100 × 0.1 × (30 - T) = 10(30 - T)\nAmount of heat released to raise the temperature of 250g of eater at 30°C to T°C = 250 × 0.4 × (30 - T) = 100(30 - T)\nTotal amount of heat released in the process = 110(30 - T)\nUsing the principle of calorimeter, we have \n110(30 - T) = 800 + 10T\n\n&rArr; T = 20.83° C",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Heat",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Fill in the blank and Explain the completed sentences. Refractive index depends on the of light.",
+    "answer": "Refractive index depends on the velocity of light.\nExplanation:\n\nRefractive index depends on the velocity of light in the medium.\nAs light has different velocity in the different medium refractive index also changes.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Prove the Statement . If the Angle of Incidence and Angle of Emergence of a Light Ray Falling on a Glass Slab Are I and E Respectively, Prove That, I = E.",
+    "answer": "1Show Solution\nLet \\[\\mu\\] be the refractive index of the glass slab. Then, according to Snell's law,\n\\[\\frac{\\sin i}{\\sin r_1} = \\mu\\] .....(i) \n\nand",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Prove the statement. A rainbow is the combined effect of the refraction, dispersion, and total internal reflection of light.",
+    "answer": "The rainbow is a wonderful phenomenon that combines several phenomena, including internal reflection, refraction and dispersion of light.\nFollowing a rainstorm, a rainbow appears in the sky.\nThe droplets of water function as tiny prisms.\nWhen water droplets in the atmosphere enter, they refract and disperse incident sunlight, producing a spectrum.\nThe light rays are then internally reflected within the droplet before being refracted.\nThe seven-colored rainbow is seen as a result of all these occurrences together.\nA rainbow can be observed in the morning on the west and in the evening on the east.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "What is the reason for the twinkling of stars?",
+    "answer": "Changing refractive index of the atmospheric gases",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Mark the Correct Answer in The Question. If the Refractive Index of Glass with Respect to Air is 3/2, What is the Refractive Index of Air with Respect to Glass?",
+    "answer": "\\[\\frac{2}{3}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "If in a medium, the speed of light is 1.5 × 10^8 m/s how much will the absolute refractive index of that medium be?",
+    "answer": "1Show SolutionAbsolute refractive index of a medium μ = \"Speed of light in vaccum\"/ \"Speed of light in the medium\"\n&rArr; μ = (3 xx 10⁸)/(1.5 xx 10⁸) = 2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Example. If the Absolute Refractive Indices of Glass and Water Are 3/2 and 4/3 Respectively, What is the Refractive Index of Glass with Respect to Water?",
+    "answer": "Given,\nRefractive index of glass = 3/2\nRefractive index of water = 4/3 \nRefractive index of glass with respect to water \n= \"Refractive index of glass\"/\"Refractive index of water\"\nOn substituting the values, we get,\n= (3/2)/(4/3)\n= 9/8\nHence, the refractive index of glass with respect to water is 9/8.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Refraction of light",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Match the Columns in the Following Table and Explain Them. Column 1 - Farsightedness, Presbyopia, Nearsightedness; Column 2 - Nearby object can be seen clearly, Far away object can be seen clearly",
+    "answer": "Column 1\nColumn 2\nColumn 3\n\nFarsightedness\n\nFar away object can be seen clearly",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Draw a figure explaining various terms related to a lens.",
+    "answer": "Terms Associated with Lenses:\nOptical centre\nOptical centre is a point at the centre of the lens. It always lies inside the lens and not on the surface. It is denoted by &lsquo;O&rsquo;.\n\nCentre of curvature\nIt is the centre point of arcs of the two spheres from which the given spherical lens (concave or convex) is made. Since a lens constitutes two spherical surfaces, it has two centers of curvature.\n\nRadius of curvature\nThe distance of the optical centre from either of the centre of curvatures is termed as the radius of curvature.\nPrincipal axis\nThe imaginary straight line joining the two centers of curvature and the optical centre (O) is called the principal axis of the lens.\n\nFocus\nThe focus (F) is the point on the principal axis of a lens where all incident parallel rays, after refraction from the lens meet or appear to diverge from. For lenses there are two foci (F1 and F2) depending on the direction of incident rays.\n\nFocal length\nThe distance between the focus (F1 or F2) and the optical centre (O) is known as the focal length of the lens.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "At which position will you keep an object in front of a convex lens so as to get a real image of the same size as the object? Draw a figure.",
+    "answer": "When an object is placed at the centre of curvature 2F1 of a convex lens, we will get a real image of the same size as the object.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific reason. Simple microscope is used for watch repairs.",
+    "answer": "1Show Solution\nWhen an object is put inside the focal length of a magnifying glass or simple microscope (convex lens), the larger and erect image appears on the same side of the lens as the object.\nBy altering the distance between the object and the lens, the image can be obtained at the shortest distance of distinct vision. Thus, a watch repairer may see the minute parts of a watch more clearly with the use of a magnifying glass (a rudimentary microscope) than with the naked eye, and without putting any strain on the eye. As a result, watch repairers utilise a magnifying glass (a basic microscope) to repair the timepieces.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reason:One can sense colours only in bright light.",
+    "answer": "The light sensitive screen of the eye, called the retina, has two types of light sensitive cells.\nRod cells are concerned with vision in dim light and cone cells are responsible for the vision in presence of light.\nCone cells are also concerned with colour perception. They do not respond to dim light or no light.\nThus, the knowledge of the colour is possible in presence of light and not in dark.\nHence, we can identify and differentiate colours in presence of light.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reason: We cannot clearly see an object kept at a distance less than 25 cm from the eye.",
+    "answer": "The muscles attached to the eye lens (ciliary muscles) help in fine adjustments of the focal length of the lens.\nThe capacity of these muscles to contract or relax to adjust the focal length (i.e., power of accommodation) has a limit.\nThe minimum distance of an object from a normal eye for which the eye lens can decrease its focal length to the least possible value, is 25 cm.\nHence, we cannot clearly see an object kept at a distance less than 25 cm from the eye.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Working of an Astronomical Telescope Using Refraction of Light.",
+    "answer": "The astronomical telescope consists of two lenses: objective and eyepiece. Objective has larger focal length and diameter to accommodate maximum amount of light coming from the far away (astronomical) objects. A parallel beam of rays from an astronomical object is made to fall on the objective lens of the telescope. It forms a real, inverted and diminished image A'B' of the object. The eyepiece is so adjusted that A'B' lies just at the focus of the eye piece. Therefore, a highly magnified image of the object is formed at infinity. The same has been shown in the figure below.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Distinguish between: Farsightedness and Nearsightedness.",
+    "answer": "Farsightedness\nNearsightedness\n\n1.\nThis problem arises due to slight flattening of the eyeball.\nThis problem arises due to slight elongation of the eyeball.\n\n2.\nThe curvature of the cornea and eye lens decreases so that the converging power becomes less.\nThe curvature of the cornea and eye lens increases so that the converging power becomes more.\n\n3.\nThe distance between the eye lens and the retina decreases.\nThe distance between the eye lens and the retina increases.\n\n4.\nThe near point of the eye shifts farther away from the eye.\nThe far point of the eye shifts closer to eye.\n\n5.\nA person suffering from this defect can see distant objects clearly but is unable to see nearby objects.\nA person suffering from this defect can see nearby objects clearly but is unable to see distant objects.\n\n6.\nIt can be corrected by using spectacles having convex lenses of suitable focal length.\nIt can be corrected by using spectacles having concave lenses of suitable focal length.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Distinguish between: Concave lens and Convex lens",
+    "answer": "Concave lens\nConvex lens\n\n1.\nIt is a diverging lens because it diverges the rays falling on it.\nIt is a converging lens because it converges the rays falling on it.\n\n2.\nIt is thin at the center and bulged at the edge.\nIt is thin at the edge and bulged at the centre.\n\n3.\nThe image formed by concave lens is always diminished and virtual.\nThe image formed by convex lens can be real as well as virtual. Also, the image formed can be diminished as well as magnified.\n\n4.\nIt has a virtual focus.\nIt has a real focus.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "What is the function of iris and the muscles connected to the lens in human eye?",
+    "answer": "Function of Iris: The iris is a muscular diaphragm that controls the size of the pupil, which, in turn, controls the amount of light entering the eye. It also gives color to the eye.\nFunction of ciliary muscles: The ciliary muscles hold the eye lens in position and adjust its focal length by expanding and contracting.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Example.Doctor Has Prescribed a Lens Having Power +1.5 D. What Will Be the Focal Length of the Lens? What is the Type of the Lens and What Must Be the Defect of Vision?",
+    "answer": "Given:\nPower of lens, P = +1.5 D\nNow, focal length of lens, \\[f = \\frac{1}{P} = + \\frac{1}{1 . 5} = + 0 . 67 m\\]\nSince, the focal length is positive, the lens prescribed for correction is convex lens. Thus, the defect of vision is farsightedness or hypermetropia.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Example.5 Cm High Object is Placed at a Distance of 25 Cm from a Converging Lens of Focal Length of 10 Cm. Determine the Position, Size and Type of the Image.",
+    "answer": "Given:\nHeight of object, ho = 5 cm\nObject distance, u = -25 cm\nSince the lens is converging, thus it is a convex lens.\nFocal length of the lens, f = 10 cm\nUsing lens formula,\n\\[\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}\\]\n\\[ \\Rightarrow \\frac{1}{v} = \\frac{1}{10} + \\frac{1}{- 25} = \\frac{3}{50}\\]\n\\[ \\Rightarrow v = \\frac{50}{3} = 16 . 7 cm\\]\nThus, the image is formed\n16 . 7 cm right of the lens. \nNow, we know\n\\[\\frac{v}{u} = \\frac{h_i}{h_o}\\]\n\\[ \\Rightarrow h_i = \\frac{50}{3 \\times - 25} \\times 5 = -\\frac{10}{3} = - 3 . 3 \\text{cm}\\]\nThus, the size of the image is 3.3 cm. Negative sign shows that the image formed is real and inverted. Hence, the image formed is real and inverted and diminished.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Solve the Following Example. Three Lenses Having Power 2, 2.5 and 1.7 D Are Kept Touching in a Row. What is the Total Power of the Lens Combination?",
+    "answer": "Given:\nP1 = 2D, P2 = 2.5D, P3 = 1.7D\nLet the total power of the lens combination be P. Thus,\nP = P1 + P2 + P3 = 2 + 2.5 + 1.7 = 6.2D",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following example. An object kept 60 cm from a lens gives a virtual image 20 cm in front of the lens. What is the focal length of the lens? Is it a converging lens or diverging lens?",
+    "answer": "Given:\nObject distance, u = −60 cm\nImage distance, v = −20 cm\nUsing lens formula,\n\\[\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}\\]\n\\[ \\Rightarrow \\frac{1}{f} = \\frac{1}{- 20} - \\frac{1}{- 60} = - \\frac{1}{30}\\]\n\\[ \\Rightarrow f = - 30 \\text{ cm }\\]\n\nSince, the focal length is negative, the lens is a diverging lens or a concave lens.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Lenses",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Write Name. Alloy of Sodium with Mercury.",
+    "answer": "Sodium amalgam, commonly denoted as Na(Hg), it is an alloy of mercury and sodium.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Write name. Molecular formula of the common ore of aluminium.",
+    "answer": "Bauxite (Al2O3.2H2O) is the common ore of aluminium.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Write name. The oxide that forms salt and water by reacting with both acid and base.",
+    "answer": "Metal oxides which react with both acids as well as bases to produce salts and water are also known as amphoteric oxides. For example: Al2O3 is an amphoteric oxide. An amphoteric compound is a molecule or ion that can react both an acid as well as a base to produce salt and water.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Write name. The device used for grinding an ore.",
+    "answer": "The device used for grinding an ore- Ball mill",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Write Name. the Nonmetal Having Electrical Conductivity.",
+    "answer": "Graphite an allotrope of carbon is a good conductor of electricity.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Write Name. The Reagent that Dissolves Noble Metals.",
+    "answer": "qua regia is 1:3 mixture of concentrated nitric and hydrochloric acids. It dissolves noble metals such as gold, palladium, and platinum.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Make Pairs of Substances and Their Properties Substance- a. Potassium bromide (KBr) b. Gold c. Sulphur d. Neon",
+    "answer": "Substance\nProperty\n\na. Potassium bromide (KBr)\n2. Soluble in water\n\nb. Gold\n4. High ductility\n\nc. Sulphur\n1. Combustible\n\nd. Neon\n3. No chemical reaction",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Identify the Pairs of Metals and Their Ores from the Following. Group A- a. Bauxite b. Cassiterite c. Cinnabar Group B- i. Mercury ii. Aluminium iii. Tin",
+    "answer": "Group A\nGroup B\n\na. Bauxite\nii. Aluminium\n\nb. Cassiterite\niii. Tin\n\nc. Cinnabar\ni. Mercury",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Term of Metallurgy .",
+    "answer": ". Metallurgy: The various processes involved in the extraction of metals from its ores and refining is called metallurgy.\nThe major steps involved for the extraction of a metal from its ore are:\n(i) Concentration of ores (or enrichment of ore)\n(ii) Conversion of concentrated ore into metal\n(iii) Refining (purification) of impure metal",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following term: Ores",
+    "answer": "Ores are the minerals from which metals can be profitably and conveniently mined.\nExamples: Bauxite (Al2O3.H2O). Cinnabar (HgS).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Explain the term Minerals.",
+    "answer": "The compounds of metals that occur in nature along with the impurities are called minerals.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Term Gangue .",
+    "answer": "Gangue is the unwanted impurities like rock material, dust, soil, sand, earthy particles, limestone, mica etc. present in an ore.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reason. Lemon or tamarind is used for cleaning copper vessels turned greenish.",
+    "answer": "Copper vessels turned greenish due to the formation of copper carbonate layer.\nThe citric acid present in the lemon or tamarind neutralizes the basic copper carbonate and dissolves the layer.\nThat is why tarnished copper vessels are cleaned with lemon or tamarind juice to give the surface of the copper vessel its characteristic lustre.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reason. Generally the ionic compounds have high melting points.",
+    "answer": "Ionic compounds are composed of cations and anions.\nThese ions are held together by strong electrostatic forces of attraction.\nConsiderable amount of energy is required to break these strong forces of attraction. \nHence, the melting points of ionic compounds are high.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reason. Sodium is always kept in kerosene.",
+    "answer": "1Show SolutionKerosene contains sodium as:\n\nAs a highly reactive metal, sodium interacts with water in a highly exothermic manner.\nIt has a strong reaction with water and oxygen.\nIt can generate much heat when it reacts with oxygen and water vapor in the atmosphere.\nTo prevent this strong reaction, it is thus stored or maintained in kerosene.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reason. Pine oil is used in froth flotation.",
+    "answer": "Pine oil is hydrophobic.\nThe particles of the metal sulphide ores which are hydrophobic get wetted by pine oil.\nThey float with the foam on the surface of water.\nThus, by using this property some ores which contain hydrophobic particles in them can be concentrated by froth floatation process. \nHence, pine oil is used in froth floatation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reason. Anodes need to be replaced from time to time during the electrolysis of alumina.",
+    "answer": "In the electrolysis of alumina, graphite rod is used as anode.\n\nDuring the electrolytic reduction of alumina, aluminium is produced at the cathode and oxygen gas is evolved at the anode.\nThis gas reacts with the graphite rods (anode) and forms carbon dioxide.\n\nThus, the graphite rods are continuously eroded. Hence, anodes are replaced from time to time during the electrolysis of alumina.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "When a Copper Coin is Dipped in Silver Nitrate Solution, a Glitter Appears on the Coin After Some Time. Why Does this Happen? Write the Chemical Equation.",
+    "answer": "Copper is more reactive than silver. Hence, displacement reaction occurs. When copper coin is dipped in silver nitrate solution, it forms copper nitrate and silver metal. A shining white deposit of silver metal is formed on copper coin. The grey solid crystal(glitters) of Ag metal appears on the copper coin and solution turns blue in colour.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "The electronic configuration of metal ‘A’ is 2,8,1 and that of metal ‘B’ is 2,8,2. Which of the two metals is more reactive? Write their reaction with dilute hydrochloric acid.",
+    "answer": "On moving from left to right in a period of periodic table, the chemical reactivity of elements first decreases from sodium to silicon and then increases from phosphorus to chlorine.\nThe electronic configuration of metal &lsquo;A&rsquo; is 2, 8, 1. This is electronic configuration of sodium metal.\nThe electronic configuration of metal &lsquo;B&rsquo; is 2, 8, 2. This is electronic configuration of magnesium metal. \nIn the first element of third period, sodium, there is 1 valence electron which it can lose easily to react with other substances, so it is very reactive metal. The second element magnesium has 2 valence electrons. It is not easy for an atom to lose 2 electrons, so magnesium is less reactive than sodium. \nReaction with dil hydrochloric acid:\n\\[2Na + 2HCl \\to 2NaCl + H_2 \\]\n\\[Mg + 2HCl \\to MgC l_2 + H_2\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Draw a neat labelled diagram. Magnetic separation method.",
+    "answer": "Magnetic separation method-",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Draw a neat labelled diagram. Froth floatation method.",
+    "answer": "Froth floatation method-",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Draw a neat labelled diagram. Electrolytic reduction of alumina.",
+    "answer": "Electrolytic reduction of alumina-",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Draw a neat labelled diagram. Hydraulic separation method.",
+    "answer": "Hydraulic separation method-",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Write Chemical Equation for the Event.Aluminium Came in Contact with Air.",
+    "answer": "luminum came in contact with air.\nAluminum is a very reactive metal. The outer surface of the metal is actually covered by a very thin layer of oxide which keeps the metal protected from the air. But when the oxide layer is damaged, aluminum comes in contact with the air. It is easily attacked by air. Then aluminum starts reacting with the oxygen. It will burn as bright white flame to change into aluminum(III) oxide.\nChemical Equation: \n\n\\[4Al + 3 O_2 \\to 2A l_2 O_3\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Iron filings are dropped in aqueous solution of copper sulphate. or Iron dissolved in aqueous solution of copper sulphate.",
+    "answer": "Iron displaces copper from copper sulphate solution forming ferrous sulphate and copper.\n\\[\\ce{\\underset{\\text{Iron}}{Fe_{(s)}} + \\underset{\\text{Copper sulphate}}{CuSO_{4(aq)}} -> \\underset{\\text{Ferrous sulphate}}{FeSO_{4(aq)}} + \\underset{\\text{Copper}}{Cu_{(s)}}}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Write the chemical equation for the event. A reaction was brought about between ferric oxide and aluminium.",
+    "answer": "luminium is more reactive than iron. Aluminium metal replaces iron from ferric oxide to form aluminium oxide and iron\nChemical Equation: \\[\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Write chemical equation for the event. Electrolysis of alumina is done.",
+    "answer": "1Show SolutionThe electrolysis of alumina is carried out in a steel tank lined inside with graphite. The graphite lining serves as cathode. Anode is also made up of graphite rods hanging in the molten mass. The electrolyte consists of alumina dissolved in fused Cryolite(Na3AlF6) and Fluorspar(CaF2). Cryolite lowers the melting point of alumina and fluorspar increases the fluidity of the mass so that the liberated aluminum metal may sink at the bottom of the cell. When electric current is passed through this mixture, the aluminum is collected at the cathode in molten state and sinks at the bottom.\n\nIonization of Alumina:2Al2O3 → 6O-2 + 4Al+3\nReaction at Cathode: 4Al+3 + 12e- → 4Al\nReaction at Anode: 6O-2 → 3O2 + 12e-, C + O2 → CO2",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Write a chemical equation for the following event. Zinc oxide is dissolved in dilute hydrochloric acid.",
+    "answer": "Zinc Oxide is an inorganic compound with formula ZnO. It is insoluble in water. When Zinc oxide reacts with hydrochloric acid it forms zinc chloride and water. It also leads to the formation of small bubbles of hydrogen. This is a double displacement reaction.\nChemical Equation: \n\\[\\ce{ZnO + 2HCl -> ZnCl2 + H2O}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Complete The Statement Using Every Given Option. During the Extraction of Aluminium.............. Ingredients and Gangue in Bauxite.",
+    "answer": "Bauxite is the main ore of aluminium. Silica (SiO2), ferric oxide (Fe2O3) and titanium oxide (TiO2) are the impurities present in bauxite.\nIngredient in bauxite are molten cryolite (Na3AIF6), fluorspar (CaF2).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Complete The Statement Using Every Given Option.During the Extraction of Aluminium..............Use of Leaching During the Concentration of Ore.",
+    "answer": "The separation of impurities(silica (SiO2), ferric oxide (Fe2O3) and titanium oxide (TiO2)) in bauxite ore is done by leaching process using either Bayer&rsquo;s method or Hall&rsquo;s method.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "Complete The Statement Using Every Given Option.During the Extraction of Aluminium..............Chemical Reaction of Transformation of Bauxite into Alumina by Hall’S Process.",
+    "answer": "In the Hall&rsquo;s process the bauxite is in powdered form and then leached by heating with aqueous sodium carbonate in the digester to form water soluble sodium aluminate. Then the insoluble impurities are filtered out. The filtrate is warmed and neutralised by passing carbon dioxide gas through it. This results in the precipitation of aluminium hydroxide.\n\\[A l_2 O_3 2 H_2 O (s) + N a_2 C O_3 (aq) \\to 2NaAl O_2 (aq) + C O_2 + 2 H_2 O (l)\\]\n\\[ 2NaAl O_2 (aq) + 3 H_2 O + C O_2 (g) \\to 2Al(OH )_3 + N a_2 C O_3 \\]\nThe precipitate of Al(OH)3 obtained in both, Bayer&rsquo;s and Hall&rsquo;s processes is filtered, washed, dried and then calcined by heating at 10000C to obtain alumina.\n\n\\[2Al(OH )_3 \\to A l_2 O_3 + 3 H_2 O\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "Complete the statement using every given option. During the extraction of aluminium......... Heating the aluminium ore with concentrated caustic soda.",
+    "answer": "When aluminium ore is heated with caustic soda (NaOH) solution under high pressure for 2 to 8 hours at 140° - 150° C, water-soluble sodium aluminate is formed.\n\n\\[\\ce{Al2O3 + 2NaOH -> 2NaAlO2 + H2O}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "Divide the metals Cu, Zn, Ca, Mg, Fe, Na, Li into three groups, namely reactive metals, moderately reactive metals and less reactive metals.",
+    "answer": "Reactive metals\nModerately reactive metals\nLess reactive metals\n\nCa\nFe\nCu\n\nNa\nZn\n \n\nLi\nMg",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Metallurgy",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "Match the Pairs. Group &#x27;A&#x27; Group &#x27;B&#x27; A. C2h6 1. Unsaturated Hydrocarbon B. C2h2 2. Molecular Formula of an Alcohol C. Ch4o 3. Saturated Hydrocarbon D. C3h6 4. Triple Bond",
+    "answer": "Group 'A'\nGroup 'B'\n\na. C2H6\n1. Saturated hydrocarbon\n\nb. C2H2\n2. Triple bond\n\nc. CH4O\n3. Molecular formula of an alcohol\n\nd. C3H6\n4. Unsaturated hydrocarbon",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Draw an Electron Dot Structure of the Following Molecule. (Without Showing the Circle) :Methane",
+    "answer": "Methane",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Draw an Electron Dot Structure of the Following Molecule. (Without Showing the Circle) :Ethene",
+    "answer": "Ethene",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Draw an Electron Dot Structure of the Following Molecule. (Without Showing the Circle) :Methanol",
+    "answer": "Methanol",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Draw an Electron Dot Structure of the Following Molecule. (Without Showing the Circle) :Water",
+    "answer": "Water",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Draw all possile structural formulae of compound from their molecular formula given below. C3H8",
+    "answer": "C3H8 Propane:",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Draw All Possile Structural Formulae of Compound from Their Molecular Formula Given Below.C4h10",
+    "answer": "C4H10",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Draw All Possile Structural Formulae of Compound from Their Molecular Formula Given Below.C3h4",
+    "answer": "C3H4\n \nPropyne",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Structural isomerism term with example.",
+    "answer": "It is a phenomenon in which the compounds having different structural formulas have the same molecular formula.\nE.g. n-Butane and isobutane are structural isomers as they have different structural formulae but have a same molecular formula: C4H10. \n\\[\\begin{array}{cc}\n\\ce{H}\\phantom{...}\\ce{H}\\phantom{...}\\ce{H}\\phantom{...}\\ce{H}\\\\\n|\\phantom{....}|\\phantom{....}|\\phantom{....}|\\\\\n\\ce{H - C - C - C - C - H}\\\\\n|\\phantom{....}|\\phantom{....}|\\phantom{....}|\\\\\n\\ce{H}\\phantom{...}\\ce{H}\\phantom{...}\\ce{H}\\phantom{...}\\ce{H}\\\\\\end{array}\\]\nn-Butane (C4H10)\n\nIsobutane (C4H10)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Following Term with Example.Covalent Bond",
+    "answer": "Covalent bond\nCovalent bond is a chemical bond that involves the sharing of an electron pairs between atoms. These electron pairs are known as shared pairs or bonding pairs. It is also known as molecular bond. For example: Molecules that have covalent linkages are hydrogen, nitrogen, chlorine, water, and ammonia (H2, N2, Cl2, H2O, NH3).\n\nA single line indicates a single bond between two atoms (i.e. involving one electron pair), double lines (=) indicate a double bond between two atoms (i.e. involving two electron pairs), and triple lines (&equiv;) represent a triple bond (C&equiv;O).",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Following Term with Example.Hetero Atom in a Carbon Compound",
+    "answer": "Hetero atom is any atom which is not carbon or hydrogen. These are non-carbon, hydrogen atoms which replace carbon in the back bone of the molecular structure, usually found in heterocyclic compounds. Typical hetero atoms are nitrogen, oxygen, sulphur, phosphorus, chlorine, bromine and iodine.\nFor example: Oxygen is hetero atom in ethanol ( C2H5-O-H)\nSimilarly, Nitrogen is the hetero atom in Ethyl amine ( CH3-CH2-NH2) \nPyridine is a heterocyclic compound with hetero atom nitrogen, furan with hetero atom oxygen.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following term with an example. Functional group",
+    "answer": "Functional group: The functional group is defined as an atom or group of atoms joined in a specific manner, which gives the chemical properties of the organic compound and they are the centers for chemical reactivity. Compounds having a similar functional group have undergoes similar reactions.\n\nFor example:\n1. Alkane: The functional group presence in the alkane is \\[\\ce{-C-C -}\\]. The IUPAC group suffix of an alkane is &ndash; ane.\nExample: Methane CH4\n2. Alkene: The functional group presence in the alkene is \\[\\ce{- C = C -}\\] (double bond). The IUPAC group suffix of an alkene is &ndash; ene.\nExample: butene\n3. Alkynes: The functional group presence in the alkyne is \\[\\ce{- C &equiv; C -}\\] (triple bond). The IUPAC group suffix of an alkyne is &ndash; yne.\n4. Arenes: They contain a benzene ring as the functional group. \nExample: Benzene\n5. Halides: The functional group presence in halides is X(halogen).\nExample: Chloromethane\n6. Alcohols: The functional group, which is present in alcohol, is -OH. The IUPAC group suffix of alcohol is &ndash; ol.\nExample: Ethanol\n\\[\\begin{array}{cc}\n|\\phantom{..........}|\\phantom{....}\\\\\n\\ce{- C - OH - C - OH}\\\\\n|\\phantom{..........}|\\phantom{....}\n\\end{array}\\]\n7. Aldehydes: The functional group, which is present in an aldehyde, is \\[\\ce{- CHO}\\]. The IUPAC group suffix of an aldehyde is \\[\\ce{&ndash;al}\\].\nExample: Formaldehyde\n\\[\\begin{array}{cc}\n\\phantom{....}\\ce{O}\\\\\n|\\phantom{....}||\\phantom{.}\\\\\n\\ce{- C - C - H}\\\\\n|\\phantom{......}\n\\end{array}\\]\n8. Ketones: The functional group, which is present in a ketone is \\[\\ce{>C=O}\\]. The IUPAC group suffix of a ketone is &ndash;one.\nExample: Acetone\n\\[\\begin{array}{cc}\n\\ce{O}\\\\\n|\\phantom{....}||\\phantom{....}|\\\\\n\\ce{- C - C - C -}\\\\\n|\\phantom{.........}|\n\\end{array}\\]\n9. Carboxylic acid: The functional group present in a carboxylic acid is \\[\\ce{- COOH}\\]. The IUPAC group suffix of a carboxylic acid is &ndash; oic acid.\nExample: Acetic acid\n\\[\\begin{array}{cc}\n\\phantom{..}\\ce{O}\\\\\n|\\phantom{....}||\\phantom{...}\\\\\n\\ce{- C - C - OH}\\\\\n|\\phantom{........}\n\\end{array}\\]\n10. Amine: The functional groups present in an amine are \\[\\ce{- NH2 > NH > N -}\\] The IUPAC group prefix of an amine is amino &ndash; or the suffix is &ndash;amine.\nExample: Methylamine\n\\[\\begin{array}{cc}\n|\\phantom{....}\\\\\n\\ce{- C - \\overset{\\bullet\\bullet}{N} -}\\\\\n|\\phantom{....}|\\end{array}\\]\n11. Ester: The functional group present in an ester is \\[\\ce{-COOR}\\] .\nThe IUPAC group suffix of an ester is &ndash;ate.\nExample: Ethyl acetate\n\\[\\begin{array}{cc}\n\\phantom{.}|\\phantom{........}|\\phantom{.......}|\\phantom{........}|\\\\\n\\ce{- C - O - C -- C - O - C -}\\\\\n\\phantom{.}|\\phantom{........}|\\phantom{.......}|\\phantom{........}|\\\\\\end{array}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Following Term with Example.Alkane",
+    "answer": "lkane: Alkane is a saturated hydrocarbon. It is formed, when there is sharing of one electron pair between carbon atoms in a compound. The general formula for alkane is CNH2N+2, where N is equal to no of carbon atom in a compound.\nFor example:\n\nC2H6\nEthane\n\nC3H8\npropane\n\nC4H10\nbutane\n\nC5H12\npentane\n\nC6H14\nhexane\n\nC7H16\nheptane\n\nC8H18\noctane\n\nC9H20\nnonane\n\nC10H22\ndecane\n\nC11H24\nundecane",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Following Term with Example.Unsaturated Hydrocarbon",
+    "answer": "Unsaturated hydrocarbon: An unsaturated hydrocarbon is a hydrocarbon containing at least one double or triple bond.\nFor example:\nAlkenes - These unsaturated hydrocarbons are molecules that contain at least one carbon-to-carbon double bond. With the chemical formula consisting of CnH2n. The simplest alkene is ethylene.\nAlkynes - These unsaturated hydrocarbons are molecules that contain at least one carbon-to-carbon triple bond. Acetylenes are common examples of alkynes.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following term with example. Homopolymer",
+    "answer": "homopolymer is a polymer formed from same type of monomer units.\nFor examples: Polyvinylchloride (PVC), Polyethylene, Polystyrene are homopolymer.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Explain the Following Term with Example.Monomer",
+    "answer": "Monomer: A monomer is a molecule that forms the basic unit for polymers. They may be considered as building blocks from which proteins are made. Monomers may bind to other monomer unit to form a repeating chain molecule. Monomers may be either natural or synthetic in origin.\nFor example: Ethylene, vinyl chloride, styrene etc.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following term with example. Reduction",
+    "answer": "chemical reaction in which a substance gains hydrogen or loses oxygen is called a reduction reaction.\nE.g. In the following reaction, ethylene (ethene) is reduced to ethane.\n\\[\\ce{\\underset{\\text{Ethylene}}{H2C = CH2} ->[H2][Pt/Ni] \\underset{\\text{Ethane}}{CH3CH3}}\\]",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following term with an example. Oxidant",
+    "answer": "The substances which can give oxygen to other substance are called oxidants or oxidizing agents.\nE.g. Potassium permanganate (KMnO4) and potassium dichraomate (K2Cr2O7) in acidic or alkaline medium are commonly used oxidants.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Write the Iupac Name of the Following Structural Formulae. Ch3-ch2-ch2-ch3",
+    "answer": "CH3-CH2-CH2-CH3 = Butane",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Physics",
+    "chapter": "Science and Technology Part 1 [English] Standard 10 Carbon Compounds",
+    "questionNumber": 19,
+    "isFree": true
+  }
+]

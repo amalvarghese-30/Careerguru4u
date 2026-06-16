@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Which type of mirror is used in the following? Street lights",
+    "answer": "Convex mirror",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Which type of mirror is used in the following? Head lamps of a car",
+    "answer": "Concave mirror",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "An object of height 7 cm is kept at a distance of 25 cm in front of a concave mirror. The focal length of the mirror is 15 cm. At what distance from the mirror should",
+    "answer": "Given Data:\n\nObject height (ho) = 7 cm\nObject distance (u) = −25 cm (since the object is in front of the concave mirror, it is taken as negative)\nFocal length (f) = −15 cm (concave mirror has a negative focal length)\n\nStep 1: Find the Image Distance v\n1/f = 1/v + 1/u\n1/v = 1/f - 1/u\n1/v = 1/-15 - 1/-25\n1/v = 1/-15 + 1/25\n1/v = (-5+3)/75 = (-2)/75\nv = −37.5 cm\nStep 2: Find the Size of the Image\nUsing the magnification formula:\nm = -v/u\nm = -(-37.5)/-25\n= −1.5\nNow, calculating the image height:\nhimage​ = m × hobject​\nhimage​ = −1.5 × 7\n= −10.5 cm\nStep 3: Nature of the Image\n\nSince v is negative, the image is real and inverted.\nSince magnification ∣m∣ = 1.5 is greater than 1, the image is magnified.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "A convex mirror has a focal length of 18 cm. The image of an object kept in front of the mirror is half the height of the object. What is the distance of the object from the mirror?",
+    "answer": "Given:\nFocal length (f) = 18 cm\nMagnifiction (M) = (\"Height of the image\" (\"h\"₂))/(\"Height of the object\" (\"h\"₁))\n= 1/2\nFind: Object distance (u)\nFormula:\n\nM = (\"h\"₂)/(\"h\"₁) = -\"v\"/\"u\"\n1/\"f\" = 1/\"v\" + 1/\"u\"\n\nCalculations:\nAccording to formula (i),\n1/2 = -\"v\"/\"u\"\n∴ v = -\"u\"/2\nAccording to formula (ii),\n1/\"f\" = 1/\"v\" + 1/\"u\" = (\"u\" + \"v\")/(\"uv\")\n∴ f = (\"uv\")/ (\"u\" + \"v\")\nNow, v = -\"u\"/2\n∴ f = (\"u\"((-\"u\")/2))/(\"u\" + ((-\"u\")/2))\n∴ 18 = ((-\"u\"²)/2)/((2\"u\" - \"u\")/2) = (-\"u\"²)/\"u\"\n∴ u = −18 cm\nA negative sign indicates that the object is placed to the left of the mirror.\nHence, the distance of the object from the mirror is 18 cm.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "A 10 cm long stick is kept in front of a concave mirror having a focal length of 10 cm in such a way that the end of the stick closest to the pole is at a distance of 20 cm.",
+    "answer": "Given:\nLength of stick = 10 cm\nDistance of nearer end from mirror = 20 cm\nSo, distance of farther end = 20 + 10 = 30 cm\nFocal length of concave mirror = 10 cm\nUse the mirror formula:\n1/f = 1/v + 1/u\nStep 1: Image of the nearest end (u1 = 20 cm)\n1/10 = 1/v₁ + 1/20\n1/v₁ =1/10 - 1/20 = 1/20\nv1 ​= 20 cm\nStep 2: Image of the farthest end (u2 = 30 cm)\n1/10 = 1/v₂ + 1/30\n1/v₂ = 1/10 - 1/30 = 2/30 = 1/15\nv2​ = 15 cm\nStep 3: Length of the image\nThe two image points form at 15 cm and 20 cm from the mirror.\nImage length = ∣20 − 15∣ = 5 cm\nThe length of the image is 5 cm.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Three mirrors are created from a single sphere. Which of the following - pole, centre of curvature, radius of curvature, principal axis - will be common to them and which will not be common?",
+    "answer": "Let us name the mirrors M1, M2 and M3 as shown below.\n\nFrom the figure, we see that\n\npole (P) is not common.\ncentre of curvature (C) is common.\nprincipal axis (PA) is not common.\nradius of curvature (R) is common. The radius of curvature is the radius of the sphere. In the given figure, the length CP is the same for all mirrors.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Reflection of Light",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Explain by giving a scientific reason. The roof of a movie theatre and a conference hall is curved.",
+    "answer": "Ceiling of a movie theatre and conference hall is curved to avoid undesirable reverberation. Otherwise, pitch or music will not be heard distinctly.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Study of Sound",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Explain by giving a scientific reason. The intensity of reverberation is higher in a closed and empty house.",
+    "answer": "In an empty house, there are no sound absorbers present such as furniture, curtains etc. Also, if the room is closed, the sound cannot escape the room. Thus, the sound goes through multiple reflections from the rigid walls of a closed and empty room without the reflections of the sound being absorbed. Hence, the intensity of reflections does not fade which would have faded if the room was not empty (has sound absorbers). Due to this, the intensity of reverberation is higher in a closed and empty room.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Study of Sound",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Explain by giving a scientific reason. We cannot hear the echo produced in a classroom.",
+    "answer": "n echo is a sound produced when the original sound is reflected by the walls of a given room. For instance, in a small room If there are hard walls there will be an echo of sound bouncing off the wall but because the sound bouncing is so close to the original, it is harder to detect the echo produced.\nA room which is having a dimension greater than 17.2 m will produce an echo in that room.\nThe dimensions of a classroom usually do not exceed 17.2 m, so echo is not produced in a classroom. So, in the case of a classroom, no echo is produced in a classroom.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Study of Sound",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. What is an echo?",
+    "answer": "n echo is the reflection of sound waves off a surface, such as a wall, mountain, or building, that returns to the listener after a delay. It occurs when the reflected sound reaches the ear after at least 0.1 seconds, allowing the listener to distinguish it from the original sound. Echoes are commonly experienced in large, empty spaces or near hard, smooth surfaces.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Study of Sound",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. What factors are important to get a distinct echo?",
+    "answer": "mbient temperature and the distance between the sound source and the reflecting surface are two factors that are important in the formation of echoes.\nThe speed of sound in air at 22°C is 344 m/s. Our brain retains a sound for 0.1 seconds, so only if the sound reaches the barrier and reaches the listener's ears after more than 0.1 seconds will we hear it as a separate sound.\nDistance = Speed × Time \n= 344 m/sec × 0.1 sec \n= 34.4 m \nThus, the distance from the source of the sound to the obstacle and back to the source is the distance that the sound must travel at least 34.4 m.\nSo the minimum distance from the sound source to the obstacle should be half of the above distance i.e. 17.2 meters to hear a clear echo.\nThese distances are different at different temperatures.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Study of Sound",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. Study the construction of the Golghumat at Vijapur and discuss the reasons for the multiple echoes produced there.",
+    "answer": "In Vijaypur, Karnataka, there is an ancient site called Golghumat. The inside of its big circle is smooth and round, with a cap on top of it. Since the structure is circular, sound waves that start at one point are mirrored many times before going back to the same point, where they are heard more than once.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Study of Sound",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. What should be the dimensions and the shape of classrooms so that no echo can be produced there?",
+    "answer": "mbient temperature and the distance between the source and the reflecting surface are important factors in the generation of echoes. A distance of at least 17.2 m between the source and the reflecting surface is required for a clear echo to be heard at 22°C.\nThe classroom must be designed in such a way that the distance between two walls is less than 17.2 meters to avoid the formation of echoes.\nAlso, the ceiling should be curved so that the reflection of sound waves is uniform throughout the room.\nClassrooms are generally rectangular in design to avoid echo generation.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Study of Sound",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Where and why are sound-absorbing materials used?",
+    "answer": "Sound absorbing materials are used in concert halls or auditoriums to reduce high-intensity reverberation.\nThe ceiling or walls of the auditorium are covered with sound absorbing materials like thermocol, fiber board, rough plaster.\nThe seats are also made of sound-absorbing material, which reduces additional reverberation.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Study of Sound",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "The speed of sound in air at 0°C is 332 m/s. If it increases at the rate of 0.6 m/s per degree, what will be the temperature when the velocity has increased to 344 m/s?",
+    "answer": "Let the temperature at which the velocity of air becomes 344 m/s be T°C.\nThe increase in velocity of sound in air from 0°C to T°C = 344 - 332 = 12 m/s\nGiven,\nThe velocity of sound in air increases by 0.6 m/s for a 1°C rise in temperature.\nTherefore, for a 1 m/s increase in the velocity of sound in air, the temperature should rise by (1/0.6) ᶜⁱʳᶜC.\nFor a 12 m/s increase in the velocity of sound in air, the temperature should rise by = (12/0.6) ᶜⁱʳᶜ\"C\"\n= (12 xx 10)/(0.6 xx 10)\n= 120/6\n= 20ᶜⁱʳᶜ \"C\"\nThus the speed of sound at 20°C will be 344 m/s.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Study of Sound",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Nita heard the sound of lightning after 4 seconds of seeing it. What was the distance of the lightning from her? (The velocity of sound in air is 340 m/s.)",
+    "answer": "Given:\n\nSpeed of sound in air (v) = 340 m/s,\nTime (T) = 4 second\n\nFind: Distance (λ)\nFormula: v = lambda/\"T\"\nCalculations:\nAccording to formula,\n340 = lambda/4\nλ = 340 × 4\nλ = 1360 m\nThe distance of lightning flash from Nita will be 1360 m.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Study of Sound",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Sunil is standing between two walls. The wall closest to him is at a distance of 360 m. If he shouts, he hears the first echo after 4 s and another after another 2 seconds.",
+    "answer": "Given - a distance of the nearest wall from Sunil = 660 m\nTime after which Sunil hears first echo, (t1) = (4 sec)/(2 sec) = 2 s\nTime after which Sunil hears second echo (t2) = (6 sec)/(2 sec) = 3 s\nVelocity = \"distance\"/\"time\"\nLet d1 be the distance of closest wall.\nLet d2 be the distance of the other closest wall.\nV = \"d\"₁/\"t\"₁ = 660/2 = 330 m/s\nVelocity = 330 m/s\nVelocity = \"d\"₂/\"t\"₂\n330 = \"d\"₂/3\n330 × 3 = \"d\"₂\n\"d\"₂ = 990\nDistance between the two walls -\nd1 + d2 = 660 + 990 = 1650 m\nDistance between the two walls - 1650 m",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Study of Sound",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Hydrogen gas is filled in two identical bottles, A and B, at the same temperature. The mass of hydrogen in the two bottles is 12 gm and 48 gm respectively. In which bottle will sound travel faster?",
+    "answer": "Mass of hydrogen in bottle A = w1 = 12gm\nMass of hydrogen in bottle B = w2 = 48gm\n∴ Density &prop; mass\n\"P\"₁/\"P\"₂=\"w\"₁/\"w\"₂ and for velocity \"v\" &prop; 1/√(&rho;)&prop;1/√\"w\" \n∴ \"v\"₁/\"v\"₂ = √(\"P\"₂/\"P\"₁) = √(\"w\"₂/\"w\"₁)= √((48)/(12)) = √(4/1) = 2/1\nHence, Sound will travel faster in bottle A and the speed will be twice as that of bottle B.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Study of Sound",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Helium gas is filled in two identical bottles A and B. The mass of the gas in the two bottles is 10 gm and 40 gm respectively. If the speed of sound is the same in both bottles, what conclusions",
+    "answer": "Let the gas filled bottles be A and B respectively.\nMass of the gas in bottle A = 10 g\nMass of gas in bottle B = 40 g\nThe velocity of sound in gas is related to the density of gas as\nv &prop; 1/√(&rho;) ...... (i)\nand the velocity of sound in a gas is related to the temperature of the gas as \nv &prop; √(T) ...... (ii)\nCombining (i) and (ii), we get\nv &prop; √(T)/√(&rho;) \nThe bottles are identical, which means the volumes of the gases are equal. Let the volume of the bottle be V. Let M1 and M2 be the masses of gases in bottles A and B, respectively and v1 and v2 be the velocity of the sound in the two bottles, respectively. Also, let T1 and T2 be their respective temperatures. Therefore,\nv₁/v₂ = (√(M₂/V) √(T₁))/(√(M₁/V) √(T₂))\nNow, given that, \"v\"₁ = \"v\"₂\n&rArr; √(M₁)√(T₂) = √(M₂)√(T₁)\nor , T₂ = (M₂T₁)/M₁\nGiven , M₁ = 10 \"g\" , M₂ = 40 \"g\"\n= T₂ = (40T₁)/10 = 4T₁\nThus, it can be concluded that the temperature of bottle B is 4 times the temperature of A.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Study of Sound",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Why are carbon and its compounds used as fuels?",
+    "answer": "The following explanations explain why fuels made of carbon and its compounds are used:\n\nBecause of their high hydrogen and carbon content, they provide combustion with a significant amount of heat.\nFuel-grade carbon compounds are straightforward to work with and have high calorific values and ideal ignition temperatures.\nThere is control over their combustion. Carbon and its components are therefore employed as fuels.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "In which compound forms does carbon occur?",
+    "answer": "Carbon occurs in the following compounds:\n\nHydrocarbons: These are organic compounds which are made up of carbon and hydrogen.\nCO2: Carbon also exists as carbon dioxide and occurs in the air in a free state. it is also found as a salt in chalk and limestone.\nFossil fuel: coal, petroleum, natural gas.\nCarbonaceous nutrients: carbohydrates, proteins, fats.\nNatural fibres: cotton, wool, silk.\nCH4: Carbon also exists as methane.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Write the uses of diamond.",
+    "answer": "The uses of diamonds are as follows:\n\nDiamonds are used in jewellery because of their bright shine and attractive appearance.\nDue to their hardness, diamonds are used in cutting glass, drilling rocks, and shaping metals.\nDiamond powder (diamond dust) is used for polishing other diamonds and hard surfaces.\nDiamonds are used in making special windows in satellites to protect instruments from radiation.\nVery fine diamond blades are used in delicate eye-surgery instruments.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Explain the difference: Diamond and graphite",
+    "answer": "Diamond",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Explain the difference. Crystalline and non-crystalline forms of carbon.",
+    "answer": "Crystalline carbon\nNon-crystalline carbon\n\nA crystalline form has a regular and definite arrangement of atoms.\nA Non-crystalline form does not have the regular arrangement of atoms.\n\nTheir melting point and boiling point are high and specific.\nIt melts at very high temperatures.\n\nCrystalline carbon is a very hard substance.\nNon-crystalline carbon is brittle.\n\nA crystalline form has a definite geometrical shape, sharp edges and plane surfaces.\nThey are amorphous, hence, they do not have definite geometrical shape.\n\nDiamond, graphite and fullerene are different crystalline forms of carbon.\nCoal, charcoal and coke are different non-crystalline/amorphous forms of carbon.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reasons. Graphite is a conductor of electricity.",
+    "answer": "Graphite is a good conductor of electricity because there are free electrons present between its layers. These free electrons move continuously within the entire layer and thus lead to the conduction of electricity. Hence, graphite is a conductor of electricity.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reasons. Graphite is not used in ornaments.",
+    "answer": "The desired characteristic of the material from which jewellery is made is the transparency of the material and the reflection of light from it, But these qualities are not present in graphite.\nMoreover, graphite is soft, greyish black, brittle and opaque and not transparent, hard and reflective like a diamond. Hence, Graphite is not used in ornaments.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reasons. Limewater turns milky when CO2 is passed through it.",
+    "answer": "When carbon dioxide and CO2 gas are passed through lime water, it turns milky due to the formation of calcium carbonate.\n\\[\\ce{Ca(OH)2_{(aq)} + CO2_{(g)} -> CaCO3_{(s)} + H2O_{(l)}}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Write scientific reasons. Biogas is an eco-friendly fuel.",
+    "answer": "Biogas is an eco-friendly fuel because it helps to reduce greenhouse gas emissions and our dependency on fossil fuels. It is produced from the decomposition of organic matter, thus is an effective way of disposal of organic waste.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following. Diamond, graphite and fullerenes are crystalline forms of carbon.",
+    "answer": "crystalline form of carbon has a regular and definite arrangement of atoms.\nIn a diamond, each carbon atom is linked to four other carbon atoms by covalent bonds. Therefore, a diamond has a tetragonal three-dimensional structure. Hence a regular and definite structure of atoms is found in diamond.\nIn graphite, each carbon atom is bonded to three other carbon atoms in such a way that a hexagonal layered structure is formed. Thus, the regular arrangement of atoms in graphite is in layers.\nIn fullerene, C60 atoms are joined to each other in pentagonal and hexagonal arrangements. As a result, the structure of fullerene is like a football. The molecules of fullerene are found in the form of buckyballs and buckytubes.\nSince diamond, graphite and fullerene have definite shapes, sharp edges and plane surfaces, they are in crystalline form. Hence, Diamond, graphite and fullerenes are crystalline forms of carbon.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following. Methane is called marsh gas.",
+    "answer": "Methane is called marsh gas because it is found at the surface of marshy places. A type of wetland is an area of land where water covers the ground for long periods of time, which are usually treeless and is dominated by grasses and herbaceous plants.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following. Petrol, diesel, and coal are fossil fuels.",
+    "answer": "Fossil fuels are formed from plants, animals and other organisms that have been buried under the ground millions of years ago.\nResidues buried in the Earth's interior are weathered by temperature and crustal pressure to form coal, mineral oil (petrol, diesel) and natural gas.\nAs these substances release energy after combustion, they are used as fuel.\nTherefore, petrol, diesel, coal are fossil fuels.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following. Uses of various allotropes of carbon.",
+    "answer": "Diamond:\n\nused in glass cutting and rock drilling machines.\nused in ornaments.\ndiamond knives are used in eye surgery.\ndiamond dust is used for polishing other diamonds.\nused to make windows give protection from radiation in space and in artificial satellites.\n\nGraphite:\n\nused for making lubricants.\nused for making carbon electrodes.\nused in pencils for writing.\nused in paints and polish.\nused in arc lamps which give a very bright light.\n\nFullerene:\n\nFullerenes are used as insulators.\nFullerenes are used as a catalyst in water purification.\nAt a certain temperature fullerene exhibits superconductivity.\n\nCoal:\n\nCoal is used as fuel in factories and homes.\nCoal is used to obtain coke, coal gas and coal tar.\nCoal is used in thermal power plants for generation of electricity.\nCharcoal is used in the purification of water and organic material.\n\nCoke:\n\nUsed as domestic fuel.\nCoke is used as a reducing agent.\nCoke is used in the production of aeriform fuel such as water gas (CO + H2) and producer gas (CO + H2 + CO2 + N2).",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following. Use of CO2 in fire extinguisher.",
+    "answer": "Fuel, oxygen, and heat are the three components that cause fire. Fire will cease if any one of the three components is eliminated. One element, oxygen, is eliminated by carbon dioxide.\nBecause CO2 is heavier than oxygen, it blankets the fire. The fire is contained since there is no longer any contact between the fuel and oxygen. Consequently, fire extinguishers use CO2.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Explain the following. Practical uses of CO2.",
+    "answer": "The practical uses of CO2 are:\n\nIt is used for getting special effects of a mist in dramas and movies.\nIt is used to make aerated drinks.\nSolid carbon dioxide is used in cold storage and also to keep milk and milk products and frozen substances cool during transport.\nLiquid CO2 is used as a solvent in modern eco-friendly dry cleaning.\nCO2 obtained by chemical reaction or kept under pressure is used in fire extinguishers.\nPlants use CO2 in the air for photosynthesis.\nLiquid CO2 is used to remove caffeine from coffee.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Write two physical properties. Diamond",
+    "answer": "Physical properties of diamond:\n\nBrilliant and pure diamond is the hardest natural substance.\nDiamond is a bad conductor of electricity as it does not have free electrons.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Write two physical properties. Charcoal",
+    "answer": "Physical properties of charcoal:\n\nLight in weight, and black in colour, charcoal is an amorphous form of carbon.\nIt is a bad conductor of heat and electricity.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Write two physical properties which are given below. Fullerene",
+    "answer": "Physical properties of fullerene:\n\nThey exist in the form of buckyballs and buckytubes.\nThey are made up of 60 C atoms.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "What are the different types of coal?",
+    "answer": "Coal is a fossil fuel. It contains carbon, hydrogen and oxygen. It also contains nitrogen, phosphorus and sulphur. It occurs in the solid state.\nCoal is classified on the basis of its carbon content into:\n\nPeat: It has a high water content and less than 60% carbon content.\nLignite: Lignite is a transformed form of peat and has around 60 to 70% of carbon content.\nBituminous: It is the most commonly found variety of coal in India is bituminous and has a carbon content of 70-90%.\nAnthracite: It has a carbon content of more than 95% which makes it suitable for iron smelting.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "What are the uses of coal?",
+    "answer": "Coal is used as fuel in factories and homes.\nCoal is used to obtain coke, coal gas and coal tar.\nCoal is used in thermal power plants for the generation of electricity.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "How will you prove experimentally that graphite is a good conductor of electricity?",
+    "answer": "Objective: To prove that graphite is a conductor of electricity.\nMaterials: Pencil, conductive wire, battery/cell, small bulb.\nAction: Sharpen the pencil on both sides. Now, connect the two ends of the pencil with electrical wires. Connect one end of the wire to the cell/battery and the other end to the small bulb. Connect the other side of the bulb and the other side of the battery with another short wire. Start the current in the circuit and observe.\nDiagram:\n\nAn electric current flows through the graphite. \nObservation: An electric bulb in the circuit lights up.\nInference/Conclusion: This experiment proves that graphite in pencil is a good conductor of electricity.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Explain the properties of carbon.",
+    "answer": "Carbon exhibits allotropy. It exists in more than one form The chemical properties of these different forms are the same but their physical properties are different.\nCarbon allotropes have two forms: crystalline form and amorphous form.\n\nCrystalline form:\n\nA crystalline form has a regular and definite arrangement of atoms. \nThey have high melting points and boiling points.\nA crystalline form has a definite geometrical shape, sharp edges and plane surfaces.\nCarbon has three crystalline allotropes.\n\nDiamond\nGraphite\nFullerene\n\nNon-crystalline form: The arrangement of carbon atoms is irregular. Examples: Coal, Charcoal, Coke.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Classify carbon.",
+    "answer": "Carbon exists in two different forms i.e. allotropic and amorphous forms.\n\nCrystalline forms:\n\nDiamond: In diamond, each atom of carbon of the given crystal unit is surrounded by four other carbon atoms, which are joined by covalent bonds, such that they form a regular tetrahedron. The diamond crystal is a compact structure in which atoms of a single unit lie in different planes. Thus, the atoms cannot slip because of their different positions in different planes and hence, diamond is the hardest naturally occurring substance.\nGraphite: In graphite, atoms of a single crystal are arranged in a hexagonal ring in a single plane. The bonds between the carbon atoms of two single crystals in the parallel planes are weak. Thus, one plane can easily slide over another plane by applying pressure. This is why graphite is soft and can be used as a lubricant.\nFullerene: It is the third and the most recently discovered allotrope of carbon. Buckminsterfullerene is a cluster of sixty carbon atoms arranged in the form of a football. It is named after the American architect Buckminster Fuller, as it resembled the geodesic dome designed by him. Since it contains sixty carbon atoms, its chemical formula is C60.\n\nAmorphous/Non-crystalline forms:\n\nCoal: It is formed by decomposition of dead remains of plants when they got buried in the land owing to the high temperature and pressure conditions present there. Based on the content of carbon present, normally four types of coal deposits exist and these are as follows:\n\nPeat with less than 60% carbon content.\nLignite with 60 to 70% of carbon content.\nBituminous coal with 70 to 90% carbon.\nAnthracite is known as the pure form of coal. This coal is hard and contains about 95% of carbon.\n\nCharcoal: It is produced from the bones of animals, combustion of wood etc.\nCoke: The pure coal that remains when coal gas has been taken away from coal, is called coke. Coke is used in production of aeriform fuel such as water gas (CO + H2) and producer gas (CO + H2 + CO2 + N2).",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "How will you verify the properties of carbon dioxide?",
+    "answer": "Methods to verify the properties of carbon dioxide are:\n\nBy using limewater:\nStep 1: Take some limewater in a test tube.\nStep 2: Take some baking soda in another test tube and add lemon juice to it. Fit the bent tube over it.\nStep 3: Insert its other end into the lime water.\nObservations: We will observe that limewater turns milky as it comes in contact with the released gas in the form of effervescence. When limewater turns milky, it is confirmed that the effervescence released is of carbon dioxide gas.\nThe reaction taking place:\n\\[\\ce{Ca(OH)2 + CO2 -> CaCO3 + H2O }\\]\nSodium carbonate is formed when carbon dioxide is passed through an aqueous solution of sodium hydroxide.\nThe reaction taking place:\n\\[\\ce{2NaOH + CO2 -> Na2CO3 + H2O}\\]\nSodium bicarbonate is formed by passing CO2 through an aqueous solution of sodium carbonate.\nThe reaction taking place:\n\\[\\ce{Na2CO3 + H2O + CO2 -> 2NaHCO3}\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Carbon: An important element",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Match the pairs. Group A 1. Saturated brine 2. Fused salt 3. CaOCl2 4. NaHCO3 Group B a. sodium metal freed b. basic salt c. crystallization of salt d. oxidation of colour",
+    "answer": "Group A\nGroup B \n\n1. Saturated brine \nc. crystallization of salt \n\n2. Fused salt\na. sodium metal freed\n\n3. CaOCl2 \nd. oxidation of colour\n\n4. NaHCO3 \nb. basic salt",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "What is meant by radioactivity?",
+    "answer": "Elements with a high atomic number such as uranium, thorium, radium have a property of spontaneously emitting invisible, highly penetrating and high energy radiation. This property is called radioactivity. The nucleus of radioactive elements is unstable.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "When is said to be the nucleus unstable?",
+    "answer": "The nucleus is said to be unstable when radiations (alpha, beta, gamma rays) are emitted by the nucleus.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Which diseases are caused by artificial food colours?",
+    "answer": "Tetrazene, sunset yellow is an artificial food colours that is used extensively. Over-consumption of artificial food colours can be detrimental to health. Food colours that are added to pickles, jam, and sauce may contain small quantities of lead and mercury, which can be harmful to those who consume these products on a regular basis. The Consumption of food with artificial food colours can result in the development of diseases like ADHD (Attention Deficit Hyperactivity Disorder) which can affect children.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Where in the industrial field is radioactivity used?",
+    "answer": "Radioactivity has various industrial applications:",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Write down properties of teflon.",
+    "answer": "1Show Solution\nIt is inert to the atmosphere and chemical substances.\nBoth water and oil do not stick to the Teflon-coated articles.\nIt has a high melting point, i.e. 327°C, which means there is no effect of high temperatures on it.\nIt is easier to clean Teflon-coated articles.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "What type of colours will you use to celebrate ecofriendly Rang Panchami? Why?",
+    "answer": "We should use natural colours for celebrating an eco-friendly Rang Panchami. These natural colours can be made from natural ingredients like beetroot, flowers of the flame of the forest, spinach, flame tree (Gulmohar), etc. These are natural colours that do not pose any threat to our health or the environment. The synthetic/artificial colours which we use are a serious threat to our health as they can lead to problems like blindness, skin cancer, asthma, itching of the skin, permanent blocking of sweat pores, etc.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Why has the use of methods like Teflon coating become more common?",
+    "answer": "Teflon is a substance that is inert to chemicals, stable at higher temperatures, easy to clean, and non-stick. All these properties make it an ideal substance for coating. The use of Teflon coating for cooking utensils and industrial equipment has become more common to avoid sticking.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific explanation. Bleaching powder has the odour of chlorine.",
+    "answer": "Chlorine is the main ingredient in bleaching powder. When exposed to air, bleaching powder reacts with carbon dioxide in the air to produce calcium carbonate and chlorine. Thus, it smells of chlorine.\nCaOCl2 + CO2 -> CaCO3 + Cl2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific explanation. The hard water of a well becomes soft on adding washing soda to it.",
+    "answer": "The hardness of hard water is due to the presence of chlorides and sulphates of calcium and magnesium. When washing soda (Na2CO3. 10H2O) is added to the hard water, Na2CO3 reacts with the chlorides and sulphates of calcium and magnesium and converts them to insoluble carbonate salts. This changes the hard water into soft water and thus makes it suitable for use.\n\\[\\ce{MgCl2_{(aq)} + Na2CO3_{(s)} → MgCO3_{(s)} + 2NaCl_{(s)} }\\]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific explanation. Soap forms a precipitate in hard water.",
+    "answer": "When soap is mixed with hard water calcium and magnesium salts of fatty acids are formed. These being water insoluble they form a precipitate and that is why lather is not formed.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific explanation. The particles of powder are given an electric charge while spraying them to form the powder coating.",
+    "answer": "Powder coating is a method of applying a layer harder than paint on the surface of an iron object to prevent rusting. In this method, a polymer resin, a pigment and some other ingredients are melted mixed, cooled and ground into a uniform powder. This powder is sprayed on the polished metal surface by electrostatic spray deposition (ESD). In this method, the particles of the powder are given an electrostatic charge due to which a uniform layer of the powder sticks to the metal surface. Then the object is heated in the oven along with the coating. A chemical reaction occurs in the layer, resulting in the formation of long cross-linked polymeric chains.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific explanation. The aluminium article is used as an anode in the anodizing process.",
+    "answer": "In the anodizing process, the aluminium object is immersed in a dilute acid with electrolytic reduction as a positive electrode. When the current is started, hydrogen gas is released near the negative terminal and oxygen gas is released near the positive terminal. A layer of hydrated aluminium oxide is deposited on the aluminium substrate by reacting with oxygen. In this way, anodizing pans, cookers and cooking utensils can be produced.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific explanation. When the radiation coming out from a certain radioactive substance is passed through an electric field, marks are found at three places on the photographic plate",
+    "answer": "When the radiation coming out from a certain radioactive substance is passed through an electric field, marks are found at three places on the photographic plate placed in its path. These three marks represent the three kinds of rays which are emitted by the radioactive substances. One type of radiation deviated slightly towards the negatively charged plate and was called alpha rays. The second type of radiation deviated substantially towards the positively charged plate and was called the beta rays. The third type of radiation did not deviate at all and was called the gamma rays.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific explanation. A certain type of ceramic tile are fixed on the outer layer of a space shuttle.",
+    "answer": "The specific ceramic tiles used on the outer surface of the Space Shuttle are some Oxides like Alumina (Al2O3), zirconia (ZrO2) Silica (SiO2) and some other compounds like silicon carbide (SiC), boron carbide (B4C) are used instead of clay for making advanced ceramic. This ceramic requires a temperature of 1600 to 1800 °C and an oxygen free atmosphere for firing. The tiles made from these are resistant to all types of gases, water, and acids and are durable in the long run. These tiles are very light and are used as superconductors during disasters.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Write about artificial food colours, the substances used in them and their harmful effects.",
+    "answer": "Food colours are often mixed with most of the available foodstuff in the market, such as sweets, soft drinks, cakes, ice creams, meat, spices etc. These food colours are present in the form of powders, gels and pastes. They are used in domestic as well as commercial products. These food colours can be natural as well as artificial in nature.\nTartrazine and sunset yellow are extensively used artificial food colours.\nWhile natural food colours are harmless and can be consumed without worry, artificial food colours, on the other hand, do have some adverse effects. Consuming these regularly is harmful to us as they contain small quantities of lead and mercury.\nExcessive consumption of foods with added artificial colours can cause diseases like ADHD (Attention Deficit Hyperactivity Disorder) in children.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "What is meant by the water of crystallization?",
+    "answer": "Water of crystallization is a fixed number of water molecules present in the crystal structure. It's called water of crystallization.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Give examples of salts with water of crystallization, and their uses.",
+    "answer": "lum (Potash alum - K2SO4.Al2(SO4)3.24H2O)\nBorax (Na2B4O7.10H2O)\nEpsom salt (Magnesium sulphate - MgSO4.7H2O)\nBarium chloride (BaCl2.2H2O)\nSodium sulphate (Glauber&rsquo;s salt Na2SO4.10H2O)\nBlue vitriol (CuSO4.5H2O)\n\nUses:\n\nAlum: Alum and burnt alum is used in medicines. In the paper industry, alum is used to give shine to the paper. Alum is used to stop bleeding from wound. Alum is used in the process of purification of water.\n\nBorax: Borax is used in the cosmetic industry to make lotions, shampoos and cold creams. It is used to remove the stain on clothes in a laundry. In the laboratory with the help of borax bead test, basic elements from the coloured salts are determined.\n\nEpsom salt: Epsom salt is used in the manufacture of fertilizers and also to enhance the green colour of plants and vegetables. It is used in the manufacture of purgative medicines. It is used as body scrub. It is added in bath water (salt bath) to relieve muscle pain.\nBarium chloride: It is used in the purification of brine solution. (saturated sodium chloride solution). It is used in the waste water management. It is used in the paper industry and also used in the dye industry, ceramics, oil purification and pesticides.\nSodium sulphate: It is used in the preparation of detergents. It is used to make paper pulp in paper industry and also used in the dye in the dye industry. It is used to make mild purgatives.\n\nBlue vitriol: It is used in the blood test to diagnose anaemia. Blue vitriol and slaked lime are used in the Bordeaux mixture, which is used as a fungicide on fruits.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Write briefly about the three methods of electrolysis of sodium chloride.",
+    "answer": "fter preparing a solution by mixing very low sodium chloride (salt) in water, when electric current is passed, this solution gets decomposed and hydrogen gas is produced near the negative terminal and oxygen gas near the positive terminal.\nChlorine gas is liberated when electricity is passed through a saturated aqueous solution of sodium chloride (brine &ndash; 10% NaCl).\nOn electrolysis of molten sodium chloride, chlorine gas is released near the positive side and liquid sodium metal is released near the negative side.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Write the use. Anodizing",
+    "answer": "It is used for iron surfaces to protect them from rusting.\nIt is used in the manufacturing of anodized utensils like griddles and cookers.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Write the use. Powder coating",
+    "answer": "Powder coating is used in household appliances and windows. It is durable and beautiful in appearance.\nIt is used in drums, hardware, automobile and bicycle parts.\nMost of the metal products designed to be used outdoors are finished using the powder coating method.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Write the uses of Radioactive substances.",
+    "answer": "Medical Applications:\n\nCancer Treatment: Radioactive isotopes such as cobalt-60 and iodine-131 are used to treat cancer through radiation.\nDiagnostic Imaging: Medical imaging uses radioisotopes like Technetium-99m to identify conditions by tracing organ function. \n\nIndustrial applications: \n\nMaterial Testing: Non-destructive testing (NDT) uses radioactive sources to test materials and buildings for defects.\nThickness Gauges: Radioisotopes are used in manufacturing to measure the thickness of materials such as paper, plastic, and metal.\n\nEnergy Production:\n\nNuclear Power: Uranium-235 and Plutonium-239 are used as fuel in nuclear reactors to produce power.\n\nAgriculture:\n\nFood Irradiation: Radioactive materials keep food safe by destroying bacteria, bugs, and other pathogens.\nTracer Studies: Radioisotopes investigate nitrogen uptake in plants and optimize fertilizer use.\n\nScientific Research:\n\nRadiocarbon dating: It uses carbon-14 to calculate the age of fossils and archaeological objects.\nTracer Techniques: Methods used in research to track the transport of components in biochemical and environmental processes.\n\nSpace exploration:\n\nPower Sources: Radioisotope thermoelectric generators (RTGs) supply energy for spacecraft and probes when solar power is unavailable.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Write the uses of Ceramic.",
+    "answer": "1Show Solution\nThey are used in making roofing tiles, construction bricks, pottery, terracotta etc.\nSpecial types of ceramics are used in the outer surfaces of ships and blades of jet engines.\nThey are also used on the outer surfaces of space shuttles.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Write the harmful effects. Artificial dye",
+    "answer": "Dyeing hair can have adverse effects like hair fall, damage to hair texture, burning of skin, adverse effects on eyes, etc.\nLipstick contains a dye named carmine. It does not affect lips but causes stomach disorders.\nExcessive use of plants for making natural dyes results in deterioration of the environment.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Write the harmful effects. Artificial food colour",
+    "answer": "Food colours added to pickles, jam and sauce contain small quantities of lead and mercury. These can be harmful for those who consume these products on a regular basis.\nDiseases like ADHD (Attention Deficit Hyperactivity Disorder) can affect children due to excessive consumption of foods with added food colours.\nTetrazene, sunset yellow are artificial food colours used extensively. However, over-consumption of artificial food colours can be detrimental to health.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Write the harmful effects. Radioactive substances",
+    "answer": "The central nervous system is affected by radioactive radiations.\nHereditary defects are generated by bombardment of radiation on D.N.A in the body.\nRadioactive radiation can penetrate the skin, and causes diseases like skin cancer, leukemia.\nThe radiative pollutants created due to explosions enter the body through air and it is difficult to control them.\nThe radioactive pollutants released in the sea enter the bodies of fishes and through them enter the human body.\nThe radioactive paint on the watch can cause cancer.\nThe radioactive isotopes strontium-90 can enter the body through plants, fruits, flowers, cereals, milk, etc. and cause diseases like bone cancer, leukemia.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Write the harmful effects. Deodorant",
+    "answer": "luminium &ndash; Zirconium compounds are the most harmful chemicals in the deodorant. Disorders like headaches, asthma, respiratory disorders, and heart disease are likely to occur without our knowledge.\nThere is a possibility of various skin disorders and also skin cancer due to the aluminium chlorohydrates.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Write the chemical formula. Bleaching powder",
+    "answer": "CaOCl2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Write the chemical formula. common salt",
+    "answer": "NaCl",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Write the chemical formula. Baking soda",
+    "answer": "NaHCO3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "Write the chemical formula. Washing soda",
+    "answer": "Na2CO3.10H2O",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "Explain what you see in the following picture.",
+    "answer": "Powder coating is a method of applying a layer harder than paint on the surface of an iron object to prevent rusting. In this method, a polymer resin, a pigment and some other ingredients are melt mixed, cooled and ground into a uniform powder. This powder is sprayed on the polished metal surface by electrostatic spray deposition (ESD). In this method, the particles of the powder are given an electrostatic charge due to which a uniform layer of the powder sticks to the metal surface. Then the object is heated in the oven along with the coating. A chemical reaction occurs in the layer, resulting in the formation of long cross-linked polymeric chains. This powder coating is highly durable, hard and attractive. Powder coating can be done on plastic and medium density fibre (MDF) board in day to day use as well.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Substances in Common Use",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "Match the Pairs and Explain. ‘A’  - 1. Growth of pollen tube towards ovule, 2. Growth of shoot system, 3. Growth of root system, 4. Growth towards water",
+    "answer": "&lsquo;A&rsquo; \nAnswers\nExplanation\n\n1. Growth of pollen tube towards ovule \nb. Chemotropic movement\n\nChemotropism refers to the growth of plants navigated by chemical stimulus from outside of the plant.\n\n2. Growth of shoot system \nc. Phototropic movement\n\nPhototropism refers to the growth of a plant in response to a light stimulus.\n\n3. Growth of root system \na. Gravitropic movement\n\nGravitropism refers to the growth of a plant in response to gravity pulling on it.\n\n 4. Growth towards water \ne. Hydrotropic movement\n\nHydrotropism refers to the growth of plants in response to the direction determined by a stimulus or gradient in water concentration.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Complete the paragraph. The milk was on the stove. Rasika was engrossed in watching television. She smelled something burning. She ran towards the kitchen. The milk was boiling over.",
+    "answer": "The milk was on the stove. Rasika was engrossed in watching television. She smelled something burning. She ran towards the kitchen. The milk was boiling over. She held the vessel with her bare hands but, screaming, she let it go at once. This activity was controlled by nerve cells. Special ends of dendrites in these cells collected the information, from where it was transferred to the cell body and then towards the terminal end of the axon. The chemicals produced at the terminal end passed through the minute space i.e. synapse. In this way, impulses were conducted in the body and the process of reflex action was completed by conducting the impulses from nerve to muscle cells.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Write a note on: Root pressure",
+    "answer": "Root cells are in contact with water and minerals in the soil. Water and minerals enter the cells on the root surface due to differences in concentration. As a result, these cells become turgid. These turgid cells exert pressure on the adjacent cells. This is called &lsquo;root pressure&rsquo;. Under the effect of this pressure, water and minerals reach the xylem of the roots and to reduce this difference in concentration they are continuously pushed forward. As a result of this continuous movement, a water column is formed, which is continuously pushed ahead. This pressure is sufficient to lift the water up in shrubs, small plants and small trees.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Write a note on: Transpiration",
+    "answer": "Plants give out water in the form of vapour through the stomata on their leaves. Two cells called guard cells are present around the stomata. These cells control the opening and closing of the stomata. Transpiration occurs through these stomata. Water is released into the atmosphere by leaves through the process of evaporation. As a result, the water level in the epidermal layer of the leaf decreases. Water is brought up to the leaves through the xylem so as to compensate for the lost water. Transpiration helps in the absorption of water and minerals and distribution to all parts of the plant whereas root pressure performs the important role of pushing the water up during the night time.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Write a note on: Nerve cell",
+    "answer": "Special types of cells which conduct impulses from one place to another in the body are called neurons. Neurons are the structural and functional units of the nervous system. Nerve cells, the largest cells in the human body, may measure up to a few metres in length. Nerve cells have the ability to generate and conduct electrochemical impulses. All the information about our surroundings is collected by the ends or dendrites of the neuron. The chemical process begins at those ends and electric impulses are generated which are conducted from the dendrites to the cell body, from the cell body to the axon and from the axon to its terminal. These impulses are then to be transferred from this nerve cell to the next. The cells that support the nerve cells and help in their functioning are called neuroglia. Nerve cells and neuroglial cells together form the nerves.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Write a note on. Human brain",
+    "answer": "Human brain:\nThe human brain is the control center of the body, responsible for thinking, emotions, memory, and body functions. It is protected by the skull and is a part of the central nervous system (CNS) along with the spinal cord.\nMain Parts of the Human Brain:\n\nCerebrum: The largest part, responsible for thinking, memory, emotions, and voluntary actions.\nCerebellum: Controls balance, coordination, and muscle movements.\nBrainstem: Regulates breathing, heartbeat, and other involuntary functions.\n\nFunctions of the Brain:\n\nControls movement, speech, and decision-making.\nProcesses sensory information (vision, hearing, touch, smell, and taste).\nRegulates body temperature, hunger, and sleep.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Write a note on. Reflex action",
+    "answer": "n immediate and involuntary response given to a stimulus from the environment is called a reflex action.\nSometimes we react to an incident without any thinking on our part or control over the reaction. This is a response given to a certain stimulus from the surroundings.\nIn such situations, proper control and coordination are achieved even without the brain&rsquo;s intervention.\nThe path of reflex action is as follows: This is also known as the reflex arc. Sense organs Sensory neurons → Towards the spinal cord → Coordination neuron → Motor neuron Muscle or gland.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Name the hormones of the following endocrine gland and their function. Pituitary",
+    "answer": "Pituitary is an important endocrine gland. The hormones secreted from that gland are as follows:",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Name the hormones of the following endocrine gland and their function. Thyroid",
+    "answer": "Thyroxine and calcitonin are produced from this gland. Their functions are as follows:\n\nHormones\nFunctions\n\nThyroxine\nControls growth of body and metabolic activities\n\nCalcitonin\nControls calcium metabolism and calcium level in blood",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Name the hormones of the following endocrine gland and their function. Adrenal",
+    "answer": "Corticosteroid receptors are produced from the outer surface of the adrenal gland; At the same time, these two stimulants, adrenalin and noradrenaline, are produced from the internal part. Corticosteroids help balance Na and K and stimulate metabolism. It also plays an important role in the digestion of glucose. These two receptors, adrenalin and noradrenaline, control behavior during emergencies and emotional events. Stimulates the heart and its vascular systems and stimulates metabolism.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Name the hormone of the following endocrine gland and its function. Thymus",
+    "answer": "Thymus works with its hormone thymosin to control the cells that cause immunity.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Name the hormones of the following endocrine gland and their function. Testis",
+    "answer": "The testicular scripture is the genitals of men, which prepares the testseteron perpetrator. This circle changes the gender of children. When men are formed, their physical symptoms increase, such as beard, mustache, and having a hoarse voice. These changes are caused by this communicator.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Name the hormones of the following endocrine gland and their function. Ovary",
+    "answer": "The female gonads known as the ovaries generate the hormones progesterone and estrogen.\nThrough the development of secondary sexual characters, oestrogen turns a girl into a woman. Oestrogen causes the endometrium, the uterus' inner lining, to proliferate.\nThe other hormone, progesterone is known to stabilize pregnancy. It helps to maintain pregnancy by preparing the endometrium for the implantation of a fertilized ovum.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Draw and label the diagram. Human endocrine glands",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Draw and label the diagram. Human brain",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Draw and label the diagram. Nephron",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Draw and label the diagram. Nerve cell",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Draw and label the diagram. Human excretory system",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Explain chemical coordination in humans and give the names and functions of some hormones.",
+    "answer": "In the human body, chemical control occurs through stimulation, where stimulants are produced from endocrine glands, and chemicals are produced near the contact sites of nerve cells.\nEndocrine glands are separate from the duct, and their secretions mix directly with the blood. The receptors of these glands reach all the parts of the body through blood, which are located at certain places in the body.\nEndocrine glands work to control and coordinate with the nervous system, and they participate in controlling and coordinating various functions of the body, for which there is cooperation between these two organizations.\nWhen various activities begin, stimulants are secreted as per requirement. The amount and timing of secretion of the propellant is always regularly controlled.\nPituitary, pituitary gland, adrenal glands, taste buds, some cells, gonads - ovaries, testicles, and thymus glands are all important endocrine glands.\nGrowth stimulant, adrenal gland stimulant, thyroid gland stimulant, prolactin, oxytocin, luteinizing hormone, antitumor stimulant, follicular gland stimulant, these are the stimulants of pituitary gland. Of these, growth promoters are essential for the growth of the body. Prolactin, oxytocin, luteinizing hormone, follicle stimulating hormone, these hormones are especially important for the reproduction of women's body.\nEstrogen and progesterone, which are produced by the ovaries, are essential for the physical development of women, while testosterone, which is produced by the testicles, is important for men.\nThe cells of the taste buds produce glucagon and insulin and regulate blood sugar levels.\nThe thyroid gland significantly produces thyroxine and calcitonin. Due to thyroxine, the metabolic process in its body remains functioning smoothly.\nAdrenaline, noradrenaline, and corticosteroids from the adrenal glands constitutively control many body functions. They include controlling behavior in emergency situations and emotional episodes, stimulating transmission of the cardiovascular and circulatory systems, and stimulating metabolic processes. They also keep the balance of Na and K and metabolism under control.\nThis type of chemical control is very slow in maintaining body position and coordination, but the process is necessary over a long period of time.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Explain the difference between the excretory system of humans and plants.",
+    "answer": "Excretory system in humans\nExcretory system in plants\n\nHumans have a well-developed excretory system for the elimination of nitrogenous wastes.\nPlants do not have a well-developed excretory system for the elimination of nitrogenous wastes.\n\nThe human excretory system comprises the kidneys, blood vessels that join them, ureters, urinary bladder, and urethra.\nPlants use different strategies for excretion.\n\nExcretion is in the form of urine produced to filter out the waste products, like urea and uric acid, from the blood.\nExcretion is by means of tannins, gums, essential oils, etc stored in special cells.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Explain coordination in plants with the help of suitable examples.",
+    "answer": "Since plants do not have nervous and muscular systems like animals, coordination in plants occurs in response to particular stimuli. Tropism/tropic movement is the term used for the movement or growth of any plant part in response to an external stimulus.\nThese tropic movements can be of various types like:\n\nPhototropic movement: The shoot system of any plant responds to the light stimulus i.e. it grows towards the source of light. The movement shown by plants towards the source of light is called &lsquo;Phototropic movement&rsquo;.\nGravitropic movement: The root system of plants responds to stimuli like gravitation and water. These responses are called &lsquo;gravitropic movement&rsquo;\nHydrotropic movement: The root system of plants responds to stimuli like water. These responses are called &lsquo;hydrotropic movement&rsquo;.\nChemotropic movement: Movement shown by plants in response to specific chemicals is called &lsquo;chemotropic movement&rsquo;. For exmaple, the growth of the pollen tube towards the ovule.\n\nEach of the above mentioned activities is associated with the growth of plants, hence it is called activities related to their growth. The growth and development process of plants is not related to development. Various types of action are created in the surrounding environment by stimulating vegetation. They use electrical and chemical stimuli, such as mimosa. The amount of water in plant cells is increased or decreased, due to which their shape changes and the formation of activity takes place.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Explain in your own words with a suitable example. What is meant by coordination?",
+    "answer": "Coordination is the process of bringing together the actions of several persons or departments to ensure that they function smoothly and efficiently toward a single goal. It helps to reduce confusion, duplication of effort, and delays. When all segments of an organisation work in the same direction, overall performance improves.\nExample: During a school&rsquo;s annual day, instructors, students, stage crew, and management collaborate to organize timing, rehearsals, decorations, and announcements. This organized teamwork demonstrates great coordination.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Explain in your own words with suitable examples. How does excretion occur in human beings?",
+    "answer": "The excretory system removes wastes from the body, which is an important function.\nThe human excretory system is made up of two kidneys, two ureters, the urine bladder, and the urethra. The kidneys produce urine by removing waste and undesirable chemicals from the bloodstream.\nNephrons are the functional units of the kidney that perform the basic function of filtration. The urea generated in the liver enters the bloodstream.\nWhen urea-containing blood enters the glomerulus, it is filtered by capillaries, removing urea and other related compounds.\nWater molecules and tiny molecules of other substances can pass through the semipermeable membrane of Bowman's capsule.\nThe fluid that has accumulated in the Bowman's capsule cavity enters the nephron's tubular portion. Here, water molecules and other important compounds are reabsorbed into the bloodstream.\nUrine is generated from the residual fluid, which contains waste elements. The ureters carry urine, which is then stored in the urinary bladder. Urine is then released through the urethra.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Explain in your own words with suitable examples. How is excretion in plants useful to human beings?",
+    "answer": "Excretion in plants results in the production of various kinds of excreta which are waste for the plant but are equally important for human use.\nThe following examples are helpful in proving the above fact:\n\nOxygen which is an excretory product of photosynthesis is an absolute requirement for human beings to survive on Earth.\nTannin is a waste plant product which is stored in leaves and bark. it is used in making tea all over the world.\nPlants store waste products in their leaves and bark which are shed off regularly. These shed-offs are used to make manure.\nGum and resin are waste materials for plants but they have various uses for man.\nEssential oils are also waste products of plants which are stored in their leaves. These essential oils are used for various purposes by us.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Explain in your own words with suitable examples. Describe the transportation system in plants.",
+    "answer": "Transportation in plants occurs due to the two processes of root pressure and transpiration. Due to this pressure, food is transported as per the requirement of the plant and this process is transferred through sap vessels. In plants, water and food are transported through the vascular system, for which there are water vessels and sap vessels.\n\nRoot pressure: Root cells are in contact with water and minerals in the soil. Water and minerals enter the cells on the root surface due to differences in concentration. As a result, these cells become turgid. These turgid cells exert pressure on the adjacent cells. This is called &lsquo;root pressure&rsquo;. Under the effect of this pressure, water and minerals reach the xylem of the roots and to reduce this difference in concentration they are continuously pushed forward. As a result of this continuous movement, a water column is formed, which is continuously pushed ahead. This pressure is sufficient to lift the water up in shrubs, small plants and small trees.\nTranspiration pull: Plants give out water in the form of vapour through the stomata on their leaves. Two cells called guard cells are present around the stomata. These cells control the opening and closing of stomata. Transpiration occurs through these stomata. Water is released into the atmosphere by leaves through the process of evaporation. As a result, water level in the epidermal layer of the leaf decreases. Water is brought up to the leaves through the xylem so as to compensate for the lost water. Transpiration helps in absorption of water and minerals and distribution to all parts of the plant whereas root pressure performs the important role of pushing the water up during the night time.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Science And Tech",
+    "chapter": "Science and Technology [English] 9 Standard Life Processes in Living Organisms",
+    "questionNumber": 25,
+    "isFree": true
+  }
+]

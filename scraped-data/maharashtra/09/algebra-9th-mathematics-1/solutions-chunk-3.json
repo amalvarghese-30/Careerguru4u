@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Write the Polynomial in X Using the Given Information.",
+    "answer": "Show SolutionA polynomial having only three terms is called a trinomial. Also, the highest power of the variable in a polynomial is called the degree of the polynomial.\n5x⁸ + 6x⁴ + 7x is a trinomial in x with degree 8.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Write the degree of the given polynomial. 5",
+    "answer": "Show SolutionThe highest power of the variable in a polynomial of one variable is called the degree of the polynomial. Also, the highest sum of the powers of the variables in each term of the polynomial in more than one variable is the degree of the polynomial.\n√5 = √5 xx 1 = √5 x⁰\nThe degree of the polynomial √5 is 0.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Write the degree of the given polynomial. x°",
+    "answer": "Show SolutionThe highest power of the variable in a polynomial of one variable is called the degree of the polynomial. Also, the highest sum of the powers of the variables in each term of the polynomial in more than one variable is the degree of the polynomial.\nThe degree of the polynomial x° is 0.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Write the degree of the given polynomial. x2",
+    "answer": "Show SolutionThe degree of the polynomial x2 is 2.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Write the degree of the given polynomial. 2m10-7",
+    "answer": "Show SolutionThe degree of the polynomial √2m¹⁰ - 7 is 10.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Write the degree of the given polynomial. 2p-7",
+    "answer": "Show SolutionThe degree of the polynomial 2p - √7 is 1.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Write the degree of the given polynomial. 7y-y3+y5",
+    "answer": "Show SolutionThe degree of the polynomial 7y - y³ + y⁵ is 5.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Write the degree of the given polynomial. xyz + xy - z",
+    "answer": "Show SolutionThe sum of the powers of x, y and z in the term xyz is 1 + 1 + 1 = 3, which is greater than the sum of the powers of the variables in the other terms.\nThe degree of the polynomial xyz + xy - z is 3.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Write the degree of the given polynomial. m3n7-3m5n+mn",
+    "answer": "Show SolutionThe sum of the powers of m and n in the term m³n⁷ is 3 + 7 = 10, which is greater than the sum of the powers of the variables in the other terms.\nThe degree of the polynomial m³n⁷ -3m⁵n + mn is 10.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Classify the following polynomial as linear, quadratic and cubic polynomial. 2x2 + 3 x + 1",
+    "answer": "Show SolutionThe degree of the polynomial 2x2 + 3x + 1 is 2.\nSo, the polynomial 2x2 + 3x + 1 is a quadratic polynomial.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Classify the following polynomial as linear, quadratic and cubic polynomial. 5p",
+    "answer": "Show SolutionThe degree of the polynomial 5p is 1. \nSo, the polynomial 5p is a linear polynomial.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Classify the following polynomial as linear, quadratic and cubic polynomial. 2 y-12",
+    "answer": "Show SolutionThe degree of the polynomial √2 y - 1/2 is 1.\nSo, the polynomial √2 y - 1/2 is a linear polynomial.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Classify the following polynomial as linear, quadratic and cubic polynomial. m3+7m2+52m-7",
+    "answer": "Show SolutionThe degree of the polynomial m³ + 7m² + 5/2m - √7 is 3.\nSo, the polynomial m³ + 7m² + 5/2m - √7 is a cubic polynomial.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Classify the Following Polynomial as Linear, Quadratic and Cubic Polynomial. a2",
+    "answer": "Show SolutionThe degree of the polynomial a2 is 2. \nSo, the polynomial a2 is a quadratic polynomial.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Classify the Following Polynomial as Linear, Quadratic and Cubic Polynomial.",
+    "answer": "Show SolutionThe degree of the polynomial 3r3 is 3. \nSo, the polynomial 3r3 is a cubic polynomial.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Write the following polynomial in standard form. m3 + 3 + 5m",
+    "answer": "Show SolutionA polynomial written in either descending or ascending powers of its variable is called the standard form of the polynomial.\nThe given polynomial is m3 + 3 + 5m.\nThe standard form of the polynomial is m3 + 5m + 3.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Write the following polynomial in standard form. -7y+y5+3y3-12+2y4-y2",
+    "answer": "Show SolutionA polynomial written in either descending or ascending powers of its variable is called the standard form of the polynomial.\nThe given polynomial is -7y + y⁵ + 3y³ - 1/2 +2y⁴ -y².\nThe standard form of the polynomial is \ny⁵ + 2y⁴ +3y³ - y² - 7y -1/2.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Write the following polynomial in coefficient form. 𝑥3 −2",
+    "answer": "Show Solutionx³ - 2\n= x³ + 0x² +0x - 2\nThe coefficient form of the polynomial is (1, 0, 0, &minus;2).",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Write the following polynomial in coefficient form. 5y",
+    "answer": "Show Solution5y = 5y + 0\nThe coefficient form of the polynomial is (5, 0).",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Write the following polynomial in coefficient form. 2m4 - 3m2 + 7",
+    "answer": "Show Solution2m4 - 3m2 + 7\n= 2m4 + 0m3 - 3m2 + 0m + 7\nThe coefficient form of the polynomial is (2, 0, &minus;3, 0, 7).",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "Write the following polynomial in coefficient form. -23",
+    "answer": "Show SolutionThe coefficient form of the polynomial -2/3 is (-2/3).",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "Write the polynomial in standard form. (1, 2, 3)",
+    "answer": "Show SolutionThe coefficient form of the polynomial is (1, 2, 3).\nTherefore, the standard form of the polynomial using the variable x is x2 + 2x + 3.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "Write the polynomial in standard form. (5, 0, 0, 0, -1)",
+    "answer": "Show SolutionThe coefficient form of the polynomial is (5, 0, 0, 0, &minus;1).\nTherefore, the standard form of the polynomial using the variable x is 5x4 + 0x3 + 0x2 + 0x &minus; 1 or 5x4 &minus; 1.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "Write the polynomial in standard form. (-2, 2, -2, 2)",
+    "answer": "Show SolutionThe coefficient form of the polynomial is (&minus;2, 2, &minus;2, 2). \nTherefore, the standard form of the polynomial using the variable x is &minus;2x3 + 2x2 &minus;2x + 2.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "Write the appropriate polynomials in the boxes. x + 7, x^2, x^3 + x^2 + x + 5, 2x^2 + 5x + 10, x^3 + 9, 3x^2 + 5x",
+    "answer": "Show Solution",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "There are ‘a’ trees in the village Lat. If the number of trees increases every year by ‘b’, then how many trees will there be after ‘x’ years?",
+    "answer": "Show SolutionInitial number of trees in the village = a\nIncrease in the number of trees every year = b\n∴ Number of trees in the village after x years = Initial number of trees in the village + Increase in the number of trees every year × x\n= a + bx\nThus, the number of trees after x years is a + bx.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "For the parade there are y students in each row and x such row are formed. Then, how many students are there for the parade in all?",
+    "answer": "Show SolutionNumber of students in each row = y\nNumber of rows = x\n∴ Total number of students in the parade = Number of students in each row × Number of rows\n= y × x\n= yx\n= xy\nThus, there are in all xy students for the parade.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "The tens and units place of a two digit number is m and n respectively. Write the polynomial which represents the two digit number.",
+    "answer": "Show SolutionDigit at the tens place = m\nDigit at the units place = n\n∴ Two digit number = 10 × Digit at the tens place + Digit at the units place\n= 10 × m + n\n= 10m + n\nThus, the polynomial which represents the two digit number is 10m + n.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "Add the given polynomials. x3-2x2-9; 5x3+2x+9",
+    "answer": "Show Solution(x³ - 2x² - 9) + (5x³ + 2x + 9)\n= x³ + 5x³ -2x² + 2x - 9 + 9\n= 6x³ - 2x² + 2x",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "Add the given polynomial. -7m4+5m3+2; 5m4-3m3+2m2+3m-6",
+    "answer": "Show Solution(-7m⁴ +5m³ + √2) +( 5m⁴ - 3m³ + 2m² + 3m - 6)\n= -7m⁴ +5m⁴ + 5m³ - 3m³ + 2m² + 3m + √2 - 6\n= -2m⁴ + 2m³ + 2m² + 3m - 6 + √2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "Add the given polynomial. 2y2+7y+5 ; 3y+9 ; 3y2-4y-3",
+    "answer": "Show Solution(2y² + 7y + 5) + (3y + 9) + ( 3y² - 4y - 3)\n= 2y² + 3y² + 7y + 3y - 4y +5 +9 - 3\n= 5y² +6y +11",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "Subtract the second polynomial from the first. x2-9x+3 ; -19x+3+7x2",
+    "answer": "Show Solution(x² - 9x + √3) - (-19x + √3 +7x²)\n= x² - 9x + √3 + 19x - √3 -7x²\n= x² - 7x² - 9x + 19x + √3 - √3\n= -6x² + 10x",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "Subtract the second polynomial from the first. 2ab2+3a2b-4ab;3ab-8ab2+2a2b",
+    "answer": "Show Solution(2ab² + 3a²b - 4ab) - (3ab - 8ab² + 2a²b)\n= 2ab² + 3a²b - 4ab - 3ab + 8ab² - 2a²b\n= 2ab² + 8ab² + 3a²b - 2a²b - 4ab -3ab\n= 10ab² + a²b - 7ab",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 43,
+    "isFree": true
+  },
+  {
+    "question": "Multiply the given polynomial. 2x ; x2-2x-1",
+    "answer": "Show Solution2x (x² - 2x - 1)\n= 2x xx x² + 2x xx (-2x) + 2x xx (-1)\n= 2x³ - 4x² - 2x",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 44,
+    "isFree": true
+  },
+  {
+    "question": "Multiply the given polynomial. x5-1 ; x3+2x2+2",
+    "answer": "Show Solution(x⁵ - 1) xx ( x³ +2x² + 2)\n= x⁵(x³ + 2x² +2) -1(x³ + 2x² + 2)\n= x⁸ + 2x⁷ + 2x⁵ - x³ - 2x² - 2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 45,
+    "isFree": true
+  },
+  {
+    "question": "Multiply the given polynomial. 2y+1;y2-2y3+3y",
+    "answer": "Show Solution(2y + 1) xx ( y² - 2y³ + 3y)\n= 2y (y² - 2y³ + 3y) + 1 (y² - 2y³ + 3y)\n= 2y³ - 4y⁴ +6y² + y² - 2y³ + 3y\n= -4y⁴ + 2y³ - 2y³ +6y² + y² + 3y\n= -4y⁴ +7y² + 3y",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 46,
+    "isFree": true
+  },
+  {
+    "question": "Divide first polynomial by second polynomial and write the answer in the form ‘Dividend = Divisor × Quotient + Remainder’. x3-64;x-4",
+    "answer": "Show Solutionx³ - 64 = x³ + 0x² + 0x - 64\nUsing long-division method,\n x2 + 4x + 16\nx - 4)overline(x³ + 0x² + 0x - 64)\n x3 - 4x2\n - + \n 4x2 + 0x\n 4x2 - 16x \n - + \n 16x - 64\n 16x - 64 \n - + \n 0 \nDividend = Divisor ×​ Quotient + Remainder\ntherefore x³ - 64 = (x - 4) xx (x² + 4x +16) + 0",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 47,
+    "isFree": true
+  },
+  {
+    "question": "Divide first polynomial by second polynomial and write the answer in the form ‘Dividend = Divisor × Quotient + Remainder’. 5x5+4x4-3x3+2x2+2;x2-x",
+    "answer": "Show Solution 5x3 + 9x2 + 6x + 8\nx² - x)overline(5x⁵ + 4x⁴ - 3x³ + 2x² + 2)\n 5x5 - 5x4\n - + \n 9x4 - 3x3 + 2x2 + 2\n 9x4 - 9x3 \n - + \n 6x3 + 2x2 + 2\n 6x3 - 6x2\n - + \n 8x2 + 2\n 8x2 - 8x\n - + \n 8x + 2\nDividend = Divisor ×​ Quotient + Remainder\n5x⁵ + 4x⁴ - 3x³ + 2x² +2 = (x² - x) xx (5x³ + 9x² + 6x + 8) + (8x + 2)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 48,
+    "isFree": true
+  },
+  {
+    "question": "There is a rectangular farm with length (2a2+3b2) metre and breadth (a2+b2) metre. The farmer used a square shaped plot of the farm to build a house.",
+    "answer": "Show SolutionLenght of the rectangular farm = (2a2 + 3b2) m\nBreadth of the rectangular farm = (a2 + b2) m\nThe total area of the farm = Length of the rectangular farm × Breadth of the rectangular farm\n= (2a2 + 3b2) × (a2 + b2)\n= 2a2(a2 + b2) + 3b2(a2 + b2)\n= 2a4 + 2a2b2 +3a2b2 + 3b4 \n= (2a4 + 5a2b2 + 3b2) sq.meter\nSide of the square plot = (a2 &minus; b2) meter.\nArea of the square plot = (side)2\n= (a2 &minus; b2)2\n= a &minus; 2a2b2 + b4\n Area of the remaining part of the farm = Total area of the farm &minus; Area of the square plot\n= (2a4 + 5a2b2 + 3b4) - (a4 &minus; 2a2b2 + b4)\n= 2a4 + 5a2b2 + 3b4 &minus; a4 &minus; 2a2b2 + b4 \n= 2a4 &minus; a4 + 5a2b2 + 2a2b2 + 3b4 &minus; b4 \n= a4 + 7a2b2 + 2b4\nThus, the area of the remaining part of the farm is (a4 + 7a2b2 + 2b4) sq. meter.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 49,
+    "isFree": true
+  },
+  {
+    "question": "Divide the following polynomial by synthetic division method and also by linear division method. Write the quotient and the remainder. (2m2 − 3m + 10) ÷ (m − 5)",
+    "answer": "Show SolutionSynthetic Division:\nDividend = 2m2 &minus; 3m + 10\nDivisor = m &minus; 5\nOpposite of &minus;5 = 5\n\nThe coefficient form of the quotient is (2, 7).\n∴ Quotient = 2m + 7 and Remainder = 45\nLinear Method:\n2m2 &minus; 3m + 10\n= 2m(m &minus; 5) + 10m &minus; 3m + 10\n= 2m(m &minus; 5) + 7(m &minus; 5) + 35 + 10\n= (m &minus; 5) × (2m + 7) + 45",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 50,
+    "isFree": true
+  },
+  {
+    "question": "Divide of the following polynomial by synthetic division method and also by linear division method. Write the quotient and the remainder. (x4+2x3+3x2+4x+5)÷(x+2)",
+    "answer": "Show SolutionSynthetic Division:\nDividend = x⁴ + 2x³ +3x² + 4x + 5\nDivisor = x + 2\nOpposite of 2 = &minus;2\n\nThe coefficient form of the quotient is (1, 0, 3, &minus;2). \n∴ Quotient = x3 + 3x &minus; 2 and Remainder = 9\nLinear Method:\nx4 + 2x3 + 3x2 + 4x + 5 ÷ (x + 2)\nx4 ÷ x = x3 &rArr; x3 (x + 2) = x4 + 2x3\n(x4 + 2x3) &minus; (x4 + 2x3) = 0\n3x2 ÷ x = 3x &rArr; 3x (x + 2) = 3x2 + 6x\n(3x2 + 4x) &minus; (3x2 + 6x) = &minus;2x\n&minus;2x ÷ x = &minus;2 &rArr; &minus;2(x + 2) = &minus;2x &minus; 4\n(&minus;2x + 5) &minus; (&minus;2x &minus; 4) = 9",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 51,
+    "isFree": true
+  },
+  {
+    "question": "Divide the following polynomial by synthetic division method and also by linear division method. Write the quotient and the remainder. (y3-216)÷(y-6)",
+    "answer": "Show SolutionSynthetic Division:\nDividend = y³ - 216 = y³ + 0y² +0y -216\nDivisor = y &minus; 6\nOpposite of &minus;6 = 6\n\nThe coefficient form of the quotient is (1, 6, 36). \n∴ Quotient = y2 + 6y + 36 and Remainder = 0\nLinear Method:\ny³ - 216\n= y² (y - 6) + 6y² -216\n= y² (y - 6) + 6y(y - 6) + 36 y - 216\n= y² (y - 6) + 6y (y - 6) + 36 (y -6) +216 - 216\n= y² (y - 6) + 6y(y - 6) + 36 (y -6)\n= (y - 6) xx (y² + 6y + 36)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 52,
+    "isFree": true
+  },
+  {
+    "question": "Divide the following polynomial by synthetic division method and also by linear division method. Write the quotient and the remainder. (2x^4 + 3x^3 + 4x - 2x^2) ÷ (x + 3)",
+    "answer": "Show SolutionSynthetic Division:\nDividend = 2x⁴ + 3x³ + 4x - 2x² = 2x⁴ + 3x³ - 2x² + 4x + 0\nDivisor = x + 3\nOpposite of 3 = &minus;3\n\nThe coefficient form of the quotient is (2, &minus;3, 7, &minus;17). \n∴ Quotient = 2x3 &minus; 3x2 + 7x &minus; 17 and Remainder = 51\nLinear Method:\n2x⁴ + 3x³ - 2x² + 4x \n= 2x³ (x + 3) - 6x³ + 3x³ -2x² + 4x\n= 2x³ (x + 3) - 3x² (x + 3) + 9x² -2x² +4x\n= 2x³ (x + 3) - 3x² (x + 3) +7x (x + 3) - 21x + 4x\n= 2x³ (x + 3) - 3x² (x + 3) +7x (x + 3) - 17(x + 3) + 51\n= (x + 3) (2x³ - 3x² + 7x - 17) + 51",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 53,
+    "isFree": true
+  },
+  {
+    "question": "Divide the following polynomial by synthetic division method and also by linear division method. Write the quotient and the remainder. (x^4 - 3x^2 - 8) ÷ (x + 4)",
+    "answer": "Show SolutionSynthetic Division:\nDividend = x⁴ - 3x² - 8 = x⁴ +0x³ - 3x² + 0x - 8\nDivisor = x + 4\nOpposite of 4 = &minus;4\n\nThe coefficient form of the quotient is (1, &minus;4, 13, &minus;52). \n∴ Quotient = x3 &minus; 4x2 + 13x &minus; 52 and Remainder = 200 \nLinear Method:\nx⁴ - 3x² - 8\n= x³ (x + 4) - 4x³ - 3x² - 8\n= x³ (x + 4) - 4x² (x +4) + 16x² -3x² - 8\n= x³ (x + 4) - 4x² (x + 4) + 13x (x +4) - 52x - 8\n= x³ (x + 4) - 4x² (x + 4) + 13x (x +4) - 52(x + 4) + 208 - 8\n= (x + 4) (x³ - 4x² + 13 x - 52) + 200",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 54,
+    "isFree": true
+  },
+  {
+    "question": "Divide the following polynomial by synthetic division method and also by linear division method. Write the quotient and the remainder. (y^3 - 3y^2 + 5y - 1) ÷ (y - 1)",
+    "answer": "Show SolutionSynthetic Division: \nDividend = y³ - 3y² + 5y - 1\nDivisor = y &minus; 1\nOpposite of &minus;1 = 1\n\nThe coefficient form of the quotient is (1, &minus;2, 3). \n∴ Quotient = y2 &minus; 2y + 3 and Remainder = 2 \nLinear Method:\ny³ - 3y² + 5y - 1\n= y² (y - 1) + y² - 3y² + 5y - 1\n= y² (y - 1) - 2y (y - 1) -2y +5y - 1\n= y² (y - 1) - 2y (y - 1) + 3(y -1) + 3 - 1\n= (y - 1) (y² - 2y + 3) + 2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 55,
+    "isFree": true
+  },
+  {
+    "question": "For x = 0 find the value of the polynomial x2 - 5x + 5.",
+    "answer": "Show SolutionLet p (x) = x2 - 5x + 5\n∴ p(0) = (0)2 - 5 × 0 + 5\n= 0 - 0 + 5\n= 5\nHence, for x = 0, the value of the polynomial is 5.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 56,
+    "isFree": true
+  },
+  {
+    "question": "If p(y)=y2-32y+1 then find p(32).",
+    "answer": "Show Solutionp(y) = y² - 3√2y + 1\n:. p(3 √2) = (3 √2)² - 3√2 xx 3 √2 + 1\n= 9 × 2 - 9 × 2 + 1\n= 18 - 18 + 1\n= 1",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 57,
+    "isFree": true
+  },
+  {
+    "question": "If p(m)=m3+2m2-m+10 then p(a)+p(-a)= ?",
+    "answer": "Show Solutionp(m) = m³ + 2m² - m + 10\ntherefore p(a) = a³ + 2a² - a +10 ...(1)\nAlso, \np(-a) = (-a)³ + 2(-a)² - (-a)+10\n=> p(-a) = -a³+ 2a² + a + 10 ...(2)\nAdding (1) and (2), we get\np(a) + p(-a)\n= (a³ + 2a² - a +10) + (-a³+ 2a² + a + 10)\n= a³ - a³ + 2a² + 2a² - a + a + 10 + 10\n= 4a² + 20\n therefore p(a) + p(-a) = 4a² + 20",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 58,
+    "isFree": true
+  },
+  {
+    "question": "If p(y) = 2y3 − 6y2 − 5y + 7 then find p(2).",
+    "answer": "Show Solutionp(y) = 2y3 &minus; 6y2 &minus; 5y + 7\np(y) = p(2) \n∴ p(2) = 2 × (2)3 &minus; 6 × (2)2 &minus; 5 × 2 + 7\n= 2 × 8 &minus; 6 × 4 &minus; 10 + 7 \n= 16 &minus; 24 &minus; 10 + 7\n= &minus;11",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 59,
+    "isFree": true
+  },
+  {
+    "question": "Find the value of the polynomial 2x − 2x3 + 7 using given values for x. x = 3",
+    "answer": "Show Solutionp(x) = 2x &minus; 2x3 + 7\np(3) = 2 × 3 &minus; 2 × (3)3 +7\n= 6 &minus; 2 × 27 + 7\n= 6 &minus; 54 + 7\n= &minus; 41\nThus, the value of polynomial for x = 3 is &minus;41.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 60,
+    "isFree": true
+  },
+  {
+    "question": "Find the value of the polynomial 2x - 2x3 + 7 using given values for x. x = -1",
+    "answer": "Show Solutionp(&minus; 1) = 2 × (&minus; 1) - 2 × (&minus; 1)3 + 7\n= &minus; 2 &minus; 2 × (&minus; 1) + 7\n= &minus; 2 + 2 + 7\n= 7 \nThus, the value of polynomial for x = &minus;1 is 7.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 61,
+    "isFree": true
+  },
+  {
+    "question": "Find the value of the polynomial 2x − 2x3 + 7 using given values for x. x = 0",
+    "answer": "Show Solutionp(0) = 2 × 0 &minus; 2 × (0)3 + 7\n= 0 &minus; 0 + 7\n= 7\nThus, the value of polynomial for x = 0 is 7.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 62,
+    "isFree": true
+  },
+  {
+    "question": "For the following polynomial, find p(1), p(0) and p(-2). p(x)=x3",
+    "answer": "Show Solutionp(x) = x3\n∴ p(1) = (1)3 = 1\np(0) = (0)3 = 0\np(&minus; 2) = (&minus; 2)3 = &minus; 8",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 63,
+    "isFree": true
+  },
+  {
+    "question": "For the following polynomial, find p(1), p(0) and p(-2). p(y) = y2 − 2y + 5",
+    "answer": "Show Solutionp(y) = y2 &minus; 2y + 5\n∴ p(1) = (1)2 &minus; 2 × 1 + 5\n= 1 &minus; 2 + 5\n= 4\n∴ p(0) = (0)2 &minus; 2 × 0 + 5\n= 0 &minus; 0 + 5\n= 5\n∴ p(&minus;2) = (&minus;2)2 &minus; 2 × (&minus;2) + 5\n= 4 + 4 + 5\n= 13",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 64,
+    "isFree": true
+  },
+  {
+    "question": "For the following polynomial, find p(1), p(0) and p(-2). p(x) = x4 − 2x2 − x",
+    "answer": "Show Solutionp(x) = x4 &minus; 2x2 &minus; x\n∴ p(1) = (1)4 &minus; 2 × (1)2 &minus; 1\n= 1 &minus; 2 &minus; 1\n= &minus;2\n∴ p(0) = (0)4 &minus; 2 × (0)2 &minus; 0\n= 0 &minus; 0 &minus; 0\n= 0\n∴ p(&minus;2) = (&minus;2)4 &minus; 2 × (&minus;2)2 &minus; (&minus;2)\n= 16 &minus; 2 × 4 + 2\n= 16 &minus; 8 + 2\n= 10",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 65,
+    "isFree": true
+  },
+  {
+    "question": "If the value of the polynomial m3 + 2m + a is 12 for m = 2, then find the value of a.",
+    "answer": "Show SolutionLet p(m) = m3 + 2m + a\nFor m = 2, p(2) = 12\n∴ (2)3 + 2 × 2 + a = 12\n&rArr; 8 + 4 + a = 12\n&rArr; 12 + a = 12\n&rArr; a = 12 - 12 = 0\nThus, the value of a is 0.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 66,
+    "isFree": true
+  },
+  {
+    "question": "For the polynomial mx2 − 2x + 3 if p(−1) = 7 then find m.",
+    "answer": "Show SolutionLet p(x) = mx2 &minus; 2x + 3\n∴ p(&minus;1) = 7\n&rArr; m × (&minus;1)2 &minus; 2 × (&minus;1) + 3 = 7\n&rArr; m + 2 + 3 = 7\n&rArr; m = 7 &minus; 5 = 2\nThus the value of m is 2.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 67,
+    "isFree": true
+  },
+  {
+    "question": "Divide the first polynomial by the second polynomial and find the remainder using remainder theorem. (x2 − 7x + 9) ; (x + 1)",
+    "answer": "Show SolutionLet p(x) = x2 &minus; 7x + 9\nDivisor = x + 1 \n∴ take x = &minus;1\nBy remainder theorem, \nRemainder = p(&minus;1)\n= (&minus;1)2 &minus; 7 × (&minus;1) + 9 =\n1 + 7 + 9\n= 17\n∴ Remainder = 17",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 68,
+    "isFree": true
+  },
+  {
+    "question": "Divide the first polynomial by the second polynomial and find the remainder using remainder theorem. (2x3 − 2x2 + ax − a) ; (x − a)",
+    "answer": "Show Solutionp(x) = 2x3 &minus; 2x2 + ax &minus; a\nDivisor = x &minus; a \n∴ take x = a\nRemainder = p(a) \n2 × a3 &minus; 2 × a2 + a × a &minus; a\n= 2a3 &minus; 2a2 + a2 &minus; a\n∴ Remainder = 2a3 &minus; a2 &minus; a",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 69,
+    "isFree": true
+  },
+  {
+    "question": "Divide the first polynomial by the second polynomial and find the remainder using remainder theorem. (54m3 + 18m2 − 27m + 5) ; (m − 3)",
+    "answer": "Show Solutionp(x) = 54m3 + 18m2 &minus; 27m + 5\nDivisor = m &minus; 3\n∴ take m = 3\nBy remainder theorem, \nRemainder = p(3)\n54 × (3)3 + 18 × (3)3 &minus; 27 × 3 + 5\n= 54 × 27 + 18 × 9 &minus; 27 × 3 + 5\n= 1458 + 162 - 81 + 5\n= 1544\n∴ Remainder = 1544",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 70,
+    "isFree": true
+  },
+  {
+    "question": "If the polynomial y3 − 5y2 + 7y + m is divided by y + 2 and the remainder is 50 then find the value of m.",
+    "answer": "Show SolutionLet p(y) = y3 &minus; 5y2 + 7y + m\nWhen the polynomial is divided by (y + 2), the remainder is 50. This means that the value of the polynomial when y = &minus;2 is 50.\nBy remainder theorem,\nRemainder = p(&minus;2) = 50\n∴ (&minus;2)3 &minus; 5 × (&minus;2)2 + 7 (&minus;2) + m = 50\n&rArr; &minus; 8 &minus; 5 × 4 -14 + m = 50\n&rArr; &minus; 8 &minus; 20 &minus; 14 + m = 50\n&rArr; &minus; 42 + m = 50\n&rArr; m = 50 + 42 = 92\nThus, the value of m is 92.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 71,
+    "isFree": true
+  },
+  {
+    "question": "Use Factor Theorem to Determine Whether X + 3 is Factor of X 2 + 2x − 3 Or Not.",
+    "answer": "Show SolutionLet p(x) = x2 + 2x &minus; 3.\nDivisor = x + 3 \n∴ Let x = &minus;3\n∴ p(&minus;3) = (&minus;3)2 + 2 × (&minus;3) &minus; 3\n= 9 &minus; 6 &minus; 3\n= 0\nSo, by factor theorem, (x + 3) is a factor of x2 + 2x &minus; 3.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 72,
+    "isFree": true
+  },
+  {
+    "question": "If (x - 2) is a factor of x3 − mx2 + 10x − 20 then find the value of m.",
+    "answer": "Show SolutionLet p(x) = x3 &minus; mx2 + 10x &minus; 20\n(x &minus; 2) is a factor of p(x) = x3 &minus; mx2 + 10x &minus; 20\nBy factor theorem,\nremainder = 0\n∴ p(2) = 0 \n&rArr; (2)3 &minus; m × (2)2 + 10 × (2) &minus; 20 = 0 \n&rArr; 8 &minus; 4m + 20 &minus; 20 = 0\n&rArr; 8 &minus; 4m = 0\n&rArr; 4m = 8\n&rArr; m = 2\nThus, the value of m is 2.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 73,
+    "isFree": true
+  },
+  {
+    "question": "By using factor theorem in the following example, determine whether q(x) is a factor p(x) or not. p(x) = x3 − x2 − x − 1, q(x) = x − 1",
+    "answer": "Show Solutionp(x) = x3 &minus; x2 &minus; x &minus; 1\nDivisor = q(x) = x &minus; 1\n∴ p(1) = (1)3 - (1)2 &minus; 1 &minus; 1\n= 1 &minus; 1 &minus; 1 &minus; 1\n= &minus; 2 ≠ 0\nSince p(1) ≠ 0, so by factor theorem q(x) = x &minus; 1 is not a factor of polynomial p(x) = x3 &minus; x2 &minus; x &minus; 1.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 74,
+    "isFree": true
+  },
+  {
+    "question": "By using factor theorem in the following example, determine whether q(x) is a factor p(x) or not. p(x) = 2x3 − x2 − 45, q(x) = x − 3",
+    "answer": "Show Solutionp(x) = 2x3 &minus; x2 &minus; 45\nDivisor = q(x) = x &minus; 3\n∴ Let x = 3\n∴ p(3) = 2 × (3)3 &minus; (3)2 &minus; 45\n= 2 × 27 &minus; 9 &minus; 45\n= 54 &minus; 54\n= 0\nSo, by factor theorem q(x) = x &minus; 3 is a factor of polynomial p(x) = 2x3 &minus; x2 &minus; 45.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 75,
+    "isFree": true
+  },
+  {
+    "question": "If ( x31 + 31) is divided by (x + 1) then find the remainder.",
+    "answer": "Show SolutionLet p(x) = x31 + 31.\nDivisor = x + 1\n∴ Let x = &minus;1\nBy remainder theorem\nRemainder = p(&minus;1)\n= (&minus;1)31 + 31\n= &minus;1 + 31\n= 30\nThus, the remainder when (x31 + 31) is divided by (x + 1) is 30.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 76,
+    "isFree": true
+  },
+  {
+    "question": "Show that m − 1 is a factor of m21 − 1 and m22 − 1.",
+    "answer": "Show SolutionLet p(m) = m21 &minus; 1 and q(m) = m22 &minus; 1.\nDivisor = m &minus; 1\nNow, \np(1) = (1)21 &minus; 1\n= 1 &minus; 1\n= 0\nTherefore, by factor theorem (m &minus; 1) is a factor of p(m) = m21 &minus; 1.\nAlso, \nq(1) = (1)22 &minus; 1\n= 1 &minus; 1\n= 0\nTherefore, by factor theorem (m &minus; 1) is a factor of q(m) = m22 &minus; 1.\nHence, (m &minus; 1) is a factor of m21 &minus; 1 and m22 &minus; 1.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 77,
+    "isFree": true
+  },
+  {
+    "question": "If X − 2 and X − 1 2 Both Are the Factors of the Polynomial Nx2 − 5x + M, Then Show that M = N = 2",
+    "answer": "Show SolutionLet p(x) = nx2 &minus; 5x + m.\nIt given that (x &minus; 2) and (x - 1/2) are the factors of the polynomial p(x) = nx2 &minus; 5x + m.\n∴ By factor theorem, p(2) = 0 and p(1/2) = 0.\np(2) = 0\n&rArr; n ×(2)2 &minus; 5 × 2 + m = 0\n&rArr; 4n &minus; 10 + m = 0\n&rArr; 4n + m = 10 ...(1)\nAlso, \np(1/2) = 0\n&rArr; n(1/2)² - 5 xx 1/2 + m = 0\n&rArr; n/4 + m = 5/2\n&rArr; n + 4m = 10 ...(2)\nFrom (1) and (2), we have \n4n + m = n + 4m \n&rArr; 4n &minus; n = 4m &minus; m \n&rArr; 3n = 3m \n&rArr; n = m \nPutting n = m in (1), we have \n4m + m = 10 \n&rArr; 5m = 10 \n&rArr; m = 2 \n∴ n = m = 2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 78,
+    "isFree": true
+  },
+  {
+    "question": "If p(x) = 2 + 5x then p(2) + p(−2) − p(1).",
+    "answer": "Show Solutionp(x) = 2 + 5x\n∴ p(2) = 2 + 5 × 2\n= 2 + 10\n∴ p(2) = 12\np(&minus;2) = 2 + 5 × (&minus;2)\n= 2 &minus; 10\n∴ p(&minus;2) = &minus;8\np(1) = 2 + 5 × 1\n= 2 + 5\n= 7\n∴ p(2) + p(&minus;2) &minus; p(1) = 12 + (&minus;8) &minus; 7\n= 12 &minus; 8 &minus; 7\n= 12 &minus; 15\n∴ p(1) = &minus;3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 79,
+    "isFree": true
+  },
+  {
+    "question": "If p(x)=2x2-53x+5 then p(53)",
+    "answer": "Show Solutionp(x) = 2x² - 5√3 x + 5\n∴ p(5 √3) = 2 xx (5 √3)² - 5√3 xx 5√3 + 5\n= 2(25 × 3) &minus; (25 × 3) + 5\n= 2 × 75 &minus; 75 + 5\n= 150 &minus; 75 + 5\n= 80",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 80,
+    "isFree": true
+  },
+  {
+    "question": "Find the Factors of the Polynomial Given Below.",
+    "answer": "Show Solution2x2 + x &ndash; 1 \n= 2x2 + 2x - x - 1 ...\\[\\begin{array}{cc}\n\\ce{2 ×-1=-2}\\\\\n\\phantom{..........}/\\backslash\\\\\n\\phantom{...........}\\ce{2}\\phantom{..}\\ce{-1}\\phantom{}\n\\end{array}\\]\n= 2x (x + 1) - 1(x + 1)\n= (x + 1) (2x - 1)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 81,
+    "isFree": true
+  },
+  {
+    "question": "Find the factor of the polynomial given below. 2m2 + 5m – 3",
+    "answer": "Show Solution2m2 + 5m &ndash; 3 \n= 2m2 + 6m - m - 3\n= 2m (m + 3) - 1 (m + 3)\n= (m + 3) (2m - 1)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 82,
+    "isFree": true
+  },
+  {
+    "question": "Find the factor of the polynomial given below. 12x2 + 61x + 77",
+    "answer": "Show Solution12x2 + 61x + 77\n= 12x2 + 28x + 33x + 77\n= 4x (3x + 7) + 11 (3x + 7)\n= (3x + 7) (4x + 11)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 83,
+    "isFree": true
+  },
+  {
+    "question": "Find the factor of the polynomial given below. 3y2 – 2y – 1",
+    "answer": "Show Solution3y2 &ndash; 2y &ndash; 1 \n= 3y2 &ndash; 3y + y &ndash; 1\n= 3y (y &ndash; 1) + 1 (y &ndash; 1)\n= (y &ndash; 1) (3y + 1)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 84,
+    "isFree": true
+  },
+  {
+    "question": "Find the factor of the polynomial given below. 3x2+4x+3",
+    "answer": "Show Solution√3 x² + 4x + √3\n= √3 x² +3x + x + √3\n= √3 x² + √3 xx √3 x + x + √3\n= √3 x (x + √3) + 1 (x + √3)\n= (x + √3) (√3 x + 1)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 85,
+    "isFree": true
+  },
+  {
+    "question": "Find the factor of the polynomial given below. 1/2x^2 - 3x + 4",
+    "answer": "Show Solution1/2x² - 3x + 4\n= 1/2x² - 6/2x + 8/2\n= 1/2(x² - 6x + 8)\n= 1/2(x² - 4x - 2x + 8)\n= 1/2 x(x - 4) - 2(x - 4)\n= 1/2 (x - 4)(x - 2)\n= (x - 4)(1/2x - 1)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 86,
+    "isFree": true
+  },
+  {
+    "question": "Factorize the following polynomial. (x2 – x)2 – 8 (x2 – x) + 12",
+    "answer": "Show Solution(x2 &ndash; x)2 &ndash; 8 (x2 &ndash; x) + 12\nLet x2 &minus; x = z\n∴ (x2 &minus; x)2 &minus; 8 (x2 &minus; x) + 12\n= z2 &minus; 8z + 12\n= z2 &minus; 6z &minus; 2z + 12\n= z (z &minus; 6) &minus; 2 (z &minus; 6)\n= (z &minus; 6)(z &minus; 2)\n= (x2 &minus; x &minus; 6) (x2 &minus; x &minus; 2) ...(Replace z = x2 &minus; x)\n= (x2 &minus; 3x + 2x &minus; 6) (x2 &minus; 2x + x &minus; 2)\n= [x (x &minus; 3) + 2 (x &minus; 3)] [x (x &minus; 2) + 1 (x &minus; 2)]\n= (x &minus; 3) (x + 2) (x &minus; 2) (x + 1)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 87,
+    "isFree": true
+  },
+  {
+    "question": "Factorize the following polynomial. (x – 5)2 – (5x – 25) – 24",
+    "answer": "Show Solution(x &ndash; 5)2 &ndash; (5x &ndash; 25) &ndash; 24\n= (x &ndash; 5)2 &ndash; 5(x &ndash; 5) &ndash; 24\nLet x &ndash; 5 = z\n∴ (x &ndash; 5)2 &ndash; 5 (x &ndash; 5) &ndash; 24\n= z2 &ndash; 5z &ndash; 24\n= z2 &ndash; 8z + 3z &ndash; 24\n= z (z &ndash; 8) + 3 (z &ndash; 8)\n= (z &ndash; 8) (z + 3)\n= (x &ndash; 5 &ndash; 8) (x &ndash; 5 + 3) (Replace z = x - 5)\n= (x &ndash; 13) (x &ndash; 2)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 88,
+    "isFree": true
+  },
+  {
+    "question": "Factorize the following polynomial. (x2 – 6x)2 – 8 (x2 – 6x + 8) – 64",
+    "answer": "Show Solution(x2 &ndash; 6x)2 &ndash; 8 (x2 &ndash; 6x + 8) &ndash; 64\n= (x2 &ndash; 6x)2 &ndash; 8(x2 &ndash; 6x) &ndash; 64 &ndash; 64\n= (x2 &ndash; 6x)2 &ndash; 8(x2 &ndash; 6x) &ndash; 128\nLet x2 &ndash; 6x = z.\n∴ (x2 &ndash; 6x)2 &ndash; 8(x2 &ndash; 6x) &ndash; 128\n= z2 &ndash; 8z &ndash; 128\n= z2 &ndash; 16 z + 8z &ndash; 128\n= z(z &ndash; 16) + 8 (z &ndash; 16)\n= (z &ndash; 16) (z +8)\n= (x2 &ndash; 6x &ndash; 16) (x2 &ndash; 6x + 8) ...(Replace z = x2 &ndash; 6x)\n= (x2 &ndash; 8x + 2x &ndash; 16) (x2 &ndash; 4x &ndash; 2x + 8)\n= [x (x &ndash; 8) + 2 (x &ndash; 8)] [x (x &ndash; 4) &ndash; 2 (x &ndash; 4)]\n= (x &ndash; 8) (x + 2) (x &ndash; 4) (x &ndash; 2)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 89,
+    "isFree": true
+  },
+  {
+    "question": "Factorize the following polynomial. (x2 – 2x + 3) (x2 – 2x + 5) – 35",
+    "answer": "Show Solution(x2 &ndash; 2x + 3) (x2 &ndash; 2x + 5) &ndash; 35 \nLet x2 &ndash; 2x = z\n∴ (x2 - 2x + 3) (x2 - 2x + 5) - 35\n= (z + 3) (z + 5) - 35\n= z2 + 5z + 3z + 15 - 35\n= z2 + 8z - 20\n= z2 + 10z - 2z - 20\n= z (z + 10) - 2 (z + 10)\n= (z + 10) (z - 2)\n= (x2 - 2x + 10) (x2 - 2x - 2) (Replace z = x2 - 2x)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 90,
+    "isFree": true
+  },
+  {
+    "question": "Factorize the following polynomial. (y + 2) (y – 3) (y + 8) (y + 3) + 56",
+    "answer": "Show Solution(y + 2) (y &ndash; 3) (y + 8) (y + 3) + 56 \n= (y + 2) (y + 3) (y + 8) (y &ndash; 3) + 56\n= (y2 + 3y + 2y + 6) (y2 + 8y - 3y - 24) + 56\n= (y2 + 5y + 6) (y2 + 5y &ndash; 24) + 56\nLet y2 + 5y = z\n∴ (y2 + 5y + 6) (y2 + 5y - 24) + 56\n= (z + 6 ) (z - 24) + 56\n= z2 - 24z + 6z - 144 + 56\n= z2 - 18z - 144 + 56\n= z2 - 18z - 88\n= z2 - 22z + 4z - 88\n= z (z - 22) + 4 (z - 22)\n= (z - 22) (z + 4)\n= (y2 + 5y - 22) (y2 + 5y + 4) ...(Replace z = y2 + 5y)\n= (y2 + 5y - 22) (y2 + 4y + y + 4)\n= (y2 + 5y - 22) [y (y + 4) + 1 ( y + 4)] \n= (y2 + 5y - 22) (y + 4) (y + 1)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 91,
+    "isFree": true
+  },
+  {
+    "question": "Factorize the following polynomial. (y2 + 5y) (y2 + 5y – 2) – 24",
+    "answer": "Show Solution(y2 + 5y) (y2 + 5y &ndash; 2) &ndash; 24\nLet y2 + 5y = z\n∴ (y2 + 5y) (y2 + 5y &ndash; 2) &ndash; 24\n= z (z &ndash; 2) &ndash; 24\n= z2 &ndash; 2z &ndash; 24\n= z2 &ndash; 6z + 4z &ndash; 24\n= z (z &ndash; 6) + 4 (z &ndash; 6)\n= (z &ndash; 6) (z + 4)\n= (y2 + 5y &ndash; 6) (y2 + 5y + 4) ...(Replace z = y2 + 5y)\n= (y2 + 6y &ndash; y &ndash; 6) (y2 + 4y + y + 4)\n= [y (y + 6) &ndash; 1 (y + 6)] [y (y + 4) + 1 (y + 4)]\n= (y + 6) (y &ndash; 1) (y + 4) (y + 1)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 92,
+    "isFree": true
+  },
+  {
+    "question": "Factorize the following polynomial. (x – 3) (x – 4)2 (x – 5) – 6",
+    "answer": "Show Solution(x &ndash; 3) (x &ndash; 4)2 (x &ndash; 5) &ndash; 6 \n= (x &ndash; 3)(x &ndash; 5) (x &ndash; 4)2 &ndash; 6\n= (x2 &ndash; 8x + 15) (x2 &ndash; 8x + 16) &ndash; 6\nLet x2 &ndash; 8x = z\n∴ (x2 &minus; 8x + 15) (x2 &minus; 8x + 16) &minus; 6\n= (z + 15) (z + 16) &minus; 6\n= z2 + 31z + 240 &minus; 6\n= z2 + 31z + 234\n= z2 + 18z + 13z + 234\n= z(z + 18) 13(z + 18)\n= (z + 18) (z + 13)\n= (x2 &minus; 8x + 18) (x2 &minus; 8x + 13) ...(Replace z = x2 &minus; 8x)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 93,
+    "isFree": true
+  },
+  {
+    "question": "Which of the following is a polynomial? (A) x/y (B) x^(√2) - 3x (C) x^(-2) + 7 (D) √2 x^2 + 1/2",
+    "answer": "√2 x² + 1/2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 94,
+    "isFree": true
+  },
+  {
+    "question": "What is the degree of the polynomial 7?",
+    "answer": "0",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 95,
+    "isFree": true
+  },
+  {
+    "question": "What is the degree of the 0 polynomial?",
+    "answer": "undefinedany real number",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 96,
+    "isFree": true
+  },
+  {
+    "question": "What is the degree of the polynomial 2x2 + 5x3 + 7?",
+    "answer": "3257",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 97,
+    "isFree": true
+  },
+  {
+    "question": "What is the coefficient form of x3-1?",
+    "answer": "(1, 0, 0, -1)(1, 3, -1)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 98,
+    "isFree": true
+  },
+  {
+    "question": "Then p(x)=x2-77x+3 then p(77)=?",
+    "answer": "37√742 √7 + 349 √7",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 99,
+    "isFree": true
+  },
+  {
+    "question": "When x = −1, what is the value of the polynomial 2x3 + 2x?",
+    "answer": "&minus;4",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 100,
+    "isFree": true
+  },
+  {
+    "question": "If x - 1 is a factor of the polynomial 3x2+mx then find the value of m.",
+    "answer": "-33",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 101,
+    "isFree": true
+  },
+  {
+    "question": "Multiply (x2 - 3) (2x - 7x 3 + 4) and write the degree of the product.",
+    "answer": "5320",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 102,
+    "isFree": true
+  },
+  {
+    "question": "Which of the following is a linear polynomial?",
+    "answer": "x + 5x² + 5x³ + 5x⁴ + 5",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 103,
+    "isFree": true
+  },
+  {
+    "question": "Write the degree of the polynomial for the following. 5 + 3x4",
+    "answer": "Show SolutionThe highest power of the variable in a polynomial in one variable is called the degree of the polynomial.\nThe degree of the polynomial 5 + 3x4 is 4.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 104,
+    "isFree": true
+  },
+  {
+    "question": "Write the degree of the polynomial for the following. 7",
+    "answer": "Show SolutionThe highest power of the variable in a polynomial in one variable is called the degree of the polynomial.\n7 = 7 × 1 = 7x0 \nThe degree of the constant polynomial 7 is 0.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 105,
+    "isFree": true
+  },
+  {
+    "question": "Write the degree of the polynomial for the following. ax7 + bx9 (a, b are constants.)",
+    "answer": "Show SolutionThe degree of the polynomial ax7 + bx9 is 9.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 106,
+    "isFree": true
+  },
+  {
+    "question": "Write the following polynomial in standard form. 4x2 + 7x4 - x3 - x + 9",
+    "answer": "Show SolutionA polynomial written in either descending or ascending power of its variable is called the standard form of the polynomial.\nThe given polynomial is 4x2 + 7x4 &minus; x3 &minus; x + 9.\nThe standard form of the polynomial is 7x4 - x3 + 4x2 - x + 9.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 107,
+    "isFree": true
+  },
+  {
+    "question": "Write the following polynomial in standard form. p + 2p3 + 10p2 + 5p4 - 8",
+    "answer": "Show SolutionA polynomial written in either descending or ascending power of its variable is called the standard form of the polynomial.\nThe given polynomial is p + 2p3 + 10p2 + 5p4 - 8.\nThe standard form of the polynomial is \n5p4 + 2p3 + 10p2 + p - 8.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 108,
+    "isFree": true
+  },
+  {
+    "question": "Write the following polynomial in coefficient form. x4 + 16",
+    "answer": "Show Solutionx⁴ + 16 = x⁴ + 0x³ + 0x² + 0x +16\nTherefore, the given polynomial in coefficient form is (1, 0, 0, 0, 16).",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 109,
+    "isFree": true
+  },
+  {
+    "question": "Write the following polynomial in coefficient form. m5 + 2m2 + 3m + 15",
+    "answer": "Show Solutionm5 + 2m2 + 3m + 15\nCoefficient form of polynomial = m5 + 0m4 + 0m3 + 2m2 + 3m + 15\nTherefore, the given polynomial in coefficient form is (1, 0, 0, 2, 3, 15)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 3 - Polynomials [Latest edition]",
+    "questionNumber": 110,
+    "isFree": true
+  }
+]

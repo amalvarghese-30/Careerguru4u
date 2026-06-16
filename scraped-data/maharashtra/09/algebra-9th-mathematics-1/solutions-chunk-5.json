@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Write the Following Ratio in the Reduced Form. The ratio of diagonal to the length of a rectangle, having length 4 cm and breadth 3 cm.",
+    "answer": "Show SolutionLength of the rectangle, l = 4 cm\nBreadth of the rectangle, b = 3 cm\nNow,\nDiagonal of the rectangle = √ [l² + b²]\n= √ [ 3² + 4²]\n = √ [ 9 + 16]\n= √25\n= 5 cm\n∴ Ratio of diagonal to the length of the rectangle = Diagonal of the rectangle : Length of the rectangle = 5 cm : 4 cm = 5 : 4.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 85,
+    "isFree": true
+  },
+  {
+    "question": "Write the following ratio in the reduced form. The ratio of perimeter to the area of a square, having side 4 cm.",
+    "answer": "Show SolutionSide of the square = 4 cm\nPerimeter of the square = 4 × Side of the square = 4 × 4 cm = 16 cm\nArea of the square = (Side of the square)2 = (4 cm)2 = 16 cm2\n∴ Ratio of perimeter to area of the square = Perimeter of the square : Area of the square = 16 : 16 = 1 : 1",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 86,
+    "isFree": true
+  },
+  {
+    "question": "Check whether the following numbers are in continued proportion. 2, 4, 8",
+    "answer": "Show SolutionThe numbers a, b, c are in continued proportion if a/b = b/c.\n2/4 = 1/2\n4/8 = 1/2\nSince 2/4 = 4/8, so the numbers 2, 4, 8 are in continued proportion.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 87,
+    "isFree": true
+  },
+  {
+    "question": "Check whether the following numbers are in continued proportion. 1, 2, 3",
+    "answer": "Show SolutionSince 1/2 ≠ 2/3, so the numbers 1, 2, 3 are not in continued proportion.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 88,
+    "isFree": true
+  },
+  {
+    "question": "Check whether the following numbers are in continued proportion. 9, 12, 16",
+    "answer": "Show SolutionThe numbers a, b, c are in continued proportion if a/b = b/c\n9/12 = 3/4\n12/16 = 3/4\nSince 9/12 = 12/16, so the numbers 9, 12, 16 are in continued proportion.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 89,
+    "isFree": true
+  },
+  {
+    "question": "Check whether the following numbers are in continued proportion. 3, 5, 8",
+    "answer": "Show SolutionSince 3/5 ≠ 5/8, so the numbers 3, 5, 8 are not in continued proportion.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 90,
+    "isFree": true
+  },
+  {
+    "question": "A, b, c are in continued proportion. If a = 3 and c = 27 then find b.",
+    "answer": "Show SolutionIt is given that 3, b, 27 are in continued proportion.\ntherefore 3/b = b/27\n&rArr; b² = 3 xx 27\n&rArr; b² = 81\n&rArr; b = √81 = 9\nThus, the value of b is 9.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 91,
+    "isFree": true
+  },
+  {
+    "question": "Convert the following ratio into percentage. 37 : 500",
+    "answer": "Show Solution37 : 500\n= 37/500 xx 100 %\n= 37/5 %\n= 7.4%",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 92,
+    "isFree": true
+  },
+  {
+    "question": "Convert the following ratio into percentage. 58",
+    "answer": "Show Solution5/8\n= 5/8 xx 100 %\n= 500/8 %\n= 62.5 %",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 93,
+    "isFree": true
+  },
+  {
+    "question": "Convert the following ratio into percentage. 2230",
+    "answer": "Show Solution22/30\n= 22/30 xx 100 %\n= 2200/30 %\n= 73.33 %",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 94,
+    "isFree": true
+  },
+  {
+    "question": "Convert the following ratio into percentage. 516",
+    "answer": "Show Solution5/16\n= 5/16 xx 100 %\n= 500/16 %\n= 31.25%",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 95,
+    "isFree": true
+  },
+  {
+    "question": "Convert the following ratio into percentage. 1441200",
+    "answer": "Show Solution144/1200\n= 144/1200 xx 100 %\n= 144/12 %\n= 12%",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 96,
+    "isFree": true
+  },
+  {
+    "question": "Write the ratio of first quantity to second quantity in the reduced form. 1024 MB, 1.2 GB (1024 MB = 1 GB)",
+    "answer": "Show SolutionRatio of 1024 MB to 1.2 GB\n= 1024 MB : 1.2 × 1024 MB\n= 1024/[1.2 xx 1024]\n= 1/1.2\n= 10/12\n= 5/6\n= 5 : 6.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 97,
+    "isFree": true
+  },
+  {
+    "question": "Write the ratio of first quantity to second quantity in the reduced form. 17 Rupees, 25 Rupees 60 paise",
+    "answer": "Show Solution17 Rupees = 1700 paise (Rs 1 = 100 paise)\n25 Rupees 60 paise = 25 Rupees + 60 paise = 2500 paise + 60 paise = 2560 paise\n∴ Ratio of 17 Rupees to 25 Rupees 60 paise\n= 1700 paise : 2560 paise\n= 1700/2560\n= [1700 ÷ 20]/[ 2560 ÷ 20] ...(HCF of 1700 and 2560 = 20)\n= 85/128\n= 85 : 128",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 98,
+    "isFree": true
+  },
+  {
+    "question": "Write the ratio of first quantity to second quantity in the reduced form. 5 dozen, 120 units",
+    "answer": "Show SolutionRatio of 5 dozen to 120 units\n= 5 × 12 units : 120 units\n= 60 units : 120 units\n= 60/120\n= 1/2\n= 1 : 2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 99,
+    "isFree": true
+  },
+  {
+    "question": "Write the ratio of first quantity to second quantity in the reduced form. 4 sq.m, 800 sq.cm",
+    "answer": "Show Solution1 \"sq.m\"² = 10000 \"sq.cm\"²\n4 \"sq.m\"² = 4 xx 10000 \"sq.cm\"² = 40000 \"sq.cm\"²\ntherefore Ratio of 4 \"sq.m\"² to 800 \"sq.cm\"²\n= 40000 \"sq.cm\"² : 800 \"sq.cm\"²\n= 40000 /800\n= 50\n= 50 : 1",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 100,
+    "isFree": true
+  },
+  {
+    "question": "Write the ratio of first quantity to second quantity in the reduced form. 1.5 kg, 2500 gm",
+    "answer": "Show Solution1.5 kg = 1.5 × 1000 g = 1500 g\n∴ Ratio of 1.5 kg to 2500 g\n= 1500 g : 2500 g\n= 1500/2500\n= 3/5\n= 3 : 5",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 101,
+    "isFree": true
+  },
+  {
+    "question": "If ab=23 then find the value of the following expression. 4a+3b3b",
+    "answer": "Show Solutiona/b = 2/3\n&rArr; [4a]/[3b] = [4 xx 2]/[ 3 xx 3] = 8/9\nApplying componendo, we get\n[ 4a + 3b]/(3b) = [ 8 + 9]/9\n&rArr; [ 4a + 3b]/(3b) = [ 17 ]/9",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 102,
+    "isFree": true
+  },
+  {
+    "question": "If ab=23 then find the value of the following expression. 5a2+2b25a2-2b2",
+    "answer": "Show Solutiona/b = 2/3\nSquaring both sides,\n&rArr; a²/b² = 4/9 \n&rArr; (5a²)/(2b²) = [5 xx 4]/[2 xx 9]\n&rArr; (5a²)/(2b²) = 20/18 \nApplying componendo and dividendo, we get\n[5a² + 2b²]/[ 5a² - 2b²] = [20+18]/[20-18]\n&rArr; [5a² + 2b²]/[ 5a² - 2b²] = [38]/[2]\n&rArr; [5a² + 2b²]/[ 5a² - 2b²] = 19",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 103,
+    "isFree": true
+  },
+  {
+    "question": "If abab=23 then find the values of the following expression a3+b3b3",
+    "answer": "Show Solutiona/b = 2/3\n∴ a³/b³ = 8/27 ...(Cubing both sides)\nApplying componendo, we get\n[a³ + b³]/b³ = [8 + 27]/27 \n[a³ + b³]/b³ = 35/27",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 104,
+    "isFree": true
+  },
+  {
+    "question": "If ab=23 then find the value of the following expression. 7b-4a7b+4a",
+    "answer": "Show Solutiona/b = 2/3\nApplying invertendo, we get\nb/a = 3/2\n= [7b]/[ 4a] = [ 7 xx 3]/[ 4 xx 2] = 21/8\nApplying componendo and dividendo, we get\n=[ 7b + 4a ]/[ 7b - 4a ] = [ 21 + 8 ]/[ 21 - 8]\n=[ 7b + 4a ]/[ 7b - 4a ] = 29/13\nApplying invertendo, we get\n=[ 7b - 4a ]/[ 7b + 4a ] = 13/29",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 105,
+    "isFree": true
+  },
+  {
+    "question": "If a, b, c, d are in proportion, then prove that 11a2+9ac11b2+9bd=a2+3acb2+3bd",
+    "answer": "Show SolutionIt is given that a, b, c, d are in proportion.\ntherefore a/b = c/d = k\n&rArr; a = bk, c = dk\n∴ [ 11a² + 9ac]/[ 11b² + 9bd]\n= [11(bk)² + 9 xx bk xx dk]/[ 11b² +9bd]\n= [k²(11b² + 9bd)]/[11b² + 9bd]\n= k² ...(1)\n∴ [a² + 3ac]/[ b² + 3bd]\n= [(bk)² + 3 xx bk xx dk]/[ b² + 3bd]\n= [k²( b² + 3bd)]/[b² + 3bd ]\n= k² ...(2)\nFrom (1) and (2), we get\n[ 11a² + 9ac]/[ 11b² + 9bd] = [ a² + 3ac]/[ b² + 3bd]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 106,
+    "isFree": true
+  },
+  {
+    "question": "If a, b, c, d are in proportion, then prove that a2+5c2b2+5d2=ab",
+    "answer": "Show SolutionIt is given that a, b, c, d are in proportion.\ntherefore a/b = c/d = k\n&rArr; a = bk, c = dk\n√[( a² + 5c²)/( b² + 5d²)]\n= √[(bk)² + 5(dk)²]/(b² + 5d² )\n= √[k²( b² + 5d²)]/(b² + 5d²)\n= √(k²)\n= k ...(1)\na/b = [bk]/b = k ...(2)\nFrom (1) and (2), we get\n√([a² + 5c²]/[b² + 5d²]) = a/b",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 107,
+    "isFree": true
+  },
+  {
+    "question": "If a, b, c, d are in proportion, then prove that a2+ab+b2a2-ab+b2=c2+cd+d2c2-cd+d2",
+    "answer": "Show SolutionIt is given that a, b, c, d are in proportion.\ntherefore a/b = c/d = k\n&rArr; a = bk , c = dk\nLHS = [a² + ab + b²]/[a² - ab + b²]\n= [(bk)² + bk xx b + b²]/[(bk)² - bk xx b + b²]\n= [b²(k² + k + 1)]/[b²(k² + k + 1 )]\n= [ k²+k+1 ]/[ k² - k +1 ] ....(1)\nRHS = [c² + cd + d² ]/[ c² - cd + d² ]\n= [(dk)² + dk xx d + d²]/[(dk)² - dk xx d + d² ]\n= [d²(k² + k + 1)]/[d²(k² - k + 1 )]\n= [k²+k+1]/[k² - k +1] ...(2)\nLHS = RHS\nFrom (1) and (2), we get\n[a² + ab + b²]/[a² - ab + b²] = [c² + cd + d² ]/[ c² - cd + d² ]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 108,
+    "isFree": true
+  },
+  {
+    "question": "If a, b, c are in continued proportion, then prove that aa+2b=a-2ba-4c",
+    "answer": "Show Solutiona, b, c are in continued proportion.\ntherefore a/b = b/c = k\n&rArr; a = bk, b = ck\n&rArr; a = bk = ck xx k = ck²\nLHS = a/[ a + 2b] = [ck²]/[ ck² + 2 xx ck ]\n= [ck²]/[ ck( k + 2) ]\n= k/( k + 2) ...(1)\nRHS = [ a - 2b]/[ a - 4c ] = [ ck² - 2 xx ck]/[ ck² - 4c ]\n= [ck( k -2)]/[c(k² - 4)]\n= [k( k -2)]/[(k+2)(k-2)]\n= k/(k + 2) ...(2)\nFrom (1) and (2), we get\na/[ a + 2b] = [a - 2b]/[ a - 4c]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 109,
+    "isFree": true
+  },
+  {
+    "question": "If a, b, c are in continued proportion, then prove that bb+c=a-ba-c",
+    "answer": "Show Solutiona, b, c are in continued proportion.\ntherefore a/b = b/c = k\n&rArr; a = bk, b = ck\n&rArr; a = bk = ck xx k = ck²\nLHS = b/[ b + c] = [ck]/[ ck + c] \n= [ck]/[ c( k + 1)]\n= k/( k + 1) ..(1)\nRHS = [ a - b]/[ a - c ] = [ ck² - ck]/[ ck² - c ]\n= [ck( k -1)]/[c(k² - 1)]\n= [k( k -1)]/[(k-1)(k+1)]\n= k/(k + 1) ...(2)\nFrom (1) and (2), we get\nb/[b+c] = [a-b]/[a-c]",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 110,
+    "isFree": true
+  },
+  {
+    "question": "Solve: 12x2+18x+4218x2+12x+58=2x+33x+2",
+    "answer": "Show Solution[12x² + 18x + 42]/[ 18 x² + 12x +58 ] = [ 2x + 3]/[ 3x + 2]\nIf x = 0, then [12 xx 0 + 18 xx 0 + 42]/[ 18 xx 0 + 12 xx 0 +58 ] = [ 2 xx 0+ 3]/[ 3 xx 0 + 2] &rArr; 42/58 = 3/2, which is not true.\nSo, x = 0 is not a solution of the given equation.\nNow,\n[12x² + 18x + 42]/[ 18 x² + 12x +58 ] = [ 2x + 3]/[ 3x + 2] = [6x ( 2x + 3)]/[6x( 3x + 2)] ....(by Theorem of equal ratios)\n&rArr; [12x² + 18x + 42]/[ 18 x² + 12x +58 ] = [ 2x + 3]/[ 3x + 2] = [(12x² + 18x + 42) - 6x ( 2x + 3)]/[(18 x² + 12x +58) - 6x( 3x + 2)] \n&rArr; [12x² + 18x + 42]/[ 18 x² + 12x +58 ] = [ 2x + 3]/[ 3x + 2] = (12x² + 18x + 42 - 12x² + 18x )/(18 x² + 12x +58 - 18x² - 12x )\n&rArr; [12x² + 18x + 42]/[ 18 x² + 12x +58 ] = [ 2x + 3]/[ 3x + 2] = 42/58\ntherefore [ 2x + 3]/[ 3x + 2] = 42/58\n&rArr; [ 2x + 3]/[ 3x + 2] = 21/29\n&rArr; 58x +87 = 63x + 42\n&rArr; 63x - 58x = 87 - 42\n&rArr; 5x = 45\n&rArr; x = 9\nThus, the solution of the given equation is x = 9.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 111,
+    "isFree": true
+  },
+  {
+    "question": "If 2x-3y3z+y=z-yz-x=x+3z2y-3x then prove that every ratio = xy.",
+    "answer": "Show Solution[ 2x - 3y ]/[ 3z + y] = [ z - y ]/[ z - x ] = [ x + 3z ]/[ 2y - 3x]\n&rArr; [ 2x - 3y]/[ 3z + y] = [3( z - y)]/[ 3( z - x)] = [ x + 3z ]/[ 2y - 3x] ...by theorem of equal ratios,\n&rArr; {2x - 3y - 3( z - y) + x + 3z }/{ 3z + y - 3( z - x) + 2y - 3x }\n&rArr; {2x - 3y - 3z + 3y + x + 3z }/{ 3z + y - 3z + 3x + 2y - 3x }\n&rArr; (3x)/(3y)\n&rArr; x / y",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 112,
+    "isFree": true
+  },
+  {
+    "question": "If by+czb2+c2=cz+axc2+a2=ax+bya2+b2 then prove that xa=yb=zc",
+    "answer": "Show Solution[by + cz]/[b² + c²] = [cz + ax]/[c² + a²] = [ax + by]/[a² + b²]\nBy theorem of equal ratios,\n&rArr; [ by + cz ]/[ b² + c²] = [ cz + ax ]/[ c² + a²] = [ ax + by ]/[ a² + b² ] = [(by + cz) +(cz + ax) + (ax + by)]/[( b² + c²) + ( c² + a²) + (a² + b² )] \n&rArr; [ 2ax + 2by + 2cz ]/[ 2a² + 2b² + 2c²] \n&rArr; [ 2(ax + by + cz) ]/[ 2(a² + b² + c²)]\n&rArr; [(ax + by + cz) ]/[(a² + b² + c²)] \nAgain applying theorem of equal ratios, we get\n&rArr; [( by + cz )- (ax + by + cz)]/[(b² + c²) - (a² + b² + c²)] = [(cz + ax) - (ax + by + cz)]/[(c² + a²) - (a² + b² + c²)] = [(ax + by) - (ax + by + cz)] /[(a² + b²) - (a² + b² + c²)]\n&rArr; (-ax)/(-a²) = (-by)/(-b²) = (-cz)/(-c²)\n&rArr; x/a = y/b = z/c",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 4 - Ratio and Proportion [Latest edition]",
+    "questionNumber": 113,
+    "isFree": true
+  },
+  {
+    "question": "By using variables x and y form any five linear equations in two variables.",
+    "answer": "Show SolutionLinear equations in two variables x and y will be:\n x + y= 1\n2x + y = 4\nx - y = 6\n5x - 2y = 3\n4x + 7y = 7",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Write five solutions of the equation x + y = 7.",
+    "answer": "Show SolutionThe given equation is x + y = 7.\nThe possible solutions are:\n\nX\n0\n7\n1\n6\n4\n\nY\n7\n0\n6\n1\n3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following set of simultaneous equation. x + y = 4 ; 2x - 5y = 1",
+    "answer": "1Show Solutionx + y = 4 ...(I)\n2x - 5y = 1 ...(II)\nFrom (I) we have\nx = 4 - y\nPutting this value of x in (II)\n2 (4 - y) - 5y = 1\n&rArr; 8 - 2y - 5y = 1\n&rArr; 8 - 7y = 1\n&rArr; 8 - 1 = 7y\n&rArr; 7 = 7y\n&rArr; y = 1\nPutting the value of y in (I) we have\nx + 1 = 4\n&rArr; x = 3\nThus, (x, y) = (3, 1)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following set of simultaneous equation. 2x + y = 5; 3x - y = 5",
+    "answer": "1Show Solution2x + y = 5 \n∴ y = 5 - 2x ...(I)\n3x - y = 5 ...(II)\nSubstituting (I) in (II)\n3x - y = 5\n∴ 3x - (5 - 2x) = 5\n∴ 3x - 5 + 2x = 5\n∴ 5x = 5 + 5\n5x = 10\n&rArr; x = 10/5 = 2 \nPutting x = 2 in (I) we have,\n2 × 2 + y = 5\n&rArr; 4 + y = 5\n&rArr; y = 1\n(x, y) = (2, 1)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following set of simultaneous equation. 3x - 5y = 16; x - 3y = 8",
+    "answer": "1Show Solution3x - 5y = 16 ...(1)\nx - 3y = 8 ...(2)\nFrom (2), x = 8 + 3y ...(3)\nsubstituting equation 3 in equation 1, we get\n3(8 + 3y) &minus; 5y = 16\n24 + 9y &minus; 5y = 16\n9y &minus; 5y = 16 &minus; 24\n4y = &minus;8\ny = (&minus; 8)/4\ny = &minus;2\nsubstituting y = &minus;2 in equation 3, we get\nx = 8 + 3y\nx = 8 + 3 × (&minus;2)\nx = 8 &minus; 6\nx = 2\nTherefore, x = 2 and y = &minus;2.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following set of simultaneous equations. 2y − x = 0; 10x + 15y = 105",
+    "answer": "1Show Solution2y &minus; x = 0\n2y = x\n∴ x = 2y ...(I)\n10x + 15y = 105 ...(II)\nPutting x = 2y in equation (II)\n10 × 2y + 15y = 105\n20y + 15y = 105\n35y = 105\ny = 105/35\n∴ y = 3\nPutting y = 3 in equation (I)\nx = 2 × 3 = 6\n∴ (x, y) = (6, 3)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following set of simultaneous equation. 2x + 3y + 4 = 0; x − 5y = 11",
+    "answer": "1Show Solution2x + 3y + 4 = 0 ...(I)\nx &minus; 5y = 11 ...(II)\nx = 11 + 5y ...(III)\nPutting x = 11 + 5y in equation (I)\n2(11 + 5y) + 3y = &minus;4\n22 + 10y + 3y = &minus;4\n22 + 13y = &minus;4\n13y = &minus; 4 &minus; 22\n13y = &minus;26\ny = &minus;26/13\ny = &minus;2\nPutting y = &minus;2 in equation (III)\nx = 11 + 5 × (&minus;2)\n= 11 + (&minus;10)\nx = 1\n∴ (x, y) = (1, &minus;2)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following set of simultaneous equation. 2x - 7y = 7; 3x + y = 22",
+    "answer": "1Show Solution2x &minus; 7y = 7 ...(I)\n3x + y = 22 ...(II)\ny = 22 &minus; 3x ...(III)\nPutting y = 22 &minus; 3x in equation (I)\n2x &minus; 7(22 &minus; 3x) = 7\n2x &minus; 154 + 21x = 7 \n23x = 7 + 154\n23x = 161\nx = 161/23\nx = 7\nPutting x = 7 in equation (III)\ny = 22 &minus; 3 × 7\ny = 22 &minus; 21\ny = 1\n∴ (x, y) = (7, 1)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "In an envelope there are some 5 rupee notes and some 10 rupee notes. Total amount of these notes together is 350 rupees. Number of 5 rupee notes are less by 10 than twice number of 10 rupee notes.",
+    "answer": "Show SolutionLet the number of Rs 5 notes be x and the number of Rs 10 notes be y.\n5x + 10y = 350 ...(I) \nNumber of 5 rupee notes are less by 10 than twice number of 10 rupee notes\n∴ x = 2y &ndash; 10\n∴ x &ndash; 2y = &ndash;10 ...(II)\nMultiplying equation (II) by 5,\n5x &ndash; 10y = &ndash;50 ...(III)\nAdding equations (I) and (III)\n 5x + 10y = 350\n+ 5x &ndash; 10y = &ndash;50 \n 10x = 300 \n∴ x =300/10\n∴ x = 30\nSubstituting x = 30 in equation (II),\nx &ndash; 2y = &ndash;10\n30 &ndash; 2y = &ndash;10\n∴ 30 + 10 = 2y\n∴ 40 = 2y\n∴ y = 40/2\n∴ y = 20\nNumber of Rs 5 notes = 30, number of Rs 10 notes = 20",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "The denominator of a fraction is 1 less than twice its numerator. If 1 is added to numerator and denominator respectively, the ratio of numerator to denominator is 3 : 5. Find the fraction.",
+    "answer": "Show SolutionLet numerator of fraction be x and its denominator be y.\nrequired fraction = \"x\"/\"y\"\ny = 2x - 1\n2x - y = 1 ...(1)\n(\"x\" + 1)/(\"y\" + 1) = 3/5 \n ∴ 5 (x + 1) = 3 (y + 1)\n ∴ 5x + 5 = 3y + 3\n ∴ 5x - 3y = 3 - 5\n ∴ 5x - 3y = - 2 ...(2)\nMultiply equation (1) by (3)\n6x - 3y = 3 ...(3)\nSubtracting equation (2) from (3)\n6x &minus; 3y = 3\n5x &minus; 3y = &minus;2\n&minus; + + \nx = 5\n∴ x = 5 \nPutting x = 5 in equation (1)\n∴ 2 (5) - y = 1\n∴ 10 - y = 1\n∴ - y = - 9\n y = 9 \n∴ required fraction is \"x\"/\"y\" = 5/9",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "The sum of ages of Priyanka and Deepika is 34 years. Priyanka is elder to Deepika by 6 years. Then find their today&#x27;s ages.",
+    "answer": "Show SolutionLet the age of Priyanka be x years and that of Deepika be y years. \nThe sum of ages of Priyanka and Deepika is 34 years.\nx + y = 34 ...(I)\nPriyanka is elder to Deepika by 6 years.\nx - y = 6 ...(II)\nAdding (I) and (II) we have\n x + y = 34 ...(I)\n+ x - y = 6 ...(II)\n2x = 40\n∴ 2x = 40\n&rArr; x = 20\nPutting the value of x = 20 in (II) we have\nx - y = 6\n20 - y = 6\n20 - 6 = y\ny = 14\nThus, Priyanka's age = 20 years and Deepika's age = 14 years.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "The total number of lions and peacocks in a certain zoo is 50. The total number of their legs is 140. Then find the number of lions and peacocks in the zoo.",
+    "answer": "Show SolutionLet the number of lions be x and the number of peacocks be y. \nThe total number of lions and peacocks in a certain zoo is 50. \nSo, x + y = 50 ...(I)\nThe total number of their legs is 140. \nLion has 4 legs while peacock has 2.\n4x + 2y = 140\n&rArr; 2x + y = 70 ...(II) \nSubtracting (I) from (II) we have\nx + y = 50\n2x + y = 70\n&minus; &minus; &minus; \n&minus;x = &minus;20\n∴ x = 20\nPutting x = 20 in equation (I)\n20 + y = 50\ny = 50 - 20\ny = 30\nThus, the number of lions = 20 and the number of peacocks = 30.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Sanjay Gets Fixed Monthly Income. Every Year There is a Certain Increment in His Salary.",
+    "answer": "Show SolutionLet the fixed monthly income be Rs x. \nAnnual increment be Rs y. \nAfter 4 years, his monthly salary was Rs. 4500 \nMonthly salary + annual increment of 4 years = 4500\nx + 4y = 4500 ...(I)\nAfter 10 years his monthly salary became 5400 rupees\nMonthly salary + annual increment of 10 years = 5400\nx + 10y = 5400 ...(II)\nSubtracting I from II\nx + 4y = 4500\nx + 10y = 5400\n&minus; &minus; &minus; \n &minus;6y = &minus;900\n∴ y = 150\nput y = 150 in equation (I)\nx + 4y = 4500\nx + 4 × 150 = 4500\nx + 600 = 4500\nx = 4500 &minus; 600\nx = 3900\nThus, the monthly salary = Rs. 3900\nAnnual increment = Rs.150",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "The price of 3 chairs and 2 tables is 4500 rupees and price of 5 chairs and 3 tables is 7000 rupees, then find the price of 2 chairs and 2 tables.",
+    "answer": "Show SolutionLet the price of 1 chair be Rs x and the price of 1 table be Rs y. \nThe price of 3 chairs and 2 tables is 4500 rupees\n3x + 2y = 4500 ...(I)\nPrice of 5 chairs and 3 tables is 7000 rupees\n5x + 3y = 7000 ...(II)\nMultiply (I) with 3 and (II) with 2\n9x + 6y = 13500 ...(III)\n10x + 6y = 14000 ...(IV)\nsubtracting IV from III\n9x + 6y = 13500\n10x + 6y = 14000\n&minus; &minus; &minus; \n&minus;x = &minus;500\n∴ x = 500\nPutting this value of x in I\n3 × 500 + 2y = 4500\n&rArr; 1500 + 2y = 4500\n&rArr; 2y = 4500 - 1500 = 3000\n&rArr; y = 1500\nPrice of 2 chairs and 2 tables will be\n= 2x + 2y\n= 2(x + y)\n= 2 (500 + 1500) \n= 2 × 2000\n= 4000\nThus, the price of 2 chairs and 2 tables will be Rs 4000.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "The Sum of the Digits in a Two-digits Number is 9. the Number Obtained by Interchanging the Digits Exceeds the Original Number by 27. Find the Two-digit Number.",
+    "answer": "Show SolutionStep 1: Write the conditions as equations\n\nThe sum of the digits is 9: x + y = 9.\nThe number obtained by interchanging the digits exceeds the original number by 27: 10y + x = 10x + y + 27.\n\nStep 2: Simplify the second equation\n10y + x = 10x + y + 27.\n10y &minus; y = 10x &minus; x + 27,\n9y = 9x + 27.\ny = x + 3\nStep 3: Solve the system of equations\n\nx + y = 9,\ny = x + 3\n\nSubstitute y = x + 3 into x + y = 9:\nx + (x + 3) = 9\n2x + 3 = 9\n2x = 6 &rArr; x = 3\nSubstitute x = 3 into y = x + 3:\ny = 3 + 3 = 6\n10x + y = 10(3) + 6 = 36.\nThe two-digit number is 36.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "In Δ Abc, the Measure of Angle a is Equal to the Sum of the Measures of ∠ B and ∠ C. Also the Ratio of Measures of ∠ B and ∠ C is 4 : 5. Then Find the Measures of Angles of the Triangle.",
+    "answer": "Show Solution∠A = ∠B +∠C ...(i)\n(∠\"B\")/(∠\"C\") = 4/5\n&rArr; 5∠B = 4∠C ...(ii)\n&rArr; 5/4∠B = ∠C ...(iii)\nWe know by angle sum property, \n∠A + ∠B + ∠C = 180°\nFrom (I) \n∠B + ∠C + ∠B + ∠C = 180°\n&rArr; 2 (∠B + ∠C) = 180°\n&rArr; 2 (∠\"B\" + (5∠\"B\")/4) = 180° ...[From (iii)]\n&rArr; ∠\"B\" + (5∠\"B\")/4 = 90°\n&rArr; 4∠B + 5∠B = 360°\n&rArr; 9∠B = 360°\n∴ ∠B = 40°\n∴ 5∠B = 4∠C ...[From (ii)]\n&rArr; 5 × 40° = 4 ∠C\n&rArr; 200° = 4 ∠C\n&rArr; (200°)/4 = ∠C\n∴ ∠C = 50°\nAnd ∠A = ∠B + ∠C ...[From (i)]\n∠A = 40° + 50°\n∴ ∠A = 90°.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Divide a Rope of Length 560 Cm into 2 Parts Such that Twice the Length of the Smaller Part is Equal to 1 3 of the Larger Part. Then Find the Length of the Larger Part.",
+    "answer": "Show SolutionLet the length of the smaller part of the rope be &lsquo;x&rsquo; cm and that of the larger part be &lsquo;y&rsquo; cm.\nAccording to the first condition,\nThe total length of the rope is 560 cm.\n∴ x + y = 560 ...(i)\nTwice the length of the smaller part = 2x\n1/3 rd length of the larger part = 1/3y\nAccording to the second condition,\n2x = 1/3y\n∴ 2x × 3 = y\n∴ 6x &ndash; y = 0 ...(ii)\nAdding equations (i) and (ii),\nx + y = 560\n6x &minus; y = 0\n+__________\n7x = 560\nx = 560/7\n∴ x = 80\nSubstituting x = 80 in equation (ii),\n6x &ndash; y = 0\n∴ 6(80) &ndash; y = 0\n∴ 480 &ndash; y = 0\n∴ y = 480\n∴ The length of the larger part of the rope is 480 cm.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "In a competitive examination, there were 60 questions. The correct answer would carry 2 marks, and for incorrect answer 1 mark would be subtracted.",
+    "answer": "Show SolutionLet the number of correct answers be x and the number of incorrect answers be y. \nTotal answers = Number of correct + number of incorrect =\nx + y = 60 ...(I)\nTotal marks obtained = 90\n2x - y = 90 ...(II)\nAdding (I) and (II) we have\nx + y = 60\n2y &minus; y = 90\n+ \n3x = 150\nx = 150/3\n&rArr; x = 50\nSubstituting x = 50 in equation (I)\nx + y = 60\n50 + y = 60\ny = 60 - 50\ny = 10\nNumber of questions he got wrong is 10.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "If 3x + 5y = 9 and 5x + 3y = 7 then What is the value of x + y?",
+    "answer": "21697",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "&#x27;When 5 is subtracted from length and breadth of the rectangle, the perimeter becomes 26.&#x27; What is the mathematical form of the statement?",
+    "answer": "x + y = 232x + y = 21",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Ajay is younger than Vijay by 5 years. Sum of their ages is 25 years. What is Ajay&#x27;s age?",
+    "answer": "105",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. x - 2y = -1 ; 2x - y = 7",
+    "answer": "Show Solutionx - 2y = -1 ...(I)\n2x - y = 7 ...(II)\nMultiply (I) with 2,\n2x - 4y = -2 ....(III)\nSubtracting (III) from (II)\n2x - y = 7\n2x - 4y = -2\n- + + \n3y = 9\n∴ y = 3\nPutting the value of y in (I) we get,\n∴ x - 2y = -1\n&rArr; x - 2 × 3 = -1\n&rArr; x - 6 = -1\n&rArr; x = -1 + 6\n&rArr; x = 5",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. x + y = 11 ; 2x - 3y = 7",
+    "answer": "Show Solutionx + y = 11 ...(I)\n2x - 3y = 7 ...(II)\nMultiply (I) with 3\n3x + 3y = 33 ...(III)\nAdding (II) and (III)\n2x - 3y = 7\n3x + 3y = 33\n+ \n5x = 40\nx = 40/5\n&rArr; x = 8\nPutting the value of x in (I)\n8 + y = 11\ny = 11 - 8\n&rArr; y = 3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. 2x + y = -2 ; 3x - y = 7",
+    "answer": "Show Solution2x + y = -2 ...(I)\n3x - y = 7 ...(II)\nAdding (I) and (II)\n5x = 5\n&rArr; x = 1\nPutting the value of x in (I)\n2 × 1 + y = -2\n&rArr; 2 + y = -2\n&rArr; y = - 4",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. 2x - y = 5 ; 3x + 2y = 11",
+    "answer": "Show Solution2x - y = 5 ...(I)\n3x + 2y = 11 ...(II)\nMultiplying (I) with 2 we get\n4x - 2y = 10 ...(III)\nAdding (II) with (III)\n 3x + 2y = 11\n+ 4x - 2y = 10\n 7x = 21\n&rArr; x = 3\nPutting the value of x in (I) we get\n∴ 2x - y = 5 \n&rArr; 2 × 3 - y = 5\n&rArr; 6 - y = 5\n&rArr; y = 1",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. x - 2y = - 2 ; x + 2y = 10",
+    "answer": "Show Solutionx &minus; 2y = &minus;2 ...(I)\nx + 2y = 10 ...(II)\nAdding (I) and (II)\n x &minus; 2y = &minus;2\n+ x + 2y = 10 \n 2x = 8\n&rArr; x = 4\nPutting the value of x in (I) we get\n∴ x - 2y = &minus;2\n&rArr; 4 &minus; 2y = &minus;2\n&rArr; &minus;2y = &minus;6\n&rArr; y = 3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "By equating coefficients of variables, solve the following equations. 3x - 4y = 7; 5x + 2y = 3",
+    "answer": "Show Solution3x - 4y = 7 ...(I)\n5x + 2y = 3 ...(II)\nMultiply (II) with 2\n10x + 4y = 6 ...(III)\nAdding (I) and (III)\n3x - 4y = 7\n10x + 4y = 6 \n13x = 13\n&rArr; x = 1\nPutting the value of x in (I) we get\n∴ 3x - 4y = 7\n&rArr; 3 × 1 - 4y = 7\n&rArr; 3 - 4y = 7\n&rArr; y = -1\nThus, x = 1 and y = -1",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "By equating coefficients of variables, solve the following equation. 5x + 7y = 17 ; 3x - 2y = 4",
+    "answer": "Show Solution5x + 7y = 17 ...(I)\n3x - 2y = 4 ...(II)\nMultiply (I) with 3 and (II) with 5\n15x + 21y = 51 ...(III)\n15x - 10y = 20 ...(IV)\nSubtracting (IV) from (III) we get,\n15x + 21y = 51\n15x - 10y = 20 \n- + - \n31y = 31\n&rArr; y = 1\nPutting this value of y in (I) we get\n∴ 5x + 7y = 17\n5x + 7 × 1 = 17\n&rArr; 5x = 10\n&rArr; x = 2\nThus, x = 2, y = 1",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "By equating coefficients of variables, solve the following equation. x - 2y = -10 ; 3x - 5y = -12",
+    "answer": "Show Solutionx &minus; 2y = &minus;10 ...(I)\n3x &minus; 5y = &minus;12 ...(II)\nMultiply (I) with 3\n3x &minus; 6y = &minus;30 ...(III)\nSubtracting (II) from (III) we get,\n3x &minus; 6y = &minus;30\n3x &minus; 5y = &minus;12 \n- + + \n&minus;y = &minus;18\n&rArr; y = 18\nPutting the value of y in (I) we get,\n∴ x &minus; 2y = &minus;10\n&rArr; x &minus; 2 × 18 = &minus;10\n&rArr; x = &minus;10 + 36 = 26\nThus, x = 26, y = 18",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "By equating coefficients of variables, solve the following equation. 4x + y = 34 ; x + 4y = 16",
+    "answer": "Show Solution4x + y = 34 ...(I)\nx + 4y = 16 ...(II)\nAdding (I) and (II) we get,\n4x + y = 34\nx + 4y = 16 \n5x + 5y = 50\n&rArr; x + y = 10 ...(III)\nSubtracting (II) from (I) we get,\n4x + y = 34\nx + 4y = 16 \n- - - \n3x - 3y = 18\n&rArr; x - y = 6 ...(IV)\nAdding (III) and (IV) we get,\nx + y = 10\nx - y = 6 \n2x = 16\n&rArr; x = 8\nPutting the value of x in (I) we get,\n∴ 4x + y = 34\n&rArr; 4 (8) + y = 34\n&rArr; y = 34 - 32\n&rArr; y = 2\nThus, x = 8, y = 2",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. x3+y4=4;x2-y4=1",
+    "answer": "Show Solutionx/3 + y/4 = 4 ...(I)\nx/2 - y/4 = 1 ...(II) \nMultiplying (I) with LCM of 3 and 4 which is 12, we get,\n4x + 3y = 48 ...(III)\nMultiplying (II) with LCM of 2 and 4 which is 4, we get,\n2x - y = 4 ...(IV)\nMultiplying (IV) with 2,\n4x - 2y = 8 ...(V)\nSubtracting (V) from (III)\n4x + 3y = 48\n4x - 2y = 8\n- + - \n5y = 40\n&rArr; y = 8\nPutting this value of y in (IV) we get,\n∴ 2x - y = 4\n&rArr; 2x - 8 = 4\n&rArr; 2x = 12\n&rArr; x = 6.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. x3+5y=13;2x+y2=19",
+    "answer": "Show Solutionx/3 + 5y = 13 ...(I)\nx + 15y = 13 × 3\n∴ x + 15y = 39 ...(II)\n2x + y/2 = 19 ...(III)\n(4x+y)/2 = 19\n4x + y = 19 × 2\n∴ 4x + y = 38 ...(IV)\nMultiplying (II) with 4 we get,\n4x + 60y = 156 ...(V)\nSubtracting (IV) from (V),\n4x + 60y = 156\n4x + y = 38 \n- - - \n59y = 118\n&rArr; y = 2\nPutting the value of y in (IV) we get,\n∴ 4x + y = 38\n&rArr; 4x + 2 = 38\n&rArr; 4x = 36\n&rArr; x = 9",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "Solve the following simultaneous equation. 2x+3y=13 ; 5x-4y=-2",
+    "answer": "Show Solution2/x + 3/y = 13 ; 5/x - 4/y = -2\nLet 1/x = u and 1/y = v\nSo, the equations obtained are\n2u + 3v = 13 ...(I) (× 5)\n5u - 4v = -2 ...(II) (× 2)\n10u + 15v = 65 ...(III)\n10u - 8v = - 4 ...(IV)\nSubtracting (IV) from (III)\n10u + 15v = 65\n10u - 8v = - 4 \n- + + \n23v = 69\n&rArr; v = 3\nPutting the value of v in (I)\n∴ 2u + 3v = 13\n&rArr; 2u + 3 × 3 = 13\n&rArr; 2u = 4\n&rArr; u = 2\n1/x = u &rArr; x = 1/u = 1/2\n1/y = v &rArr; y = 1/v = 1/3",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "A two digit number is 3 more than 4 times the sum of its digits. If 18 is added to this number, the sum is equal to the number obtained by interchanging the digits. Find the number.",
+    "answer": "1Show SolutionLet the two digit number be 10x + y. \nA two digit number is 3 more than 4 times the sum of its digits.\n10x + y = 4 (x + y) + 3\n&rArr; 10x + y = 4x + 4y + 3\n&rArr; 2x &minus; y = 1 ...(I)\nIf 18 is added to this number, the sum is equal to the number obtained by interchanging the digits.\n10x + y + 18 = 10y + x\n&rArr; 9x &minus; 9y = &minus;18\n&rArr; x &minus; y = &minus;2 ...(II)\n(I) &minus; (II)\n2x &minus; y = 1\nx &minus; y = &minus; 2 \n&minus; + + \nx = 3\nPut x = 3 in equation (II)\n∴ x &minus; y = &minus; 2\n∴ 3 &minus; y = &minus; 2\n∴ 3 + 2 = y\n∴ y = 5\n∴ The required number = 10x + y\n= 10 × 3 + 5\n= 30 + 5\n= 35\nThus, the number obtained is 35.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "The total cost of 8 books and 5 pens is 420 rupees and the total cost of 5 books and 8 pens is 321 rupees. Find the cost of 1 book and 2 pens.",
+    "answer": "Show SolutionLet the cost of 1 book be x and the cost of 1 pen be y. \nAccording to the first condition, the total cost of 8 books and 5 pens is 420 rupees.\n∴ 8x + 5y = 420 ...(I)\nAccording to the Second condition, the total cost of 5 books and 8 pens is 321 rupees.\n5x + 8y = 321 ...(II)\nMultiplying equation (I) by 5\n40x + 25y = 2100 ...(III)\nMultiplying equation (II) by 8\n40x + 64y = 2568 ...(IV)\nequation (IV) - (III)\n 40x + 64y = 2568\n- 40x + 25y = 2100\n 39y = 468 \n∴ y = 468/39\n∴ y = 12\nPutting the value of y = 12 in equation (I)\n8x + 5y = 420 \n&rArr; 8x + 5 (12) = 420 \n&rArr; 8x + 60 = 420\n&rArr; 8x = 420 - 60\n&rArr; 8x = 360\n&rArr; x = 360/8\n∴ x = 45\nCost of 1 book and 2 pens = x + 2y\n= 45 + 2 (12)\n= Rs. 69\n∴ The Cost of 1 book and 2 pens = Rs. 69.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "The ratio of incomes of two persons is 9 : 7. The ratio of their expenses is 4 : 3. Every person saves rupees 200, find the income of each.",
+    "answer": "Show SolutionLet the incomes of the two persons be x and y.\nx/y = 9/7\n&rArr; 7x = 9y\n&rArr; 7x &minus; 9y = 0 ...(I)\nSavings of the two persons = Rs 200\nExpenses = Income &minus; Savings\n(x &minus; 200)/(y &minus; 200) = 4/3\n∴ 3(x &minus; 200) = 4(y &minus; 200)\n&rArr; 3x &minus; 600 = 4y &minus; 800\n&rArr; 3x &minus; 4y = &minus;200 ...(II)\nMultiply (I) with 3 and (II) with 7.\n21x &minus; 27y = 0 ...(III)\n21x &minus; 28y = &minus;1400 ...(IV)\n(IV) &minus; (III)\n21x &minus; 28y = &minus;1400\n21x &minus; 27y = 0 \n&minus; + &minus; \n&minus;y = &minus;1400\n&rArr; y = 1400\nPutting the value y = 1400 in (I) we get\n∴ 7x &minus; 9y = 0\n∴ 7x &minus; 9(1400) = 0\n∴ 7x &minus; 12600 = 0\n∴ 7x = 12600\n∴ x = 12600/7\n&rArr; x = 1800\nThus, the income of the two persons is Rs 1800 and Rs 1400.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "If the length of a rectangle is reduced by 5 units and its breadth is increased by 3 units, then the area of the rectangle is reduced by 9 square units.",
+    "answer": "Show SolutionLet the length of the rectangle be &lsquo;x&rsquo; units and the breadth of the rectangle be &lsquo;y&rsquo; units.\nArea of the rectangle = xy sq. units\nlength of the rectangle is reduced by 5 units\n∴ length = x &ndash; 5\nbreadth of the rectangle is increased by 3 units\n∴ breadth = y + 3\narea of the rectangle is reduced by 9 square units\n∴ area of the rectangle = xy &ndash; 9\nAccording to the first condition,\n(x &ndash; 5) (y + 3) = xy &ndash; 9\n∴ xy + 3x &ndash; 5y &ndash; 15 = xy &ndash; 9\n∴ 3x &ndash; 5y = -9 + 15\n∴ 3x &ndash; 5y = 6 ...(i)\nlength of the rectangle is reduced by 3 units\n∴ length = x &ndash; 3\nbreadth of the rectangle is increased by 2 units\n∴ breadth = y + 2\narea of the rectangle is increased by 67 square units\n∴ area of the rectangle = xy + 61\nAccording to the second condition,\n(x &ndash; 3) (y + 2) = xy + 67\n∴ xy + 2x &ndash; 3y &ndash; 6 = xy + 67\n∴ 2x &ndash; 3y = 67 + 6\n∴ 2x &ndash; 3y = 73 ...(ii)\nMultiplying equation (i) by 3,\n9x &ndash; 15y = 18 ...(iii)\nMultiplying equation (ii) by 5,\n10x &ndash; 15y = 365 ...(iv)\nSubtracting equation (iii) from (iv),\n10x &ndash; 15y = 365\n9x &ndash; 15y = 18 \n- + - \n x = 347\nSubstituting x = 347 in equation (ii),\n2x &ndash; 3y = 73\n∴ 2(347) &ndash; 3y = 73\n∴ 694 &ndash; 73 = 3y\n∴ 621 = 3y\n∴ y = 621/3\n∴ y = 207\n∴ The length and breadth of rectangle are 347 units and 207 units respectively.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "If They Travel Towards Each Other They Will Meet After 1 Hour, Then Find Their Speeds.",
+    "answer": "Show SolutionLet the speed of the faster car be x km/h and that of the slower car be y km/h.\nTotal distance between them is 70 km.\nSpeed = \"Distance\" / \"Time\"\nWhen both cars travel in the same direction, they meet in 7 hours. \nTotal speed = x &minus; y\nx - y = 70/7\n&rArr; x - y = 10 ...(I)\nWhen both cars move towards each other,\nTotal speed = x + y\nx + y = 70/1\n&rArr; x + y = 70 ...(II)\nAdding (I) and (II)\nx - y = 10\nx + y = 70 \n2x = 80\n&rArr; x = 40\nPutting the value of x in (I)\n∴ x - y = 10\n∴ 40 - y = 10\n∴ y = 40 - 10\n&rArr; y = 30\n∴ The speed of a car starting from A is 40 km/hr and the speed of a car starting from B is 30 km/hr.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "The sum of a two digit number and the number obtained by interchanging its digits is 99. Find the number.",
+    "answer": "Show SolutionLet x be the unit&rsquo;s digit and y the tens digit.\n∴ Two digit number = 10y + x\nNumber obtained on interchanging the digits = 10x + y. \nThe sum of a two digit number and the number obtained by interchanging its digits is 99.\n10x + y + 10y + x = 99\n&rArr; 11x + 11y = 99\nDivide both sides by 11\n&rArr; x + y = 9\nIf x = 1, then y = 8,\nIf x = 2, then y = 7, etc.\nIf x = 3, then y = 6, and so on.\nThe number can be 18, 27, 36, etc.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 5 - Linear Equations in Two Variables [Latest edition]",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "Alka spends 90% of the money that she receives every month, and saves Rs. 120. How much money does she get monthly?",
+    "answer": "Show SolutionLet her monthly income be Rs 'x'\nSavings = Rs 120\nExpenditure = 90% of x = (90)/100 x \nIncome = Expenditure + Savings\nx = (90x)/100 + 120\nx - 120 = (90x)/100\n100 (x - 120) = 90x\n100x - 12000 = 90x\n100x - 90x = 12000\n10x = 12000\nx = 12000/10\nx = 1200\nThus, total monthly salary = Rs 1200.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Sumit borrowed a capital of Rs. 50,000 to start his food products business. In the first year he suffered a loss of 20%. He invested the remaining capital in a new sweets business and made a profit",
+    "answer": "Show SolutionSumit borrowed capital = Rs. 50000\nLoss incurred in the first year = 20% × 50000\n= 20/100 xx 50000 = ₹ 10,000\nRemaining Capital = Total Capital &minus; Loss\n50,000 &minus; 10,000\n= ₹ 40,000\nProfit in food products business = 5% of ₹ 40,000\n= 5/100 xx 40000\n= ₹ 2000\nCapital held by Sumit after two years = 40,000 + 2000\n= ₹ 42,000\nTotal loss in original capital = 50,000 &minus; 42,000\n= ₹ 8000\nLoss% = 8000/50000 xx 100\n= 16 %\nSumit suffered a total loss of 16% on the original capital.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Nikhil spent 5% of his monthly income on his children&#x27;s education, invested 14% in shares, deposited 3% in a bank and used 40% for his daily expenses.",
+    "answer": "Show SolutionLet the monthly income be Rs x = 100/100x\nMoney spent on children's education = 5% \"of\" x = 5/100x\nMoney spent on shares = 14% \"of\" x = 14/100x\nMoney deposited in banks = 3% \"of\" x = 3/100x\nMoney spent on daily expenses = 40% \"of\" x = 40/100x\nSavings = \"Rs\" 19,000\n5/100x + 14/100x + 3/100x + 40/100x + 19000 = 100/100x\n&rArr; 62/100x + 19000 = 100/100x\n&rArr; 100/100x-62/100x = 19000\n&rArr; 38/100x = 19000\n&rArr; x = 19000 xx 100/38\n&rArr; x = 50000",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Mr. Sayyad kept Rs. 40,000 in a bank at 8% compound interest for 2 years. Mr. Fernandes invested Rs. 1,20,000 in a mutual fund for 2 years.",
+    "answer": "Show SolutionAmount deposited by Mr. Sayyed = Rs 40,000\nRate of interest = 8%\nTime = 2 years\nCI = Amount - Principle\n= \"P\"(1 + \"R\"/100)^\"n\" - \"P\"\n= 40000 (1 + 8/100)² - 40000\n= 40000 ((100 + 8)/100)² - 40000\n= 40000 [ ( 108 / 100)² - 1]\n= 40000 ( 1.1664 - 1 )\n= 40000 xx 0.1664\n= Rs. 6656\nPercentage profit = 6656/40000 xx 100 = 16.64%\nInvestment in mutual funds by Mr. Fernandes = \"Rs\" 1,20,000\nThe amount Mr. Fernandes got at the end of 2 years from the mutual fund = \"Rs\" 1,92,000\nProfit = 1,92,000 - 1,20,000 = \"Rs\". 72000\nPercentage profit from mutual funds = 72000/120000 xx 100 = 60%\nThus, investment by Mr. Fernandes turned out to be more profitable.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Sameera spent 90% of her income and donated 3% for socially useful causes. If she left with Rs. 1750 at the end of the month, what was her actual income?",
+    "answer": "Show SolutionLet Sameera's actual income be Rs x.\nMoney spent = 90% of x =90/100 x\nMoney donated = 3% of x = 3/100x\nMoney left = Rs 1750\nMoney spent + money donated + money left = Total income\n&rArr; 90/100x + 3/100x + 1750 = 100/100x\n&rArr; 100/100x - 93/100x = 1750\n&rArr; 7/100x = 1750\n&rArr; 7x = 175000\n&rArr; x = 175000/7\n&rArr; x = 25000\nThus, Sameera's actual income is Rs 25000.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Observe the table given below. Check and decide, whether the individuals have to pay income tax. Individuals (i) Miss Nikita (ii) Mr.Kulkarni (iii) Miss Mehta (iv) Mr. Bajaj (v) Mr. Desilva",
+    "answer": "Show Solution\nMiss Nikita is age 27, and her taxable income is Rs 2,34,000. She doesn't need to pay income tax as her earnings are less than Rs 2,50,000.\nMr. Kulkarni is of age 36 years and his taxable income is Rs 3,27,000. So, his taxable income falls in the slab of 2,50,001 to 5,00,000. Thus, he needs to pay the income tax.\nMiss Mehta is of age 44 and has a taxable income of Rs 5,82,000. She needs to pay the income tax as her taxable income falls in the slab of Rs 5,00,001 to 10,00,000.\nMr. Bajaj is of age 64 years and has a taxable income of Rs 8,40,000. He needs to pay the income tax as his taxable income falls in the slab of Rs 5,00,001 to 10,00,000.\nMr. Desilva is of age 81 years and has a taxable income of Rs 4,50,000. He doesn't need to pay income tax as he is in the super senior category and has a taxable income of less than Rs 5,00,000. \n\nSr.No.\nIndividuals\nAge\n Taxable Income (Rs.)\nWill have to pay income tax or not\n\n(i)\nMiss Nikita\n27\nRs. 2,34,000\nShe doesn't need to pay income tax\n\n(ii)\nMr.Kulkarni\n36\nRs. 3,27,000\nhe needs to pay the income tax.\n\n(iii)\nMiss Mehta\n44\nRs. 5,82,000\nShe needs to pay the income tax.\n\n(iv)\nMr. Bajaj\n64\nRs. 8,40,000\nHe needs to pay the income tax.\n\n(v)\nMr. Desilva\n81\nRs. 4,50,000\nHe doesn't need to pay income tax",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Mr. Kartarsingh (age 48 years) works in a private company. His monthly income after deduction of allowances is Rs. 42,000 and every month he contributes Rs. 3000 to GPF.",
+    "answer": "Show SolutionMonthly Income = Rs. 42,000\nGross annual income = Rs. 42,000 × 12 = Rs. 5,04,000\nApplicable deductions:\nMonthly GPF contribution = Rs. 3000\nAnnual GPF contribution = Rs. 3000 × 12 = Rs. 36,000\nNSC = Rs. 15,000\nDonation in PM's relief fund = Rs. 12000\nTotal applicable deductions = Rs. 36,000 + 15,000 + 12,000 = Rs. 63,000\nTotal taxable income = Gross annual income - total applicable deductions \n= Rs. 5,04,000 - Rs. 63,000 = Rs. 4,41,000\nNow the Total taxable income falls in the slab of 2,50,001 to 5,00,000. \nSo, Income tax = 5% of (Taxable income - 2,50,000)\n= 5% of (441000 &minus; 250000)\n= 5/100 xx 191000\n= ₹ 9550\nEducation Cess = 2% of Income Tax\n= 9550 × 2/100 '\n= Rs. 191\nSecondary and Higher Education Cess = 1% of Income Tax\n= 9550 × 1/100\n= Rs. 95.5\nTotal tax to be paid = Income tax + education cess + secondary and higher education cess\n= 9550 + 191 + 95.5\n= Rs. 9836.5\n∴ Mr. Kartar Singh will have to pay 9836.50 income tax.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "For different types of investments what is the maximum permissible amount under section 80C of income tax?",
+    "answer": "1,50,000 rupees2,50,000 rupees1,00,000 rupees2,00,000 rupees",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Mr. Shekhar spends 60% of his income. From the balance he donates Rs. 300 to an orphanage. He is then left with Rs. 3,200. What is his income?",
+    "answer": "Show SolutionLet Mr. Shekhar's income be Rs x. \nMoney spent = 60% of x = 60/100 x\nMoney donated in orphanage = Rs 300\nMoney left = Rs 3200\nMoney spent + Money donated + Money left = Total income\n&rArr; 60/100x + 300 + 3200 = x\n&rArr; (6x)/10 + 3500 = x\n&rArr; x - (6x)/10 = 3500\n&rArr; (10x - 6x)/10 = 3500\n&rArr; (4x )/10 = 3500\n&rArr; x = 8750\nThus, Mr. Shekhar's income is Rs 8750.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Mr. Hiralal invested Rs. 2,15,000 in a Mutual Fund. He got Rs. 3,05,000 after 2 years. Mr. Ramniklal invested Rs. 1,40,000 at 8% compound interest",
+    "answer": "Show SolutionMr. Hiralal's investment = Rs. 2,15,000\nReturn of investment = Rs. 3,05,000\nProfit = Mr. Hiralal's investment - Return of investment\n= 3,05,000 - 2,15,000\n= Rs. 90,000\nProfit % = (90,000)/(2,15,000)xx 100\n= 41.86%\nFor Ramaniklal, \nP = 140000, R = 8%, n = 2 years\nCompound interest = I = P[(1 + R/100)ⁿ - 1]\n= 140,000 [(1 + 8/100)² - 1]\n= 140000 [(1 + 0.08)2 &minus; 1]\n= 140000 (1.1664 &minus; 1)\n= 140000 × 0.1664\n= 23296\nProfit% = (23296)/(140000) × 100 = 16.64%\nThus, Mr. Hiralal's investment is more profitable.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "At the start of a year there were Rs. 24,000 in a savings account. After adding Rs. 56,000 to this the entire amount was invested in the bank at 7.5% compound interest.",
+    "answer": "Show SolutionTotal investment = Rs 24,000 + Rs 56,000 = Rs 80,000\nR = 7.5%\nn = 3 years\nAmount = \"P\"(1+\"R\"/100)^\"n\"\n= 80,000 xx( 1 + 7.5 / 100)³\n= 80,000 xx( 1+75 / 1000 )³\n= 80000xx(1+3/40)³\n= 80000xx(43/40)³\n= 80000×43/40×43/40×43/40\n= (5×43×43×43)/4 \n= 99383.75 \nThus, the amount after 3 years will be Rs 99383.75.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Mr. Manohar gave 20% part of his income to his elder son and 30% part to his younger son. He gave 10% of the balance as donation to a school.",
+    "answer": "Show SolutionLet Mr. Manohar's income be Rs x. \nMoney given to elder son = 20% of x = ( 20 )/100x\nMoney given to younger son = 30% of x = ( 30)/100x\nBalance = x - ((20x)/100 + (30x)/100)\n= x - (50x)/100\n= (100x - 50x)/100\n= ₹ (50x)/100\n10% of the remaining income is donated to the school.\nDonation = (50x)/100 xx 10/100\n= ₹ (5x)/100\nIncome &minus; Expenditure = Savings\nx - ((20x)/100 + (30x)/100 + (5x)/100) = 180000\n∴ (100x)/100 - ((55x)/100) = 180000\n∴ 100x &minus; 55x = 180000 × 100\n∴ 45x = 180000 × 100\n∴ x = (180000 xx 100)/45\n∴ x = 400000\nThus, Mr. Manohar's income is Rs. 4,00,000.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Kailash used to spend 85% of his income. When his income increased by 36% his expenses also increased by 40% of his earlier expenses. How much percentage of his earning he saves now ?",
+    "answer": "1Show SolutionLet the Kailas's income be ₹ x.\nKailash used to spend 85% of his income.\n∴ Money spent = x xx 85/100\n= ₹ (85x)/100\nIncome &minus; Expenditure = Savings\nx - (85x)/100 = Savings\n∴ Savings = (15x)/100\nKailash's income increased by 36%.\n∴ Kailash's increased income = x + x xx 36/100\n= x + (36x)/100\n= ₹ (136x)/100\nKailash expenses increased by 40%.\n∴ Increased expenses of Kailash = (85x)/100 + (85x)/100 xx 40/100\n= (85x)/100 + (34x)/100\n= ₹ (119x)/100\nKailash's current savings = Income - Expenditure\n= (136x)/100 - (119x)/100\n= ₹ (17x)/100\nKailash's percentage of savings = \"Savings\"/\"Income\" xx 100\n= (17x)/100 + (136x)/100 xx 100\n= (17x)/100 + 100/(136x) xx 100\n= 12.5\nKailas now saves 12.5 percent of his earnings.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Total income of Ramesh, Suresh, and Preeti are 8,07,000 rupees. The percentages of their expenses are 75%, 80%, and 90% respectively. If the ratio of their savings is 16: 17: 12",
+    "answer": "Show SolutionLet the savings of Ramesh, Suresh, and Preeti be 16x, 17x, and 12x. \nExpenditure of Ramesh = 75% of income\nSo, Savings of Ramesh = 25% of income\nWe know\nSaving = Income &minus; expenditure\n16x = 25 % of income\n&rArr; 16x = 25/100 \"(Income of Ramesh)\"\n&rArr; 64x = (Income of Ramesh)\nSimilarly, Savings of Suresh = 20% of his income\nSo,\n17x = 20% (Income of Suresh)\n&rArr; 17x = 20/100 \"(Income of Suresh)\"\n&rArr; 85x = (Income of Suresh)\nSavings of Preeti = 10% of her Income\n&rArr; 12x = 10/100 \"(Income of Preeti)\"\n&rArr; 120x = (Income of Preeti)\nGiven that total income of Ramesh, Suresh and Preeti is 8,07,000.\n64x + 85x + 120x = 807000\n&rArr; 269x = 807000\n&rArr; x = Rs. 3000.\nSavings of Ramesh = Rs 16 × 3000 = Rs. 48000\nSavings of Suresh = Rs 17 × 3000 = Rs. 51000\nSavings of Preeti = Rs 12 × 3000 = Rs. 36000.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Compute the income tax payable by following individual. Mr. Kadam who is 35 years old and has a taxable income of Rs. 13,35,000.",
+    "answer": "Show SolutionTaxable income = Rs. 13,35,000\nIncome tax = Rs. 1,12,500 + 30% (Rs. 13,35,000 &ndash; Rs. 10,00,000)\n= Rs. 1,12,500 + 30/100 xx 335000\n= Rs. 1,12,500 + Rs. 1,00,500\n= Rs. 2,13,000\nEducation Cess = 2% of income tax \n= Rs. 2,13,000 xx2/100 = Rs. 4,260\nAnd Secondary and Higher Secondary Education Cess = 1%\n= Rs. 2,13,000 xx1/100 = Rs. 2,130\nTotal income tax = Rs. 2,13,000 + Rs. 4,260 + Rs. 2,130\n= Rs. 2,19,390",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Compute the income tax payable by following individual. Mr. Khan is 65 years of age and his taxable income is Rs. 4,50,000.",
+    "answer": "Show SolutionTaxable income = Rs. 4,50,000\nIncome tax = 5% (Rs. 4,50,000 - Rs. 3,00,000)\n= 5/100 xx 150,000\n= Rs. 7500\nEducation cess = 2% of income tax\n= 2/100 xx 7500 = Rs. 150\nSecondary and Higher Education cess = 1% of income tax\n= 1/100 xx 7500 = 75\nTotal income tax = Income tax + Education cess + Secondary and higher education cess\n= 7500 + 150 + 75 = Rs. 7725",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Compute the income tax payable by following individual. Miss Varsha (Age 26 years) has a taxable income of Rs. 2,30,000.",
+    "answer": "Show SolutionTaxable income = Rs 2,30,000 age = 26 years\nThe yearly income of Miss Varsha is less than Rs 2,50,000.\nHence, Miss Varsha will not have to pay income tax.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 6 - Financial Planning [Latest edition]",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "The Following Table Shows the Number of Buses and Trucks in Nearest Lakh Units. Draw Percentage Bar-diagram. (Approximate the Percentages to the Nearest Integer)",
+    "answer": "Show SolutionThe following table shows the number of Buses and Trucks in nearest lakh units.\n\n Year\n No of trucks\nPercentage of trucks\n No of buses\nPercentage of buses\n\n2006-2007\n47\n= 47/ ( 47 + 9 ) × 100 = 4700 / 56 = 83. 92 &asymp; 84 \n9\n= 9 / ( 47 + 9 ) × 100 = 900 / 56 = 16.07 &asymp; 16\n\n2007-2008\n56 \n= 56/ ( 56 + 13) × 100 = 5600 / 69 = 81.15 &asymp; 81 \n13\n= 13 / ( 56 + 13) × 100 = 1300/69 = 18.84 &asymp; 19\n\n2008-2009\n60\n= 60 / ( 60 + 16 ) × 100 = 6000 / 76 = 78.94 &asymp; 79\n16\n= 16 / ( 60+ 16 ) × 100 = 1600 / 76 = 21.05 &asymp; 21\n\n2009-2010\n63\n= 63 / ( 63 + 18 ) × 100 = 6300/ 81= 77.77 &asymp; 78\n18\n= 18 / ( 63 + 18 ) × 100 = 1800 / 81 = 22.22 &asymp; 22\n\nThe percentage bar-diagram of the above table is as follows:",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "In the table given below, the information is given about roads. Using this draw a sub-divided and percentage bar diagram (Approximate the percentages to the nearest integer).",
+    "answer": "Show Solution1. Sub-divided Bar Diagram:\n\nYear\nPermanent Roads \n(Lakh km.)\nTemporary Roads\n(Lakh km.)\nTotal\n\n2000-2001\n14\n10\n24\n\n2001-2002\n15\n11\n26\n\n2002-2003\n17\n13\n30\n\n2003-2004\n20\n19\n39\n\n2. Percentage Bar Diagram:\n\nYear\nPermanent Roads\n(Lakh km.)\nPercentage of permanent roads\nTemporary Roads\n(Lakh km.)\nPercentage of temporary roads\n\n2000-2001\n14\n= 14 / (14 + 10) × 100 = 1400 / 24 = 58.33 &asymp; 58\n10\n= 10/ (14 + 10) × 100 = 1000 / 24 = 41.66 &asymp; 42\n\n2001-2002\n15\n= 15 / (15 + 11) × 100 = 1500 / 26 = 57.69 &asymp; 58\n11\n= 11/ (15 + 11) × 100 = 1100 / 26 = 42.30 &asymp; 42 \n\n2002-2003\n17\n= 17 / (17+13) × 100 = 1700 / 30 = 56.66 &asymp; 57\n13\n= 13 / (17 + 13) × 100 = 1300/30 = 43.33 &asymp; 43\n\n2003-2004\n20\n= 20 / ( 20 + 19) × 100 = 2000 / 39 = 51.28 &asymp; 51\n19\n= 19/( 20 + 19) × 100 = 1900/39 = 48.71 &asymp; 49",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Classify following information as primary or secondary data. Information of attendance of every student collected by visiting every class in a school.",
+    "answer": "Show SolutionSince, the information of attendance of every student of every class is already collected by each class.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Classify following information as primary or secondary data. The information of heights of students was gathered from school records and sent to the head office, as it was to be sent urgently.",
+    "answer": "Show SolutionSince, the information of heights of students was gathered from school records which is already taken.\nSo, the information of heights of students was gathered from school records and sent to the head office, as it was to be sent urgently is a secondary data.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Classify following information as primary or secondary data. In the village Nandpur, the information collected from every house regarding students not attending school.",
+    "answer": "Show SolutionSince, the information is collected from every house.\nSo, the information collected from every house in the village Nandpur regarding students not attending school is a primary data.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Classify following information as primary or secondary data. For science project, information of trees gathered by visiting a forest.",
+    "answer": "Show SolutionSince, information of trees gathered by visiting a forest.\nSo, the information of trees gathered by visiting a forest for science project is a primary data.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "For Class Interval 20-25 Write the Lower Class Limit and the Upper Class Limit.",
+    "answer": "Show SolutionFor class interval 20-25.\nThe lower class limit is 20 and the upper class limit is 25.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Find the class-mark of the class 35 - 40.",
+    "answer": "Show SolutionClass mark = (\"Lower class limit\" + \"Upper class limit\")/2\nSince, (35 + 40)/2\n= 75/2\n= 37.5 \nSo, the class mark for the class 35 - 40 is 37.5.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "If Class Mark is 10 and Class Width is 6 Then Find the Class.",
+    "answer": "Show SolutionLet x be the upper class limit and y the lower class limit.\nclass mark = 10 ..[given]\nclass mark = (x + y)/2\n10 = (x + y)/2\nx + y = 20 ...(i)\nclass width = 6 ...[given]\nx - y = 6 ....(ii)\nAdding equation (i) and (ii)\n x + y = 20\n+ x - y = 6 \n2x = 26\nx = 26/2\nx = 13\nPutting the value x = 13 in equation (i),\nx + y = 20\n13 + y = 20\ny = 20 -13\ny = 7\n∴ the class is 7-13.",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following table. Classes (age) 12 - 13, 13 - 14, 14 - 15, 15 - 16 Tally marks, Frequency (No. of students), bb(N = sumf = 35)",
+    "answer": "Show Solution\n\nClasses (age)\nTally marks\n Frequency \n(No. of students)\n\n12 - 13\ncancel(bb|bb|bb|bb|)\n\\[\\boxed5\\]\n\n13 - 14\ncancel(bb|bb|bb|bb|) cancel(bb|bb|bb|bb|) bb|bb|bb|bb|\n\\[\\boxed{14}\\]\n\n14 - 15\ncancel(bb|bb|bb|bb|) cancel(bb|bb|bb|bb|) bb|bb|\n\\[\\boxed{12}\\]\n\n15 - 16\nbb|bb|bb|bb| \n\\[\\boxed{4}\\]\n\n \n \nbb(N = sumf = 35)",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "In a ‘tree plantation’ project of a certain school there are 45 students of &#x27;Harit Sena&#x27;. The record of trees planted by each student is given below: 3, 5, 7, 6, 4, 3, 5, 4, 3, 5, 4, 7, 5, 3, 6, 6",
+    "answer": "Show Solution\n\nNumber of trees planted\nTally marks\nNumber of students/Frequency\n\n3\ncancel(bb|bb|bb|bb|) cancel(bb|bb|bb|bb|)\n10\n\n4\ncancel(bb|bb|bb|bb|) cancel(bb|bb|bb|bb|) bb|\n11\n\n5\ncancel(bb|bb|bb|bb|) cancel(bb|bb|bb|bb|) bb|\n11\n\n6\ncancel(bb|bb|bb|bb|) bb||\n7\n\n7\ncancel(bb|bb|bb|bb|) bb|\n6\n\n \n \nTotal (N) = 45",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "The value of π upto 50 decimal places is given below: 3.14159265358979323846264338327950288419716939937510 From this information prepare an ungrouped frequency distribution table",
+    "answer": "Show Solution\n\nDigits\nTally Marks \nFrequency\n\n0\nbb|bb|\n2\n\n1\ncancel(bb|bb|bb|bb|)\n5\n\n2\ncancel(bb|bb|bb|bb|)\n5\n\n3\ncancel(bb|bb|bb|bb|) bb|bb|bb|\n8\n\n4\nbb|bb|bb|bb|\n4\n\n5\ncancel(bb|bb|bb|bb|)\n5\n\n6\nbb|bb|bb|bb|\n4\n\n7\nbb|bb|bb|bb|\n4\n\n8\ncancel(bb|bb|bb|bb|)\n5\n\n9\ncancel(bb|bb|bb|bb|) bb|bb|bb|\n8\n\n \n \nTotal (N) = 50",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "In the table given below, class-mark and frequencies are given. Construct the frequency table taking inclusive and exclusive classes. Class width 5 15 25 35  Frequency 3 9 15 13",
+    "answer": "Show SolutionSuppose, the lower limit of the 5 classes is x1 and the upper limit is x2.\nClass mark = (\"Lower class limit\" + \"Upper class limit\")/2\n5 = (x₁ + x₂)/2\n∴ x1 + x2 = 10 ...(1)\nThe difference between the classes of two adjacent classes is equal to the class width of each class.\n∴ class width = 15 &minus; 5 = 25 &minus; 15 = 10\n∴ x2 + x1 = 10\n∴ &minus; x1 + x2 = 10 ...(2)\nLet's sum the equations (1) and (2).\n x1 + x2 = 10\n+ &minus; x1 + x2 = 10\n___________________\n 2x2 = 20\n∴ x2 = 10\nThe value of x2 = 10 is put into equation (1)\nx1 + 10 = 10\n∴ x1 = 10 &minus; 10\n∴ x1 = 0\n∴ First-class = 0 &minus; 10. From this the next class are 10 &minus; 20, 20 &minus; 30 and 30 &minus; 40.\nSo, the exclusive frequency table is given by:\n\nExclusive class \nClassmark\n Frequency\n\n0 &minus; 10\n5\n3\n\n10 &minus; 20\n15\n9\n\n20 &minus; 30 \n25\n15\n\n30 &minus; 40\n35\n13\n\nclass width = Upper limit &minus; Lower limit\n= 10 &minus; 0 = 10\nAlso, the inclusive frequency table is given by:\n\nInclusive class \nClassmark\n Frequency\n\n0.5 &minus; 9.5\n5\n3\n\n10.5 &minus; 19.5\n15\n9\n\n20.5 &minus; 29.5\n25\n15\n\n30.5 &minus; 39.5\n35\n13",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "In the table given below, class-mark and frequencies are given. Construct the frequency table taking inclusive and exclusive classes. Class width 22, 24, 26, 28, Frequency 6, 7, 13, 4",
+    "answer": "Show SolutionSuppose the lower limit of classes among 22 classes is x1, and the upper limit is x2.\nClass mark = (\"Lower class limit\" + \"Upper class limit\")/2\n22 = (x₁ + x₂)/2\n∴ x1 + x2 = 44 ...(1)\nThe difference between the classes of two adjacent classes is equal to the class width of each class.\n∴ Class width = 24 &minus; 22\n= 26 &minus; 24\n= 2\n∴ x2 &minus; x1 = 2\n∴ &minus; x1 + x2 = 2 ...(2)\nSolving equations (1) and (2) gives the values x1 = 21 and x2 = 23.\nFirst-class = 21 &minus; 23 hence next class are 23 &minus; 25, 25 &minus; 27 and 27 &minus; 29.\nSo, the exclusive frequency table is given by:\n\nExclusive class \nClass-mark\n Frequency\n\n21 &minus; 23\n22\n6\n\n23 &minus; 25\n24\n7\n\n25 &minus; 27\n26\n13\n\n27 &minus; 29\n28\n4\n\nClass width = Upper limit &minus; Lower limit\n= 23 &minus; 21\n= 2\nAlso, the inclusive frequency table is given by:\n\nInclusive class \nClass-mark\n Frequency\n\n21.5 &minus; 22.5\n22\n6\n\n23.5 &minus; 24.5\n24\n7\n\n25.5 &minus; 26.5\n26\n13\n\n27.5 &minus; 28.5\n28\n4",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "In a school, 46 students of 9th standard, were told to measure the lengths of the pencils in their compass-boxes in centimeters. The data collected was as follows. 16, 15, 7, 4.5, 8.5, 5.5, 5",
+    "answer": "Show Solution\n\nClass Interval\nTally Marks\nFrequency\n\n0 - 5\ncancel(bb|bb|bb|bb|)\n5\n\n5 - 10\ncancel(bb|bb|bb|bb|) cancel(bb|bb|bb|bb|) cancel(bb|bb|bb|bb|) cancel(bb|bb|bb|bb|)\n20\n\n10 - 15\ncancel(bb|bb|bb|bb|) cancel(bb|bb|bb|bb|) cancel(bb|bb|bb|bb|)\n15\n\n15 - 20\ncancel(bb|bb|bb|bb|) bb|\n6\n\n \nTotal\n46",
+    "board": "Maharashtra Board",
+    "class": 9,
+    "subject": "Algebra 9th Mathematics 1",
+    "chapter": "Mathematics 1 [English] Standard 9  chapter 7 - Statistics [Latest edition]",
+    "questionNumber": 15,
+    "isFree": true
+  }
+]

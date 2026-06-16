@@ -25,6 +25,8 @@ const megaMenu = {
       { title: "Important Questions", href: "/academic/important-questions", desc: "Exam-focused prep" },
       { title: "Previous Year Papers", href: "/academic/pyqs", desc: "10 years archive" },
       { title: "Sample Papers", href: "/academic/sample-papers", desc: "Latest patterns" },
+      { title: "Mock Tests", href: "/mock-test", desc: "MCQ practice tests" },
+      { title: "Entrance Exam Prep", href: "/mock-test/entrance", desc: "JEE, NEET, CUET & more" },
     ],
   },
   career: {
@@ -137,6 +139,7 @@ export function Navbar() {
         { icon: LayoutDashboard, label: "Dashboard", href: "/dashboard" },
         { icon: Heart, label: "Saved Careers", href: "/dashboard?tab=careers" },
         { icon: Building2, label: "Saved Colleges", href: "/dashboard?tab=colleges" },
+        { icon: FileText, label: "AI Resume Builder", href: "/ai-tools/resume-builder" },
         { icon: Award, label: "Scholarships", href: "/scholarships" },
         { icon: PhoneCall, label: "Counselling", href: "/dashboard?tab=counselling" },
         { icon: Settings, label: "Profile Settings", href: "/dashboard" },
@@ -161,6 +164,7 @@ export function Navbar() {
                   src="/logo.svg"
                   alt="CareerGuru Logo"
                   fill
+                  sizes="192px"
                   className="object-contain"
                   priority
                 />
@@ -373,6 +377,7 @@ export function Navbar() {
                       src="/logo.svg"
                       alt="CareerGuru Logo"
                       fill
+                      sizes="128px"
                       className="object-contain"
                     />
                   </div>

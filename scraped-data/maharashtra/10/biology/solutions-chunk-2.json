@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "How can we get the required amount of energy by connecting solar panels?",
+    "answer": "Photovoltaic solar cells can be connected in series or parallel to form a solar panel.\nWhen solar cells are connected in series, the potential differences (voltages) of the individual cells are added, while the current remains the same as that of a single cell.\nWhen solar cells are connected in parallel, the currents of the individual cells are added, while the potential difference (voltage) remains the same as that of a single cell.\nBy using suitable series and parallel combinations, the required voltage and current can be obtained.\nSeveral solar panels can also be connected in series and parallel to generate the required amount of electrical energy.\nA number of solar panels connected in series form a solar string. Several solar strings connected in parallel form a solar array. In this way, the desired voltage, current, and power output can be achieved by appropriately connecting solar panels.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "What is the advantage of solar energy?",
+    "answer": "Solar energy is green energy, i.e. it is renewable and does not cause pollution.\nSolar panels for generating electricity require less maintenance.\nWith the help of solar energy, electricity is possible to be generated even in the most remote, inaccessible locations where electric power lines cannot be laid.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "What is the limitation of solar energy?",
+    "answer": "Solar power generation is dependent on weather conditions and is therefore less reliable. Electricity production decreases during winter and on cloudy or rainy days.\nA large area is required to install solar panels for generating a significant amount of electricity.\nThe initial cost of purchasing and installing solar panels is quite high.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Explain with a diagram the step-by-step energy conversion in a thermal power plant.",
+    "answer": "In a thermal power plant, coal is burned to generate heat. This heat is used to convert water into high-pressure steam in a boiler. The steam rotates the turbines due to its kinetic energy. The rotating turbines generate mechanical energy, which the generator then converts into electrical energy. After passing through the turbine, the steam is cooled and condensed back into water in a condenser.\nEnergy conversions involved:\nThermal Energy → Kinetic Energy → Mechanical Energy → Electrical Energy",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Explain with a diagram the step-by-step energy conversion in a nuclear power plant.",
+    "answer": "In a nuclear power plant, energy is released by the fission of the nuclei of radioactive elements such as uranium or plutonium. This energy is used to produce steam at high temperature and pressure. The kinetic energy of the steam rotates the turbine. The rotating turbine drives the generator, which produces electricity.\nEnergy conversion:\nNuclear Energy → Thermal Energy → Kinetic Energy → Mechanical Energy → Electrical Energy.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Explain with a diagram the step-by-step energy conversion in a solar thermal power plant.",
+    "answer": "In a solar thermal power plant, solar radiation is used to produce thermal energy. For this purpose, many reflectors are used to concentrate the solar radiation onto absorbers. The heat energy produced is used to convert water into steam. The steam possesses kinetic energy, which rotates the turbine. The turbine drives the generator, producing electrical energy.\nEnergy conversion:\nSolar Energy → Thermal Energy → Kinetic Energy → Mechanical Energy → Electrical Energy.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Explain with a diagram of step-by-step energy conversion in a hydroelectric power plant.",
+    "answer": "In a hydroelectric power plant, the water stored in a reservoir possesses potential energy due to its height. When the water is released, it flows downward at high speed, converting its potential energy into kinetic energy. The flowing water rotates the turbine, producing mechanical energy. The turbine drives a generator, which converts the mechanical energy into electrical energy.\nEnergy conversion:\nPotential Energy → Kinetic Energy → Mechanical Energy → Electrical Energy.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific reason. The construction of turbine is different for different types of power plants.",
+    "answer": "Generators produce electricity on the principle of electromagnetic induction and therefore require continuous rotation. \nThis rotation is provided by turbines. Different power plants use different energy sources, such as steam, flowing water, wind, or gas, to rotate the turbines. \nSince the nature, pressure, speed, and flow of these energy sources are different, the turbines must be specially designed to operate efficiently with each source.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific reason. It is absolutely necessary to control the fission reaction in nuclear power plants.",
+    "answer": "Nuclear fission is a chain reaction.\nIn a nuclear power plant, this chain reaction must be carefully controlled.\nIf the reaction is not controlled, a large number of neutrons will be produced rapidly.\nThese neutrons can cause the fission of more uranium-235 nuclei, leading to an uncontrolled increase in the reaction rate.\nSuch uncontrolled chain reactions can release an enormous amount of energy in a very short time and may result in serious accidents.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific reason: Hydroelectric energy, solar energy and wind energy are called renewable energies.",
+    "answer": "1Show Solution\nRenewable energy is any energy that comes from natural resources such as wind, water, sunlight, and geothermal heat, which is heat that is retained in the earth.\nRenewable energy is called renewable because it can be replenished easily without human intervention.\nThere are several types of renewable energy that are used in different ways to make them usable to humans. \nWind energy is converted into wind power. When the wind is harnessed with turbines, it can generate electricity. Because of advances in turbine technology and the ability of utility companies to lock in a set price for wind energy, since the fuel is free, the overall cost of wind power to consumers is lower than in past years.\nIt is important to understand that with this type of electricity, one should live in a region where natural wind resources are plentiful.\nSunlight, also known as solar energy, is a common renewable energy source.\nSunlight is harnessed by humans for electricity generation through the emission of electromagnetic radiation.\nOnce electromagnetic radiation is captured, usually with photovoltaic cells in a conductive material, it generates electricity and heat.\nThe conductor material ordinarily is silicon because of the abundance of the material.\nThe initial start-up costs for installing solar energy panels in a consumer&rsquo;s home are usually very high. It may even take up to ten years to see a return on the investment. Geothermal energy is found inside the Earth&rsquo;s core.\nUtility companies can drill into geothermal energy reservoirs to harness the heat. Once the heat or hot water has been trapped, it can spin turbines to make electricity.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Give a scientific reason: It is possible to produce energy from mW to MW using solar photovoltaic cells.",
+    "answer": "Solar photovoltaic cells, which have an energy-producing capacity of mW, are connected in required series and parallel combinations to form a solar panel.\nMany solar panels are connected in series to form a solar string, and many solar strings are connected in parallel to form a solar array, which has an energy-producing capacity of MW.\nThus, with the required series and parallel combination of solar photovoltaic cells to form solar panels, solar strings, and solar arrays, it is possible to produce energy from mW to MW capacity.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Draw a schematic diagram of solar thermal electric energy generation.",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Give your opinion about whether hydroelectric plants are environment friendly or not?",
+    "answer": "dvantages of Hydroelectric Power Plants:\n\nHydroelectric power generation does not require the burning of fuels; therefore, it does not cause air pollution or release toxic gases.\nElectricity can be generated whenever required, provided there is sufficient water in the reservoir.\nWater is a renewable resource and is replenished through rainfall.\nHydroelectric power is a clean and renewable energy source.\n\nDisadvantages of Hydroelectric Power Plants:\n\nThe construction of dams and reservoirs submerges villages and settlements, displacing people.\nRehabilitation of displaced people often causes social and emotional problems.\nForest areas may be submerged, resulting in loss of biodiversity.\nDams obstruct the natural flow of rivers, affecting aquatic plants and animals.\nThe large pressure exerted by stored water may increase the risk of earthquakes in some regions.\n\nThus, although hydroelectric power is a renewable and relatively clean energy source, it also has environmental and social impacts.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Draw a neat and labelled diagram of energy transformation in solar thermal electric energy generation.",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Draw neat and labelled diagram. One solar panel produces a potential difference of 18 V and current of 3 A. Describe how you can obtain a potential difference of 72 Volts",
+    "answer": "Given a potential difference of 18 V and a current of 3 A, the required output is a potential difference of 72 V and a current of 9 A. In a circuit, voltage stays the same when components are connected in parallel, but it increases when they are connected in series. On the other hand, current remains unchanged in a series connection, while it increases when components are connected in parallel.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Write a short note on electrical energy generation and environment.",
+    "answer": "Today, the generation of electrical energy has become essential, and life without electricity is almost unimaginable. Electrical energy is produced using various methods. A generator, based on the principle of electromagnetic induction, is used for this purpose. The generator is rotated by a turbine, which is driven by different energy sources.\nThese energy sources can be renewable (such as wind and sunlight) or non-renewable (such as coal, petroleum, natural gas, and nuclear fuels). Renewable sources like wind and solar energy are environmentally friendly and economical. They do not cause pollution during operation.\nHowever, non-renewable sources such as coal, natural gas, and nuclear fuels can harm the environment. Burning fossil fuels releases soot particles and greenhouse gases like carbon dioxide and carbon monoxide. These gases contribute to air pollution and global warming.\nNuclear energy also produces radioactive waste, which is harmful to both humans and the environment if not handled properly. Therefore, it is important to adopt eco-friendly alternatives to fossil fuels. Switching to green energy sources is essential for protecting our planet.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Gather information about solar light, solar water heating system and solar cooker.",
+    "answer": "1. Solar Light (Solar Lamp/Solar Street Light)\nA solar light is a lighting system that uses solar energy from the Sun to generate electricity.\nWorking:\n\nSolar panel absorbs sunlight\nConverts it into electrical energy\nEnergy is stored in a rechargeable battery \nLED bulb uses this stored energy at night\n\nUses:\n\nStreet lighting\nRural lighting\nGardens and homes\n\nAdvantages:\n\nRenewable and eco-friendly\nNo electricity bill\nWorks in remote areas\n\n2. Solar Water Heating System\nA system that uses solar energy to heat water for domestic or industrial use.\nWorking:\n\nSolar collectors absorb sunlight\nHeat is transferred to the water pipes\nHot water is stored in an insulated tank\n\nUses:\n\nBathing water in homes\nHotels and hospitals\nIndustries\n\nAdvantages:\n\nSaves electricity and fuel\nPollution-free\nLow maintenance cost\n\n3. Solar Cooker\nA device that uses sunlight to cook food without using fuel or electricity.\nWorking:\n\nSunlight is trapped using a glass cover or reflective mirrors\nHeat is concentrated inside the box\nFood is cooked slowly using solar heat\n\nTypes:\n\nBox type solar cooker\nParabolic solar cooker\n\nUses:\n\nCooking rice, vegetables, and pulses\nUsed in sunny regions\n\nAdvantages:\n\nNo fuel required\nEnvironment-friendly\nPreserves nutrients in food\n\nAll three systems use solar energy, which is renewable, clean, and sustainable, helping reduce pollution and dependence on fossil fuels.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Gather information about a power plant near your locality by vising the plant.",
+    "answer": "Name of the Power Plant:\nTata Power Thermal Power Plant (or any nearby plant you visited)\nLocation:\nThe power plant is located near Dahanu, Maharashtra.\nType of Power Plant:\nIt is a thermal power plant, which generates electricity using coal as fuel.\nWorking of the Plant:\n\nCoal is burned in a boiler to produce heat.\nThe heat converts water into high-pressure steam.\nThe steam rotates a turbine.\nThe turbine is connected to a generator.\nThe generator produces electricity through electromagnetic induction.\n\nMain Components:\n\nBoiler\nTurbine\nGenerator\nCooling system\nChimney (for exhaust gases)\n\nEnvironmental Effects:\n\nIt produces air pollution due to the burning of coal.\nReleases carbon dioxide, sulfur dioxide, and smoke\nContributes to global warming\nProper waste management and filters are used to reduce pollution.\n\nObservations from Visit:\n\nLarge coal storage area was seen.\nHigh chimneys releasing gases.\nStrict safety measures for workers.\nContinuous electricity production process.\n\nConclusion:\nThe power plant plays an important role in generating electricity for nearby cities and industries. However, it also causes environmental pollution, so using cleaner and renewable energy sources is important for the future.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Towards Green Energy",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Identify me. I am diploblastic and acoelomate. Which phylum do I belong to?",
+    "answer": "I am from the phylum Cnidaria or Coelenterata.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Identify me. My body is radially symmetrical. Water vascular system is present in my body. I am referred as fish though I am not. What is my name?",
+    "answer": "I belong to the phylum Echinodermata, and my name is Starfish/Asterias.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Identify me. I live in your small intestine. Pseudocoelom is present in my thread like body. In which phylum will you include me?",
+    "answer": "I am Ascaris. I am including Aschelminthes",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Identify me. Though I am multicellular, there are no tissues in my body. What is the name of my phylum?",
+    "answer": "The name of the phylum is Sponge, Porifera.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Write the characters of the following animal with the help of the classification chart. Bath sponge",
+    "answer": "Classification:\n\nKingdom\nSubkingdom\nPhylum\n\nAnimalia\nNon-chordata\nPorifera\n\nCharacters:\n\nMulticellular organisms without a cell wall.\nThey have cellular grade organization.\nThey have an asymmetrical body.\nThey are acoelomate.\nThis is a black-coloured and somewhat round-shaped animal.\nIts body is mainly made up of fibers of a protein-spongin, and due to this, they have good water-holding capacity\nIt was used for bathing in the old days.\nBesides, it was also used for the manufacturing of pillows and cushions\nThese were also used as a wetting material for sticking postal stamps and counting the currency notes.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Write the characters of the following animal with the help of the classification chart. Grasshopper",
+    "answer": "Classification:\n\nKingdom\nSubkingdom\nPhylum\nClass\n\nAnimalia\nNon-chordata\nArthropoda\nlnsecta\n\nCharacters:\n\nThey are multicellular organisms without a cell wall.\nThey have an organ-system grade organization.\nThey are bilaterally symmetrical.\nThey are triploblastic and eucoelomate.\nThe grasshopper is an insect classified within the class Insecta of the phylum Arthropoda due to its jointed limbs.\nThere exist three pairs of legs and two pairs of wings.\nIt is a terrestrial insect adeptly suited to its surroundings through camouflage.\nIt possesses a chitinous exoskeleton. Respiration occurs by tracheae.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Write the characters of the following animal with the help of the classification chart. Rohu",
+    "answer": "Classification:\n\nKingdom\nPhylum\nClass\nSubclass\n\nAnimalia\nChordata\nPisces\nTeleostei (Bony fish)\n\nCharacters:\n\nThey are multicellular organisms without cell wall.\nThey have organ-system grade organization.\nThey are bilaterally symmetrical.\nThey are triploblastic and eucoelomate.\nRohu is a freshwater bony fish classified as a chordate due to its vertebral column, placing it within the subphylum Vertebrata.\nIts body is well adapted for an aquatic lifestyle, exhibiting a streamlined shape.\nThe exoskeleton consists of scales, while gills facilitate respiration.\nThe endoskeleton is composed of bones, defining it as a bony fish.\nIt possesses paired fins and an unpaired caudal fin, which is used for steering and changing direction during swimming.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Write the characters of the following animal with the help of the classification chart. Penguin",
+    "answer": "Classification:\n\nKingdom\nPhylum\nClass\n\nAnimalia\nChordata\nAves\n\nCharacters:\n\nThey are multicellular organisms without a cell wall.\nThey have organ-system grade organization.\nThey are bilaterally symmetrical.\nThey are triploblastic and eucoelomate.\nPenguins are flightless birds that inhabit cold, snow-clad regions.\nIt has an exoskeleton of feathers. \nThe body is well adapted to survive in cold regions.\nIt is a warm-blooded bird.\nThe forelimbs are modified into wings. But due to excessive body weight, the penguins are not seen flying.\nIt can wade in the water with modified hind limbs.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Write the characters of the following animal with the help of the classification chart. Frog",
+    "answer": "Classification:\n\nKingdom\nPhylum\nClass\n\nAnimalia\nChordata\nAmphibia\n\nCharacters:\n\nThey are multicellular organisms without a cell wall.\nThey have an organ-system grade organization.\nThey are bilaterally symmetrical.\nThey are triploblastic and eucoelomate.\nThey have two pairs of appendages. Digits are without claws.\nExoskeleton is absent. Skin is without any derivative and usually kept moist for respiration\nThe external ear is absent, but the tympanum is present.\nThe neck is absent. Eyes are prominent with eyelids.\nThey are strictly aquatic during larval life and perform only aquatic respiration, whereas they can live in water as well as on land during adult life and can perform aquatic as well as aerial respiration.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Write the characters of the following animal with the help of the classification chart. Lizard",
+    "answer": "Classification:\n\nKingdom\nPhylum\nClass\n\nAnimalia\nChordata\nReptilia\n\nCharacters:\n\nThey are multicellular organisms without a cell wall.\nThey have an organ-system grade organization.\nThey are bilaterally symmetrical.\nThey are triploblastic and eucoelomate.\nAccording to the course of animal evolution, these are the first true terrestrial animals to move by creeping.\nThese are cold-blooded (poikilotherms) animals.\nThey creep across the land because their bodies cannot be lifted.\nTheir skin is dry and scaly.\nThe neck is present between the head & trunk.\nThe external ear is absent.\nDigits are provided with claws.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Write the characters of the following animal with the help of the classification chart. Elephant",
+    "answer": "Classification:\n\nKingdom\nPhylum\nClass\n\nAnimalia\nChordata\nMammalia\n\nCharacters:\n\nThey are multicellular organisms without a cell wall.\nThey have an organ-system grade organization.\nThey are bilaterally symmetrical.\nThey are triploblastic and eucoelomate.\nAn elephant is a terrestrial, herbivorous mammal adapted to survive in hot and humid tropical forests.\nIt is a mammal and hence shows viviparity and milk secretion.\nThe body is divisible into head, neck, trunk, and tail.\nThe proboscis is a characteristic feature of the elephant, which is actually a modified nose.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Write the characters of the following animal with the help of the classification chart. Jellyfish",
+    "answer": "Classification:\n\nKingdom\nSubkingdom\nPhylum\n\nAnimalia\nNon-chordata\nCnidaria or Coelenterata\n\nCharacters:\n\nThey are multicellular organisms without a cell wall.\nThey have a tissue-grade organisation.\nThey are radially symmetrical.\nThey are diploplastic and acoelomate.\nJellyfish, or Aurelia, are a coelenterate.\nIts body is a medusa.\nIt appears as a transparent balloon seen floating in the marine waters.\nSince it has an appearance like a jelly, it is commonly known as a jellyfish.\nThere are tentacles provided with cnidoblasts or stinging cells.\nTentacles are used for catching the prey.\nCnidoblasts are used to secrete a toxin which paralyses the prey.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Write in brief about progressive changes in animal classification.",
+    "answer": "There were different methods of classification of animals.\n\nThe first classification method was proposed by the Greek philosopher Aristotle. He considered characteristics such as body size, habits, and habitats of the animals. This approach was termed the artificial method of classification.\nScientists like Theophrastus, Pliny, John Ray, Linnaeus, and others used the same artificial method.\nFurther, sources were updated because science has advanced, and new ways of classifying things were proposed. Linnaeus and others.\nThe &lsquo;Natural system of classification&rsquo; was then proposed. This system of classification was based on criteria such as body organisation, cell types, chromosomes, and biochemical properties.\nLater, Dobzhansky and Meyer gave a system of classification based on evolution.\nIn 1977, Carl Woese also proposed the three-domain system of animal classification.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "What is the exact difference between grades of organization and symmetry? Explain with examples.",
+    "answer": "Grades of organization:\n\nThe grades of organization mean the way an organism has a different body formation\nUnicellular organisms, such as amoeba, possess a single cell, resulting in a protoplasmic grade of organization within their body.\nSome organisms have only cells in their body which is called the cellular grade of organization. e.g. Poriferans.\nSome organisms possess tissues, such as Coelenterata. They are supposed to possess tissue-grade organization. Certain things possess organs, they are classified as having an organization-organ grade. For example, Platyhelminthes. All other higher animals possess organ-system grade organization.\n\nSymmetry:\n\nSymmetry, on the other hand, shows the base of the body formation.\nThe symmetry can be understood by taking an imaginary cut through the animal&rsquo;s body.\nBased on the symmetry, there can be three types.\nIn asymmetric animals, there is no symmetry in any plane. e.g. Amoeba.\nBilateral symmetry is a condition in which an imaginary axis can traverse a single median plane, hence divide the body into two equal halves. The majority of animals have bilateral symmetry, resulting in the symmetrical arrangement of their organs on both sides.\nThe imaginary plane passing through the central axis of a body may produce many equal halves. The organs of these animals are organised in a radial configuration around an imaginary circle. For example, Cnidaria and some Echinodermata.\n\nBoth grades of organization and symmetry are the bases for classifying animals into different phyla.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific classification of shark up to class.",
+    "answer": "Kingdom: Animalia\nPhylum: Chordata\nSubphylum: Vertebrata \nClass: Pisces \nSubclass: Elasmobranchi (Cartilaginous) \nExample:\nScientific name: Scoliodon sorrakowah Common name: Shark",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "Write four distinguishing characters of phylum- Echinodermata.",
+    "answer": "Calcareous spines are present on the bodies of these animals; hence, they are called echinoderms.\nThese animals are found only in the ocean.\nTheir body is triploblastic, eucoelomate. And it is radially symmetrical in the adult stage. However, they show bilateral symmetry in the larval stage.\nThey perform locomotion with the help of tube-feet. Tube feet are also useful for capturing prey. Some animals are sedentary.\nThey have a skeleton made up of calcareous spines and/or ossicles (plates).\nThese animals have a good ability to regenerate.\nThese animals are mostly unisexual.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "Distinguish between butterfly and bat with the help of four distinguishing properties.",
+    "answer": "1Show Solution\n\n \n Butterfly\nBat\n\n1.\nIt belongs to the phylum Arthropoda.\nIt belongs to the phylum Chordata. \n\n2.\nIt has jointed appendages.\nIt does not have jointed appendages.\n\n3.\nIt has four wings for flying. \nIt has a patagium that functions as a wing.\n\n4.\nThe body is divisible into the head, thorax, and abdomen.\nThe body is divisible into head, neck, trunk, and tail.\n\n5.\nExoskeleton is chitinous.\nExoskeleton is in the form of hairs.\n\n6.\nThey are cold-blooded organisms. \nThey are warm-blooded organisms.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "To which phylum does Cockroach belong? Justify your answer with scientific reasons.",
+    "answer": "Cockroaches belong to the phylum Arthropoda. It shows all the features which are characteristic of this phylum:\n\nThe body is covered by a chitinous exoskeleton.\nJointed appendages present, three pairs of walking legs and two pairs of membranous wings.\nThe body is eucoelomate, triploblastic, and bilaterally segmented.\nRespiration by spiracles and tracheal tubes.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reasons. Though tortoise lives on land as well as in water, it cannot be included in class- Amphibia.",
+    "answer": "Tortoises that live on land use their lungs to breathe. \nWhen in water, it extends its nares (nasal apertures) and breathes air.\nIt cannot absorb oxygen dissolved in water. In both habitats, it breathes through its lungs.\nThis is not the case with real amphibians, however. They can breathe in water through their skin and out on land via their lungs.\nTortoises also have an exoskeleton, which is absent in Amphibia. As a result, the tortoise cannot be classified as an amphibian.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reasons. Our body irritates if it comes in contact with jelly fish.",
+    "answer": "Jellyfish are a coelenterate that has cnidoblasts bearing tentacles.\nThese cnidoblasts inject toxins to paralyse the prey at the time of feeding.\nWhen jellyfish come in contact with our bodies, this toxin is released, causing a reaction to our skin.\n\nTherefore, our body gets irritated when we come in contact with jellyfish.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reasons. All vertebrates are chordates but all chordates are not vertebrates.",
+    "answer": "ll chordates possess a notochord in some period of their development.\nAll vertebrates also have a notochord during embryonic life, which is later replaced by the vertebral column.\nBut some chordates like Urochordata and Cephalochordata do not possess a vertebral column, and hence they are not vertebrates.\n\nTherefore, all vertebrates are chordates but all chordates are not vertebrates.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reasons. Balanoglossus is connecting link between non-chordates and chordates.",
+    "answer": "Balanoglossus shows some characteristics of non-chordates.\nIt also has a notochord, as in the case of chordates.\nSince it shares the characteristics of nonchordates and chordates, from the viewpoint of evolution, it is called the connecting link between them.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reasons: Body temperature of reptiles is not constant.",
+    "answer": "Reptiles are poikilotherms, i.e. cold-blooded animals.\nUnlike homeothermic animals like mammals and birds, they are unable to regulate their body temperature internally.\nTheir body temperature depends directly on the external surroundings.\nThey can control their body temperature only by moving to an environment with a suitable ambient temperature.\n\nThus, the body temperature of reptiles is not stable.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Which special cells are present in the body of sponges (Porifera)?",
+    "answer": "Collar cells CnidoblastsGerm cellsEctodermal cells",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 24,
+    "isFree": true
+  },
+  {
+    "question": "Which of the following animals’ body shows bilateral symmetry?",
+    "answer": "EarthwormSponge",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 25,
+    "isFree": true
+  },
+  {
+    "question": "Which of the following animals can regenerate it’s broken body part?",
+    "answer": "Star fish",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 26,
+    "isFree": true
+  },
+  {
+    "question": "Bat is included in which class?",
+    "answer": "Mammalia",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 27,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following chart. Body cavity Absent Absent Pseudocoelom Present Germ Layer Triploblastic Phylum Porifera Aschelminthes Arthropoda",
+    "answer": "Body cavity\nGerm Layer\nPhylum\n\nAbsent\nDiploblastic\nPorifera\n\nAbsent\nTriploblastic\nPlatyhelminthes\n\nPseudocoelom\nTriploblastic\nAschelminthes\n\nPresent\nTriploblastic\nArthropoda",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 28,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following chart. Type Cyclostomata Amphibia Character Gill respiration Poikilotherms Example Whale",
+    "answer": "Type\nCharacter\nExample\n\nCyclostomata\nJawless mouth with suckers\nPetromyzon, Myxine\n\nPisces\nGill respiration\nPomfret, Sea horse, Shark\n\nAmphibia\nMoist skin without an exoskeleton\nFrog, Toad, Salamander\n\nMammalia\nMammary glands\nWhale\n\nReptilia\nPoikilotherms\nTortoise, Lizard, Snake",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 29,
+    "isFree": true
+  },
+  {
+    "question": "Sketch, label and classify hydra.",
+    "answer": "Classification:\nKingdom: Animalia\nDivision: Nonchordata\nPhylum: Coelenterata\nExample: Hydra",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 30,
+    "isFree": true
+  },
+  {
+    "question": "Sketch, label and classify jellyfish.",
+    "answer": "Classification:\nKingdom: Animalia \nDivision: Nonchordata \nPhylum: Coelenterata\nExample: Jellyfish",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 31,
+    "isFree": true
+  },
+  {
+    "question": "Sketch, label and classify planaria.",
+    "answer": "Classification:\nKingdom: Animalia \nDivision: Nonchordata \nPhylum: Platyhelminthes \nExample: Planaria",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 32,
+    "isFree": true
+  },
+  {
+    "question": "Sketch, label and classify the round worm.",
+    "answer": "Classification:\nKingdom: Animalia \nDivision: Nonchordata \nPhylum: Aschelminthes\nExample: Ascaris (Round worm)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 33,
+    "isFree": true
+  },
+  {
+    "question": "Sketch, label and classify a butterfly.",
+    "answer": "Classification:\nKingdom: Animalia \nDivision: Nonchordata \nPhylum: Arthropoda \nClass: Insecta \nExample: Butterfly",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 34,
+    "isFree": true
+  },
+  {
+    "question": "Sketch, label and classify the earthworm.",
+    "answer": "Classification:\nKingdom: Animalia\nDivision: Nonchordata\nPhylum: Annelida\nExample: Earthworm",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 35,
+    "isFree": true
+  },
+  {
+    "question": "Sketch, label and classify an octopus.",
+    "answer": "Classification: \nKingdom: Animalia\nDivision: Nonchordata \nPhylum: Mollusca \nExample: Octopus",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 36,
+    "isFree": true
+  },
+  {
+    "question": "Sketch, label and classify star fish.",
+    "answer": "Classification: \nKingdom: Animalia \nDivision: Non-chordata \nPhylum: Echinodermata\nExample: Star fish",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 37,
+    "isFree": true
+  },
+  {
+    "question": "Sketch, label and classify shark.",
+    "answer": "Classification: \nKingdom: Animalia \nPhylum: Chordata \nSub Phylum: Vertebrata\nClass: Pisces \nExample: Scoliodon (Shark)",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 38,
+    "isFree": true
+  },
+  {
+    "question": "Sketch, label and classify the frog.",
+    "answer": "Classification: \nKingdom: Animalia \nPhylum: Chordata \nSub Phylum: Vertebrata\nClass: Amphibia \nExample: Frog",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 39,
+    "isFree": true
+  },
+  {
+    "question": "Sketch, label and classify the wall lizard.",
+    "answer": "Classification:\nKingdom: Animalia \nPhylum: Chordata \nSub Phylum: Vertebrata\nClass: Reptilia \nExample: Wall Lizard",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 40,
+    "isFree": true
+  },
+  {
+    "question": "Sketch, label and classify the pigeon.",
+    "answer": "Classification: \nKingdom: Animalia\nPhylum: Chordata \nSub Phylum: Vertebrata \nClass: Aves \nExample: Pigeon",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 41,
+    "isFree": true
+  },
+  {
+    "question": "Label the following. Jellyfish",
+    "answer": "Jellyfish",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 42,
+    "isFree": true
+  },
+  {
+    "question": "Label the following. Nereis",
+    "answer": "Nereis",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 43,
+    "isFree": true
+  },
+  {
+    "question": "Label the following. Flatworm/Planaria",
+    "answer": "Flatworm/Planaria",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 44,
+    "isFree": true
+  },
+  {
+    "question": "Label the following.",
+    "answer": "Bony fish",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Animal Classification",
+    "questionNumber": 45,
+    "isFree": true
+  },
+  {
+    "question": "Match the pairs. ‘A’ group a. Xylitol b. Citric acid c. Lycopene d. Nycin ‘B’ group 1. Pigment 2. To impart sweetness 3. Microbial restrictor 4. Protein binding emulsifier 5. To impart acidity",
+    "answer": "&lsquo;A&rsquo; group\n&lsquo;B&rsquo; group\n\na.\nXylitol\n2.\nTo impart sweetness\n\nb.\nCitric acid\n5.\nTo impart acidity\n\nc.\nLycopene\n1.\nPigment\n\nd.\nNycin\n3.\nMicrobial restrictor",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Which fuels can be obtained by microbial processes? Why is it necessary to increase the use of such fuels?",
+    "answer": "1Show SolutionThere are different kinds of fuel that can be produced with the help of microbes. Some of the examples of such fuels are:\n\nEthanol: It is a byproduct that is produced during fermentation of molasses by Saccharomyces. It is a type of alcohol and is a clean (smokeless) fuel. It is mixed with petrol and diesel to prevent vehicular emissions.\nMethane: Methane is a gaseous fuel that is obtained by microbial anaerobic decomposition of urban, agricultural, and industrial waste.\nHydrogen fuel: Hydrogen is released during the bio-photolysis of water, in which bacteria perform photoreduction. It is considered the fuel of the future as it is non-polluting and an efficient fuel.\n\nFuels obtained from fossil sources are non-renewable and polluting. In contrast, fuels such as hydrogen, ethanol, and methane represent the future of energy because they burn cleaner, offer comparable efficiency, and are renewable. Therefore, their use should be further promoted.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "How can the oil spills of rivers and oceans be cleaned?",
+    "answer": "The oil spills in rivers or oceans are caused by crude oil or petroleum hydrocarbons.\nThis crude oil is highly toxic to aquatic flora and fauna.\nBy using mechanical means, the oil spill can be removed, but this is very difficult.\nThe biological way to remove this pollution is to use a culture of microbes such as Pseudomonas spp. and Alcanovorax borkumensis.\nThey can destroy the pyridines and other chemicals present in hydrocarbons.\nThese bacteria are called hydrocarbono-clastic bacteria (HCB), and they break down fuels by combining carbon and oxygen.\nDuring the process, water and CO2 are made. The oil spills are cleaned up by letting out HCB at the site of the spill.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "How can the soil polluted by acid rain be made fertile again?",
+    "answer": "The soil polluted by the acid rain is made fertile again by using bacteria.\nAcidophillium spp. and Acidobacillus ferroxidens are the bacteria which have the capacity to use sulphuric acid as their energy source.\nSince this sulphuric acid, present in the acid rain, can be controlled by these bacteria.\nIn this way, bacteria can control soil pollution caused by acid rain, making the soil fertile again.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Explain the importance of biopesticides in organic farming.",
+    "answer": "Soil pollution is reduced through the utilisation of biopesticides. In contrast, the use of chemical pesticides and fertilisers results in widespread soil pollution.\nThe use of chemical pesticides in agriculture results in the contamination of soil with fluoroacetamide-like compounds.\nThese are detrimental to humans, other creatures, and plants. They have the potential to induce cutaneous diseases in humans.\nPests and pathogens can be eradicated through the utilisation of bacterial and fungal toxins. The plant materials are directly incorporated with these chemicals. \nE.g., Spinosad is a biopesticide produced as a by-product of fermentation.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Which are the reasons for increasing the popularity of probiotic products?",
+    "answer": "Probiotic substances are mostly milk products containing live bacteria. Such probiotics are very good for health.\nThe useful colonies of bacteria are produced in the alimentary canal of human beings due to probiotics.\nProbiotics decrease the population of harmful microbes like Clostridium in our digestive tract.\nThe immunity is enhanced due to regular intake of probiotics in the diet.\nThe ill effects of harmful substances formed during metabolic activities are reduced by the probiotics.\nIf someone takes the antibiotic treatment, then his or her useful intestinal bacterial flora becomes inactive or is eradicated. In such cases, probiotics restore the bacterial flora and make the person well again.\n\nAll these facts have made probiotics a popular choice for people.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "How the bread and other products produced using baker’s yeast are nutritious?",
+    "answer": "In order to make the bread, the baker&rsquo;s yeast-Saccharomyces cerevisiae is added to the flour for the fermentation process.\nIn a commercial bakery, compressed yeast is used, while in domestic settings, a dry, granular form of yeast is used.\nWhen commercial yeast is used to make flour, the flour contains many useful nutrients, such as carbohydrates, fats, proteins, vitamins, and minerals.\nThe anaerobic fermentation also increases the nutritional content of the flour.\nAs a result, bread and other products made with yeast become more nutritious.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Which precautions are necessary for proper decomposition of domestic waste?",
+    "answer": "Domestic waste refers to the waste which is generated in our houses due to our daily activities. Domestic waste can be either biodegradable or non-biodegradable. For example, vegetable and fruit peels are biodegradable, whereas batteries, computers, etc., are non-biodegradable. Biodegradable products can be used for making compost, which can be used in parks, plant pots, etc. For non-biodegradable products, we need to practice the 3Rs, and only after that, they should be discarded as waste. The 3Rs are:\n\nReduce: Reduce the amount of waste produced.\nReuse: Using a resource in a new way before discarding it.\nRecycle: Making something new from a material rather than throwing it away.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Why is it necessary to ban the use of plastic bags?",
+    "answer": "Plastic is a non-biodegradable substance. It cannot be degraded back into its original constituents.\nIt causes solid waste pollution in any environment, wherever it is thrown indiscriminately.\nIf burnt, it releases very toxic gases. If dumped in landfills, it obstructs the other decomposition processes.\nIf released into water bodies, it harms aquatic life.\nCattle graze on plastic unknowingly and are killed by it as it clogs their alimentary canal.\nThe gutters and rainwater drains get clogged by plastic bags, causing cities to flood during heavy rains.\nNowadays, the fishermen get more than half of the plastic if they cast their net in the sea.\nThere are better alternatives to plastic bags, such as cloth bags, which can be reused again and again\n\nTherefore, it is absolutely necessary to ban the use of plastic bags.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following conceptual picture. Sewage after processing Cleaning",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reasons. Use of mutant strains has been increased in industrial microbiology.",
+    "answer": "Industrial microbiology enables the commercial use of microbes.\nDifferent products and processes linked to the economy, society, and the environment are used in these kinds of experiments.\nIn this process, fermentation is used to make products such as bread, cheese, wine, enzymes, proteins, and more.\nThe methods of industrial microbiology are also used to produce various medicines.\nIn pollution control and solid waste management, industrial microbiology becomes helpful.\nIn farming, too, biotechnology is used to produce BT crops.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reasons. Enzymes obtained by microbial process are mixed with detergents.",
+    "answer": "When detergents are combined with microbial enzymes, they work more efficiently.\nThe cleaning process takes place at lower temperatures.\n\nTherefore, for better results, enzymes obtained by microbial process are mixed with detergents.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Give scientific reasons. Microbial enzymes are used instead of chemical catalysts in chemical industry",
+    "answer": "Microbial enzymes are active at low temperatures, pH levels, and pressures. Because of this property, energy is saved. The costlier erosion-proof instruments need not be used.\nIn enzymatic reactions, the unnecessary byproducts are not formed as the reactions are highly specific.\nThe expenses for product purification are minimised because no unnecessary products are formed.\nThe elimination and decomposition of waste material is avoided, and enzymes can be reused.\n\nHence, microbial enzymes, which are eco-friendly, are used in the chemical industry.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following conceptual picture with respect to uses. Xanthan gum",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 14,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following conceptual picture related to environmental management. Microbes Oil spill",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 15,
+    "isFree": true
+  },
+  {
+    "question": "What is role of microbes in compost production?",
+    "answer": "Microbes can facilitate the natural decomposition of organic compounds.\nDuring biodegradation, some bacteria and fungi carry out this decomposition and release inorganic constituents back into the environment.\nCompost is formed through the recycling process.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 16,
+    "isFree": true
+  },
+  {
+    "question": "What are the benefits of mixing ethanol with petrol and diesel?",
+    "answer": "When petrol and diesel are mixed with ethanol, the proportion of CO2 and hydrocarbons which are emitted in the atmosphere becomes less.\nThe particulate pollutants, which are otherwise emitted through the combustion of petrol and diesel, are not formed when fuels are mixed with ethanol.\nBy adding ethanol to fuels, the cost of petrol or diesel also decreases. Ethanol burns more efficiently; hence, it is mixed with petrol and diesel.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 17,
+    "isFree": true
+  },
+  {
+    "question": "Which plants are cultivated to obtain the fuel?",
+    "answer": "Ethanol is obtained from wheat, maize, beet, sugarcane, and molasses.\nFor biodiesel, soybeans, rapeseed, jatropha, mahua, flaxseed, mustard, sunflower, palm, jute, and some types of algae are cultivated.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 18,
+    "isFree": true
+  },
+  {
+    "question": "Which fuels are obtained from biomass?",
+    "answer": "From biomass, biogas and biodiesel are mainly obtained.\nBiogas is obtained from cattle dung. \nThe fermentation of cattle dung produces methane.\nFrom methane, methanol is obtained.\nEthanol is obtained from molasses of sugarcane and some other crops.\nIn some countries, special crops are cultivated for biodiesel.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 19,
+    "isFree": true
+  },
+  {
+    "question": "How does the bread become spongy?",
+    "answer": "When the dough for bread is prepared, the baker&rsquo;s yeast-Saccharomyces cerevisiae is added to it.\nThis yeast carries out anaerobic fermentation\nThis results in the formation of CO2 and ethanol.\nThe CO2 formed tries to escape from the flour, causing the dough to rise. When such dough is baked, it produces spongy bread.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 20,
+    "isFree": true
+  },
+  {
+    "question": "Find the ways to implement the zero garbage system at domestic level.",
+    "answer": "Sorting or separating biodegradable and non-biodegradable wastes in a separate place.\nUsing fruits and vegetables peel as manure in plants.\nMineral wastes can be used in landfills, where they decompose into manure.\nReusing glass bottles instead of disposing of them.\nUsing solar energy for lighting purposes and also for heating purposes, using sunlight.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 21,
+    "isFree": true
+  },
+  {
+    "question": "Which are the microbes that destroy the chemical pesticides in soil?",
+    "answer": "Pesticides are substances used to prevent crop damage and to destroy or mitigate insects and pathogens.\nThey can be insecticides, herbicides, and fungicides.\nExcessive use of these chemical pesticides causes microbial imbalance, environmental pollution, and health hazards.\nTherefore, the degradation of chemical pesticides is essential.\n&lsquo;Biodegradation&rsquo; refers to the breakdown of pesticides into smaller, harmless forms by a living organism in soil, water, or air.\nChemical pesticides break down in the soil because worms, fungi, and bacteria eat them.\nThe bacteria implicated in biodegradation include Flavobacterium, Azotobacter species, Pseudomonas, Acetobacter, and Burkholderia, among others.\nSome fungi like Aspergillus niger, penicillium, oxysporum, etc. can also degrade and detoxify pesticides.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 22,
+    "isFree": true
+  },
+  {
+    "question": "Collect more information about reasons for avoiding the use of chemical pesticides.",
+    "answer": "Pesticides are poisons that can do much more harm than the pests they are supposed to eliminate.\nThey are dangerous, and they have been linked to a wide range of serious ailments and diseases in humans, including everything from respiratory problems to cancer.\nPesticides can be consumed in various ways.\nAgricultural workers can be exposed as a result of handling seeds, trees, and grain storage.\nThe existence of pesticide residues in our meals poses a daily risk to our health. Pesticides employed in agricultural and urban settings can contaminate the air, adversely affecting humans, animals, and plants.\nPesticides that are released into the environment can settle on the earth, be broken down by sunlight and water in the atmosphere, or dissipate into the atmosphere.\nLong-term pesticide use can result in memory loss, anxiety, mood swings, and difficulty focusing. The immune system, which protects the body from illness, is weakened by certain pesticides.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Introduction to Microbiology",
+    "questionNumber": 23,
+    "isFree": true
+  },
+  {
+    "question": "Match the pairs. a. Interferon b. Factor c. Somatostatin d. Interleukin 1. Diabetes 2. Dwarfness 3. Viral infection 4. Cancer 5. Haemophilia",
+    "answer": ".\nInterferon\n3.\nViral infection\n\nb.\nFactor\n5.\nHaemophilia\n\nc.\nSomatostatin\n2.\nDwarfness\n\nd.\nInterleukin\n4.\nCancer",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Cell Biology and Biotechnology",
+    "questionNumber": 1,
+    "isFree": true
+  },
+  {
+    "question": "Rewrite the following wrong statement after correction. Changes in genes of the cells are brought about in non-genetic technique.",
+    "answer": "Changes in the genes of the cells are brought about by genetic techniques.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Cell Biology and Biotechnology",
+    "questionNumber": 2,
+    "isFree": true
+  },
+  {
+    "question": "Rewrite the following wrong statement after correction. Gene from Bacillus thuringiensis is introduced into soyabean.",
+    "answer": "Gene from Bacillus thuringiensis is introduced into cotton.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Cell Biology and Biotechnology",
+    "questionNumber": 3,
+    "isFree": true
+  },
+  {
+    "question": "Write a short note. Biotechnology: Professional uses",
+    "answer": "Biotechnology is the branch of biology that involves application of technology in utilising the living organisms or their parts to produce products useful for humans. There are various applications of biotechnology some of which are mentioned below:\n\nIt is used in agriculture to produce improved varieties of plants and animal breeds, and to control pests and pathogens.\nIt is applied in food processing industries to produce additives.\nIt is applied to produce biocatalysts and biopolymers.\nMany biotechnological processes are applied to control pollution and treat waste water.\nIt is applied in the field of health care to produce several vaccines, drugs and hormones like insulin, etc.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Cell Biology and Biotechnology",
+    "questionNumber": 4,
+    "isFree": true
+  },
+  {
+    "question": "Write a short note. Importance of medicinal plants",
+    "answer": "1Show SolutionSeveral plants have medicinal properties which can be used as medicines. Some of the plants grown for their medicinal value are:\n\nCinchona: Quinine, a drug used in the treatment of malaria, is obtained from the bark of the Cinchona tree.\nRauwolfia (Sarpagandha): This plant is used for the treatment of hypertension and insomnia.\nBelladonna: Alkaloids obtained from the roots of this plant are used as pain relievers. It also stimulates respiration and circulation.\nEucalyptus: The leaves of eucalyptus are used for extracting on oil which is used in the treatment of blocked nose and throat infections. It is also used as a mosquito repellent.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Cell Biology and Biotechnology",
+    "questionNumber": 5,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. Which products produced through biotechnology do you use in your daily life?",
+    "answer": "The simplest use of biotechnology that we practice at home is making curd and buttermilk.\nThe primary type of biotechnology used in the process of fermentation is in making foodstuffs like bread, idlis, dosas, and dhoklas.\nBiotechnology is now used to make different kinds of cheese, paneer, yoghurt, energy drinks, and other things. These things are part of our daily lives.\nSeedless grapes, papaya, and watermelons are available in the market these days.\nViolet cabbage, yellow capsicum, and exotic vegetables used for salad are also biotechnology products.\nThe vaccines, antibiotics, and injections of human insulin are in regular use in many households.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Cell Biology and Biotechnology",
+    "questionNumber": 6,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. Which precautions will you take during spraying of pesticides?",
+    "answer": "Pesticides are toxic chemicals. By using them indiscriminately, they contaminate water, soil, and crops.\nThe D.D.T., chloropyriphos and malathion are very dangerous. They spread through the food chain, causing biomagnification.\nTherefore, we shall not use such insecticides and pesticides. We shall use organic pesticides. Excessive use will be avoided.\nAt the time of spraying, the nose, eyes and skin will be covered and protected.\nCare will be taken to prevent children or domestic animals from coming into contact with a pesticide.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Cell Biology and Biotechnology",
+    "questionNumber": 7,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. Why some of the organs in human body are most valuable?",
+    "answer": "Organs like the eyes, heart, lungs, pancreas, liver, bone, kidney, and skin play significant roles in various physiological (metabolic) activities and maintaining a healthy human life. A person will not be able to lead a normal life if these valuable organs are damaged or absent.\nThese organs can also be donated to save the life of individuals in need.\nDuring the life of an individual, certain organs like kidneys, skin, etc. can be donated to people who have lost the function of these organs due to aging, accidents, infections, disorders, etc.\nAfter death (posthumous), organs like liver, heart and eyes can be donated.\n\nHence, these organs in the human body are most valuable.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Cell Biology and Biotechnology",
+    "questionNumber": 8,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. Explain the importance of fruit processing in human life?",
+    "answer": "Fruits are perishable foodstuffs. They spoil rapidly if not consumed immediately. Therefore, their maintenance is important for long-term storage and usage.\nFor year-round use, the fruits are dried, salted, stored in airtight containers, used to prepare jams and jellies, or concentrated into pulps or syrups. We mostly use beverages, pickles, sauces, and a variety of other fruit-derived products.\nThe preserved products also fetch financial benefits.\nIndian fruits, such as mangoes, are in high demand in both national and international markets. Foreign currency can be obtained through the exportation of fruits and fruit products. The local horticulturists derive substantial benefits from their orchards.\nProcessed fruit products provide vitamins and minerals that contribute to the maintenance of excellent health.\n\nThus, fruit processing is important for human life.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Cell Biology and Biotechnology",
+    "questionNumber": 9,
+    "isFree": true
+  },
+  {
+    "question": "Answer the following question in your own words. Explain the meaning of vaccination.",
+    "answer": "Vaccination is the process of giving a vaccine. A vaccine is an antigen administered to individuals or animals to develop immunity against particular diseases or pathogens.\nHistorically, vaccines were developed using organisms that had been inactivated, either completely or partially. However, this method creates some inconvenience. Raw vaccinations may cause allergies or infection in some individuals.\nRecently, vaccines have been made with biotechnology. These vaccinations are synthetic and produced in laboratories.\nThe antigen is synthesised with the assistance of the pathogen&rsquo;s gene. This vaccination is deemed safe for administration.\nThese antigenic proteins are administered to individuals to enhance their immune systems. The immunisation technique is entirely safe. The vaccinations exhibit enhanced thermostability and prolonged efficacy.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Cell Biology and Biotechnology",
+    "questionNumber": 10,
+    "isFree": true
+  },
+  {
+    "question": "Complete the following chart. Merits of Biotechnology",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Cell Biology and Biotechnology",
+    "questionNumber": 11,
+    "isFree": true
+  },
+  {
+    "question": "Write the correct answer in the blank circles. Use of stem cell",
+    "answer": "See solution on Shaalaa.com",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Cell Biology and Biotechnology",
+    "questionNumber": 12,
+    "isFree": true
+  },
+  {
+    "question": "Write a comparative note on usefulness and harmfulness of biotechnology.",
+    "answer": "Biotechnology has proved to be useful in the fields of agriculture, medicine, clean technology, and industrial products.\nVarious biotechnology experiments have significantly boosted food output. Milk and dairy products are now easily accessible. Individuals no longer succumb to starvation because of a plentiful food supply.\nThe sophisticated vaccines have stopped the spread of epidemics.\nDiseases such as diabetes can be managed by human insulin injections produced by biotechnology.\nBiotechnological alternatives partially address issues in pollution control, solid waste management, and fuel production.\nThough biotechnology has many benefits, it also has some drawbacks. The changes to the genes are going against what nature says should happen. By putting human genes into bacteria or viruses, goods are made that people can only use.\nAnother contentious issue is human cloning. It will lead to ethical and social issues. Cloning will create new generations with mothers but no fathers. The natural balance will be upset if humans attempt to alter the genes of other living things. All of these genetic modifications may have catastrophic long-term implications. Therefore, some people believe that biotechnology can also be hazardous.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Cell Biology and Biotechnology",
+    "questionNumber": 13,
+    "isFree": true
+  },
+  {
+    "question": "Which factors affect the social health?",
+    "answer": "To maintain the social well-being of any community, adequate amenities must be provided for its people. Essential provisions such as food, water, shelter, clothing, medicines and medical treatment, equal opportunity for education, environmental sanitation, and transportation services must be adequately supplied.\nThe social and political conditions of the environment must be such that there are no affiliations with the criminal underworld. The existence of such criminal affiliations can significantly impact social well-being.\nThe gardens, playgrounds, open spaces for outdoor activities, and sports clubs are essential to the comprehensive development of society. This leads to personality development and promotes happiness and resilience in individuals.\nAddictions, criminal inclinations, deviant behaviour, and aberrant thinking adversely impact others in society, resulting in a detrimental effect on social well-being.\nA substantial network of friends and family, effective utilisation of solitary time and time spent with peers, trust in others, and mutual respect and acceptance contribute to enhanced social well-being.",
+    "board": "Maharashtra Board",
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Science and Technology 2 [English] Standard 10 Social health",
+    "questionNumber": 1,
+    "isFree": true
+  }
+]
