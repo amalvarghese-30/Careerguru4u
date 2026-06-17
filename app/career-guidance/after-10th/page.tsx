@@ -76,7 +76,7 @@ export default function After10thPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-white/70 text-lg"
+            className="text-white/90 text-lg"
           >
             Compare Science, Commerce, Arts, and Vocational streams. Make the right choice for your future.
           </motion.p>
@@ -96,7 +96,7 @@ export default function After10thPage() {
                     <stream.icon className="h-8 w-8 text-white" />
                   </div>
                   <h2 className="heading-section text-3xl md:text-4xl mb-4">{stream.name} Stream</h2>
-                  <p className="text-neutral-mediumGray text-lg mb-6">{stream.description}</p>
+                  <p className="text-neutral-darkGray text-lg mb-6">{stream.description}</p>
 
                   <div className="mb-6">
                     <h3 className="font-semibold text-neutral-nearBlack mb-3 flex items-center gap-2">
@@ -122,7 +122,7 @@ export default function After10thPage() {
                       {stream.subStreams.map((ss) => (
                         <div key={ss.name} className="p-3 rounded-xl bg-white border border-neutral-lightGray">
                           <p className="font-semibold text-sm text-neutral-nearBlack">{ss.name}</p>
-                          <p className="text-xs text-neutral-mediumGray mt-1">{ss.description}</p>
+                          <p className="text-xs text-neutral-darkGray mt-1">{ss.description}</p>
                         </div>
                       ))}
                     </div>
@@ -213,7 +213,7 @@ export default function After10thPage() {
         <div className="container-custom text-center">
           <Sparkles className="h-10 w-10 text-brand-sky mx-auto mb-4" />
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">Still Confused? Get Expert Guidance</h2>
-          <p className="text-white/70 mb-8 max-w-xl mx-auto">
+          <p className="text-white/90 mb-8 max-w-xl mx-auto">
             Book a free counselling session with our career experts. We&apos;ll help you make the right decision.
           </p>
           <Link href="/counselling" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-brand-navy rounded-xl font-bold hover:bg-brand-sky transition-colors">

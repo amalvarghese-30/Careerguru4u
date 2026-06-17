@@ -90,7 +90,7 @@ export default function FlowchartPage() {
           <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
             <div className="flex-1">
               <h1 className="heading-section text-2xl md:text-3xl">Interactive Career Flowchart</h1>
-              <p className="text-sm text-neutral-mediumGray">Explore all career paths after 10th — click any career to see details</p>
+              <p className="text-sm text-neutral-darkGray">Explore all career paths after 10th — click any career to see details</p>
             </div>
             <div className="flex items-center gap-2">
               <button onClick={() => setZoom((z) => Math.max(0.5, z - 0.25))} className="p-2.5 rounded-xl bg-brand-bg hover:bg-neutral-lightGray transition-colors">
@@ -109,7 +109,7 @@ export default function FlowchartPage() {
           {/* Search and Filters */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 mt-4">
             <div className="relative flex-1 max-w-md">
-              <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-neutral-mediumGray" />
+              <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-neutral-darkGray" />
               <input
                 type="text"
                 value={search}
@@ -200,7 +200,7 @@ export default function FlowchartPage() {
                       onClick={() => setSelectedNode(node)}
                     >
                       <p className="font-semibold text-neutral-nearBlack text-sm">{node.name}</p>
-                      <p className="text-xs text-neutral-mediumGray mt-1">{node.description}</p>
+                      <p className="text-xs text-neutral-darkGray mt-1">{node.description}</p>
                     </div>
                   </motion.div>
                 ))}
@@ -270,12 +270,12 @@ export default function FlowchartPage() {
                     </div>
                     <button
                       onClick={() => toggleSave(selectedNode.id)}
-                      className={`p-2 rounded-xl transition-colors ${savedCareers.includes(selectedNode.id) ? "bg-red-50 text-red-500" : "bg-brand-bg text-neutral-mediumGray hover:text-red-400"}`}
+                      className={`p-2 rounded-xl transition-colors ${savedCareers.includes(selectedNode.id) ? "bg-red-50 text-red-500" : "bg-brand-bg text-neutral-darkGray hover:text-red-400"}`}
                     >
                       {savedCareers.includes(selectedNode.id) ? "♥ Saved" : "♡ Save"}
                     </button>
                   </div>
-                  <p className="text-neutral-mediumGray text-sm mb-4">{selectedNode.description}</p>
+                  <p className="text-neutral-darkGray text-sm mb-4">{selectedNode.description}</p>
                   {selectedNode.salary && (
                     <div className="flex items-center gap-2 mb-3 p-3 rounded-xl bg-green-50">
                       <IndianRupee className="h-5 w-5 text-green-600" />
@@ -303,7 +303,7 @@ export default function FlowchartPage() {
                     </Link>
                   )}
                   {selectedNode.level < 2 && (
-                    <p className="text-xs text-neutral-mediumGray text-center mt-4">
+                    <p className="text-xs text-neutral-darkGray text-center mt-4">
                       Click sub-nodes to explore career paths in this stream
                     </p>
                   )}
@@ -312,7 +312,7 @@ export default function FlowchartPage() {
                 <div className="text-center py-8">
                   <Sparkles className="h-10 w-10 text-brand-electric mx-auto mb-3" />
                   <p className="font-semibold text-neutral-darkGray mb-1">Explore Careers</p>
-                  <p className="text-sm text-neutral-mediumGray">Click on any career node to see detailed information, salary data, and growth projections.</p>
+                  <p className="text-sm text-neutral-darkGray">Click on any career node to see detailed information, salary data, and growth projections.</p>
                 </div>
               )}
             </div>

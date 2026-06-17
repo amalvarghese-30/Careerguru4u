@@ -151,8 +151,8 @@ export function Navbar() {
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
           scrolled
-            ? "bg-white/90 backdrop-blur-2xl shadow-[0_4px_30px_rgba(4,28,74,0.06)] border-b border-neutral-lightGray/50"
-            : "bg-white/90 backdrop-blur-xl border-b border-transparent"
+            ? "bg-white/90 backdrop-blur-xl shadow-[0_4px_30px_rgba(4,28,74,0.06)] border-b border-neutral-lightGray/50"
+            : "bg-white/90 backdrop-blur-md border-b border-transparent"
         )}
       >
         <div className="max-w-[1440px] mx-auto px-6 lg:px-8">
@@ -201,7 +201,7 @@ export function Navbar() {
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: 10, scale: 0.97 }}
                         transition={{ duration: 0.2, ease: "easeOut" }}
-                        className="absolute top-full left-0 mt-2 w-[520px] bg-white/95 backdrop-blur-2xl rounded-2xl shadow-2xl border border-neutral-lightGray/50 overflow-hidden"
+                        className="absolute top-full left-0 mt-2 w-[520px] bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-neutral-lightGray/50 overflow-hidden"
                       >
                         <div className="p-4 grid grid-cols-2 gap-2">
                           {menu.items.map((item) => (
@@ -337,6 +337,7 @@ export function Navbar() {
                 <Link
                   href="/dashboard"
                   className="p-2.5 rounded-xl bg-brand-bg border border-neutral-lightGray text-neutral-darkGray"
+                  aria-label="Dashboard"
                 >
                   <LayoutDashboard className="h-5 w-5" />
                 </Link>
@@ -344,6 +345,7 @@ export function Navbar() {
               <button
                 onClick={() => setMobileOpen(true)}
                 className="p-2.5 rounded-xl bg-brand-bg border border-neutral-lightGray text-neutral-darkGray"
+                aria-label="Open navigation menu"
               >
                 <Menu className="h-5 w-5" />
               </button>
@@ -384,6 +386,7 @@ export function Navbar() {
                   <button
                     onClick={() => setMobileOpen(false)}
                     className="p-2 rounded-xl bg-brand-bg text-neutral-darkGray"
+                    aria-label="Close navigation menu"
                   >
                     <X className="h-5 w-5" />
                   </button>

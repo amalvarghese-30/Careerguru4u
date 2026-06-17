@@ -43,7 +43,6 @@
   --animate-shimmer: shimmer 2s infinite;
   --animate-wave: wave 8s ease-in-out infinite;
   --animate-rotate-slow: rotateSlow 20s linear infinite;
-  --animate-gradient-shift: gradientShift 8s ease infinite;
 
   @keyframes float {
     0%, 100% { transform: translateY(0); }
@@ -81,10 +80,30 @@
   }
 
   @keyframes gradientShift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    0%, 100% { opacity: 0; }
+    50% { opacity: 0.2; }
   }
+
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes spinSlow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  @keyframes pulseSoft {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.08); }
+  }
+
+  --animate-fade-in-up: fadeInUp 0.5s ease-out both;
+  --animate-spin-slow: spinSlow 25s linear infinite;
+  --animate-spin-reverse-slow: spinSlow 25s linear reverse infinite;
+  --animate-pulse-soft: pulseSoft 6s ease-in-out infinite;
+  --animate-gradient-shift: gradientShift 20s ease-in-out infinite;
 }
 
 @layer base {
@@ -116,8 +135,8 @@
   /* Glass Card */
   .glass-card {
     background: rgba(255, 255, 255, 0.72);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(0, 140, 255, 0.12);
     box-shadow: 0 4px 24px rgba(4, 28, 74, 0.06);
     border-radius: 20px;
@@ -133,8 +152,8 @@
 
   .glass-card-gradient {
     background: linear-gradient(135deg, rgba(255,255,255,0.82) 0%, rgba(238,242,255,0.78) 100%);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(0, 140, 255, 0.12);
     border-radius: 20px;
     transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -150,8 +169,8 @@
   /* Premium Gradient Card */
   .premium-card {
     background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(247,250,255,0.85) 100%);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(0, 140, 255, 0.15);
     border-radius: 24px;
     box-shadow: 0 8px 32px rgba(4, 28, 74, 0.06);
@@ -312,9 +331,18 @@
 
 @layer utilities {
   .bg-brand-gradient {
+    position: relative;
     background: linear-gradient(135deg, #041C4A 0%, #0056D2 45%, #008CFF 75%, #3ECFFF 100%);
-    background-size: 200% 200%;
-    animation: gradientShift 8s ease infinite;
+    overflow: hidden;
+  }
+
+  .bg-brand-gradient::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #3ECFFF 0%, #041C4A 45%, #008CFF 75%, #0056D2 100%);
+    animation: gradientShift 20s ease-in-out infinite;
+    z-index: 0;
   }
 
   .bg-brand-gradient-static {

@@ -32,8 +32,6 @@ export function FeaturedColleges() {
 
   const filtered = colleges.filter((c) => c.type === activeType).slice(0, 6);
 
-  if (loading || filtered.length === 0) return null;
-
   return (
     <section className="section-padding bg-white">
       <div className="container-custom">
@@ -71,7 +69,25 @@ export function FeaturedColleges() {
             transition={{ duration: 0.3 }}
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
           >
-            {filtered.map((college, i) => (
+            {loading || filtered.length === 0 ? (
+              Array.from({ length: 6 }).map((_, i) => (
+                <div key={i} className="premium-card p-6 animate-pulse">
+                  <div className="h-5 bg-neutral-lightGray rounded w-3/4 mb-3" />
+                  <div className="h-4 bg-neutral-lightGray rounded w-1/2 mb-4" />
+                  <div className="flex gap-1 mb-4">
+                    <div className="h-5 bg-neutral-lightGray rounded w-16" />
+                    <div className="h-5 bg-neutral-lightGray rounded w-12" />
+                  </div>
+                  <div className="grid grid-cols-3 gap-2 mb-4">
+                    <div className="h-10 bg-neutral-lightGray rounded" />
+                    <div className="h-10 bg-neutral-lightGray rounded" />
+                    <div className="h-10 bg-neutral-lightGray rounded" />
+                  </div>
+                  <div className="h-4 bg-neutral-lightGray rounded w-24" />
+                </div>
+              ))
+            ) : (
+              filtered.map((college, i) => (
               <motion.div
                 key={(college._id || college.slug)}
                 initial={{ opacity: 0, y: 20 }}
@@ -83,7 +99,7 @@ export function FeaturedColleges() {
                     <div className="flex items-start justify-between mb-3">
                       <div>
                         <h3 className="heading-card text-lg">{college.name}</h3>
-                        <p className="text-sm text-neutral-mediumGray flex items-center gap-1 mt-1">
+                        <p className="text-sm text-neutral-darkGray flex items-center gap-1 mt-1">
                           <MapPin className="h-3.5 w-3.5" /> {college.location}
                         </p>
                       </div>
@@ -101,15 +117,15 @@ export function FeaturedColleges() {
                     </div>
                     <div className="grid grid-cols-3 gap-2 mb-4 text-center">
                       <div>
-                        <p className="text-xs text-neutral-mediumGray">Fees</p>
+                        <p className="text-xs text-neutral-darkGray">Fees</p>
                         <p className="text-sm font-semibold text-neutral-nearBlack">{college.fees}</p>
                       </div>
                       <div>
-                        <p className="text-xs text-neutral-mediumGray">Placed</p>
+                        <p className="text-xs text-neutral-darkGray">Placed</p>
                         <p className="text-sm font-semibold text-green-600">{college.placement}</p>
                       </div>
                       <div>
-                        <p className="text-xs text-neutral-mediumGray">Avg Pkg</p>
+                        <p className="text-xs text-neutral-darkGray">Avg Pkg</p>
                         <p className="text-sm font-semibold text-brand-royal">{college.avgPackage}</p>
                       </div>
                     </div>
@@ -124,7 +140,7 @@ export function FeaturedColleges() {
                   </div>
                 </Link>
               </motion.div>
-            ))}
+            )))}
           </motion.div>
         </AnimatePresence>
 

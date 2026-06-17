@@ -75,7 +75,7 @@ export default function CareerGuidancePage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-white/70 text-lg mb-8"
+            className="text-white/90 text-lg mb-8"
           >
             Confused about what to do after 10th? Explore streams, discover careers, and plan your future with AI-powered guidance.
           </motion.p>
@@ -99,7 +99,7 @@ export default function CareerGuidancePage() {
       <section className="container-custom py-16">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="heading-section text-3xl md:text-4xl mb-4">Choose Your Stream After 10th</h2>
-          <p className="text-neutral-mediumGray">Each stream opens doors to exciting career opportunities. Explore them all.</p>
+          <p className="text-neutral-darkGray">Each stream opens doors to exciting career opportunities. Explore them all.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -119,7 +119,7 @@ export default function CareerGuidancePage() {
                       <stream.icon className="h-7 w-7 text-white" />
                     </div>
                     <h3 className="heading-card text-xl mb-2 group-hover:text-brand-royal transition-colors">{stream.name}</h3>
-                    <p className="text-neutral-mediumGray text-sm mb-4">{stream.description}</p>
+                    <p className="text-neutral-darkGray text-sm mb-4">{stream.description}</p>
                     <div className="flex flex-wrap gap-1.5 mb-4">
                       {stream.subjects.slice(0, 3).map((s) => (
                         <span key={s} className="px-2.5 py-1 rounded-lg bg-brand-bg text-xs text-neutral-darkGray font-medium">{s}</span>
@@ -127,7 +127,7 @@ export default function CareerGuidancePage() {
                       <span className="px-2.5 py-1 rounded-lg bg-brand-bg text-xs text-brand-royal font-medium">+{stream.subjects.length - 3} more</span>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-neutral-mediumGray">{careers.length} career paths</span>
+                      <span className="text-sm text-neutral-darkGray">{careers.length} career paths</span>
                       <span className="text-brand-royal font-semibold text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
                         Explore <ChevronRight className="h-4 w-4" />
                       </span>
@@ -145,7 +145,7 @@ export default function CareerGuidancePage() {
         <div className="container-custom">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <h2 className="heading-section text-3xl md:text-4xl mb-4">AI-Powered Career Tools</h2>
-            <p className="text-neutral-mediumGray">Make informed decisions with intelligent guidance</p>
+            <p className="text-neutral-darkGray">Make informed decisions with intelligent guidance</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {aiTools.map((tool, i) => (
@@ -162,7 +162,7 @@ export default function CareerGuidancePage() {
                       <tool.icon className="h-6 w-6 text-brand-royal" />
                     </div>
                     <h3 className="font-semibold text-neutral-nearBlack mb-2">{tool.name}</h3>
-                    <p className="text-sm text-neutral-mediumGray">{tool.description}</p>
+                    <p className="text-sm text-neutral-darkGray">{tool.description}</p>
                   </div>
                 </Link>
               </motion.div>
@@ -177,7 +177,7 @@ export default function CareerGuidancePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
               <h2 className="heading-section text-3xl md:text-4xl mb-4">Visual Career Flowchart</h2>
-              <p className="text-neutral-mediumGray mb-6">
+              <p className="text-neutral-darkGray mb-6">
                 See the complete picture! Our interactive flowchart shows all career paths from each stream, with salary projections and growth outlook.
               </p>
               <ul className="space-y-3 mb-8">
@@ -216,7 +216,7 @@ export default function CareerGuidancePage() {
                   </div>
                 </div>
               </div>
-              <p className="text-center mt-5 text-sm text-neutral-mediumGray">Click to expand and explore 20+ career paths</p>
+              <p className="text-center mt-5 text-sm text-neutral-darkGray">Click to expand and explore 20+ career paths</p>
             </div>
           </div>
         </div>

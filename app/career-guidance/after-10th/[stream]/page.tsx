@@ -184,7 +184,7 @@ export default function StreamDetailPage({ params }: { params: Promise<{ stream:
             <ArrowLeft className="h-4 w-4" /> Back to Streams
           </Link>
           <h1 className="text-3xl md:text-5xl font-bold mb-3">{config.name} Stream</h1>
-          <p className="text-white/70 text-lg max-w-2xl">{config.longDescription}</p>
+          <p className="text-white/90 text-lg max-w-2xl">{config.longDescription}</p>
         </div>
       </div>
 
@@ -238,7 +238,7 @@ export default function StreamDetailPage({ params }: { params: Promise<{ stream:
                       <div className="flex items-start justify-between">
                         <div>
                           <h3 className="font-semibold text-neutral-nearBlack group-hover:text-brand-royal transition-colors">{career.title}</h3>
-                          <p className="text-sm text-neutral-mediumGray mt-1">{career.subtitle}</p>
+                          <p className="text-sm text-neutral-darkGray mt-1">{career.subtitle}</p>
                         </div>
                         <ArrowRight className="h-5 w-5 text-neutral-lightGray group-hover:text-brand-royal group-hover:translate-x-1 transition-all" />
                       </div>
@@ -267,7 +267,7 @@ export default function StreamDetailPage({ params }: { params: Promise<{ stream:
                   {config.subStreams.map((ss) => (
                     <div key={ss.name} className="p-3 rounded-xl bg-brand-bg">
                       <p className="font-semibold text-sm text-neutral-nearBlack">{ss.name}</p>
-                      <p className="text-xs text-neutral-mediumGray mt-1">{ss.description}</p>
+                      <p className="text-xs text-neutral-darkGray mt-1">{ss.description}</p>
                       <div className="flex flex-wrap gap-1.5 mt-2">
                         {ss.careers.map((cid) => {
                           const c = getCareerById(cid);
@@ -294,7 +294,7 @@ export default function StreamDetailPage({ params }: { params: Promise<{ stream:
                 {config.entranceExams.map((exam) => (
                   <div key={exam.name} className="p-3 rounded-xl bg-brand-bg">
                     <p className="font-semibold text-sm text-neutral-nearBlack">{exam.name}</p>
-                    <p className="text-xs text-neutral-mediumGray mt-1">{exam.description}</p>
+                    <p className="text-xs text-neutral-darkGray mt-1">{exam.description}</p>
                   </div>
                 ))}
               </div>
@@ -311,7 +311,7 @@ export default function StreamDetailPage({ params }: { params: Promise<{ stream:
                   <div key={college.name} className="flex items-center justify-between p-2.5 rounded-lg bg-brand-bg">
                     <div>
                       <p className="font-medium text-sm text-neutral-nearBlack">{college.name}</p>
-                      <p className="text-xs text-neutral-mediumGray">{college.type} &bull; {college.location}</p>
+                      <p className="text-xs text-neutral-darkGray">{college.type} &bull; {college.location}</p>
                     </div>
                     <span className="text-xs text-neutral-darkGray font-medium">{college.fees}</span>
                   </div>
@@ -325,7 +325,7 @@ export default function StreamDetailPage({ params }: { params: Promise<{ stream:
         <div className="mt-12 p-8 rounded-3xl bg-gradient-to-br from-brand-navy to-brand-royal text-white text-center">
           <Sparkles className="h-10 w-10 text-brand-sky mx-auto mb-4" />
           <h2 className="text-2xl font-bold mb-2">Still Unsure About Choosing {config.name}?</h2>
-          <p className="text-white/70 mb-6 max-w-lg mx-auto">
+          <p className="text-white/90 mb-6 max-w-lg mx-auto">
             Get personalized guidance from our expert career counsellors. It&apos;s completely free.
           </p>
           <Link href="/counselling" className="inline-flex items-center gap-2 bg-white text-brand-navy px-6 py-3 rounded-xl font-bold hover:bg-brand-sky transition-colors">

@@ -30,7 +30,9 @@ function ParticleField() {
 
     let animId: number;
     const particles: { x: number; y: number; vx: number; vy: number; size: number; opacity: number }[] = [];
-    const maxParticles = 60;
+    const maxParticles = 30;
+
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
     const resize = () => {
       canvas.width = canvas.offsetWidth;
@@ -143,7 +145,7 @@ export function HeroSection() {
             <motion.div
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 3 + i, repeat: Infinity, ease: "easeInOut" }}
-              className="flex items-center gap-3 px-4 py-3 rounded-2xl bg-white/10 backdrop-blur-xl border border-white/20 shadow-lg"
+              className="flex items-center gap-3 px-4 py-3 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-lg"
             >
               <div className={`h-9 w-9 rounded-xl bg-gradient-to-br ${card.color} flex items-center justify-center`}>
                 <card.icon className="h-4 w-4 text-white" />
@@ -163,17 +165,14 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6"
             >
               <Sparkles className="h-4 w-4 text-brand-sky" />
               <span className="text-white/90 text-sm font-medium">India&apos;s Most Trusted Education Platform</span>
             </motion.div>
 
             {/* Headline */}
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
+            <h1
               className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl font-sora font-extrabold tracking-tighter leading-[1.05] mb-6"
             >
               <span className="text-white">Your Complete</span>
@@ -183,7 +182,7 @@ export function HeroSection() {
               </span>
               <br />
               <span className="text-white">Success Platform</span>
-            </motion.h1>
+            </h1>
 
             {/* Subheading */}
             <motion.p

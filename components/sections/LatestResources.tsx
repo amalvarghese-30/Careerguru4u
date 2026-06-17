@@ -19,15 +19,15 @@ const gradients = [
 
 export function LatestResources() {
   const [posts, setPosts] = useState<BlogPost[]>([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch("/api/blog?limit=4")
       .then(r => r.json())
       .then(data => setPosts(data.posts || []))
-      .catch(() => {});
+      .catch(() => {})
+      .finally(() => setLoading(false));
   }, []);
-
-  if (posts.length === 0) return null;
 
   return (
     <section className="section-padding bg-white">
@@ -43,7 +43,17 @@ export function LatestResources() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {posts.map((post, i) => (
+          {loading || posts.length === 0 ? (
+            Array.from({ length: 4 }).map((_, i) => (
+              <div key={i} className="premium-card p-5 animate-pulse">
+                <div className="h-5 bg-neutral-lightGray rounded w-16 mb-3" />
+                <div className="h-5 bg-neutral-lightGray rounded w-full mb-2" />
+                <div className="h-5 bg-neutral-lightGray rounded w-3/4 mb-3" />
+                <div className="h-3 bg-neutral-lightGray rounded w-1/2" />
+              </div>
+            ))
+          ) : (
+            posts.map((post, i) => (
             <motion.div
               key={post._id || post.slug}
               initial={{ opacity: 0, y: 20 }}
@@ -61,7 +71,7 @@ export function LatestResources() {
                   <h3 className="font-semibold text-neutral-nearBlack mb-3 line-clamp-2 group-hover:text-brand-royal transition-colors">
                     {post.title}
                   </h3>
-                  <div className="flex items-center gap-3 text-xs text-neutral-mediumGray mb-3">
+                  <div className="flex items-center gap-3 text-xs text-neutral-darkGray mb-3">
                     <span className="flex items-center gap-1">
                       <Calendar className="h-3 w-3" /> {new Date(post.publishedAt || "").toLocaleDateString("en-IN")}
                     </span>
@@ -76,7 +86,7 @@ export function LatestResources() {
                 </div>
               </Link>
             </motion.div>
-          ))}
+          )))}
         </div>
       </div>
     </section>

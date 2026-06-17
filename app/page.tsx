@@ -1,5 +1,3 @@
-"use client";
-
 import { HeroSection } from "@/components/sections/HeroSection";
 import { ThreePillars } from "@/components/sections/ThreePillars";
 import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
@@ -14,15 +12,10 @@ import { StudentSuccess } from "@/components/sections/StudentSuccess";
 import { LatestResources } from "@/components/sections/LatestResources";
 import { CounsellingBanner } from "@/components/sections/CounsellingBanner";
 import { CTASection } from "@/components/sections/CTASection";
-import { motion } from "framer-motion";
 
 export default function HomePage() {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
-    >
+    <>
       <HeroSection />
       <ThreePillars />
       <WhyChooseUs />
@@ -37,6 +30,6 @@ export default function HomePage() {
       <LatestResources />
       <CounsellingBanner />
       <CTASection />
-    </motion.div>
+    </>
   );
 }

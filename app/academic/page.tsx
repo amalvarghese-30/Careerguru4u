@@ -53,7 +53,7 @@ export default function AcademicHubPage() {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.1 }}
-                            className="text-white/80 text-lg mb-8"
+                            className="text-white/90 text-lg mb-8"
                         >
                             Step-by-step solutions for CBSE, ICSE, and Maharashtra State Board. Classes 1-10.
                         </motion.p>

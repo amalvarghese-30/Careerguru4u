@@ -25,7 +25,7 @@ const boardInfo: Record<string, { name: string; description: string; students: s
     },
 };
 
-const classes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const classes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 interface BoardPageProps {
     params: {
@@ -50,8 +50,8 @@ export default async function BoardPage({ params }: BoardPageProps) {
                         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
                             {info.name} Solutions
                         </h1>
-                        <p className="text-white/80 text-lg mb-2">{info.fullName}</p>
-                        <p className="text-white/60">Trusted by {info.students} students</p>
+                        <p className="text-white/90 text-lg mb-2">{info.fullName}</p>
+                        <p className="text-white/80">Trusted by {info.students} students</p>
                     </div>
                 </div>
             </section>
@@ -82,19 +82,82 @@ export default async function BoardPage({ params }: BoardPageProps) {
                 </div>
             </section>
 
-            {/* Popular Subjects Preview */}
+            {/* Textbook Hierarchy */}
             <section className="section-padding bg-primary-surface">
                 <div className="container-custom">
-                    <h2 className="heading-section text-2xl md:text-3xl mb-8">Popular Subjects for {info.name}</h2>
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-                        {["Mathematics", "Science", "English", "Social Science", "Hindi", "Marathi", "Sanskrit", "Computer Science"].map((subject) => (
-                            <GlassCard key={subject} hover className="text-center">
-                                <BookOpen className="h-8 w-8 text-primary-600 mx-auto mb-2" />
-                                <h3 className="font-medium text-slate-800">{subject}</h3>
-                                <p className="text-xs text-slate-400">Most viewed</p>
+                    <h2 className="heading-section text-2xl md:text-3xl mb-3">Textbook Solutions for {info.name}</h2>
+                    <p className="text-slate-500 text-center mb-10 max-w-2xl mx-auto">
+                        We provide chapter-wise solutions for all major textbooks prescribed by {info.name}
+                    </p>
+
+                    {board === "cbse" && (
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-3xl mx-auto">
+                            <GlassCard hover className="p-6">
+                                <div className="flex items-center gap-3 mb-3">
+                                    <div className="h-10 w-10 rounded-xl bg-orange-100 flex items-center justify-center">
+                                        <BookOpen className="h-5 w-5 text-orange-600" />
+                                    </div>
+                                    <h3 className="font-semibold text-slate-800">NCERT Solutions</h3>
+                                </div>
+                                <p className="text-sm text-slate-500">Official NCERT textbook solutions for Classes 1–12 — Mathematics, Science, Social Science, English, Hindi, and more.</p>
                             </GlassCard>
-                        ))}
-                    </div>
+                            <GlassCard hover className="p-6">
+                                <div className="flex items-center gap-3 mb-3">
+                                    <div className="h-10 w-10 rounded-xl bg-blue-100 flex items-center justify-center">
+                                        <BookOpen className="h-5 w-5 text-blue-600" />
+                                    </div>
+                                    <h3 className="font-semibold text-slate-800">NCERT Exemplar</h3>
+                                </div>
+                                <p className="text-sm text-slate-500">NCERT Exemplar problems with detailed step-by-step solutions for advanced practice and competitive exam prep.</p>
+                            </GlassCard>
+                        </div>
+                    )}
+
+                    {board === "icse" && (
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-3xl mx-auto">
+                            <GlassCard hover className="p-6">
+                                <div className="flex items-center gap-3 mb-3">
+                                    <div className="h-10 w-10 rounded-xl bg-purple-100 flex items-center justify-center">
+                                        <BookOpen className="h-5 w-5 text-purple-600" />
+                                    </div>
+                                    <h3 className="font-semibold text-slate-800">Selina Publishers</h3>
+                                </div>
+                                <p className="text-sm text-slate-500">Concise Selina textbook solutions — Mathematics, Physics, Chemistry, Biology for Classes 6–10.</p>
+                            </GlassCard>
+                            <GlassCard hover className="p-6">
+                                <div className="flex items-center gap-3 mb-3">
+                                    <div className="h-10 w-10 rounded-xl bg-pink-100 flex items-center justify-center">
+                                        <BookOpen className="h-5 w-5 text-pink-600" />
+                                    </div>
+                                    <h3 className="font-semibold text-slate-800">Frank/AVM Publishers</h3>
+                                </div>
+                                <p className="text-sm text-slate-500">Frank Brothers & AVM solutions for ICSE — covering key subjects with comprehensive answers.</p>
+                            </GlassCard>
+                        </div>
+                    )}
+
+                    {board === "maharashtra-board" && (
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-3xl mx-auto">
+                            <GlassCard hover className="p-6">
+                                <div className="flex items-center gap-3 mb-3">
+                                    <div className="h-10 w-10 rounded-xl bg-green-100 flex items-center justify-center">
+                                        <BookOpen className="h-5 w-5 text-green-600" />
+                                    </div>
+                                    <h3 className="font-semibold text-slate-800">Balbharati Solutions</h3>
+                                </div>
+                                <p className="text-sm text-slate-500">Maharashtra State Board (Balbharati) textbook solutions — Mathematics, Science, History, Geography for Classes 1–12.</p>
+                            </GlassCard>
+                            <GlassCard hover className="p-6">
+                                <div className="flex items-center gap-3 mb-3">
+                                    <div className="h-10 w-10 rounded-xl bg-amber-100 flex items-center justify-center">
+                                        <BookOpen className="h-5 w-5 text-amber-600" />
+                                    </div>
+                                    <h3 className="font-semibold text-slate-800">Target Publications</h3>
+                                </div>
+                                <p className="text-sm text-slate-500">Popular reference book solutions for Classes 10 & 12 board exam preparation.</p>
+                            </GlassCard>
+                        </div>
+                    )}
                 </div>
             </section>
         </div>

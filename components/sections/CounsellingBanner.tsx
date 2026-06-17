@@ -10,16 +10,8 @@ export function CounsellingBanner() {
       {/* Background */}
       <div className="absolute inset-0 bg-brand-gradient-static" />
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMiIvPjwvZz48L2c+PC9zdmc+')] opacity-50" />
-      <motion.div
-        animate={{ rotate: [0, 360] }}
-        transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
-        className="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-brand-electric/10 blur-3xl"
-      />
-      <motion.div
-        animate={{ rotate: [0, -360] }}
-        transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
-        className="absolute -bottom-40 -left-40 w-96 h-96 rounded-full bg-brand-sky/10 blur-3xl"
-      />
+      <div className="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-brand-electric/10 blur-3xl motion-safe:animate-spin-slow" />
+      <div className="absolute -bottom-40 -left-40 w-96 h-96 rounded-full bg-brand-sky/10 blur-3xl motion-safe:animate-spin-reverse-slow" />
 
       <div className="container-custom relative z-10 text-center">
         <motion.div

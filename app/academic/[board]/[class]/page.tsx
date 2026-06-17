@@ -27,7 +27,7 @@ export default async function ClassPage({ params }: ClassPageProps) {
     if (!info) notFound();
 
     const classNum = parseInt(classParam);
-    if (isNaN(classNum) || classNum < 1 || classNum > 10) notFound();
+    if (isNaN(classNum) || classNum < 1 || classNum > 12) notFound();
 
     const client = await clientPromise;
     const db = client.db("career_guru");
@@ -121,7 +121,7 @@ export default async function ClassPage({ params }: ClassPageProps) {
             <section className="bg-ocean-gradient py-16">
                 <div className="container-custom">
                     <div className="max-w-3xl mx-auto text-center">
-                        <div className="inline-flex items-center gap-2 text-white/60 text-sm mb-4">
+                        <div className="inline-flex items-center gap-2 text-white/80 text-sm mb-4">
                             <Link href="/academic" className="hover:text-white transition-colors">Academic</Link>
                             <span>/</span>
                             <Link href={`/academic/${board}`} className="hover:text-white transition-colors">{info.name}</Link>
@@ -131,13 +131,13 @@ export default async function ClassPage({ params }: ClassPageProps) {
                         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
                             Class {classNum} — {info.name}
                         </h1>
-                        <p className="text-white/70 text-lg">
+                        <p className="text-white/90 text-lg">
                             {totalSolutions > 0
                                 ? `${totalSolutions} solutions across ${subjects.length} subjects`
                                 : "Textbook solutions, chapter-wise answers, and practice material"}
                         </p>
                         {totalTextbooks > 0 && (
-                            <p className="text-white/50 text-sm mt-1">{totalTextbooks} textbook PDFs available for download</p>
+                            <p className="text-white/70 text-sm mt-1">{totalTextbooks} textbook PDFs available for download</p>
                         )}
                     </div>
                 </div>

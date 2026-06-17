@@ -1,9 +1,11 @@
 "use client";
 
-import { useEffect, useState, use } from "react";
+import { useEffect, useState, use, useCallback } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { BookOpen, ChevronDown, Lock, HelpCircle, ArrowLeft, Sparkles, Lightbulb, Play, ClipboardList, Download, FileText } from "lucide-react";
+import { BookOpen, ChevronDown, ArrowLeft, Sparkles, Lightbulb, Play, ClipboardList, Download, FileText, Search } from "lucide-react";
+import { SolutionCard } from "@/components/features/SolutionCard";
+import { decodeEntities } from "@/lib/math-renderer";
 
 interface SolutionData {
     _id: string;
@@ -66,6 +68,10 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
     const [loadingSolutions, setLoadingSolutions] = useState(false);
     const [error, setError] = useState("");
 
+    // Active question navigation
+    const [activeQuestionIndex, setActiveQuestionIndex] = useState<number | null>(null);
+    const [bookmarkedQuestions, setBookmarkedQuestions] = useState<Set<string>>(new Set());
+
     // Concept notes
     const [notes, setNotes] = useState<ConceptNoteData[]>([]);
     const [loadingNotes, setLoadingNotes] = useState(false);
@@ -113,8 +119,9 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
     }, [board, classParam, subjectName, boardName]);
 
     const toggleChapter = async (chapter: string) => {
-        if (expandedChapter === chapter) { setExpandedChapter(null); return; }
+        if (expandedChapter === chapter) { setExpandedChapter(null); setActiveQuestionIndex(null); return; }
         setExpandedChapter(chapter);
+        setActiveQuestionIndex(null);
         setLoadingSolutions(true);
         try {
             const params = new URLSearchParams();
@@ -130,6 +137,54 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
             setChapterSolutions(data.solutions || []);
         } catch { setChapterSolutions([]); }
         finally { setLoadingSolutions(false); }
+    };
+
+    const openQuestion = (index: number) => {
+        setActiveQuestionIndex(index);
+        // Scroll to question view
+        setTimeout(() => {
+            document.getElementById("active-question-scroll")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 50);
+    };
+
+    const navigateQuestion = useCallback((direction: "prev" | "next") => {
+        if (activeQuestionIndex === null) return;
+        const newIndex = direction === "prev" ? activeQuestionIndex - 1 : activeQuestionIndex + 1;
+        if (newIndex >= 0 && newIndex < chapterSolutions.length) {
+            setActiveQuestionIndex(newIndex);
+            setTimeout(() => {
+                document.getElementById("active-question-scroll")?.scrollIntoView({ behavior: "smooth", block: "start" });
+            }, 50);
+        }
+    }, [activeQuestionIndex, chapterSolutions.length]);
+
+    const handleBookmark = (solutionId: string) => {
+        setBookmarkedQuestions(prev => {
+            const next = new Set(prev);
+            if (next.has(solutionId)) {
+                next.delete(solutionId);
+            } else {
+                next.add(solutionId);
+            }
+            return next;
+        });
+        // Fire-and-forget API call
+        fetch("/api/solutions/bookmark", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ solutionId }),
+        }).catch(() => {});
+    };
+
+    const handleShare = async (question: string) => {
+        const url = `${window.location.origin}${window.location.pathname}`;
+        if (navigator.share) {
+            try {
+                await navigator.share({ title: `Question from ${subjectName}`, text: question.substring(0, 100), url });
+            } catch {}
+        } else {
+            navigator.clipboard.writeText(url).catch(() => {});
+        }
     };
 
     // Fetch concept notes when tab changes
@@ -178,30 +233,35 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
         { key: "textbooks", label: "Textbook PDFs", icon: Download },
     ];
 
+    const activeSolution = activeQuestionIndex !== null && chapterSolutions[activeQuestionIndex]
+        ? chapterSolutions[activeQuestionIndex]
+        : null;
+
     return (
         <div className="pt-20 min-h-screen bg-brand-bg">
             {/* Hero */}
-            <section className="bg-ocean-gradient py-12">
+            <section className="bg-gradient-to-br from-brand-navy via-brand-navy to-brand-royal py-10 md:py-14">
                 <div className="container-custom">
                     <div className="max-w-3xl mx-auto">
-                        <div className="inline-flex items-center gap-2 text-white/60 text-sm mb-4">
+                        {/* Breadcrumbs */}
+                        <nav aria-label="Breadcrumb" className="inline-flex items-center gap-2 text-white/60 text-xs md:text-sm mb-3 flex-wrap">
                             <Link href="/academic" className="hover:text-white transition-colors">Academic</Link>
-                            <span>/</span>
+                            <span className="text-white/30">/</span>
                             <Link href={`/academic/${board}`} className="hover:text-white transition-colors">{boardName}</Link>
-                            <span>/</span>
+                            <span className="text-white/30">/</span>
                             <Link href={`/academic/${board}/${classNum}`} className="hover:text-white transition-colors">Class {classNum}</Link>
-                            <span>/</span>
-                            <span className="text-white">{subjectName}</span>
-                        </div>
-                        <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">{subjectName}</h1>
-                        <p className="text-white/70 text-lg">
-                            {boardName} &bull; Class {classNum} &bull; Chapter-wise resources
+                            <span className="text-white/30">/</span>
+                            <span className="text-white/90 font-medium">{subjectName}</span>
+                        </nav>
+                        <h1 className="text-2xl md:text-4xl font-bold text-white mb-2">{subjectName}</h1>
+                        <p className="text-white/70 text-sm md:text-base">
+                            {boardName} &bull; Class {classNum} &bull; {chapters.length} chapter{chapters.length !== 1 ? "s" : ""} &bull; {chapters.reduce((sum, ch) => sum + ch.count, 0)} solutions
                         </p>
                     </div>
                 </div>
             </section>
 
-            {/* Tab Navigation */}
+            {/* Sticky Tab Navigation */}
             <div className="bg-white border-b border-slate-200 sticky top-16 z-40">
                 <div className="container-custom max-w-4xl mx-auto">
                     <div className="flex items-center gap-1 overflow-x-auto no-scrollbar py-2">
@@ -223,21 +283,12 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
             </div>
 
             {/* Content */}
-            <section className="section-padding">
+            <section className="section-padding pt-8">
                 <div className="container-custom max-w-4xl mx-auto">
 
                     {/* Solutions Tab */}
                     {activeTab === "solutions" && (
                         <>
-                            <div className="flex items-center justify-between mb-4">
-                                <h2 className="heading-section text-xl">
-                                    {loading ? "Loading..." : `${chapters.length} Chapter${chapters.length !== 1 ? "s" : ""}`}
-                                </h2>
-                                <Link href={`/academic/${board}/${classNum}`} className="flex items-center gap-1.5 text-sm text-brand-royal font-medium hover:underline">
-                                    <ArrowLeft className="h-4 w-4" /> All Subjects
-                                </Link>
-                            </div>
-
                             {loading ? (
                                 <div className="space-y-3">
                                     {[...Array(6)].map((_, i) => (
@@ -246,7 +297,7 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
                                 </div>
                             ) : error ? (
                                 <div className="text-center py-16 bg-white rounded-2xl border border-slate-200">
-                                    <HelpCircle className="h-12 w-12 text-slate-300 mx-auto mb-4" />
+                                    <Search className="h-12 w-12 text-slate-300 mx-auto mb-4" />
                                     <p className="text-slate-600">{error}</p>
                                 </div>
                             ) : chapters.length === 0 ? (
@@ -259,65 +310,119 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
                                 </div>
                             ) : (
                                 <div className="space-y-3">
-                                    {chapters.map((ch) => (
-                                        <div key={ch.chapter} className="bg-white rounded-xl border border-slate-200 overflow-hidden">
-                                            <button
-                                                onClick={() => toggleChapter(ch.chapter)}
-                                                className="w-full p-5 flex items-center justify-between text-left hover:bg-slate-50 transition-colors"
-                                            >
-                                                <div className="flex items-center gap-3">
-                                                    <div className="h-10 w-10 rounded-xl bg-brand-bg flex items-center justify-center">
-                                                        <BookOpen className="h-5 w-5 text-brand-royal" />
-                                                    </div>
-                                                    <div>
-                                                        <h3 className="font-semibold text-slate-800">{ch.chapter}</h3>
-                                                        <p className="text-xs text-slate-500">{ch.count} solution{ch.count !== 1 ? "s" : ""}</p>
-                                                    </div>
-                                                </div>
-                                                <ChevronDown className={`h-5 w-5 text-slate-400 transition-transform ${expandedChapter === ch.chapter ? "rotate-180" : ""}`} />
-                                            </button>
-
-                                            <AnimatePresence>
-                                                {expandedChapter === ch.chapter && (
-                                                    <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="overflow-hidden">
-                                                        <div className="px-5 pb-5 border-t border-slate-100">
-                                                            {loadingSolutions ? (
-                                                                <div className="py-8 text-center">
-                                                                    <div className="h-6 w-6 border-2 border-brand-royal border-t-transparent rounded-full animate-spin mx-auto" />
-                                                                </div>
-                                                            ) : chapterSolutions.length === 0 ? (
-                                                                <p className="py-8 text-center text-sm text-slate-400">No solutions found</p>
-                                                            ) : (
-                                                                <div className="space-y-3 pt-4">
-                                                                    {chapterSolutions.map((sol, i) => (
-                                                                        <div key={sol._id} className="p-4 rounded-xl bg-slate-50 border border-slate-100">
-                                                                            <div className="flex items-start gap-3">
-                                                                                <span className="flex-shrink-0 h-6 w-6 rounded-full bg-brand-royal/10 text-brand-royal text-xs font-bold flex items-center justify-center mt-0.5">
-                                                                                    {sol.questionNumber || i + 1}
-                                                                                </span>
-                                                                                <div className="flex-1 min-w-0">
-                                                                                    <p className="text-sm font-medium text-slate-800 mb-2">{sol.question}</p>
-                                                                                    {sol.answer === "LOGIN_REQUIRED" ? (
-                                                                                        <div className="flex items-center gap-2 p-3 bg-amber-50 border border-amber-200 rounded-xl text-sm text-amber-700">
-                                                                                            <Lock className="h-4 w-4 flex-shrink-0" />
-                                                                                            <span>Login to view the solution. Free users can view 2 solutions per chapter.</span>
-                                                                                            <Link href="/login" className="font-semibold text-brand-royal hover:underline flex-shrink-0 ml-auto">Login</Link>
-                                                                                        </div>
-                                                                                    ) : (
-                                                                                        <div className="p-3 bg-white border border-green-200 rounded-xl text-sm text-slate-700 whitespace-pre-wrap">{sol.answer}</div>
-                                                                                    )}
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    ))}
-                                                                </div>
-                                                            )}
+                                    {chapters.map((ch) => {
+                                        const isExpanded = expandedChapter === ch.chapter;
+                                        return (
+                                            <div key={ch.chapter} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+                                                <button
+                                                    onClick={() => toggleChapter(ch.chapter)}
+                                                    className="w-full p-4 md:p-5 flex items-center justify-between text-left hover:bg-slate-50 transition-colors"
+                                                >
+                                                    <div className="flex items-center gap-3">
+                                                        <div className="h-10 w-10 rounded-xl bg-brand-bg flex items-center justify-center">
+                                                            <BookOpen className="h-5 w-5 text-brand-royal" />
                                                         </div>
-                                                    </motion.div>
-                                                )}
-                                            </AnimatePresence>
-                                        </div>
-                                    ))}
+                                                        <div>
+                                                            <h3 className="font-semibold text-slate-800 text-sm md:text-base">{ch.chapter}</h3>
+                                                            <p className="text-xs text-slate-500">{ch.count} solution{ch.count !== 1 ? "s" : ""}</p>
+                                                        </div>
+                                                    </div>
+                                                    <ChevronDown className={`h-5 w-5 text-slate-400 transition-transform ${isExpanded ? "rotate-180" : ""}`} />
+                                                </button>
+
+                                                <AnimatePresence>
+                                                    {isExpanded && (
+                                                        <motion.div
+                                                            initial={{ height: 0, opacity: 0 }}
+                                                            animate={{ height: "auto", opacity: 1 }}
+                                                            exit={{ height: 0, opacity: 0 }}
+                                                            className="overflow-hidden"
+                                                        >
+                                                            <div className="px-4 md:px-5 pb-5 border-t border-slate-100">
+                                                                {loadingSolutions ? (
+                                                                    <div className="py-8 text-center">
+                                                                        <div className="h-6 w-6 border-2 border-brand-royal border-t-transparent rounded-full animate-spin mx-auto" />
+                                                                    </div>
+                                                                ) : chapterSolutions.length === 0 ? (
+                                                                    <p className="py-8 text-center text-sm text-slate-400">No solutions found</p>
+                                                                ) : (
+                                                                    <div className="pt-4">
+                                                                        {/* Question Jump Chips */}
+                                                                        <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar pb-3 mb-3">
+                                                                            {chapterSolutions.map((_, idx) => (
+                                                                                <button
+                                                                                    key={idx}
+                                                                                    onClick={() => openQuestion(idx)}
+                                                                                    className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                                                                                        activeQuestionIndex === idx
+                                                                                            ? "bg-brand-royal text-white shadow-sm"
+                                                                                            : "bg-slate-100 text-slate-600 hover:bg-brand-bg hover:text-brand-royal"
+                                                                                    }`}
+                                                                                >
+                                                                                    Q{idx + 1}
+                                                                                </button>
+                                                                            ))}
+                                                                        </div>
+
+                                                                        {/* Active Question View */}
+                                                                        {activeSolution && (
+                                                                            <div id="active-question-scroll">
+                                                                                <SolutionCard
+                                                                                    questionNumber={activeSolution.questionNumber || (activeQuestionIndex ?? 0) + 1}
+                                                                                    totalQuestions={chapterSolutions.length}
+                                                                                    question={activeSolution.question}
+                                                                                    answer={activeSolution.answer}
+                                                                                    isFree={activeSolution.isFree}
+                                                                                    isBookmarked={bookmarkedQuestions.has(activeSolution._id)}
+                                                                                    onBookmark={() => handleBookmark(activeSolution._id)}
+                                                                                    onShare={() => handleShare(activeSolution.question)}
+                                                                                    onPrev={activeQuestionIndex! > 0 ? () => navigateQuestion("prev") : undefined}
+                                                                                    onNext={activeQuestionIndex! < chapterSolutions.length - 1 ? () => navigateQuestion("next") : undefined}
+                                                                                    chapterName={ch.chapter}
+                                                                                />
+                                                                            </div>
+                                                                        )}
+
+                                                                        {/* Question List (when no individual question is selected) */}
+                                                                        {activeQuestionIndex === null && (
+                                                                            <div className="space-y-2">
+                                                                                {chapterSolutions.map((sol, i) => (
+                                                                                    <button
+                                                                                        key={sol._id}
+                                                                                        onClick={() => openQuestion(i)}
+                                                                                        className="w-full p-3 md:p-4 rounded-xl bg-slate-50 border border-slate-100 text-left hover:bg-brand-bg hover:border-brand-royal/20 transition-all group"
+                                                                                    >
+                                                                                        <div className="flex items-start gap-3">
+                                                                                            <span className="flex-shrink-0 h-7 w-7 rounded-lg bg-brand-royal/10 text-brand-royal text-xs font-bold flex items-center justify-center mt-0.5 group-hover:bg-brand-royal group-hover:text-white transition-colors">
+                                                                                                {sol.questionNumber || i + 1}
+                                                                                            </span>
+                                                                                            <div className="flex-1 min-w-0">
+                                                                                                <p className="text-sm font-medium text-slate-700 group-hover:text-slate-900 leading-relaxed">
+                                                                                                    {decodeEntities(sol.question)}
+                                                                                                </p>
+                                                                                                <div className="flex items-center gap-2 mt-1.5">
+                                                                                                    {sol.isFree ? (
+                                                                                                        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-green-100 text-green-700 font-medium">Free</span>
+                                                                                                    ) : (
+                                                                                                        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-amber-100 text-amber-700 font-medium">Login to view</span>
+                                                                                                    )}
+                                                                                                    <span className="text-[10px] text-slate-400 group-hover:text-brand-royal transition-colors">Click to view solution</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </button>
+                                                                                ))}
+                                                                            </div>
+                                                                        )}
+                                                                    </div>
+                                                                )}
+                                                            </div>
+                                                        </motion.div>
+                                                    )}
+                                                </AnimatePresence>
+                                            </div>
+                                        );
+                                    })}
                                 </div>
                             )}
                         </>
@@ -356,7 +461,7 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
                                                     <iframe src={n.videoUrl} allowFullScreen className="w-full h-full" title={n.title} />
                                                 </div>
                                             ) : n.content ? (
-                                                <div className="text-sm text-slate-600 whitespace-pre-wrap mt-3 p-3 bg-slate-50 rounded-xl">{n.content}</div>
+                                                <div className="text-sm text-slate-600 whitespace-pre-wrap mt-3 p-3 bg-slate-50 rounded-xl">{decodeEntities(n.content)}</div>
                                             ) : null}
                                         </div>
                                     ))}
@@ -390,7 +495,7 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
                                                     <p className="text-xs text-slate-500">Academic Year: {s.year}</p>
                                                 </div>
                                             </div>
-                                            <div className="text-sm text-slate-700 whitespace-pre-wrap bg-slate-50 rounded-xl p-4">{s.content}</div>
+                                            <div className="text-sm text-slate-700 whitespace-pre-wrap bg-slate-50 rounded-xl p-4">{decodeEntities(s.content)}</div>
                                         </div>
                                     ))}
                                 </div>
@@ -449,12 +554,12 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
                 </div>
             </section>
 
-            {/* CTA */}
+            {/* Bottom CTA */}
             <section className="section-padding bg-white">
                 <div className="container-custom max-w-2xl mx-auto text-center">
                     <div className="p-8 rounded-3xl bg-brand-gradient-static text-white">
                         <Sparkles className="h-10 w-10 mx-auto mb-4 text-brand-sky" />
-                        <h2 className="text-2xl font-bold mb-3">Need Help with {subjectName}?</h2>
+                        <h2 className="text-2xl font-bold mb-3">Need Practice for {subjectName}?</h2>
                         <p className="text-white/70 mb-6">
                             Practice with AI-generated MCQs and get instant feedback on your preparation.
                         </p>
@@ -462,7 +567,7 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
                             href="/mock-test"
                             className="inline-flex items-center gap-2 bg-white text-brand-navy px-6 py-3 rounded-xl font-semibold hover:bg-brand-bg transition-all shadow-lg"
                         >
-                            Take a Mock Test <ChevronDown className="h-5 w-5 -rotate-90" />
+                            Take a Mock Test <ArrowLeft className="h-5 w-5 rotate-180" />
                         </Link>
                     </div>
                 </div>
