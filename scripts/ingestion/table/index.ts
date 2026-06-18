@@ -1,0 +1,1 @@
+export { extractTable } from "./extractor";

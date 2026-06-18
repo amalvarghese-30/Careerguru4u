@@ -26,10 +26,19 @@ const OUTPUT_DIR = path.join(process.cwd(), "scraped-data");
 const KNOWN_TEXTBOOKS = {
   maharashtra: {
     10: [
+      // Mathematics
       { slug: "balbharati-solutions-algebra-mathematics-1-english-standard-10-maharashtra-state-board", id: "52" },
       { slug: "balbharati-solutions-geometry-mathematics-2-english-standard-10-maharashtra-state-board", id: "50" },
+      // Science
       { slug: "balbharati-solutions-science-and-technology-part-1-english-standard-10-maharashtra-state-board", id: "51" },
       { slug: "balbharati-solutions-science-and-technology-2-english-standard-10-maharashtra-state-board", id: "53" },
+      // Languages & Humanities
+      { slug: "balbharati-solutions-english-kumarbharati-english-standard-10-maharashtra-state-board", id: "199" },
+      { slug: "balbharati-solutions-geography-english-standard-10-maharashtra-state-board", id: "104" },
+      { slug: "balbharati-solutions-history-and-political-science-english-standard-10-maharashtra-state-board", id: "105" },
+      { slug: "balbharati-solutions-hindi-lokbharati-english-standard-10-maharashtra-state-board", id: "275" },
+      { slug: "balbharati-solutions-marathi-aksharbharati-english-standard-10-maharashtra-state-board", id: "277" },
+      { slug: "balbharati-solutions-sanskrit-amod-english-standard-10-maharashtra-state-board", id: "594" },
     ],
     8: [
       { slug: "balbharati-solutions-mathematics-english-standard-8-maharashtra-state-board", id: "117" },
@@ -77,6 +86,46 @@ const COURSE_IDS = {
     10:  { id: 661,  slug: "cisce-icse-class-10-indian-certificate-of-secondary-education", medium: "english" },
   },
 };
+
+/**
+ * Given a lowercased subject name, returns slug patterns to match against KNOWN_TEXTBOOKS.
+ */
+function getSubjectPatterns(subjLower) {
+  if (subjLower.includes("math") || subjLower.includes("algebra") || subjLower.includes("geometry")) {
+    return ["mathematics", "algebra", "geometry"];
+  }
+  if (subjLower.includes("physics")) {
+    return ["science-and-technology-part-1", "science-and-technology-1", "physics"];
+  }
+  if (subjLower.includes("chemistry")) {
+    return ["science-and-technology-part-1", "science-and-technology-1", "chemistry"];
+  }
+  if (subjLower.includes("biology")) {
+    return ["science-and-technology-2", "biology"];
+  }
+  if (subjLower.includes("science") || subjLower.includes("tech")) {
+    return ["science-and-technology", "-science-"];
+  }
+  if (subjLower.includes("history") || subjLower.includes("civics") || subjLower.includes("political")) {
+    return ["history-and-political", "history-and-civics", "history"];
+  }
+  if (subjLower.includes("geography")) {
+    return ["geography"];
+  }
+  if (subjLower.includes("english")) {
+    return ["english-kumarbharati", "english-coursebook"];
+  }
+  if (subjLower.includes("hindi")) {
+    return ["hindi-lokbharati", "hindi-kumarbharati", "hindi"];
+  }
+  if (subjLower.includes("marathi")) {
+    return ["marathi-aksharbharati", "marathi-kumarbharati", "marathi"];
+  }
+  if (subjLower.includes("sanskrit")) {
+    return ["sanskrit-amod", "sanskrit-anand", "sanskrit"];
+  }
+  return [];
+}
 
 // ─── Helpers ──────────────────────────────────────────────────────
 
@@ -135,6 +184,20 @@ async function fetchPage(url) {
  * Extract IDs and slugs from Shaalaa search-textbook-solutions page.
  * Parses out subject links like: ?subjects=algebra-9th-mathematics-1_8870
  */
+
+const SUBJECT_NAME_MAP = {
+  "english-2-literature-english-class": "English",
+  "history-and-civics-class": "History and Civics",
+  "english-1-english-language-class": "English Language",
+  "english-2-literature-in-english": "English Literature",
+  "physics-chemistry-biology": "Science",
+};
+
+function normalizeSubjectName(slug) {
+  if (SUBJECT_NAME_MAP[slug]) return SUBJECT_NAME_MAP[slug];
+  return slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
 function parseSubjectLinks(html, courseUrl) {
   const subjects = [];
   // Pattern: href="/search-textbook-solutions/...?subjects=subject-name_id"
@@ -144,10 +207,7 @@ function parseSubjectLinks(html, courseUrl) {
     const fullHref = match[1];
     const slug = match[2];
     const id = match[3];
-    // Extract readable name from slug
-    const name = slug
-      .replace(/-/g, " ")
-      .replace(/\b\w/g, c => c.toUpperCase());
+    const name = normalizeSubjectName(slug);
     const url = fullHref.startsWith("http") ? fullHref : BASE + fullHref;
     if (!subjects.find(s => s.id === id)) {
       subjects.push({ name, slug, id, url });
@@ -185,7 +245,7 @@ function parseTextbookLinks(html) {
  */
 function parseChapterLinks(html) {
   const chapters = [];
-  const regex = /\/textbook-solutions\/c\/([a-z0-9][a-z0-9-]+)_(\d+)/gi;
+  const regex = /\/textbook-solutions\/c\/([a-z0-9][a-z0-9-.]+)_(\d+)/gi;
   let match;
   const seen = new Set();
   while ((match = regex.exec(html)) !== null) {
@@ -551,6 +611,7 @@ async function scrapeChapter(chapterUrl, chapterName, boardName, className, subj
         subject: subjectName,
         chapter: chapterName,
         questionNumber: i + 1,
+        sourceUrl: q.url,
         isFree: true,
       };
 
@@ -596,18 +657,9 @@ async function scrapeSubject(subjectInfo, boardName, className, boardKey) {
       // Filter known textbooks by subject name relevance
       const subjLower = subjectInfo.name.toLowerCase();
       let filtered = known;
-      if (subjLower.includes("math") || subjLower.includes("mathematics")) {
-        filtered = known.filter(t => t.slug.includes("mathematics"));
-      } else if (subjLower.includes("physics") || subjLower.includes("chemistry")) {
-        filtered = known.filter(t => t.slug.includes("science-and-technology-part-1") || t.slug.includes("science-and-technology-1"));
-      } else if (subjLower.includes("biology")) {
-        filtered = known.filter(t => t.slug.includes("science-and-technology-2"));
-      } else if (subjLower.includes("science") || subjLower.includes("tech")) {
-        filtered = known.filter(t =>
-          t.slug.includes("science-and-technology") || t.slug.includes("-science-")
-        );
-      } else {
-        filtered = [];
+      const patterns = getSubjectPatterns(subjLower);
+      if (patterns.length > 0) {
+        filtered = known.filter(t => patterns.some(p => t.slug.includes(p)));
       }
       textbooks = filtered.map(t => ({
         url: `${BASE}/textbook-solutions/${t.slug}_${t.id}`,
@@ -784,9 +836,31 @@ async function main() {
       s.name.toLowerCase().includes(subjectFilter.toLowerCase())
     );
     if (targets.length === 0) {
-      console.error(`\n❌ Subject "${subjectFilter}" not found. Available subjects:`);
-      subjects.forEach(s => console.log(`   ${s.name} (${s.slug})`));
-      process.exit(1);
+      // Fallback: check KNOWN_TEXTBOOKS for language subjects not on discovery page
+      const known = KNOWN_TEXTBOOKS[boardKey]?.[className];
+      if (known) {
+        const subjLower = subjectFilter.toLowerCase();
+        const patterns = getSubjectPatterns(subjLower);
+        if (patterns.length > 0) {
+          const matching = known.filter(t => patterns.some(p => t.slug.includes(p)));
+          if (matching.length > 0) {
+            // Create synthetic subject entry — scrapeSubject will use KNOWN_TEXTBOOKS fallback
+            const synth = {
+              name: subjectFilter.charAt(0).toUpperCase() + subjectFilter.slice(1),
+              slug: subjectFilter.toLowerCase(),
+              id: "0",
+              url: "",
+            };
+            console.log(`\n📋 Subject "${subjectFilter}" not in discovery — using KNOWN_TEXTBOOKS (${matching.length} textbooks)`);
+            targets = [synth];
+          }
+        }
+      }
+      if (targets.length === 0) {
+        console.error(`\n❌ Subject "${subjectFilter}" not found. Available subjects:`);
+        subjects.forEach(s => console.log(`   ${s.name} (${s.slug})`));
+        process.exit(1);
+      }
     }
   }
 

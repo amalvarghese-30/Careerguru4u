@@ -1,0 +1,16 @@
+{
+  "phase": "scraping",
+  "board": "maharashtra",
+  "class": 10,
+  "subject": "Physics",
+  "chapter": "&nbsp;• 3: Chemical reactions and equations",
+  "stats": {
+    "subjectsFound": 7,
+    "booksFound": 9,
+    "chaptersFound": 76,
+    "questionsFound": 2621,
+    "solutionsFound": 29,
+    "errors": []
+  },
+  "timestamp": "2026-06-18T00:22:13.294Z"
+}

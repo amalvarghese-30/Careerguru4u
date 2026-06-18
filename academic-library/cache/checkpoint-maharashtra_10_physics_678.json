@@ -1,0 +1,16 @@
+{
+  "phase": "scraping",
+  "board": "maharashtra",
+  "class": 10,
+  "subject": "Physics",
+  "chapter": "&nbsp;• 5: Heat",
+  "stats": {
+    "subjectsFound": 7,
+    "booksFound": 9,
+    "chaptersFound": 76,
+    "questionsFound": 2663,
+    "solutionsFound": 18,
+    "errors": []
+  },
+  "timestamp": "2026-06-18T00:23:40.350Z"
+}

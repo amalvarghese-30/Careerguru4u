@@ -1,0 +1,16 @@
+{
+  "phase": "scraping",
+  "board": "maharashtra",
+  "class": 10,
+  "subject": "English 2 Literature English Class",
+  "chapter": "&nbsp;• 4: Financial Planning",
+  "stats": {
+    "subjectsFound": 7,
+    "booksFound": 6,
+    "chaptersFound": 26,
+    "questionsFound": 789,
+    "solutionsFound": 56,
+    "errors": []
+  },
+  "timestamp": "2026-06-17T23:20:19.208Z"
+}

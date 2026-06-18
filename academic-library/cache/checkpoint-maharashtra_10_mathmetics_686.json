@@ -1,0 +1,16 @@
+{
+  "phase": "scraping",
+  "board": "maharashtra",
+  "class": 10,
+  "subject": "Mathmetics",
+  "chapter": "&nbsp;• 3: Arithmetic Progression",
+  "stats": {
+    "subjectsFound": 7,
+    "booksFound": 8,
+    "chaptersFound": 59,
+    "questionsFound": 2001,
+    "solutionsFound": 65,
+    "errors": []
+  },
+  "timestamp": "2026-06-18T00:01:53.684Z"
+}

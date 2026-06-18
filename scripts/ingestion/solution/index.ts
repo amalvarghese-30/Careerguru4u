@@ -1,0 +1,1 @@
+export { extractSolution } from "./extractor";

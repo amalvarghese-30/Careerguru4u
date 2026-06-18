@@ -1,0 +1,16 @@
+{
+  "phase": "scraping",
+  "board": "maharashtra",
+  "class": 10,
+  "subject": "Mathmetics",
+  "chapter": "&nbsp;• 1: Linear Equations in Two Variables",
+  "stats": {
+    "subjectsFound": 7,
+    "booksFound": 8,
+    "chaptersFound": 59,
+    "questionsFound": 1828,
+    "solutionsFound": 66,
+    "errors": []
+  },
+  "timestamp": "2026-06-17T23:56:08.413Z"
+}

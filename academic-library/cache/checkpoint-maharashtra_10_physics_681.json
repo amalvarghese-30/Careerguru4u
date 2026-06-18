@@ -1,0 +1,16 @@
+{
+  "phase": "scraping",
+  "board": "maharashtra",
+  "class": 10,
+  "subject": "Physics",
+  "chapter": "&nbsp;• 8: Metallurgy",
+  "stats": {
+    "subjectsFound": 7,
+    "booksFound": 9,
+    "chaptersFound": 76,
+    "questionsFound": 2717,
+    "solutionsFound": 33,
+    "errors": []
+  },
+  "timestamp": "2026-06-18T00:25:25.296Z"
+}

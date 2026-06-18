@@ -18,7 +18,7 @@ interface Textbook {
 }
 
 const BOARDS = ["CBSE", "ICSE", "Maharashtra Board"];
-const CLASSES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const CLASSES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 export default function TextbooksAdminPage() {
     const [textbooks, setTextbooks] = useState<Textbook[]>([]);
@@ -112,7 +112,7 @@ export default function TextbooksAdminPage() {
                 <div className="flex items-center gap-2 text-sm text-slate-500 mb-3">
                     <Filter className="h-4 w-4" /> Filters
                 </div>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                     <select value={board} onChange={(e) => setBoard(e.target.value)} className="px-3 py-2 rounded-xl border border-slate-200 text-sm focus:outline-none focus:border-brand-royal">
                         <option value="">All Boards</option>
                         {BOARDS.map(b => <option key={b}>{b}</option>)}
@@ -121,6 +121,7 @@ export default function TextbooksAdminPage() {
                         <option value="">All Classes</option>
                         {CLASSES.map(c => <option key={c} value={c}>Class {c}</option>)}
                     </select>
+                    <input type="text" placeholder="Subject..." value={subject} onChange={(e) => setSubject(e.target.value)} className="px-3 py-2 rounded-xl border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" />
                     <button onClick={fetchTextbooks} className="px-4 py-2 bg-slate-100 rounded-xl text-sm font-medium hover:bg-slate-200 transition-colors">
                         <Search className="h-4 w-4 inline mr-1" /> Apply Filters
                     </button>

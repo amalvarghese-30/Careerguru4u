@@ -1,0 +1,16 @@
+{
+  "phase": "scraping",
+  "board": "maharashtra",
+  "class": 10,
+  "subject": "Mathmetics",
+  "chapter": "&nbsp;• 2: Quadratic Equations",
+  "stats": {
+    "subjectsFound": 7,
+    "booksFound": 8,
+    "chaptersFound": 59,
+    "questionsFound": 1936,
+    "solutionsFound": 108,
+    "errors": []
+  },
+  "timestamp": "2026-06-17T23:59:46.971Z"
+}

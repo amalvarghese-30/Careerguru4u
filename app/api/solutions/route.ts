@@ -35,7 +35,8 @@ export async function GET(req: NextRequest) {
         if (subject) query.subject = subject;
         if (chapter) query.chapter = chapter;
 
-        const solutions = await db.collection("solutions").find(query).limit(50).toArray();
+        const limit = parseInt(searchParams.get("limit") || "500");
+        const solutions = await db.collection("solutions").find(query).limit(limit).toArray();
 
         // Apply login gate logic
         const solutionsWithAccess = await Promise.all(solutions.map(async (solution: Record<string, unknown>) => {

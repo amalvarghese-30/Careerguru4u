@@ -16,7 +16,7 @@ interface SyllabusDoc {
 }
 
 const BOARDS = ["CBSE", "ICSE", "Maharashtra Board"];
-const CLASSES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const CLASSES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 export default function SyllabusAdminPage() {
     const [syllabus, setSyllabus] = useState<SyllabusDoc[]>([]);

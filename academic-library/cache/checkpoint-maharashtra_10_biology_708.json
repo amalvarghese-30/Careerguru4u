@@ -1,0 +1,16 @@
+{
+  "phase": "scraping",
+  "board": "maharashtra",
+  "class": 10,
+  "subject": "Biology",
+  "chapter": "&nbsp;• 10: Disaster Management",
+  "stats": {
+    "subjectsFound": 7,
+    "booksFound": 1,
+    "chaptersFound": 10,
+    "questionsFound": 252,
+    "solutionsFound": 35,
+    "errors": []
+  },
+  "timestamp": "2026-06-17T23:01:34.195Z"
+}

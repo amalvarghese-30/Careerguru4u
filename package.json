@@ -6,12 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "crawl": "npx tsx scripts/crawl.ts",
+    "crawl:pw": "npx tsx scripts/scrape-playwright.ts",
+    "crawl:discover": "npx tsx scripts/crawl.ts --discover-only",
+    "resume": "npx tsx scripts/resume.ts",
+    "export": "npx tsx scripts/crawler/modules/exporter.ts",
+    "verify": "npx tsx scripts/verify.ts",
+    "cleanup": "npx tsx scripts/cleanup.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.2",
     "@hookform/resolvers": "^5.4.0",
     "@tanstack/react-query": "^5.100.14",
     "bcryptjs": "^2.4.3",
+    "cheerio": "^1.2.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.40.0",
     "html-entities": "^2.6.0",

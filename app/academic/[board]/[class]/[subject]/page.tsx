@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { BookOpen, ChevronDown, ArrowLeft, Sparkles, Lightbulb, Play, ClipboardList, Download, FileText, Search } from "lucide-react";
 import { SolutionCard } from "@/components/features/SolutionCard";
 import { decodeEntities } from "@/lib/math-renderer";
+import { MathRenderer } from "@/components/content/MathRenderer";
 
 interface SolutionData {
     _id: string;
@@ -94,7 +95,7 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
                 params.set("board", boardName);
                 params.set("class", classParam);
                 params.set("subject", subjectName);
-                params.set("limit", "200");
+                params.set("limit", "2000");
 
                 const res = await fetch(`/api/solutions?${params}`);
                 const data = await res.json();
@@ -461,7 +462,9 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
                                                     <iframe src={n.videoUrl} allowFullScreen className="w-full h-full" title={n.title} />
                                                 </div>
                                             ) : n.content ? (
-                                                <div className="text-sm text-slate-600 whitespace-pre-wrap mt-3 p-3 bg-slate-50 rounded-xl">{decodeEntities(n.content)}</div>
+                                                <div className="text-sm text-slate-600 whitespace-pre-wrap mt-3 p-3 bg-slate-50 rounded-xl">
+                                                    <MathRenderer text={decodeEntities(n.content)} />
+                                                </div>
                                             ) : null}
                                         </div>
                                     ))}
@@ -495,7 +498,9 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
                                                     <p className="text-xs text-slate-500">Academic Year: {s.year}</p>
                                                 </div>
                                             </div>
-                                            <div className="text-sm text-slate-700 whitespace-pre-wrap bg-slate-50 rounded-xl p-4">{decodeEntities(s.content)}</div>
+                                            <div className="text-sm text-slate-700 whitespace-pre-wrap bg-slate-50 rounded-xl p-4">
+                                                <MathRenderer text={decodeEntities(s.content)} />
+                                            </div>
                                         </div>
                                     ))}
                                 </div>

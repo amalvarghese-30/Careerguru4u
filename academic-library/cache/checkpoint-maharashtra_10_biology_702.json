@@ -1,0 +1,16 @@
+{
+  "phase": "scraping",
+  "board": "maharashtra",
+  "class": 10,
+  "subject": "Biology",
+  "chapter": "&nbsp;• 4: Environmental management",
+  "stats": {
+    "subjectsFound": 7,
+    "booksFound": 1,
+    "chaptersFound": 10,
+    "questionsFound": 89,
+    "solutionsFound": 20,
+    "errors": []
+  },
+  "timestamp": "2026-06-17T22:55:45.663Z"
+}

@@ -2,7 +2,9 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { BookOpen, Search, Trash2, Eye, Filter, Plus, Edit3, X, Save, Upload } from "lucide-react";
+import { BookOpen, Search, Trash2, Eye, Filter, Plus, Edit3, X, Save, Upload, LayoutGrid } from "lucide-react";
+import { SolutionBlockEditor } from "@/components/admin/SolutionBlockEditor";
+import type { ContentBlock, SolutionStep } from "@/scripts/ingestion/types";
 
 interface Solution {
     _id: string;
@@ -17,6 +19,13 @@ interface Solution {
     viewCount: number;
     helpfulCount: number;
     createdAt: string;
+    questionBlocks?: ContentBlock[];
+    solutionSteps?: SolutionStep[];
+    questionType?: string;
+    difficulty?: string;
+    version?: number;
+    sourceType?: string;
+    sourceUrl?: string;
 }
 
 const BOARDS = ["CBSE", "ICSE", "Maharashtra Board"];
@@ -39,6 +48,9 @@ export default function SolutionsAdminPage() {
     const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null);
     const [isNew, setIsNew] = useState(false);
     const [showBulkImport, setShowBulkImport] = useState(false);
+    const [showBlockEditor, setShowBlockEditor] = useState(false);
+    const [blockEditSolution, setBlockEditSolution] = useState<Solution | null>(null);
+    const [blockSaving, setBlockSaving] = useState(false);
     const [bulkJson, setBulkJson] = useState("");
     const [bulkImporting, setBulkImporting] = useState(false);
     const [bulkResult, setBulkResult] = useState("");
@@ -105,6 +117,52 @@ export default function SolutionsAdminPage() {
             setMessage("Save failed");
         } finally {
             setSaving(false);
+        }
+    };
+
+    const openBlockEditor = (s: Solution) => {
+        setBlockEditSolution(s);
+        setShowBlockEditor(true);
+    };
+
+    const handleBlockSave = async (data: {
+        question: ContentBlock[];
+        solution: SolutionStep[];
+        questionType?: string;
+        difficulty?: string;
+        sourceType?: string;
+        sourceUrl?: string;
+    }) => {
+        if (!blockEditSolution) return;
+        setBlockSaving(true);
+        setMessage("");
+        try {
+            const res = await fetch("/api/admin/solutions", {
+                method: "PUT",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    _id: blockEditSolution._id,
+                    questionBlocks: data.question,
+                    solutionSteps: data.solution,
+                    questionType: data.questionType || undefined,
+                    difficulty: data.difficulty || undefined,
+                    sourceType: data.sourceType || "manual",
+                    sourceUrl: data.sourceUrl || "",
+                }),
+            });
+            if (res.ok) {
+                setShowBlockEditor(false);
+                setBlockEditSolution(null);
+                fetchSolutions();
+                setMessage("Solution blocks updated");
+            } else {
+                const errData = await res.json();
+                setMessage(errData.error || "Block save failed");
+            }
+        } catch {
+            setMessage("Block save failed");
+        } finally {
+            setBlockSaving(false);
         }
     };
 
@@ -311,6 +369,13 @@ export default function SolutionsAdminPage() {
                                         </div>
                                         <div className="flex items-center gap-1 flex-shrink-0">
                                             <button
+                                                onClick={(e) => { e.stopPropagation(); openBlockEditor(s); }}
+                                                className="p-2 rounded-lg text-slate-400 hover:text-brand-royal hover:bg-brand-royal/10 transition-colors"
+                                                title="Edit Blocks"
+                                            >
+                                                <LayoutGrid className="h-4 w-4" />
+                                            </button>
+                                            <button
                                                 onClick={(e) => { e.stopPropagation(); openEdit(s); }}
                                                 className="p-2 rounded-lg text-slate-400 hover:text-brand-royal hover:bg-brand-royal/10 transition-colors"
                                             >
@@ -338,6 +403,13 @@ export default function SolutionsAdminPage() {
                                 <h3 className="font-semibold text-slate-800">Solution Detail</h3>
                                 <div className="flex items-center gap-1">
                                     <button
+                                        onClick={() => openBlockEditor(selected)}
+                                        className="p-1.5 rounded-lg text-slate-400 hover:text-brand-royal hover:bg-brand-royal/10"
+                                        title="Edit Blocks"
+                                    >
+                                        <LayoutGrid className="h-3.5 w-3.5" />
+                                    </button>
+                                    <button
                                         onClick={() => openEdit(selected)}
                                         className="p-1.5 rounded-lg text-slate-400 hover:text-brand-royal hover:bg-brand-royal/10"
                                     >
@@ -351,6 +423,30 @@ export default function SolutionsAdminPage() {
                                     </button>
                                 </div>
                             </div>
+
+                            {(selected.questionType || selected.difficulty || (selected.version && selected.version > 1)) && (
+                                <div className="flex items-center gap-2 mb-4 flex-wrap">
+                                    {selected.questionType && (
+                                        <span className="text-xs px-2 py-0.5 rounded-full bg-purple-100 text-purple-700 font-medium">
+                                            {selected.questionType}
+                                        </span>
+                                    )}
+                                    {selected.difficulty && (
+                                        <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
+                                            selected.difficulty === "easy" ? "bg-green-100 text-green-700" :
+                                            selected.difficulty === "medium" ? "bg-amber-100 text-amber-700" :
+                                            "bg-red-100 text-red-700"
+                                        }`}>
+                                            {selected.difficulty}
+                                        </span>
+                                    )}
+                                    {selected.version && selected.version > 1 && (
+                                        <span className="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-700 font-medium">
+                                            v{selected.version}
+                                        </span>
+                                    )}
+                                </div>
+                            )}
 
                             <div className="mb-4">
                                 <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">Question</p>
@@ -373,6 +469,12 @@ export default function SolutionsAdminPage() {
                                 <span className={`px-2 py-1 rounded-lg ${selected.isFree ? "bg-green-100 text-green-700" : "bg-amber-100 text-amber-700"}`}>
                                     {selected.isFree ? "Free" : "Premium"}
                                 </span>
+                                {selected.sourceType && (
+                                    <span className="px-2 py-1 bg-slate-100 rounded-lg">{selected.sourceType}</span>
+                                )}
+                                {selected.questionBlocks && selected.questionBlocks.length > 0 && (
+                                    <span className="px-2 py-1 bg-brand-royal/10 text-brand-royal rounded-lg text-xs font-medium">Block content</span>
+                                )}
                             </div>
                         </div>
                     ) : (
@@ -591,6 +693,39 @@ export default function SolutionsAdminPage() {
                                     {bulkImporting ? "Importing..." : <><Upload className="h-4 w-4" /> Import</>}
                                 </button>
                             </div>
+                        </motion.div>
+                    </div>
+                )}
+            </AnimatePresence>
+
+            {/* Block Editor Modal */}
+            <AnimatePresence>
+                {showBlockEditor && blockEditSolution && (
+                    <div className="fixed inset-0 z-[100] flex items-start justify-center pt-12 px-4">
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            onClick={() => { setShowBlockEditor(false); setBlockEditSolution(null); }}
+                            className="absolute inset-0 bg-black/50"
+                        />
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.95, y: 20 }}
+                            animate={{ opacity: 1, scale: 1, y: 0 }}
+                            exit={{ opacity: 0, scale: 0.95, y: 20 }}
+                            className="relative bg-white rounded-2xl border border-slate-200 w-full max-w-5xl max-h-[85vh] overflow-hidden shadow-2xl"
+                        >
+                            <SolutionBlockEditor
+                                question={blockEditSolution.questionBlocks || []}
+                                solution={blockEditSolution.solutionSteps || []}
+                                questionType={blockEditSolution.questionType as "mcq" | "short" | "long" | "diagram" | "numerical" | "derivation" | undefined}
+                                difficulty={blockEditSolution.difficulty as "easy" | "medium" | "hard" | undefined}
+                                sourceUrl={blockEditSolution.sourceUrl}
+                                sourceType={blockEditSolution.sourceType as "scraped" | "manual" | "ai-enhanced" | undefined}
+                                solutionId={blockEditSolution._id}
+                                onSave={handleBlockSave}
+                                onCancel={() => { setShowBlockEditor(false); setBlockEditSolution(null); }}
+                            />
                         </motion.div>
                     </div>
                 )}

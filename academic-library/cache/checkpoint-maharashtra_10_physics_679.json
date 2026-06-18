@@ -1,0 +1,16 @@
+{
+  "phase": "scraping",
+  "board": "maharashtra",
+  "class": 10,
+  "subject": "Physics",
+  "chapter": "&nbsp;• 6: Refraction of light",
+  "stats": {
+    "subjectsFound": 7,
+    "booksFound": 9,
+    "chaptersFound": 76,
+    "questionsFound": 2670,
+    "solutionsFound": 7,
+    "errors": []
+  },
+  "timestamp": "2026-06-18T00:23:58.025Z"
+}

@@ -1,0 +1,16 @@
+{
+  "phase": "scraping",
+  "board": "maharashtra",
+  "class": 10,
+  "subject": "Physics",
+  "chapter": "&nbsp;• 9: Carbon Compounds",
+  "stats": {
+    "subjectsFound": 7,
+    "booksFound": 9,
+    "chaptersFound": 76,
+    "questionsFound": 2763,
+    "solutionsFound": 46,
+    "errors": []
+  },
+  "timestamp": "2026-06-18T00:26:47.472Z"
+}

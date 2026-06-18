@@ -1,0 +1,16 @@
+{
+  "phase": "scraping",
+  "board": "maharashtra",
+  "class": 10,
+  "subject": "Mathmetics",
+  "chapter": "&nbsp;• 5: Probability",
+  "stats": {
+    "subjectsFound": 7,
+    "booksFound": 8,
+    "chaptersFound": 59,
+    "questionsFound": 2119,
+    "solutionsFound": 62,
+    "errors": []
+  },
+  "timestamp": "2026-06-18T00:05:46.020Z"
+}
