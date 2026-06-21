@@ -118,6 +118,8 @@ export async function POST(req: NextRequest) {
     if (difficulty) doc.difficulty = difficulty;
 
     // Store block content when provided
+    if (body.questionHtml) doc.questionHtml = body.questionHtml;
+    if (body.answerHtml) doc.answerHtml = body.answerHtml;
     if (body.questionBlocks) doc.questionBlocks = questionBlocks;
     if (body.solutionSteps) doc.solutionSteps = solutionSteps;
     if (body.tables) doc.tables = body.tables;
@@ -216,6 +218,8 @@ export async function PUT(req: NextRequest) {
     if (data.difficulty !== undefined) {
       update.difficulty = DIFFICULTIES.includes(data.difficulty) ? data.difficulty : undefined;
     }
+    if (data.questionHtml !== undefined) update.questionHtml = data.questionHtml;
+    if (data.answerHtml !== undefined) update.answerHtml = data.answerHtml;
     if (data.tables !== undefined) update.tables = data.tables;
     if (data.equations !== undefined) update.equations = data.equations;
     if (data.images !== undefined) update.images = data.images;

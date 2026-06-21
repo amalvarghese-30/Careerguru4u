@@ -10,6 +10,8 @@ interface SolutionViewerProps {
   solution: SolutionStep[] | string;
   questionType?: string;
   difficulty?: string;
+  questionHtml?: string;
+  answerHtml?: string;
 }
 
 /**
@@ -18,7 +20,7 @@ interface SolutionViewerProps {
  * When `question`/`solution` are arrays of ContentBlock/SolutionStep, renders
  * using the typed block renderer. When strings, falls back to math-enhanced text.
  */
-export function SolutionViewer({ question, solution, questionType, difficulty }: SolutionViewerProps) {
+export function SolutionViewer({ question, solution, questionType, difficulty, questionHtml, answerHtml }: SolutionViewerProps) {
   const questionBlocks = Array.isArray(question) ? question : null;
   const solutionSteps = Array.isArray(solution) ? solution : null;
   const questionText = typeof question === "string" ? question : "";
@@ -33,7 +35,12 @@ export function SolutionViewer({ question, solution, questionType, difficulty }:
             Q
           </span>
           <div className="flex-1 min-w-0">
-            {questionBlocks ? (
+            {questionHtml ? (
+              <div
+                className="text-base md:text-lg font-medium text-neutral-nearBlack leading-relaxed prose prose-sm max-w-none"
+                dangerouslySetInnerHTML={{ __html: questionHtml }}
+              />
+            ) : questionBlocks ? (
               <div className="space-y-2">
                 {questionBlocks.map((block) => (
                   <BlockRenderer key={block.id} block={block} />
@@ -68,7 +75,22 @@ export function SolutionViewer({ question, solution, questionType, difficulty }:
       </div>
 
       {/* Solution Section */}
-      {solutionSteps && solutionSteps.length > 0 ? (
+      {answerHtml ? (
+        <div className="rounded-2xl border border-brand-royal/10 bg-gradient-to-br from-brand-bg/50 to-white overflow-hidden">
+          <div className="px-5 md:px-6 py-4 bg-brand-royal/5 border-b border-brand-royal/10">
+            <div className="flex items-center gap-2">
+              <GraduationCap className="h-5 w-5 text-brand-royal" />
+              <h3 className="font-sora font-semibold text-brand-navy text-base">Solution</h3>
+            </div>
+          </div>
+          <div className="p-5 md:p-6">
+            <div
+              className="text-sm md:text-base text-neutral-darkGray leading-relaxed prose prose-sm max-w-none"
+              dangerouslySetInnerHTML={{ __html: answerHtml }}
+            />
+          </div>
+        </div>
+      ) : solutionSteps && solutionSteps.length > 0 ? (
         <div className="rounded-2xl border border-brand-royal/10 bg-gradient-to-br from-brand-bg/50 to-white overflow-hidden">
           <div className="px-5 md:px-6 py-4 bg-brand-royal/5 border-b border-brand-royal/10">
             <div className="flex items-center gap-2">
