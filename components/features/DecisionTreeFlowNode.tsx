@@ -55,7 +55,9 @@ const DecisionTreeFlowNode = memo(({ data }: NodeProps<FlowNodeData>) => {
     <div className={cardClass} style={nodeLevel === "root" ? { background: `linear-gradient(135deg, ${colors.text}, ${colors.border})` } : undefined}>
       {/* Handles */}
       {depth > 0 && <Handle type="target" position={Position.Top} className="!bg-slate-300 !w-2 !h-2" />}
-      {hasChildren && <Handle type="source" position={Position.Bottom} className="!bg-slate-300 !w-2 !h-2" />}
+      {hasChildren && (
+        <Handle type="source" position={Position.Bottom} className="!bg-brand-electric !w-3 !h-3 !border-2 !border-white !shadow-sm" />
+      )}
 
       {/* Color accent bar for non-root nodes */}
       {nodeLevel !== "root" && (

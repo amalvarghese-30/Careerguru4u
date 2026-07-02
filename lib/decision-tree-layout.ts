@@ -171,3 +171,36 @@ export function markSelectedNode(nodes: FlowNode[], selectedId: string | null): 
     data: { ...n.data, isSelected: n.id === selectedId },
   }));
 }
+
+export function filterVisibleNodes(
+  nodes: FlowNode[],
+  edges: FlowEdge[],
+  expandedIds: Set<string>,
+): { nodes: FlowNode[]; edges: FlowEdge[] } {
+  // Build parent → children map from edges
+  const childrenMap = new Map<string, string[]>();
+  for (const edge of edges) {
+    const list = childrenMap.get(edge.source) || [];
+    list.push(edge.target);
+    childrenMap.set(edge.source, list);
+  }
+
+  // Walk from root through expanded nodes to collect visible IDs
+  const visibleIds = new Set<string>();
+  function walk(id: string) {
+    visibleIds.add(id);
+    if (expandedIds.has(id)) {
+      const children = childrenMap.get(id) || [];
+      for (const childId of children) {
+        walk(childId);
+      }
+    }
+  }
+  walk("root");
+
+  const filteredNodes = nodes.filter((n) => visibleIds.has(n.id));
+  const filteredEdges = edges.filter((e) => visibleIds.has(e.source) && visibleIds.has(e.target));
+  const laidOutNodes = applyDagreLayout(filteredNodes, filteredEdges);
+
+  return { nodes: laidOutNodes, edges: filteredEdges };
+}

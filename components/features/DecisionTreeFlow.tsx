@@ -18,6 +18,7 @@ import {
   filterNodesForStream,
   highlightSearchResults,
   markSelectedNode,
+  filterVisibleNodes,
 } from "@/lib/decision-tree-layout";
 import { DecisionTreeFlowNode } from "./DecisionTreeFlowNode";
 
@@ -36,6 +37,8 @@ interface DecisionTreeFlowProps {
   onSelect: (node: DecisionTreeNode) => void;
   searchQuery: string;
   activeFilter: string;
+  expandedIds: Set<string>;
+  onToggle: (id: string) => void;
   onReactFlowInit: (instance: ReactFlowInstance) => void;
   onZoomChange: (zoom: number) => void;
 }
@@ -46,6 +49,8 @@ export function DecisionTreeFlow({
   onSelect,
   searchQuery,
   activeFilter,
+  expandedIds,
+  onToggle,
   onReactFlowInit,
   onZoomChange,
 }: DecisionTreeFlowProps) {
@@ -53,15 +58,16 @@ export function DecisionTreeFlow({
   const [edges, setEdges, onEdgesChange] = useEdgesState([]);
   const didFitView = useRef(false);
 
-  // Data pipeline: convert → filter → layout → highlight → markSelected
+  // Data pipeline: convert → filter → filterVisible → layout → highlight → markSelected
   const layouted = useMemo(() => {
     const { nodes: rawNodes, edges: rawEdges } = treeToFlowData(root);
     let { nodes: filtered, edges: filteredEdges } = filterNodesForStream(rawNodes, rawEdges, activeFilter);
-    filtered = applyDagreLayout(filtered, filteredEdges);
-    filtered = highlightSearchResults(filtered, searchQuery);
-    filtered = markSelectedNode(filtered, selectedNodeId);
-    return { nodes: filtered, edges: filteredEdges };
-  }, [root, activeFilter, searchQuery, selectedNodeId]);
+    const visible = filterVisibleNodes(filtered, filteredEdges, expandedIds);
+    let { nodes: visibleNodes, edges: visibleEdges } = visible;
+    visibleNodes = highlightSearchResults(visibleNodes, searchQuery);
+    visibleNodes = markSelectedNode(visibleNodes, selectedNodeId);
+    return { nodes: visibleNodes, edges: visibleEdges };
+  }, [root, activeFilter, searchQuery, selectedNodeId, expandedIds]);
 
   // ReactFlow requires state to be set via setNodes/setEdges for internal tracking
   useEffect(() => {
@@ -73,8 +79,11 @@ export function DecisionTreeFlow({
     (_event, node) => {
       const flowNode = node as FlowNode;
       onSelect(flowNode.data);
+      if (flowNode.data.children.length > 0) {
+        onToggle(flowNode.id);
+      }
     },
-    [onSelect],
+    [onSelect, onToggle],
   );
 
   const handleInit = useCallback(

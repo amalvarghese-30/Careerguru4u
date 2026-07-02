@@ -18,6 +18,7 @@ export default function FlowchartPage() {
   const [currentZoom, setCurrentZoom] = useState(1);
   const [rfInstance, setRfInstance] = useState<ReactFlowInstance | null>(null);
   const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null);
+  const [expandedIds, setExpandedIds] = useState<Set<string>>(() => new Set());
 
   // Get the currently selected node and its breadcrumb
   const selectedNode = useMemo(
@@ -36,17 +37,33 @@ export default function FlowchartPage() {
   const handleBreadcrumbClick = useCallback(
     (node: DecisionTreeNode) => {
       setSelectedNodeId(node.id);
-      if (rfInstance) {
-        rfInstance.fitView({ nodes: [{ id: node.id }], duration: 400, padding: 0.5 });
-      }
+      // Expand all ancestors so the node is visible
+      const ancestors = getAncestors(node.id, decisionTree);
+      setExpandedIds((prev) => {
+        const next = new Set(prev);
+        for (const a of ancestors) {
+          if (a.id !== node.id) next.add(a.id);
+        }
+        return next;
+      });
     },
-    [rfInstance]
+    []
   );
 
   const handleClearSelection = useCallback(() => {
     setSelectedNodeId(null);
+    setExpandedIds(new Set());
     rfInstance?.fitView({ padding: 0.3, duration: 400 });
   }, [rfInstance]);
+
+  const handleToggle = useCallback((id: string) => {
+    setExpandedIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  }, []);
 
   const handleZoomIn = useCallback(() => {
     rfInstance?.zoomIn({ duration: 200 });
@@ -104,6 +121,8 @@ export default function FlowchartPage() {
               onSelect={handleSelect}
               searchQuery={searchQuery}
               activeFilter={activeFilter}
+              expandedIds={expandedIds}
+              onToggle={handleToggle}
               onReactFlowInit={setRfInstance}
               onZoomChange={setCurrentZoom}
             />
