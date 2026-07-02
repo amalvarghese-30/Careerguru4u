@@ -115,7 +115,14 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
                 }
 
                 const chapterList: ChapterGroup[] = Object.entries(grouped)
-                    .sort(([a], [b]) => a.localeCompare(b))
+                    .sort(([a], [b]) => {
+                        const numA = (a.match(/(\d+)/) || [])[1];
+                        const numB = (b.match(/(\d+)/) || [])[1];
+                        if (numA && numB) return parseInt(numA) - parseInt(numB);
+                        if (numA) return -1;
+                        if (numB) return 1;
+                        return a.localeCompare(b);
+                    })
                     .map(([chapter, sols]) => ({ chapter, solutions: sols, count: sols.length }));
 
                 setChapters(chapterList);
