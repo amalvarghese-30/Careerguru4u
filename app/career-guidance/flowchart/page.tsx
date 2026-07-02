@@ -4,18 +4,19 @@ import { useState, useCallback, useMemo } from "react";
 import { AnimatePresence } from "framer-motion";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import type { ReactFlowInstance } from "reactflow";
+import "reactflow/dist/style.css";
 import { decisionTree, findNodeById, getAncestors } from "@/lib/decision-tree";
 import type { DecisionTreeNode } from "@/lib/decision-tree.types";
 import { DecisionTreeNav } from "@/components/features/DecisionTreeNav";
-import { DecisionTreeView } from "@/components/features/DecisionTreeView";
+import { DecisionTreeFlow } from "@/components/features/DecisionTreeFlow";
 import { DecisionTreeNodeDetail } from "@/components/features/DecisionTreeNodeDetail";
 
 export default function FlowchartPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeFilter, setActiveFilter] = useState("all");
-  const [zoom, setZoom] = useState(1);
-  const [pan, setPan] = useState({ x: 0, y: 0 });
-  const [expandedIds, setExpandedIds] = useState<Set<string>>(() => new Set(["root"]));
+  const [currentZoom, setCurrentZoom] = useState(1);
+  const [rfInstance, setRfInstance] = useState<ReactFlowInstance | null>(null);
   const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null);
 
   // Get the currently selected node and its breadcrumb
@@ -28,80 +29,36 @@ export default function FlowchartPage() {
     [selectedNodeId]
   );
 
-  // Filter root children by stream
-  const filteredRoot = useMemo(() => {
-    if (activeFilter === "all") return decisionTree;
-    const filtered = {
-      ...decisionTree,
-      children: decisionTree.children.filter(
-        (c) => c.category === activeFilter
-      ),
-    };
-    return filtered;
-  }, [activeFilter]);
-
-  // Auto-expand to match search results
-  const displayedExpandedIds = useMemo(() => {
-    if (!searchQuery) return expandedIds;
-    // Find matching nodes and expand their ancestors
-    const ids = new Set(expandedIds);
-    function searchAndExpand(node: DecisionTreeNode): boolean {
-      const matches = node.name.toLowerCase().includes(searchQuery.toLowerCase());
-      let childMatches = false;
-      for (const child of node.children) {
-        if (searchAndExpand(child)) childMatches = true;
-      }
-      if (matches || childMatches) {
-        ids.add(node.id);
-        return true;
-      }
-      return false;
-    }
-    searchAndExpand(filteredRoot);
-    return ids;
-  }, [expandedIds, searchQuery, filteredRoot]);
-
   const handleSelect = useCallback((node: DecisionTreeNode) => {
     setSelectedNodeId((prev) => (prev === node.id ? null : node.id));
-  }, []);
-
-  const handleToggle = useCallback((id: string) => {
-    setExpandedIds((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
-      return next;
-    });
-  }, []);
-
-  const handleZoomChange = useCallback((delta: number) => {
-    setZoom((z) => Math.max(0.5, Math.min(2, z + delta)));
-  }, []);
-
-  const handleZoomReset = useCallback(() => {
-    setZoom(1);
-    setPan({ x: 0, y: 0 });
   }, []);
 
   const handleBreadcrumbClick = useCallback(
     (node: DecisionTreeNode) => {
       setSelectedNodeId(node.id);
-      // Expand all ancestors
-      const ancestors = getAncestors(node.id, decisionTree);
-      setExpandedIds((prev) => {
-        const next = new Set(prev);
-        ancestors.forEach((a) => next.add(a.id));
-        next.add(node.id);
-        return next;
-      });
+      if (rfInstance) {
+        rfInstance.fitView({ nodes: [{ id: node.id }], duration: 400, padding: 0.5 });
+      }
     },
-    []
+    [rfInstance]
   );
 
   const handleClearSelection = useCallback(() => {
     setSelectedNodeId(null);
-    setExpandedIds(new Set(["root"]));
-  }, []);
+    rfInstance?.fitView({ padding: 0.3, duration: 400 });
+  }, [rfInstance]);
+
+  const handleZoomIn = useCallback(() => {
+    rfInstance?.zoomIn({ duration: 200 });
+  }, [rfInstance]);
+
+  const handleZoomOut = useCallback(() => {
+    rfInstance?.zoomOut({ duration: 200 });
+  }, [rfInstance]);
+
+  const handleFitView = useCallback(() => {
+    rfInstance?.fitView({ padding: 0.3, duration: 400 });
+  }, [rfInstance]);
 
   return (
     <div className="min-h-screen bg-brand-bg pt-16">
@@ -127,9 +84,10 @@ export default function FlowchartPage() {
         onSearchChange={setSearchQuery}
         activeFilter={activeFilter}
         onFilterChange={setActiveFilter}
-        zoom={zoom}
-        onZoomChange={handleZoomChange}
-        onZoomReset={handleZoomReset}
+        currentZoom={currentZoom}
+        onZoomIn={handleZoomIn}
+        onZoomOut={handleZoomOut}
+        onFitView={handleFitView}
         breadcrumb={breadcrumb}
         onBreadcrumbClick={handleBreadcrumbClick}
         onClearSelection={handleClearSelection}
@@ -140,18 +98,14 @@ export default function FlowchartPage() {
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Tree View */}
           <div className="flex-1 min-w-0">
-            <DecisionTreeView
-              root={filteredRoot}
+            <DecisionTreeFlow
+              root={decisionTree}
               selectedNodeId={selectedNodeId}
               onSelect={handleSelect}
-              expandedIds={displayedExpandedIds}
-              onToggle={handleToggle}
               searchQuery={searchQuery}
-              zoom={zoom}
-              pan={pan}
-              onPanStart={() => {}}
-              onPanning={(dx, dy) => setPan((p) => ({ x: p.x + dx, y: p.y + dy }))}
-              onPanEnd={() => {}}
+              activeFilter={activeFilter}
+              onReactFlowInit={setRfInstance}
+              onZoomChange={setCurrentZoom}
             />
           </div>
 

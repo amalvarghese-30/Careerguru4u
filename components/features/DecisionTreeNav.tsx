@@ -18,9 +18,10 @@ interface DecisionTreeNavProps {
   onSearchChange: (query: string) => void;
   activeFilter: string;
   onFilterChange: (filter: string) => void;
-  zoom: number;
-  onZoomChange: (delta: number) => void;
-  onZoomReset: () => void;
+  currentZoom: number;
+  onZoomIn: () => void;
+  onZoomOut: () => void;
+  onFitView: () => void;
   breadcrumb: DecisionTreeNode[];
   onBreadcrumbClick: (node: DecisionTreeNode) => void;
   onClearSelection: () => void;
@@ -31,9 +32,10 @@ export function DecisionTreeNav({
   onSearchChange,
   activeFilter,
   onFilterChange,
-  zoom,
-  onZoomChange,
-  onZoomReset,
+  currentZoom,
+  onZoomIn,
+  onZoomOut,
+  onFitView,
   breadcrumb,
   onBreadcrumbClick,
   onClearSelection,
@@ -98,14 +100,14 @@ export function DecisionTreeNav({
           </div>
 
           <div className="flex items-center gap-1 shrink-0">
-            <button onClick={() => onZoomChange(-0.25)} className="p-2 rounded-lg bg-brand-bg hover:bg-neutral-lightGray transition-colors" title="Zoom out">
+            <button onClick={onZoomOut} className="p-2 rounded-lg bg-brand-bg hover:bg-neutral-lightGray transition-colors" title="Zoom out">
               <ZoomOut className="h-4 w-4 text-neutral-darkGray" />
             </button>
-            <span className="text-xs font-medium text-neutral-darkGray min-w-[48px] text-center">{Math.round(zoom * 100)}%</span>
-            <button onClick={() => onZoomChange(0.25)} className="p-2 rounded-lg bg-brand-bg hover:bg-neutral-lightGray transition-colors" title="Zoom in">
+            <span className="text-xs font-medium text-neutral-darkGray min-w-[48px] text-center">{Math.round(currentZoom * 100)}%</span>
+            <button onClick={onZoomIn} className="p-2 rounded-lg bg-brand-bg hover:bg-neutral-lightGray transition-colors" title="Zoom in">
               <ZoomIn className="h-4 w-4 text-neutral-darkGray" />
             </button>
-            <button onClick={onZoomReset} className="p-2 rounded-lg bg-brand-bg hover:bg-neutral-lightGray transition-colors" title="Reset zoom">
+            <button onClick={onFitView} className="p-2 rounded-lg bg-brand-bg hover:bg-neutral-lightGray transition-colors" title="Reset zoom">
               <Maximize2 className="h-4 w-4 text-neutral-darkGray" />
             </button>
           </div>
