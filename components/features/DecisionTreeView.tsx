@@ -15,7 +15,7 @@ const iconMap: Record<string, string> = {
   Thermometer: "🌡", Microscope: "🔬", Stethoscope: "🩺", Radio: "📡", Sparkles: "✨",
   Sprout: "🌱", Plane: "✈️", PartyPopper: "🎉", Clapperboard: "🎬",
   Shield: "🛡", FileCheck: "✅", LineChart: "📉", PieChart: "🥧",
-  Sigma: "∑", Globe: "🌍", Users: "👥", Award: "🏆", Shield: "🛡",
+  Sigma: "∑", Globe: "🌍", Users: "👥", Award: "🏆",
 };
 
 function getIcon(iconName: string): string {
