@@ -17,6 +17,12 @@ interface SolutionData {
     isFree: boolean;
     canAccess?: boolean;
     freeRemaining?: number;
+    questionHtml?: string;
+    answerHtml?: string;
+    questionBlocks?: any[];
+    solutionSteps?: any[];
+    questionType?: string;
+    difficulty?: string;
 }
 
 interface ConceptNoteData {
@@ -380,6 +386,12 @@ export default function SubjectPage({ params }: { params: Promise<{ board: strin
                                                                                     onPrev={activeQuestionIndex! > 0 ? () => navigateQuestion("prev") : undefined}
                                                                                     onNext={activeQuestionIndex! < chapterSolutions.length - 1 ? () => navigateQuestion("next") : undefined}
                                                                                     chapterName={ch.chapter}
+                                                                                    questionHtml={activeSolution.questionHtml}
+                                                                                    answerHtml={activeSolution.answerHtml}
+                                                                                    questionBlocks={activeSolution.questionBlocks}
+                                                                                    solutionSteps={activeSolution.solutionSteps}
+                                                                                    questionType={activeSolution.questionType}
+                                                                                    difficulty={activeSolution.difficulty}
                                                                                 />
                                                                             </div>
                                                                         )}

@@ -21,6 +21,9 @@ interface SolutionCardProps {
   solutionSteps?: SolutionStep[];
   questionType?: string;
   difficulty?: string;
+  // Rich HTML content (from Tiptap editor)
+  questionHtml?: string;
+  answerHtml?: string;
 }
 
 function NavBar({
@@ -116,6 +119,8 @@ export function SolutionCard({
   solutionSteps,
   questionType,
   difficulty,
+  questionHtml,
+  answerHtml,
 }: SolutionCardProps) {
   const hasBlocks = !!(questionBlocks || solutionSteps);
   const resolvedQuestion = questionBlocks || question;
@@ -137,6 +142,8 @@ export function SolutionCard({
         solution={resolvedSolution}
         questionType={questionType}
         difficulty={difficulty}
+        questionHtml={questionHtml}
+        answerHtml={answerHtml}
       />
 
       <NavFooter onPrev={onPrev} onNext={onNext} />
