@@ -19,14 +19,14 @@ export function FlowchartPreview() {
               Visualize Your Career Journey
             </h2>
             <p className="text-neutral-mediumGray text-lg mb-6 leading-relaxed">
-              Our interactive flowchart maps every possible career path after 10th. Click, zoom, and explore — from stream selection to your dream job.
+              Explore 100+ career paths across 6 streams. Click through the interactive decision tree to discover degrees, specializations, salaries, entrance exams, and top colleges.
             </p>
             <ul className="space-y-3 mb-8">
               {[
-                "Complete career branches for each stream",
+                "Complete career branches for every stream — Science, Commerce, Arts, Diploma, ITI, Vocational",
                 "Salary ranges and growth projections at every level",
-                "Required qualifications and entrance exams",
-                "Save and compare your favorite career paths",
+                "Required qualifications, entrance exams, and top colleges",
+                "Search, zoom, and pan to navigate 100+ career nodes",
               ].map((item, i) => (
                 <motion.li
                   key={i}
@@ -96,7 +96,7 @@ export function FlowchartPreview() {
                 ))}
               </div>
               <p className="text-center mt-6 text-sm text-brand-electric font-medium">
-                Click to explore all 50+ career paths →
+                Click to explore 100+ career paths →
               </p>
             </div>
           </motion.div>

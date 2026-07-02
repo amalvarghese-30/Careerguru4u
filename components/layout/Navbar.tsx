@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  Menu, X, BookOpen, Compass, GraduationCap, Sparkles, ChevronDown,
+  Menu, X, Home, BookOpen, Compass, GraduationCap, Sparkles, ChevronDown,
   Award, PhoneCall, User, LayoutDashboard, Heart, Building2,
   Settings, LogOut, Shield, FileText, ChevronRight, Bell,
 } from "lucide-react";
@@ -58,6 +58,7 @@ const megaMenu = {
 };
 
 const otherLinks = [
+  { label: "Home", icon: Home, href: "/" },
   { label: "AI Tools", icon: Sparkles, href: "/ai-tools" },
   { label: "Scholarships", icon: Award, href: "/scholarships" },
   { label: "Counselling", icon: PhoneCall, href: "/counselling" },

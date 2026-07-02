@@ -77,7 +77,7 @@ export default function CareerGuidancePage() {
             transition={{ delay: 0.1 }}
             className="text-white/90 text-lg mb-8"
           >
-            Confused about what to do after 10th? Explore streams, discover careers, and plan your future with AI-powered guidance.
+            Confused about what to do after 10th? Explore Science, Commerce, Arts, Diploma, ITI, and Vocational streams. Discover 100+ career paths with detailed salary data, entrance exams, and AI-powered guidance.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -178,10 +178,10 @@ export default function CareerGuidancePage() {
             <div>
               <h2 className="heading-section text-3xl md:text-4xl mb-4">Visual Career Flowchart</h2>
               <p className="text-neutral-darkGray mb-6">
-                See the complete picture! Our interactive flowchart shows all career paths from each stream, with salary projections and growth outlook.
+                See the complete picture! Our interactive decision tree shows 100+ career paths across all 6 streams, with salary projections, growth outlook, entrance exams, and top colleges at every level.
               </p>
               <ul className="space-y-3 mb-8">
-                {["Explore career branches from each stream", "View salary ranges and growth projections", "Get detailed career profiles", "Save your favorite career paths"].map((item, i) => (
+                {["Explore career branches from all 6 streams (Science, Commerce, Arts, Diploma, ITI, Vocational)", "View salary ranges and growth projections for every role", "Get detailed career profiles with education paths and entrance exams", "Search and filter to find your perfect career path"].map((item, i) => (
                   <li key={i} className="flex items-center gap-3">
                     <div className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center flex-shrink-0">
                       <div className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
@@ -200,23 +200,33 @@ export default function CareerGuidancePage() {
                   <GraduationCap className="h-5 w-5 inline mr-2" />10th Pass
                 </div>
               </div>
-              <div className="grid grid-cols-2 gap-5">
-                <div className="space-y-3">
-                  <div className="p-3 rounded-xl bg-gradient-to-br from-blue-600 to-blue-400 text-white text-center text-sm font-semibold">Science</div>
-                  <div className="pl-3 space-y-2 border-l-2 border-blue-200">
-                    <div className="p-2 rounded-lg bg-brand-bg text-sm text-neutral-darkGray">PCM → Engineering</div>
-                    <div className="p-2 rounded-lg bg-brand-bg text-sm text-neutral-darkGray">PCB → Medical</div>
-                  </div>
+              <div className="grid grid-cols-3 gap-3">
+                <div className="space-y-1.5">
+                  <div className="p-2 rounded-lg bg-gradient-to-br from-blue-600 to-blue-400 text-white text-center text-[11px] font-semibold">Science</div>
+                  <div className="p-1.5 rounded bg-brand-bg text-[10px] text-neutral-darkGray">Engg / Medical</div>
                 </div>
-                <div className="space-y-3">
-                  <div className="p-3 rounded-xl bg-gradient-to-br from-indigo-600 to-indigo-400 text-white text-center text-sm font-semibold">Commerce</div>
-                  <div className="pl-3 space-y-2 border-l-2 border-indigo-200">
-                    <div className="p-2 rounded-lg bg-brand-bg text-sm text-neutral-darkGray">CA → Finance</div>
-                    <div className="p-2 rounded-lg bg-brand-bg text-sm text-neutral-darkGray">BBA → MBA</div>
-                  </div>
+                <div className="space-y-1.5">
+                  <div className="p-2 rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-400 text-white text-center text-[11px] font-semibold">Commerce</div>
+                  <div className="p-1.5 rounded bg-brand-bg text-[10px] text-neutral-darkGray">CA / MBA / CFA</div>
+                </div>
+                <div className="space-y-1.5">
+                  <div className="p-2 rounded-lg bg-gradient-to-br from-purple-600 to-purple-400 text-white text-center text-[11px] font-semibold">Arts</div>
+                  <div className="p-1.5 rounded bg-brand-bg text-[10px] text-neutral-darkGray">UPSC / Law / Design</div>
+                </div>
+                <div className="space-y-1.5">
+                  <div className="p-2 rounded-lg bg-gradient-to-br from-amber-500 to-orange-400 text-white text-center text-[11px] font-semibold">Diploma</div>
+                  <div className="p-1.5 rounded bg-brand-bg text-[10px] text-neutral-darkGray">JE / Polytech</div>
+                </div>
+                <div className="space-y-1.5">
+                  <div className="p-2 rounded-lg bg-gradient-to-br from-orange-600 to-orange-400 text-white text-center text-[11px] font-semibold">ITI</div>
+                  <div className="p-1.5 rounded bg-brand-bg text-[10px] text-neutral-darkGray">Electrician / Welder</div>
+                </div>
+                <div className="space-y-1.5">
+                  <div className="p-2 rounded-lg bg-gradient-to-br from-green-600 to-green-400 text-white text-center text-[11px] font-semibold">Vocational</div>
+                  <div className="p-1.5 rounded bg-brand-bg text-[10px] text-neutral-darkGray">MLT / Beauty / Agri</div>
                 </div>
               </div>
-              <p className="text-center mt-5 text-sm text-neutral-darkGray">Click to expand and explore 20+ career paths</p>
+              <p className="text-center mt-5 text-sm text-neutral-darkGray">Click to explore 100+ career paths across 6 streams</p>
             </div>
           </div>
         </div>
