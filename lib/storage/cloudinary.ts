@@ -1,5 +1,4 @@
 import { v2 as cloudinary } from "cloudinary";
-import { Readable } from "stream";
 
 let configured = false;
 
@@ -33,29 +32,18 @@ export async function uploadToCloudinary(
 ): Promise<string> {
   configure();
 
-  return new Promise((resolve, reject) => {
-    const uploadStream = cloudinary.uploader.upload_stream(
-      {
-        public_id: publicId,
-        resource_type: "auto",
-        type: "upload",
-        access_mode: "public",
-        overwrite: true,
-      },
-      (error, result) => {
-        if (error || !result) {
-          reject(error || new Error("Upload failed"));
-          return;
-        }
-        resolve(result.secure_url);
-      }
-    );
+  const base64 = Buffer.from(buffer).toString("base64");
+  const dataUri = `data:${contentType};base64,${base64}`;
 
-    const readable = new Readable();
-    readable.push(buffer);
-    readable.push(null);
-    readable.pipe(uploadStream);
+  const result = await cloudinary.uploader.upload(dataUri, {
+    public_id: publicId,
+    resource_type: "auto",
+    type: "upload",
+    access_mode: "public",
+    overwrite: true,
   });
+
+  return result.secure_url;
 }
 
 export async function deleteFromCloudinary(publicId: string): Promise<void> {
