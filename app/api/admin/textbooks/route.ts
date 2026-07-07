@@ -3,8 +3,7 @@ import clientPromise from "@/lib/db/mongodb";
 import { requireAdmin } from "@/lib/api-auth";
 import { ObjectId } from "mongodb";
 import { logAudit } from "@/lib/audit-log";
-import { writeFile, mkdir } from "fs/promises";
-import path from "path";
+import { uploadToCloudinary, deleteFromCloudinary, generateKey } from "@/lib/storage/cloudinary";
 
 export async function GET(req: NextRequest) {
   const admin = requireAdmin(req);
@@ -51,18 +50,15 @@ export async function POST(req: NextRequest) {
     let fileUrl = "";
     let fileName = "";
     let fileSize = 0;
+    let cloudinaryPublicId = "";
 
     if (file && file.size > 0) {
       const buffer = Buffer.from(await file.arrayBuffer());
       fileName = file.name;
       fileSize = file.size;
 
-      const uploadDir = path.join(process.cwd(), "public", "uploads", "textbooks");
-      await mkdir(uploadDir, { recursive: true });
-
-      const uniqueName = `${Date.now()}-${fileName.replace(/[^a-zA-Z0-9._-]/g, "_")}`;
-      await writeFile(path.join(uploadDir, uniqueName), buffer);
-      fileUrl = `/uploads/textbooks/${uniqueName}`;
+      cloudinaryPublicId = generateKey("textbooks", fileName);
+      fileUrl = await uploadToCloudinary(cloudinaryPublicId, buffer, file.type || "application/pdf");
     } else {
       fileUrl = (formData.get("fileUrl") as string) || "";
     }
@@ -74,7 +70,7 @@ export async function POST(req: NextRequest) {
     const client = await clientPromise;
     const db = client.db("career_guru");
 
-    const doc = {
+    const doc: Record<string, unknown> = {
       title: title || fileName || "Textbook",
       board,
       class: parseInt(classStr),
@@ -86,6 +82,7 @@ export async function POST(req: NextRequest) {
       createdAt: new Date(),
       updatedAt: new Date(),
     };
+    if (cloudinaryPublicId) doc.cloudinaryPublicId = cloudinaryPublicId;
 
     const result = await db.collection("textbooks").insertOne(doc);
 
@@ -114,7 +111,17 @@ export async function DELETE(req: NextRequest) {
 
     const client = await clientPromise;
     const db = client.db("career_guru");
+
+    const textbook = await db.collection("textbooks").findOne({ _id: new ObjectId(id) });
     await db.collection("textbooks").deleteOne({ _id: new ObjectId(id) });
+
+    if (textbook?.cloudinaryPublicId) {
+      try {
+        await deleteFromCloudinary(textbook.cloudinaryPublicId as string);
+      } catch (e) {
+        console.error("Failed to delete from Cloudinary:", e);
+      }
+    }
 
     await logAudit({
       action: "DELETE", collection: "textbooks", documentId: id,

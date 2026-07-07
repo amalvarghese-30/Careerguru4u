@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { ChevronUp, ChevronDown, Trash2, Eye, EyeOff } from "lucide-react";
+import { ChevronUp, ChevronDown, Trash2, Eye, EyeOff, Upload, Loader2 } from "lucide-react";
 import type { ContentBlock, BlockType } from "@/scripts/ingestion/types";
 
 interface BlockEditCardProps {
@@ -126,43 +126,7 @@ function renderEditor(block: ContentBlock, onChange: (b: ContentBlock) => void) 
       return <MathEditor block={block} onChange={onChange} />;
 
     case "image":
-      return (
-        <div className="space-y-2">
-          <input
-            type="text"
-            value={(block.attrs?.src as string) || ""}
-            onChange={(e) => onChange(update(block, { attrs: { ...block.attrs, src: e.target.value } }))}
-            placeholder="Image URL..."
-            className="w-full px-3 py-2 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-brand-royal"
-          />
-          <div className="grid grid-cols-3 gap-2">
-            <input
-              type="text"
-              value={(block.attrs?.alt as string) || block.content || ""}
-              onChange={(e) => onChange(update(block, { attrs: { ...block.attrs, alt: e.target.value }, content: e.target.value }))}
-              placeholder="Alt text..."
-              className="px-3 py-2 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-brand-royal"
-            />
-            <input
-              type="number"
-              value={(block.attrs?.width as number) || ""}
-              onChange={(e) => onChange(update(block, { attrs: { ...block.attrs, width: e.target.value ? parseInt(e.target.value) : undefined } }))}
-              placeholder="Width"
-              className="px-3 py-2 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-brand-royal"
-            />
-            <input
-              type="number"
-              value={(block.attrs?.height as number) || ""}
-              onChange={(e) => onChange(update(block, { attrs: { ...block.attrs, height: e.target.value ? parseInt(e.target.value) : undefined } }))}
-              placeholder="Height"
-              className="px-3 py-2 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-brand-royal"
-            />
-          </div>
-          {(block.attrs?.src as string) && (
-            <img src={block.attrs?.src as string} alt="" className="max-h-32 rounded-lg border border-slate-200" />
-          )}
-        </div>
-      );
+      return <ImageEditor block={block} onChange={onChange} />;
 
     case "table":
       return <TableEditor block={block} onChange={onChange} />;
@@ -295,6 +259,100 @@ function renderEditor(block: ContentBlock, onChange: (b: ContentBlock) => void) 
         />
       );
   }
+}
+
+function ImageEditor({ block, onChange }: { block: ContentBlock; onChange: (b: ContentBlock) => void }) {
+  const [uploading, setUploading] = useState(false);
+  const fileRef = useRef<HTMLInputElement>(null);
+
+  async function handleFileSelect(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    setUploading(true);
+    try {
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("folder", "solutions");
+
+      const res = await fetch("/api/upload", { method: "POST", body: formData });
+      if (!res.ok) {
+        const err = await res.json();
+        alert(err.error || "Upload failed");
+        return;
+      }
+      const data = await res.json();
+      onChange(update(block, {
+        attrs: { ...block.attrs, src: data.url },
+        content: data.fileName,
+      }));
+    } catch (err) {
+      console.error("Upload error:", err);
+      alert("Upload failed");
+    } finally {
+      setUploading(false);
+      if (fileRef.current) fileRef.current.value = "";
+    }
+  }
+
+  return (
+    <div className="space-y-2">
+      <div className="flex gap-2">
+        <input
+          type="text"
+          value={(block.attrs?.src as string) || ""}
+          onChange={(e) => onChange(update(block, { attrs: { ...block.attrs, src: e.target.value } }))}
+          placeholder="Image URL or upload..."
+          className="flex-1 px-3 py-2 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-brand-royal"
+        />
+        <input
+          ref={fileRef}
+          type="file"
+          accept="image/*"
+          onChange={handleFileSelect}
+          className="hidden"
+        />
+        <button
+          onClick={() => fileRef.current?.click()}
+          disabled={uploading}
+          className="flex items-center gap-1.5 px-3 py-2 rounded-lg border border-slate-200 hover:bg-slate-50 text-sm text-brand-royal font-medium disabled:opacity-50"
+        >
+          {uploading ? (
+            <Loader2 className="h-4 w-4 animate-spin" />
+          ) : (
+            <Upload className="h-4 w-4" />
+          )}
+          {uploading ? "Uploading..." : "Upload"}
+        </button>
+      </div>
+      <div className="grid grid-cols-3 gap-2">
+        <input
+          type="text"
+          value={(block.attrs?.alt as string) || block.content || ""}
+          onChange={(e) => onChange(update(block, { attrs: { ...block.attrs, alt: e.target.value }, content: e.target.value }))}
+          placeholder="Alt text..."
+          className="px-3 py-2 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-brand-royal"
+        />
+        <input
+          type="number"
+          value={(block.attrs?.width as number) || ""}
+          onChange={(e) => onChange(update(block, { attrs: { ...block.attrs, width: e.target.value ? parseInt(e.target.value) : undefined } }))}
+          placeholder="Width"
+          className="px-3 py-2 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-brand-royal"
+        />
+        <input
+          type="number"
+          value={(block.attrs?.height as number) || ""}
+          onChange={(e) => onChange(update(block, { attrs: { ...block.attrs, height: e.target.value ? parseInt(e.target.value) : undefined } }))}
+          placeholder="Height"
+          className="px-3 py-2 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-brand-royal"
+        />
+      </div>
+      {(block.attrs?.src as string) && (
+        <img src={block.attrs?.src as string} alt="" className="max-h-32 rounded-lg border border-slate-200" />
+      )}
+    </div>
+  );
 }
 
 function MathEditor({ block, onChange }: { block: ContentBlock; onChange: (b: ContentBlock) => void }) {
