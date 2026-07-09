@@ -20,7 +20,7 @@ import {
   List, ListOrdered, Quote, Code, Image as ImageIcon, Link as LinkIcon,
   Undo2, Redo2, AlignLeft, AlignCenter, AlignRight, AlignJustify,
   Table as TableIcon, Heading, Palette, Highlighter, ChevronDown,
-  Upload, X, Loader2
+  Upload, X, Loader2, Trash2
 } from "lucide-react";
 
 interface RichTextEditorProps {
@@ -48,6 +48,33 @@ export function RichTextEditor({
   const [imageAlt, setImageAlt] = useState("");
   const [imageUploading, setImageUploading] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
+
+  // Floating toolbar for removing images
+  const [imageToolbar, setImageToolbar] = useState<{ x: number; y: number } | null>(null);
+  const editorRef = useRef<HTMLDivElement>(null);
+
+  // Handle clicks on images inside the editor
+  useEffect(() => {
+    const container = editorRef.current;
+    if (!container || !editable) return;
+
+    function handleClick(e: MouseEvent) {
+      const target = e.target as HTMLElement;
+      if (target.tagName === "IMG" && target.closest(".ProseMirror")) {
+        const rect = target.getBoundingClientRect();
+        const containerRect = container!.getBoundingClientRect();
+        setImageToolbar({
+          x: rect.left - containerRect.left + rect.width / 2,
+          y: rect.top - containerRect.top - 8,
+        });
+      } else {
+        setImageToolbar(null);
+      }
+    }
+
+    container.addEventListener("click", handleClick);
+    return () => container.removeEventListener("click", handleClick);
+  }, [editable]);
 
   const editor = useEditor({
     extensions: [
@@ -92,6 +119,11 @@ export function RichTextEditor({
       editor.commands.setContent(content || "");
     }
   }, [content, editor]);
+
+  const removeImage = useCallback(() => {
+    editor?.chain().focus().deleteSelection().run();
+    setImageToolbar(null);
+  }, [editor]);
 
   const addTable = useCallback(
     (rows: number, cols: number) => {
@@ -492,7 +524,24 @@ export function RichTextEditor({
         )}
 
         {/* Editor Content */}
-        <div className="relative">
+        <div className="relative" ref={editorRef}>
+          {/* Image removal toolbar */}
+          {imageToolbar && editable && (
+            <div
+              className="absolute z-20 bg-white rounded-lg shadow-lg border border-slate-200 px-1.5 py-1 flex items-center gap-0.5 transform -translate-x-1/2 -translate-y-full"
+              style={{ left: imageToolbar.x, top: imageToolbar.y }}
+            >
+              <button
+                type="button"
+                onClick={removeImage}
+                className="flex items-center gap-1.5 px-2.5 py-1.5 text-xs rounded-md text-red-600 hover:bg-red-50 transition-colors whitespace-nowrap"
+                title="Remove image"
+              >
+                <Trash2 className="h-3.5 w-3.5" />
+                Remove
+              </button>
+            </div>
+          )}
           <EditorContent
             editor={editor}
             className="prose prose-sm max-w-none [&_.ProseMirror]:min-h-[180px] [&_.ProseMirror]:px-4 [&_.ProseMirror]:py-3 [&_.ProseMirror]:outline-none [&_.ProseMirror]:text-sm [&_.ProseMirror]:text-slate-700 [&_.ProseMirror_p.is-editor-empty:first-child::before]:text-slate-400 [&_.ProseMirror_p.is-editor-empty:first-child::before]:content-[attr(data-placeholder)] [&_.ProseMirror_p.is-editor-empty:first-child::before]:float-left [&_.ProseMirror_p.is-editor-empty:first-child::before]:pointer-events-none [&_.ProseMirror_p.is-editor-empty:first-child::before]:h-0 [&_.ProseMirror_table]:border-collapse [&_.ProseMirror_table]:w-full [&_.ProseMirror_th]:border [&_.ProseMirror_th]:border-slate-300 [&_.ProseMirror_th]:px-3 [&_.ProseMirror_th]:py-2 [&_.ProseMirror_th]:bg-slate-50 [&_.ProseMirror_th]:text-left [&_.ProseMirror_th]:font-semibold [&_.ProseMirror_th]:text-sm [&_.ProseMirror_td]:border [&_.ProseMirror_td]:border-slate-300 [&_.ProseMirror_td]:px-3 [&_.ProseMirror_td]:py-2 [&_.ProseMirror_td]:text-sm [&_.ProseMirror_blockquote]:border-l-3 [&_.ProseMirror_blockquote]:border-brand-royal/30 [&_.ProseMirror_blockquote]:pl-4 [&_.ProseMirror_blockquote]:text-slate-500 [&_.ProseMirror_blockquote]:italic [&_.ProseMirror_code]:bg-slate-100 [&_.ProseMirror_code]:text-slate-700 [&_.ProseMirror_code]:px-1.5 [&_.ProseMirror_code]:py-0.5 [&_.ProseMirror_code]:rounded [&_.ProseMirror_code]:text-xs [&_.ProseMirror_pre]:bg-slate-900 [&_.ProseMirror_pre]:text-slate-100 [&_.ProseMirror_pre]:p-4 [&_.ProseMirror_pre]:rounded-lg [&_.ProseMirror_pre_code]:bg-transparent [&_.ProseMirror_pre_code]:text-inherit [&_.ProseMirror_img]:rounded-lg [&_.ProseMirror_img]:max-w-full [&_.ProseMirror_hr]:border-slate-200 [&_.ProseMirror_h1]:text-xl [&_.ProseMirror_h1]:font-bold [&_.ProseMirror_h2]:text-lg [&_.ProseMirror_h2]:font-semibold [&_.ProseMirror_h3]:text-base [&_.ProseMirror_h3]:font-semibold"

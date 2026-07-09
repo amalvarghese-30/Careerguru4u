@@ -264,6 +264,7 @@ function renderEditor(block: ContentBlock, onChange: (b: ContentBlock) => void) 
 function ImageEditor({ block, onChange }: { block: ContentBlock; onChange: (b: ContentBlock) => void }) {
   const [uploading, setUploading] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
+  const hasImage = !!(block.attrs?.src as string);
 
   async function handleFileSelect(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
@@ -295,6 +296,13 @@ function ImageEditor({ block, onChange }: { block: ContentBlock; onChange: (b: C
     }
   }
 
+  function handleRemove() {
+    onChange(update(block, {
+      attrs: { ...block.attrs, src: "", alt: "", width: undefined, height: undefined },
+      content: "",
+    }));
+  }
+
   return (
     <div className="space-y-2">
       <div className="flex gap-2">
@@ -324,6 +332,15 @@ function ImageEditor({ block, onChange }: { block: ContentBlock; onChange: (b: C
           )}
           {uploading ? "Uploading..." : "Upload"}
         </button>
+        {hasImage && (
+          <button
+            onClick={handleRemove}
+            className="flex items-center gap-1.5 px-3 py-2 rounded-lg border border-red-200 hover:bg-red-50 text-sm text-red-600 font-medium"
+          >
+            <Trash2 className="h-4 w-4" />
+            Remove
+          </button>
+        )}
       </div>
       <div className="grid grid-cols-3 gap-2">
         <input
@@ -348,8 +365,17 @@ function ImageEditor({ block, onChange }: { block: ContentBlock; onChange: (b: C
           className="px-3 py-2 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-brand-royal"
         />
       </div>
-      {(block.attrs?.src as string) && (
-        <img src={block.attrs?.src as string} alt="" className="max-h-32 rounded-lg border border-slate-200" />
+      {hasImage && (
+        <div className="relative group">
+          <img src={block.attrs?.src as string} alt="" className="max-h-32 rounded-lg border border-slate-200" />
+          <button
+            onClick={handleRemove}
+            className="absolute top-1 right-1 p-1 rounded-md bg-red-500 text-white opacity-0 group-hover:opacity-100 transition-opacity"
+            title="Remove image"
+          >
+            <Trash2 className="h-3.5 w-3.5" />
+          </button>
+        </div>
       )}
     </div>
   );
