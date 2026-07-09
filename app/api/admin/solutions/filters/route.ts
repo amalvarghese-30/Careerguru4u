@@ -73,7 +73,6 @@ export async function GET(req: NextRequest) {
         .aggregate([
           { $match: { board, class: parseInt(classNum) } },
           { $group: { _id: "$subject", count: { $sum: 1 } } },
-          { $sort: { count: -1 } },
         ])
         .toArray();
 
@@ -84,6 +83,7 @@ export async function GET(req: NextRequest) {
         subjects.push(subj);
         counts[subj] = row.count;
       }
+      subjects.sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
       return NextResponse.json({ subjects, counts });
     }
 
@@ -97,7 +97,6 @@ export async function GET(req: NextRequest) {
         .aggregate([
           { $match: { board, class: parseInt(classNum), subject } },
           { $group: { _id: "$chapter", count: { $sum: 1 } } },
-          { $sort: { _id: 1 } },
         ])
         .toArray();
 
@@ -108,6 +107,7 @@ export async function GET(req: NextRequest) {
         chapters.push(ch);
         counts[ch] = row.count;
       }
+      chapters.sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
       return NextResponse.json({ chapters, counts });
     }
 
