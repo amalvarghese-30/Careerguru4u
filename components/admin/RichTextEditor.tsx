@@ -14,12 +14,13 @@ import { TextStyle } from "@tiptap/extension-text-style";
 import { Color } from "@tiptap/extension-color";
 import { Highlight } from "@tiptap/extension-highlight";
 import { Placeholder } from "@tiptap/extension-placeholder";
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import {
   Bold, Italic, Underline as UnderlineIcon, Strikethrough,
   List, ListOrdered, Quote, Code, Image as ImageIcon, Link as LinkIcon,
   Undo2, Redo2, AlignLeft, AlignCenter, AlignRight, AlignJustify,
-  Table as TableIcon, Heading, Palette, Highlighter, ChevronDown
+  Table as TableIcon, Heading, Palette, Highlighter, ChevronDown,
+  Upload, X, Loader2
 } from "lucide-react";
 
 interface RichTextEditorProps {
@@ -40,6 +41,13 @@ export function RichTextEditor({
   const [tableMenuOpen, setTableMenuOpen] = useState(false);
   const [colorMenuOpen, setColorMenuOpen] = useState(false);
   const [headingMenuOpen, setHeadingMenuOpen] = useState(false);
+
+  // Image insertion modal
+  const [imageModalOpen, setImageModalOpen] = useState(false);
+  const [imageUrl, setImageUrl] = useState("");
+  const [imageAlt, setImageAlt] = useState("");
+  const [imageUploading, setImageUploading] = useState(false);
+  const fileRef = useRef<HTMLInputElement>(null);
 
   const editor = useEditor({
     extensions: [
@@ -94,12 +102,44 @@ export function RichTextEditor({
   );
 
   const addImage = useCallback(() => {
-    const url = window.prompt("Enter image URL:");
-    if (url) {
-      const alt = window.prompt("Enter alt text (optional):") || "";
-      editor?.chain().focus().setImage({ src: url, alt }).run();
+    setImageUrl("");
+    setImageAlt("");
+    setImageModalOpen(true);
+  }, []);
+
+  const insertImage = useCallback(() => {
+    if (!imageUrl) return;
+    editor?.chain().focus().setImage({ src: imageUrl, alt: imageAlt }).run();
+    setImageModalOpen(false);
+  }, [editor, imageUrl, imageAlt]);
+
+  const handleImageUpload = useCallback(async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    setImageUploading(true);
+    try {
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("folder", "solutions");
+
+      const res = await fetch("/api/upload", { method: "POST", body: formData });
+      if (!res.ok) {
+        const err = await res.json();
+        alert(err.error || "Upload failed");
+        return;
+      }
+      const data = await res.json();
+      setImageUrl(data.url);
+      setImageAlt(data.fileName || "");
+    } catch (err) {
+      console.error("Upload error:", err);
+      alert("Upload failed");
+    } finally {
+      setImageUploading(false);
+      if (fileRef.current) fileRef.current.value = "";
     }
-  }, [editor]);
+  }, []);
 
   const setLink = useCallback(() => {
     const prevUrl = editor?.getAttributes("link").href || "";
@@ -459,6 +499,94 @@ export function RichTextEditor({
           />
         </div>
       </div>
+
+      {/* Image Insertion Modal */}
+      {imageModalOpen && (
+        <div className="fixed inset-0 z-[120] flex items-center justify-center px-4">
+          <div className="absolute inset-0 bg-black/50" onClick={() => setImageModalOpen(false)} />
+          <div className="relative bg-white rounded-2xl border border-slate-200 w-full max-w-md shadow-2xl p-6">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="font-semibold text-slate-800">Insert Image</h3>
+              <button onClick={() => setImageModalOpen(false)} className="p-1 rounded-lg hover:bg-slate-100">
+                <X className="h-4 w-4 text-slate-500" />
+              </button>
+            </div>
+
+            <div className="space-y-4">
+              {/* URL input */}
+              <div>
+                <label className="block text-xs font-semibold text-slate-500 mb-1.5">Image URL</label>
+                <input
+                  type="text"
+                  value={imageUrl}
+                  onChange={(e) => setImageUrl(e.target.value)}
+                  placeholder="https://..."
+                  className="w-full px-3 py-2 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-brand-royal"
+                />
+              </div>
+
+              <div className="flex items-center gap-3">
+                <span className="text-xs text-slate-400">or</span>
+                <input
+                  ref={fileRef}
+                  type="file"
+                  accept="image/*"
+                  onChange={handleImageUpload}
+                  className="hidden"
+                />
+                <button
+                  onClick={() => fileRef.current?.click()}
+                  disabled={imageUploading}
+                  className="flex items-center gap-2 px-4 py-2 rounded-lg border border-slate-200 hover:bg-slate-50 text-sm text-brand-royal font-medium disabled:opacity-50"
+                >
+                  {imageUploading ? (
+                    <Loader2 className="h-4 w-4 animate-spin" />
+                  ) : (
+                    <Upload className="h-4 w-4" />
+                  )}
+                  {imageUploading ? "Uploading..." : "Upload from device"}
+                </button>
+              </div>
+
+              {/* Alt text */}
+              <div>
+                <label className="block text-xs font-semibold text-slate-500 mb-1.5">Alt text (optional)</label>
+                <input
+                  type="text"
+                  value={imageAlt}
+                  onChange={(e) => setImageAlt(e.target.value)}
+                  placeholder="Describe the image..."
+                  className="w-full px-3 py-2 rounded-lg border border-slate-200 text-sm focus:outline-none focus:border-brand-royal"
+                />
+              </div>
+
+              {/* Preview */}
+              {imageUrl && (
+                <div className="rounded-lg border border-slate-200 p-2 bg-slate-50">
+                  <img src={imageUrl} alt="" className="max-h-40 rounded-lg mx-auto" />
+                </div>
+              )}
+            </div>
+
+            {/* Footer */}
+            <div className="flex items-center justify-end gap-3 mt-5 pt-4 border-t border-slate-100">
+              <button
+                onClick={() => setImageModalOpen(false)}
+                className="px-4 py-2 border border-slate-200 rounded-xl text-sm font-medium text-slate-600 hover:bg-slate-50"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={insertImage}
+                disabled={!imageUrl}
+                className="px-5 py-2 bg-brand-gradient-static text-white rounded-xl text-sm font-semibold hover:opacity-90 disabled:opacity-50"
+              >
+                Insert
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
