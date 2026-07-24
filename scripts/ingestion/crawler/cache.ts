@@ -22,9 +22,15 @@ function ensureDir(dir?: string): void {
 // ─── Atomic write ─────────────────────────────────────────────────────
 
 function atomicWrite(filePath: string, data: unknown): void {
-  const tmp = filePath + ".tmp." + Date.now().toString(36);
+  const tmp = filePath + ".tmp." + Date.now().toString(36) + "." + Math.random().toString(36).slice(2, 8);
   fs.writeFileSync(tmp, JSON.stringify(data, null, 2), "utf-8");
-  fs.renameSync(tmp, filePath);
+  try {
+    fs.renameSync(tmp, filePath);
+  } catch {
+    // If rename fails (e.g. tmp was cleaned up by another process), write directly
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf-8");
+    try { fs.unlinkSync(tmp); } catch {}
+  }
 }
 
 function readJson<T>(filePath: string, fallback: T): T {
@@ -171,6 +177,35 @@ export function listCheckpoints(): string[] {
   } catch {
     return [];
   }
+}
+
+// ─── Discovery cache ──────────────────────────────────────────────────
+
+export interface CachedDiscovery {
+  boardKey: string;
+  classNum: number;
+  textbooks: Array<{
+    id: string;
+    slug: string;
+    url: string;
+    subjectSlug: string;
+    chapters: Array<{
+      id: string;
+      name: string;
+      url: string;
+      questions: Array<{ id: string; url: string; slug: string }>;
+    }>;
+  }>;
+  savedAt: string;
+}
+
+export function saveDiscoveryCache(boardKey: string, classNum: number, data: CachedDiscovery): void {
+  ensureDir();
+  atomicWrite(cachePath(`discovery-${boardKey}_class${classNum}.json`), data);
+}
+
+export function loadDiscoveryCache(boardKey: string, classNum: number): CachedDiscovery | null {
+  return readJson<CachedDiscovery | null>(cachePath(`discovery-${boardKey}_class${classNum}.json`), null);
 }
 
 // ─── Batch flush ──────────────────────────────────────────────────────

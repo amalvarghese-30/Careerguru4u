@@ -3,8 +3,24 @@ import clientPromise from "@/lib/db/mongodb";
 import { requireAdmin } from "@/lib/api-auth";
 import { ObjectId } from "mongodb";
 import { logAudit } from "@/lib/audit-log";
+import { escapeRegex } from "@/lib/security";
 import { uploadToCloudinary, deleteFromCloudinary, generateKey } from "@/lib/storage/cloudinary";
 
+/* ---------- Allowed fields for Textbook ---------- */
+const ALLOWED_TEXTBOOK_FIELDS = new Set([
+  "title",
+  "board",
+  "class",
+  "subject",
+  "file",
+  "fileUrl",
+  "fileName",
+  "fileSize",
+  "downloads",
+  "cloudinaryPublicId",
+]);
+
+/* ---------- GET: Search textbooks (sanitized regex) ---------- */
 export async function GET(req: NextRequest) {
   const admin = requireAdmin(req);
   if (!admin) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -15,22 +31,31 @@ export async function GET(req: NextRequest) {
     const classNum = searchParams.get("class") || "";
     const subject = searchParams.get("subject") || "";
 
+    // Sanitize subject regex
+    const safeSubject = escapeRegex(subject);
+
     const client = await clientPromise;
     const db = client.db("career_guru");
 
     const query: Record<string, unknown> = {};
     if (board) query.board = board;
     if (classNum) query.class = parseInt(classNum);
-    if (subject) query.subject = { $regex: subject, $options: "i" };
+    if (safeSubject) query.subject = { $regex: safeSubject, $options: "i" };
 
-    const textbooks = await db.collection("textbooks").find(query).sort({ createdAt: -1 }).limit(100).toArray();
+    const textbooks = await db.collection("textbooks")
+      .find(query)
+      .sort({ createdAt: -1 })
+      .limit(100)
+      .toArray();
+
     return NextResponse.json({ textbooks });
-  } catch (error) {
-    console.error("Admin textbooks GET error:", error);
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  } catch (err) {
+    console.error("[SECURITY] Admin textbooks GET error:", err);
+    return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
 
+/* ---------- POST: Create a textbook ---------- */
 export async function POST(req: NextRequest) {
   const admin = requireAdmin(req);
   if (!admin) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -43,10 +68,33 @@ export async function POST(req: NextRequest) {
     const subject = formData.get("subject") as string;
     const title = formData.get("title") as string;
 
-    if (!board || !classStr || !subject) {
-      return NextResponse.json({ error: "board, class, and subject are required" }, { status: 400 });
+    // ----------- Strict field validation (whitelist) ----------
+    const providedKeys = new Set(formData.keys());
+    if (!Array.from(providedKeys).every(k => ALLOWED_TEXTBOOK_FIELDS.has(k))) {
+      return NextResponse.json({ error: "Invalid fields supplied" }, { status: 400 });
     }
 
+    if (!board || !classStr || !subject) {
+      return NextResponse.json(
+        { error: "board, class, and subject are required" },
+        { status: 400 }
+      );
+    }
+
+    if (!["CBSE", "ICSE", "Maharashtra Board"].includes(board)) {
+      return NextResponse.json(
+        { error: "Invalid board. Must be CBSE, ICSE, or Maharashtra Board." },
+        { status: 400 }
+      );
+    }
+
+    // Validate that class is a number
+    const classNum = parseInt(classStr, 10);
+    if (isNaN(classNum) || classNum <= 0) {
+      return NextResponse.json({ error: "Class must be a positive integer." }, { status: 400 });
+    }
+
+    // Handle file upload or URL fallback
     let fileUrl = "";
     let fileName = "";
     let fileSize = 0;
@@ -56,20 +104,21 @@ export async function POST(req: NextRequest) {
       const buffer = Buffer.from(await file.arrayBuffer());
       fileName = file.name;
       fileSize = file.size;
-
       cloudinaryPublicId = generateKey("textbooks", fileName);
       fileUrl = await uploadToCloudinary(cloudinaryPublicId, buffer, file.type || "application/pdf");
     } else {
-      fileUrl = (formData.get("fileUrl") as string) || "";
+      // Allow passing an existing file URL if uploading via UI
+      fileUrl = formData.get("fileUrl") as string || "";
     }
 
     if (!fileUrl) {
-      return NextResponse.json({ error: "Either file upload or fileUrl is required" }, { status: 400 });
+      return NextResponse.json(
+        { error: "Either a file upload or a fileUrl is required." },
+        { status: 400 }
+      );
     }
 
-    const client = await clientPromise;
-    const db = client.db("career_guru");
-
+    // Build document
     const doc: Record<string, unknown> = {
       title: title || fileName || "Textbook",
       board,
@@ -82,24 +131,34 @@ export async function POST(req: NextRequest) {
       createdAt: new Date(),
       updatedAt: new Date(),
     };
+
     if (cloudinaryPublicId) doc.cloudinaryPublicId = cloudinaryPublicId;
 
+    const client = await clientPromise;
+    const db = client.db("career_guru");
     const result = await db.collection("textbooks").insertOne(doc);
 
     await logAudit({
-      action: "CREATE", collection: "textbooks",
+      action: "CREATE",
+      collection: "textbooks",
       documentId: result.insertedId.toString(),
-      performedBy: admin.userId, performedByEmail: admin.email,
+      performedBy: admin.userId,
+      performedByEmail: admin.email,
       changes: { title: doc.title, board: doc.board, class: doc.class, subject: doc.subject },
     });
 
-    return NextResponse.json({ success: true, id: result.insertedId, fileUrl });
-  } catch (error) {
-    console.error("Admin textbooks POST error:", error);
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+    return NextResponse.json({
+      success: true,
+      id: result.insertedId,
+      fileUrl,
+    });
+  } catch (err) {
+    console.error("[SECURITY] Admin textbooks POST error:", err);
+    return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
 
+/* ---------- DELETE: Remove a textbook ---------- */
 export async function DELETE(req: NextRequest) {
   const admin = requireAdmin(req);
   if (!admin) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -109,28 +168,32 @@ export async function DELETE(req: NextRequest) {
     const id = searchParams.get("id");
     if (!id) return NextResponse.json({ error: "ID required" }, { status: 400 });
 
+    // Validate ObjectId format
     const client = await clientPromise;
     const db = client.db("career_guru");
-
-    const textbook = await db.collection("textbooks").findOne({ _id: new ObjectId(id) });
     await db.collection("textbooks").deleteOne({ _id: new ObjectId(id) });
 
-    if (textbook?.cloudinaryPublicId) {
+    // Delete associated Cloudinary file if it exists
+    const doc = await db.collection("textbooks").findOne({ _id: new ObjectId(id) });
+    if (doc?.cloudinaryPublicId) {
       try {
-        await deleteFromCloudinary(textbook.cloudinaryPublicId as string);
+        await deleteFromCloudinary(doc.cloudinaryPublicId as string);
       } catch (e) {
         console.error("Failed to delete from Cloudinary:", e);
       }
     }
 
     await logAudit({
-      action: "DELETE", collection: "textbooks", documentId: id,
-      performedBy: admin.userId, performedByEmail: admin.email,
+      action: "DELETE",
+      collection: "textbooks",
+      documentId: id,
+      performedBy: admin.userId,
+      performedByEmail: admin.email,
     });
 
     return NextResponse.json({ success: true });
-  } catch (error) {
-    console.error("Admin textbooks DELETE error:", error);
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  } catch (err) {
+    console.error("[SECURITY] Admin textbooks DELETE error:", err);
+    return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }

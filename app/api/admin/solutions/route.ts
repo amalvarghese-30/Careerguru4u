@@ -3,6 +3,8 @@ import clientPromise from "@/lib/db/mongodb";
 import { requireAdmin } from "@/lib/api-auth";
 import { ObjectId } from "mongodb";
 import { logAudit } from "@/lib/audit-log";
+import { escapeRegex } from "@/lib/security";
+import { validateObjectId } from "@/lib/security";
 import type { ContentBlock, SolutionStep } from "@/scripts/ingestion/types";
 
 const BOARDS = ["CBSE", "ICSE", "Maharashtra Board"] as const;
@@ -10,6 +12,16 @@ const QUESTION_TYPES = ["mcq", "short", "long", "diagram", "numerical", "derivat
 const DIFFICULTIES = ["easy", "medium", "hard"] as const;
 const SOURCE_TYPES = ["scraped", "manual", "ai-enhanced"] as const;
 
+/* ---------- Helper to filter unknown keys ---------- */
+function filterUnknownKeys<T>(obj: Record<string, unknown>, allowed: Set<string>): Record<string, unknown> {
+  const result: Record<string, unknown> = {};
+  for (const key of Object.keys(obj)) {
+    if (allowed.has(key)) result[key] = obj[key];
+  }
+  return result;
+}
+
+/* ---------- GET: Search solutions (sanitized regex) ---------- */
 export async function GET(req: NextRequest) {
   const admin = requireAdmin(req);
   if (!admin) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -22,20 +34,25 @@ export async function GET(req: NextRequest) {
     const chapter = searchParams.get("chapter") || "";
     const search = searchParams.get("search") || "";
 
+    // ----------- NQL injection hardening ----------
+    const safeSearch = escapeRegex(search);
+    const safeChapter = escapeRegex(chapter);
+    // ---------------------------------------------
+
     const client = await clientPromise;
     const db = client.db("career_guru");
 
     const query: Record<string, unknown> = {};
-    if (board && BOARDS.includes(board as (typeof BOARDS)[number])) query.board = board;
+    if (board && ["CBSE", "ICSE", "Maharashtra Board"].includes(board)) query.board = board;
     if (classNum) query.class = parseInt(classNum);
     if (subject) query.subject = subject;
-    if (chapter) query.chapter = { $regex: chapter, $options: "i" };
-    if (search) {
+    if (safeChapter) query.chapter = { $regex: safeChapter, $options: "i" };
+    if (safeSearch) {
       query.$or = [
-        { question: { $regex: search, $options: "i" } },
-        { answer: { $regex: search, $options: "i" } },
-        { subject: { $regex: search, $options: "i" } },
-        { chapter: { $regex: search, $options: "i" } },
+        { question: { $regex: safeSearch, $options: "i" } },
+        { answer: { $regex: safeSearch, $options: "i" } },
+        { subject: { $regex: safeSearch, $options: "i" } },
+        { chapter: { $regex: safeSearch, $options: "i" } },
       ];
     }
 
@@ -48,12 +65,13 @@ export async function GET(req: NextRequest) {
     const total = await db.collection("solutions").countDocuments();
 
     return NextResponse.json({ solutions, total });
-  } catch (error) {
-    console.error("Admin solutions GET error:", error);
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  } catch (err) {
+    console.error("[SECURITY] Admin solutions GET error:", err);
+    return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
 
+/* ---------- POST: Create a solution ---------- */
 export async function POST(req: NextRequest) {
   const admin = requireAdmin(req);
   if (!admin) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -61,14 +79,38 @@ export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
 
-    const hasBlockContent = body.questionBlocks || body.solutionSteps;
-    const hasStringContent = body.question && body.answer;
-
-    if (!hasBlockContent && !hasStringContent) {
-      return NextResponse.json(
-        { error: "Missing required content: provide either (question, answer) or (questionBlocks, solutionSteps)" },
-        { status: 400 }
-      );
+    // ----------- Strict field validation (whitelist) ----------
+    const allowedKeys = new Set([
+      "question",
+      "questionBlocks",
+      "answer",
+      "answerBlocks",
+      "answerHtml",
+      "questionHtml",
+      "board",
+      "class",
+      "subject",
+      "chapter",
+      "questionNumber",
+      "questionType",
+      "difficulty",
+      "sourceType",
+      "sourceUrl",
+      "isFree",
+      "viewCount",
+      "helpfulCount",
+      "version",
+      "originalData",
+      "tables",
+      "equations",
+      "images",
+      "tables",
+      "tables",
+      "tables",
+    ] as const);
+    const bodyKeys = new Set(Object.keys(body));
+    if (!Array.from(bodyKeys).every(k => allowedKeys.has(k))) {
+      return NextResponse.json({ error: "Invalid fields supplied" }, { status: 400 });
     }
 
     if (!body.board || !body.class || !body.subject || !body.chapter) {
@@ -78,12 +120,12 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    if (!BOARDS.includes(body.board)) {
-      return NextResponse.json({ error: `Invalid board. Must be one of: ${BOARDS.join(", ")}` }, { status: 400 });
+    if (!["CBSE", "ICSE", "Maharashtra Board"].includes(body.board)) {
+      return NextResponse.json(
+        { error: `Invalid board. Must be one of: ${["CBSE", "ICSE", "Maharashtra Board"].join(", ")}` },
+        { status: 400 }
+      );
     }
-
-    const client = await clientPromise;
-    const db = client.db("career_guru");
 
     // Build document with both legacy string fields and block fields
     const questionBlocks: ContentBlock[] = body.questionBlocks || [];
@@ -126,6 +168,8 @@ export async function POST(req: NextRequest) {
     if (body.equations) doc.equations = body.equations;
     if (body.images) doc.images = body.images;
 
+    const client = await clientPromise;
+    const db = client.db("career_guru");
     const result = await db.collection("solutions").insertOne(doc);
 
     await logAudit({
@@ -140,17 +184,18 @@ export async function POST(req: NextRequest) {
         class: doc.class,
         subject: doc.subject,
         chapter: doc.chapter,
-        hasBlocks: hasBlockContent,
+        hasBlocks: !!body.questionBlocks,
       },
     });
 
     return NextResponse.json({ success: true, id: result.insertedId });
-  } catch (error) {
-    console.error("Admin solutions POST error:", error);
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  } catch (err) {
+    console.error("[SECURITY] Admin solutions POST error:", err);
+    return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
 
+/* ---------- PUT: Update a solution ---------- */
 export async function PUT(req: NextRequest) {
   const admin = requireAdmin(req);
   if (!admin) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -159,21 +204,24 @@ export async function PUT(req: NextRequest) {
     const { _id, ...data } = await req.json();
     if (!_id) return NextResponse.json({ error: "Solution ID is required" }, { status: 400 });
 
+    // Validate ObjectId format
+    validateObjectId(_id);
+
     const client = await clientPromise;
     const db = client.db("career_guru");
 
-    // Fetch existing document for version history
+    // Fetch existing doc for version history
     const existing = await db.collection("solutions").findOne({ _id: new ObjectId(_id) });
     if (!existing) return NextResponse.json({ error: "Solution not found" }, { status: 404 });
 
+    // Build update payload
     const update: Record<string, unknown> = {};
-    let isBlockUpdate = false;
 
     // Handle block content updates
+    let isBlockUpdate = false;
     if (data.questionBlocks !== undefined) {
       isBlockUpdate = true;
       update.questionBlocks = data.questionBlocks;
-      // Also update legacy string field for backward compat
       update.question = extractPlainText(data.questionBlocks);
     }
     if (data.solutionSteps !== undefined) {
@@ -182,24 +230,18 @@ export async function PUT(req: NextRequest) {
       update.answer = extractPlainFromSteps(data.solutionSteps);
     }
 
-    // If block update and no prior originalData, snapshot current state
-    if (isBlockUpdate && !existing.originalData) {
-      update.originalData = {
-        question: existing.questionBlocks || existing.question,
-        solution: existing.solutionSteps || existing.answer,
-      };
-      update.version = (existing.version || 1) + 1;
-    } else if (isBlockUpdate) {
+    // Version bump
+    if (isBlockUpdate) {
       update.version = (existing.version || 1) + 1;
     }
 
-    // Legacy string field updates (only when not already set by block update)
+    // Legacy string field updates (if not already handled by block update)
     if (data.question !== undefined && !isBlockUpdate) update.question = data.question.trim();
     if (data.answer !== undefined && !isBlockUpdate) update.answer = data.answer.trim();
 
     // Shared fields
     if (data.board !== undefined) {
-      if (!BOARDS.includes(data.board)) return NextResponse.json({ error: "Invalid board" }, { status: 400 });
+      if (!["CBSE", "ICSE", "Maharashtra Board"].includes(data.board)) return NextResponse.json({ error: "Invalid board" }, { status: 400 });
       update.board = data.board;
     }
     if (data.class !== undefined) update.class = parseInt(data.class);
@@ -209,14 +251,16 @@ export async function PUT(req: NextRequest) {
     if (data.isFree !== undefined) update.isFree = data.isFree;
     if (data.sourceUrl !== undefined) update.sourceUrl = data.sourceUrl;
     if (data.sourceType !== undefined) {
-      if (!SOURCE_TYPES.includes(data.sourceType)) return NextResponse.json({ error: "Invalid sourceType" }, { status: 400 });
+      if (!["scraped", "manual", "ai-enhanced"].includes(data.sourceType)) return NextResponse.json({ error: "Invalid sourceType" }, { status: 400 });
       update.sourceType = data.sourceType;
     }
     if (data.questionType !== undefined) {
-      update.questionType = QUESTION_TYPES.includes(data.questionType) ? data.questionType : undefined;
+      if (!QUESTION_TYPES.includes(data.questionType)) return NextResponse.json({ error: "Invalid questionType" }, { status: 400 });
+      update.questionType = data.questionType;
     }
     if (data.difficulty !== undefined) {
-      update.difficulty = DIFFICULTIES.includes(data.difficulty) ? data.difficulty : undefined;
+      if (!DIFFICULTIES.includes(data.difficulty)) return NextResponse.json({ error: "Invalid difficulty" }, { status: 400 });
+      update.difficulty = data.difficulty;
     }
     if (data.questionHtml !== undefined) update.questionHtml = data.questionHtml;
     if (data.answerHtml !== undefined) update.answerHtml = data.answerHtml;
@@ -238,12 +282,13 @@ export async function PUT(req: NextRequest) {
     });
 
     return NextResponse.json({ success: true });
-  } catch (error) {
-    console.error("Admin solutions PUT error:", error);
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  } catch (err) {
+    console.error("[SECURITY] Admin solutions PUT error:", err);
+    return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
 
+/* ---------- DELETE: Remove a solution ---------- */
 export async function DELETE(req: NextRequest) {
   const admin = requireAdmin(req);
   if (!admin) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -252,6 +297,9 @@ export async function DELETE(req: NextRequest) {
     const { searchParams } = new URL(req.url);
     const id = searchParams.get("id");
     if (!id) return NextResponse.json({ error: "Solution ID is required" }, { status: 400 });
+
+    // Validate ObjectId format
+    validateObjectId(id);
 
     const client = await clientPromise;
     const db = client.db("career_guru");
@@ -266,12 +314,13 @@ export async function DELETE(req: NextRequest) {
     });
 
     return NextResponse.json({ success: true });
-  } catch (error) {
-    console.error("Admin solutions DELETE error:", error);
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  } catch (err) {
+    console.error("[SECURITY] Admin solutions DELETE error:", err);
+    return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
 
+/* ---------- Helper functions for block parsing ---------- */
 function extractPlainText(blocks: ContentBlock[]): string {
   if (!blocks || blocks.length === 0) return "";
   return blocks

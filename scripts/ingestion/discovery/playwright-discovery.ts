@@ -66,12 +66,25 @@ export async function discoverTextbooksWithBrowser(
   if (!courses || !courses[classNum]) return [];
 
   const course = courses[classNum];
-  const url = `${BASE_URL}/search-textbook-solutions/${course.slug}_${course.id}?subjects=${subjectSlug}`;
+
+  // Try with subject filter first
+  let url = `${BASE_URL}/search-textbook-solutions/${course.slug}_${course.id}`;
+  if (subjectSlug) {
+    url += `?subjects=${subjectSlug}`;
+  }
 
   console.log(`[PW-Discovery] Fetching textbooks: ${url}`);
-  const html = await fetchDynamicHtml(url);
+  let html = await fetchDynamicHtml(url);
 
   let textbooks = extractTextbookLinks(html);
+
+  // If subject filter returns no results, retry without the filter (needed for lower classes)
+  if (textbooks.length === 0 && subjectSlug) {
+    const noFilterUrl = `${BASE_URL}/search-textbook-solutions/${course.slug}_${course.id}`;
+    console.log(`[PW-Discovery] No textbooks with filter, retrying without: ${noFilterUrl}`);
+    html = await fetchDynamicHtml(noFilterUrl);
+    textbooks = extractTextbookLinks(html);
+  }
 
   // Filter by board publication patterns and class number
   const patterns = PUBLICATION_PATTERNS[boardKey] || [];

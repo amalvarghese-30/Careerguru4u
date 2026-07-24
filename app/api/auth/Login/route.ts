@@ -54,7 +54,7 @@ export async function POST(req: NextRequest) {
     response.cookies.set("cg-auth-token", token, {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
-      sameSite: "lax",
+      sameSite: "strict",
       maxAge: 7 * 24 * 60 * 60,
       path: "/",
     });
