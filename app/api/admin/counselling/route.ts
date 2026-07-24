@@ -3,7 +3,7 @@ import clientPromise from "@/lib/db/mongodb";
 import { requireAdmin } from "@/lib/api-auth";
 import { ObjectId } from "mongodb";
 import { logAudit } from "@/lib/audit-log";
-import { escapeRegex } from "@/lib/security";
+import { escapeRegex, validateObjectId } from "@/lib/security";
 import { sessionUpdateSchema } from "@/lib/validations";
 
 /* ---------- GET: Search counselling requests (sanitized regex) ---------- */

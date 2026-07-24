@@ -164,3 +164,9 @@ export const settingsSchema = z.object({
   logo: z.string().optional(),
   favicon: z.string().optional(),
 });
+
+export const sessionUpdateSchema = z.object({
+  status: z.enum(['draft', 'pending', 'completed', 'cancelled']).optional(),
+  assignedTo: z.string().optional(),
+  notes: z.string().optional(),
+});

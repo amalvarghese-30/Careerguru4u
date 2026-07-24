@@ -132,6 +132,9 @@ export async function POST(req: NextRequest) {
 
     const { fullName, email, password, phone, role, status } = validation.data;
 
+    const client = await clientPromise;
+    const db = client.db("career_guru");
+
     // Ensure email is unique
     const existing = await db.collection("users").findOne({ email: validation.data.email });
     if (existing) {

@@ -471,7 +471,7 @@ export async function runPipeline(opts: PipelineOptions = {}): Promise<{ solutio
               ]);
 
               const solution: Solution = {
-                board: getBoardName(task.boardKey),
+                board: task.boardKey,
                 class: task.classNum,
                 subject: tbSubject.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()),
                 chapter: chapter.name,

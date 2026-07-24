@@ -80,7 +80,7 @@ export async function POST(req: NextRequest) {
     const body = await req.json();
 
     // ----------- Strict field validation (whitelist) ----------
-    const allowedKeys = new Set([
+    const allowedKeys = new Set<string>([
       "question",
       "questionBlocks",
       "answer",
@@ -107,7 +107,7 @@ export async function POST(req: NextRequest) {
       "tables",
       "tables",
       "tables",
-    ] as const);
+    ]);
     const bodyKeys = new Set(Object.keys(body));
     if (!Array.from(bodyKeys).every(k => allowedKeys.has(k))) {
       return NextResponse.json({ error: "Invalid fields supplied" }, { status: 400 });
