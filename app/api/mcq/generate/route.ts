@@ -163,8 +163,16 @@ export async function POST(req: NextRequest) {
       });
 
       if (!existing) {
-        const result = await db.collection("mcq_questions").insertOne(mcq);
-        generated.push({ ...mcq, _id: result.insertedId });
+        try {
+          const result = await db.collection("mcq_questions").insertOne(mcq);
+          generated.push({ ...mcq, _id: result.insertedId });
+        } catch (insertErr: any) {
+          // Duplicate key race: another request inserted first — skip gracefully
+          if (insertErr.code === 11000) {
+            continue;
+          }
+          throw insertErr;
+        }
       }
     }
 
