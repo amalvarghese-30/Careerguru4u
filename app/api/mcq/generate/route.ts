@@ -1,166 +1,180 @@
+// app/api/mcq/generate/route.ts
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
 
-function extractCorrectAnswer(answer: string): string {
-    const cleaned = answer
-        .replace(/^(answer|ans|solution)[:\s-]*/i, "")
-        .replace(/\n+/g, " ")
-        .trim();
+function extractAnswerText(answer: string, maxLen: number = 120): string {
+  // Strip answer/ans/solution: prefixes
+  const cleaned = answer
+    .replace(/^(answer|ans|solution)[:\s-]*/i, "")
+    .replace(/\n+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 
-    const sentences = cleaned.split(/[.!?]+/).filter(s => s.trim().length > 10);
-    if (sentences.length === 0) return cleaned.substring(0, 100);
+  // Take first meaningful sentence
+  const sentences = cleaned.split(/[.!?]+/).filter(s => s.trim().length > 10);
+  if (sentences.length === 0) return cleaned.substring(0, maxLen);
 
-    const first = sentences[0].trim();
-    if (first.length <= 120) return first;
-    return first.substring(0, 120) + "...";
-}
-
-function generateDistractors(correctAnswer: string, question: string, subject: string): string[] {
-    const distractors: string[] = [];
-    const numbers = correctAnswer.match(/\d+(\.\d+)?/g) || [];
-    const words = correctAnswer.split(/\s+/).filter(w => w.length > 4);
-
-    if (numbers.length > 0 && numbers[0]) {
-        const firstNum = numbers[0];
-        const num = parseFloat(firstNum);
-        distractors.push(correctAnswer.replace(firstNum, String(num + Math.max(1, Math.round(num * 0.2)))));
-        distractors.push(correctAnswer.replace(firstNum, String(Math.max(0, num - Math.max(1, Math.round(num * 0.15))))));
-        if (numbers.length > 1 && numbers[1]) {
-            distractors.push(correctAnswer.replace(numbers[1], String(parseFloat(numbers[1]) * 2)));
-        } else if (num > 10) {
-            distractors.push(correctAnswer.replace(firstNum, String(Math.round(num * 0.5))));
-        }
-    }
-
-    if (distractors.length < 3 && words.length >= 3) {
-        const replacements: Record<string, string[]> = {
-            "increase": ["decrease", "remain constant"],
-            "decrease": ["increase", "remain unchanged"],
-            "higher": ["lower", "equal"],
-            "lower": ["higher", "same"],
-            "faster": ["slower", "unchanged"],
-            "greater": ["lesser", "equal"],
-            "positive": ["negative", "zero"],
-            "true": ["false"],
-        };
-
-        for (const word of words) {
-            const key = Object.keys(replacements).find(k => word.toLowerCase().includes(k));
-            if (key && replacements[key]) {
-                for (const rep of replacements[key]) {
-                    if (distractors.length >= 3) break;
-                    distractors.push(correctAnswer.replace(new RegExp(word, "i"), rep));
-                }
-                break;
-            }
-        }
-    }
-
-    if (distractors.length < 3) {
-        distractors.push("None of the above");
-        distractors.push("All of the above");
-    }
-
-    if (distractors.length < 3) {
-        distractors.push(
-            correctAnswer.split(" ").reverse().join(" ").substring(0, 100),
-        );
-    }
-
-    return distractors.slice(0, 3);
+  const first = sentences[0].trim();
+  if (first.length <= maxLen) return first;
+  return first.substring(0, maxLen) + "...";
 }
 
 function estimateDifficulty(question: string, answer: string): "easy" | "medium" | "hard" {
-    const combinedLength = question.length + answer.length;
-    if (combinedLength < 100) return "easy";
-    if (combinedLength < 300) return "medium";
-    return "hard";
+  const combinedLength = question.length + answer.length;
+  if (combinedLength < 100) return "easy";
+  if (combinedLength < 300) return "medium";
+  return "hard";
 }
 
 export async function POST(req: NextRequest) {
-    try {
-        const body = await req.json();
-        const { board, class: classNum, subject, chapter, limit = 10, examType } = body;
+  try {
+    const body = await req.json();
+    const { board, class: classNum, subject, chapter, chapters, limit = 10, examType } = body;
 
-        if (!examType && (!board || !classNum || !subject)) {
-            return NextResponse.json({ error: "board, class, and subject are required (or examType + subject)" }, { status: 400 });
-        }
-
-        if (examType && !subject) {
-            return NextResponse.json({ error: "subject is required with examType" }, { status: 400 });
-        }
-
-        const client = await clientPromise;
-        const db = client.db("career_guru");
-
-        const query: any = {};
-        if (examType) {
-            query.subject = subject;
-        } else {
-            query.board = board;
-            query.class = parseInt(classNum);
-            query.subject = subject;
-        }
-        if (chapter) query.chapter = chapter;
-
-        const solutions = await db.collection("solutions")
-            .find(query)
-            .limit(Math.min(limit, 30))
-            .toArray();
-
-        if (solutions.length === 0) {
-            return NextResponse.json({ error: "No solutions found for the given criteria" }, { status: 404 });
-        }
-
-        const generated: any[] = [];
-        for (const sol of solutions) {
-            const correctAnswer = extractCorrectAnswer(sol.answer);
-            const distractors = generateDistractors(correctAnswer, sol.question, sol.subject);
-            const options = [correctAnswer, ...distractors];
-
-            for (let i = options.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [options[i], options[j]] = [options[j], options[i]];
-            }
-
-            const correctIndex = options.indexOf(correctAnswer);
-
-            const mcq: any = {
-                questionText: sol.question,
-                options,
-                correctOptionIndex: correctIndex,
-                explanation: sol.answer,
-                subject: sol.subject,
-                chapter: sol.chapter,
-                sourceSolutionId: sol._id?.toString(),
-                difficulty: estimateDifficulty(sol.question, sol.answer),
-                createdAt: new Date(),
-            };
-
-            if (examType) {
-                mcq.examType = examType;
-            } else {
-                mcq.board = sol.board;
-                mcq.class = sol.class;
-            }
-
-            const existing = await db.collection("mcq_questions").findOne({
-                sourceSolutionId: sol._id?.toString(),
-            });
-
-            if (!existing) {
-                const result = await db.collection("mcq_questions").insertOne(mcq);
-                generated.push({ ...mcq, _id: result.insertedId });
-            }
-        }
-
-        return NextResponse.json({
-            message: `Generated ${generated.length} new MCQ questions (${solutions.length - generated.length} already existed)`,
-            generated: generated.length,
-            totalProcessed: solutions.length,
-        });
-    } catch (error) {
-        console.error("MCQ Generate API error:", error);
-        return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+    // Validate required params
+    if (!examType && (!board || !classNum || !subject)) {
+      return NextResponse.json(
+        { error: "board, class, and subject are required (or examType + subject)" },
+        { status: 400 }
+      );
     }
+    if (examType && !subject) {
+      return NextResponse.json({ error: "subject is required with examType" }, { status: 400 });
+    }
+
+    // Resolve chapters: single chapter or comma-separated list
+    let chapterList: string[] = [];
+    if (chapters) {
+      chapterList = chapters.split(",").map((c: string) => c.trim()).filter(Boolean);
+    } else if (chapter) {
+      chapterList = [chapter];
+    }
+
+    const client = await clientPromise;
+    const db = client.db("career_guru");
+
+    // Build solution query
+    const solutionQuery: any = {};
+    if (examType) {
+      solutionQuery.subject = subject;
+    } else {
+      solutionQuery.board = board;
+      solutionQuery.class = parseInt(classNum);
+      solutionQuery.subject = subject;
+    }
+    if (chapterList.length === 1) {
+      solutionQuery.chapter = chapterList[0];
+    } else if (chapterList.length > 1) {
+      solutionQuery.chapter = { $in: chapterList };
+    }
+
+    // Fetch solutions for the selected scope
+    const solutions = await db.collection("solutions")
+      .find(solutionQuery)
+      .limit(Math.min(limit * 3, 90)) // Fetch more to build good distractor pool
+      .toArray();
+
+    if (solutions.length < 5) {
+      return NextResponse.json(
+        { error: "Not enough content. Select more chapters or a different subject." },
+        { status: 400 }
+      );
+    }
+
+    // Build same-chapter distractor pool for each question
+    // For a given solution, pool distractors from OTHER solutions in the SAME chapter
+    // If same-chapter pool is too small, fall back to same-subject pool
+
+    // Pre-group solutions by chapter for efficient pooling
+    const byChapter: Record<string, string[]> = {};
+    for (const sol of solutions) {
+      const ch = sol.chapter || "unknown";
+      if (!byChapter[ch]) byChapter[ch] = [];
+      byChapter[ch].push(extractAnswerText(sol.answer));
+    }
+
+    // Build subject-wide fallback pool (all answers across all chapters)
+    const subjectPool = solutions.map(sol => extractAnswerText(sol.answer));
+
+    const generated: any[] = [];
+    const maxToGenerate = Math.min(limit, 30);
+    const solutionsToUse = solutions.slice(0, maxToGenerate);
+
+    for (const sol of solutionsToUse) {
+      const correctAnswer = extractAnswerText(sol.answer);
+
+      // Pool distractors from the same chapter (excluding this solution's answer)
+      const ch = sol.chapter || "unknown";
+      const chapterPool = (byChapter[ch] || []).filter(a => a !== correctAnswer);
+
+      let distractorPool = chapterPool;
+      // Fallback: if chapter pool has fewer than 3 unique distractors, use subject-wide pool
+      if (new Set(distractorPool).size < 3) {
+        distractorPool = subjectPool.filter(a => a !== correctAnswer);
+      }
+
+      // Pick 3 unique random distractors
+      const uniquePool = [...new Set(distractorPool)];
+
+      // Shuffle the pool
+      for (let i = uniquePool.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [uniquePool[i], uniquePool[j]] = [uniquePool[j], uniquePool[i]];
+      }
+
+      const distractors = uniquePool.slice(0, 3);
+
+      // If we still don't have 3 distractors, pad with generic options
+      while (distractors.length < 3) {
+        distractors.push("None of the above");
+      }
+
+      // Combine and shuffle all 4 options
+      const options = [correctAnswer, ...distractors];
+      for (let i = options.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [options[i], options[j]] = [options[j], options[i]];
+      }
+
+      const correctIndex = options.indexOf(correctAnswer);
+
+      const mcq: any = {
+        questionText: sol.question,
+        options,
+        correctOptionIndex: correctIndex,
+        explanation: sol.answer,
+        subject: sol.subject,
+        chapter: sol.chapter,
+        sourceSolutionId: sol._id?.toString(),
+        difficulty: estimateDifficulty(sol.question, sol.answer),
+        createdAt: new Date(),
+      };
+
+      if (examType) {
+        mcq.examType = examType;
+      } else {
+        mcq.board = sol.board;
+        mcq.class = sol.class;
+      }
+
+      // Deduplicate by sourceSolutionId
+      const existing = await db.collection("mcq_questions").findOne({
+        sourceSolutionId: sol._id?.toString(),
+      });
+
+      if (!existing) {
+        const result = await db.collection("mcq_questions").insertOne(mcq);
+        generated.push({ ...mcq, _id: result.insertedId });
+      }
+    }
+
+    return NextResponse.json({
+      message: `Generated ${generated.length} new MCQ questions (${solutionsToUse.length - generated.length} already existed)`,
+      generated: generated.length,
+      totalProcessed: solutionsToUse.length,
+    });
+  } catch (error) {
+    console.error("MCQ Generate API error:", error);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  }
 }
