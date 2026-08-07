@@ -40,6 +40,8 @@ export default function MockTestExamPage() {
     const board = decodeURIComponent(params.board as string);
     const classNum = parseInt(params.class as string);
     const subject = searchParams.get("subject") || "";
+    const chaptersRaw = searchParams.get("chapters") || "";
+    const chapterList = chaptersRaw ? chaptersRaw.split(",").map(c => decodeURIComponent(c.trim())) : [];
 
     const [questions, setQuestions] = useState<MCQQuestion[]>([]);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -50,6 +52,7 @@ export default function MockTestExamPage() {
     const [timeElapsed, setTimeElapsed] = useState(0);
     const [startTime] = useState(Date.now());
     const [error, setError] = useState("");
+    const [generationState, setGenerationState] = useState<"generating" | null>(null);
 
     useEffect(() => {
         fetchQuestions();
@@ -68,20 +71,66 @@ export default function MockTestExamPage() {
         setLoading(true);
         setError("");
         try {
-            const queryParams = new URLSearchParams({
+            const params = new URLSearchParams({
                 board,
                 class: classNum.toString(),
                 subject,
                 limit: "20",
             });
-            const res = await fetch(`/api/mcq?${queryParams}`);
-            const data = await res.json();
-            if (data.questions?.length === 0) {
-                setError("No MCQ questions found for this selection. Generate them from the admin panel first.");
+            if (chaptersRaw) {
+                params.set("chapters", chaptersRaw);
             }
-            setQuestions(data.questions || []);
+
+            const res = await fetch(`/api/mcq?${params}`);
+            const data = await res.json();
+
+            if (data.questions && data.questions.length >= 5) {
+                setQuestions(data.questions);
+                setLoading(false);
+                return;
+            }
+
+            // No cached MCQs — try generating on-the-fly
+            setLoading(false);
+            setGenerationState("generating");
+
+            const genBody: any = {
+                board,
+                class: classNum,
+                subject,
+                limit: 20,
+            };
+            if (chapterList.length > 0) {
+                genBody.chapters = chaptersRaw;
+            }
+
+            const genRes = await fetch("/api/mcq/generate", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(genBody),
+            });
+            const genData = await genRes.json();
+
+            if (!genRes.ok) {
+                setError(genData.error || "Failed to generate questions. Try selecting different chapters.");
+                setGenerationState(null);
+                return;
+            }
+
+            // Re-fetch now that MCQs are generated
+            const retryRes = await fetch(`/api/mcq?${params}`);
+            const retryData = await retryRes.json();
+
+            if (retryData.questions && retryData.questions.length >= 5) {
+                setQuestions(retryData.questions);
+                setGenerationState(null);
+            } else {
+                setError("Not enough content in these chapters to generate a test. Try selecting more chapters.");
+                setGenerationState(null);
+            }
         } catch {
             setError("Failed to load questions. Please try again.");
+            setGenerationState(null);
         } finally {
             setLoading(false);
         }
@@ -145,6 +194,25 @@ export default function MockTestExamPage() {
                 <div className="text-center">
                     <div className="h-10 w-10 border-2 border-brand-royal border-t-transparent rounded-full animate-spin mx-auto mb-4" />
                     <p className="text-slate-500">Loading questions...</p>
+                </div>
+            </div>
+        );
+    }
+
+    if (generationState === "generating") {
+        return (
+            <div className="pt-20 min-h-screen flex items-center justify-center bg-slate-50">
+                <div className="text-center max-w-md">
+                    <div className="h-12 w-12 border-2 border-brand-royal border-t-transparent rounded-full animate-spin mx-auto mb-4" />
+                    <h2 className="text-lg font-semibold text-slate-700 mb-2">Preparing Your Test</h2>
+                    <p className="text-slate-500">
+                        Generating questions from{" "}
+                        {chapterList.length > 0
+                            ? `${chapterList.length} chapter${chapterList.length !== 1 ? "s" : ""}`
+                            : "selected chapters"}
+                        ...
+                    </p>
+                    <p className="text-xs text-slate-400 mt-2">This may take a moment the first time.</p>
                 </div>
             </div>
         );
