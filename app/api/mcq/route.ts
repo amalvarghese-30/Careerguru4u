@@ -8,7 +8,8 @@ export async function GET(req: NextRequest) {
         const board = searchParams.get("board") || "";
         const classNum = searchParams.get("class");
         const subject = searchParams.get("subject");
-        const chapter = searchParams.get("chapter");
+        const chapterRaw = searchParams.get("chapter");
+        const chaptersRaw = searchParams.get("chapters");
         const examType = searchParams.get("examType") || "";
         const difficulty = searchParams.get("difficulty") || "";
         const limit = parseInt(searchParams.get("limit") || "20");
@@ -20,7 +21,19 @@ export async function GET(req: NextRequest) {
         if (board) query.board = board;
         if (classNum) query.class = parseInt(classNum);
         if (subject) query.subject = subject;
-        if (chapter) query.chapter = chapter;
+
+        // Support both single chapter and comma-separated chapters
+        if (chaptersRaw) {
+          const chapterList = chaptersRaw.split(",").map(c => c.trim()).filter(Boolean);
+          if (chapterList.length === 1) {
+            query.chapter = chapterList[0];
+          } else if (chapterList.length > 1) {
+            query.chapter = { $in: chapterList };
+          }
+        } else if (chapterRaw) {
+          query.chapter = chapterRaw;
+        }
+
         if (examType) query.examType = examType;
         if (difficulty) query.difficulty = difficulty;
 
