@@ -22,7 +22,9 @@ export default function MockTestBoardPage() {
   const [classes, setClasses] = useState<number[]>([]);
   const [subjects, setSubjects] = useState<string[]>([]);
   const [chapters, setChapters] = useState<string[]>([]);
-  const [counts, setCounts] = useState<Record<string, number>>({});
+  const [classCounts, setClassCounts] = useState<Record<string, number>>({});
+  const [subjectCounts, setSubjectCounts] = useState<Record<string, number>>({});
+  const [chapterCounts, setChapterCounts] = useState<Record<string, number>>({});
 
   const [selectedClass, setSelectedClass] = useState<number | null>(null);
   const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
@@ -65,13 +67,13 @@ export default function MockTestBoardPage() {
       }
       if (level === "classes" && data.classes) {
         setClasses(data.classes);
-        setCounts(data.counts);
+        setClassCounts(data.counts);
       } else if (level === "subjects" && data.subjects) {
         setSubjects(data.subjects);
-        setCounts(data.counts);
+        setSubjectCounts(data.counts);
       } else if (level === "chapters" && data.chapters) {
         setChapters(data.chapters);
-        setCounts(data.counts);
+        setChapterCounts(data.counts);
       }
     } catch {
       setError("Failed to connect. Please try again.");
@@ -161,11 +163,11 @@ export default function MockTestBoardPage() {
                     }`}
                   >
                     {cls}
-                    {counts[String(cls)] !== undefined && (
+                    {classCounts[String(cls)] !== undefined && (
                       <span className={`block text-[10px] font-normal mt-0.5 ${
                         selectedClass === cls ? "text-white/60" : "text-slate-400"
                       }`}>
-                        {formatCount(counts[String(cls)])}
+                        {formatCount(classCounts[String(cls)])}
                       </span>
                     )}
                   </button>
@@ -213,11 +215,11 @@ export default function MockTestBoardPage() {
                         }`}
                       />
                       <span className="font-semibold text-sm">{subj}</span>
-                      {counts[subj] !== undefined && (
+                      {subjectCounts[subj] !== undefined && (
                         <span className={`block text-xs mt-0.5 ${
                           selectedSubject === subj ? "text-white/60" : "text-slate-400"
                         }`}>
-                          {formatCount(counts[subj])}
+                          {formatCount(subjectCounts[subj])}
                         </span>
                       )}
                     </button>
@@ -287,9 +289,9 @@ export default function MockTestBoardPage() {
                             <span className={`font-medium ${isSelected ? "text-brand-royal" : "text-slate-700"}`}>
                               {ch}
                             </span>
-                            {counts[ch] !== undefined && (
+                            {chapterCounts[ch] !== undefined && (
                               <span className="block text-xs text-slate-400 mt-0.5">
-                                {formatCount(counts[ch])}
+                                {formatCount(chapterCounts[ch])}
                               </span>
                             )}
                           </div>
