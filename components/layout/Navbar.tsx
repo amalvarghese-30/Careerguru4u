@@ -6,7 +6,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Menu, X, Home, BookOpen, Compass, GraduationCap, Sparkles, ChevronDown,
-  Award, PhoneCall, User, LayoutDashboard, Heart, Building2,
+  PhoneCall, User, LayoutDashboard, Heart, Building2,
   Settings, LogOut, Shield, FileText, ChevronRight, Bell,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -60,7 +60,7 @@ const megaMenu = {
 const otherLinks = [
   { label: "Home", icon: Home, href: "/" },
   { label: "AI Tools", icon: Sparkles, href: "/ai-tools" },
-  { label: "Scholarships", icon: Award, href: "/scholarships" },
+  // { label: "Scholarships", icon: Award, href: "/scholarships" },
   { label: "Counselling", icon: PhoneCall, href: "/counselling" },
 ];
 
@@ -125,7 +125,7 @@ export function Navbar() {
       { icon: Shield, label: "Admin Panel", href: "/admin" },
       { icon: Heart, label: "Saved Careers", href: "/dashboard?tab=careers" },
       { icon: Building2, label: "Saved Colleges", href: "/dashboard?tab=colleges" },
-      { icon: Award, label: "Scholarships", href: "/scholarships" },
+      // { icon: Award, label: "Scholarships", href: "/scholarships" },
       { icon: PhoneCall, label: "Counselling", href: "/dashboard?tab=counselling" },
       { icon: Settings, label: "Profile Settings", href: "/dashboard" },
     ]
@@ -141,7 +141,7 @@ export function Navbar() {
         { icon: Heart, label: "Saved Careers", href: "/dashboard?tab=careers" },
         { icon: Building2, label: "Saved Colleges", href: "/dashboard?tab=colleges" },
         { icon: FileText, label: "AI Resume Builder", href: "/ai-tools/resume-builder" },
-        { icon: Award, label: "Scholarships", href: "/scholarships" },
+        // { icon: Award, label: "Scholarships", href: "/scholarships" },
         { icon: PhoneCall, label: "Counselling", href: "/dashboard?tab=counselling" },
         { icon: Settings, label: "Profile Settings", href: "/dashboard" },
       ];
