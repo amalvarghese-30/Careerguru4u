@@ -12,7 +12,8 @@ export async function GET(req: NextRequest) {
     const client = await clientPromise;
     const db = client.db("career_guru");
 
-    const query: Record<string, unknown> = {};
+    // Always exclude hidden colleges from public listing
+    const query: Record<string, unknown> = { hidden: { $ne: true } };
     if (type) query.type = type;
     if (location) query.location = { $regex: location, $options: "i" };
     if (featured === "true") query.featured = true;

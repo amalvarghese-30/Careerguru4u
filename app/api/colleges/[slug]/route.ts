@@ -7,7 +7,8 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ slug
     const client = await clientPromise;
     const db = client.db("career_guru");
 
-    const college = await db.collection("colleges").findOne({ slug });
+    // Also filter hidden colleges from public view
+    const college = await db.collection("colleges").findOne({ slug, hidden: { $ne: true } });
 
     if (!college) {
       return NextResponse.json({ error: "College not found" }, { status: 404 });

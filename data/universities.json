@@ -94,8 +94,8 @@
     "learningMode": [
       "Online"
     ],
-    "logoUrl": "https://collegeadmission360.b-cdn.net/static/nmims-distance-learning-logo.webp",
-    "bannerUrl": "https://collegeadmission360.b-cdn.net/static/nmims-online-desktop-banner.webp",
+    "logoUrl": "/images/colleges/nmims.png",
+    "bannerUrl": "",
     "featured": true
   },
   {
@@ -203,8 +203,8 @@
       "Online",
       "Distance"
     ],
-    "logoUrl": "https://collegeadmission360.b-cdn.net/static/amity.jpeg",
-    "bannerUrl": "https://collegeadmission360.b-cdn.net/static/amity-university-online-full.webp",
+    "logoUrl": "/images/colleges/amity.png",
+    "bannerUrl": "",
     "featured": true
   },
   {
@@ -296,8 +296,8 @@
       "Online",
       "Distance"
     ],
-    "logoUrl": "https://collegeadmission360.b-cdn.net/static/sikkim-manipal-university-online-logomark.webp",
-    "bannerUrl": "https://collegeadmission360.b-cdn.net/static/sikkim-manipal-university-online-desktop-banner.webp",
+    "logoUrl": "/images/colleges/sikkim-manipal.svg",
+    "bannerUrl": "",
     "featured": true
   },
   {
@@ -393,7 +393,7 @@
     "learningMode": [
       "Online"
     ],
-    "logoUrl": "",
+    "logoUrl": "/images/colleges/jain.png",
     "bannerUrl": "",
     "featured": false
   },
@@ -492,8 +492,8 @@
     "learningMode": [
       "Online"
     ],
-    "logoUrl": "https://collegeadmission360.b-cdn.net/static/manipal.jpeg",
-    "bannerUrl": "https://collegeadmission360.b-cdn.net/static/Top-Manipal-University-online.jpg",
+    "logoUrl": "/images/colleges/manipal.svg",
+    "bannerUrl": "",
     "featured": true
   },
   {
@@ -580,8 +580,8 @@
     "learningMode": [
       "Online"
     ],
-    "logoUrl": "https://collegeadmission360.b-cdn.net/static/dy.jpeg",
-    "bannerUrl": "https://collegeadmission360.b-cdn.net/static/dy-patil-university-navi-mumbai-online-desktop-banner.webp",
+    "logoUrl": "/images/colleges/dypatil.svg",
+    "bannerUrl": "",
     "featured": true
   },
   {
@@ -673,7 +673,7 @@
     "learningMode": [
       "Online"
     ],
-    "logoUrl": "",
+    "logoUrl": "/images/colleges/alliance.png",
     "bannerUrl": "",
     "featured": false
   },
@@ -772,7 +772,7 @@
     "learningMode": [
       "Online"
     ],
-    "logoUrl": "",
+    "logoUrl": "/images/colleges/sharda.svg",
     "bannerUrl": "",
     "featured": false
   },
@@ -863,7 +863,7 @@
     "learningMode": [
       "Online"
     ],
-    "logoUrl": "",
+    "logoUrl": "/images/colleges/dypatil-mumbai.svg",
     "bannerUrl": "",
     "featured": false
   },
@@ -968,8 +968,8 @@
     "learningMode": [
       "Online"
     ],
-    "logoUrl": "https://collegeadmission360.b-cdn.net/static/lovely-professional-university-distance-education.webp",
-    "bannerUrl": "https://collegeadmission360.b-cdn.net/static/Top-University-Lovely-Professional-University.jpg",
+    "logoUrl": "/images/colleges/lpu.svg",
+    "bannerUrl": "",
     "featured": true
   },
   {
@@ -1071,8 +1071,8 @@
     "learningMode": [
       "Online"
     ],
-    "logoUrl": "https://collegeadmission360.b-cdn.net/static/chandigarh_university_logo.webp",
-    "bannerUrl": "https://collegeadmission360.b-cdn.net/static/chandigarh_university_website_banner_new.webp",
+    "logoUrl": "/images/colleges/chandigarh.png",
+    "bannerUrl": "",
     "featured": true
   },
   {
@@ -1166,7 +1166,7 @@
       "Online",
       "Distance"
     ],
-    "logoUrl": "",
+    "logoUrl": "/images/colleges/andhra.png",
     "bannerUrl": "",
     "featured": false
   },
@@ -1258,7 +1258,7 @@
       "Online",
       "Distance"
     ],
-    "logoUrl": "",
+    "logoUrl": "/images/colleges/bharathidasan.png",
     "bannerUrl": "",
     "featured": false
   },
@@ -1346,7 +1346,7 @@
     "learningMode": [
       "Online"
     ],
-    "logoUrl": "",
+    "logoUrl": "/images/colleges/centurion.svg",
     "bannerUrl": "",
     "featured": false
   },
@@ -1441,7 +1441,7 @@
       "Online",
       "Distance"
     ],
-    "logoUrl": "",
+    "logoUrl": "/images/colleges/kurukshetra.png",
     "bannerUrl": "",
     "featured": false
   },
@@ -1539,7 +1539,7 @@
     "learningMode": [
       "Online"
     ],
-    "logoUrl": "",
+    "logoUrl": "/images/colleges/parul.svg",
     "bannerUrl": "",
     "featured": false
   },
@@ -1627,7 +1627,7 @@
     "learningMode": [
       "Online"
     ],
-    "logoUrl": "",
+    "logoUrl": "/images/colleges/vivekananda-global.png",
     "bannerUrl": "",
     "featured": false
   },
@@ -1714,7 +1714,7 @@
     "learningMode": [
       "Online"
     ],
-    "logoUrl": "",
+    "logoUrl": "/images/colleges/vignan.svg",
     "bannerUrl": "",
     "featured": false
   },
@@ -1809,7 +1809,7 @@
       "Online",
       "Distance"
     ],
-    "logoUrl": "",
+    "logoUrl": "/images/colleges/vistas.svg",
     "bannerUrl": "",
     "featured": false
   }
