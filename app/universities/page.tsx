@@ -20,6 +20,8 @@ interface College {
   rating: number;
   reviewCount?: number;
   courses: string[];
+  ugCourses?: string[];
+  pgCourses?: string[];
   courseCount?: number;
   fees: string;
   placement: string;
@@ -34,6 +36,10 @@ interface College {
   bannerUrl?: string;
   learningMode?: string[];
   featured?: boolean;
+  duration?: string;
+  eligibility?: string;
+  specializations?: string[];
+  scholarship?: string;
 }
 
 function UniversitiesContent() {
@@ -376,21 +382,73 @@ function UniversitiesContent() {
                         </p>
                       )}
 
-                      <div className="flex flex-wrap gap-1 mb-3">
-                        {college.courses.slice(0, 3).map((course) => (
-                          <span
-                            key={course}
-                            className="px-2 py-0.5 text-xs rounded-full bg-brand-bg text-brand-royal font-medium"
-                          >
-                            {course}
-                          </span>
-                        ))}
-                        {college.courses.length > 3 && (
-                          <span className="px-2 py-0.5 text-xs rounded-full bg-neutral-lightGray text-neutral-mediumGray">
-                            +{college.courses.length - 3}
-                          </span>
-                        )}
-                      </div>
+                      {/* UG Courses */}
+                      {college.ugCourses && college.ugCourses.length > 0 && (
+                        <div className="mb-2">
+                          <div className="text-[10px] font-bold text-neutral-mediumGray uppercase tracking-wide mb-1.5">
+                            UG Courses
+                          </div>
+                          <div className="flex flex-wrap gap-1">
+                            {college.ugCourses.slice(0, 4).map((course) => (
+                              <span
+                                key={course}
+                                className="px-2 py-0.5 text-[10px] rounded-full bg-amber-50 text-amber-700 font-semibold border border-amber-200"
+                              >
+                                {course}
+                              </span>
+                            ))}
+                            {college.ugCourses.length > 4 && (
+                              <span className="px-2 py-0.5 text-[10px] rounded-full bg-neutral-lightGray text-neutral-mediumGray">
+                                +{college.ugCourses.length - 4}
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* PG Courses */}
+                      {college.pgCourses && college.pgCourses.length > 0 && (
+                        <div className="mb-3">
+                          <div className="text-[10px] font-bold text-neutral-mediumGray uppercase tracking-wide mb-1.5">
+                            PG Courses
+                          </div>
+                          <div className="flex flex-wrap gap-1">
+                            {college.pgCourses.slice(0, 4).map((course) => (
+                              <span
+                                key={course}
+                                className="px-2 py-0.5 text-[10px] rounded-full bg-blue-50 text-blue-700 font-semibold border border-blue-200"
+                              >
+                                {course}
+                              </span>
+                            ))}
+                            {college.pgCourses.length > 4 && (
+                              <span className="px-2 py-0.5 text-[10px] rounded-full bg-neutral-lightGray text-neutral-mediumGray">
+                                +{college.pgCourses.length - 4}
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Fallback: generic courses if no ug/pg split */}
+                      {(!college.ugCourses || college.ugCourses.length === 0) &&
+                       (!college.pgCourses || college.pgCourses.length === 0) && (
+                        <div className="flex flex-wrap gap-1 mb-3">
+                          {college.courses.slice(0, 3).map((course) => (
+                            <span
+                              key={course}
+                              className="px-2 py-0.5 text-xs rounded-full bg-brand-bg text-brand-royal font-medium"
+                            >
+                              {course}
+                            </span>
+                          ))}
+                          {college.courses.length > 3 && (
+                            <span className="px-2 py-0.5 text-xs rounded-full bg-neutral-lightGray text-neutral-mediumGray">
+                              +{college.courses.length - 3}
+                            </span>
+                          )}
+                        </div>
+                      )}
 
                       <div className="grid grid-cols-3 gap-2 mb-3 text-center">
                         <div className="bg-brand-bg rounded-lg p-2">

@@ -5,23 +5,95 @@
     "shortName": "NMIMS",
     "location": "Mumbai, Maharashtra",
     "established": 1981,
-    "type": "ug",
-    "accreditation": ["NAAC A++", "UGC-DEB", "AICTE"],
+    "type": "pg",
+    "accreditation": [
+      "NAAC A++",
+      "UGC-DEB",
+      "AICTE"
+    ],
     "tagline": "Global Management University — Now Online",
-    "description": "NMIMS (Narsee Monjee Institute of Management Studies) is one of India's top deemed universities, offering high-quality online programmes. The university has been recognized as one of India's top universities for online and distance education, providing flexible learning options that allow students to pursue their degrees while working or managing other commitments. NMIMS's online programmes are designed with industry-relevant curriculum, experienced faculty, and robust learning management systems.",
+    "description": "NMIMS (Narsee Monjee Institute of Management Studies) is one of India's top deemed universities, offering high-quality online programmes. Recognized as one of India's premier institutions for management education, NMIMS provides flexible learning options that allow students to pursue their degrees while working. The online programmes feature industry-relevant curriculum, experienced faculty, and a robust learning management system trusted by over 1 lakh alumni worldwide.",
     "rating": 4.7,
     "reviewCount": 3200,
     "courseCount": 12,
-    "courses": ["MBA", "BBA", "B.Com", "B.Sc", "M.Sc", "Data Science", "Executive MBA"],
-    "fees": "₹60K - ₹2L/yr",
+    "courses": [
+      "MBA",
+      "Executive MBA",
+      "MBA in Finance",
+      "MBA in Marketing",
+      "MBA in HR",
+      "MBA in Data Science",
+      "BBA",
+      "B.Com",
+      "B.Sc",
+      "M.Sc",
+      "MCA",
+      "Data Science"
+    ],
+    "ugCourses": [
+      "BBA",
+      "B.Com",
+      "B.Sc Data Science",
+      "B.Sc IT"
+    ],
+    "pgCourses": [
+      "MBA",
+      "Executive MBA",
+      "MBA Finance",
+      "MBA Marketing",
+      "MBA HR",
+      "MBA Data Science",
+      "M.Sc Applied Finance",
+      "M.Sc AI & ML"
+    ],
+    "fees": "₹60K – ₹2L/yr",
     "placement": "92%",
     "avgPackage": "₹14.5L",
     "ranking": "NIRF #21",
-    "highlights": ["NAAC A++ Grade", "UGC-DEB Approved", "92% Placement Rate", "₹14.5L Avg Package", "Global Alumni Network of 1L+"],
-    "infrastructure": ["Advanced LMS Platform", "Digital Library", "Live Interactive Classes", "Industry Mentorship", "24x7 Student Support"],
-    "entranceExams": ["NMIMS-NPAT", "NMIMS CET"],
-    "topRecruiters": ["Deloitte", "KPMG", "EY", "Amazon", "Tata Group", "HDFC Bank"],
-    "learningMode": ["Online"],
+    "duration": "UG: 3 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (50%) | PG: Bachelor's degree (50%) + NPAT/CET",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "Human Resources",
+      "Data Science",
+      "Business Analytics",
+      "Digital Marketing",
+      "Operations",
+      "International Business"
+    ],
+    "scholarship": "Merit-based scholarships available; EMI options starting at ₹3,000/month",
+    "highlights": [
+      "NAAC A++ Grade",
+      "UGC-DEB Approved",
+      "92% Placement Rate",
+      "₹14.5L Avg Package",
+      "Global Alumni Network of 1L+",
+      "AACSB Accredited"
+    ],
+    "infrastructure": [
+      "Advanced LMS Platform",
+      "Digital Library",
+      "Live Interactive Classes",
+      "Industry Mentorship",
+      "24×7 Student Support",
+      "Recorded Lecture Access"
+    ],
+    "entranceExams": [
+      "NMIMS-NPAT",
+      "NMIMS CET"
+    ],
+    "topRecruiters": [
+      "Deloitte",
+      "KPMG",
+      "EY",
+      "Amazon",
+      "Tata Group",
+      "HDFC Bank"
+    ],
+    "learningMode": [
+      "Online"
+    ],
     "logoUrl": "https://collegeadmission360.b-cdn.net/static/nmims-distance-learning-logo.webp",
     "bannerUrl": "https://collegeadmission360.b-cdn.net/static/nmims-online-desktop-banner.webp",
     "featured": true
@@ -32,52 +104,107 @@
     "shortName": "Amity",
     "location": "Noida, Uttar Pradesh",
     "established": 2005,
-    "type": "ug",
-    "accreditation": ["NAAC A+", "UGC-DEB", "AICTE", "AIU"],
-    "tagline": "World-Class Education, Delivered Online",
-    "description": "Amity University Online is India's most trusted private university offering UGC-DEB approved online programmes across management, technology, arts, and commerce. The university offers flexible learning options that allow students to pursue their degrees while working or managing other commitments. Amity's online programmes are designed with industry-relevant curriculum, experienced faculty, and robust learning management systems that provide students with an engaging and comprehensive educational experience.",
+    "type": "pg",
+    "accreditation": [
+      "NAAC A+",
+      "UGC-DEB",
+      "AICTE",
+      "AIU"
+    ],
+    "tagline": "India's No.1 Online University",
+    "description": "Amity University Online is India's most trusted private university offering UGC-DEB approved online programmes across management, technology, arts, and commerce. With 14 MBA specializations, industry partnerships with HCL, Paytm, and Medvarsity, and students from 100+ countries, Amity delivers a truly world-class online learning experience with flexible schedules and dedicated mentorship.",
     "rating": 4.8,
     "reviewCount": 2140,
-    "courseCount": 16,
-    "courses": ["MBA", "MCA", "BCA", "BBA", "B.Com", "BA", "B.Sc", "M.Sc", "MA", "M.Com"],
-    "fees": "₹60K - ₹2L/yr",
+    "courseCount": 20,
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Com",
+      "BA",
+      "B.Sc",
+      "M.Sc",
+      "MA",
+      "M.Com",
+      "Executive MBA"
+    ],
+    "ugCourses": [
+      "BCA",
+      "BBA",
+      "B.Com",
+      "BA",
+      "B.Sc",
+      "B.Com Honours",
+      "BBA Honours",
+      "B.Sc IT"
+    ],
+    "pgCourses": [
+      "MBA (14 Specializations)",
+      "MCA (6 Specializations)",
+      "M.Com FinTech",
+      "M.Sc Data Science",
+      "MA Journalism & Mass Comm",
+      "MA Public Policy",
+      "Executive MBA"
+    ],
+    "fees": "₹60K – ₹2.25L/yr",
     "placement": "94%",
     "avgPackage": "₹12.8L",
     "ranking": "NIRF #30",
-    "highlights": ["NAAC A+ Grade", "UGC-DEB & AICTE Approved", "94% Placement Rate", "AIU Recognized", "Global Campuses in 11 Countries"],
-    "infrastructure": ["AI-Powered LMS", "Virtual Labs", "Live + Recorded Lectures", "Career Development Cell", "24x7 Mentorship"],
-    "entranceExams": ["Amity JEE", "Amity Written Test"],
-    "topRecruiters": ["Microsoft", "Google", "Accenture", "Wipro", "TCS", "Infosys"],
-    "learningMode": ["Online", "Distance"],
+    "duration": "UG: 3 Years | PG: 2 Years | Integrated BBA+MBA: 4.5 Yrs",
+    "eligibility": "UG: 10+2 (50%) | PG: Bachelor's degree (50%) | MBA: Graduation + Amity JEE",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "HR",
+      "Data Science",
+      "Business Analytics",
+      "International Finance",
+      "Digital Marketing",
+      "AI & ML",
+      "Cyber Security",
+      "Blockchain",
+      "Healthcare Management",
+      "Construction Project Mgmt"
+    ],
+    "scholarship": "Merit scholarships up to 20%; special scholarships for defence personnel children; EMI from ₹4,000/month",
+    "highlights": [
+      "NAAC A+ Grade",
+      "UGC-DEB, AICTE & AIU Approved",
+      "94% Placement Rate",
+      "Global Campuses in 11 Countries",
+      "Industry Partners: HCL, Paytm, RICS",
+      "300,000+ Alumni Network"
+    ],
+    "infrastructure": [
+      "AI-Powered LMS",
+      "Virtual Labs",
+      "Live + Recorded Lectures",
+      "Career Development Cell",
+      "24×7 Mentorship",
+      "Global Alumni Portal"
+    ],
+    "entranceExams": [
+      "Amity JEE",
+      "Amity Written Test"
+    ],
+    "topRecruiters": [
+      "Microsoft",
+      "Google",
+      "Accenture",
+      "Wipro",
+      "TCS",
+      "Infosys",
+      "Deloitte",
+      "HCL"
+    ],
+    "learningMode": [
+      "Online",
+      "Distance"
+    ],
     "logoUrl": "https://collegeadmission360.b-cdn.net/static/amity.jpeg",
     "bannerUrl": "https://collegeadmission360.b-cdn.net/static/amity-university-online-full.webp",
-    "featured": true
-  },
-  {
-    "slug": "lpu",
-    "name": "Lovely Professional University",
-    "shortName": "LPU",
-    "location": "Phagwara, Punjab",
-    "established": 2005,
-    "type": "ug",
-    "accreditation": ["NAAC A++", "UGC-DEB", "AICTE", "WES"],
-    "tagline": "Asia's Largest University — Now Online",
-    "description": "Lovely Professional University is Asia's largest single-campus university offering UGC-entitled online degree programmes. With a sprawling 600+ acre campus and students from 50+ countries, LPU provides world-class education through its online platform. The university's online programmes maintain the same rigorous academic standards as on-campus programmes while offering unmatched flexibility.",
-    "rating": 4.7,
-    "reviewCount": 3820,
-    "courseCount": 22,
-    "courses": ["MBA", "MCA", "BCA", "BBA", "B.Com", "BA", "B.Sc", "M.Sc", "MA", "M.Com", "B.Tech"],
-    "fees": "₹40K - ₹1.5L/yr",
-    "placement": "91%",
-    "avgPackage": "₹10.5L",
-    "ranking": "NIRF #27",
-    "highlights": ["NAAC A++ Grade", "Asia's Largest University", "91% Placement Rate", "WES Recognized", "6 Lakh+ Alumni Worldwide"],
-    "infrastructure": ["Advanced Online LMS", "Virtual Classrooms", "Digital Library Access", "Career Services", "Global Student Network"],
-    "entranceExams": ["LPUNEST", "CUET"],
-    "topRecruiters": ["Microsoft", "Google", "Amazon", "Infosys", "Wipro", "Cognizant"],
-    "learningMode": ["Online"],
-    "logoUrl": "https://collegeadmission360.b-cdn.net/static/lovely-professional-university-distance-education.webp",
-    "bannerUrl": "https://collegeadmission360.b-cdn.net/static/Top-University-Lovely-Professional-University.jpg",
     "featured": true
   },
   {
@@ -86,26 +213,92 @@
     "shortName": "SMU",
     "location": "Gangtok, Sikkim",
     "established": 1995,
-    "type": "ug",
-    "accreditation": ["NAAC A+", "UGC-DEB"],
+    "type": "pg",
+    "accreditation": [
+      "NAAC A+",
+      "UGC-DEB"
+    ],
     "tagline": "Distance Education Excellence Since 2001",
-    "description": "Sikkim Manipal University is a pioneer in distance and online education in India, offering high-quality programmes for over two decades. SMU has been at the forefront of making quality higher education accessible to students across India through its innovative distance learning programmes. The university combines the academic excellence of the Manipal Group with flexible delivery modes.",
+    "description": "Sikkim Manipal University is a pioneer in distance and online education in India, offering high-quality programmes for over two decades through its OnlineManipal platform. SMU combines the academic excellence of the Manipal Group with flexible delivery modes, serving over 2 lakh students across India. The university is especially known for its affordable yet industry-relevant MBA and MCA programmes.",
     "rating": 4.6,
     "reviewCount": 1980,
     "courseCount": 14,
-    "courses": ["MBA", "MCA", "BCA", "BBA", "B.Com", "B.Sc", "M.Sc"],
-    "fees": "₹35K - ₹1.2L/yr",
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Com",
+      "B.Sc",
+      "M.Sc",
+      "Executive MBA"
+    ],
+    "ugCourses": [
+      "BBA",
+      "B.Com",
+      "BCA",
+      "B.Sc IT"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MBA Finance",
+      "MBA HR",
+      "MBA Marketing",
+      "MBA Data Science",
+      "MCA",
+      "M.Sc Data Science",
+      "Executive MBA"
+    ],
+    "fees": "₹35K – ₹1.2L/yr",
     "placement": "88%",
     "avgPackage": "₹8.5L",
     "ranking": "NIRF #45",
-    "highlights": ["NAAC A+ Grade", "25+ Years of Excellence", "88% Placement Rate", "UGC-DEB Approved", "Manipal Group Legacy"],
-    "infrastructure": ["EduNxt LMS Platform", "Virtual Labs", "Online Library", "Student Portal", "Career Guidance Cell"],
-    "entranceExams": ["SMU Entrance Test", "CUET"],
-    "topRecruiters": ["IBM", "Wipro", "Cognizant", "TCS", "Capgemini", "HCL"],
-    "learningMode": ["Online", "Distance"],
+    "duration": "UG: 3 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (45%) | PG: Bachelor's degree (50%) | MBA: Graduation + SMU Entrance Test",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "Human Resources",
+      "Data Science",
+      "Operations Management",
+      "Information Systems"
+    ],
+    "scholarship": "Early-bird discounts available; EMI plans from ₹2,500/month; special rates for defence & government employees",
+    "highlights": [
+      "NAAC A+ Grade",
+      "25+ Years of Excellence",
+      "88% Placement Rate",
+      "UGC-DEB Approved",
+      "Manipal Group Legacy",
+      "2 Lakh+ Students Guided"
+    ],
+    "infrastructure": [
+      "EduNxt LMS Platform",
+      "Virtual Labs",
+      "Online Library",
+      "Student Portal",
+      "Career Guidance Cell",
+      "Mobile App Access"
+    ],
+    "entranceExams": [
+      "SMU Entrance Test",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "IBM",
+      "Wipro",
+      "Cognizant",
+      "TCS",
+      "Capgemini",
+      "HCL"
+    ],
+    "learningMode": [
+      "Online",
+      "Distance"
+    ],
     "logoUrl": "https://collegeadmission360.b-cdn.net/static/sikkim-manipal-university-online-logomark.webp",
     "bannerUrl": "https://collegeadmission360.b-cdn.net/static/sikkim-manipal-university-online-desktop-banner.webp",
-    "featured": false
+    "featured": true
   },
   {
     "slug": "jain",
@@ -113,53 +306,96 @@
     "shortName": "Jain",
     "location": "Bangalore, Karnataka",
     "established": 1990,
-    "type": "ug",
-    "accreditation": ["NAAC A", "UGC-DEB"],
+    "type": "pg",
+    "accreditation": [
+      "NAAC A",
+      "UGC-DEB"
+    ],
     "tagline": "Transforming Lives Through Quality Education",
-    "description": "Jain University is a NAAC A-graded deemed university offering UGC-approved online programmes with strong industry connections and placement support. Based in Bangalore, India's tech capital, Jain Online provides students with access to cutting-edge curriculum and industry mentorship that prepares them for the modern workplace.",
+    "description": "Jain University is a NAAC A-graded deemed university offering UGC-approved online programmes with strong industry connections and placement support. Based in Bangalore, India's tech capital, Jain Online provides students with access to cutting-edge curriculum and industry mentorship. The university's JAINx platform delivers an engaging digital learning experience with live sessions, projects, and placement assistance.",
     "rating": 4.5,
     "reviewCount": 1560,
     "courseCount": 18,
-    "courses": ["MBA", "MCA", "BCA", "BBA", "B.Com", "B.Sc", "M.Sc", "MA", "M.Com"],
-    "fees": "₹40K - ₹1.5L/yr",
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Com",
+      "B.Sc",
+      "M.Sc",
+      "MA",
+      "M.Com",
+      "Executive MBA"
+    ],
+    "ugCourses": [
+      "BCA",
+      "BBA",
+      "B.Com",
+      "B.Sc",
+      "BA"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MBA Finance",
+      "MBA HR",
+      "MBA Marketing",
+      "MBA Data Science",
+      "MCA",
+      "M.Sc Data Science",
+      "MA Economics",
+      "M.Com"
+    ],
+    "fees": "₹40K – ₹1.5L/yr",
     "placement": "89%",
     "avgPackage": "₹9.5L",
     "ranking": "NIRF #52",
-    "highlights": ["NAAC A Grade", "Bangalore Tech Hub Advantage", "89% Placement Rate", "UGC-DEB Approved", "Industry-Integrated Curriculum"],
-    "infrastructure": ["JAINx Online Platform", "Digital Classrooms", "E-Library", "Career Acceleration Cell", "Alumni Mentorship Network"],
-    "entranceExams": ["JET (Jain Entrance Test)", "CUET"],
-    "topRecruiters": ["Infosys", "Wipro", "Deloitte", "Accenture", "Flipkart", "Byju's"],
-    "learningMode": ["Online"],
+    "duration": "UG: 3 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (50%) | PG: Bachelor's degree (50%) | MBA: Graduation + JET",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "Human Resources",
+      "Data Science",
+      "Business Analytics",
+      "Entrepreneurship",
+      "Banking & Finance"
+    ],
+    "scholarship": "Merit-based scholarships for top scorers; corporate employee discounts; EMI from ₹3,000/month",
+    "highlights": [
+      "NAAC A Grade",
+      "Bangalore Tech Hub Advantage",
+      "89% Placement Rate",
+      "UGC-DEB Approved",
+      "Industry-Integrated Curriculum",
+      "24×7 Student Mentorship"
+    ],
+    "infrastructure": [
+      "JAINx Online Platform",
+      "Digital Classrooms",
+      "E-Library",
+      "Career Acceleration Cell",
+      "Alumni Mentorship Network",
+      "Mobile Learning App"
+    ],
+    "entranceExams": [
+      "JET (Jain Entrance Test)",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "Infosys",
+      "Wipro",
+      "Deloitte",
+      "Accenture",
+      "Flipkart",
+      "Byju's"
+    ],
+    "learningMode": [
+      "Online"
+    ],
     "logoUrl": "",
     "bannerUrl": "",
     "featured": false
-  },
-  {
-    "slug": "chandigarh",
-    "name": "Chandigarh University",
-    "shortName": "CU",
-    "location": "Mohali, Punjab",
-    "established": 2012,
-    "type": "ug",
-    "accreditation": ["NAAC A+", "UGC-DEB", "AICTE"],
-    "tagline": "India's Top-Ranked Private University",
-    "description": "Chandigarh University is one of India's youngest and fastest-growing universities, offering UGC-approved online programmes with excellent placement records. In just over a decade, CU has established itself as a premier institution known for academic excellence, innovative teaching methodologies, and strong industry partnerships.",
-    "rating": 4.6,
-    "reviewCount": 2880,
-    "courseCount": 21,
-    "courses": ["MBA", "MCA", "BCA", "BBA", "B.Com", "B.Sc", "M.Sc", "MA", "M.Com", "B.Tech"],
-    "fees": "₹45K - ₹1.5L/yr",
-    "placement": "93%",
-    "avgPackage": "₹11.2L",
-    "ranking": "NIRF #36",
-    "highlights": ["NAAC A+ Grade", "India's Fastest Growing University", "93% Placement Rate", "UGC-DEB & AICTE Approved", "Limca Book Record for Placements"],
-    "infrastructure": ["CU Online LMS", "Live Interactive Sessions", "Digital Library", "Placement Cell", "Industry Mentorship Programme"],
-    "entranceExams": ["CUCET", "CUET"],
-    "topRecruiters": ["Microsoft", "Amazon", "Deloitte", "SAP", "IBM", "Oracle"],
-    "learningMode": ["Online"],
-    "logoUrl": "https://collegeadmission360.b-cdn.net/static/chandigarh_university_logo.webp",
-    "bannerUrl": "https://collegeadmission360.b-cdn.net/static/chandigarh_university_website_banner_new.webp",
-    "featured": true
   },
   {
     "slug": "manipal",
@@ -167,23 +403,95 @@
     "shortName": "MUJ",
     "location": "Jaipur, Rajasthan",
     "established": 2011,
-    "type": "ug",
-    "accreditation": ["NAAC A+", "UGC-DEB", "AICTE"],
+    "type": "pg",
+    "accreditation": [
+      "NAAC A+",
+      "UGC-DEB",
+      "AICTE"
+    ],
     "tagline": "Global Learning, Online Excellence",
-    "description": "Manipal University Jaipur is a NAAC A+ accredited university offering UGC-entitled online degree programmes with a strong legacy of the Manipal Education Group. MUJ brings the same academic rigour, expert faculty, and student-centric approach that the Manipal brand is known for, delivered through a state-of-the-art online learning platform.",
+    "description": "Manipal University Jaipur is a NAAC A+ accredited university offering UGC-entitled online degree programmes backed by the 70+ year legacy of the Manipal Education Group. MUJ brings the same academic rigour, expert faculty, and student-centric approach that the Manipal brand is known for, delivered through a state-of-the-art online learning platform with online proctored exams, live sessions, and dedicated career services.",
     "rating": 4.6,
     "reviewCount": 2480,
     "courseCount": 18,
-    "courses": ["MBA", "MCA", "BCA", "BBA", "B.Com", "B.Sc", "M.Sc", "M.Com", "MA"],
-    "fees": "₹50K - ₹1.5L/yr",
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Com",
+      "B.Sc",
+      "M.Sc",
+      "M.Com",
+      "MA",
+      "Executive MBA"
+    ],
+    "ugCourses": [
+      "BCA",
+      "BBA",
+      "B.Com",
+      "B.Sc",
+      "BA"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MBA Finance",
+      "MBA HR",
+      "MBA Marketing",
+      "MBA Data Science",
+      "MCA",
+      "M.Sc Data Science",
+      "M.Com",
+      "MA English",
+      "Executive MBA"
+    ],
+    "fees": "₹50K – ₹1.5L/yr",
     "placement": "90%",
     "avgPackage": "₹10.8L",
     "ranking": "NIRF #40",
-    "highlights": ["NAAC A+ Grade", "Manipal Education Legacy", "90% Placement Rate", "UGC-DEB & AICTE Approved", "70+ Years of Educational Excellence"],
-    "infrastructure": ["MUJ Online Platform", "Virtual Labs", "Online Proctored Exams", "Career Services", "Alumni Portal"],
-    "entranceExams": ["MUJ Entrance Test", "CUET"],
-    "topRecruiters": ["Deloitte", "KPMG", "Infosys", "Wipro", "HCL", "Capgemini"],
-    "learningMode": ["Online"],
+    "duration": "UG: 3 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (50%) | PG: Bachelor's degree (50%) | MBA: Graduation + MUJ Entrance Test",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "Human Resources",
+      "Data Science",
+      "Business Analytics",
+      "Operations",
+      "International Business"
+    ],
+    "scholarship": "Manipal Scholar Programme for top performers; alumni referral discounts; EMI from ₹3,500/month",
+    "highlights": [
+      "NAAC A+ Grade",
+      "Manipal Education 70+ Year Legacy",
+      "90% Placement Rate",
+      "UGC-DEB & AICTE Approved",
+      "Online Proctored Exams",
+      "Global Alumni Network"
+    ],
+    "infrastructure": [
+      "MUJ Online Platform",
+      "Virtual Labs",
+      "Online Proctored Exams",
+      "Career Services",
+      "Alumni Portal",
+      "24×7 Tech Support"
+    ],
+    "entranceExams": [
+      "MUJ Entrance Test",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "Deloitte",
+      "KPMG",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Capgemini"
+    ],
+    "learningMode": [
+      "Online"
+    ],
     "logoUrl": "https://collegeadmission360.b-cdn.net/static/manipal.jpeg",
     "bannerUrl": "https://collegeadmission360.b-cdn.net/static/Top-Manipal-University-online.jpg",
     "featured": true
@@ -194,23 +502,84 @@
     "shortName": "DY Patil",
     "location": "Navi Mumbai, Maharashtra",
     "established": 2002,
-    "type": "ug",
-    "accreditation": ["NAAC A+", "UGC-DEB"],
+    "type": "pg",
+    "accreditation": [
+      "NAAC A+",
+      "UGC-DEB"
+    ],
     "tagline": "Excellence in Online Education",
-    "description": "DY Patil Vidyapeeth is a NAAC A+ accredited deemed university offering UGC-approved online programmes with a focus on management and technology education. Located in Navi Mumbai, the university combines academic excellence with practical industry exposure to prepare students for leadership roles in their chosen fields.",
+    "description": "DY Patil Vidyapeeth is a NAAC A+ accredited deemed university in Navi Mumbai offering UGC-approved online programmes with a strong focus on management and technology education. The university combines academic excellence with practical industry exposure, leveraging its strategic location in the Mumbai Metropolitan Region to provide students with excellent corporate connections and placement opportunities.",
     "rating": 4.7,
     "reviewCount": 890,
     "courseCount": 10,
-    "courses": ["MBA", "Executive MBA", "BBA", "BCA", "MCA"],
-    "fees": "₹60K - ₹2L/yr",
+    "courses": [
+      "MBA",
+      "Executive MBA",
+      "BBA",
+      "BCA",
+      "MCA"
+    ],
+    "ugCourses": [
+      "BBA",
+      "BBA Marketing",
+      "BBA Finance",
+      "BCA"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MBA Finance",
+      "MBA HR",
+      "MBA Marketing",
+      "MBA Data Science",
+      "Executive MBA",
+      "MCA"
+    ],
+    "fees": "₹60K – ₹2L/yr",
     "placement": "91%",
     "avgPackage": "₹13.2L",
     "ranking": "NIRF #44",
-    "highlights": ["NAAC A+ Grade", "Mumbai Location Advantage", "91% Placement Rate", "UGC-DEB Approved", "Industry-Aligned Curriculum"],
-    "infrastructure": ["DYP Online LMS", "Digital Learning Resources", "Virtual Classrooms", "Career Development Cell", "Alumni Network"],
-    "entranceExams": ["DY Patil Entrance Test", "CUET"],
-    "topRecruiters": ["Reliance", "Tata Group", "Aditya Birla", "HDFC", "ICICI", "L&T"],
-    "learningMode": ["Online"],
+    "duration": "UG: 3 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (50%) | PG: Bachelor's degree (50%) | MBA: Graduation + DY Patil Entrance Test",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "Human Resources",
+      "Data Science",
+      "Healthcare Management",
+      "Sports Management"
+    ],
+    "scholarship": "Merit scholarships for top 10% performers; corporate partner employee discounts; EMI from ₹4,000/month",
+    "highlights": [
+      "NAAC A+ Grade",
+      "Mumbai Location Advantage",
+      "91% Placement Rate",
+      "UGC-DEB Approved",
+      "Industry-Aligned Curriculum",
+      "Healthcare & Sports Focus"
+    ],
+    "infrastructure": [
+      "DYP Online LMS",
+      "Digital Learning Resources",
+      "Virtual Classrooms",
+      "Career Development Cell",
+      "Alumni Network",
+      "Mobile Learning Support"
+    ],
+    "entranceExams": [
+      "DY Patil Entrance Test",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "Reliance",
+      "Tata Group",
+      "Aditya Birla",
+      "HDFC",
+      "ICICI",
+      "L&T"
+    ],
+    "learningMode": [
+      "Online"
+    ],
     "logoUrl": "https://collegeadmission360.b-cdn.net/static/dy.jpeg",
     "bannerUrl": "https://collegeadmission360.b-cdn.net/static/dy-patil-university-navi-mumbai-online-desktop-banner.webp",
     "featured": true
@@ -221,26 +590,490 @@
     "shortName": "Alliance",
     "location": "Bangalore, Karnataka",
     "established": 2010,
-    "type": "ug",
-    "accreditation": ["NAAC A+", "UGC-DEB", "AICTE"],
+    "type": "pg",
+    "accreditation": [
+      "NAAC A+",
+      "UGC-DEB",
+      "AICTE"
+    ],
     "tagline": "Learn Beyond Boundaries",
-    "description": "Alliance University is a NAAC A+ accredited private university located in Bangalore, India's Silicon Valley. The university offers UGC-approved online programmes designed to equip students with 21st-century skills. Alliance combines academic excellence with industry integration through its strong corporate partnerships and experienced faculty.",
+    "description": "Alliance University is a NAAC A+ accredited private university located in Bangalore, India's Silicon Valley. The university offers UGC-approved online programmes designed to equip students with 21st-century skills. Alliance is particularly known for its management education, with strong corporate partnerships that provide students hands-on industry exposure, live projects, and excellent placement outcomes.",
     "rating": 4.4,
     "reviewCount": 780,
-    "courseCount": 11,
-    "courses": ["MBA", "BBA", "B.Com", "BCA", "M.Com", "Executive MBA"],
-    "fees": "₹50K - ₹1.8L/yr",
+    "courseCount": 12,
+    "courses": [
+      "MBA",
+      "BBA",
+      "B.Com",
+      "BCA",
+      "M.Com",
+      "Executive MBA",
+      "MCA"
+    ],
+    "ugCourses": [
+      "BBA",
+      "BCA",
+      "B.Com",
+      "BA"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MBA Finance",
+      "MBA HR",
+      "MBA Marketing",
+      "MBA Data Science",
+      "Executive MBA",
+      "MCA",
+      "M.Com"
+    ],
+    "fees": "₹50K – ₹1.8L/yr",
     "placement": "87%",
     "avgPackage": "₹9.2L",
     "ranking": "NIRF #60",
-    "highlights": ["NAAC A+ Grade", "Bangalore Advantage", "87% Placement Rate", "UGC-DEB Approved", "International Collaborations"],
-    "infrastructure": ["Alliance Online LMS", "Virtual Labs", "Digital Library", "Career Advancement Services", "Industry Mentorship"],
-    "entranceExams": ["Alliance Entrance Test", "CUET"],
-    "topRecruiters": ["Infosys", "Wipro", "Deloitte", "KPMG", "Amazon", "Oracle"],
-    "learningMode": ["Online"],
+    "duration": "UG: 3 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (50%) | PG: Bachelor's degree (50%) | MBA: Graduation + Alliance Entrance Test",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "HR",
+      "Data Science",
+      "Business Analytics",
+      "Digital Marketing",
+      "Entrepreneurship"
+    ],
+    "scholarship": "Alliance Scholar Award for top applicants; early application discount; EMI from ₹3,500/month",
+    "highlights": [
+      "NAAC A+ Grade",
+      "Bangalore Silicon Valley Advantage",
+      "87% Placement Rate",
+      "UGC-DEB Approved",
+      "International Collaborations",
+      "Corporate Live Projects"
+    ],
+    "infrastructure": [
+      "Alliance Online LMS",
+      "Virtual Labs",
+      "Digital Library",
+      "Career Advancement Services",
+      "Industry Mentorship",
+      "Mobile Access"
+    ],
+    "entranceExams": [
+      "Alliance Entrance Test",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "Infosys",
+      "Wipro",
+      "Deloitte",
+      "KPMG",
+      "Amazon",
+      "Oracle"
+    ],
+    "learningMode": [
+      "Online"
+    ],
     "logoUrl": "",
     "bannerUrl": "",
     "featured": false
+  },
+  {
+    "slug": "sharda",
+    "name": "Sharda University",
+    "shortName": "Sharda",
+    "location": "Greater Noida, Uttar Pradesh",
+    "established": 2009,
+    "type": "pg",
+    "accreditation": [
+      "NAAC A+",
+      "UGC-DEB",
+      "AICTE"
+    ],
+    "tagline": "The World Is Here, Where Are You?",
+    "description": "Sharda University is a leading private university in Greater Noida, Delhi-NCR, with students from 85+ countries. The university offers UGC-approved online programmes that reflect its multicultural ethos and global outlook. Sharda's online platform combines international academic partnerships with strong industry connect in the NCR region, giving students access to top recruiters and career opportunities.",
+    "rating": 4.4,
+    "reviewCount": 1450,
+    "courseCount": 16,
+    "courses": [
+      "MBA",
+      "BBA",
+      "BCA",
+      "B.Com",
+      "B.Sc",
+      "MCA",
+      "M.Sc",
+      "B.Tech",
+      "Executive MBA",
+      "M.Com"
+    ],
+    "ugCourses": [
+      "BCA",
+      "BBA",
+      "B.Com",
+      "BA",
+      "B.Sc",
+      "B.Tech"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MBA Finance",
+      "MBA HR",
+      "MBA Marketing",
+      "MBA Data Science",
+      "MCA",
+      "M.Sc Data Science",
+      "M.Com",
+      "Executive MBA"
+    ],
+    "fees": "₹50K – ₹1.5L/yr",
+    "placement": "86%",
+    "avgPackage": "₹9.5L",
+    "ranking": "NIRF #55",
+    "duration": "UG: 3–4 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (50%) | PG: Bachelor's degree (50%) | B.Tech: 10+2 PCM",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "Human Resources",
+      "Data Science",
+      "Business Analytics",
+      "International Business",
+      "Digital Marketing"
+    ],
+    "scholarship": "Global Diversity Scholarship for international students; merit scholarships for 80%+ scorers; EMI from ₹3,500/month",
+    "highlights": [
+      "NAAC A+ Grade",
+      "85+ Countries Represented",
+      "86% Placement Rate",
+      "Delhi-NCR Location",
+      "Global Academic Partnerships",
+      "Multicultural Learning Environment"
+    ],
+    "infrastructure": [
+      "Sharda Online Platform",
+      "Digital Classrooms",
+      "E-Library Resources",
+      "Career Development Centre",
+      "International Student Community",
+      "24×7 Support"
+    ],
+    "entranceExams": [
+      "SUAT (Sharda University Admission Test)",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "Accenture",
+      "Deloitte",
+      "HCL",
+      "TCS",
+      "Wipro",
+      "Infosys"
+    ],
+    "learningMode": [
+      "Online"
+    ],
+    "logoUrl": "",
+    "bannerUrl": "",
+    "featured": false
+  },
+  {
+    "slug": "dypatil-mumbai",
+    "name": "DY Patil University Mumbai",
+    "shortName": "DY Patil Mum",
+    "location": "Mumbai, Maharashtra",
+    "established": 2002,
+    "type": "pg",
+    "accreditation": [
+      "NAAC A",
+      "UGC-DEB"
+    ],
+    "tagline": "Mumbai's Premier Management Institution",
+    "description": "DY Patil University Mumbai campus offers professional online BBA and MBA programmes tailored for Mumbai's dynamic corporate ecosystem. As part of the renowned DY Patil Group, the Mumbai campus provides students with unmatched access to India's financial capital, connecting them with top banks, financial institutions, and corporate headquarters for internships and placements.",
+    "rating": 4.5,
+    "reviewCount": 650,
+    "courseCount": 9,
+    "courses": [
+      "MBA",
+      "Executive MBA",
+      "BBA",
+      "BBA Marketing",
+      "BBA Finance",
+      "MBA Finance",
+      "MBA HR",
+      "MBA Marketing",
+      "MBA Data Science"
+    ],
+    "ugCourses": [
+      "BBA",
+      "BBA Marketing",
+      "BBA Finance",
+      "BBA International Business"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MBA Finance",
+      "MBA HR",
+      "MBA Marketing",
+      "MBA Data Science",
+      "Executive MBA"
+    ],
+    "fees": "₹65K – ₹2.1L/yr",
+    "placement": "89%",
+    "avgPackage": "₹12.5L",
+    "ranking": "NIRF #44",
+    "duration": "UG: 3 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (50%) | PG: Bachelor's degree (50%) | MBA: Graduation + Entrance Test",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "Human Resources",
+      "Data Science",
+      "International Business",
+      "Operations"
+    ],
+    "scholarship": "Mumbai merit scholarship for local students; corporate partner discounts; EMI from ₹4,500/month",
+    "highlights": [
+      "Mumbai Financial Hub Advantage",
+      "NAAC A Grade",
+      "89% Placement Rate",
+      "UGC-DEB Approved",
+      "DY Patil Group Legacy",
+      "Prime Mumbai Location"
+    ],
+    "infrastructure": [
+      "DYP Mumbai Online LMS",
+      "Digital Learning Platform",
+      "Virtual Classrooms",
+      "Corporate Connect Programme",
+      "Placement Cell",
+      "Mobile Learning"
+    ],
+    "entranceExams": [
+      "DY Patil Entrance Test",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "HDFC Bank",
+      "ICICI Bank",
+      "Kotak Mahindra",
+      "Reliance",
+      "Tata Group",
+      "L&T Finance"
+    ],
+    "learningMode": [
+      "Online"
+    ],
+    "logoUrl": "",
+    "bannerUrl": "",
+    "featured": false
+  },
+  {
+    "slug": "lpu",
+    "name": "Lovely Professional University",
+    "shortName": "LPU",
+    "location": "Phagwara, Punjab",
+    "established": 2005,
+    "type": "ug",
+    "accreditation": [
+      "NAAC A++",
+      "UGC-DEB",
+      "AICTE",
+      "WES"
+    ],
+    "tagline": "Asia's Largest University — Now Online",
+    "description": "Lovely Professional University is Asia's largest single-campus university offering UGC-entitled online degree programmes. With a sprawling 600+ acre campus and students from 50+ countries, LPU provides world-class education through its online platform. The university offers one of the widest ranges of online programmes in India — from BBA and BCA to MBA and M.Sc — all maintaining the same rigorous academic standards as on-campus programmes.",
+    "rating": 4.7,
+    "reviewCount": 3820,
+    "courseCount": 24,
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Com",
+      "BA",
+      "B.Sc",
+      "M.Sc",
+      "MA",
+      "M.Com",
+      "B.Tech",
+      "Executive MBA"
+    ],
+    "ugCourses": [
+      "BCA",
+      "BBA",
+      "B.Com",
+      "BA",
+      "B.Sc",
+      "B.Tech",
+      "BBA Honours",
+      "B.Com Honours"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MBA Finance",
+      "MBA HR",
+      "MBA Marketing",
+      "MCA",
+      "M.Sc Data Science",
+      "M.Com",
+      "MA",
+      "Executive MBA"
+    ],
+    "fees": "₹40K – ₹1.5L/yr",
+    "placement": "91%",
+    "avgPackage": "₹10.5L",
+    "ranking": "NIRF #27",
+    "duration": "UG: 3–4 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (50%) | PG: Bachelor's degree (50%) | B.Tech: 10+2 PCM",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "HR",
+      "Data Science",
+      "Business Analytics",
+      "Digital Marketing",
+      "Operations",
+      "International Business"
+    ],
+    "scholarship": "LPUNEST-based scholarships up to 60% fee waiver; sports & cultural scholarships; EMI from ₹2,500/month",
+    "highlights": [
+      "NAAC A++ Grade",
+      "Asia's Largest University",
+      "91% Placement Rate",
+      "WES Recognized (Global Validity)",
+      "6 Lakh+ Alumni Worldwide",
+      "600+ Acre Campus"
+    ],
+    "infrastructure": [
+      "Advanced Online LMS",
+      "Virtual Classrooms",
+      "Digital Library Access",
+      "Career Services",
+      "Global Student Network",
+      "LPU Live App"
+    ],
+    "entranceExams": [
+      "LPUNEST",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "Microsoft",
+      "Google",
+      "Amazon",
+      "Infosys",
+      "Wipro",
+      "Cognizant"
+    ],
+    "learningMode": [
+      "Online"
+    ],
+    "logoUrl": "https://collegeadmission360.b-cdn.net/static/lovely-professional-university-distance-education.webp",
+    "bannerUrl": "https://collegeadmission360.b-cdn.net/static/Top-University-Lovely-Professional-University.jpg",
+    "featured": true
+  },
+  {
+    "slug": "chandigarh",
+    "name": "Chandigarh University",
+    "shortName": "CU",
+    "location": "Mohali, Punjab",
+    "established": 2012,
+    "type": "ug",
+    "accreditation": [
+      "NAAC A+",
+      "UGC-DEB",
+      "AICTE"
+    ],
+    "tagline": "India's Top-Ranked Private University",
+    "description": "Chandigarh University is one of India's youngest and fastest-growing universities, offering UGC-approved online programmes with excellent placement records. In just over a decade, CU has established itself as a premier institution known for academic excellence, innovative teaching methodologies, and strong industry partnerships. The university holds a Limca Book Record for the highest number of placements by a single university.",
+    "rating": 4.6,
+    "reviewCount": 2880,
+    "courseCount": 21,
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Com",
+      "B.Sc",
+      "M.Sc",
+      "MA",
+      "M.Com",
+      "B.Tech",
+      "Executive MBA"
+    ],
+    "ugCourses": [
+      "BCA",
+      "BBA",
+      "B.Com",
+      "BA",
+      "B.Sc",
+      "B.Tech",
+      "BBA Honours",
+      "B.Com Honours"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MBA Finance",
+      "MBA HR",
+      "MBA Marketing",
+      "MCA",
+      "M.Sc Data Science",
+      "MA",
+      "M.Com",
+      "Executive MBA"
+    ],
+    "fees": "₹45K – ₹1.5L/yr",
+    "placement": "93%",
+    "avgPackage": "₹11.2L",
+    "ranking": "NIRF #36",
+    "duration": "UG: 3–4 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (50%) | PG: Bachelor's degree (50%) | B.Tech: 10+2 PCM",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "HR",
+      "Data Science",
+      "Business Analytics",
+      "Digital Marketing",
+      "Tourism & Hospitality"
+    ],
+    "scholarship": "CUCET-based scholarships up to 100% for top performers; sports quota; EMI from ₹3,000/month",
+    "highlights": [
+      "NAAC A+ Grade",
+      "India's Fastest Growing University",
+      "93% Placement Rate",
+      "Limca Book Record for Placements",
+      "UGC-DEB & AICTE Approved",
+      "QS Ranked University"
+    ],
+    "infrastructure": [
+      "CU Online LMS",
+      "Live Interactive Sessions",
+      "Digital Library",
+      "Placement Cell",
+      "Industry Mentorship Programme",
+      "Student Mobile App"
+    ],
+    "entranceExams": [
+      "CUCET",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "Microsoft",
+      "Amazon",
+      "Deloitte",
+      "SAP",
+      "IBM",
+      "Oracle",
+      "Wipro"
+    ],
+    "learningMode": [
+      "Online"
+    ],
+    "logoUrl": "https://collegeadmission360.b-cdn.net/static/chandigarh_university_logo.webp",
+    "bannerUrl": "https://collegeadmission360.b-cdn.net/static/chandigarh_university_website_banner_new.webp",
+    "featured": true
   },
   {
     "slug": "andhra",
@@ -249,22 +1082,90 @@
     "location": "Visakhapatnam, Andhra Pradesh",
     "established": 1926,
     "type": "ug",
-    "accreditation": ["NAAC A", "UGC-DEB", "AICTE"],
+    "accreditation": [
+      "NAAC A",
+      "UGC-DEB",
+      "AICTE"
+    ],
     "tagline": "A Century of Academic Excellence",
-    "description": "Andhra University is one of India's oldest and most prestigious public universities, established in 1926. With nearly a century of academic heritage, the university now offers UGC-approved online and distance learning programmes. AU combines traditional academic values with modern technology-enabled education.",
+    "description": "Andhra University is one of India's oldest and most prestigious public universities, established in 1926. With nearly a century of academic heritage, the university now offers UGC-approved online and distance learning programmes through its School of Distance Education (AU-SDE). AU combines traditional academic values with modern technology-enabled education at some of the most affordable fees in India.",
     "rating": 4.3,
     "reviewCount": 1560,
     "courseCount": 15,
-    "courses": ["MBA", "MCA", "M.Sc", "MA", "M.Com", "BBA", "BCA", "B.Com"],
-    "fees": "₹20K - ₹80K/yr",
+    "courses": [
+      "MBA",
+      "MCA",
+      "M.Sc",
+      "MA",
+      "M.Com",
+      "BBA",
+      "BCA",
+      "B.Com",
+      "B.Sc",
+      "BA",
+      "Executive MBA"
+    ],
+    "ugCourses": [
+      "BBA",
+      "BCA",
+      "B.Com",
+      "BA",
+      "B.Sc"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MCA",
+      "M.Sc",
+      "MA",
+      "M.Com",
+      "Executive MBA"
+    ],
+    "fees": "₹20K – ₹80K/yr",
     "placement": "82%",
     "avgPackage": "₹7.5L",
     "ranking": "NIRF #55",
-    "highlights": ["100 Years of Legacy", "Public University", "NAAC A Grade", "Most Affordable Fees", "UGC-DEB & AICTE Approved"],
-    "infrastructure": ["AU-SDE Online Portal", "E-Content Repository", "Study Material Access", "Regional Study Centers", "Student Grievance Portal"],
-    "entranceExams": ["AUCET", "AP PGCET"],
-    "topRecruiters": ["TCS", "Wipro", "Infosys", "Cognizant", "Tech Mahindra", "HCL"],
-    "learningMode": ["Online", "Distance"],
+    "duration": "UG: 3 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (45%) | PG: Bachelor's degree (50%)",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "HR",
+      "Operations",
+      "Systems Management"
+    ],
+    "scholarship": "Government scholarships for SC/ST/OBC; EWS fee concession; most affordable public university rates",
+    "highlights": [
+      "100 Years of Legacy",
+      "Public University (Govt)",
+      "NAAC A Grade",
+      "Most Affordable Fees",
+      "UGC-DEB & AICTE Approved",
+      "Alumni in IAS/IPS/IRS"
+    ],
+    "infrastructure": [
+      "AU-SDE Online Portal",
+      "E-Content Repository",
+      "Study Material Access",
+      "Regional Study Centers",
+      "Student Grievance Portal",
+      "Examination Management System"
+    ],
+    "entranceExams": [
+      "AUCET",
+      "AP PGCET"
+    ],
+    "topRecruiters": [
+      "TCS",
+      "Wipro",
+      "Infosys",
+      "Cognizant",
+      "Tech Mahindra",
+      "HCL"
+    ],
+    "learningMode": [
+      "Online",
+      "Distance"
+    ],
     "logoUrl": "",
     "bannerUrl": "",
     "featured": false
@@ -276,22 +1177,87 @@
     "location": "Tiruchirappalli, Tamil Nadu",
     "established": 1982,
     "type": "ug",
-    "accreditation": ["NAAC A+", "UGC-DEB"],
+    "accreditation": [
+      "NAAC A+",
+      "UGC-DEB"
+    ],
     "tagline": "Creating a Bright Future Through Education",
-    "description": "Bharathidasan University is a NAAC A+ accredited state university in Tamil Nadu, named after the revolutionary Tamil poet Bharathidasan. The university's Centre for Distance and Online Education (CDOE) offers a wide range of UGC-approved programmes, making quality higher education accessible across India.",
+    "description": "Bharathidasan University is a NAAC A+ accredited state university in Tamil Nadu, named after the revolutionary Tamil poet Bharathidasan. The university's Centre for Distance and Online Education (CDOE) offers a wide range of UGC-approved programmes at highly affordable rates, making quality higher education accessible to students from all economic backgrounds across India.",
     "rating": 4.2,
     "reviewCount": 920,
-    "courseCount": 13,
-    "courses": ["MBA", "MCA", "M.Sc", "MA", "M.Com", "BCA", "BBA", "B.Com", "B.Sc"],
-    "fees": "₹15K - ₹60K/yr",
+    "courseCount": 14,
+    "courses": [
+      "MBA",
+      "MCA",
+      "M.Sc",
+      "MA",
+      "M.Com",
+      "BCA",
+      "BBA",
+      "B.Com",
+      "B.Sc",
+      "BA"
+    ],
+    "ugCourses": [
+      "BCA",
+      "BBA",
+      "B.Com",
+      "BA",
+      "B.Sc"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MCA",
+      "M.Sc",
+      "MA",
+      "M.Com"
+    ],
+    "fees": "₹15K – ₹60K/yr",
     "placement": "78%",
     "avgPackage": "₹6.5L",
     "ranking": "NIRF #65",
-    "highlights": ["NAAC A+ Grade", "Affordable Public University", "UGC-DEB Approved", "Tamil Nadu's Premier Institution", "Alumni in Top Government Positions"],
-    "infrastructure": ["BDU-CDOE Portal", "Online Study Material", "Contact Classes", "Regional Learning Centers", "Exam Management System"],
-    "entranceExams": ["BDU Entrance Test", "TANCET"],
-    "topRecruiters": ["TCS", "Infosys", "Wipro", "HCL", "CTS", "Zoho"],
-    "learningMode": ["Online", "Distance"],
+    "duration": "UG: 3 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (45%) | PG: Bachelor's degree (50%)",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "HR",
+      "Computer Applications",
+      "Applied Science"
+    ],
+    "scholarship": "Tamil Nadu govt scholarships for SC/ST/BC/MBC; full fee waiver for differently-abled; low public university fees",
+    "highlights": [
+      "NAAC A+ Grade",
+      "Affordable Public University",
+      "UGC-DEB Approved",
+      "Tamil Nadu's Premier Institution",
+      "Strong Alumni in Govt Sector",
+      "Fee as low as ₹15K/yr"
+    ],
+    "infrastructure": [
+      "BDU-CDOE Portal",
+      "Online Study Material",
+      "Contact Classes",
+      "Regional Learning Centers",
+      "Exam Management System",
+      "Digital Repository"
+    ],
+    "entranceExams": [
+      "BDU Entrance Test",
+      "TANCET"
+    ],
+    "topRecruiters": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "CTS",
+      "Zoho"
+    ],
+    "learningMode": [
+      "Online",
+      "Distance"
+    ],
     "logoUrl": "",
     "bannerUrl": "",
     "featured": false
@@ -303,22 +1269,83 @@
     "location": "Bhubaneswar, Odisha",
     "established": 2010,
     "type": "ug",
-    "accreditation": ["NAAC A", "UGC-DEB", "AICTE"],
+    "accreditation": [
+      "NAAC A",
+      "UGC-DEB",
+      "AICTE"
+    ],
     "tagline": "Shaping Lives, Empowering Communities",
-    "description": "Centurion University is a NAAC A accredited university focused on skill-integrated higher education. Known for its unique 'Skill-Integrated' model, Centurion ensures every student graduates with both a degree and employable skills. The university offers UGC-approved online programmes tailored for the modern job market.",
+    "description": "Centurion University is a NAAC A accredited university focused on skill-integrated higher education. Known for its unique 'Skill-Integrated' model, Centurion ensures every student graduates with both a degree and employable skills. The university offers UGC-approved online programmes that blend theoretical knowledge with hands-on practical training, making students immediately employable.",
     "rating": 4.3,
     "reviewCount": 680,
     "courseCount": 14,
-    "courses": ["MBA", "BBA", "BCA", "B.Com", "B.Sc", "M.Sc", "MCA"],
-    "fees": "₹35K - ₹1.2L/yr",
+    "courses": [
+      "MBA",
+      "BBA",
+      "BCA",
+      "B.Com",
+      "B.Sc",
+      "M.Sc",
+      "MCA",
+      "B.Tech"
+    ],
+    "ugCourses": [
+      "BBA",
+      "BCA",
+      "B.Com",
+      "B.Sc",
+      "B.Tech"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MCA",
+      "M.Sc"
+    ],
+    "fees": "₹35K – ₹1.2L/yr",
     "placement": "85%",
     "avgPackage": "₹7.8L",
     "ranking": "NIRF #70",
-    "highlights": ["Skill-Integrated Education Model", "NAAC A Grade", "85% Placement Rate", "Manufacturing & IT Focus", "Rural & Urban Campuses"],
-    "infrastructure": ["Online Skill Lab", "Virtual Internship Platform", "E-Library", "Placement Cell", "Entrepreneurship Development Cell"],
-    "entranceExams": ["CUEE (Centurion University Entrance Exam)", "CUET"],
-    "topRecruiters": ["Tech Mahindra", "Infosys", "Cognizant", "L&T", "Tata Motors", "JSW"],
-    "learningMode": ["Online"],
+    "duration": "UG: 3–4 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (45%) | PG: Bachelor's degree (50%)",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "Operations",
+      "Manufacturing Management",
+      "Agri-Business"
+    ],
+    "scholarship": "Skill-based scholarships for vocational excellence; rural student concession; EMI from ₹2,500/month",
+    "highlights": [
+      "Skill-Integrated Education Model",
+      "NAAC A Grade",
+      "85% Placement Rate",
+      "Manufacturing & IT Focus",
+      "Rural & Urban Campuses",
+      "Entrepreneurship Development"
+    ],
+    "infrastructure": [
+      "Online Skill Lab",
+      "Virtual Internship Platform",
+      "E-Library",
+      "Placement Cell",
+      "Entrepreneurship Development Cell",
+      "Industry Live Projects"
+    ],
+    "entranceExams": [
+      "CUEE (Centurion University Entrance Exam)",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "Tech Mahindra",
+      "Infosys",
+      "Cognizant",
+      "L&T",
+      "Tata Motors",
+      "JSW"
+    ],
+    "learningMode": [
+      "Online"
+    ],
     "logoUrl": "",
     "bannerUrl": "",
     "featured": false
@@ -330,22 +1357,90 @@
     "location": "Kurukshetra, Haryana",
     "established": 1956,
     "type": "ug",
-    "accreditation": ["NAAC A+", "UGC-DEB"],
+    "accreditation": [
+      "NAAC A+",
+      "UGC-DEB"
+    ],
     "tagline": "Yogah Karmasu Kaushalam — Excellence in Action",
-    "description": "Kurukshetra University is one of India's premier state universities with over 65 years of academic excellence. Located in the historic city of Kurukshetra, the university's Directorate of Distance Education offers UGC-approved programmes that combine academic rigour with flexible learning options for students across the country.",
+    "description": "Kurukshetra University is one of India's premier state universities with over 65 years of academic excellence. Located in the historic city of Kurukshetra, the university's Directorate of Distance Education (DDE) offers UGC-approved programmes that combine academic rigour with flexible learning options. KUK serves tens of thousands of students across Haryana and India through its distance and online programmes.",
     "rating": 4.2,
     "reviewCount": 1240,
-    "courseCount": 16,
-    "courses": ["MBA", "MCA", "M.Sc", "MA", "M.Com", "BBA", "BCA", "B.Com", "BA", "B.Sc"],
-    "fees": "₹18K - ₹70K/yr",
+    "courseCount": 18,
+    "courses": [
+      "MBA",
+      "MCA",
+      "M.Sc",
+      "MA",
+      "M.Com",
+      "BBA",
+      "BCA",
+      "B.Com",
+      "BA",
+      "B.Sc",
+      "Executive MBA"
+    ],
+    "ugCourses": [
+      "BBA",
+      "BCA",
+      "B.Com",
+      "BA",
+      "B.Sc"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MCA",
+      "M.Sc",
+      "MA",
+      "M.Com",
+      "Executive MBA"
+    ],
+    "fees": "₹18K – ₹70K/yr",
     "placement": "80%",
     "avgPackage": "₹6.8L",
     "ranking": "NIRF #58",
-    "highlights": ["65+ Years of Legacy", "NAAC A+ Grade", "Public University (Affordable)", "UGC-DEB Approved", "Historic Kurukshetra Campus"],
-    "infrastructure": ["DDE Online Portal", "Self-Learning Materials", "Personal Contact Programmes", "Study Centers Across Haryana", "Digital Library"],
-    "entranceExams": ["KUK Entrance Test", "CUET"],
-    "topRecruiters": ["HCL", "Infosys", "Wipro", "TCS", "Cognizant", "IBM"],
-    "learningMode": ["Online", "Distance"],
+    "duration": "UG: 3 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (45%) | PG: Bachelor's degree (50%)",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "HR",
+      "IT",
+      "Operations",
+      "International Business"
+    ],
+    "scholarship": "Haryana government scholarships; SC/ST/BC fee concession; post-matric scholarship for minority students",
+    "highlights": [
+      "65+ Years of Legacy",
+      "NAAC A+ Grade",
+      "Public University (Affordable)",
+      "UGC-DEB Approved",
+      "Historic Kurukshetra Campus",
+      "17 Teaching Departments"
+    ],
+    "infrastructure": [
+      "DDE Online Portal",
+      "Self-Learning Materials",
+      "Personal Contact Programmes",
+      "Study Centers Across Haryana",
+      "Digital Library",
+      "Online Examination System"
+    ],
+    "entranceExams": [
+      "KUK Entrance Test",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "HCL",
+      "Infosys",
+      "Wipro",
+      "TCS",
+      "Cognizant",
+      "IBM"
+    ],
+    "learningMode": [
+      "Online",
+      "Distance"
+    ],
     "logoUrl": "",
     "bannerUrl": "",
     "featured": false
@@ -357,49 +1452,93 @@
     "location": "Vadodara, Gujarat",
     "established": 2015,
     "type": "ug",
-    "accreditation": ["NAAC A++", "UGC-DEB", "AICTE"],
+    "accreditation": [
+      "NAAC A++",
+      "UGC-DEB",
+      "AICTE"
+    ],
     "tagline": "Where Passion Meets Education",
-    "description": "Parul University is one of India's fastest-growing private universities with a NAAC A++ accreditation. Located in Vadodara, Gujarat's cultural capital, Parul offers UGC-approved online programmes across diverse disciplines. The university is known for its modern infrastructure, industry partnerships, and focus on holistic student development.",
+    "description": "Parul University is one of India's youngest universities to receive NAAC A++ accreditation, reflecting its commitment to quality education. Located in Vadodara, Gujarat's cultural capital, Parul offers UGC-approved online programmes across diverse disciplines. The university is known for its modern 150+ acre campus, 50+ international collaborations, and a strong focus on holistic student development through its online learning platform.",
     "rating": 4.5,
     "reviewCount": 1120,
-    "courseCount": 17,
-    "courses": ["MBA", "BBA", "BCA", "B.Com", "B.Sc", "MCA", "M.Sc", "M.Com", "B.Tech"],
-    "fees": "₹35K - ₹1.3L/yr",
+    "courseCount": 18,
+    "courses": [
+      "MBA",
+      "BBA",
+      "BCA",
+      "B.Com",
+      "B.Sc",
+      "MCA",
+      "M.Sc",
+      "M.Com",
+      "B.Tech",
+      "Executive MBA"
+    ],
+    "ugCourses": [
+      "BBA",
+      "BCA",
+      "B.Com",
+      "B.Sc",
+      "B.Tech",
+      "BA"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MBA Finance",
+      "MBA HR",
+      "MBA Marketing",
+      "MCA",
+      "M.Sc",
+      "M.Com",
+      "Executive MBA"
+    ],
+    "fees": "₹35K – ₹1.3L/yr",
     "placement": "88%",
     "avgPackage": "₹8.8L",
     "ranking": "NIRF #50",
-    "highlights": ["NAAC A++ Grade (Youngest University)", "Modern 150+ Acre Campus", "88% Placement Rate", "UGC-DEB & AICTE Approved", "50+ International Collaborations"],
-    "infrastructure": ["Parul Online LMS", "Smart Classrooms", "Virtual Labs", "Entrepreneurship Cell", "Global Connect Programme"],
-    "entranceExams": ["Parul University Entrance Test", "CUET"],
-    "topRecruiters": ["Amazon", "Flipkart", "Deloitte", "TCS", "L&T", "Reliance"],
-    "learningMode": ["Online"],
-    "logoUrl": "",
-    "bannerUrl": "",
-    "featured": false
-  },
-  {
-    "slug": "sharda",
-    "name": "Sharda University",
-    "shortName": "Sharda",
-    "location": "Greater Noida, Uttar Pradesh",
-    "established": 2009,
-    "type": "ug",
-    "accreditation": ["NAAC A+", "UGC-DEB", "AICTE"],
-    "tagline": "The World Is Here, Where Are You?",
-    "description": "Sharda University is a leading private university in Greater Noida, Delhi-NCR, with students from 85+ countries. The university offers UGC-approved online programmes that reflect its multicultural ethos. Sharda is known for its global outlook, international collaborations, and strong industry connect in the NCR region.",
-    "rating": 4.4,
-    "reviewCount": 1450,
-    "courseCount": 15,
-    "courses": ["MBA", "BBA", "BCA", "B.Com", "B.Sc", "MCA", "M.Sc", "B.Tech"],
-    "fees": "₹50K - ₹1.5L/yr",
-    "placement": "86%",
-    "avgPackage": "₹9.5L",
-    "ranking": "NIRF #55",
-    "highlights": ["NAAC A+ Grade", "85+ Countries Represented", "86% Placement Rate", "Delhi-NCR Location", "Global Academic Partnerships"],
-    "infrastructure": ["Sharda Online Platform", "Digital Classrooms", "E-Library Resources", "Career Development Centre", "International Student Community"],
-    "entranceExams": ["SUAT (Sharda University Admission Test)", "CUET"],
-    "topRecruiters": ["Accenture", "Deloitte", "HCL", "TCS", "Wipro", "Infosys"],
-    "learningMode": ["Online"],
+    "duration": "UG: 3–4 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (50%) | PG: Bachelor's degree (50%)",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "HR",
+      "Data Science",
+      "Business Analytics",
+      "Digital Marketing",
+      "Healthcare Management"
+    ],
+    "scholarship": "Parul Merit Scholarship for 80%+ scorers; Gujarat govt schemes; EMI from ₹2,500/month",
+    "highlights": [
+      "NAAC A++ (Youngest University)",
+      "Modern 150+ Acre Campus",
+      "88% Placement Rate",
+      "50+ International Collaborations",
+      "UGC-DEB & AICTE Approved",
+      "Gujarat's Fastest Growing University"
+    ],
+    "infrastructure": [
+      "Parul Online LMS",
+      "Smart Classrooms",
+      "Virtual Labs",
+      "Entrepreneurship Cell",
+      "Global Connect Programme",
+      "Student Mobile App"
+    ],
+    "entranceExams": [
+      "Parul University Entrance Test",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "Amazon",
+      "Flipkart",
+      "Deloitte",
+      "TCS",
+      "L&T",
+      "Reliance"
+    ],
+    "learningMode": [
+      "Online"
+    ],
     "logoUrl": "",
     "bannerUrl": "",
     "featured": false
@@ -411,22 +1550,83 @@
     "location": "Jaipur, Rajasthan",
     "established": 2012,
     "type": "ug",
-    "accreditation": ["NAAC A+", "UGC-DEB"],
+    "accreditation": [
+      "NAAC A+",
+      "UGC-DEB"
+    ],
     "tagline": "Education for Life",
-    "description": "Vivekananda Global University is a NAAC A+ accredited university in Jaipur named after Swami Vivekananda. The university offers UGC-approved online programmes with an emphasis on holistic education that blends academic knowledge with value-based learning. VGU is committed to making quality education accessible and affordable.",
+    "description": "Vivekananda Global University is a NAAC A+ accredited university in Jaipur named after Swami Vivekananda. The university offers UGC-approved online programmes with an emphasis on holistic education that blends academic knowledge with value-based learning. VGU is committed to making quality education accessible and affordable, especially for students from tier-2 and tier-3 cities.",
     "rating": 4.3,
     "reviewCount": 750,
     "courseCount": 12,
-    "courses": ["MBA", "BBA", "BCA", "B.Com", "MCA", "M.Com", "M.Sc"],
-    "fees": "₹30K - ₹1L/yr",
+    "courses": [
+      "MBA",
+      "BBA",
+      "BCA",
+      "B.Com",
+      "MCA",
+      "M.Com",
+      "M.Sc",
+      "Executive MBA"
+    ],
+    "ugCourses": [
+      "BBA",
+      "BCA",
+      "B.Com",
+      "BA"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MCA",
+      "M.Com",
+      "M.Sc",
+      "Executive MBA"
+    ],
+    "fees": "₹30K – ₹1L/yr",
     "placement": "83%",
     "avgPackage": "₹7.2L",
     "ranking": "NIRF #72",
-    "highlights": ["NAAC A+ Grade", "Value-Based Education", "83% Placement Rate", "Jaipur Education Hub", "Affordable Fee Structure"],
-    "infrastructure": ["VGU Online LMS", "Virtual Learning Environment", "E-Content Library", "Student Mentorship Programme", "Placement Training Cell"],
-    "entranceExams": ["VGU Entrance Test", "CUET"],
-    "topRecruiters": ["Infosys", "Wipro", "TCS", "Cognizant", "Accenture", "Genpact"],
-    "learningMode": ["Online"],
+    "duration": "UG: 3 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (45%) | PG: Bachelor's degree (50%)",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "HR",
+      "IT",
+      "Business Analytics"
+    ],
+    "scholarship": "Swami Vivekananda Merit Scholarship; Rajasthan govt scholarships; EMI from ₹2,000/month",
+    "highlights": [
+      "NAAC A+ Grade",
+      "Value-Based Education",
+      "83% Placement Rate",
+      "Jaipur Education Hub",
+      "Affordable Fee Structure",
+      "Named After Swami Vivekananda"
+    ],
+    "infrastructure": [
+      "VGU Online LMS",
+      "Virtual Learning Environment",
+      "E-Content Library",
+      "Student Mentorship Programme",
+      "Placement Training Cell",
+      "Mobile Access"
+    ],
+    "entranceExams": [
+      "VGU Entrance Test",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "Infosys",
+      "Wipro",
+      "TCS",
+      "Cognizant",
+      "Accenture",
+      "Genpact"
+    ],
+    "learningMode": [
+      "Online"
+    ],
     "logoUrl": "",
     "bannerUrl": "",
     "featured": false
@@ -438,22 +1638,82 @@
     "location": "Guntur, Andhra Pradesh",
     "established": 2008,
     "type": "ug",
-    "accreditation": ["NAAC A+", "UGC-DEB", "AICTE"],
+    "accreditation": [
+      "NAAC A+",
+      "UGC-DEB",
+      "AICTE"
+    ],
     "tagline": "Quality Education for All",
-    "description": "Vignan University is a NAAC A+ accredited deemed university in Andhra Pradesh known for its strong engineering and management programmes. The university offers UGC-approved online courses that leverage its tradition of academic excellence and innovation. Vignan prepares students with skills that are immediately valued by industry.",
+    "description": "Vignan University is a NAAC A+ accredited deemed university in Andhra Pradesh known for its strong engineering and management programmes. The university offers UGC-approved online courses that leverage its tradition of academic excellence and innovation. Vignan's online programmes are designed with strong industry input, preparing students with skills that are immediately valued by employers.",
     "rating": 4.2,
     "reviewCount": 680,
     "courseCount": 10,
-    "courses": ["MBA", "BBA", "BCA", "B.Tech", "M.Tech", "MCA"],
-    "fees": "₹40K - ₹1.2L/yr",
+    "courses": [
+      "MBA",
+      "BBA",
+      "BCA",
+      "B.Tech",
+      "M.Tech",
+      "MCA",
+      "Executive MBA"
+    ],
+    "ugCourses": [
+      "BBA",
+      "BCA",
+      "B.Tech"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MCA",
+      "M.Tech",
+      "Executive MBA"
+    ],
+    "fees": "₹40K – ₹1.2L/yr",
     "placement": "84%",
     "avgPackage": "₹7.5L",
     "ranking": "NIRF #68",
-    "highlights": ["NAAC A+ Grade", "Engineering Excellence", "84% Placement Rate", "UGC-DEB & AICTE Approved", "Research-Focused Institution"],
-    "infrastructure": ["Vignan Online Portal", "Digital Learning Resources", "Virtual Labs", "Career Guidance Cell", "Industry Connect Programme"],
-    "entranceExams": ["VSAT (Vignan Scholastic Aptitude Test)", "CUET", "AP EAMCET"],
-    "topRecruiters": ["TCS", "Infosys", "Wipro", "Tech Mahindra", "Cognizant", "Capgemini"],
-    "learningMode": ["Online"],
+    "duration": "UG: 3–4 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (45%) | PG: Bachelor's degree (50%)",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "HR",
+      "Data Science",
+      "Systems Management"
+    ],
+    "scholarship": "Vignan Merit Scholarship for top rankers; AP state govt schemes; EMI from ₹3,000/month",
+    "highlights": [
+      "NAAC A+ Grade",
+      "Engineering Excellence",
+      "84% Placement Rate",
+      "UGC-DEB & AICTE Approved",
+      "Research-Focused Institution",
+      "Industry-Aligned Projects"
+    ],
+    "infrastructure": [
+      "Vignan Online Portal",
+      "Digital Learning Resources",
+      "Virtual Labs",
+      "Career Guidance Cell",
+      "Industry Connect Programme",
+      "Placement Portal"
+    ],
+    "entranceExams": [
+      "VSAT (Vignan Scholastic Aptitude Test)",
+      "CUET",
+      "AP EAMCET"
+    ],
+    "topRecruiters": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Tech Mahindra",
+      "Cognizant",
+      "Capgemini"
+    ],
+    "learningMode": [
+      "Online"
+    ],
     "logoUrl": "",
     "bannerUrl": "",
     "featured": false
@@ -465,22 +1725,90 @@
     "location": "Chennai, Tamil Nadu",
     "established": 1992,
     "type": "ug",
-    "accreditation": ["NAAC A", "UGC-DEB", "AICTE"],
+    "accreditation": [
+      "NAAC A",
+      "UGC-DEB",
+      "AICTE"
+    ],
     "tagline": "Knowledge Is Power",
-    "description": "Vels Institute of Science, Technology & Advanced Studies (VISTAS) is a NAAC A accredited deemed university in Chennai. With over 30 years of educational experience, VISTAS offers UGC-approved online programmes across science, arts, commerce, and management disciplines. The university is known for its student-centric approach and affordable education.",
+    "description": "Vels Institute of Science, Technology & Advanced Studies (VISTAS) is a NAAC A accredited deemed university in Chennai. With over 30 years of educational experience, VISTAS offers UGC-approved online programmes across science, arts, commerce, and management disciplines. The university is known for its student-centric approach, affordable education, and strong presence in Tamil Nadu's academic landscape.",
     "rating": 4.1,
     "reviewCount": 920,
     "courseCount": 14,
-    "courses": ["MBA", "MCA", "M.Sc", "MA", "M.Com", "BBA", "BCA", "B.Com", "B.Sc", "BA"],
-    "fees": "₹25K - ₹90K/yr",
+    "courses": [
+      "MBA",
+      "MCA",
+      "M.Sc",
+      "MA",
+      "M.Com",
+      "BBA",
+      "BCA",
+      "B.Com",
+      "B.Sc",
+      "BA",
+      "Executive MBA"
+    ],
+    "ugCourses": [
+      "BBA",
+      "BCA",
+      "B.Com",
+      "B.Sc",
+      "BA"
+    ],
+    "pgCourses": [
+      "MBA",
+      "MCA",
+      "M.Sc",
+      "MA",
+      "M.Com",
+      "Executive MBA"
+    ],
+    "fees": "₹25K – ₹90K/yr",
     "placement": "81%",
     "avgPackage": "₹6.5L",
     "ranking": "NIRF #78",
-    "highlights": ["NAAC A Grade", "30+ Years in Education", "81% Placement Rate", "Chennai Metro Advantage", "Affordable Tamil Nadu University"],
-    "infrastructure": ["VISTAS Online Portal", "E-Learning Modules", "Online Assessments", "Placement Portal", "Student Support Services"],
-    "entranceExams": ["VISTAS Entrance Test", "CUET"],
-    "topRecruiters": ["TCS", "Cognizant", "Infosys", "Wipro", "HCL", "Zoho"],
-    "learningMode": ["Online", "Distance"],
+    "duration": "UG: 3 Years | PG: 2 Years",
+    "eligibility": "UG: 10+2 (45%) | PG: Bachelor's degree (50%)",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "HR",
+      "Systems",
+      "Banking & Insurance"
+    ],
+    "scholarship": "Tamil Nadu govt scholarships for reserved categories; first-graduate scholarship; EMI from ₹2,000/month",
+    "highlights": [
+      "NAAC A Grade",
+      "30+ Years in Education",
+      "81% Placement Rate",
+      "Chennai Metro Advantage",
+      "Affordable Tamil Nadu University",
+      "Student-Centric Approach"
+    ],
+    "infrastructure": [
+      "VISTAS Online Portal",
+      "E-Learning Modules",
+      "Online Assessments",
+      "Placement Portal",
+      "Student Support Services",
+      "Digital Library Access"
+    ],
+    "entranceExams": [
+      "VISTAS Entrance Test",
+      "CUET"
+    ],
+    "topRecruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "learningMode": [
+      "Online",
+      "Distance"
+    ],
     "logoUrl": "",
     "bannerUrl": "",
     "featured": false

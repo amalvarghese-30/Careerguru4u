@@ -26,6 +26,8 @@ interface CollegeDetail {
   reviewCount: number;
   courseCount?: number;
   courses: string[];
+  ugCourses?: string[];
+  pgCourses?: string[];
   fees: string;
   placement: string;
   avgPackage: string;
@@ -38,6 +40,10 @@ interface CollegeDetail {
   logoUrl?: string;
   bannerUrl?: string;
   featured?: boolean;
+  duration?: string;
+  eligibility?: string;
+  specializations?: string[];
+  scholarship?: string;
 }
 
 const accreditationLogos: Record<string, string> = {
@@ -98,12 +104,16 @@ export default function CollegeDetailPage({ params }: { params: Promise<{ slug: 
     );
   }
 
-  const pgCourses = college.courses.filter((c) =>
-    ["MBA", "MCA", "M.Sc", "MA", "M.Com", "M.Tech", "Executive MBA"].some((p) =>
-      c.toLowerCase().includes(p.toLowerCase())
-    )
-  );
-  const ugCourses = college.courses.filter((c) => !pgCourses.includes(c));
+  const pgCourses = college.pgCourses && college.pgCourses.length > 0
+    ? college.pgCourses
+    : college.courses.filter((c) =>
+        ["MBA", "MCA", "M.Sc", "MA", "M.Com", "M.Tech", "Executive MBA", "MS"].some((p) =>
+          c.toLowerCase().includes(p.toLowerCase())
+        )
+      );
+  const ugCourses = college.ugCourses && college.ugCourses.length > 0
+    ? college.ugCourses
+    : college.courses.filter((c) => !pgCourses.includes(c));
 
   return (
     <div className="min-h-screen bg-brand-bg pt-16">
@@ -408,6 +418,55 @@ export default function CollegeDetailPage({ params }: { params: Promise<{ slug: 
                           className="px-3.5 py-2 rounded-xl bg-brand-bg text-sm font-medium text-neutral-darkGray"
                         >
                           {item}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Duration & Eligibility */}
+                <div className="mt-8">
+                  <h3 className="text-xl font-bold text-neutral-nearBlack mb-4 flex items-center gap-2">
+                    <Clock className="h-5 w-5 text-brand-royal" />
+                    Duration & Eligibility
+                  </h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="premium-card p-5 bg-gradient-to-br from-brand-bg to-brand-royal/5">
+                      <p className="text-xs font-bold text-neutral-mediumGray uppercase tracking-wide mb-1">Programme Duration</p>
+                      <p className="text-sm font-semibold text-neutral-nearBlack">{college.duration || "UG: 3 Years | PG: 2 Years"}</p>
+                    </div>
+                    <div className="premium-card p-5 bg-gradient-to-br from-emerald-50 to-emerald-100/30">
+                      <p className="text-xs font-bold text-neutral-mediumGray uppercase tracking-wide mb-1">Eligibility Criteria</p>
+                      <p className="text-sm font-semibold text-neutral-nearBlack">{college.eligibility || "UG: 10+2 | PG: Bachelor's Degree"}</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Scholarship */}
+                {college.scholarship && (
+                  <div className="mt-6 p-5 rounded-xl bg-amber-50 border border-amber-200">
+                    <h3 className="text-lg font-bold text-neutral-nearBlack mb-2 flex items-center gap-2">
+                      <Sparkles className="h-5 w-5 text-amber-500" />
+                      Scholarships & Financial Aid
+                    </h3>
+                    <p className="text-sm text-amber-800">{college.scholarship}</p>
+                  </div>
+                )}
+
+                {/* Specializations */}
+                {college.specializations && college.specializations.length > 0 && (
+                  <div className="mt-8">
+                    <h3 className="text-xl font-bold text-neutral-nearBlack mb-4 flex items-center gap-2">
+                      <Award className="h-5 w-5 text-brand-royal" />
+                      MBA Specializations
+                    </h3>
+                    <div className="flex flex-wrap gap-2">
+                      {college.specializations.map((spec) => (
+                        <span
+                          key={spec}
+                          className="px-3.5 py-2 rounded-xl bg-brand-bg text-sm font-medium text-neutral-darkGray border border-brand-royal/10 hover:border-brand-royal/30 hover:bg-brand-royal/5 transition-all"
+                        >
+                          {spec}
                         </span>
                       ))}
                     </div>
