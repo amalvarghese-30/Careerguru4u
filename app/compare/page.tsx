@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { X, Plus, GraduationCap, IndianRupee, Star, Briefcase, MapPin, ArrowLeft, ArrowRight, TrendingUp, Heart } from "lucide-react";
+import { X, Plus, GraduationCap, IndianRupee, Star, Briefcase, MapPin, ArrowLeft, ArrowRight, TrendingUp, Heart, Loader2 } from "lucide-react";
 import { getAllCareerSlugs, getCareerById } from "@/lib/careers-data";
 import type { CareerData } from "@/lib/careers-data";
 
@@ -204,37 +204,59 @@ function CompareLabel({ icon: Icon, label }: { icon: React.ElementType; label: s
 }
 
 function CollegeComparison() {
-  const colleges = [
-    { id: "iitb", name: "IIT Bombay", location: "Mumbai", ranking: "NIRF #3", fees: "₹2.2L-₹8L", placement: "94%", avgPackage: "₹23.5L", courses: ["B.Tech", "M.Tech", "PhD"], rating: 4.8 },
-    { id: "iitd", name: "IIT Delhi", location: "Delhi", ranking: "NIRF #2", fees: "₹2.2L-₹8L", placement: "93%", avgPackage: "₹22.8L", courses: ["B.Tech", "M.Tech", "PhD"], rating: 4.8 },
-    { id: "iitm", name: "IIT Madras", location: "Chennai", ranking: "NIRF #1", fees: "₹2L-₹7.5L", placement: "95%", avgPackage: "₹24.2L", courses: ["B.Tech", "M.Tech", "PhD"], rating: 4.9 },
-    { id: "nitt", name: "NIT Trichy", location: "Tiruchirappalli", ranking: "NIRF #9", fees: "₹1.5L-₹5L", placement: "90%", avgPackage: "₹15.5L", courses: ["B.Tech", "M.Tech", "MCA"], rating: 4.6 },
-    { id: "bitsp", name: "BITS Pilani", location: "Pilani", ranking: "NIRF #25", fees: "₹4L-₹16L", placement: "92%", avgPackage: "₹18.5L", courses: ["B.Tech", "M.Tech", "PhD"], rating: 4.7 },
-  ];
-
-  const [selected, setSelected] = useState([colleges[0], colleges[1]]);
+  const [allColleges, setAllColleges] = useState<Array<{
+    _id?: string; slug: string; name: string; location: string; ranking: string;
+    fees: string; placement: string; avgPackage: string; courses: string[];
+    rating: number; logoUrl?: string; accreditation?: string[];
+  }>>([]);
+  const [loading, setLoading] = useState(true);
+  const [selected, setSelected] = useState<typeof allColleges>([]);
   const [showModal, setShowModal] = useState(false);
 
-  const addCollege = (college: typeof colleges[number]) => {
-    if (selected.length < 4 && !selected.find((c) => c.id === college.id)) {
+  useEffect(() => {
+    fetch("/api/colleges")
+      .then((r) => r.json())
+      .then((data) => {
+        const colleges = data.colleges || [];
+        setAllColleges(colleges);
+        if (colleges.length >= 2) {
+          setSelected([colleges[0], colleges[1]]);
+        } else if (colleges.length === 1) {
+          setSelected([colleges[0]]);
+        }
+      })
+      .catch(console.error)
+      .finally(() => setLoading(false));
+  }, []);
+
+  const addCollege = (college: typeof allColleges[number]) => {
+    if (selected.length < 4 && !selected.find((c) => c.slug === college.slug)) {
       setSelected([...selected, college]);
     }
     setShowModal(false);
   };
 
-  const removeCollege = (id: string) => {
-    setSelected(selected.filter((c) => c.id !== id));
+  const removeCollege = (slug: string) => {
+    setSelected(selected.filter((c) => c.slug !== slug));
   };
 
-  const available = colleges.filter((c) => !selected.find((s) => s.id === c.id));
+  const available = allColleges.filter((c) => !selected.find((s) => s.slug === c.slug));
+
+  if (loading) {
+    return (
+      <div className="container-custom py-12 flex items-center justify-center min-h-[400px]">
+        <Loader2 className="h-10 w-10 text-brand-royal animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <div className="container-custom py-12">
       <div className="flex flex-wrap gap-2 mb-8">
         {selected.map((c) => (
-          <div key={c.id} className="flex items-center gap-2 bg-brand-royal/10 rounded-full px-4 py-2">
+          <div key={c.slug || c._id} className="flex items-center gap-2 bg-brand-royal/10 rounded-full px-4 py-2">
             <span className="text-sm font-medium text-brand-royal">{c.name}</span>
-            <button onClick={() => removeCollege(c.id)} className="text-brand-royal/50 hover:text-brand-royal">
+            <button onClick={() => removeCollege(c.slug)} className="text-brand-royal/50 hover:text-brand-royal">
               <X className="h-4 w-4" />
             </button>
           </div>
@@ -255,7 +277,7 @@ function CollegeComparison() {
             <tr className="border-b border-neutral-lightGray">
               <th className="text-left py-4 px-4 text-neutral-mediumGray font-medium w-48">College</th>
               {selected.map((c) => (
-                <th key={c.id} className="text-left py-4 px-4">
+                <th key={c.slug || c._id} className="text-left py-4 px-4">
                   <div className="font-bold text-neutral-nearBlack">{c.name}</div>
                   <div className="flex items-center gap-1 text-sm text-neutral-mediumGray mt-1">
                     <MapPin className="h-3 w-3" /> {c.location}
@@ -267,27 +289,27 @@ function CollegeComparison() {
           <tbody>
             <CompareTableRow icon={Star} label="Ranking">
               {selected.map((c) => (
-                <span key={c.id} className="px-2.5 py-1 rounded-full bg-brand-bg text-brand-royal text-sm font-medium">{c.ranking}</span>
+                <span key={c.slug || c._id} className="px-2.5 py-1 rounded-full bg-brand-bg text-brand-royal text-sm font-medium">{c.ranking}</span>
               ))}
             </CompareTableRow>
             <CompareTableRow icon={IndianRupee} label="Fees">
               {selected.map((c) => (
-                <span key={c.id} className="font-medium text-neutral-darkGray">{c.fees}</span>
+                <span key={c.slug || c._id} className="font-medium text-neutral-darkGray">{c.fees}</span>
               ))}
             </CompareTableRow>
             <CompareTableRow icon={Briefcase} label="Placement Rate">
               {selected.map((c) => (
-                <span key={c.id} className="text-emerald-600 font-semibold">{c.placement}</span>
+                <span key={c.slug || c._id} className="text-emerald-600 font-semibold">{c.placement}</span>
               ))}
             </CompareTableRow>
             <CompareTableRow icon={IndianRupee} label="Avg Package">
               {selected.map((c) => (
-                <span key={c.id} className="text-brand-royal font-semibold">{c.avgPackage}</span>
+                <span key={c.slug || c._id} className="text-brand-royal font-semibold">{c.avgPackage}</span>
               ))}
             </CompareTableRow>
             <CompareTableRow icon={Star} label="Rating">
               {selected.map((c) => (
-                <div key={c.id} className="flex items-center gap-1">
+                <div key={c.slug || c._id} className="flex items-center gap-1">
                   <Star className="h-4 w-4 fill-amber-400 text-amber-400" />
                   <span className="font-medium">{c.rating}</span>
                 </div>
@@ -295,7 +317,7 @@ function CollegeComparison() {
             </CompareTableRow>
             <CompareTableRow icon={GraduationCap} label="Courses">
               {selected.map((c) => (
-                <div key={c.id} className="flex flex-wrap gap-1">
+                <div key={c.slug || c._id} className="flex flex-wrap gap-1">
                   {c.courses.map((course) => (
                     <span key={course} className="text-xs px-2 py-0.5 rounded-full bg-brand-bg text-neutral-darkGray">{course}</span>
                   ))}
@@ -318,7 +340,7 @@ function CollegeComparison() {
             <div className="space-y-2 max-h-96 overflow-y-auto">
               {available.map((c) => (
                 <button
-                  key={c.id}
+                  key={c.slug || c._id}
                   onClick={() => addCollege(c)}
                   className="w-full text-left p-3 rounded-xl hover:bg-brand-bg transition-colors"
                 >
@@ -326,6 +348,11 @@ function CollegeComparison() {
                   <div className="text-sm text-neutral-mediumGray">{c.location} &bull; {c.ranking}</div>
                 </button>
               ))}
+              {available.length === 0 && (
+                <p className="text-center text-neutral-mediumGray py-4">
+                  No more colleges to add.
+                </p>
+              )}
             </div>
             <button onClick={() => setShowModal(false)} className="mt-4 w-full py-2.5 rounded-xl border border-neutral-lightGray text-neutral-darkGray hover:bg-neutral-lightGray/20 transition-colors font-medium">
               Cancel
