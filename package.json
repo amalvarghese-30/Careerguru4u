@@ -38,6 +38,7 @@
     "cloudinary": "^2.6.0",
     "clsx": "^2.1.1",
     "dagre": "^0.8.5",
+    "dotenv": "^17.4.2",
     "framer-motion": "^12.40.0",
     "html-entities": "^2.6.0",
     "jose": "^6.2.3",
