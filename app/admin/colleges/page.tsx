@@ -33,6 +33,7 @@ interface College {
   learningMode?: string[];
   logoUrl?: string;
   bannerUrl?: string;
+  category?: string;
   featured?: boolean;
   hidden?: boolean;
   duration?: string;
@@ -105,6 +106,7 @@ export default function CollegesAdminPage() {
       scholarship: fd.get("scholarship") || "",
       logoUrl: fd.get("logoUrl") || "",
       bannerUrl: fd.get("bannerUrl") || "",
+      category: fd.get("category") || undefined,
       featured: fd.get("featured") === "true",
       hidden: fd.get("hidden") === "true",
       courses: splitTags(String(fd.get("courses") || "")),
@@ -324,6 +326,7 @@ export default function CollegesAdminPage() {
                     </div>
                     <div className="grid grid-cols-3 gap-4 mt-4">
                       <div><label className="block text-xs font-semibold text-slate-500 mb-1">Type</label><select name="type" defaultValue={editing?.type || "ug"} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm"><option value="ug">UG</option><option value="pg">PG</option></select></div>
+                      <div><label className="block text-xs font-semibold text-slate-500 mb-1">Category</label><select name="category" defaultValue={editing?.category || ""} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm"><option value="">General</option><option value="engineering">Engineering</option><option value="medical">Medical</option><option value="mba">MBA</option></select></div>
                       <div><label className="block text-xs font-semibold text-slate-500 mb-1">Established</label><input name="established" defaultValue={editing?.established || ""} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm" /></div>
                       <div><label className="block text-xs font-semibold text-slate-500 mb-1">Accreditation (csv)</label><input name="accreditation" defaultValue={joinTags(editing?.accreditation)} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm" placeholder="NAAC A+, UGC-DEB" /></div>
                     </div>

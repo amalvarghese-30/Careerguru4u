@@ -81,6 +81,7 @@ export const collegeSchema = z.object({
   scholarship: z.string().optional(),
   featured: z.boolean().optional(),
   hidden: z.boolean().optional(),
+  category: z.enum(["engineering", "medical", "mba", "general"]).optional(),
   status: z.enum(["draft", "published", "archived"]).optional(),
 });
 

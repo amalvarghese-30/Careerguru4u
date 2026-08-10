@@ -46,7 +46,7 @@ function UniversitiesContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const initialType = searchParams.get("type") || "ug";
+  const initialType = searchParams.get("type") || "";
   const initialCourse = searchParams.get("course") || "";
   const [activeType, setActiveType] = useState(initialType);
   const [searchQuery, setSearchQuery] = useState("");
@@ -66,9 +66,12 @@ function UniversitiesContent() {
       .finally(() => setLoading(false));
   }, [activeType, initialCourse]);
 
-  const colleges = allColleges.filter(
-    (c) => c.type === activeType || (!c.type && activeType === "ug")
-  );
+  // When a course filter is active, show all types. Otherwise filter by type.
+  const colleges = initialCourse
+    ? allColleges
+    : allColleges.filter(
+        (c) => c.type === (activeType || "ug") || (!c.type && (activeType || "ug") === "ug")
+      );
 
   const locations = [
     ...new Set(

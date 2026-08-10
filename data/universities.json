@@ -96,7 +96,8 @@
     ],
     "logoUrl": "/images/colleges/nmims.png",
     "bannerUrl": "",
-    "featured": true
+    "featured": true,
+    "category": "mba"
   },
   {
     "slug": "amity",
@@ -205,7 +206,8 @@
     ],
     "logoUrl": "/images/colleges/amity.png",
     "bannerUrl": "",
-    "featured": true
+    "featured": true,
+    "category": "mba"
   },
   {
     "slug": "sikkim-manipal",
@@ -298,7 +300,8 @@
     ],
     "logoUrl": "/images/colleges/sikkim-manipal.svg",
     "bannerUrl": "",
-    "featured": true
+    "featured": true,
+    "category": "mba"
   },
   {
     "slug": "jain",
@@ -395,7 +398,8 @@
     ],
     "logoUrl": "/images/colleges/jain.png",
     "bannerUrl": "",
-    "featured": false
+    "featured": false,
+    "category": "mba"
   },
   {
     "slug": "manipal",
@@ -494,7 +498,8 @@
     ],
     "logoUrl": "/images/colleges/manipal.svg",
     "bannerUrl": "",
-    "featured": true
+    "featured": true,
+    "category": "mba"
   },
   {
     "slug": "dypatil",
@@ -582,7 +587,8 @@
     ],
     "logoUrl": "/images/colleges/dypatil.svg",
     "bannerUrl": "",
-    "featured": true
+    "featured": true,
+    "category": "mba"
   },
   {
     "slug": "alliance",
@@ -675,7 +681,8 @@
     ],
     "logoUrl": "/images/colleges/alliance.png",
     "bannerUrl": "",
-    "featured": false
+    "featured": false,
+    "category": "mba"
   },
   {
     "slug": "sharda",
@@ -774,7 +781,8 @@
     ],
     "logoUrl": "/images/colleges/sharda.svg",
     "bannerUrl": "",
-    "featured": false
+    "featured": false,
+    "category": "mba"
   },
   {
     "slug": "dypatil-mumbai",
@@ -865,7 +873,8 @@
     ],
     "logoUrl": "/images/colleges/dypatil-mumbai.svg",
     "bannerUrl": "",
-    "featured": false
+    "featured": false,
+    "category": "mba"
   },
   {
     "slug": "lpu",
@@ -970,7 +979,8 @@
     ],
     "logoUrl": "/images/colleges/lpu.svg",
     "bannerUrl": "",
-    "featured": true
+    "featured": true,
+    "category": "general"
   },
   {
     "slug": "chandigarh",
@@ -1073,7 +1083,8 @@
     ],
     "logoUrl": "/images/colleges/chandigarh.png",
     "bannerUrl": "",
-    "featured": true
+    "featured": true,
+    "category": "general"
   },
   {
     "slug": "andhra",
@@ -1168,7 +1179,8 @@
     ],
     "logoUrl": "/images/colleges/andhra.png",
     "bannerUrl": "",
-    "featured": false
+    "featured": false,
+    "category": "general"
   },
   {
     "slug": "bharathidasan",
@@ -1260,7 +1272,8 @@
     ],
     "logoUrl": "/images/colleges/bharathidasan.png",
     "bannerUrl": "",
-    "featured": false
+    "featured": false,
+    "category": "general"
   },
   {
     "slug": "centurion",
@@ -1348,7 +1361,8 @@
     ],
     "logoUrl": "/images/colleges/centurion.svg",
     "bannerUrl": "",
-    "featured": false
+    "featured": false,
+    "category": "general"
   },
   {
     "slug": "kurukshetra",
@@ -1443,7 +1457,8 @@
     ],
     "logoUrl": "/images/colleges/kurukshetra.png",
     "bannerUrl": "",
-    "featured": false
+    "featured": false,
+    "category": "general"
   },
   {
     "slug": "parul",
@@ -1541,7 +1556,8 @@
     ],
     "logoUrl": "/images/colleges/parul.svg",
     "bannerUrl": "",
-    "featured": false
+    "featured": false,
+    "category": "general"
   },
   {
     "slug": "vivekananda-global",
@@ -1629,7 +1645,8 @@
     ],
     "logoUrl": "/images/colleges/vivekananda-global.png",
     "bannerUrl": "",
-    "featured": false
+    "featured": false,
+    "category": "general"
   },
   {
     "slug": "vignan",
@@ -1716,7 +1733,8 @@
     ],
     "logoUrl": "/images/colleges/vignan.svg",
     "bannerUrl": "",
-    "featured": false
+    "featured": false,
+    "category": "general"
   },
   {
     "slug": "vistas",
@@ -1811,6 +1829,7 @@
     ],
     "logoUrl": "/images/colleges/vistas.svg",
     "bannerUrl": "",
-    "featured": false
+    "featured": false,
+    "category": "general"
   }
 ]

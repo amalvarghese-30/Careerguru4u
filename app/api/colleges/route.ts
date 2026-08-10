@@ -8,6 +8,7 @@ export async function GET(req: NextRequest) {
     const search = searchParams.get("search") || "";
     const location = searchParams.get("location") || "";
     const featured = searchParams.get("featured");
+    const course = searchParams.get("course") || "";
 
     const client = await clientPromise;
     const db = client.db("career_guru");
@@ -17,7 +18,24 @@ export async function GET(req: NextRequest) {
     if (type) query.type = type;
     if (location) query.location = { $regex: location, $options: "i" };
     if (featured === "true") query.featured = true;
-    if (search) {
+
+    // Filter by category (e.g., engineering, medical, mba) or fallback to course name matching
+    if (course && search) {
+      // Both course and search: combine with $and of two $or clauses
+      query.$and = [
+        { $or: [{ category: course }, { courses: { $regex: course, $options: "i" } }] },
+        { $or: [
+          { name: { $regex: search, $options: "i" } },
+          { location: { $regex: search, $options: "i" } },
+          { courses: { $regex: search, $options: "i" } },
+        ]},
+      ];
+    } else if (course) {
+      query.$or = [
+        { category: course },
+        { courses: { $regex: course, $options: "i" } },
+      ];
+    } else if (search) {
       query.$or = [
         { name: { $regex: search, $options: "i" } },
         { location: { $regex: search, $options: "i" } },
