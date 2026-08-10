@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useCallback, useMemo } from "react";
+import { useState, useCallback, useMemo, useEffect, useRef, Suspense } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
 import { AnimatePresence } from "framer-motion";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
@@ -12,23 +13,67 @@ import { DecisionTreeNav } from "@/components/features/DecisionTreeNav";
 import { DecisionTreeFlow } from "@/components/features/DecisionTreeFlow";
 import { DecisionTreeNodeDetail } from "@/components/features/DecisionTreeNodeDetail";
 
-export default function FlowchartPage() {
+function FlowchartContent() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const nodeParam = searchParams.get("node");
+
   const [searchQuery, setSearchQuery] = useState("");
   const [activeFilter, setActiveFilter] = useState("all");
   const [currentZoom, setCurrentZoom] = useState(1);
   const [rfInstance, setRfInstance] = useState<ReactFlowInstance | null>(null);
   const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null);
   const [expandedIds, setExpandedIds] = useState<Set<string>>(() => new Set());
+  const [direction, setDirection] = useState<"TB" | "LR">("TB");
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const [urlSynced, setUrlSynced] = useState(false);
 
-  // Get the currently selected node and its breadcrumb
+  const canvasRef = useRef<HTMLDivElement>(null);
+
+  // ── URL permalink: restore from ?node= on first load ──
+  useEffect(() => {
+    if (urlSynced || !nodeParam) return;
+    const node = findNodeById(nodeParam);
+    if (node) {
+      setSelectedNodeId(node.id);
+      // Expand all ancestors so the node is visible
+      const ancestors = getAncestors(node.id, decisionTree);
+      const toExpand = new Set<string>();
+      for (const a of ancestors) {
+        if (a.id !== node.id) toExpand.add(a.id);
+      }
+      if (toExpand.size > 0) {
+        setExpandedIds(toExpand);
+      }
+    }
+    setUrlSynced(true);
+  }, [nodeParam, urlSynced]);
+
+  // ── URL permalink: update URL when selection changes ──
+  useEffect(() => {
+    if (!urlSynced) return;
+    const params = new URLSearchParams(searchParams.toString());
+    if (selectedNodeId) {
+      params.set("node", selectedNodeId);
+    } else {
+      params.delete("node");
+    }
+    // Preserve any other params
+    const newUrl = `/career-guidance/flowchart${params.toString() ? `?${params.toString()}` : ""}`;
+    router.replace(newUrl, { scroll: false });
+  }, [selectedNodeId]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ── Get the currently selected node and its breadcrumb ──
   const selectedNode = useMemo(
     () => (selectedNodeId ? findNodeById(selectedNodeId, decisionTree) : null),
-    [selectedNodeId]
+    [selectedNodeId],
   );
   const breadcrumb = useMemo(
     () => (selectedNodeId ? getAncestors(selectedNodeId, decisionTree) : []),
-    [selectedNodeId]
+    [selectedNodeId],
   );
+
+  // ── Handlers ──
 
   const handleSelect = useCallback((node: DecisionTreeNode) => {
     setSelectedNodeId((prev) => (prev === node.id ? null : node.id));
@@ -37,7 +82,6 @@ export default function FlowchartPage() {
   const handleBreadcrumbClick = useCallback(
     (node: DecisionTreeNode) => {
       setSelectedNodeId(node.id);
-      // Expand all ancestors so the node is visible
       const ancestors = getAncestors(node.id, decisionTree);
       setExpandedIds((prev) => {
         const next = new Set(prev);
@@ -47,7 +91,7 @@ export default function FlowchartPage() {
         return next;
       });
     },
-    []
+    [],
   );
 
   const handleClearSelection = useCallback(() => {
@@ -76,6 +120,40 @@ export default function FlowchartPage() {
   const handleFitView = useCallback(() => {
     rfInstance?.fitView({ padding: 0.3, duration: 400 });
   }, [rfInstance]);
+
+  // ── Jump to node (from search dropdown) ──
+  const handleJumpToNode = useCallback(
+    (nodeId: string) => {
+      setSelectedNodeId(nodeId);
+      const ancestors = getAncestors(nodeId, decisionTree);
+      setExpandedIds((prev) => {
+        const next = new Set(prev);
+        for (const a of ancestors) {
+          if (a.id !== nodeId) next.add(a.id);
+        }
+        return next;
+      });
+    },
+    [],
+  );
+
+  // ── Fullscreen toggle ──
+  const handleFullscreenToggle = useCallback(() => {
+    if (!document.fullscreenElement) {
+      canvasRef.current?.requestFullscreen().then(() => setIsFullscreen(true));
+    } else {
+      document.exitFullscreen().then(() => setIsFullscreen(false));
+    }
+  }, []);
+
+  // Listen for fullscreen exit via Esc key
+  useEffect(() => {
+    function onFsChange() {
+      setIsFullscreen(!!document.fullscreenElement);
+    }
+    document.addEventListener("fullscreenchange", onFsChange);
+    return () => document.removeEventListener("fullscreenchange", onFsChange);
+  }, []);
 
   return (
     <div className="min-h-screen bg-brand-bg pt-16">
@@ -108,13 +186,21 @@ export default function FlowchartPage() {
         breadcrumb={breadcrumb}
         onBreadcrumbClick={handleBreadcrumbClick}
         onClearSelection={handleClearSelection}
+        direction={direction}
+        onDirectionChange={setDirection}
+        isFullscreen={isFullscreen}
+        onFullscreenToggle={handleFullscreenToggle}
+        onJumpToNode={handleJumpToNode}
       />
 
       {/* Main Content */}
       <div className="container-custom py-6">
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Tree View */}
-          <div className="flex-1 min-w-0">
+          <div
+            ref={canvasRef}
+            className="flex-1 min-w-0"
+          >
             <DecisionTreeFlow
               root={decisionTree}
               selectedNodeId={selectedNodeId}
@@ -125,6 +211,7 @@ export default function FlowchartPage() {
               onToggle={handleToggle}
               onReactFlowInit={setRfInstance}
               onZoomChange={setCurrentZoom}
+              direction={direction}
             />
           </div>
 
@@ -153,5 +240,21 @@ export default function FlowchartPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function FlowchartPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen bg-brand-bg pt-16">
+          <div className="container-custom py-12">
+            <div className="h-96 animate-pulse rounded-2xl bg-neutral-lightGray/20" />
+          </div>
+        </div>
+      }
+    >
+      <FlowchartContent />
+    </Suspense>
   );
 }

@@ -1,17 +1,25 @@
 "use client";
 
-import { memo } from "react";
+import { memo, useCallback } from "react";
 import { Handle, Position, type NodeProps } from "reactflow";
-import { TrendingUp } from "lucide-react";
+import { TrendingUp, Plus, Minus } from "lucide-react";
 import type { FlowNodeData } from "@/lib/decision-tree-layout";
 import { extractNodeColors } from "@/lib/decision-tree-colors";
 import { getIcon } from "@/lib/decision-tree-icons";
 
 const DecisionTreeFlowNode = memo(({ data }: NodeProps<FlowNodeData>) => {
-  const { name, shortDescription, nodeLevel, isSearchMatch, isSearchDimmed, isSelected, depth, color, iconName, salaryRanges, children } = data;
+  const { name, shortDescription, nodeLevel, isSearchMatch, isSearchDimmed, isSelected, depth, color, iconName, salaryRanges, children, isExpanded, onToggleExpand, onSelectNode } = data;
   const colors = extractNodeColors(color);
   const icon = getIcon(iconName);
   const hasChildren = children.length > 0;
+
+  const handleExpandClick = useCallback(
+    (e: React.MouseEvent) => {
+      e.stopPropagation();
+      if (data.onToggleExpand) data.onToggleExpand(data.id);
+    },
+    [data.onToggleExpand, data.id],
+  );
 
   // Build class based on state
   let cardClass = "relative rounded-xl border-2 transition-all duration-200 ";
@@ -83,11 +91,21 @@ const DecisionTreeFlowNode = memo(({ data }: NodeProps<FlowNodeData>) => {
         )}
       </div>
 
-      {/* Child count badge (stream/branch) */}
+      {/* Child count badge / expand toggle for stream & branch */}
       {hasChildren && nodeLevel !== "root" && (
-        <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded-full text-white shrink-0" style={{ backgroundColor: colors.text }}>
+        <button
+          onClick={handleExpandClick}
+          className="text-[10px] font-bold shrink-0 flex items-center gap-0.5 px-1.5 py-0.5 rounded-full text-white hover:opacity-80 transition-opacity cursor-pointer"
+          style={{ backgroundColor: colors.text }}
+          title={isExpanded ? "Collapse children" : "Expand children"}
+        >
+          {isExpanded ? (
+            <Minus className="h-2.5 w-2.5" />
+          ) : (
+            <Plus className="h-2.5 w-2.5" />
+          )}
           {children.length}
-        </span>
+        </button>
       )}
 
       {/* Salary hint (leaf) */}

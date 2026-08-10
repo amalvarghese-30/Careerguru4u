@@ -10,6 +10,11 @@ export interface FlowNodeData extends DecisionTreeNode {
   isSearchDimmed: boolean;
   isSelected: boolean;
   depth: number;
+  isExpanded?: boolean;
+  /** Injected at render time — expands/collapses this node's children without selecting */
+  onToggleExpand?: (id: string) => void;
+  /** Injected at render time — selects this node */
+  onSelectNode?: (data: DecisionTreeNode) => void;
 }
 
 export type FlowNode = Node<FlowNodeData>;
@@ -113,8 +118,12 @@ export function filterNodesForStream(
   nodes: FlowNode[],
   edges: FlowEdge[],
   streamName: string,
+  direction: "TB" | "LR" = "TB",
 ): { nodes: FlowNode[]; edges: FlowEdge[] } {
-  if (streamName === "all") return { nodes, edges };
+  if (streamName === "all") {
+    const laidOutNodes = applyDagreLayout(nodes, edges, direction);
+    return { nodes: laidOutNodes, edges };
+  }
 
   // Find the stream node
   const streamNode = nodes.find(
@@ -137,7 +146,7 @@ export function filterNodesForStream(
 
   const filteredNodes = nodes.filter((n) => descendantIds.has(n.id));
   const filteredEdges = edges.filter((e) => descendantIds.has(e.source) && descendantIds.has(e.target));
-  const laidOutNodes = applyDagreLayout(filteredNodes, filteredEdges);
+  const laidOutNodes = applyDagreLayout(filteredNodes, filteredEdges, direction);
 
   return { nodes: laidOutNodes, edges: filteredEdges };
 }
@@ -176,6 +185,7 @@ export function filterVisibleNodes(
   nodes: FlowNode[],
   edges: FlowEdge[],
   expandedIds: Set<string>,
+  direction: "TB" | "LR" = "TB",
 ): { nodes: FlowNode[]; edges: FlowEdge[] } {
   // Build parent → children map from edges
   const childrenMap = new Map<string, string[]>();
@@ -200,7 +210,46 @@ export function filterVisibleNodes(
 
   const filteredNodes = nodes.filter((n) => visibleIds.has(n.id));
   const filteredEdges = edges.filter((e) => visibleIds.has(e.source) && visibleIds.has(e.target));
-  const laidOutNodes = applyDagreLayout(filteredNodes, filteredEdges);
+  const laidOutNodes = applyDagreLayout(filteredNodes, filteredEdges, direction);
 
   return { nodes: laidOutNodes, edges: filteredEdges };
+}
+
+/**
+ * Returns all edge IDs on the path from root to the given node.
+ * Used for animated path tracing to highlight the active branch.
+ */
+export function getAncestorEdges(
+  nodeId: string,
+  edges: FlowEdge[],
+): Set<string> {
+  // Build child → parent map from edges
+  const parentMap = new Map<string, string>();
+  const edgeIdMap = new Map<string, string>(); // parent->child → edgeId
+  for (const edge of edges) {
+    parentMap.set(edge.target, edge.source);
+    edgeIdMap.set(`${edge.source}>${edge.target}`, edge.id);
+    // Also handle the '->' style edge IDs
+    if (edge.id.includes("->")) {
+      const [src, tgt] = edge.id.split("->");
+      edgeIdMap.set(`${src}>${tgt}`, edge.id);
+    }
+  }
+
+  const ancestorEdgeIds = new Set<string>();
+  let current = nodeId;
+
+  while (current) {
+    const parent = parentMap.get(current);
+    if (!parent) break;
+
+    // Try to find edge ID
+    const key = `${parent}>${current}`;
+    const edgeId = edgeIdMap.get(key) || `${parent}->${current}`;
+    ancestorEdgeIds.add(edgeId);
+
+    current = parent;
+  }
+
+  return ancestorEdgeIds;
 }
