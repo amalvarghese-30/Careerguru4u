@@ -1,10 +1,7 @@
 // app/layout.tsx
 import type { Metadata } from "next";
 import { Sora, Inter } from "next/font/google";
-import { Navbar } from "@/components/layout/Navbar";
-import { Footer } from "@/components/layout/Footer";
-import { MobileNav } from "@/components/layout/MobileNav";
-import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
+import { RootLayoutProvider } from "@/components/layout/RootLayoutClient";
 import "./globals.css";
 
 const sora = Sora({
@@ -45,11 +42,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-brand-bg font-inter antialiased">
         <div className="flex flex-col min-h-screen">
-          <Navbar />
-          <main className="flex-grow">{children}</main>
-          <Footer />
-          <MobileNav />
-          <WhatsAppButton />
+          <RootLayoutProvider>{children}</RootLayoutProvider>
         </div>
       </body>
     </html>

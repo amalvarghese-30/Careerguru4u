@@ -1,5 +1,4 @@
 import { create } from "zustand";
-import { persist } from "zustand/middleware";
 
 export type UserRole = "student" | "counsellor" | "admin" | "super_admin";
 
@@ -18,36 +17,25 @@ export interface User {
 
 interface AuthState {
   user: User | null;
-  token: string | null;
   isAuthenticated: boolean;
-  setAuth: (user: User, token?: string) => void;
+  setAuth: (user: User) => void;
   logout: () => void;
   updateUser: (user: Partial<User>) => void;
-  getToken: () => string | null;
+  hydrate: (user: User | null) => void;
 }
 
 export const useAuthStore = create<AuthState>()(
-  persist(
-    (set, get) => ({
-      user: null,
-      token: null,
-      isAuthenticated: false,
-      setAuth: (user, token) => set({ user, token: token || null, isAuthenticated: true }),
-      logout: () => set({ user: null, token: null, isAuthenticated: false }),
-      updateUser: (updates) =>
-        set((state) => ({
-          user: state.user ? { ...state.user, ...updates } : null,
-        })),
-      getToken: () => get().token,
-    }),
-    {
-      name: "career-guru-auth",
-      partialize: (state) => ({
-        user: state.user,
-        isAuthenticated: state.isAuthenticated,
-      }),
-    }
-  )
+  (set) => ({
+    user: null,
+    isAuthenticated: false,
+    setAuth: (user) => set({ user, isAuthenticated: true }),
+    logout: () => set({ user: null, isAuthenticated: false }),
+    updateUser: (updates) =>
+      set((state) => ({
+        user: state.user ? { ...state.user, ...updates } : null,
+      })),
+    hydrate: (user) => set({ user, isAuthenticated: !!user }),
+  })
 );
 
 export function isAdmin(role?: UserRole): boolean {

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useAuthStore } from "@/lib/auth-store";
 import {
   LayoutDashboard, Compass, GraduationCap, Star, Heart, Award,
-  PhoneCall, TrendingUp, ArrowRight, LogOut, Briefcase, Building, FileText, Download
+  PhoneCall, TrendingUp, ArrowRight, LogOut, Briefcase, Building, FileText
 } from "lucide-react";
 
 type Tab = "overview" | "careers" | "colleges" | "counselling" | "resumes";
@@ -23,31 +23,26 @@ interface CounsellingRequest {
 export default function DashboardPage() {
   const { user, isAuthenticated, logout } = useAuthStore();
   const [activeTab, setActiveTab] = useState<Tab>("overview");
-  const [mounted, setMounted] = useState(false);
   const [bookmarks, setBookmarks] = useState<Bookmark[]>([]);
   const [counselling, setCounselling] = useState<CounsellingRequest[]>([]);
   const [resumes, setResumes] = useState<any[]>([]);
+  const [matchResultsCount, setMatchResultsCount] = useState(0);
   const [loading, setLoading] = useState(true);
-
-  const getToken = () => document.cookie.match(/cg-auth-token=([^;]+)/)?.[1] || "";
 
   const fetchDashboard = useCallback(async () => {
     try {
       const res = await fetch("/api/user/dashboard", {
-        headers: { Authorization: `Bearer ${getToken()}` },
         credentials: "include",
       });
       const data = await res.json();
       setBookmarks(data.bookmarks || []);
       setCounselling(data.counsellingRequests || []);
       setResumes(data.resumes || []);
+      setMatchResultsCount(data.stats?.matchResultsCount || 0);
     } catch (e) { console.error(e); } finally { setLoading(false); }
   }, []);
 
-  useEffect(() => { setMounted(true); }, []);
   useEffect(() => { if (isAuthenticated) fetchDashboard(); }, [isAuthenticated, fetchDashboard]);
-
-  if (!mounted) return null;
 
   if (!isAuthenticated || !user) {
     return (
@@ -142,7 +137,7 @@ export default function DashboardPage() {
           {[
             { icon: Heart, label: "Saved Careers", value: savedCareers.length, color: "from-brand-royal to-brand-electric" },
             { icon: Building, label: "Saved Colleges", value: savedColleges.length, color: "from-brand-electric to-brand-sky" },
-            { icon: Award, label: "Match Results", value: "0", color: "from-purple-500 to-pink-500" },
+            { icon: Award, label: "Match Results", value: matchResultsCount, color: "from-purple-500 to-pink-500" },
             { icon: PhoneCall, label: "Counselling", value: counselling.length, color: "from-emerald-500 to-teal-500" },
             { icon: FileText, label: "My Resumes", value: resumes.length, color: "from-rose-500 to-orange-500" },
           ].map((stat) => (
@@ -345,7 +340,6 @@ export default function DashboardPage() {
                       try {
                         await fetch(`/api/resume/${r._id}`, {
                           method: "DELETE",
-                          headers: { Authorization: `Bearer ${getToken()}` },
                           credentials: "include",
                         });
                         fetchDashboard();
