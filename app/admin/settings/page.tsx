@@ -17,6 +17,12 @@ interface SiteSettings {
   address: string;
   socialLinks: SocialLinks;
   footerContent: string;
+  // Email configuration
+  smtpHost: string; smtpPort: string; smtpUser: string; smtpPassword: string;
+  // Notification preferences
+  notifyNewUser: boolean; notifyCounselling: boolean; notifyLeads: boolean; notifyBlogComments: boolean; notifySystemErrors: boolean;
+  // Security
+  sessionDuration: string; allowedAdminIps: string; twoFactorEnabled: boolean;
 }
 
 const defaultSettings: SiteSettings = {
@@ -29,6 +35,9 @@ const defaultSettings: SiteSettings = {
   address: "",
   socialLinks: { facebook: "", twitter: "", instagram: "", linkedin: "", youtube: "" },
   footerContent: "",
+  smtpHost: "", smtpPort: "587", smtpUser: "", smtpPassword: "",
+  notifyNewUser: true, notifyCounselling: true, notifyLeads: true, notifyBlogComments: false, notifySystemErrors: true,
+  sessionDuration: "7d", allowedAdminIps: "", twoFactorEnabled: false,
 };
 
 const tabItems = [
@@ -78,7 +87,7 @@ export default function SettingsPage() {
     } catch (e) { console.error(e); }
   };
 
-  const updateSetting = (key: keyof SiteSettings, value: string | SocialLinks) => {
+  const updateSetting = (key: keyof SiteSettings, value: string | SocialLinks | boolean) => {
     setSettings((prev) => ({ ...prev, [key]: value }));
   };
 
@@ -225,10 +234,14 @@ export default function SettingsPage() {
             <div className="bg-white rounded-2xl border border-slate-200 p-6 space-y-5">
               <h3 className="font-bold text-slate-800">Email Configuration</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div><label className="block text-xs font-semibold text-slate-500 mb-1">SMTP Host</label><input defaultValue="smtp.resend.com" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm" /></div>
-                <div><label className="block text-xs font-semibold text-slate-500 mb-1">SMTP Port</label><input defaultValue="587" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm" /></div>
+                <div><label className="block text-xs font-semibold text-slate-500 mb-1">SMTP Host</label><input value={settings.smtpHost} onChange={(e) => updateSetting("smtpHost", e.target.value)} placeholder="smtp.resend.com" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
+                <div><label className="block text-xs font-semibold text-slate-500 mb-1">SMTP Port</label><input value={settings.smtpPort} onChange={(e) => updateSetting("smtpPort", e.target.value)} placeholder="587" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
               </div>
-              <button className="flex items-center gap-2 px-4 py-2.5 rounded-xl border border-slate-200 text-sm font-medium text-slate-600 hover:bg-slate-50"><MailIcon className="h-4 w-4" /> Send Test Email</button>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div><label className="block text-xs font-semibold text-slate-500 mb-1">SMTP Username</label><input value={settings.smtpUser} onChange={(e) => updateSetting("smtpUser", e.target.value)} placeholder="username" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
+                <div><label className="block text-xs font-semibold text-slate-500 mb-1">SMTP Password</label><input type="password" value={settings.smtpPassword} onChange={(e) => updateSetting("smtpPassword", e.target.value)} placeholder="••••••••" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
+              </div>
+              <p className="text-xs text-slate-400">Used for transactional emails such as password resets and notifications.</p>
             </div>
           )}
 
@@ -236,19 +249,19 @@ export default function SettingsPage() {
             <div className="bg-white rounded-2xl border border-slate-200 p-6 space-y-5">
               <h3 className="font-bold text-slate-800">Notification Preferences</h3>
               {[
-                { label: "New User Registration", desc: "Get notified when a new user signs up" },
-                { label: "Counselling Bookings", desc: "Alert on new counselling session bookings" },
-                { label: "New Leads", desc: "Get notified of new lead submissions" },
-                { label: "Blog Comments", desc: "Notify on new article comments" },
-                { label: "System Errors", desc: "Critical error alerts" },
+                { key: "notifyNewUser" as const, label: "New User Registration", desc: "Get notified when a new user signs up" },
+                { key: "notifyCounselling" as const, label: "Counselling Bookings", desc: "Alert on new counselling session bookings" },
+                { key: "notifyLeads" as const, label: "New Leads", desc: "Get notified of new lead submissions" },
+                { key: "notifyBlogComments" as const, label: "Blog Comments", desc: "Notify on new article comments" },
+                { key: "notifySystemErrors" as const, label: "System Errors", desc: "Critical error alerts" },
               ].map((n) => (
-                <div key={n.label} className="flex items-center justify-between py-3 border-b border-slate-100 last:border-0">
+                <div key={n.key} className="flex items-center justify-between py-3 border-b border-slate-100 last:border-0">
                   <div>
                     <p className="text-sm font-medium text-slate-700">{n.label}</p>
                     <p className="text-xs text-slate-400">{n.desc}</p>
                   </div>
                   <label className="relative inline-flex items-center cursor-pointer">
-                    <input type="checkbox" defaultChecked className="sr-only peer" />
+                    <input type="checkbox" checked={settings[n.key]} onChange={(e) => updateSetting(n.key, e.target.checked)} className="sr-only peer" />
                     <div className="w-11 h-6 bg-slate-200 rounded-full peer peer-checked:bg-brand-royal peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all" />
                   </label>
                 </div>
@@ -260,14 +273,14 @@ export default function SettingsPage() {
             <div className="bg-white rounded-2xl border border-slate-200 p-6 space-y-5">
               <h3 className="font-bold text-slate-800">Security Settings</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div><label className="block text-xs font-semibold text-slate-500 mb-1">JWT Secret</label><input type="password" defaultValue="••••••••••••••••" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm font-mono" /></div>
-                <div><label className="block text-xs font-semibold text-slate-500 mb-1">Session Duration</label><select defaultValue="7d" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm"><option value="1d">1 Day</option><option value="7d">7 Days</option><option value="30d">30 Days</option></select></div>
+                <div><label className="block text-xs font-semibold text-slate-500 mb-1">JWT Secret</label><input type="password" value="••••••••••••••••" disabled className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm font-mono opacity-60" /><p className="text-[11px] text-slate-400 mt-1">Managed via JWT_SECRET environment variable.</p></div>
+                <div><label className="block text-xs font-semibold text-slate-500 mb-1">Session Duration</label><select value={settings.sessionDuration} onChange={(e) => updateSetting("sessionDuration", e.target.value)} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal"><option value="1d">1 Day</option><option value="7d">7 Days</option><option value="30d">30 Days</option></select></div>
               </div>
-              <div><label className="block text-xs font-semibold text-slate-500 mb-1">Allowed Admin IPs</label><input placeholder="e.g., 192.168.1.1, 10.0.0.1" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm" /></div>
+              <div><label className="block text-xs font-semibold text-slate-500 mb-1">Allowed Admin IPs</label><input value={settings.allowedAdminIps} onChange={(e) => updateSetting("allowedAdminIps", e.target.value)} placeholder="e.g., 192.168.1.1, 10.0.0.1" className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
               <div className="flex items-center justify-between py-2">
                 <div><p className="text-sm font-medium text-slate-700">Two-Factor Authentication</p><p className="text-xs text-slate-400">Require 2FA for all admin accounts</p></div>
                 <label className="relative inline-flex items-center cursor-pointer">
-                  <input type="checkbox" defaultChecked className="sr-only peer" />
+                  <input type="checkbox" checked={settings.twoFactorEnabled} onChange={(e) => updateSetting("twoFactorEnabled", e.target.checked)} className="sr-only peer" />
                   <div className="w-11 h-6 bg-slate-200 rounded-full peer peer-checked:bg-brand-royal peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all" />
                 </label>
               </div>

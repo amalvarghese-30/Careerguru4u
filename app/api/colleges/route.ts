@@ -43,12 +43,21 @@ export async function GET(req: NextRequest) {
       ];
     }
 
-    const colleges = await db.collection("colleges")
-      .find(query)
-      .sort({ name: 1 })
-      .toArray();
+    const page = Math.max(1, parseInt(searchParams.get("page") || "1"));
+    const limitRaw = parseInt(searchParams.get("limit") || "");
+    const limit = limitRaw ? Math.min(Math.max(limitRaw, 1), 200) : 0; // 0 = no limit (backward compatible)
+    const skip = limit ? (page - 1) * limit : 0;
 
-    return NextResponse.json({ colleges, total: colleges.length });
+    const find = db.collection("colleges").find(query).sort({ name: 1 });
+    const [colleges, totalCount] = await Promise.all([
+      limit ? find.skip(skip).limit(limit).toArray() : find.toArray(),
+      db.collection("colleges").countDocuments(query),
+    ]);
+
+    return NextResponse.json(
+      { colleges, total: totalCount, totalCount, page, limit: limit || colleges.length },
+      { headers: { "Cache-Control": "public, max-age=300, stale-while-revalidate=3600" } }
+    );
   } catch (error) {
     console.error("Public colleges GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });

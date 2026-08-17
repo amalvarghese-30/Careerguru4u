@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BookOpen, HelpCircle, FileText, ClipboardList, Compass, Target, Brain, Search, GitCompare, Award, PhoneCall, LayoutDashboard, ArrowRight } from "lucide-react";
+import { BookOpen, FileText, Compass, Target, Brain, Search, GitCompare, Award, PhoneCall, LayoutDashboard, ArrowRight } from "lucide-react";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 
 const bentoItems = [
@@ -15,28 +15,12 @@ const bentoItems = [
     gradient: "from-brand-navy to-brand-royal",
   },
   {
-    title: "Important Questions",
-    description: "Curated by expert teachers",
-    icon: HelpCircle,
-    href: "/academic/important-questions",
-    size: "sm",
-    gradient: "from-brand-royal to-brand-electric",
-  },
-  {
-    title: "Previous Year Papers",
-    description: "10 years of board exam papers",
+    title: "PYQs & Sample Papers",
+    description: "Official board papers & latest patterns",
     icon: FileText,
     href: "/academic/pyqs",
     size: "sm",
     gradient: "from-indigo-500 to-purple-500",
-  },
-  {
-    title: "Sample Papers",
-    description: "Practice with latest patterns",
-    icon: ClipboardList,
-    href: "/academic/sample-papers",
-    size: "sm",
-    gradient: "from-purple-500 to-pink-500",
   },
   {
     title: "Career Guidance",
@@ -116,7 +100,7 @@ export function EverythingWeOffer() {
       <div className="container-custom">
         <SectionHeader
           badge="Everything We Offer"
-          title="12 Powerful Tools in One Platform"
+          title="10 Powerful Tools in One Platform"
           description="From textbook solutions to career planning — we have everything a student needs."
         />
 

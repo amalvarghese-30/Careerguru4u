@@ -28,7 +28,7 @@ const userCreateSchema = z
     role: z
       .enum(["student", "counsellor", "admin", "super_admin"])
       .default("student"),
-    status: z.enum(["active", "inactive"]).default("active"),
+    status: z.enum(["active", "inactive", "suspended"]).default("active"),
   })
   .strict(); // reject unknown fields
 
@@ -50,7 +50,7 @@ const userUpdateSchema = z
       )
       .optional(),
     role: z.enum(["student", "counsellor", "admin", "super_admin"]).optional(),
-    status: z.enum(["active", "inactive"]).optional(),
+    status: z.enum(["active", "inactive", "suspended"]).optional(),
   })
   .strict(); // reject unknown fields
 

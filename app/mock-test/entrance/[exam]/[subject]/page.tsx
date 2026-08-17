@@ -54,6 +54,7 @@ export default function EntranceExamTestPage() {
 
     const isTimed = subject !== "all";
     const isAll = subject === "all";
+    const subjectLabel = isAll ? "Full Mock Test" : subject;
 
     useEffect(() => {
         fetch(`/api/exam/info/${encodeURIComponent(examType)}`)
@@ -93,9 +94,10 @@ export default function EntranceExamTestPage() {
         try {
             const queryParams = new URLSearchParams({
                 examType,
-                subject,
-                limit: isAll ? "60" : "30",
+                limit: isAll ? "90" : "30",
             });
+            // For the full mock ("all"), omit subject so the API returns questions across every subject.
+            if (!isAll) queryParams.set("subject", subject);
             const res = await fetch(`/api/mcq?${queryParams}`);
             const data = await res.json();
             if (data.questions?.length === 0) {
@@ -234,7 +236,7 @@ export default function EntranceExamTestPage() {
                             }`} />
                         </div>
                         <h1 className="text-2xl font-bold text-slate-800 mb-2">Test Complete!</h1>
-                        <p className="text-sm text-slate-500 mb-6">{examType} - {subject}</p>
+                        <p className="text-sm text-slate-500 mb-6">{examType} - {subjectLabel}</p>
 
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
                             <div className="p-4 bg-slate-50 rounded-xl">
@@ -348,7 +350,7 @@ export default function EntranceExamTestPage() {
                             <Link href={`/mock-test/entrance/${examType}`} className="text-sm text-slate-400 hover:text-slate-600 flex items-center gap-1 mb-1">
                                 <ArrowLeft className="h-3 w-3" /> Back
                             </Link>
-                            <h2 className="font-semibold text-slate-800">{examType} — {subject}</h2>
+                            <h2 className="font-semibold text-slate-800">{examType} — {subjectLabel}</h2>
                         </div>
                         <div className="flex items-center gap-4">
                             <div className={`flex items-center gap-2 text-sm font-semibold ${

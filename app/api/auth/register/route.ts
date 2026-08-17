@@ -3,9 +3,19 @@ import { NextRequest, NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 import clientPromise from "@/lib/db/mongodb";
 import { User } from "@/lib/db/models";
+import { rateLimit, getClientIp } from "@/lib/rate-limit";
 
 export async function POST(req: NextRequest) {
     try {
+        // Registration spam protection: 5 attempts per 10 minutes per IP
+        const rl = rateLimit(`register:${getClientIp(req)}`, { windowMs: 10 * 60_000, max: 5 });
+        if (!rl.ok) {
+            return NextResponse.json(
+                { error: "Too many registration attempts. Please try again later." },
+                { status: 429, headers: { "Retry-After": String(rl.retryAfterSec) } }
+            );
+        }
+
         const { fullName, email, phone, password, board, class: studentClass, schoolName, city } = await req.json();
 
         // Validation

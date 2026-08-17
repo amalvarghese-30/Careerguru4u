@@ -179,10 +179,25 @@ export const settingsSchema = z.object({
   footerContent: z.string().optional(),
   logo: z.string().optional(),
   favicon: z.string().optional(),
+  // Email configuration
+  smtpHost: z.string().optional(),
+  smtpPort: z.union([z.string(), z.number()]).optional(),
+  smtpUser: z.string().optional(),
+  smtpPassword: z.string().optional(),
+  // Notification preferences
+  notifyNewUser: z.boolean().optional(),
+  notifyCounselling: z.boolean().optional(),
+  notifyLeads: z.boolean().optional(),
+  notifyBlogComments: z.boolean().optional(),
+  notifySystemErrors: z.boolean().optional(),
+  // Security
+  sessionDuration: z.string().optional(),
+  allowedAdminIps: z.string().optional(),
+  twoFactorEnabled: z.boolean().optional(),
 });
 
 export const sessionUpdateSchema = z.object({
-  status: z.enum(['draft', 'pending', 'completed', 'cancelled']).optional(),
+  status: z.enum(['draft', 'pending', 'assigned', 'scheduled', 'completed', 'cancelled']).optional(),
   assignedTo: z.string().optional(),
   notes: z.string().optional(),
 });

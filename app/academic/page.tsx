@@ -77,7 +77,7 @@ export default function AcademicHubPage() {
             </section>
 
             {/* Board Selector */}
-            <section className="section-padding">
+            <section id="boards" className="section-padding">
                 <div className="container-custom">
                     <div className="text-center max-w-2xl mx-auto mb-12">
                         <h2 className="heading-section text-3xl md:text-4xl mb-4">Choose Your Board</h2>
@@ -117,7 +117,7 @@ export default function AcademicHubPage() {
                             <h2 className="heading-section text-2xl md:text-3xl">Trending Solutions</h2>
                             <p className="text-slate-500 mt-1">Most viewed solutions this week</p>
                         </div>
-                        <Link href="/academic/trending" className="text-primary-600 font-medium hover:underline flex items-center gap-1">
+                        <Link href="/academic#boards" className="text-primary-600 font-medium hover:underline flex items-center gap-1">
                             View All <ChevronRight className="h-4 w-4" />
                         </Link>
                     </div>

@@ -70,8 +70,10 @@ const COURSE_IDS = {
     6:   { id: 3006, slug: "cbse-class-6-english-medium", medium: "english" },
     7:   { id: 3007, slug: "cbse-class-7-english-medium", medium: "english" },
     8:   { id: 3008, slug: "cbse-class-8-english-medium", medium: "english" },
-    9:   { id: 151,  slug: "cbse-secondary-school-examination-english-medium-class-9", medium: "english" },
-    10:  { id: 152,  slug: "cbse-secondary-school-examination-english-medium-class-10", medium: "english" },
+    9:   { id: 1435, slug: "cbse-class-9-secondary-school-examination-english-medium", medium: "english" },
+    10:  { id: 660,  slug: "cbse-class-10-secondary-school-examination-english-medium", medium: "english" },
+    11:  { id: 646,  slug: "cbse-class-11-senior-school-cert-examination-commerce", medium: "english" },
+    12:  { id: 649,  slug: "cbse-class-12-senior-school-cert-examination-commerce", medium: "english" },
   },
   icse: {
     1:   { id: 3600, slug: "cisce-icse-class-1", medium: "english" },
@@ -79,11 +81,323 @@ const COURSE_IDS = {
     3:   { id: 3602, slug: "cisce-icse-class-3", medium: "english" },
     4:   { id: 3603, slug: "cisce-icse-class-4", medium: "english" },
     5:   { id: 3604, slug: "cisce-icse-class-5", medium: "english" },
-    6:   { id: 39,   slug: "cisce-icse-class-6-indian-certificate-of-secondary-education", medium: "english" },
-    7:   { id: 40,   slug: "cisce-icse-class-7-indian-certificate-of-secondary-education", medium: "english" },
-    8:   { id: 41,   slug: "cisce-icse-class-8-indian-certificate-of-secondary-education", medium: "english" },
-    9:   { id: 42,   slug: "cisce-icse-class-9-indian-certificate-of-secondary-education", medium: "english" },
+    6:   { id: 1460, slug: "cisce-icse-class-6-indian-certificate-of-secondary-education-school-5-to-8", medium: "english" },
+    7:   { id: 1459, slug: "cisce-icse-class-7-indian-certificate-of-secondary-education-school-5-to-8", medium: "english" },
+    8:   { id: 1458, slug: "cisce-icse-class-8-indian-certificate-of-secondary-education-school-5-to-8", medium: "english" },
+    9:   { id: 1440, slug: "cisce-icse-class-9-indian-certificate-of-secondary-education", medium: "english" },
     10:  { id: 661,  slug: "cisce-icse-class-10-indian-certificate-of-secondary-education", medium: "english" },
+  },
+};
+
+/**
+ * Missing board/class/subject data still to scrape, keyed by board → class → subjects.
+ * Sourced from Shaalaa's search-course-qb-textbook-subjects sitemap (verified course IDs).
+ * Each entry: { slug, id, name } where slug/id come from the ?subjects=slug_id URL.
+ * Only subjects NOT already present in MongoDB are listed.
+ */
+const MISSING_TARGETS = {
+  cbse: {
+    9: [
+      { slug: "sanskrit", id: "8336", name: "Sanskrit" },
+      { slug: "hindi", id: "8350", name: "Hindi" },
+      { slug: "hindi-b", id: "8351", name: "Hindi" },
+      { slug: "english-communicative", id: "8352", name: "English" },
+      { slug: "english-language-and-literature-9th", id: "8353", name: "English" },
+      { slug: "social-science", id: "8356", name: "Social Science" },
+    ],
+    10: [
+      { slug: "sanskrit", id: "3129", name: "Sanskrit" },
+      { slug: "hindi", id: "3143", name: "Hindi" },
+      { slug: "hindi-b", id: "3144", name: "Hindi" },
+      { slug: "english-communicative", id: "3145", name: "English" },
+      { slug: "english-language-and-literature-class", id: "3146", name: "English" },
+      { slug: "social-science", id: "3149", name: "Social Science" },
+    ],
+    11: [
+      { slug: "english-elective-ncert", id: "7838", name: "English" },
+      { slug: "english-core", id: "7840", name: "English" },
+      { slug: "hindi-core", id: "7841", name: "Hindi" },
+      { slug: "hindi-elective", id: "7842", name: "Hindi" },
+      { slug: "sanskrit-core", id: "7866", name: "Sanskrit" },
+      { slug: "sanskrit-elective", id: "7867", name: "Sanskrit" },
+      { slug: "economics", id: "7883", name: "Economics" },
+      { slug: "business-studies", id: "7884", name: "Business Studies" },
+      { slug: "accountancy", id: "7885", name: "Accountancy" },
+      { slug: "history", id: "7886", name: "History" },
+      { slug: "political-science", id: "7889", name: "Political Science" },
+      { slug: "geography", id: "7920", name: "Geography" },
+      { slug: "psychology", id: "7890", name: "Psychology" },
+      { slug: "sociology", id: "7891", name: "Sociology" },
+    ],
+    12: [
+      { slug: "english-elective-ncert", id: "2826", name: "English" },
+      { slug: "english-core", id: "2827", name: "English" },
+      { slug: "hindi-core", id: "3025", name: "Hindi" },
+      { slug: "hindi-elective", id: "3026", name: "Hindi" },
+      { slug: "sanskrit-core", id: "2922", name: "Sanskrit" },
+      { slug: "sanskrit-elective", id: "2923", name: "Sanskrit" },
+      { slug: "economics", id: "2872", name: "Economics" },
+      { slug: "business-studies", id: "2828", name: "Business Studies" },
+      { slug: "accountancy", id: "2873", name: "Accountancy" },
+      { slug: "history", id: "2875", name: "History" },
+      { slug: "political-science", id: "2876", name: "Political Science" },
+      { slug: "geography", id: "2877", name: "Geography" },
+      { slug: "psychology", id: "2878", name: "Psychology" },
+      { slug: "sociology", id: "2879", name: "Sociology" },
+    ],
+  },
+  icse: {
+    10: [
+      { slug: "physics", id: "3799", name: "Physics" },
+      { slug: "english-2-literature-english", id: "3849", name: "English" },
+      { slug: "geography", id: "3851", name: "Geography" },
+      { slug: "history-civics", id: "3231", name: "History and Civics" },
+      { slug: "economics", id: "3235", name: "Economics" },
+      { slug: "commercial-studies", id: "3237", name: "Commercial Studies" },
+      { slug: "environmental-science", id: "3276", name: "Environmental Science" },
+      { slug: "computer-applications", id: "3279", name: "Computer Applications" },
+      { slug: "economic-applications", id: "3282", name: "Economic Applications" },
+      { slug: "commercial-applications-10th", id: "3283", name: "Commercial Applications" },
+      { slug: "home-science", id: "3312", name: "Home Science" },
+      { slug: "physical-education", id: "3317", name: "Physical Education" },
+      { slug: "environmental-applications", id: "3320", name: "Environmental Applications" },
+    ],
+  },
+};
+
+/**
+ * Deterministic textbook index built from Shaalaa's textbook-solutions-books sitemap.
+ * Maps board → class → subject-slug → list of the subject's REAL textbooks (slug + id).
+ *
+ * Why this exists: Shaalaa's `?subjects=slug_id` discovery pages are unreliable — they
+ * inject ~14 unrelated "popular" books (RD Sharma / NCERT maths-science for other
+ * classes) and OMIT many real books (Hindi Kshitij/Kritika/Sparsh/Sanchayan, English
+ * Beehive/Moments, and the English-Communicative books that use a "cbse-solutions"
+ * prefix instead of "ncert-solutions"). This manifest bypasses discovery entirely and
+ * scrapes the exact textbook IDs directly.
+ */
+const SUBJECT_TEXTBOOKS = {
+  cbse: {
+    9: {
+      sanskrit: [
+        { slug: "ncert-solutions-sanskrit-shemushi-class-9", id: "559" },
+        { slug: "ncert-solutions-sanskrit-abhyaswaan-bhav-class-9", id: "560" },
+        { slug: "ncert-solutions-sanskrit-vyakaranavithi-class-9-and-10", id: "583" },
+        { slug: "ncert-solutions-sanskrit-sharda-class-9", id: "731" },
+      ],
+      hindi: [
+        { slug: "ncert-solutions-hindi-kritika-bhag-1-class-9", id: "231" },
+        { slug: "ncert-solutions-hindi-kshitij-bhag-1-class-9", id: "232" },
+        { slug: "ncert-solutions-hindi-ganga-class-9", id: "732" },
+      ],
+      "hindi-b": [
+        { slug: "ncert-solutions-hindi-sanchayan-bhag-1-class-9", id: "233" },
+        { slug: "ncert-solutions-hindi-sparsh-bhag-1-class-9", id: "234" },
+      ],
+      "english-communicative": [
+        { slug: "cbse-solutions-english-literature-reader-english-class-9", id: "63" },
+        { slug: "cbse-solutions-english-main-course-book-class-9", id: "68" },
+        { slug: "cbse-solutions-english-workbook-class-9", id: "91" },
+      ],
+      "english-language-and-literature-9th": [
+        { slug: "ncert-solutions-english-beehive-class-9", id: "58" },
+        { slug: "ncert-solutions-english-moments-class-9", id: "59" },
+        { slug: "ncert-solutions-english-kaveri-class-9", id: "729" },
+      ],
+      "social-science": [
+        { slug: "ncert-solutions-social-science-geography-contemporary-india-1-english-class-9", id: "94" },
+        { slug: "ncert-solutions-social-science-india-and-the-contemporary-world-1-english-class-9", id: "95" },
+        { slug: "ncert-solutions-social-science-democratic-politics-1-english-class-9", id: "96" },
+        { slug: "ncert-solutions-social-science-economics-english-class-9", id: "97" },
+        { slug: "ncert-solutions-social-science-understanding-society-india-and-beyond-part-1-english-class-9", id: "745" },
+      ],
+    },
+    10: {
+      sanskrit: [
+        { slug: "ncert-solutions-sanskrit-shemushi-class-10", id: "561" },
+        { slug: "ncert-solutions-sanskrit-abhyaswaan-bhav-class-10", id: "562" },
+      ],
+      hindi: [
+        { slug: "ncert-solutions-hindi-kritika-bhag-2-class-10", id: "235" },
+        { slug: "ncert-solutions-hindi-kshitij-bhag-2-class-10", id: "236" },
+      ],
+      "hindi-b": [
+        { slug: "ncert-solutions-hindi-sanchayan-bhag-2-class-10", id: "237" },
+        { slug: "ncert-solutions-hindi-sparsh-bhag-2-class-10", id: "238" },
+      ],
+      "english-communicative": [
+        { slug: "cbse-solutions-english-literature-reader-class-10", id: "65" },
+        { slug: "cbse-solutions-english-main-course-book-class-10", id: "66" },
+        { slug: "cbse-solutions-english-workbook-class-10", id: "67" },
+      ],
+      "english-language-and-literature-class": [
+        { slug: "ncert-solutions-english-first-flight-class-10", id: "60" },
+        { slug: "ncert-solutions-english-footprints-without-feet-class-10", id: "61" },
+        { slug: "ncert-solutions-english-words-and-expressions-2-class-10", id: "581" },
+      ],
+      "social-science": [
+        { slug: "ncert-solutions-social-science-india-and-the-contemporary-world-2-english-class-10", id: "73" },
+        { slug: "ncert-solutions-social-science-democratic-politics-2-english-class-10", id: "74" },
+        { slug: "ncert-solutions-social-science-understanding-economic-development-english-class-10", id: "75" },
+        { slug: "ncert-solutions-social-science-contemporary-india-2-english-class-10", id: "76" },
+      ],
+    },
+    11: {
+      "english-core": [
+        { slug: "ncert-solutions-english-hornbill-core-class-11", id: "101" },
+        { slug: "ncert-solutions-english-snapshots-core-class-11", id: "102" },
+      ],
+      "english-elective-ncert": [
+        { slug: "ncert-solutions-english-woven-words-elective-class-11", id: "103" },
+      ],
+      "hindi-core": [
+        { slug: "ncert-solutions-hindi-aaroh-bhag-1-class-11", id: "574" },
+        { slug: "ncert-solutions-hindi-vitaan-bhag-1-class-11", id: "575" },
+      ],
+      "hindi-elective": [
+        { slug: "ncert-solutions-hindi-antara-bhag-1-class-11", id: "576" },
+        { slug: "ncert-solutions-hindi-abhivyakti-aur-madhyam-class-11-and-12", id: "736" },
+      ],
+      "sanskrit-core": [
+        { slug: "ncert-solutions-sanskrit-bhaswati-core-class-11", id: "563" },
+      ],
+      "sanskrit-elective": [
+        { slug: "ncert-solutions-sanskrit-shashwati-elective-class-11", id: "564" },
+        { slug: "ncert-solutions-sanskrit-sahitya-parichay-class-11-and-12", id: "580" },
+      ],
+      economics: [
+        { slug: "ncert-solutions-economics-introductory-microeconomics-english-class-11", id: "125" },
+        { slug: "ncert-solutions-statistics-for-economics-english-class-11", id: "142" },
+      ],
+      "business-studies": [
+        { slug: "ncert-solutions-business-studies-english-class-11", id: "141" },
+      ],
+      accountancy: [
+        { slug: "ncert-solutions-accountancy-financial-accounting-part-1-and-2-english-class-11", id: "483" },
+      ],
+      history: [
+        { slug: "ncert-solutions-themes-in-world-history-english-class-11", id: "134" },
+      ],
+      "political-science": [
+        { slug: "ncert-solutions-political-science-political-theory-english-class-11", id: "135" },
+        { slug: "ncert-solutions-political-science-indian-constitution-at-work-english-class-11", id: "136" },
+      ],
+      geography: [
+        { slug: "ncert-solutions-geography-india-physical-environment-english-class-11", id: "498" },
+        { slug: "ncert-solutions-fundamentals-of-physical-geography-english-class-11", id: "499" },
+        { slug: "ncert-solutions-practical-work-in-geography-part-1-english-class-11", id: "500" },
+      ],
+      psychology: [
+        { slug: "ncert-solutions-psychology-english-class-11", id: "137" },
+      ],
+      sociology: [
+        { slug: "ncert-solutions-introducing-sociology-english-class-11", id: "138" },
+        { slug: "ncert-solutions-sociology-understanding-society-english-class-11", id: "139" },
+      ],
+    },
+    12: {
+      "english-core": [
+        { slug: "ncert-solutions-english-flamingo-english-core-courses-class-12", id: "78" },
+        { slug: "ncert-solutions-english-vistas-class-12", id: "77" },
+      ],
+      "english-elective-ncert": [
+        { slug: "ncert-solutions-english-kaleidoscope-class-12", id: "439" },
+      ],
+      "hindi-core": [
+        { slug: "ncert-solutions-hindi-aaroh-bhag-2-english-class-12", id: "448" },
+        { slug: "ncert-solutions-hindi-vitaan-bhag-2-class-12", id: "449" },
+      ],
+      "hindi-elective": [
+        { slug: "ncert-solutions-hindi-antara-bhag-2-class-12", id: "450" },
+        { slug: "ncert-solutions-hindi-antaraal-bhag-2-class-12", id: "451" },
+      ],
+      "sanskrit-core": [
+        { slug: "ncert-solutions-sanskrit-bhaswati-class-12", id: "543" },
+      ],
+      "sanskrit-elective": [
+        { slug: "ncert-solutions-sanskrit-shashwati-class-12", id: "565" },
+      ],
+      economics: [
+        { slug: "ncert-solutions-economics-introductory-macroeconomics-english-class-12", id: "79" },
+        { slug: "ncert-solutions-economics-indian-economic-development-english-class-12", id: "124" },
+      ],
+      "business-studies": [
+        { slug: "ncert-solutions-business-studies-part-1-principles-and-functions-of-management-english-class-12", id: "81" },
+        { slug: "ncert-solutions-business-studies-part-2-business-finance-and-marketing-english-class-12", id: "82" },
+      ],
+      accountancy: [
+        { slug: "ncert-solutions-accountancy-partnership-accounts-english-class-12", id: "114" },
+        { slug: "ncert-solutions-accountancy-company-accounts-and-analysis-of-financial-statements-english-class-12", id: "120" },
+        { slug: "ncert-solutions-accountancy-computerised-accounting-system-english-class-12", id: "566" },
+      ],
+      history: [
+        { slug: "ncert-solutions-themes-in-indian-history-part-i-ii-and-iii-english-class-12", id: "83" },
+      ],
+      "political-science": [
+        { slug: "ncert-solutions-political-science-contemporary-world-politics-english-class-12", id: "88" },
+        { slug: "ncert-solutions-political-science-politics-in-india-since-independence-english-class-12", id: "89" },
+      ],
+      geography: [
+        { slug: "ncert-solutions-geography-fundamentals-of-human-english-class-12", id: "442" },
+        { slug: "ncert-solutions-geography-india-people-and-economy-english-class-12", id: "443" },
+        { slug: "ncert-solutions-practical-work-in-geography-english-class-12", id: "446" },
+      ],
+      psychology: [
+        { slug: "ncert-solutions-psychology-english-class-12", id: "85" },
+      ],
+      sociology: [
+        { slug: "ncert-solutions-sociology-indian-society-english-class-12", id: "86" },
+        { slug: "ncert-solutions-sociology-social-change-and-development-in-india-english-class-12", id: "87" },
+      ],
+    },
+  },
+  icse: {
+    10: {
+      physics: [
+        { slug: "selina-solutions-concise-physics-english-class-10-icse", id: "32" },
+        { slug: "frank-solutions-physics-part-2-english-class-10-icse", id: "131" },
+        { slug: "lakhmir-singh-solutions-physics-english-class-10-icse", id: "753" },
+      ],
+      "english-2-literature-english": [
+        { slug: "evergreen-publication-solutions-english-treasure-chest-workbook-class-10-icse", id: "734" },
+      ],
+      geography: [
+        { slug: "morning-star-solutions-total-geography-volume-1-english-class-10-icse", id: "619" },
+        { slug: "austine-vas-hemant-m-pednekar-vidhya-malar-solutions-geography-english-class-10-icse", id: "127" },
+      ],
+      "history-civics": [
+        { slug: "icse-solutions-history-and-civics-english-class-10-icse", id: "126" },
+        { slug: "morning-star-solutions-total-history-and-civics-english-class-10-icse", id: "620" },
+      ],
+      economics: [
+        { slug: "goyal-brothers-prakashan-solutions-economics-english-class-10-icse", id: "597" },
+      ],
+      "commercial-studies": [
+        { slug: "goyal-brothers-prakashan-solutions-commercial-studies-english-class-10-icse", id: "616" },
+      ],
+      "environmental-science": [
+        { slug: "goyal-brothers-prakashan-solutions-environmental-science-english-class-10-icse", id: "621" },
+      ],
+      "computer-applications": [
+        { slug: "avichal-solutions-computer-applications-english-class-10-icse", id: "626" },
+        { slug: "rupa-pandit-solutions-computer-applications-english-class-10-icse", id: "766" },
+      ],
+      "economic-applications": [
+        { slug: "goyal-brothers-prakashan-solutions-economic-applications-english-class-10-icse", id: "618" },
+      ],
+      "commercial-applications-10th": [
+        { slug: "goyal-brothers-prakashan-solutions-commercial-applications-english-class-10-icse", id: "617" },
+      ],
+      "home-science": [
+        { slug: "dr-alka-agarwal-solutions-home-science-english-class-10-icse", id: "625" },
+      ],
+      "physical-education": [
+        { slug: "oswal-solutions-physical-education-english-class-10-icse", id: "624" },
+      ],
+      "environmental-applications": [
+        { slug: "huma-syed-solutions-environmental-applications-english-class-10-icse", id: "622" },
+      ],
+    },
   },
 };
 
@@ -127,6 +441,33 @@ function getSubjectPatterns(subjLower) {
   return [];
 }
 
+/**
+ * Shaalaa injects ~14 unrelated "popular" textbooks (RD Sharma maths + NCERT
+ * maths/science/physics/chemistry/biology for various classes) onto EVERY subject
+ * page, before/after the subject's real books. These are never the target for a
+ * language/humanities/commerce subject, so we drop them. Returns true when the
+ * textbook is one of those injected "popular" books AND the subject being scraped
+ * is not itself that maths/science subject (so the generic --subject path still works).
+ */
+function isInjectedPopular(slug, subjectName) {
+  const subject = (subjectName || "").toLowerCase();
+  const rules = [
+    { re: /^rd-sharma-solutions-mathematics/, subject: "math" },
+    { re: /^ncert-solutions-mathematics/, subject: "math" },
+    { re: /^ncert-solutions-science/, subject: "science" },
+    { re: /^ncert-solutions-physics/, subject: "physics" },
+    { re: /^ncert-solutions-chemistry/, subject: "chemistry" },
+    { re: /^ncert-solutions-biology/, subject: "biology" },
+  ];
+  for (const r of rules) {
+    if (r.re.test(slug)) {
+      // Keep it only if we're actually scraping that maths/science subject.
+      return !subject.includes(r.subject);
+    }
+  }
+  return false;
+}
+
 // ─── Helpers ──────────────────────────────────────────────────────
 
 function slugify(text) {
@@ -137,17 +478,26 @@ function delay(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
 
-// Board-specific textbook prefix filters
+// Board-specific textbook filters
 const BOARD_TEXTBOOK_FILTERS = {
   maharashtra: ["balbharati-solutions"],
   cbse: ["ncert-solutions"],
-  icse: ["selina-solutions", "ml-aggarwal", "frank-solutions", "rd-sharma"],
+  // ICSE textbooks carry an "-icse" slug suffix (publishers: selina, frank, nootan,
+  // b-nirmala-shastry, dr-k-k-gupta, etc.). CBSE books (ncert/rd-sharma) share the
+  // "-class-N" pattern but lack the suffix, so suffix-match to keep ICSE data clean.
+  icse: ["-icse"],
 };
 
 function filterTextbooksByBoard(textbooks, boardKey, className) {
-  const prefixes = BOARD_TEXTBOOK_FILTERS[boardKey];
-  if (!prefixes) return textbooks;
-  let filtered = textbooks.filter(tb => prefixes.some(p => tb.slug.startsWith(p)));
+  let filtered;
+  if (boardKey === "icse") {
+    // Suffix-match: ICSE books end in "-icse"; exclude ncert/rd-sharma which do not.
+    filtered = textbooks.filter(tb => BOARD_TEXTBOOK_FILTERS[boardKey].some(p => tb.slug.endsWith(p)));
+  } else {
+    const prefixes = BOARD_TEXTBOOK_FILTERS[boardKey];
+    // null means skip prefix filtering (relies on class-number filter below)
+    filtered = prefixes ? textbooks.filter(tb => prefixes.some(p => tb.slug.startsWith(p))) : textbooks;
+  }
 
   // Also filter by class number (e.g. standard-8, 8th-standard, -8-)
   if (className != null) {
@@ -166,18 +516,86 @@ function filterTextbooksByBoard(textbooks, boardKey, className) {
   return filtered;
 }
 
+const curlHeaders = [
+  "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+  "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+  "Accept-Language: en-US,en;q=0.9",
+  "Sec-Fetch-Dest: document",
+  "Sec-Fetch-Mode: navigate",
+  "Sec-Fetch-Site: none",
+  "Upgrade-Insecure-Requests: 1",
+];
+
+async function fetchWithCurl(url) {
+  const args = ["-sS", "--max-time", "30"];
+  for (const h of curlHeaders) { args.push("-H", h); }
+  args.push(url);
+  const { spawnSync } = await import("node:child_process");
+
+  // Retry transient curl crashes (e.g. Windows STATUS_DLL_INIT_FAILED / exit
+  // 0xC0000142) that happen when the machine is briefly under stress. Without a
+  // retry, a single bad window silently zeroes out an entire subject.
+  const MAX_ATTEMPTS = 3;
+  let lastErr = null;
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    console.log(`     [curl attempt ${attempt}/${MAX_ATTEMPTS}] ${url}`);
+    let r;
+    try {
+      r = spawnSync("curl", args, { encoding: "utf8", maxBuffer: 10 * 1024 * 1024, timeout: 35000 });
+    } catch (spawnErr) {
+      lastErr = spawnErr;
+      console.log(`     [curl spawn error] ${spawnErr.message}`);
+      if (attempt < MAX_ATTEMPTS) {
+        console.log(`     ↻ Retry ${attempt}/${MAX_ATTEMPTS - 1}`);
+        await delay(1000);
+        continue;
+      }
+      throw lastErr;
+    }
+
+    if (r.error) {
+      lastErr = r.error;
+      console.log(`     [curl error] ${r.error.message}`);
+    } else if (r.status !== 0) {
+      lastErr = new Error(`curl exit ${r.status} for ${url}`);
+      console.log(`     [curl exit ${r.status}]`);
+    } else if (!r.stdout || r.stdout.length < 100) {
+      lastErr = new Error(`Empty/too-short response for ${url}`);
+      console.log(`     [curl empty response]`);
+    } else {
+      console.log(`     [curl success] ${r.stdout.length} bytes`);
+      return r.stdout;
+    }
+
+    if (attempt < MAX_ATTEMPTS) {
+      console.log(`     ↻ Retry ${attempt}/${MAX_ATTEMPTS - 1}`);
+      await delay(1000);
+    }
+  }
+  throw lastErr;
+}
+
 async function fetchPage(url) {
   console.log(`  GET ${url}`);
   await delay(DELAY_MS);
-  const res = await fetch(url, {
-    headers: {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-      "Accept-Language": "en-US,en;q=0.5",
-    },
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-  return res.text();
+  // Use curl to bypass Cloudflare bot protection (Node.js fetch gets 403)
+  try {
+    return await fetchWithCurl(url);
+  } catch (e) {
+    // Fallback to Node.js fetch if curl not available
+    if (e.message?.includes("ENOENT")) {
+      const res = await fetch(url, {
+        headers: {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-US,en;q=0.5",
+        },
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+      return res.text();
+    }
+    throw e;
+  }
 }
 
 /**
@@ -561,7 +979,7 @@ function subscriptString(s) {
 
 // ─── Main Scraping Logic ─────────────────────────────────────────
 
-async function scrapeChapter(chapterUrl, chapterName, boardName, className, subjectName) {
+async function scrapeChapter(chapterUrl, chapterName, boardName, className, subjectName, existingByUrl) {
   console.log(`\n  📖 Chapter: ${chapterName}`);
   console.log(`     URL: ${chapterUrl}`);
 
@@ -597,9 +1015,17 @@ async function scrapeChapter(chapterUrl, chapterName, boardName, className, subj
   if (questionLinks.length === 0) return [];
 
   const solutions = [];
+  let reused = 0;
   for (let i = 0; i < questionLinks.length; i++) {
     const q = questionLinks[i];
     try {
+      // Resume: reuse already-scraped questions instead of re-fetching them.
+      if (existingByUrl && existingByUrl.has(q.url)) {
+        solutions.push(existingByUrl.get(q.url));
+        reused++;
+        continue;
+      }
+
       const qHtml = await fetchPage(q.url);
       const { question, answer } = parseSolution(qHtml);
 
@@ -625,36 +1051,65 @@ async function scrapeChapter(chapterUrl, chapterName, boardName, className, subj
     }
   }
 
+  if (reused > 0) console.log(`     ♻️ Reused ${reused}/${questionLinks.length} existing questions`);
+
   return solutions;
 }
 
-async function scrapeSubject(subjectInfo, boardName, className, boardKey) {
+async function scrapeSubject(subjectInfo, boardName, className, boardKey, existingByUrl) {
   console.log(`\n📘 Subject: ${subjectInfo.name}`);
+
+  // Two textbook sources, merged and deduped by id:
+  //  1. SUBJECT_TEXTBOOKS — deterministic index built from Shaalaa's sitemap. Holds
+  //     real books the ?subjects= page often OMITS (Hindi Kshitij/Kritika,
+  //     English-Communicative "cbse-solutions" books, etc.). Some entries are stale
+  //     404s from before NCERT's 2024-25 curriculum rename — those just yield 0
+  //     chapters and are skipped harmlessly.
+  //  2. Live ?subjects= page — catches new-curriculum renames (e.g. class 9's new
+  //     "Kaveri"/"Ganga"/"Sharda" books) not present in the sitemap snapshot.
+  const manifest = SUBJECT_TEXTBOOKS[boardKey]?.[className]?.[subjectInfo.slug];
+  const manifestBooks = manifest
+    ? manifest.map(t => ({ url: `${BASE}/textbook-solutions/${t.slug}_${t.id}`, id: t.id, slug: t.slug }))
+    : [];
 
   const course = COURSE_IDS[boardKey]?.[className];
   const courseSubjectUrl = course
     ? `${BASE}/search-textbook-solutions/${course.slug}_${course.id}?subjects=${subjectInfo.slug}_${subjectInfo.id}`
     : subjectInfo.url;
 
-  // Fetch the course-specific subject page (filters to board-relevant textbooks)
   let html;
   try {
     html = await fetchPage(courseSubjectUrl);
   } catch (err) {
-    console.error(`  ❌ Failed: ${err.message}`);
-    return [];
+    console.error(`  ⚠ Subject page failed: ${err.message} — will try known textbooks`);
+    html = ""; // allow fallback to KNOWN_TEXTBOOKS below
   }
 
-  // Find textbooks, filtered by board + class
-  let textbooks = parseTextbookLinks(html);
-  textbooks = filterTextbooksByBoard(textbooks, boardKey, className);
-  console.log(`  Found ${textbooks.length} board-specific textbooks`);
+  let liveBooks = html ? parseTextbookLinks(html) : [];
+  liveBooks = filterTextbooksByBoard(liveBooks, boardKey, className);
+  if (html) console.log(`  Live subject page: ${liveBooks.length} board-specific textbooks`);
+  if (liveBooks.length > 0) {
+    const before = liveBooks.length;
+    liveBooks = liveBooks.filter(tb => !isInjectedPopular(tb.slug, subjectInfo.name));
+    if (liveBooks.length < before) {
+      console.log(`  Dropped ${before - liveBooks.length}/${before} injected "popular" textbooks (kept ${liveBooks.length})`);
+    }
+  }
+
+  // Merge manifest + live, dedup by textbook id (manifest first for determinism).
+  const seen = new Set();
+  let textbooks = [];
+  for (const tb of [...manifestBooks, ...liveBooks]) {
+    if (seen.has(tb.id)) continue;
+    seen.add(tb.id);
+    textbooks.push(tb);
+  }
+  console.log(`  Total textbooks to scrape: ${textbooks.length} (${manifestBooks.length} manifest + ${liveBooks.length} live)`);
 
   if (textbooks.length === 0) {
     // Try known textbook IDs as fallback (for e.g. Maharashtra Class 10 SSC that uses different URL patterns)
     const known = KNOWN_TEXTBOOKS[boardKey]?.[className];
     if (known) {
-      // Filter known textbooks by subject name relevance
       const subjLower = subjectInfo.name.toLowerCase();
       let filtered = known;
       const patterns = getSubjectPatterns(subjLower);
@@ -677,7 +1132,7 @@ async function scrapeSubject(subjectInfo, boardName, className, boardKey) {
       console.log(`  Found ${directChapters.length} chapters directly`);
       let allSolutions = [];
       for (const ch of directChapters) {
-        const solutions = await scrapeChapter(ch.url, ch.name, boardName, className, subjectInfo.name);
+        const solutions = await scrapeChapter(ch.url, ch.name, boardName, className, subjectInfo.name, existingByUrl);
         allSolutions = allSolutions.concat(solutions);
       }
       return allSolutions;
@@ -702,7 +1157,7 @@ async function scrapeSubject(subjectInfo, boardName, className, boardKey) {
     console.log(`    Found ${chapters.length} chapters`);
 
     for (const ch of chapters) {
-      const solutions = await scrapeChapter(ch.url, ch.name, boardName, className, subjectInfo.name);
+      const solutions = await scrapeChapter(ch.url, ch.name, boardName, className, subjectInfo.name, existingByUrl);
       allSolutions = allSolutions.concat(solutions);
 
       // Save incrementally after each chapter
@@ -730,6 +1185,27 @@ function saveSolutions(solutions, board, className, subjectSlug) {
   }
 
   console.log(`\n  💾 Saved ${solutions.length} solutions to ${dir}`);
+}
+
+/**
+ * Load previously-scraped solutions for a board/class/subject, keyed by sourceUrl.
+ * Used by --resume to skip re-fetching questions that are already on disk.
+ */
+function loadExistingSolutions(board, className, subjectSlug) {
+  const dir = path.join(OUTPUT_DIR, board, String(className).padStart(2, "0"), subjectSlug);
+  const filePath = path.join(dir, "solutions.json");
+  if (!fs.existsSync(filePath)) return null;
+  try {
+    const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    if (!Array.isArray(data)) return null;
+    const map = new Map();
+    for (const s of data) {
+      if (s && s.sourceUrl) map.set(s.sourceUrl, s);
+    }
+    return map;
+  } catch {
+    return null;
+  }
 }
 
 function convertBoardName(boardKey) {
@@ -786,6 +1262,49 @@ async function discoverCourse(boardKey, className) {
   return subjects;
 }
 
+// ─── Missing-targets runner ──────────────────────────────────────
+
+/**
+ * Scrape every subject in MISSING_TARGETS for the given board (or all boards),
+ * skipping discovery (the slug/id pairs are already known from the sitemap).
+ */
+async function runMissingTargets(boardKeyFilter, resume) {
+  const boards = boardKeyFilter ? [boardKeyFilter] : Object.keys(MISSING_TARGETS);
+  let grandTotal = 0;
+
+  for (const boardKey of boards) {
+    const byClass = MISSING_TARGETS[boardKey];
+    if (!byClass) {
+      console.error(`❌ No missing-target manifest for board "${boardKey}"`);
+      continue;
+    }
+    const boardName = convertBoardName(boardKey);
+
+    for (const [classStr, subjects] of Object.entries(byClass)) {
+      const className = parseInt(classStr);
+      console.log(`\n${"═".repeat(60)}`);
+      console.log(`  ${boardName} Class ${className}: ${subjects.length} missing subjects`);
+      console.log(`${"═".repeat(60)}`);
+
+      for (const subj of subjects) {
+        const subjectInfo = { name: subj.name, slug: subj.slug, id: subj.id, url: "" };
+        const existingByUrl = resume ? loadExistingSolutions(boardKey, className, subj.slug) : null;
+        if (existingByUrl && existingByUrl.size > 0) {
+          console.log(`\n♻️ Resume: ${existingByUrl.size} existing solutions loaded for ${subj.name}`);
+        }
+        const solutions = await scrapeSubject(subjectInfo, boardName, className, boardKey, existingByUrl);
+        saveSolutions(solutions, boardKey, className, subj.slug);
+        grandTotal += solutions.length;
+      }
+    }
+  }
+
+  console.log(`\n${"═".repeat(60)}`);
+  console.log(`  ✅ Missing-targets scrape complete: ${grandTotal} solutions`);
+  console.log(`${"═".repeat(60)}`);
+  return grandTotal;
+}
+
 // ─── CLI ──────────────────────────────────────────────────────────
 
 async function main() {
@@ -799,7 +1318,25 @@ async function main() {
   const classStr = getArg("class") || "9";
   const subjectFilter = getArg("subject"); // optional - specific subject slug
   const dryRun = args.includes("--dry");
+  const resume = args.includes("--resume");
   const chapterOnly = getArg("chapter"); // optional - specific chapter
+  const missing = args.includes("--missing");
+
+  // --missing mode: scrape only the known-missing subjects (no discovery step).
+  if (missing) {
+    const boardArg = getArg("board"); // optional — null means all boards in manifest
+    if (boardArg && !MISSING_TARGETS[boardArg]) {
+      console.error(`Unknown board for --missing: ${boardArg}. Valid: ${Object.keys(MISSING_TARGETS).join(", ")}`);
+      process.exit(1);
+    }
+    console.log("═".repeat(60));
+    console.log("  Shaalaa Solution Scraper — MISSING TARGETS mode");
+    console.log(`  Boards: ${boardArg || Object.keys(MISSING_TARGETS).join(", ")}`);
+    if (resume) console.log("  Mode: RESUME (skip already-scraped questions)");
+    console.log("═".repeat(60));
+    await runMissingTargets(boardArg, resume);
+    return;
+  }
 
   const className = parseInt(classStr);
 
@@ -818,6 +1355,7 @@ async function main() {
   console.log(`  Board: ${convertBoardName(boardKey)} | Class: ${className}`);
   if (subjectFilter) console.log(`  Subject: ${subjectFilter}`);
   if (dryRun) console.log(`  Mode: DISCOVERY ONLY (--dry)`);
+  if (resume) console.log(`  Mode: RESUME (skip already-scraped questions)`);
   console.log("═".repeat(60));
 
   // Step 1: Discover subjects
@@ -872,7 +1410,11 @@ async function main() {
 
   // Step 3: Scrape each subject
   for (const subject of targets) {
-    const solutions = await scrapeSubject(subject, boardName, className, boardKey);
+    const existingByUrl = resume ? loadExistingSolutions(boardKey, className, subject.slug) : null;
+    if (existingByUrl && existingByUrl.size > 0) {
+      console.log(`\n♻️ Resume mode: ${existingByUrl.size} existing solutions loaded — skipping re-fetch`);
+    }
+    const solutions = await scrapeSubject(subject, boardName, className, boardKey, existingByUrl);
     saveSolutions(solutions, boardKey, className, subject.slug);
   }
 

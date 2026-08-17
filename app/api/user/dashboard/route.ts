@@ -26,6 +26,9 @@ export async function GET(req: NextRequest) {
       .sort({ updatedAt: -1 })
       .toArray();
 
+    const matchResultsCount = await db.collection("match_results")
+      .countDocuments({ userId: user.userId });
+
     return NextResponse.json({
       bookmarks,
       counsellingRequests,
@@ -35,6 +38,7 @@ export async function GET(req: NextRequest) {
         savedColleges: bookmarks.filter((b) => (b as Record<string, unknown>).itemType === "college").length,
         counsellingCount: counsellingRequests.length,
         resumeCount: resumes.length,
+        matchResultsCount,
       },
     });
   } catch (error) {

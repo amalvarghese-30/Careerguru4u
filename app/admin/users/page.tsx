@@ -29,6 +29,7 @@ export default function UsersPage() {
   const [message, setMessage] = useState("");
   const [showAddModal, setShowAddModal] = useState(false);
   const [addForm, setAddForm] = useState({ fullName: "", email: "", password: "", phone: "", role: "student" });
+  const [passwordError, setPasswordError] = useState("");
 
 
   const fetchUsers = useCallback(async () => {
@@ -96,6 +97,22 @@ export default function UsersPage() {
 
   const handleAddUser = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Client-side password validation (mirrors backend policy)
+    const pw = addForm.password;
+    const failedChecks: string[] = [];
+    if (pw.length < 10) failedChecks.push("at least 10 characters");
+    if (!/[a-z]/.test(pw)) failedChecks.push("a lowercase letter");
+    if (!/[A-Z]/.test(pw)) failedChecks.push("an uppercase letter");
+    if (!/[0-9]/.test(pw)) failedChecks.push("a number");
+    if (!/[^A-Za-z0-9]/.test(pw)) failedChecks.push("a symbol");
+    if (/[<>"'().,\[\]]/.test(pw)) failedChecks.push("no forbidden characters (<>\"'().,[])");
+    if (failedChecks.length) {
+      setPasswordError(`Password needs ${failedChecks.join(", ")}`);
+      return;
+    }
+    setPasswordError("");
+
     try {
       const res = await fetch("/api/admin/users", {
         method: "POST",
@@ -300,7 +317,7 @@ export default function UsersPage() {
               <form onSubmit={handleAddUser} className="space-y-4">
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">Full Name</label><input required value={addForm.fullName} onChange={(e) => setAddForm({ ...addForm, fullName: e.target.value })} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">Email</label><input required type="email" value={addForm.email} onChange={(e) => setAddForm({ ...addForm, email: e.target.value })} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
-                <div><label className="block text-xs font-semibold text-slate-500 mb-1">Password</label><input required type="password" minLength={6} value={addForm.password} onChange={(e) => setAddForm({ ...addForm, password: e.target.value })} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
+                <div><label className="block text-xs font-semibold text-slate-500 mb-1">Password</label><input required type="password" minLength={10} value={addForm.password} onChange={(e) => setAddForm({ ...addForm, password: e.target.value })} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /><p className="text-[11px] text-slate-400 mt-1">Min 10 chars with uppercase, lowercase, number &amp; symbol.</p>{passwordError && <p className="text-xs text-red-600 mt-1">{passwordError}</p>}</div>
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">Phone</label><input value={addForm.phone} onChange={(e) => setAddForm({ ...addForm, phone: e.target.value })} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:border-brand-royal" /></div>
                 <div><label className="block text-xs font-semibold text-slate-500 mb-1">Role</label><select value={addForm.role} onChange={(e) => setAddForm({ ...addForm, role: e.target.value })} className="w-full p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-sm"><option value="student">Student</option><option value="counsellor">Counsellor</option><option value="admin">Admin</option></select></div>
                 <button type="submit" className="w-full py-2.5 rounded-xl bg-brand-gradient-static text-white text-sm font-bold hover:shadow-brand-btn transition-shadow">Create User</button>

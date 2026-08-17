@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, ArrowRight, Sparkles, Heart, RefreshCw, IndianRupee, TrendingUp } from "lucide-react";
 import { getCareerById } from "@/lib/careers-data";
 import type { CareerData } from "@/lib/careers-data";
+import { useAuthStore } from "@/lib/auth-store";
 
 const questions = [
   {
@@ -94,9 +95,11 @@ interface MatchResult {
 }
 
 export default function CareerMatchPage() {
+  const { isAuthenticated } = useAuthStore();
   const [step, setStep] = useState(0);
   const [tags, setTags] = useState<Record<string, number>>({});
   const [selected, setSelected] = useState<number | null>(null);
+  const postedRef = useRef(false);
 
   const handleAnswer = (optionIdx: number) => {
     setSelected(optionIdx);
@@ -112,7 +115,7 @@ export default function CareerMatchPage() {
     }, 350);
   };
 
-  const reset = () => { setStep(0); setTags({}); setSelected(null); };
+  const reset = () => { setStep(0); setTags({}); setSelected(null); postedRef.current = false; };
 
   const getResults = (): MatchResult[] => {
     const careerScores: Record<string, number> = {};
@@ -135,6 +138,24 @@ export default function CareerMatchPage() {
   const isComplete = step >= questions.length;
   const progress = Math.round((step / questions.length) * 100);
   const results = isComplete ? getResults() : [];
+
+  // Persist the top matches to the backend once, for authenticated users.
+  useEffect(() => {
+    if (!isComplete || !isAuthenticated || postedRef.current) return;
+    const finalResults = getResults();
+    if (finalResults.length === 0) return;
+    postedRef.current = true;
+    const getToken = () => document.cookie.match(/cg-auth-token=([^;]+)/)?.[1] || "";
+    fetch("/api/user/match-results", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${getToken()}` },
+      credentials: "include",
+      body: JSON.stringify({
+        matches: finalResults.map((r) => ({ careerId: r.career.id, title: r.career.title, match: r.match })),
+      }),
+    }).catch(() => {});
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isComplete, isAuthenticated]);
 
   return (
     <div className="min-h-screen bg-brand-bg pt-16">

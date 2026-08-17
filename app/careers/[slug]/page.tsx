@@ -1,5 +1,7 @@
 "use client";
 
+export const revalidate = 3600;
+
 import { useState, useEffect, use } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -9,6 +11,7 @@ import {
   Target, ExternalLink, Heart, MapPin, ArrowRight, Zap, Loader2,
 } from "lucide-react";
 import LeadCaptureForm from "@/components/sections/LeadCaptureForm";
+import { useAuthStore } from "@/lib/auth-store";
 
 interface CareerData {
   id: string;
@@ -298,10 +301,14 @@ function FAQsTab({ career }: { career: CareerData }) {
 
 export default function CareerPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = use(params);
+  const { isAuthenticated } = useAuthStore();
   const [activeTab, setActiveTab] = useState<TabId>("overview");
   const [saved, setSaved] = useState(false);
+  const [saving, setSaving] = useState(false);
   const [career, setCareer] = useState<CareerData | null>(null);
   const [loading, setLoading] = useState(true);
+
+  const getToken = () => document.cookie.match(/cg-auth-token=([^;]+)/)?.[1] || "";
 
   useEffect(() => {
     fetch(`/api/careers/${slug}`)
@@ -312,6 +319,46 @@ export default function CareerPage({ params }: { params: Promise<{ slug: string 
       .catch(console.error)
       .finally(() => setLoading(false));
   }, [slug]);
+
+  // On load, initialize the saved state from the user's existing bookmarks (if authenticated).
+  useEffect(() => {
+    if (!career || !isAuthenticated) return;
+    const itemId = career.id || slug;
+    fetch("/api/user/bookmarks", {
+      headers: { Authorization: `Bearer ${getToken()}` },
+      credentials: "include",
+    })
+      .then(r => r.json())
+      .then(data => {
+        const bookmarks = data.bookmarks || [];
+        setSaved(bookmarks.some((b: { itemId: string; itemType: string }) => b.itemType === "career" && b.itemId === itemId));
+      })
+      .catch(() => {});
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [career, slug, isAuthenticated]);
+
+  const handleSave = async () => {
+    if (!career) return;
+    if (!isAuthenticated) {
+      window.location.href = "/login";
+      return;
+    }
+    setSaving(true);
+    try {
+      const res = await fetch("/api/user/bookmarks", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${getToken()}` },
+        credentials: "include",
+        body: JSON.stringify({ itemId: career.id || slug, itemType: "career", title: career.title }),
+      });
+      const data = await res.json();
+      if (data.success) setSaved(data.bookmarked);
+    } catch (e) {
+      console.error("Failed to save career:", e);
+    } finally {
+      setSaving(false);
+    }
+  };
 
   if (loading) {
     return (
@@ -376,15 +423,16 @@ export default function CareerPage({ params }: { params: Promise<{ slug: string 
               <p className="text-white/70 mt-3 text-lg max-w-2xl">{career.subtitle}</p>
             </div>
             <button
-              onClick={() => setSaved(!saved)}
-              className={`flex-shrink-0 flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-medium transition-all ${
+              onClick={handleSave}
+              disabled={saving}
+              className={`flex-shrink-0 flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-medium transition-all disabled:opacity-60 ${
                 saved
                   ? "bg-red-500 text-white"
                   : "bg-white/10 text-white hover:bg-white/20"
               }`}
             >
               <Heart className={`h-4 w-4 ${saved ? "fill-white" : ""}`} />
-              {saved ? "Saved" : "Save Career"}
+              {saving ? "Saving..." : saved ? "Saved" : "Save Career"}
             </button>
           </div>
         </div>

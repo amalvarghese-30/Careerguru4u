@@ -30,6 +30,14 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
     }
 
+    // Block suspended / inactive accounts from logging in
+    if (user.status === "inactive" || user.status === "suspended") {
+      return NextResponse.json(
+        { error: "Your account is not active. Please contact support." },
+        { status: 403 }
+      );
+    }
+
     const token = jwt.sign(
       {
         userId: user._id.toString(),

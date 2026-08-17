@@ -1,7 +1,7 @@
 // app/academic/[board]/page.tsx
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { BookOpen, GraduationCap } from "lucide-react";
+import { BookOpen, GraduationCap, Download } from "lucide-react";
 import { GlassCard } from "@/components/ui/GlassCard";
 
 const boardInfo: Record<string, { name: string; description: string; students: string; fullName: string }> = {
@@ -137,26 +137,42 @@ export default async function BoardPage({ params }: BoardPageProps) {
                     )}
 
                     {board === "maharashtra-board" && (
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-3xl mx-auto">
-                            <GlassCard hover className="p-6">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <div className="h-10 w-10 rounded-xl bg-green-100 flex items-center justify-center">
-                                        <BookOpen className="h-5 w-5 text-green-600" />
+                        <>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-3xl mx-auto">
+                                <GlassCard hover className="p-6">
+                                    <div className="flex items-center gap-3 mb-3">
+                                        <div className="h-10 w-10 rounded-xl bg-green-100 flex items-center justify-center">
+                                            <BookOpen className="h-5 w-5 text-green-600" />
+                                        </div>
+                                        <h3 className="font-semibold text-slate-800">Balbharati Solutions</h3>
                                     </div>
-                                    <h3 className="font-semibold text-slate-800">Balbharati Solutions</h3>
-                                </div>
-                                <p className="text-sm text-slate-500">Maharashtra State Board (Balbharati) textbook solutions — Mathematics, Science, History, Geography for Classes 1–12.</p>
-                            </GlassCard>
-                            <GlassCard hover className="p-6">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <div className="h-10 w-10 rounded-xl bg-amber-100 flex items-center justify-center">
-                                        <BookOpen className="h-5 w-5 text-amber-600" />
+                                    <p className="text-sm text-slate-500">Maharashtra State Board (Balbharati) textbook solutions — Mathematics, Science, History, Geography for Classes 1–12.</p>
+                                </GlassCard>
+                                <GlassCard hover className="p-6">
+                                    <div className="flex items-center gap-3 mb-3">
+                                        <div className="h-10 w-10 rounded-xl bg-amber-100 flex items-center justify-center">
+                                            <BookOpen className="h-5 w-5 text-amber-600" />
+                                        </div>
+                                        <h3 className="font-semibold text-slate-800">Target Publications</h3>
                                     </div>
-                                    <h3 className="font-semibold text-slate-800">Target Publications</h3>
-                                </div>
-                                <p className="text-sm text-slate-500">Popular reference book solutions for Classes 10 & 12 board exam preparation.</p>
-                            </GlassCard>
-                        </div>
+                                    <p className="text-sm text-slate-500">Popular reference book solutions for Classes 10 & 12 board exam preparation.</p>
+                                </GlassCard>
+                            </div>
+
+                            <div className="mt-8">
+                                <Link href="/academic/maharashtra-board/textbooks" className="block">
+                                    <GlassCard hover className="p-6 border-emerald-200">
+                                        <div className="flex items-center gap-3 mb-3">
+                                            <div className="h-10 w-10 rounded-xl bg-emerald-100 flex items-center justify-center">
+                                                <Download className="h-5 w-5 text-emerald-600" />
+                                            </div>
+                                            <h3 className="font-semibold text-slate-800">Official eBalbharati Textbooks</h3>
+                                        </div>
+                                        <p className="text-sm text-slate-500">Direct links to 22 official PDF textbooks from Classes 1–12 (Marathi & English medium) on the Balbharati portal. No hosting — only official source links.</p>
+                                    </GlassCard>
+                                </Link>
+                            </div>
+                        </>
                     )}
                 </div>
             </section>

@@ -19,12 +19,21 @@ export async function GET(req: NextRequest) {
       ];
     }
 
-    const scholarships = await db.collection("scholarships")
-      .find(query)
-      .sort({ createdAt: -1 })
-      .toArray();
+    const page = Math.max(1, parseInt(searchParams.get("page") || "1"));
+    const limitRaw = parseInt(searchParams.get("limit") || "");
+    const limit = limitRaw ? Math.min(Math.max(limitRaw, 1), 200) : 0; // 0 = no limit (backward compatible)
+    const skip = limit ? (page - 1) * limit : 0;
 
-    return NextResponse.json({ scholarships, total: scholarships.length });
+    const find = db.collection("scholarships").find(query).sort({ createdAt: -1 });
+    const [scholarships, totalCount] = await Promise.all([
+      limit ? find.skip(skip).limit(limit).toArray() : find.toArray(),
+      db.collection("scholarships").countDocuments(query),
+    ]);
+
+    return NextResponse.json(
+      { scholarships, total: totalCount, totalCount, page, limit: limit || scholarships.length },
+      { headers: { "Cache-Control": "public, max-age=300, stale-while-revalidate=3600" } }
+    );
   } catch (error) {
     console.error("Public scholarships GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });

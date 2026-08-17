@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { requireAdmin } from "@/lib/api-auth";
 import { ObjectId } from "mongodb";
 
 export async function GET(req: NextRequest) {
@@ -20,7 +21,8 @@ export async function GET(req: NextRequest) {
         const query: any = {};
         if (board) query.board = board;
         if (classNum) query.class = parseInt(classNum);
-        if (subject) query.subject = subject;
+        // "all" (or empty) means "across all subjects" for full mock tests — do not filter by subject.
+        if (subject && subject !== "all") query.subject = subject;
 
         // Support both single chapter and comma-separated chapters
         if (chaptersRaw) {
@@ -39,7 +41,7 @@ export async function GET(req: NextRequest) {
 
         const questions = await db.collection("mcq_questions")
             .find(query)
-            .limit(Math.min(limit, 50))
+            .limit(Math.min(limit, 100))
             .toArray();
 
         const sanitized = questions.map((q: Record<string, unknown>) => ({
@@ -62,6 +64,9 @@ export async function GET(req: NextRequest) {
 }
 
 export async function DELETE(req: NextRequest) {
+    const admin = requireAdmin(req);
+    if (!admin) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
     try {
         const { searchParams } = new URL(req.url);
         const id = searchParams.get("id");

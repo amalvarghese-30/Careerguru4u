@@ -23,7 +23,10 @@ const DEFAULTS = {
   favicon: "",
 };
 
-export async function GET() {
+export async function GET(req: NextRequest) {
+  const admin = requireAdmin(req);
+  if (!admin) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
   try {
     const client = await clientPromise;
     const db = client.db("career_guru");

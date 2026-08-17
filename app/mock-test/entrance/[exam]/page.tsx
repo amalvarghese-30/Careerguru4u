@@ -131,11 +131,25 @@ export default function EntranceExamPage() {
                                     <div>
                                         <h3 className="font-semibold text-slate-800 mb-1">{subj.name}</h3>
                                         <p className="text-xs text-slate-400 mb-3">
-                                            {subj.topics?.length || "Multiple"} topics covered
+                                            {subj.topics?.length || 0} topic{subj.topics?.length === 1 ? "" : "s"}
                                         </p>
                                     </div>
                                     <BookOpen className="h-8 w-8 text-brand-royal/20" />
                                 </div>
+                                {subj.topics?.length > 0 && (
+                                    <div className="flex flex-wrap gap-1.5 mb-4">
+                                        {subj.topics.slice(0, 4).map(topic => (
+                                            <span key={topic} className="text-[11px] px-2 py-0.5 rounded-full bg-slate-100 text-slate-500 font-medium">
+                                                {topic}
+                                            </span>
+                                        ))}
+                                        {subj.topics.length > 4 && (
+                                            <span className="text-[11px] px-2 py-0.5 rounded-full bg-brand-bg text-brand-royal font-medium">
+                                                +{subj.topics.length - 4} more
+                                            </span>
+                                        )}
+                                    </div>
+                                )}
                                 <button
                                     onClick={() => router.push(`/mock-test/entrance/${exam.examType}/${encodeURIComponent(subj.name)}`)}
                                     className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-brand-royal text-white rounded-xl font-semibold text-sm hover:bg-brand-navy transition-colors"

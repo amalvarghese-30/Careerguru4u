@@ -18,6 +18,14 @@ const ALLOWED_TEXTBOOK_FIELDS = new Set([
   "fileSize",
   "downloads",
   "cloudinaryPublicId",
+  // eBalbharati-specific fields
+  "medium",
+  "variant",
+  "code",
+  "officialUrl",
+  "directPdfUrl",
+  "isOfficial",
+  "sizeMB",
 ]);
 
 /* ---------- GET: Search textbooks (sanitized regex) ---------- */
@@ -130,6 +138,14 @@ export async function POST(req: NextRequest) {
       downloads: 0,
       createdAt: new Date(),
       updatedAt: new Date(),
+      // eBalbharati-specific fields (optional)
+      medium: formData.get("medium") as string || "",
+      variant: formData.get("variant") ? parseInt(formData.get("variant") as string) : undefined,
+      code: formData.get("code") as string || "",
+      officialUrl: formData.get("officialUrl") as string || "",
+      directPdfUrl: formData.get("directPdfUrl") as string || "",
+      isOfficial: formData.get("isOfficial") === "true",
+      sizeMB: formData.get("sizeMB") ? parseFloat(formData.get("sizeMB") as string) : undefined,
     };
 
     if (cloudinaryPublicId) doc.cloudinaryPublicId = cloudinaryPublicId;
@@ -171,10 +187,12 @@ export async function DELETE(req: NextRequest) {
     // Validate ObjectId format
     const client = await clientPromise;
     const db = client.db("career_guru");
+
+    // Fetch the doc BEFORE deleting so we can clean up its Cloudinary file
+    const doc = await db.collection("textbooks").findOne({ _id: new ObjectId(id) });
     await db.collection("textbooks").deleteOne({ _id: new ObjectId(id) });
 
     // Delete associated Cloudinary file if it exists
-    const doc = await db.collection("textbooks").findOne({ _id: new ObjectId(id) });
     if (doc?.cloudinaryPublicId) {
       try {
         await deleteFromCloudinary(doc.cloudinaryPublicId as string);
@@ -194,6 +212,70 @@ export async function DELETE(req: NextRequest) {
     return NextResponse.json({ success: true });
   } catch (err) {
     console.error("[SECURITY] Admin textbooks DELETE error:", err);
+    return NextResponse.json({ error: "Invalid request" }, { status: 400 });
+  }
+}
+
+/* ---------- PUT: Update textbook metadata ---------- */
+export async function PUT(req: NextRequest) {
+  const admin = requireAdmin(req);
+  if (!admin) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+  try {
+    const body = await req.json();
+    const { id, title, board, class: classNum, subject, fileUrl } = body;
+
+    if (!id) return NextResponse.json({ error: "ID required" }, { status: 400 });
+
+    const client = await clientPromise;
+    const db = client.db("career_guru");
+
+    const update: Record<string, unknown> = { updatedAt: new Date() };
+
+    if (title !== undefined) update.title = String(title).trim();
+    if (board !== undefined) {
+      if (!["CBSE", "ICSE", "Maharashtra Board"].includes(board)) {
+        return NextResponse.json({ error: "Invalid board. Must be CBSE, ICSE, or Maharashtra Board." }, { status: 400 });
+      }
+      update.board = board;
+    }
+    if (classNum !== undefined && classNum !== "") {
+      const c = parseInt(classNum, 10);
+      if (isNaN(c) || c <= 0) return NextResponse.json({ error: "Class must be a positive integer." }, { status: 400 });
+      update.class = c;
+    }
+    if (subject !== undefined) update.subject = String(subject).trim();
+    if (fileUrl !== undefined) update.fileUrl = String(fileUrl).trim();
+    // eBalbharati-specific fields
+    if (body.medium !== undefined) update.medium = String(body.medium).trim();
+    if (body.variant !== undefined && body.variant !== "") update.variant = parseInt(body.variant);
+    if (body.code !== undefined) update.code = String(body.code).trim();
+    if (body.officialUrl !== undefined) update.officialUrl = String(body.officialUrl).trim();
+    if (body.directPdfUrl !== undefined) update.directPdfUrl = String(body.directPdfUrl).trim();
+    if (body.isOfficial !== undefined) update.isOfficial = Boolean(body.isOfficial);
+    if (body.sizeMB !== undefined && body.sizeMB !== "") update.sizeMB = parseFloat(body.sizeMB);
+
+    const result = await db.collection("textbooks").updateOne(
+      { _id: new ObjectId(id) },
+      { $set: update }
+    );
+
+    if (result.matchedCount === 0) {
+      return NextResponse.json({ error: "Textbook not found" }, { status: 404 });
+    }
+
+    await logAudit({
+      action: "UPDATE",
+      collection: "textbooks",
+      documentId: id,
+      performedBy: admin.userId,
+      performedByEmail: admin.email,
+      changes: update,
+    });
+
+    return NextResponse.json({ success: true });
+  } catch (err) {
+    console.error("[SECURITY] Admin textbooks PUT error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }

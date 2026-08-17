@@ -1,6 +1,8 @@
 // app/api/mcq/generate/route.ts
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { requireAdmin } from "@/lib/api-auth";
+import { rateLimit, getClientIp } from "@/lib/rate-limit";
 
 function extractAnswerText(answer: string, maxLen: number = 120): string {
   // Strip answer/ans/solution: prefixes
@@ -27,6 +29,17 @@ function estimateDifficulty(question: string, answer: string): "easy" | "medium"
 }
 
 export async function POST(req: NextRequest) {
+  const admin = requireAdmin(req);
+  if (!admin) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+  const rl = rateLimit(`mcq-generate:${getClientIp(req)}`, { windowMs: 60_000, max: 10 });
+  if (!rl.ok) {
+    return NextResponse.json(
+      { error: "Too many requests. Please try again shortly." },
+      { status: 429, headers: { "Retry-After": String(rl.retryAfterSec) } }
+    );
+  }
+
   try {
     const body = await req.json();
     const { board, class: classNum, subject, chapter, chapters, limit = 10, examType } = body;

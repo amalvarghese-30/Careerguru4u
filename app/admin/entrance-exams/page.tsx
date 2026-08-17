@@ -152,6 +152,14 @@ export default function EntranceExamsAdminPage() {
         }));
     };
 
+    const updateSubjectTopics = (index: number, topicsStr: string) => {
+        const topics = topicsStr.split(",").map(t => t.trim()).filter(Boolean);
+        setPatternForm(prev => ({
+            ...prev,
+            subjects: prev.subjects.map((s, i) => (i === index ? { ...s, topics } : s)),
+        }));
+    };
+
     const filteredQuestions = searchText
         ? questions.filter(q =>
             q.questionText.toLowerCase().includes(searchText.toLowerCase()) ||
@@ -310,16 +318,24 @@ export default function EntranceExamsAdminPage() {
                     {/* Subjects */}
                     <h3 className="font-semibold text-slate-700 mb-3">Subjects</h3>
                     {patternForm.subjects.map((subj, i) => (
-                        <div key={i} className="flex items-center gap-2 mb-2">
-                            <input
-                                value={subj.name}
-                                onChange={e => updateSubject(i, e.target.value)}
-                                className="flex-1 px-3 py-2 rounded-lg border border-slate-200 text-sm"
-                                placeholder="Subject name"
-                            />
+                        <div key={i} className="flex items-start gap-2 mb-3">
+                            <div className="flex-1 space-y-1.5">
+                                <input
+                                    value={subj.name}
+                                    onChange={e => updateSubject(i, e.target.value)}
+                                    className="w-full px-3 py-2 rounded-lg border border-slate-200 text-sm"
+                                    placeholder="Subject name"
+                                />
+                                <input
+                                    value={(subj.topics || []).join(", ")}
+                                    onChange={e => updateSubjectTopics(i, e.target.value)}
+                                    className="w-full px-3 py-2 rounded-lg border border-slate-200 text-sm"
+                                    placeholder="Topics (comma-separated, e.g. Mechanics, Optics, Thermodynamics)"
+                                />
+                            </div>
                             <button
                                 onClick={() => removeSubject(i)}
-                                className="p-2 rounded-lg hover:bg-red-50 text-red-500"
+                                className="p-2 rounded-lg hover:bg-red-50 text-red-500 mt-1"
                             >
                                 <X className="h-4 w-4" />
                             </button>
