@@ -5,6 +5,7 @@ import { ObjectId } from "mongodb";
 import { logAudit } from "@/lib/audit-log";
 import { escapeRegex } from "@/lib/security";
 import { validateObjectId } from "@/lib/security";
+import { securityLogger } from "@/lib/logger";
 
 /* ---------- Allowed fields for Syllabus ---------- */
 const ALLOWED_SYLLABUS_KEYS = new Set([
@@ -46,7 +47,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ syllabus });
   } catch (err) {
-    console.error("[SECURITY] Admin syllabus GET error:", err);
+    securityLogger.error("[SECURITY] Admin syllabus GET error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -105,7 +106,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true, id: result.insertedId });
   } catch (err) {
-    console.error("[SECURITY] Admin syllabus POST error:", err);
+    securityLogger.error("[SECURITY] Admin syllabus POST error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -150,7 +151,7 @@ export async function PUT(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin syllabus PUT error:", err);
+    securityLogger.error("[SECURITY] Admin syllabus PUT error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -182,7 +183,7 @@ export async function DELETE(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin syllabus DELETE error:", err);
+    securityLogger.error("[SECURITY] Admin syllabus DELETE error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }

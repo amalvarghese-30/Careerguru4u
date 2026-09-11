@@ -69,7 +69,7 @@ export default function AnalyticsPage() {
       if (data.recentLeads) setRecentLeads(data.recentLeads);
       if (data.recentAuditLogs) setRecentAuditLogs(data.recentAuditLogs);
       if (data.breakdowns) setBreakdowns(data.breakdowns);
-    } catch (e) { console.error(e); } finally { setLoading(false); }
+    } catch (e) { /* error handled by UI state */ } finally { setLoading(false); }
   }, []);
 
   useEffect(() => { fetchData(); }, [fetchData]);

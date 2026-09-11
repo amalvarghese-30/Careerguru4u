@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { logger } from "@/lib/logger";
 
 export async function GET(req: NextRequest) {
   try {
@@ -15,7 +16,7 @@ export async function GET(req: NextRequest) {
 
     // Always exclude hidden colleges from public listing
     const query: Record<string, unknown> = { hidden: { $ne: true } };
-    if (type) query.type = type;
+    if (type) query.type = { $in: [type, "both"] };
     if (location) query.location = { $regex: location, $options: "i" };
     if (featured === "true") query.featured = true;
 
@@ -59,7 +60,7 @@ export async function GET(req: NextRequest) {
       { headers: { "Cache-Control": "public, max-age=300, stale-while-revalidate=3600" } }
     );
   } catch (error) {
-    console.error("Public colleges GET error:", error);
+    logger.error("Public colleges GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

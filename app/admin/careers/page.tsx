@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion } from "framer-motion";
 import { Plus, Search, Edit, Trash2, IndianRupee, TrendingUp, GraduationCap, X, CheckCircle } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface Career {
   _id?: string;
@@ -35,7 +36,7 @@ export default function CareersAdminPage() {
       const data = await res.json();
       setCareers(data.careers || []);
     } catch (e) {
-      console.error(e);
+      logger.error(e);
     } finally {
       setLoading(false);
     }
@@ -80,7 +81,7 @@ export default function CareersAdminPage() {
         setMessage(data.error || "Save failed");
       }
     } catch (e) {
-      console.error(e);
+      logger.error(e);
     }
   };
 
@@ -98,7 +99,7 @@ export default function CareersAdminPage() {
         fetchCareers();
       }
     } catch (e) {
-      console.error(e);
+      logger.error(e);
     }
   };
 

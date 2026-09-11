@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { logger } from "@/lib/logger";
 
 export async function POST(req: NextRequest) {
   try {
@@ -36,7 +37,7 @@ export async function POST(req: NextRequest) {
     });
 
   } catch (error) {
-    console.error("Counselling request error:", error);
+    logger.error("Counselling request error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

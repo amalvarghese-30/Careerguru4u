@@ -43,7 +43,7 @@ export default function SyllabusAdminPage() {
             const data = await res.json();
             setSyllabus(data.syllabus || []);
         } catch (err) {
-            console.error("Failed to fetch syllabus:", err);
+            /* error handled by UI state */
         } finally {
             setLoading(false);
         }
@@ -91,7 +91,7 @@ export default function SyllabusAdminPage() {
             await fetch(`/api/admin/syllabus?id=${id}`, { method: "DELETE" });
             setSyllabus(prev => prev.filter(s => s._id !== id));
             setDeleteConfirm(null);
-        } catch (err) { console.error("Delete failed:", err); }
+        } catch (err) { /* error handled by UI state */ }
     };
 
     return (

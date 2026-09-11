@@ -1,5 +1,6 @@
 // lib/db/mongodb.ts
 import { MongoClient } from "mongodb";
+import { logger } from "@/lib/logger";
 
 if (!process.env.MONGODB_URI) {
     throw new Error("Please add your MongoDB URI to .env.local");
@@ -11,6 +12,7 @@ const options = {
   tlsAllowInvalidCertificates: false,
   serverSelectionTimeoutMS: 10000,
   connectTimeoutMS: 10000,
+  family: 4, // Force IPv4 to fix timeout issues in Node.js
 };
 
 let client: MongoClient;
@@ -55,11 +57,11 @@ export async function ensureIndexes() {
       try {
         await db.collection(spec.coll).createIndex(spec.keys, spec.options);
       } catch (err) {
-        console.error(`Index creation failed on ${spec.coll}:`, (err as Error).message);
+        logger.error(`Index creation failed on ${spec.coll}:`, (err as Error).message);
       }
     }
   } catch (err) {
-    console.error("Index creation error:", (err as Error).message);
+    logger.error("Index creation error:", (err as Error).message);
     indexesEnsured = false; // allow retry on next call
   }
 }

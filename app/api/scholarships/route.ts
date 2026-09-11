@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { logger } from "@/lib/logger";
 
 export async function GET(req: NextRequest) {
   try {
@@ -35,7 +36,7 @@ export async function GET(req: NextRequest) {
       { headers: { "Cache-Control": "public, max-age=300, stale-while-revalidate=3600" } }
     );
   } catch (error) {
-    console.error("Public scholarships GET error:", error);
+    logger.error("Public scholarships GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

@@ -1,12 +1,13 @@
 import { NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { logger } from "@/lib/logger";
 
 export async function GET() {
   try {
     const client = await clientPromise;
     const db = client.db("career_guru");
 
-    const [solutions, textbooks, conceptNotes, syllabus, mcqs, subjectsAgg] = await Promise.all([
+    const [solutions, textbooks, conceptNotes, syllabus, mcqs, subjectsAgg, chaptersAgg] = await Promise.all([
       db.collection("solutions").countDocuments(),
       db.collection("textbooks").countDocuments(),
       db.collection("concept_notes").countDocuments(),
@@ -23,10 +24,10 @@ export async function GET() {
       syllabus,
       mcqs,
       subjects: subjectsAgg.length,
-      chapters: subjectsAgg.length,
+      chapters: chaptersAgg.length,
     });
   } catch (error) {
-    console.error("Academic stats error:", error);
+    logger.error("Academic stats error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

@@ -2,6 +2,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
 import jwt from "jsonwebtoken";
+import { securityLogger } from "@/lib/logger";
 
 if (!process.env.JWT_SECRET) throw new Error("JWT_SECRET environment variable is required");
 const JWT_SECRET = process.env.JWT_SECRET;
@@ -98,7 +99,7 @@ export async function GET(req: NextRequest) {
         return NextResponse.json({ solutions: solutionsWithAccess, totalCount, page, limit });
 
     } catch (error) {
-        console.error("Solutions API error:", error);
+        securityLogger.error("Solutions API error:", error);
         return NextResponse.json({ error: "Internal server error" }, { status: 500 });
     }
 }

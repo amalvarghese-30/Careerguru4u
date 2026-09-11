@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion } from "framer-motion";
 import { Beaker, Sparkles, Search, Trash2, Eye, BookOpen, Filter, RefreshCw, Plus, CheckCircle, XCircle } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface MCQQuestion {
     _id: string;
@@ -50,7 +51,7 @@ export default function MockTestsAdminPage() {
             const data = await res.json();
             setQuestions(data.questions || []);
         } catch (err) {
-            console.error("Failed to fetch MCQs:", err);
+            logger.error("Failed to fetch MCQs:", err);
         } finally {
             setLoading(false);
         }
@@ -95,7 +96,7 @@ export default function MockTestsAdminPage() {
             setQuestions(prev => prev.filter(q => q._id !== id));
             if (selectedQ?._id === id) setSelectedQ(null);
         } catch (err) {
-            console.error("Delete failed:", err);
+            logger.error("Delete failed:", err);
         }
     };
 

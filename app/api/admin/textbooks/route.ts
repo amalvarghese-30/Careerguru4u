@@ -5,6 +5,7 @@ import { ObjectId } from "mongodb";
 import { logAudit } from "@/lib/audit-log";
 import { escapeRegex } from "@/lib/security";
 import { uploadToCloudinary, deleteFromCloudinary, generateKey } from "@/lib/storage/cloudinary";
+import { securityLogger } from "@/lib/logger";
 
 /* ---------- Allowed fields for Textbook ---------- */
 const ALLOWED_TEXTBOOK_FIELDS = new Set([
@@ -58,7 +59,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ textbooks });
   } catch (err) {
-    console.error("[SECURITY] Admin textbooks GET error:", err);
+    securityLogger.error("[SECURITY] Admin textbooks GET error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -169,7 +170,7 @@ export async function POST(req: NextRequest) {
       fileUrl,
     });
   } catch (err) {
-    console.error("[SECURITY] Admin textbooks POST error:", err);
+    securityLogger.error("[SECURITY] Admin textbooks POST error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -197,7 +198,7 @@ export async function DELETE(req: NextRequest) {
       try {
         await deleteFromCloudinary(doc.cloudinaryPublicId as string);
       } catch (e) {
-        console.error("Failed to delete from Cloudinary:", e);
+        securityLogger.error("Failed to delete from Cloudinary:", e);
       }
     }
 
@@ -211,7 +212,7 @@ export async function DELETE(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin textbooks DELETE error:", err);
+    securityLogger.error("[SECURITY] Admin textbooks DELETE error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -275,7 +276,7 @@ export async function PUT(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin textbooks PUT error:", err);
+    securityLogger.error("[SECURITY] Admin textbooks PUT error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }

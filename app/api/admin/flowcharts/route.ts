@@ -5,6 +5,7 @@ import { ObjectId } from "mongodb";
 import { logAudit } from "@/lib/audit-log";
 import { flowchartNodeSchema } from "@/lib/validations";
 import { validateObjectId } from "@/lib/security";
+import { securityLogger } from "@/lib/logger";
 
 /* ---------- GET: Retrieve flowchart nodes (optional level filter) ---------- */
 export async function GET(req: NextRequest) {
@@ -35,7 +36,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ nodes });
   } catch (err) {
-    console.error("[SECURITY] Admin flowcharts GET error:", err);
+    securityLogger.error("[SECURITY] Admin flowcharts GET error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -73,7 +74,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true, node: { ...doc, _id: result.insertedId } });
   } catch (err) {
-    console.error("[SECURITY] Admin flowcharts POST error:", err);
+    securityLogger.error("[SECURITY] Admin flowcharts POST error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -121,7 +122,7 @@ export async function PUT(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin flowcharts PUT error:", err);
+    securityLogger.error("[SECURITY] Admin flowcharts PUT error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -153,7 +154,7 @@ export async function DELETE(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin flowcharts DELETE error:", err);
+    securityLogger.error("[SECURITY] Admin flowcharts DELETE error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }

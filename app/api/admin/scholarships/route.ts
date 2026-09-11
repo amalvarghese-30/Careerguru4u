@@ -6,6 +6,7 @@ import { logAudit } from "@/lib/audit-log";
 import { escapeRegex } from "@/lib/security";
 import { validateObjectId } from "@/lib/security";
 import { scholarshipSchema } from "@/lib/validations";
+import { securityLogger } from "@/lib/logger";
 
 /* ---------- GET: Search scholarships (sanitized regex) ---------- */
 export async function GET(req: NextRequest) {
@@ -40,7 +41,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ scholarships, total: scholarships.length });
   } catch (err) {
-    console.error("[SECURITY] Admin scholarships GET error:", err);
+    securityLogger.error("[SECURITY] Admin scholarships GET error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -81,7 +82,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true, id: result.insertedId });
   } catch (err) {
-    console.error("[SECURITY] Admin scholarships POST error:", err);
+    securityLogger.error("[SECURITY] Admin scholarships POST error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -129,7 +130,7 @@ export async function PUT(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin scholarships PUT error:", err);
+    securityLogger.error("[SECURITY] Admin scholarships PUT error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -161,7 +162,7 @@ export async function DELETE(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin scholarships DELETE error:", err);
+    securityLogger.error("[SECURITY] Admin scholarships DELETE error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }

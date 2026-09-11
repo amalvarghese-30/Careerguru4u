@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { logger } from "@/lib/logger";
 
 export async function GET() {
   try {
@@ -28,7 +29,7 @@ export async function GET() {
       },
     });
   } catch (error) {
-    console.error("Site settings GET error:", error);
+    logger.error("Site settings GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

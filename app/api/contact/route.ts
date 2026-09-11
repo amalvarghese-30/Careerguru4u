@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
 import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { logger } from "@/lib/logger";
 
 export async function POST(req: NextRequest) {
   try {
@@ -43,7 +44,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true, id: result.insertedId }, { status: 201 });
   } catch (error) {
-    console.error("Contact form error:", error);
+    logger.error("Contact form error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

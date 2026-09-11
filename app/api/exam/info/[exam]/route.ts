@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { logger } from "@/lib/logger";
 
 export async function GET(
     req: NextRequest,
@@ -20,7 +21,7 @@ export async function GET(
 
         return NextResponse.json({ pattern, questionCount });
     } catch (error) {
-        console.error("Exam info GET error:", error);
+        logger.error("Exam info GET error:", error);
         return NextResponse.json({ error: "Internal server error" }, { status: 500 });
     }
 }

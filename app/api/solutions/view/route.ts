@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
 import jwt from "jsonwebtoken";
 import { ObjectId } from "mongodb";
+import { logger } from "@/lib/logger";
 
 if (!process.env.JWT_SECRET) throw new Error("JWT_SECRET environment variable is required");
 const JWT_SECRET = process.env.JWT_SECRET;
@@ -96,7 +97,7 @@ export async function POST(req: NextRequest) {
         });
 
     } catch (error) {
-        console.error("View solution error:", error);
+        logger.error("View solution error:", error);
         return NextResponse.json({ error: "Internal server error" }, { status: 500 });
     }
 }

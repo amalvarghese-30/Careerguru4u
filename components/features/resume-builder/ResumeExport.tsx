@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Download, Loader2 } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface Props {
     templateId: string;
@@ -149,7 +150,7 @@ export default function ResumeExport(props: Props) {
             const fileName = `${(props.personalInfo.fullName || "resume").replace(/\s+/g, "_")}.pdf`;
             doc.save(fileName);
         } catch (err) {
-            console.error("PDF export error:", err);
+            logger.error("PDF export error:", err);
         } finally {
             setLoading(false);
         }

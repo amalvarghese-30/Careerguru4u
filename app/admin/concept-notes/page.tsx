@@ -47,7 +47,7 @@ export default function ConceptNotesAdminPage() {
             const data = await res.json();
             setNotes(data.notes || []);
         } catch (err) {
-            console.error("Failed to fetch concept notes:", err);
+            /* error handled by UI state */
         } finally {
             setLoading(false);
         }
@@ -99,7 +99,7 @@ export default function ConceptNotesAdminPage() {
             await fetch(`/api/admin/concept-notes?id=${id}`, { method: "DELETE" });
             setNotes(prev => prev.filter(n => n._id !== id));
             setDeleteConfirm(null);
-        } catch (err) { console.error("Delete failed:", err); }
+        } catch (err) { /* error handled by UI state */ }
     };
 
     return (

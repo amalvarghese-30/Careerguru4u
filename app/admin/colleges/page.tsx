@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Plus, Search, Edit, Trash2, MapPin, GraduationCap, X, CheckCircle, Eye, EyeOff } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface College {
   _id?: string;
@@ -66,7 +67,7 @@ export default function CollegesAdminPage() {
       const data = await res.json();
       setColleges(data.colleges || []);
     } catch (e) {
-      console.error(e);
+      logger.error(e);
     } finally {
       setLoading(false);
     }
@@ -142,7 +143,7 @@ export default function CollegesAdminPage() {
         setMessage(data.error || "Something went wrong");
       }
     } catch (e) {
-      console.error(e);
+      logger.error(e);
       setMessage("Network error");
     } finally {
       setBusy(false);
@@ -159,7 +160,7 @@ export default function CollegesAdminPage() {
       });
       const data = await res.json();
       if (data.success) { setMessage("College deleted"); fetchColleges(); }
-    } catch (e) { console.error(e); }
+    } catch (e) { logger.error(e); }
   };
 
   const handleToggleHidden = async (college: College) => {
@@ -176,7 +177,7 @@ export default function CollegesAdminPage() {
         setMessage(college.hidden ? "College is now visible" : "College is now hidden");
         fetchColleges();
       }
-    } catch (e) { console.error(e); }
+    } catch (e) { logger.error(e); }
   };
 
   if (loading) {

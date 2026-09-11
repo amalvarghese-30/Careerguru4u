@@ -4,6 +4,8 @@ import { useState, useEffect, use } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowLeft, Calendar, Clock, Eye, FileText, Tag, Loader2, Share2 } from "lucide-react";
+import { sanitizeHtml } from "@/lib/sanitize";
+import { logger } from "@/lib/logger";
 
 interface BlogPost {
   _id?: string; title: string; slug: string; category: string;
@@ -23,7 +25,7 @@ export default function BlogDetailPage({ params }: { params: Promise<{ slug: str
       .then(data => {
         if (data.post) setPost(data.post);
       })
-      .catch(console.error)
+      .catch(logger.error)
       .finally(() => setLoading(false));
   }, [slug]);
 
@@ -75,7 +77,7 @@ export default function BlogDetailPage({ params }: { params: Promise<{ slug: str
       <div className="container-custom max-w-3xl mx-auto py-12">
         <div className="bg-white rounded-2xl p-8 shadow-sm border border-neutral-lightGray/50">
           {post.content ? (
-            <div className="prose prose-slate max-w-none" dangerouslySetInnerHTML={{ __html: post.content }} />
+            <div className="prose prose-slate max-w-none" dangerouslySetInnerHTML={{ __html: sanitizeHtml(post.content) }} />
           ) : (
             <div className="text-neutral-mediumGray leading-relaxed whitespace-pre-wrap">{post.excerpt}</div>
           )}

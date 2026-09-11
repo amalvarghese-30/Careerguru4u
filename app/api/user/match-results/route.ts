@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
 import { requireAuth } from "@/lib/api-auth";
+import { logger } from "@/lib/logger";
 
 export async function GET(req: NextRequest) {
   const user = requireAuth(req);
@@ -18,7 +19,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ result: results[0] || null });
   } catch (error) {
-    console.error("Match results GET error:", error);
+    logger.error("Match results GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
@@ -50,7 +51,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("Match results POST error:", error);
+    logger.error("Match results POST error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

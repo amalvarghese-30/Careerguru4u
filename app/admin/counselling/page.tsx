@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion } from "framer-motion";
 import { Search, Phone, Mail, Calendar, X, CheckCircle, MoreVertical, MessageSquare, UserCheck, Trash2 } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface CounsellingRequest {
   _id: string;
@@ -34,7 +35,7 @@ export default function CounsellingPage() {
       });
       const data = await res.json();
       setRequests(data.requests || []);
-    } catch (e) { console.error(e); } finally { setLoading(false); }
+    } catch (e) { logger.error(e); } finally { setLoading(false); }
   }, [search, statusFilter]);
 
   useEffect(() => { fetchData(); }, [fetchData]);
@@ -49,7 +50,7 @@ export default function CounsellingPage() {
       });
       const data = await res.json();
       if (data.success) { setMessage("Updated successfully"); fetchData(); setSelected(null); }
-    } catch (e) { console.error(e); }
+    } catch (e) { logger.error(e); }
   };
 
   const handleDelete = async (id: string) => {
@@ -61,7 +62,7 @@ export default function CounsellingPage() {
       });
       const data = await res.json();
       if (data.success) { setMessage("Request deleted"); fetchData(); setSelected(null); }
-    } catch (e) { console.error(e); }
+    } catch (e) { logger.error(e); }
   };
 
   const statusColors: Record<string, string> = {

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
 import { requireAuth } from "@/lib/api-auth";
+import { logger } from "@/lib/logger";
 
 export async function GET(req: NextRequest) {
   const user = requireAuth(req);
@@ -17,7 +18,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ bookmarks });
   } catch (error) {
-    console.error("Bookmarks GET error:", error);
+    logger.error("Bookmarks GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
@@ -51,7 +52,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true, bookmarked: true });
   } catch (error) {
-    console.error("Bookmarks POST error:", error);
+    logger.error("Bookmarks POST error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { logger } from "@/lib/logger";
 
 interface ResumeSections {
     personalInfo?: { fullName?: string; email?: string; phone?: string; location?: string; linkedin?: string; portfolio?: string };
@@ -94,7 +95,7 @@ export async function POST(req: NextRequest) {
         const result = calculateATSScore(body);
         return NextResponse.json(result);
     } catch (error) {
-        console.error("ATS Score API error:", error);
+        logger.error("ATS Score API error:", error);
         return NextResponse.json({ error: "Internal server error" }, { status: 500 });
     }
 }

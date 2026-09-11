@@ -10,6 +10,7 @@ import {
   Users, Monitor, ChevronRight, Plus, FileText,
 } from "lucide-react";
 import LeadCaptureForm from "@/components/sections/LeadCaptureForm";
+import { logger } from "@/lib/logger";
 
 interface CollegeDetail {
   _id?: string;
@@ -46,16 +47,7 @@ interface CollegeDetail {
   scholarship?: string;
 }
 
-const accreditationLogos: Record<string, string> = {
-  "NAAC A++": "https://collegeadmission360.b-cdn.net/static/naac-a-plus-plus-logo.jpg",
-  "NAAC A+": "https://collegeadmission360.b-cdn.net/static/naac-a-plus-plus-logo.jpg",
-  "NAAC A": "https://collegeadmission360.b-cdn.net/static/naac-a-plus-plus-logo.jpg",
-  "UGC-DEB": "https://collegeadmission360.b-cdn.net/static/ugc-deb-logo.jpg",
-  "UGC": "https://collegeadmission360.b-cdn.net/static/ugc-logo.jpg",
-  "AICTE": "https://collegeadmission360.b-cdn.net/static/aicte-logo.jpg",
-  "AIU": "https://collegeadmission360.b-cdn.net/static/aiu-logo.jpg",
-  "WES": "https://collegeadmission360.b-cdn.net/static/wes-logo.jpg",
-};
+const accreditationLogos: Record<string, string> = {};
 
 const tabs = [
   "About", "Approvals", "Courses", "Fees", "Admission", "Placements", "Reviews", "FAQs",
@@ -66,6 +58,19 @@ export default function CollegeDetailPage({ params }: { params: Promise<{ slug: 
   const [college, setCollege] = useState<CollegeDetail | null>(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState("About");
+  const [showLeadModal, setShowLeadModal] = useState(false);
+  const [activeAffiliateLink, setActiveAffiliateLink] = useState("");
+
+  const handleApplyClick = (e: React.MouseEvent, url?: string) => {
+    e.preventDefault();
+    setActiveAffiliateLink(url || "/counselling");
+    setShowLeadModal(true);
+  };
+
+  const handleLeadSuccess = () => {
+    setShowLeadModal(false);
+    window.open(activeAffiliateLink, activeAffiliateLink === "/counselling" ? "_self" : "_blank");
+  };
 
   useEffect(() => {
     fetch(`/api/colleges/${slug}`)
@@ -75,7 +80,7 @@ export default function CollegeDetailPage({ params }: { params: Promise<{ slug: 
           setCollege(data.college);
         }
       })
-      .catch(console.error)
+      .catch(logger.error)
       .finally(() => setLoading(false));
   }, [slug]);
 
@@ -253,7 +258,8 @@ export default function CollegeDetailPage({ params }: { params: Promise<{ slug: 
             {/* CTA Buttons */}
             <div className="flex gap-2 w-full lg:w-auto">
               <Link
-                href="/counselling"
+                href={college.websiteUrl || "/counselling"}
+                onClick={(e) => handleApplyClick(e, college.websiteUrl)}
                 className="btn-primary py-2 px-4 text-sm inline-flex items-center gap-1"
               >
                 Apply Now <ChevronRight className="h-4 w-4" />
@@ -694,7 +700,8 @@ export default function CollegeDetailPage({ params }: { params: Promise<{ slug: 
                     ))}
                   </div>
                   <Link
-                    href="/counselling"
+                    href={college.websiteUrl || "/counselling"}
+                    onClick={(e) => handleApplyClick(e, college.websiteUrl)}
                     className="btn-primary inline-flex items-center gap-2"
                   >
                     Apply Now <ArrowRight className="h-5 w-5" />
@@ -929,6 +936,26 @@ export default function CollegeDetailPage({ params }: { params: Promise<{ slug: 
           </div>
         </div>
       </section>
+
+      {/* Lead Modal Overlay */}
+      {showLeadModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+          <div className="relative w-full max-w-md">
+            <button
+              onClick={() => setShowLeadModal(false)}
+              className="absolute -top-10 right-0 text-white hover:text-slate-200 font-medium"
+            >
+              Close ✕
+            </button>
+            <LeadCaptureForm
+              source="College Apply Now Click"
+              interest={college.name}
+              onSuccess={handleLeadSuccess}
+              className="shadow-2xl"
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 }

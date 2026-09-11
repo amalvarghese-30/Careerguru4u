@@ -1,4 +1,5 @@
 import clientPromise from "@/lib/db/mongodb";
+import { securityLogger } from "@/lib/logger";
 
 interface AuditEntry {
   action: string;
@@ -20,7 +21,7 @@ export async function logAudit(entry: Omit<AuditEntry, "timestamp">) {
       timestamp: new Date(),
     });
   } catch (error) {
-    console.error("Audit log error:", error);
+    securityLogger.error("Audit log error:", error);
   }
 }
 

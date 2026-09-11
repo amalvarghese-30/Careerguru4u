@@ -5,6 +5,7 @@ import { ObjectId } from "mongodb";
 import { logAudit } from "@/lib/audit-log";
 import { enhanceSolution } from "@/lib/ai/enhancer";
 import type { ContentBlock, SolutionStep } from "@/scripts/ingestion/types";
+import { securityLogger } from "@/lib/logger";
 
 export async function POST(req: NextRequest) {
   const admin = requireAdmin(req);
@@ -47,7 +48,7 @@ export async function POST(req: NextRequest) {
         const result = await enhanceSolution(legacyQuestion, legacySolution);
         return NextResponse.json({ enhanced: result });
       } catch (err) {
-        console.error("AI enhancement error:", err);
+        securityLogger.error("AI enhancement error:", err);
         return NextResponse.json(
           { error: `AI enhancement failed: ${(err as Error).message}` },
           { status: 500 }
@@ -102,14 +103,14 @@ export async function POST(req: NextRequest) {
       const result = await enhanceSolution(questionBlocks, solutionSteps);
       return NextResponse.json({ enhanced: result });
     } catch (err) {
-      console.error("AI enhancement error:", err);
+      securityLogger.error("AI enhancement error:", err);
       return NextResponse.json(
         { error: `AI enhancement failed: ${(err as Error).message}` },
         { status: 500 }
       );
     }
   } catch (error) {
-    console.error("AI enhance API error:", error);
+    securityLogger.error("AI enhance API error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

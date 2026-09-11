@@ -7,6 +7,7 @@ import {
   Users, Compass, Building2, Award, FileText, PhoneCall, Settings,
   TrendingUp, ArrowRight, UserPlus, Activity, Clock, Sparkles,
 } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface DashboardStats {
   totalUsers: number; activeUsers: number; newToday: number;
@@ -29,7 +30,7 @@ export default function AdminDashboardPage() {
           setRecentUsers(data.recentUsers || []);
         }
       })
-      .catch(console.error)
+      .catch(logger.error)
       .finally(() => setLoading(false));
   }, []);
 

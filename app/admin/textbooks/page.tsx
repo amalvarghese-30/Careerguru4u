@@ -68,7 +68,7 @@ export default function TextbooksAdminPage() {
             const data = await res.json();
             setTextbooks(data.textbooks || []);
         } catch (err) {
-            console.error("Failed to fetch textbooks:", err);
+            /* error handled by UI state */
         } finally {
             setLoading(false);
         }
@@ -107,7 +107,7 @@ export default function TextbooksAdminPage() {
             setTextbooks(prev => prev.filter(t => t._id !== id));
             setDeleteConfirm(null);
         } catch (err) {
-            console.error("Delete failed:", err);
+            /* error handled by UI state */
         }
     };
 

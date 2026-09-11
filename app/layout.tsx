@@ -3,6 +3,10 @@ import type { Metadata } from "next";
 import { Sora, Inter } from "next/font/google";
 import { RootLayoutProvider } from "@/components/layout/RootLayoutClient";
 import "./globals.css";
+import { initializeApp } from "@/lib/startup-validation";
+
+// Validate environment variables at startup
+initializeApp();
 
 const sora = Sora({
   subsets: ["latin"],

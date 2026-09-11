@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { logger } from "@/lib/logger";
 
 export async function GET(req: NextRequest) {
   try {
@@ -35,7 +36,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ careers, total: careers.length });
   } catch (error) {
-    console.error("Public careers GET error:", error);
+    logger.error("Public careers GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

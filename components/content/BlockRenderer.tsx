@@ -10,6 +10,7 @@ import { CalloutBlock } from "./blocks/CalloutBlock";
 import { CodeBlock } from "./blocks/CodeBlock";
 import { QuoteBlock } from "./blocks/QuoteBlock";
 import { HyperlinkBlock } from "./blocks/HyperlinkBlock";
+import { sanitizeSvg } from "@/lib/sanitize";
 
 interface BlockRendererProps {
   block: ContentBlock;
@@ -78,7 +79,7 @@ export function BlockRenderer({ block }: BlockRendererProps) {
         <div
           className="my-2"
           dangerouslySetInnerHTML={{
-            __html: (block.content || "").replace(/<script\b[^>]*>[\s\S]*?<\/script>|<script\b[^>]*\/>/gi, ""),
+            __html: sanitizeSvg(block.content || ""),
           }}
         />
       );

@@ -22,6 +22,7 @@ import {
   Table as TableIcon, Heading, Palette, Highlighter, ChevronDown,
   Upload, X, Loader2, Trash2
 } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface RichTextEditorProps {
   content: string;
@@ -165,7 +166,7 @@ export function RichTextEditor({
       setImageUrl(data.url);
       setImageAlt(data.fileName || "");
     } catch (err) {
-      console.error("Upload error:", err);
+      logger.error("Upload error:", err);
       alert("Upload failed");
     } finally {
       setImageUploading(false);

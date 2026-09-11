@@ -6,6 +6,8 @@ import { logAudit } from "@/lib/audit-log";
 import { escapeRegex } from "@/lib/security";
 import { validateObjectId } from "@/lib/security";
 import { blogPostSchema } from "@/lib/validations";
+import { sanitizeHtml } from "@/lib/sanitize";
+import { securityLogger } from "@/lib/logger";
 
 /* ---------- GET: Search blog posts (sanitized regex) ---------- */
 export async function GET(req: NextRequest) {
@@ -43,7 +45,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ posts, total });
   } catch (err) {
-    console.error("[SECURITY] Admin blog GET error:", err);
+    securityLogger.error("[SECURITY] Admin blog GET error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -67,7 +69,12 @@ export async function POST(req: NextRequest) {
 
     const client = await clientPromise;
     const db = client.db("career_guru");
-    const doc = { ...validation.data, views: 0, createdAt: new Date(), updatedAt: new Date() };
+    // Sanitize HTML content to prevent XSS
+    const sanitizedData = {
+      ...validation.data,
+      content: validation.data.content ? sanitizeHtml(validation.data.content) : undefined,
+    };
+    const doc = { ...sanitizedData, views: 0, createdAt: new Date(), updatedAt: new Date() };
     const result = await db.collection("blog_posts").insertOne(doc);
 
     await logAudit({
@@ -81,7 +88,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true, id: result.insertedId });
   } catch (err) {
-    console.error("[SECURITY] Admin blog POST error:", err);
+    securityLogger.error("[SECURITY] Admin blog POST error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -109,9 +116,11 @@ export async function PUT(req: NextRequest) {
 
     const client = await clientPromise;
     const db = client.db("career_guru");
+    // Sanitize HTML content if present
+    const updateData = validation.data.content ? { ...validation.data, content: sanitizeHtml(validation.data.content) } : validation.data;
     await db.collection("blog_posts").updateOne(
       { _id: new ObjectId(_id) },
-      { $set: { ...validation.data, updatedAt: new Date() } }
+      { $set: { ...updateData, updatedAt: new Date() } }
     );
 
     await logAudit({
@@ -125,7 +134,7 @@ export async function PUT(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin blog PUT error:", err);
+    securityLogger.error("[SECURITY] Admin blog PUT error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -157,7 +166,7 @@ export async function DELETE(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin blog DELETE error:", err);
+    securityLogger.error("[SECURITY] Admin blog DELETE error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }

@@ -23,12 +23,12 @@
 # misc
 .DS_Store
 *.pem
+*.zip
+.claude.zip
+.playwright-mcp/
 
-# scraping artifacts
-/academic-library/
-/scripts/
-
-# debug
+# debug & logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -43,3 +43,30 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# database dumps & backups (contains sensitive data)
+mongodb-backup/
+mongodb_import_*.json
+mongodb_import_data*.json
+
+# scraping artifacts & data dumps
+/academic-library/
+/scraped-data/
+/scripts/
+collegeadmission360_*.txt
+competitor_universities.json
+textbook-index.json
+
+# temporary test, scratch & database maintenance scripts (contain DB credentials / scratch code)
+check-env.js
+count-check.mjs
+temp_*.js
+update_*.js
+test*.js
+test_*.js
+
+# screenshots & temporary images
+universities-*.png
+
+# internal planning docs
+docs/superpowers/

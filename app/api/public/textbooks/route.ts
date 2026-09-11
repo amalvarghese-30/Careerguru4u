@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { logger } from "@/lib/logger";
 
 /* ---------- GET: Public textbook search (no auth required) ---------- */
 export async function GET(req: NextRequest) {
@@ -38,7 +39,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ textbooks });
   } catch (err) {
-    console.error("Public textbooks GET error:", err);
+    logger.error("Public textbooks GET error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }

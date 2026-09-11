@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/api-auth";
 import { uploadToCloudinary, deleteFromCloudinary, generateKey, validateUpload } from "@/lib/storage/cloudinary";
+import { logger } from "@/lib/logger";
 
 export async function POST(req: NextRequest) {
   const admin = requireAdmin(req);
@@ -15,19 +16,21 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "No file provided" }, { status: 400 });
     }
 
-    const validation = validateUpload(file);
+    const arrayBuffer = await file.arrayBuffer();
+    const buffer = Buffer.from(arrayBuffer);
+
+    const validation = validateUpload(file, buffer);
     if (!validation.valid) {
       return NextResponse.json({ error: validation.error }, { status: 400 });
     }
 
     const fileName = file.name || "file";
     const key = generateKey(folder, fileName);
-    const buffer = Buffer.from(await file.arrayBuffer());
     const url = await uploadToCloudinary(key, buffer, file.type);
 
     return NextResponse.json({ url, key, fileName, size: file.size });
   } catch (error) {
-    console.error("Upload error:", error);
+    logger.error("Upload error:", error);
     return NextResponse.json({ error: "Upload failed" }, { status: 500 });
   }
 }
@@ -44,7 +47,7 @@ export async function DELETE(req: NextRequest) {
     await deleteFromCloudinary(key);
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("Delete from Cloudinary error:", error);
+    logger.error("Delete from Cloudinary error:", error);
     return NextResponse.json({ error: "Delete failed" }, { status: 500 });
   }
 }

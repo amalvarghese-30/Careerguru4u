@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
 import { requireAdmin } from "@/lib/api-auth";
+import { logger } from "@/lib/logger";
 
 const BOARDS = ["CBSE", "ICSE", "Maharashtra Board"] as const;
 
@@ -113,7 +114,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ error: "Invalid parameters" }, { status: 400 });
   } catch (error) {
-    console.error("Admin solutions filters GET error:", error);
+    logger.error("Admin solutions filters GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

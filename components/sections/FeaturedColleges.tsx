@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { MapPin, Star, IndianRupee, ChevronRight, Loader2 } from "lucide-react";
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { logger } from "@/lib/logger";
 
 type CollegeType = "ug" | "pg";
 
@@ -26,7 +27,7 @@ export function FeaturedColleges() {
         const list = data.colleges || [];
         setColleges(list.length > 0 ? list : data.colleges || []);
       })
-      .catch(console.error)
+      .catch(logger.error)
       .finally(() => setLoading(false));
   }, []);
 

@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { BookOpen, ExternalLink, Download, FileText, Shield, AlertTriangle, Search } from "lucide-react";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { logger } from "@/lib/logger";
 
 interface Textbook {
   _id: string;
@@ -47,7 +48,7 @@ export function MaharashtraTextbooks() {
         setTextbooks(data.textbooks);
       }
     } catch (err) {
-      console.error("Failed to fetch textbooks:", err);
+      logger.error("Failed to fetch textbooks:", err);
     } finally {
       setLoading(false);
     }

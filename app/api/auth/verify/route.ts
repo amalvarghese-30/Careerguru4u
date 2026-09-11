@@ -6,6 +6,8 @@ import clientPromise from "@/lib/db/mongodb";
 
 if (!process.env.JWT_SECRET) throw new Error("JWT_SECRET environment variable is required");
 const JWT_SECRET = process.env.JWT_SECRET;
+const JWT_ISSUER = process.env.JWT_ISSUER || "career-guru";
+const JWT_AUDIENCE = process.env.JWT_AUDIENCE || "career-guru-users";
 
 export async function GET(req: NextRequest) {
     try {
@@ -16,7 +18,10 @@ export async function GET(req: NextRequest) {
             return NextResponse.json({ error: "No token provided" }, { status: 401 });
         }
 
-        const decoded = jwt.verify(token, JWT_SECRET) as { userId: string };
+        const decoded = jwt.verify(token, JWT_SECRET, {
+      issuer: JWT_ISSUER,
+      audience: JWT_AUDIENCE,
+    }) as { userId: string };
 
         const client = await clientPromise;
         const db = client.db("career_guru");

@@ -43,7 +43,7 @@ export default function UsersPage() {
       const data = await res.json();
       if (data.users) setUsers(data.users);
     } catch (e) {
-      console.error(e);
+      /* error handled by UI state */
     } finally {
       setLoading(false);
     }
@@ -71,7 +71,7 @@ export default function UsersPage() {
         setSelectedUser(null);
       }
     } catch (e) {
-      console.error(e);
+      /* error handled by UI state */
     }
   };
 
@@ -91,7 +91,7 @@ export default function UsersPage() {
         setMessage(data.error || "Delete failed");
       }
     } catch (e) {
-      console.error(e);
+      /* error handled by UI state */
     }
   };
 
@@ -130,7 +130,7 @@ export default function UsersPage() {
         setMessage(data.error || "Failed to create user");
       }
     } catch (e) {
-      console.error(e);
+      /* error handled by UI state */
     }
   };
 

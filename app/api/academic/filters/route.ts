@@ -1,6 +1,7 @@
 // app/api/academic/filters/route.ts
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { logger, securityLogger } from "@/lib/logger";
 
 const BOARDS = ["CBSE", "ICSE", "Maharashtra Board"] as const;
 
@@ -89,7 +90,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ error: "Provide at least a board parameter" }, { status: 400 });
   } catch (error) {
-    console.error("Academic filters GET error:", error);
+    logger.error("Academic filters GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

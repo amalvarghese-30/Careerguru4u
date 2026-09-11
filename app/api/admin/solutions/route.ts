@@ -6,6 +6,8 @@ import { logAudit } from "@/lib/audit-log";
 import { escapeRegex } from "@/lib/security";
 import { validateObjectId } from "@/lib/security";
 import type { ContentBlock, SolutionStep } from "@/scripts/ingestion/types";
+import { sanitizeHtml } from "@/lib/sanitize";
+import { securityLogger } from "@/lib/logger";
 
 const BOARDS = ["CBSE", "ICSE", "Maharashtra Board"] as const;
 const QUESTION_TYPES = ["mcq", "short", "long", "diagram", "numerical", "derivation"] as const;
@@ -66,7 +68,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ solutions, total });
   } catch (err) {
-    console.error("[SECURITY] Admin solutions GET error:", err);
+    securityLogger.error("[SECURITY] Admin solutions GET error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -159,9 +161,9 @@ export async function POST(req: NextRequest) {
     if (questionType) doc.questionType = questionType;
     if (difficulty) doc.difficulty = difficulty;
 
-    // Store block content when provided
-    if (body.questionHtml) doc.questionHtml = body.questionHtml;
-    if (body.answerHtml) doc.answerHtml = body.answerHtml;
+    // Store block content when provided (sanitize HTML to prevent XSS)
+    if (body.questionHtml) doc.questionHtml = sanitizeHtml(body.questionHtml);
+    if (body.answerHtml) doc.answerHtml = sanitizeHtml(body.answerHtml);
     if (body.questionBlocks) doc.questionBlocks = questionBlocks;
     if (body.solutionSteps) doc.solutionSteps = solutionSteps;
     if (body.tables) doc.tables = body.tables;
@@ -190,7 +192,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true, id: result.insertedId });
   } catch (err) {
-    console.error("[SECURITY] Admin solutions POST error:", err);
+    securityLogger.error("[SECURITY] Admin solutions POST error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -262,8 +264,8 @@ export async function PUT(req: NextRequest) {
       if (!DIFFICULTIES.includes(data.difficulty)) return NextResponse.json({ error: "Invalid difficulty" }, { status: 400 });
       update.difficulty = data.difficulty;
     }
-    if (data.questionHtml !== undefined) update.questionHtml = data.questionHtml;
-    if (data.answerHtml !== undefined) update.answerHtml = data.answerHtml;
+    if (data.questionHtml !== undefined) update.questionHtml = sanitizeHtml(data.questionHtml);
+    if (data.answerHtml !== undefined) update.answerHtml = sanitizeHtml(data.answerHtml);
     if (data.tables !== undefined) update.tables = data.tables;
     if (data.equations !== undefined) update.equations = data.equations;
     if (data.images !== undefined) update.images = data.images;
@@ -283,7 +285,7 @@ export async function PUT(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin solutions PUT error:", err);
+    securityLogger.error("[SECURITY] Admin solutions PUT error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -315,7 +317,7 @@ export async function DELETE(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin solutions DELETE error:", err);
+    securityLogger.error("[SECURITY] Admin solutions DELETE error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }

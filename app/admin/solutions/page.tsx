@@ -9,6 +9,8 @@ import {
 import { SolutionBlockEditor } from "@/components/admin/SolutionBlockEditor";
 import { RichTextEditor } from "@/components/admin/RichTextEditor";
 import type { ContentBlock, SolutionStep } from "@/scripts/ingestion/types";
+import { sanitizeHtml } from "@/lib/sanitize";
+import { logger } from "@/lib/logger";
 
 interface Solution {
   _id: string;
@@ -111,7 +113,7 @@ export default function SolutionsAdminPage() {
       const data = await res.json();
       if (res.ok) setFilterData(data);
     } catch (err) {
-      console.error("Failed to fetch filters:", err);
+      logger.error("Failed to fetch filters:", err);
     } finally {
       setLoading(false);
     }
@@ -131,7 +133,7 @@ export default function SolutionsAdminPage() {
       const data = await res.json();
       setSolutions(data.solutions || []);
     } catch (err) {
-      console.error("Failed to fetch solutions:", err);
+      logger.error("Failed to fetch solutions:", err);
     } finally {
       setLoading(false);
     }
@@ -319,7 +321,7 @@ export default function SolutionsAdminPage() {
       if (selectedSolution?._id === id) setSelectedSolution(null);
       setDeleteConfirm(null);
     } catch (err) {
-      console.error("Delete failed:", err);
+      logger.error("Delete failed:", err);
     }
   };
 
@@ -1156,7 +1158,7 @@ function SolutionsView({
               <div className="mb-4">
                 <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">Question</p>
                 {selected.questionHtml ? (
-                  <div className="text-sm text-slate-700 prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: selected.questionHtml }} />
+                  <div className="text-sm text-slate-700 prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: sanitizeHtml(selected.questionHtml) }} />
                 ) : (
                   <p className="text-sm text-slate-700">{selected.question}</p>
                 )}
@@ -1165,7 +1167,7 @@ function SolutionsView({
               <div className="mb-4">
                 <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">Answer</p>
                 {selected.answerHtml ? (
-                  <div className="p-3 bg-green-50 border border-green-200 rounded-xl text-sm text-slate-700 prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: selected.answerHtml }} />
+                  <div className="p-3 bg-green-50 border border-green-200 rounded-xl text-sm text-slate-700 prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: sanitizeHtml(selected.answerHtml) }} />
                 ) : (
                   <div className="p-3 bg-green-50 border border-green-200 rounded-xl text-sm text-slate-700 whitespace-pre-wrap">{selected.answer}</div>
                 )}

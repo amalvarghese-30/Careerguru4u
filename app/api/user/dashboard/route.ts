@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
 import { requireAuth } from "@/lib/api-auth";
+import { logger } from "@/lib/logger";
 
 export async function GET(req: NextRequest) {
   const user = requireAuth(req);
@@ -42,7 +43,7 @@ export async function GET(req: NextRequest) {
       },
     });
   } catch (error) {
-    console.error("Dashboard GET error:", error);
+    logger.error("Dashboard GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

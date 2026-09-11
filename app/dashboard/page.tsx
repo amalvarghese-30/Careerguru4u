@@ -8,6 +8,7 @@ import {
   LayoutDashboard, Compass, GraduationCap, Star, Heart, Award,
   PhoneCall, TrendingUp, ArrowRight, LogOut, Briefcase, Building, FileText
 } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 type Tab = "overview" | "careers" | "colleges" | "counselling" | "resumes";
 
@@ -39,7 +40,7 @@ export default function DashboardPage() {
       setCounselling(data.counsellingRequests || []);
       setResumes(data.resumes || []);
       setMatchResultsCount(data.stats?.matchResultsCount || 0);
-    } catch (e) { console.error(e); } finally { setLoading(false); }
+    } catch (e) { logger.error(e); } finally { setLoading(false); }
   }, []);
 
   useEffect(() => { if (isAuthenticated) fetchDashboard(); }, [isAuthenticated, fetchDashboard]);
@@ -343,7 +344,7 @@ export default function DashboardPage() {
                           credentials: "include",
                         });
                         fetchDashboard();
-                      } catch (e) { console.error(e); }
+                      } catch (e) { logger.error(e); }
                     }}
                     className="text-sm text-red-500 font-medium hover:underline px-3 py-1.5"
                   >

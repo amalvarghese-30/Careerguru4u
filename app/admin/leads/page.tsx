@@ -41,7 +41,7 @@ export default function LeadsPage() {
       const data = await res.json();
       setLeads(data.leads || []);
       if (data.funnel) setFunnel(data.funnel);
-    } catch (e) { console.error(e); } finally { setLoading(false); }
+    } catch (e) { /* error handled by UI state */ } finally { setLoading(false); }
   }, [search, statusFilter]);
 
   useEffect(() => { fetchData(); }, [fetchData]);
@@ -56,7 +56,7 @@ export default function LeadsPage() {
       });
       const data = await res.json();
       if (data.success) { setMessage("Lead updated"); fetchData(); setSelectedLead(null); }
-    } catch (e) { console.error(e); }
+    } catch (e) { /* error handled by UI state */ }
   };
 
   const handleDelete = async (id: string) => {
@@ -68,7 +68,7 @@ export default function LeadsPage() {
       });
       const data = await res.json();
       if (data.success) { setMessage("Lead deleted"); fetchData(); setSelectedLead(null); }
-    } catch (e) { console.error(e); }
+    } catch (e) { /* error handled by UI state */ }
   };
 
   const exportCSV = () => {

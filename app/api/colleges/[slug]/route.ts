@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { logger } from "@/lib/logger";
 
 export async function GET(req: NextRequest, { params }: { params: Promise<{ slug: string }> }) {
   try {
@@ -17,7 +18,7 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ slug
     const { _id, ...data } = college;
     return NextResponse.json({ college: { ...data, _id: _id?.toString() } });
   } catch (error) {
-    console.error("Public college GET error:", error);
+    logger.error("Public college GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

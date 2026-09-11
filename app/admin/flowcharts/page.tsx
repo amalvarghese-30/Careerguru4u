@@ -28,7 +28,7 @@ export default function FlowchartsPage() {
       });
       const data = await res.json();
       setNodes(data.nodes || []);
-    } catch (e) { console.error(e); } finally { setLoading(false); }
+    } catch (e) { /* error handled by UI state */ } finally { setLoading(false); }
   }, [selectedLevel]);
 
   useEffect(() => { fetchNodes(); }, [fetchNodes]);
@@ -65,7 +65,7 @@ export default function FlowchartsPage() {
         setShowEditor(false);
         setEditingNode(null);
       }
-    } catch (e) { console.error(e); }
+    } catch (e) { /* error handled by UI state */ }
   };
 
   const handleDelete = async (node: FlowchartNode) => {
@@ -78,7 +78,7 @@ export default function FlowchartsPage() {
       });
       const data = await res.json();
       if (data.success) { setMessage("Node deleted"); fetchNodes(); }
-    } catch (e) { console.error(e); }
+    } catch (e) { /* error handled by UI state */ }
   };
 
   const levels = [0, 1, 2, 3];

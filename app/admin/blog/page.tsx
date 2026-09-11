@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion } from "framer-motion";
 import { Plus, Search, Edit, Trash2, Eye, Calendar, Clock, X, CheckCircle, FileText, MessageCircle } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface BlogPost {
   _id?: string; id?: string;
@@ -30,7 +31,7 @@ export default function BlogPage() {
       const data = await res.json();
       setPosts(data.posts || []);
     } catch (e) {
-      console.error(e);
+      logger.error(e);
     } finally {
       setLoading(false);
     }
@@ -74,7 +75,7 @@ export default function BlogPage() {
         setShowEditor(false);
         setEditing(null);
       }
-    } catch (e) { console.error(e); }
+    } catch (e) { logger.error(e); }
   };
 
   const handleDelete = async (post: BlogPost) => {
@@ -87,7 +88,7 @@ export default function BlogPage() {
       });
       const data = await res.json();
       if (data.success) { setMessage("Article deleted"); fetchPosts(); }
-    } catch (e) { console.error(e); }
+    } catch (e) { logger.error(e); }
   };
 
   const statusColors: Record<string, string> = {

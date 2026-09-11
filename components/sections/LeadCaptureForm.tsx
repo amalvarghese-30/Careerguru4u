@@ -7,9 +7,10 @@ interface LeadCaptureFormProps {
   source?: string;
   interest?: string;
   className?: string;
+  onSuccess?: () => void;
 }
 
-export default function LeadCaptureForm({ source = "Website", interest = "General", className = "" }: LeadCaptureFormProps) {
+export default function LeadCaptureForm({ source = "Website", interest = "General", className = "", onSuccess }: LeadCaptureFormProps) {
   const [form, setForm] = useState({ name: "", email: "", phone: "" });
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
@@ -30,6 +31,9 @@ export default function LeadCaptureForm({ source = "Website", interest = "Genera
       if (data.success) {
         setSuccess(true);
         setForm({ name: "", email: "", phone: "" });
+        if (onSuccess) {
+          onSuccess();
+        }
       } else {
         setError(data.error || "Something went wrong");
       }

@@ -5,6 +5,7 @@ import { ObjectId } from "mongodb";
 import { logAudit } from "@/lib/audit-log";
 import { escapeRegex, validateObjectId } from "@/lib/security";
 import { sessionUpdateSchema } from "@/lib/validations";
+import { securityLogger } from "@/lib/logger";
 
 /* ---------- GET: Search counselling requests (sanitized regex) ---------- */
 export async function GET(req: NextRequest) {
@@ -41,7 +42,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ requests });
   } catch (err) {
-    console.error("[SECURITY] Admin counselling GET error:", err);
+    securityLogger.error("[SECURITY] Admin counselling GET error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -86,7 +87,7 @@ export async function PUT(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin counselling PUT error:", err);
+    securityLogger.error("[SECURITY] Admin counselling PUT error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -118,7 +119,7 @@ export async function DELETE(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin counselling DELETE error:", err);
+    securityLogger.error("[SECURITY] Admin counselling DELETE error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }

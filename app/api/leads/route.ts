@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { logger } from "@/lib/logger";
 
 export async function POST(req: NextRequest) {
   try {
@@ -29,7 +30,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true, id: result.insertedId });
   } catch (error) {
-    console.error("Public lead POST error:", error);
+    logger.error("Public lead POST error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

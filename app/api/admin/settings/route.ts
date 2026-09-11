@@ -3,6 +3,7 @@ import clientPromise from "@/lib/db/mongodb";
 import { requireAdmin } from "@/lib/api-auth";
 import { settingsSchema } from "@/lib/validations";
 import { logAudit } from "@/lib/audit-log";
+import { logger } from "@/lib/logger";
 
 const DEFAULTS = {
   siteName: "CareerGuru4U",
@@ -38,7 +39,7 @@ export async function GET(req: NextRequest) {
         : DEFAULTS,
     });
   } catch (error) {
-    console.error("Admin settings GET error:", error);
+    logger.error("Admin settings GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
@@ -72,7 +73,7 @@ export async function PUT(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("Admin settings PUT error:", error);
+    logger.error("Admin settings PUT error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

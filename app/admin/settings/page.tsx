@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion } from "framer-motion";
 import { Save, Globe, Bell, Shield, Palette, Mail as MailIcon, Database, Phone, Link2, FileText, CheckCircle } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface SocialLinks {
   facebook?: string; twitter?: string; instagram?: string; linkedin?: string; youtube?: string;
@@ -66,7 +67,7 @@ export default function SettingsPage() {
       });
       const data = await res.json();
       if (data.settings) setSettings({ ...defaultSettings, ...data.settings });
-    } catch (e) { console.error(e); } finally { setLoading(false); }
+    } catch (e) { logger.error(e); } finally { setLoading(false); }
   }, []);
 
   useEffect(() => { fetchSettings(); }, [fetchSettings]);
@@ -84,7 +85,7 @@ export default function SettingsPage() {
         setSaved(true); setMessage("Settings saved");
         setTimeout(() => setSaved(false), 2500);
       }
-    } catch (e) { console.error(e); }
+    } catch (e) { logger.error(e); }
   };
 
   const updateSetting = (key: keyof SiteSettings, value: string | SocialLinks | boolean) => {

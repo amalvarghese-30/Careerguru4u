@@ -27,6 +27,7 @@ import {
   safeStr,
   CompareLabel,
 } from "./compare-utils";
+import { logger } from "@/lib/logger";
 
 interface College {
   _id?: string;
@@ -83,7 +84,7 @@ export default function CollegeComparison({
         setAllColleges(colleges);
       })
       .catch((err) => {
-        console.error(err);
+        logger.error(err);
         setError("Failed to load colleges. Please try again.");
       })
       .finally(() => setLoading(false));

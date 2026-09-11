@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
 import { ObjectId } from "mongodb";
 import jwt from "jsonwebtoken";
+import { logger } from "@/lib/logger";
 
 if (!process.env.JWT_SECRET) throw new Error("JWT_SECRET environment variable is required");
 const JWT_SECRET = process.env.JWT_SECRET;
@@ -34,7 +35,7 @@ export async function GET(
 
         return NextResponse.json({ resume });
     } catch (error) {
-        console.error("Resume [id] GET error:", error);
+        logger.error("Resume [id] GET error:", error);
         return NextResponse.json({ error: "Internal server error" }, { status: 500 });
     }
 }
@@ -67,7 +68,7 @@ export async function DELETE(
 
         return NextResponse.json({ success: true });
     } catch (error) {
-        console.error("Resume [id] DELETE error:", error);
+        logger.error("Resume [id] DELETE error:", error);
         return NextResponse.json({ error: "Internal server error" }, { status: 500 });
     }
 }

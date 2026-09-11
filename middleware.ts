@@ -1,7 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
-import { jwtVerify } from "jose";
+import { jwtVerify, SignJWT } from "jose";
 
-const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET!);
+if (!process.env.JWT_SECRET) throw new Error("JWT_SECRET environment variable is required");
+const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET);
+const CSRF_SECRET = new TextEncoder().encode(process.env.CSRF_SECRET || process.env.JWT_SECRET);
+const JWT_ISSUER = process.env.JWT_ISSUER || "career-guru";
+const JWT_AUDIENCE = process.env.JWT_AUDIENCE || "career-guru-users";
 
 const roleHierarchy: Record<string, number> = {
   student: 1,
@@ -33,6 +37,41 @@ const PUBLIC_API_ROUTES = new Set([
 const PROTECTED_API_PREFIXES = ["/api/admin", "/api/user"];
 const PROTECTED_PAGE_PREFIXES = ["/dashboard", "/admin"];
 
+// Methods that require CSRF protection
+const CSRF_PROTECTED_METHODS = new Set(["POST", "PUT", "PATCH", "DELETE"]);
+
+/**
+ * Generate or get CSRF token
+ */
+async function getCsrfToken(req: NextRequest): Promise<string> {
+  let token = req.cookies.get("csrf-token")?.value;
+  if (!token) {
+    token = await new SignJWT({ ts: Date.now() })
+      .setProtectedHeader({ alg: "HS256" })
+      .setExpirationTime("24h")
+      .sign(CSRF_SECRET);
+  }
+  return token;
+}
+
+/**
+ * Verify CSRF token from header against cookie
+ */
+async function verifyCsrfToken(req: NextRequest): Promise<boolean> {
+  const cookieToken = req.cookies.get("csrf-token")?.value;
+  const headerToken = req.headers.get("x-csrf-token") || req.headers.get("csrf-token");
+
+  if (!cookieToken || !headerToken) return false;
+  if (cookieToken !== headerToken) return false;
+
+  try {
+    await jwtVerify(cookieToken, CSRF_SECRET);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 function getToken(req: NextRequest): string | null {
   const authHeader = req.headers.get("authorization");
   if (authHeader?.startsWith("Bearer ")) {
@@ -43,7 +82,10 @@ function getToken(req: NextRequest): string | null {
 
 async function verifyToken(token: string): Promise<{ userId: string; email: string; role: string } | null> {
   try {
-    const { payload } = await jwtVerify(token, JWT_SECRET);
+    const { payload } = await jwtVerify(token, JWT_SECRET, {
+      issuer: JWT_ISSUER,
+      audience: JWT_AUDIENCE,
+    });
     return {
       userId: payload.userId as string,
       email: payload.email as string,
@@ -119,14 +161,56 @@ export async function middleware(req: NextRequest) {
     }
   }
 
+  // CSRF protection for state-changing requests
+  if (CSRF_PROTECTED_METHODS.has(req.method)) {
+    // Skip CSRF for auth endpoints that use credentials
+    const isAuthEndpoint = pathname.startsWith("/api/auth/");
+    const isPublicMutation = isPublicApiRoute(pathname);
+
+    if (!isAuthEndpoint && !isPublicMutation) {
+      const csrfValid = await verifyCsrfToken(req);
+      if (!csrfValid) {
+        if (pathname.startsWith("/api")) {
+          return NextResponse.json(
+            { error: "Invalid or missing CSRF token" },
+            { status: 403 }
+          );
+        }
+        return NextResponse.redirect(new URL("/login?csrf=invalid", req.url));
+      }
+    }
+  }
+
   const requestHeaders = new Headers(req.headers);
   requestHeaders.set("x-user-id", payload.userId);
   requestHeaders.set("x-user-email", payload.email);
   requestHeaders.set("x-user-role", payload.role);
 
-  return NextResponse.next({
+  const response = NextResponse.next({
     request: { headers: requestHeaders },
   });
+
+  // Set CSRF token cookie if not present
+  const csrfToken = req.cookies.get("csrf-token")?.value;
+  if (!csrfToken) {
+    const newToken = await getCsrfToken(req);
+    response.cookies.set("csrf-token", newToken, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "strict",
+      maxAge: 24 * 60 * 60,
+      path: "/",
+    });
+  }
+
+  // Add security headers
+  response.headers.set("X-Content-Type-Options", "nosniff");
+  response.headers.set("X-Frame-Options", "DENY");
+  response.headers.set("X-XSS-Protection", "1; mode=block");
+  response.headers.set("Referrer-Policy", "strict-origin-when-cross-origin");
+  response.headers.set("Permissions-Policy", "camera=(), microphone=(), geolocation=()");
+
+  return response;
 }
 
 export const config = {

@@ -1,7 +1,5 @@
 "use client";
 
-export const revalidate = 3600;
-
 import { useState, useEffect, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams, useRouter } from "next/navigation";
@@ -11,6 +9,7 @@ import {
   Loader2, Award, BookOpen, IndianRupee, Briefcase, Plus, Check,
   Sparkles, TrendingUp,
 } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface College {
   _id?: string;
@@ -64,7 +63,7 @@ function UniversitiesContent() {
     fetch(`/api/colleges${queryStr ? `?${queryStr}` : ""}`)
       .then((r) => r.json())
       .then((data) => setAllColleges(data.colleges || []))
-      .catch(console.error)
+      .catch(logger.error)
       .finally(() => setLoading(false));
   }, [activeType, initialCourse]);
 
@@ -72,7 +71,7 @@ function UniversitiesContent() {
   const colleges = initialCourse
     ? allColleges
     : allColleges.filter(
-        (c) => c.type === (activeType || "ug") || (!c.type && (activeType || "ug") === "ug")
+        (c) => c.type === (activeType || "ug") || c.type === "both" || (!c.type && (activeType || "ug") === "ug")
       );
 
   const locations = [

@@ -6,6 +6,7 @@ import { careerSchema } from "@/lib/validations";
 import { logAudit } from "@/lib/audit-log";
 import { escapeRegex } from "@/lib/security";
 import { validateObjectId } from "@/lib/security";
+import { securityLogger } from "@/lib/logger";
 
 /* ---------- GET: Search careers (sanitized regex) ---------- */
 export async function GET(req: NextRequest) {
@@ -51,7 +52,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ careers, total: careers.length });
   } catch (err) {
     // ----------- Generic error response ----------
-    console.error("[SECURITY] Admin careers GET error:", err);
+    securityLogger.error("[SECURITY] Admin careers GET error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -93,7 +94,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true, id: result.insertedId });
   } catch (err) {
-    console.error("[SECURITY] Admin careers POST error:", err);
+    securityLogger.error("[SECURITY] Admin careers POST error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -140,7 +141,7 @@ export async function PUT(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin careers PUT error:", err);
+    securityLogger.error("[SECURITY] Admin careers PUT error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -173,7 +174,7 @@ export async function DELETE(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin careers DELETE error:", err);
+    securityLogger.error("[SECURITY] Admin careers DELETE error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }

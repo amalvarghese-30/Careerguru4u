@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { ChevronUp, ChevronDown, Trash2, Eye, EyeOff, Upload, Loader2 } from "lucide-react";
 import type { ContentBlock, BlockType } from "@/scripts/ingestion/types";
+import { logger } from "@/lib/logger";
 
 interface BlockEditCardProps {
   block: ContentBlock;
@@ -288,7 +289,7 @@ function ImageEditor({ block, onChange }: { block: ContentBlock; onChange: (b: C
         content: data.fileName,
       }));
     } catch (err) {
-      console.error("Upload error:", err);
+      logger.error("Upload error:", err);
       alert("Upload failed");
     } finally {
       setUploading(false);

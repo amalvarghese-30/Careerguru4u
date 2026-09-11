@@ -4,6 +4,7 @@ import type { ContentBlock, SolutionStep } from "@/scripts/ingestion/types";
 import { MathRenderer } from "./MathRenderer";
 import { BlockRenderer } from "./BlockRenderer";
 import { GraduationCap, CheckCircle2, Lightbulb } from "lucide-react";
+import { sanitizeHtml } from "@/lib/sanitize";
 
 interface SolutionViewerProps {
   question: ContentBlock[] | string;
@@ -38,7 +39,7 @@ export function SolutionViewer({ question, solution, questionType, difficulty, q
             {questionHtml ? (
               <div
                 className="text-base md:text-lg font-medium text-neutral-nearBlack leading-relaxed prose prose-sm max-w-none"
-                dangerouslySetInnerHTML={{ __html: questionHtml }}
+                dangerouslySetInnerHTML={{ __html: sanitizeHtml(questionHtml) }}
               />
             ) : questionBlocks ? (
               <div className="space-y-2">
@@ -86,7 +87,7 @@ export function SolutionViewer({ question, solution, questionType, difficulty, q
           <div className="p-5 md:p-6">
             <div
               className="text-sm md:text-base text-neutral-darkGray leading-relaxed prose prose-sm max-w-none"
-              dangerouslySetInnerHTML={{ __html: answerHtml }}
+              dangerouslySetInnerHTML={{ __html: sanitizeHtml(answerHtml) }}
             />
           </div>
         </div>

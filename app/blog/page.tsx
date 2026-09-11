@@ -1,11 +1,10 @@
 "use client";
 
-export const revalidate = 3600;
-
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Search, Calendar, Clock, Eye, ArrowRight, FileText, Loader2 } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface BlogPost {
   _id?: string; title: string; slug: string; category: string;
@@ -25,7 +24,7 @@ export default function BlogPage() {
     fetch(`/api/blog?${params}`)
       .then(r => r.json())
       .then(data => setPosts(data.posts || []))
-      .catch(console.error)
+      .catch(logger.error)
       .finally(() => setLoading(false));
   }, [category]);
 

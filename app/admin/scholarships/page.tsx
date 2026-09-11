@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion } from "framer-motion";
 import { Plus, Search, Edit, Trash2, IndianRupee, Calendar, GraduationCap, X, CheckCircle, Users } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface Scholarship {
   _id?: string; id?: string;
@@ -29,7 +30,7 @@ export default function ScholarshipsPage() {
       const data = await res.json();
       setScholarships(data.scholarships || []);
     } catch (e) {
-      console.error(e);
+      logger.error(e);
     } finally {
       setLoading(false);
     }
@@ -77,7 +78,7 @@ export default function ScholarshipsPage() {
         setShowEditor(false);
         setEditing(null);
       }
-    } catch (e) { console.error(e); }
+    } catch (e) { logger.error(e); }
   };
 
   const handleDelete = async (s: Scholarship) => {
@@ -90,7 +91,7 @@ export default function ScholarshipsPage() {
       });
       const data = await res.json();
       if (data.success) { setMessage("Scholarship deleted"); fetchData(); }
-    } catch (e) { console.error(e); }
+    } catch (e) { logger.error(e); }
   };
 
   const statusColors: Record<string, string> = {

@@ -4,6 +4,7 @@ import { requireAdmin } from "@/lib/api-auth";
 import { ObjectId } from "mongodb";
 import { z } from "zod";
 import { logAudit } from "@/lib/audit-log";
+import { logger } from "@/lib/logger";
 
 const leadUpdateSchema = z.object({
   status: z.enum(["new", "contacted", "qualified", "converted", "lost"]).optional(),
@@ -49,7 +50,7 @@ export async function GET(req: NextRequest) {
       funnel: { total, newLeads, contacted, qualified, converted, lost },
     });
   } catch (error) {
-    console.error("Admin leads GET error:", error);
+    logger.error("Admin leads GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
@@ -84,7 +85,7 @@ export async function PUT(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("Admin leads PUT error:", error);
+    logger.error("Admin leads PUT error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
@@ -111,7 +112,7 @@ export async function DELETE(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("Admin leads DELETE error:", error);
+    logger.error("Admin leads DELETE error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

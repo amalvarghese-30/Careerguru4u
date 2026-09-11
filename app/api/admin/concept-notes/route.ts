@@ -5,6 +5,7 @@ import { ObjectId } from "mongodb";
 import { logAudit } from "@/lib/audit-log";
 import { escapeRegex } from "@/lib/security";
 import { validateObjectId } from "@/lib/security";
+import { securityLogger } from "@/lib/logger";
 
 /* ---------- Allowed keys for Concept Notes ---------- */
 const ALLOWED_CONCEPT_NOTE_KEYS = new Set([
@@ -50,7 +51,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({ notes });
   } catch (err) {
-    console.error("[SECURITY] Admin concept-notes GET error:", err);
+    securityLogger.error("[SECURITY] Admin concept-notes GET error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -119,7 +120,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true, id: result.insertedId });
   } catch (err) {
-    console.error("[SECURITY] Admin concept-notes POST error:", err);
+    securityLogger.error("[SECURITY] Admin concept-notes POST error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -166,7 +167,7 @@ export async function PUT(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin concept-notes PUT error:", err);
+    securityLogger.error("[SECURITY] Admin concept-notes PUT error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -198,7 +199,7 @@ export async function DELETE(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin concept-notes DELETE error:", err);
+    securityLogger.error("[SECURITY] Admin concept-notes DELETE error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }

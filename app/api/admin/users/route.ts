@@ -7,6 +7,7 @@ import bcrypt from "bcryptjs";
 import { escapeRegex } from "@/lib/security";
 import { validateObjectId } from "@/lib/security";
 import { z } from "zod";
+import { securityLogger } from "@/lib/logger";
 
 /* ---------- Schemas (strict, trimmed, password policy) ---------- */
 const userCreateSchema = z
@@ -109,7 +110,7 @@ export async function GET(req: NextRequest) {
       stats: { total, active: activeCount || total, newToday },
     });
   } catch (err) {
-    console.error("[SECURITY] Admin users GET error:", err);
+    securityLogger.error("[SECURITY] Admin users GET error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -165,7 +166,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true, id: result.insertedId });
   } catch (err) {
-    console.error("[SECURITY] Admin users POST error:", err);
+    securityLogger.error("[SECURITY] Admin users POST error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -197,6 +198,67 @@ export async function PUT(req: NextRequest) {
     if (!id) return NextResponse.json({ error: "User ID is required" }, { status: 400 });
     validateObjectId(id);
 
+    // Self-promotion guard: fetch target user early for role checks
+    const client = await clientPromise;
+    const db = client.db("career_guru");
+    const target = await db.collection("users").findOne({ _id: new ObjectId(id) });
+    if (!target) {
+      return NextResponse.json({ error: "User not found" }, { status: 404 });
+    }
+
+    // Prevent self-demotion/self-promotion:
+    const isSelf = admin.userId === id;
+
+    // Admins cannot promote to admin/super_admin; only super_admin can
+    if (role !== undefined && ["admin", "super_admin"].includes(role)) {
+      if (admin.role !== "super_admin") {
+        await logAudit({
+          action: "UPDATE",
+          collection: "users",
+          documentId: id,
+          performedBy: admin.userId,
+          performedByEmail: admin.email,
+          changes: { role, blocked: "insufficient_privileges_for_role_escalation" },
+        });
+        return NextResponse.json(
+          { error: "Only super_admin can assign admin or super_admin roles" },
+          { status: 403 }
+        );
+      }
+    }
+
+    // Self role change prevention (cannot change own role)
+    if (isSelf && role !== undefined && role !== target.role) {
+      await logAudit({
+        action: "UPDATE",
+        collection: "users",
+        documentId: id,
+        performedBy: admin.userId,
+        performedByEmail: admin.email,
+        changes: { role, blocked: "self_role_change_prevented" },
+      });
+      return NextResponse.json(
+        { error: "You cannot change your own role" },
+        { status: 403 }
+      );
+    }
+
+    // Self status change prevention (cannot deactivate/suspend self)
+    if (isSelf && status !== undefined && status !== target.status && ["inactive", "suspended"].includes(status)) {
+      await logAudit({
+        action: "UPDATE",
+        collection: "users",
+        documentId: id,
+        performedBy: admin.userId,
+        performedByEmail: admin.email,
+        changes: { status, blocked: "self_status_change_prevented" },
+      });
+      return NextResponse.json(
+        { error: "You cannot deactivate or suspend your own account" },
+        { status: 403 }
+      );
+    }
+
     const data: Record<string, unknown> = {};
     if (role !== undefined) data.role = role;
     if (status !== undefined) data.status = status;
@@ -223,8 +285,6 @@ export async function PUT(req: NextRequest) {
       update.password = await bcrypt.hash(validation.data.password, 12);
     }
 
-    const client = await clientPromise;
-    const db = client.db("career_guru");
     const result = await db.collection("users").updateOne(
       { _id: new ObjectId(id) },
       { $set: update }
@@ -245,7 +305,7 @@ export async function PUT(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin users PUT error:", err);
+    securityLogger.error("[SECURITY] Admin users PUT error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }
@@ -284,7 +344,7 @@ export async function DELETE(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[SECURITY] Admin users DELETE error:", err);
+    securityLogger.error("[SECURITY] Admin users DELETE error:", err);
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 }

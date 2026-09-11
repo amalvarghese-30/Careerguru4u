@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
 import { requireAdmin } from "@/lib/api-auth";
 import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { logger, securityLogger } from "@/lib/logger";
 
 function extractAnswerText(answer: string, maxLen: number = 120): string {
   // Strip answer/ans/solution: prefixes
@@ -195,7 +196,7 @@ export async function POST(req: NextRequest) {
       totalProcessed: solutionsToUse.length,
     });
   } catch (error) {
-    console.error("MCQ Generate API error:", error);
+    securityLogger.error("MCQ Generate API error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

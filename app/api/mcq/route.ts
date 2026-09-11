@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
 import { requireAdmin } from "@/lib/api-auth";
 import { ObjectId } from "mongodb";
+import { logger } from "@/lib/logger";
 
 export async function GET(req: NextRequest) {
     try {
@@ -58,7 +59,7 @@ export async function GET(req: NextRequest) {
 
         return NextResponse.json({ questions: sanitized });
     } catch (error) {
-        console.error("MCQ API error:", error);
+        logger.error("MCQ API error:", error);
         return NextResponse.json({ error: "Internal server error" }, { status: 500 });
     }
 }
@@ -82,7 +83,7 @@ export async function DELETE(req: NextRequest) {
 
         return NextResponse.json({ success: true });
     } catch (error) {
-        console.error("MCQ DELETE API error:", error);
+        logger.error("MCQ DELETE API error:", error);
         return NextResponse.json({ error: "Internal server error" }, { status: 500 });
     }
 }

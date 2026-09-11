@@ -4,6 +4,7 @@ import bcrypt from "bcryptjs";
 import clientPromise from "@/lib/db/mongodb";
 import { User } from "@/lib/db/models";
 import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { logger, securityLogger } from "@/lib/logger";
 
 export async function POST(req: NextRequest) {
     try {
@@ -68,7 +69,7 @@ export async function POST(req: NextRequest) {
         }, { status: 201 });
 
     } catch (error) {
-        console.error("Registration error:", error);
+        securityLogger.error("Registration error:", error);
         return NextResponse.json({ error: "Internal server error" }, { status: 500 });
     }
 }

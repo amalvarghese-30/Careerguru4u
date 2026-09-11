@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
+import { logger } from "@/lib/logger";
 
 export async function GET(req: NextRequest, { params }: { params: Promise<{ slug: string }> }) {
   try {
@@ -22,7 +23,7 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ slug
     const { _id, ...data } = post;
     return NextResponse.json({ post: { ...data, _id: _id?.toString(), views: (post.views || 0) + 1 } });
   } catch (error) {
-    console.error("Public blog detail GET error:", error);
+    logger.error("Public blog detail GET error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

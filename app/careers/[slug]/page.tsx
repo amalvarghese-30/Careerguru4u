@@ -1,7 +1,5 @@
 "use client";
 
-export const revalidate = 3600;
-
 import { useState, useEffect, use } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -12,6 +10,7 @@ import {
 } from "lucide-react";
 import LeadCaptureForm from "@/components/sections/LeadCaptureForm";
 import { useAuthStore } from "@/lib/auth-store";
+import { logger } from "@/lib/logger";
 
 interface CareerData {
   id: string;
@@ -316,7 +315,7 @@ export default function CareerPage({ params }: { params: Promise<{ slug: string 
       .then(data => {
         if (data.career) setCareer(data.career);
       })
-      .catch(console.error)
+      .catch(logger.error)
       .finally(() => setLoading(false));
   }, [slug]);
 
@@ -354,7 +353,7 @@ export default function CareerPage({ params }: { params: Promise<{ slug: string 
       const data = await res.json();
       if (data.success) setSaved(data.bookmarked);
     } catch (e) {
-      console.error("Failed to save career:", e);
+      logger.error("Failed to save career:", e);
     } finally {
       setSaving(false);
     }

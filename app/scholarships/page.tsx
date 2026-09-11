@@ -1,11 +1,10 @@
 "use client";
 
-export const revalidate = 3600;
-
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Search, IndianRupee, Calendar, GraduationCap, Award, Loader2, ArrowRight, ChevronRight } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface Scholarship {
   _id?: string; title: string; provider: string; amount: string; deadline: string;
@@ -25,7 +24,7 @@ export default function ScholarshipsPage() {
     fetch(`/api/scholarships?${params}`)
       .then(r => r.json())
       .then(data => setScholarships(data.scholarships || []))
-      .catch(console.error)
+      .catch(logger.error)
       .finally(() => setLoading(false));
   }, [category, search]);
 

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/db/mongodb";
 import { requireAdmin } from "@/lib/api-auth";
+import { logger } from "@/lib/logger";
 
 export async function GET() {
     try {
@@ -15,7 +16,7 @@ export async function GET() {
 
         return NextResponse.json({ patterns });
     } catch (error) {
-        console.error("Exam patterns GET error:", error);
+        logger.error("Exam patterns GET error:", error);
         return NextResponse.json({ error: "Internal server error" }, { status: 500 });
     }
 }
@@ -63,7 +64,7 @@ export async function POST(req: NextRequest) {
 
         return NextResponse.json({ success: true });
     } catch (error) {
-        console.error("Exam patterns POST error:", error);
+        logger.error("Exam patterns POST error:", error);
         return NextResponse.json({ error: "Internal server error" }, { status: 500 });
     }
 }
